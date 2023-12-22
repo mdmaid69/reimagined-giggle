@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
