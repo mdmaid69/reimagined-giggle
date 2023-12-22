@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import platform
-def get_os_info():
-        return platform.uname()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
