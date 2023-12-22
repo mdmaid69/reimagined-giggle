@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
