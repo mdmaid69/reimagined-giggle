@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
