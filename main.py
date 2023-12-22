@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import tensorflow as tf
+print(tf.__version__)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
