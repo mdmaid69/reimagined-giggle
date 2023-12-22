@@ -1,6 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
