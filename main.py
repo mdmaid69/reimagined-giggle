@@ -1,8 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
