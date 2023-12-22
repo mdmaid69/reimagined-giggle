@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
