@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
