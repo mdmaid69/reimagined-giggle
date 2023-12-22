@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
