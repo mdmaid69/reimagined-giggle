@@ -1,5 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def find_min(numbers):
-        return min(numbers)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
