@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def square_number(x):
+        return x**2
