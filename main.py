@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_list(array):
-        return list(array)
+  def convert_to_hex(n):
+        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
