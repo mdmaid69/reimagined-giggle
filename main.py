@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
