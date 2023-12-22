@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_typecode(array):
-        return array.typecode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
