@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
