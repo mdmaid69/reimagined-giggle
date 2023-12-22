@@ -1,5 +1,11 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
