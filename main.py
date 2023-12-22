@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
