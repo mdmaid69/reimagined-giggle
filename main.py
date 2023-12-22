@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def clear_array(array):
-        array *= 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
