@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
