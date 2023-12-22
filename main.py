@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
