@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
 import math
-print(math.pi)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
