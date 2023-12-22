@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import numpy as np
+print(np.array([1, 2, 3]))
