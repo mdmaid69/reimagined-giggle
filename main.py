@@ -1,7 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
