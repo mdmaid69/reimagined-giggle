@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def remove_duplicates(lst):
-        return list(set(lst))
+def count_characters(sentence):
+        return len(sentence)
+def add_numbers(a, b):
+        return a + b
