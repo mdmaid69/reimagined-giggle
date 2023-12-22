@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
