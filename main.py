@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
