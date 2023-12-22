@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
