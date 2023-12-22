@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
