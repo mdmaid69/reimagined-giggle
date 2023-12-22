@@ -1,5 +1,9 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
