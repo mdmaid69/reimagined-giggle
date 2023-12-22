@@ -1,6 +1,3 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
