@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
