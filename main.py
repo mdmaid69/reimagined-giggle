@@ -1,8 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
