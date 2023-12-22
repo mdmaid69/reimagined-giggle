@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import datetime
+def get_today_date():
+        return datetime.date.today()
