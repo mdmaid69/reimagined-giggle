@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_error_function(x):
+        return math.erf(x)
