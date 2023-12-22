@@ -1,7 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
