@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
