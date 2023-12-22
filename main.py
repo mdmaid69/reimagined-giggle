@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
