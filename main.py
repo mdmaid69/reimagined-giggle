@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import platform
+def get_python_version():
+        return platform.python_version()
+def is_even(n):
+        return n % 2 == 0
