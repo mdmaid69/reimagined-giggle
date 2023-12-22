@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
