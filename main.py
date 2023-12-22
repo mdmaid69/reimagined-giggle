@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
