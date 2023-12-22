@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
