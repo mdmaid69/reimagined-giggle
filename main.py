@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
