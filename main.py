@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_octal(n):
+        return oct(n)
