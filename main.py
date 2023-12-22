@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
