@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
