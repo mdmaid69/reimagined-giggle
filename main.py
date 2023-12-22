@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_work(force, distance):
+        return force * distance
