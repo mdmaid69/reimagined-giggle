@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
