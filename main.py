@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import platform
+def get_python_version():
+        return platform.python_version()
