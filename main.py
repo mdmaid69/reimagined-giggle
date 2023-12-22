@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+print(math.pi)
+import array
+def append_to_array(array, item):
+        array.append(item)
