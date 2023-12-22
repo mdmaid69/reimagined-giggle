@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_sine(x):
+        return math.sin(x)
