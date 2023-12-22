@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
