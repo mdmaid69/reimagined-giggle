@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
