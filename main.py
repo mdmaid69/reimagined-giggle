@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
