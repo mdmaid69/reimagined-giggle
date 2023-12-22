@@ -1,7 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import collections
+def create_user_list():
+        return collections.UserList()
