@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
