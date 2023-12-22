@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
