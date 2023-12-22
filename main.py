@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_set(array):
-        return set(array)
+import tensorflow as tf
+print(tf.__version__)
+import re
+print(re.match("h.*o", "hello world"))
