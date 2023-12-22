@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_density(mass, volume):
+        return mass / volume
