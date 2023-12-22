@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
