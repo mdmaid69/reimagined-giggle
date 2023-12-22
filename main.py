@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_perpetuity(payment, rate):
+        return payment / rate
