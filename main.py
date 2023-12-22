@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
