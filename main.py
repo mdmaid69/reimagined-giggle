@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
