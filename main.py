@@ -1,7 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_area_rectangle(l, w):
+        return l * w
