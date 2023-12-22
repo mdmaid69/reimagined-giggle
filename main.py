@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
