@@ -1,4 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-from collections import Counter
-print(Counter("hello world"))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
