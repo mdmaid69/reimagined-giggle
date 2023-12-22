@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import numpy as np
+print(np.array([1, 2, 3]))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
