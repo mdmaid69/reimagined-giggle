@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
