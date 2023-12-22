@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def convert_to_hex(n):
+        return hex(n)
