@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import platform
+def get_os_info():
+        return platform.uname()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
