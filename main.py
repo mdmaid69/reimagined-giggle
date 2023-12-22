@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
