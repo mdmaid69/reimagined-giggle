@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
