@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def add_numbers(x, y):
+        return x + y
