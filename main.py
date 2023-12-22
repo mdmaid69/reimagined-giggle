@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def count_words(sentence):
-        return len(sentence.split())
+  def delete_file(file_name):
+        os.remove(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
