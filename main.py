@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_volume(length, width, height):
+        return length * width * height
+def find_min(numbers):
+        return min(numbers)
