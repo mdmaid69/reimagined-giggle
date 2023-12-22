@@ -1,5 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_hex(n):
-        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
