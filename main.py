@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
