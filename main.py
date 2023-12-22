@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
