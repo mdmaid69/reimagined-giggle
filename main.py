@@ -1,5 +1,10 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
