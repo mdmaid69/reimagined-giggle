@@ -1,5 +1,12 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
