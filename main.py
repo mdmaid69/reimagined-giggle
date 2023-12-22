@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def sort_list(lst):
+        return sorted(lst)
