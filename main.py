@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
