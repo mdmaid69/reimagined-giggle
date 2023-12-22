@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import datetime
+print(datetime.datetime.now())
