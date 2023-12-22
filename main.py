@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
