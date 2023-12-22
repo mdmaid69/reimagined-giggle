@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def reverse_string(s):
-        return s[::-1]
+import array
+def reverse_array(array):
+        array.reverse()
+def count_characters(sentence):
+        return len(sentence)
