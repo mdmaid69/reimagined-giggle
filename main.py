@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
