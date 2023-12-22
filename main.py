@@ -1,8 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_exponential(x):
+        return math.exp(x)
