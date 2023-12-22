@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def count_characters(sentence):
+        return len(sentence)
