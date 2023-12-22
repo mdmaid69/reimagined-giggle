@@ -1,7 +1,9 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_sine(x):
+        return math.sin(x)
