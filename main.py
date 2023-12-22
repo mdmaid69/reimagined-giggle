@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
