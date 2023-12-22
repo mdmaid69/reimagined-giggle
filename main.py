@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_power(work, time):
+        return work / time
