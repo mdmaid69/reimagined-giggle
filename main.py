@@ -1,3 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-print([x**2 for x in range(10)])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
