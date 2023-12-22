@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def reverse_list(lst):
+        return lst[::-1]
