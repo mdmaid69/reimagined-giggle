@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-  def is_even(n):
-        return n % 2 == 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
