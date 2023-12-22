@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def convert_to_hex(n):
-        return hex(n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
