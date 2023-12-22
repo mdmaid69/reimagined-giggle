@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_pressure(force, area):
+        return force / area
