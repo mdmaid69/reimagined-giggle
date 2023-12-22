@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_odd(n):
+        return n % 2 != 0
