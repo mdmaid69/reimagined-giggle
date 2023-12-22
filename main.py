@@ -1,6 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
