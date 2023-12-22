@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_work(force, distance):
+        return force * distance
