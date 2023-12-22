@@ -1,6 +1,9 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
