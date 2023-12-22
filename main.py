@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+print(re.match("h.*o", "hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
