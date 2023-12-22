@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
