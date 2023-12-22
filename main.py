@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
