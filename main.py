@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def convert_to_hex(n):
-        return hex(n)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
