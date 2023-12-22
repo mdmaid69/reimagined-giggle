@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-name = "Python"
-print("Hello,", name)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
