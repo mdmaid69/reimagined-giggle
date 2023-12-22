@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
