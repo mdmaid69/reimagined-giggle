@@ -1,5 +1,9 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_time_since_epoch():
-        return time.time()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
