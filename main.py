@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
