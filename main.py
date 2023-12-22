@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
