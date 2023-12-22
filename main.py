@@ -1,5 +1,9 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
