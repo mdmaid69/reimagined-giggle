@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
