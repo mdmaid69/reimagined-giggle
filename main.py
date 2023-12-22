@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
