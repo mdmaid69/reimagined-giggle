@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
