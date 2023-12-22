@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_list_from_array(array):
+        return array.tolist()
