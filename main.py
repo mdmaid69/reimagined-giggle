@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
