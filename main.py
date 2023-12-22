@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_exponential(x):
+        return math.exp(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
