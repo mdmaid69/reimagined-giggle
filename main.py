@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
