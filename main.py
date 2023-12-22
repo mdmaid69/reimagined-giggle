@@ -1,6 +1,6 @@
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
