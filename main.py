@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_as_int(array):
+        return int(array[0])
