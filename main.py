@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
