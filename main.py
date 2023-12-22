@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def is_odd(n):
+        return n % 2 != 0
