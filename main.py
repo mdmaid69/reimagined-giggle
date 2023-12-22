@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
