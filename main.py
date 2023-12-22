@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def convert_to_hex(n):
+        return hex(n)
