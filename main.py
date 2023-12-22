@@ -1,5 +1,8 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
