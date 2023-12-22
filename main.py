@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        return sys.version
+def count_characters(sentence):
+        return len(sentence)
