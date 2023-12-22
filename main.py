@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_min(lst):
+        return min(lst)
