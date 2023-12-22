@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
