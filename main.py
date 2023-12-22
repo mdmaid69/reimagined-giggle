@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
