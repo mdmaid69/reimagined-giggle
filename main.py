@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def sort_list(lst):
+        return sorted(lst)
