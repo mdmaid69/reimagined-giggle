@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
