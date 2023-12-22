@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import tensorflow as tf
-print(tf.__version__)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
