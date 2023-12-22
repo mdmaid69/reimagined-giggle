@@ -1,6 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def split_path(path):
+        return os.path.split(path)
