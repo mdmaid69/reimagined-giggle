@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
