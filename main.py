@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
