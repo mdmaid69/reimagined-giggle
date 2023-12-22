@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
