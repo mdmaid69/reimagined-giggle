@@ -1,6 +1,8 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
