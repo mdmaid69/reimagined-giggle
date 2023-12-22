@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+print("Hello, world!")
