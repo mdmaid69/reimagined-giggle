@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
