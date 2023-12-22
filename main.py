@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
