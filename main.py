@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
