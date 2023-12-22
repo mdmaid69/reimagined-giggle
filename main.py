@@ -1,6 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
