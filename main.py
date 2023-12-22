@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
