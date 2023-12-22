@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
