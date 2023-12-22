@@ -1,6 +1,11 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
