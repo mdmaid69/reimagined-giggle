@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
