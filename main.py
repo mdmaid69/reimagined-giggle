@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_str(array):
+        return str(array)
