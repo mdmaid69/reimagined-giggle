@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
