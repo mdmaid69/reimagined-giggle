@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
