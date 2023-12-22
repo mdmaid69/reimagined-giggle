@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_str(array):
-        return str(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import tensorflow as tf
+print(tf.__version__)
