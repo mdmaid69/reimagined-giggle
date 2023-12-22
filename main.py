@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_speed(distance, time):
+        return distance / time
