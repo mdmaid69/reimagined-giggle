@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def remove_from_array(array, item):
+        array.remove(item)
