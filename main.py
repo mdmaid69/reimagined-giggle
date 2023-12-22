@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
