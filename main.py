@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def reverse_list(lst):
+        return lst[::-1]
