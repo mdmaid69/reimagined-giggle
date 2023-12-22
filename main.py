@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_priority_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Characters:", len(text))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
