@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
