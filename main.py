@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print("Hello, world!")
+import array
+def get_array_as_set(array):
+        return set(array)
