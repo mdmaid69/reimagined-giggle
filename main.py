@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
