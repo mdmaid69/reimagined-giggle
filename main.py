@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def sort_numbers(numbers):
+        return sorted(numbers)
