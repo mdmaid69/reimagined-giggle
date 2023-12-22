@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_directory_name(path):
+        return os.path.dirname(path)
+for i in range(10): print(i)
