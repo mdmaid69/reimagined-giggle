@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
