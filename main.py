@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
