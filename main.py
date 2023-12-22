@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
