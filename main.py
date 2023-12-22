@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_pressure(force, area):
+        return force / area
