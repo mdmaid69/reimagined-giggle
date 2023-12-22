@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
