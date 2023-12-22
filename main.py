@@ -1,7 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_min(lst):
+        return min(lst)
+import os
+print(os.getcwd())
