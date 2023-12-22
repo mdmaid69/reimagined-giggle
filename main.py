@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
