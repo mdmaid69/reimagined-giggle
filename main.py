@@ -1,5 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def is_even(n):
-        return n % 2 == 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
