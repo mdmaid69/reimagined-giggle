@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+def divide_numbers(x, y):
+        return x / y
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
