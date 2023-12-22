@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
