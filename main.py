@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+x = 10
+y = 20
+print("Sum:", x + y)
