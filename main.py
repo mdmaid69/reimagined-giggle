@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
