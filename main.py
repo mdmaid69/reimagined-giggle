@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_item(array, i):
+        return array[i]
+  def remove_duplicates(lst):
+        return list(set(lst))
