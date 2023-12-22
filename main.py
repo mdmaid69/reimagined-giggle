@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
