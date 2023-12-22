@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def subtract_numbers(x, y):
+        return x - y
