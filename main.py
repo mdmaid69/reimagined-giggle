@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
