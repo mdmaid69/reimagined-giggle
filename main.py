@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def is_palindrome(s):
+        return s == s[::-1]
