@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
