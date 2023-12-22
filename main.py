@@ -1,8 +1,12 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_user_string():
+        return collections.UserString()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
