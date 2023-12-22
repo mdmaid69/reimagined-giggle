@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
