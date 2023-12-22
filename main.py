@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
