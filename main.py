@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
