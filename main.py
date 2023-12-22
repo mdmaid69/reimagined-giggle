@@ -1,6 +1,6 @@
   import os
   def get_file_blocks(file_name):
         return os.stat(file_name).st_blocks
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
