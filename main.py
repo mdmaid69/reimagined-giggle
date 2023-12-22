@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
