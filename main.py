@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
