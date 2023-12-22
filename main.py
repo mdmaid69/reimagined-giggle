@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def convert_to_hex(n):
+        return hex(n)
