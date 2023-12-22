@@ -1,7 +1,7 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
