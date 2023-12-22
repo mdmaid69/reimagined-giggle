@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
