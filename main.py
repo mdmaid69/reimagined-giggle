@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
