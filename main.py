@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
