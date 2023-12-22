@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
