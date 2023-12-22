@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_force(mass, acceleration):
+        return mass * acceleration
