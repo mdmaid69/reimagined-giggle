@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def sort_list(lst):
+        return sorted(lst)
