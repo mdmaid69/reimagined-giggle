@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
