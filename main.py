@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import numpy as np
+print(np.array([1, 2, 3]))
