@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
