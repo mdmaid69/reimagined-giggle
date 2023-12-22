@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def cube_number(x):
+        return x**3
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
