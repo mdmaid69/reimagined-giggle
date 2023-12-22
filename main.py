@@ -1,5 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
