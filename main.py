@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def exit_program():
+        sys.exit()
+def is_palindrome(s):
+        return s == s[::-1]
