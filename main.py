@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_user_dict():
+        return collections.UserDict()
