@@ -1,8 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
