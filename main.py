@@ -1,5 +1,10 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
