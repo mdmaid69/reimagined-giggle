@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
