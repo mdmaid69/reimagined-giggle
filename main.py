@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
