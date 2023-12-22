@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
