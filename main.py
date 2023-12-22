@@ -1,5 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def sort_numbers(numbers):
+        return sorted(numbers)
