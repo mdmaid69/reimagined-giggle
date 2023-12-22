@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import logging
+def log_message(message):
+        logging.info(message)
