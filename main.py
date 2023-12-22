@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+print(math.pi)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
