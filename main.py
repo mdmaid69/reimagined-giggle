@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_string_from_array(array):
+        return array.tobytes()
+def cube_number(x):
+        return x**3
