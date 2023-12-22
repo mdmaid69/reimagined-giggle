@@ -1,5 +1,14 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
