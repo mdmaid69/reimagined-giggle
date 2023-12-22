@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def cube_number(x):
+        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
