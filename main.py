@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
