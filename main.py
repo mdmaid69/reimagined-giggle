@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
