@@ -1,9 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
