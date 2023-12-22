@@ -1,4 +1,7 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-print(sum(range(10)))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
