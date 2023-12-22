@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
