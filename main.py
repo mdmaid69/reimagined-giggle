@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
