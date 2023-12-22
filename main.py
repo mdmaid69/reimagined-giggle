@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def sort_list(lst):
+        return sorted(lst)
+def calculate_speed(distance, time):
+        return distance / time
