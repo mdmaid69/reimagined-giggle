@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def convert_to_octal(n):
+        return oct(n)
