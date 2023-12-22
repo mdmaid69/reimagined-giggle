@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def find_min(numbers):
+        return min(numbers)
