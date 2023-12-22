@@ -1,5 +1,3 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+print(sum(range(10)))
+def calculate_density(mass, volume):
+        return mass / volume
