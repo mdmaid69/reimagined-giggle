@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+for i in range(10): print(i)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
