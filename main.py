@@ -1,7 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
