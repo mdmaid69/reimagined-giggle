@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
