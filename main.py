@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def change_working_directory(path):
+        os.chdir(path)
