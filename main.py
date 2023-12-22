@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import time
-def get_current_time():
-        return time.time()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
