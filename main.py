@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_min(lst):
+        return min(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
