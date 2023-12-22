@@ -1,5 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import datetime
-print(datetime.datetime.now())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_current_date():
+        return datetime.date.today()
