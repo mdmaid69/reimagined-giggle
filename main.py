@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
