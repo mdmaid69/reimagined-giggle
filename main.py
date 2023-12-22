@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
