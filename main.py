@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
