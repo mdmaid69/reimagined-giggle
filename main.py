@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
