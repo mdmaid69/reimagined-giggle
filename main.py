@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def create_user_dict():
+        return collections.UserDict()
