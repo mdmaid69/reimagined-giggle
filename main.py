@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def convert_to_binary(n):
-        return bin(n)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
