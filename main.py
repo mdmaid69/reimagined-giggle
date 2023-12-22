@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
