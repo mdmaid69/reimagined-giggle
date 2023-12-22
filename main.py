@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_list(lst):
-        return lst[::-1]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
