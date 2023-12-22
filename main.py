@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
