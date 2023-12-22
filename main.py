@@ -1,6 +1,3 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+print(math.pi)
+for i in range(10): print(i)
