@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def divide_numbers(x, y):
+        return x / y
