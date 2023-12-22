@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
