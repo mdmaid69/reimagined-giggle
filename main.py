@@ -1,5 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_pressure(force, area):
+        return force / area
