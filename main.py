@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_counter():
+        return collections.Counter()
