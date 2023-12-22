@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import os
-print(os.getcwd())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
