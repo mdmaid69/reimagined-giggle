@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
