@@ -1,7 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
