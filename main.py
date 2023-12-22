@@ -1,6 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
