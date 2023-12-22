@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
