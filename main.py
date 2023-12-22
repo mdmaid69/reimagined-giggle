@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-for i in range(5):
-        print(i)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
