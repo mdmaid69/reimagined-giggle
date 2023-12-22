@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
