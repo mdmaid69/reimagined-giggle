@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def multiply_numbers(x, y):
-        return x * y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
