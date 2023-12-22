@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
