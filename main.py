@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
