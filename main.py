@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
