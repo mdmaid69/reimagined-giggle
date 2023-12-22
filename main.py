@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import tensorflow as tf
-print(tf.__version__)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
