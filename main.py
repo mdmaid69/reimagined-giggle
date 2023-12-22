@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def is_palindrome(s):
+        return s == s[::-1]
