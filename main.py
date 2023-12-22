@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def clear_array(array):
+        array *= 0
+def count_words(sentence):
+        return len(sentence.split())
