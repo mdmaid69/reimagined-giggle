@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_int(array):
+        return int(array[0])
