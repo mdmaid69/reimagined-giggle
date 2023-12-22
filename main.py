@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
