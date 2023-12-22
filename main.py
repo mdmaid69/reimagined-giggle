@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
