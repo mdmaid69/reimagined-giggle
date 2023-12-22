@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def square_number(x):
+        return x**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
