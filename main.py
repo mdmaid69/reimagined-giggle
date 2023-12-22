@@ -1,4 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import datetime
-print(datetime.datetime.now())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
