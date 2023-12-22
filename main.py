@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def count_elements(lst):
+        return len(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
