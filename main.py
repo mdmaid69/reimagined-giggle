@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def count_elements(lst):
+        return len(lst)
+  def add_numbers(x, y):
+        return x + y
