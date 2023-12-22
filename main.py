@@ -1,5 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
