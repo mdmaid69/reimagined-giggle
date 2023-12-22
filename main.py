@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_user_list():
+        return collections.UserList()
+def convert_to_octal(n):
+        return oct(n)
