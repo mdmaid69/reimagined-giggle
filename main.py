@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
