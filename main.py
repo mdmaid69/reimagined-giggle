@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
