@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
