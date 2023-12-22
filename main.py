@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def get_array_as_int(array):
+        return int(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
