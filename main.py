@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+name = "Python"
+print("Hello,", name)
