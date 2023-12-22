@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
