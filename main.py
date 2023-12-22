@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
