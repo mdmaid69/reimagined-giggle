@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
