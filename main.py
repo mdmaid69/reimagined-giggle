@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
