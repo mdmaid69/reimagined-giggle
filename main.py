@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
