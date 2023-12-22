@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import datetime
+print(datetime.datetime.now())
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
