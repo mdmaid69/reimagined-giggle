@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def reverse_list(lst):
+        return lst[::-1]
