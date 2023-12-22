@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
