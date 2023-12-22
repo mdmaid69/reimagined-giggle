@@ -1,5 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
