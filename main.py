@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
