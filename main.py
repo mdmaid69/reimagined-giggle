@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_work(force, distance):
+        return force * distance
