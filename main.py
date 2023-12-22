@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import time
+def get_time_since_epoch():
+        return time.time()
+  def sort_list(lst):
+        return sorted(lst)
