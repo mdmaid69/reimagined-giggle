@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+print(os.getcwd())
+import collections
+def create_user_dict():
+        return collections.UserDict()
