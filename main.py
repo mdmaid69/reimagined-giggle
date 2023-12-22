@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
