@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
