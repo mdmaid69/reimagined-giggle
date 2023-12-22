@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
