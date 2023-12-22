@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
