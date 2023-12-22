@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_stack():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
