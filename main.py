@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
