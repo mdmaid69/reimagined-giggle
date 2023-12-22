@@ -1,6 +1,11 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
