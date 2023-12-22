@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
