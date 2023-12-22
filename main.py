@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
