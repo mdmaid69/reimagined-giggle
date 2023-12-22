@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
