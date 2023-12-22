@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_speed(distance, time):
+        return distance / time
