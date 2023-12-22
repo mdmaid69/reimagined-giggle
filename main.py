@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
