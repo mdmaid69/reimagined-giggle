@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
