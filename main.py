@@ -1,7 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_length(array):
+        return len(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
