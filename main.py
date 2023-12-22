@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
