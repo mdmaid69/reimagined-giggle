@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
