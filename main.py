@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
