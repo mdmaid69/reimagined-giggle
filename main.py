@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
