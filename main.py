@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
