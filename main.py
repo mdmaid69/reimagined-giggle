@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
