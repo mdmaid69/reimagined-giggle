@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
