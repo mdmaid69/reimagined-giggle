@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def add_numbers(a, b):
-        return a + b
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
