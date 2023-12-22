@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
