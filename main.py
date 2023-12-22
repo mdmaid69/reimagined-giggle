@@ -1,4 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def add_numbers(x, y):
-        return x + y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
