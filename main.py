@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def reverse_string(s):
+        return s[::-1]
