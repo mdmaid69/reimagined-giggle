@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
