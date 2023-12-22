@@ -1,8 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
