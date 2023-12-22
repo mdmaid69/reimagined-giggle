@@ -1,6 +1,12 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
