@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
