@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
