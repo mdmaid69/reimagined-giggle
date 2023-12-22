@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
