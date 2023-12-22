@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
