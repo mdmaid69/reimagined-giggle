@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def convert_to_hex(n):
+        return hex(n)
