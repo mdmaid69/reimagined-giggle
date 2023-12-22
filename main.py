@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
