@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
