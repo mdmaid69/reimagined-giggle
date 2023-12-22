@@ -1,5 +1,6 @@
-import time
-print(time.time())
 import array
-def get_array_item(array, i):
-        return array[i]
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
