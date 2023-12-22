@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def find_unique_words(sentence):
+        return set(sentence.split())
