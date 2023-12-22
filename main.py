@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def find_max(lst):
+        return max(lst)
