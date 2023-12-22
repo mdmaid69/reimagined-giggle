@@ -1,7 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_stack():
+        return collections.deque()
