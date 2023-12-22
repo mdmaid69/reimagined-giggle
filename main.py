@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
