@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
