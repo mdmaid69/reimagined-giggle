@@ -1,8 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import time
+print(time.time())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
