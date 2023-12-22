@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
