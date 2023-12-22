@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
