@@ -1,8 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def create_numpy_array(lst):
+        return np.array(lst)
