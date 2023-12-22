@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
