@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
