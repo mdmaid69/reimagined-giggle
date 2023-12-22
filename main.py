@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
