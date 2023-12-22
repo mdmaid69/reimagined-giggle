@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import datetime
+print(datetime.datetime.now())
