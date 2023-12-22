@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_length(array):
+        return len(array)
+import tensorflow as tf
+print(tf.__version__)
