@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
