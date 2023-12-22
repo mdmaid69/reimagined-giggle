@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
