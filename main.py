@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
