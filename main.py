@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+from collections import Counter
+print(Counter("hello world"))
