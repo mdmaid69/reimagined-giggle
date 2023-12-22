@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_min(numbers):
-        return min(numbers)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
