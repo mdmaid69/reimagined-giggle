@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
