@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
