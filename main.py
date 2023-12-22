@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
