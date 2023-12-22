@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
