@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def square_number(x):
-        return x**2
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
