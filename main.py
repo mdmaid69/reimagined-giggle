@@ -1,7 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import sys
+def print_python_version():
+        return sys.version
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
