@@ -1,5 +1,5 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import collections
-def create_queue():
-        return collections.deque()
-def convert_to_hex(n):
-        return hex(n)
+def create_user_string():
+        return collections.UserString()
