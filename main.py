@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
