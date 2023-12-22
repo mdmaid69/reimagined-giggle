@@ -1,9 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-print(sum(range(10)))
+import array
+def get_array_as_list(array):
+        return list(array)
+def reverse_list(lst):
+        return lst[::-1]
