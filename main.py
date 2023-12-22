@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
