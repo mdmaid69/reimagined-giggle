@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_repr(array):
+        return repr(array)
