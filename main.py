@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
