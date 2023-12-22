@@ -1,7 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def is_even(n):
+        return n % 2 == 0
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
