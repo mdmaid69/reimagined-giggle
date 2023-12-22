@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_error_function(x):
+        return math.erf(x)
