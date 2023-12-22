@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_hex(n):
-        return hex(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+print(os.getcwd())
