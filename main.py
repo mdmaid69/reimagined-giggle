@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
