@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
