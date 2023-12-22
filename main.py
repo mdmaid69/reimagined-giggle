@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def sort_list(lst):
+        return sorted(lst)
