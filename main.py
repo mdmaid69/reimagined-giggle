@@ -1,7 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
