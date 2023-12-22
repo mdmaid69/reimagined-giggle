@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
