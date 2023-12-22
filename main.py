@@ -1,5 +1,10 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
