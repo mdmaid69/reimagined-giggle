@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_to_binary(n):
+        return bin(n)
+def reverse_list(lst):
+        return lst[::-1]
