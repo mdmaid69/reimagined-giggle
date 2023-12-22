@@ -1,5 +1,3 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import sys
+print(sys.version)
+print("Hello, world!")
