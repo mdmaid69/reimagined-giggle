@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+for i in range(10): print(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
