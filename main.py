@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def convert_to_binary(n):
-        return bin(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
