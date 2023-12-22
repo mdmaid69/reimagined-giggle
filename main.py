@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
