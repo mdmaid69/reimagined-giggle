@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
