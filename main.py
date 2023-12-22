@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
