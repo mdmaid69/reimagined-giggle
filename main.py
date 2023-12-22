@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
