@@ -1,10 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
