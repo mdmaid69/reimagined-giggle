@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_density(mass, volume):
+        return mass / volume
