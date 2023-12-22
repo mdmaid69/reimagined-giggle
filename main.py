@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
