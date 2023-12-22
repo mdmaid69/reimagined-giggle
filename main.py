@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_stack():
+        return collections.deque()
