@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
