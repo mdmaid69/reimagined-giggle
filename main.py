@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
