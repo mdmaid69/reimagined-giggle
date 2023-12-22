@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_list(array):
-        return list(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
