@@ -1,8 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
