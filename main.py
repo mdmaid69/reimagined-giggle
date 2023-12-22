@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import time
+def get_current_time():
+        return time.ctime()
+def find_max(lst):
+        return max(lst)
