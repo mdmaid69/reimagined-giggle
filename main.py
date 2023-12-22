@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def split_path(path):
+        return os.path.split(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
