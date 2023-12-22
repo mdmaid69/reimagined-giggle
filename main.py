@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
+print([x**2 for x in range(10)])
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_array_to_list(array):
+        return array.tolist()
