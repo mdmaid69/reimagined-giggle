@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-for i in range(5):
-        print(i)
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
