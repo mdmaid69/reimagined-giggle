@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
