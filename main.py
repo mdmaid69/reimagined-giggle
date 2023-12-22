@@ -1,8 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
