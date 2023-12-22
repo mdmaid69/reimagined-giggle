@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import tensorflow as tf
-print(tf.__version__)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
