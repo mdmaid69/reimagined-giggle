@@ -1,10 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
