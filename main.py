@@ -1,7 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
