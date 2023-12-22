@@ -1,8 +1,8 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
