@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
