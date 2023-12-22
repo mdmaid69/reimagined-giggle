@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
