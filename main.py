@@ -1,8 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
