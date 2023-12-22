@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
