@@ -1,5 +1,8 @@
-import os
-print(os.getcwd())
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
