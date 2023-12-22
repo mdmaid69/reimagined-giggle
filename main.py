@@ -1,7 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
