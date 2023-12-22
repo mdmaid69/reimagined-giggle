@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
