@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_length(array):
-        return len(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
