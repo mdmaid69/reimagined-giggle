@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_max(lst):
+        return max(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
