@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def add_numbers(x, y):
+        return x + y
