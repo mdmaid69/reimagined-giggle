@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def divide_numbers(x, y):
-        return x / y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_floor(x):
+        return math.floor(x)
