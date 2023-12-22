@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
