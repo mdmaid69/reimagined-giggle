@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
