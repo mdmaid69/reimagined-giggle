@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
