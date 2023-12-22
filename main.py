@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def count_elements(lst):
+        return len(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
