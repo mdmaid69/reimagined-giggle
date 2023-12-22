@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
