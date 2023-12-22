@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
