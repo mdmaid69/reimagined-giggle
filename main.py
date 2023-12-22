@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
