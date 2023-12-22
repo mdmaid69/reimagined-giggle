@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
