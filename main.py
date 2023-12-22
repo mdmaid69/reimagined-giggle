@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def find_min(numbers):
-        return min(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
