@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
