@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-for i in range(5):
-        print(i)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_current_directory():
+        return os.getcwd()
