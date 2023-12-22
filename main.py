@@ -1,6 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
