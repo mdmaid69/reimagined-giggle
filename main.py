@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def count_elements(lst):
+        return len(lst)
