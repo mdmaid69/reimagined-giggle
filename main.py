@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
