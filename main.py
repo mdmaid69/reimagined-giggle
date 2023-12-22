@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
