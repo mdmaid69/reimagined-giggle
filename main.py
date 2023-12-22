@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
