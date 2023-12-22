@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
