@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
