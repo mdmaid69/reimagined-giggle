@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
