@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
