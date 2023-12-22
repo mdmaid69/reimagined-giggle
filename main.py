@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
