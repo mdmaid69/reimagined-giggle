@@ -1,5 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
