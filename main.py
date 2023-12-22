@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import datetime
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
