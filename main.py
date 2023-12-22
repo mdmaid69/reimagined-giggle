@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
