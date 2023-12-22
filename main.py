@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def subtract_numbers(x, y):
+        return x - y
