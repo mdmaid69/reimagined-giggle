@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
