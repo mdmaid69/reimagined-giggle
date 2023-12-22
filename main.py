@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
