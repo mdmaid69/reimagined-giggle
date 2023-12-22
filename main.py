@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
