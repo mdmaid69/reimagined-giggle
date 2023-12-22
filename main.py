@@ -1,7 +1,9 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
