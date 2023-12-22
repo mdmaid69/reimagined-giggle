@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_speed(distance, time):
+        return distance / time
