@@ -1,7 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def is_even(n):
+        return n % 2 == 0
