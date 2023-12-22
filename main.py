@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
