@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def greet(name):
-        print(f"Hello, {name}!")
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
