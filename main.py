@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
