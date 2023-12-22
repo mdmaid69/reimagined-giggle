@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
