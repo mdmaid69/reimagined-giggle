@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
