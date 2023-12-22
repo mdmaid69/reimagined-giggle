@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
