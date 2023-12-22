@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def multiply_numbers(x, y):
-        return x * y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def convert_to_octal(n):
+        return oct(n)
