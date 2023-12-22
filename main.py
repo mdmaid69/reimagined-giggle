@@ -1,5 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
