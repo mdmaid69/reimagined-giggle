@@ -1,5 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
