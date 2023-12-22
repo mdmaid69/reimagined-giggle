@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
