@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
