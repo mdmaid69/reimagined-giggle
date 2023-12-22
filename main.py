@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
