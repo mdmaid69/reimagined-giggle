@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
