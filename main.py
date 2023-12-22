@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
