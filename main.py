@@ -1,4 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
