@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+for i in range(10): print(i)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
