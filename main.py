@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
