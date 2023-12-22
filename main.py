@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
