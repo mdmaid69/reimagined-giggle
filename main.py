@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
