@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def convert_to_hex(n):
+        return hex(n)
