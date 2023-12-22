@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
