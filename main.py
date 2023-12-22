@@ -1,8 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def cube_number(x):
-        return x**3
+def get_array_as_bytes(array):
+        return bytes(array)
