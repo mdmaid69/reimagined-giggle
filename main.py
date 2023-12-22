@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
