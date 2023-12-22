@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
