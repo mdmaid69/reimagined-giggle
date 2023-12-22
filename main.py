@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
