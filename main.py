@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def find_max(lst):
-        return max(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def cube_number(x):
+        return x**3
