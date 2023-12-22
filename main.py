@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
