@@ -1,7 +1,9 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
