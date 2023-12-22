@@ -1,5 +1,4 @@
-import time
-print(time.time())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
