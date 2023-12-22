@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
