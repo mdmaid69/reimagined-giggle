@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def add_numbers(x, y):
-        return x + y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+print(os.getcwd())
