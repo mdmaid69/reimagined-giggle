@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import time
-def get_current_time():
-        return time.ctime()
+def find_max(numbers):
+        return max(numbers)
+  def count_elements(lst):
+        return len(lst)
