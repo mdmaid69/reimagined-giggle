@@ -1,6 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
