@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_priority_queue():
+        return collections.deque()
