@@ -1,6 +1,3 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+print(sum(range(10)))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
