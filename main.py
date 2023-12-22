@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
