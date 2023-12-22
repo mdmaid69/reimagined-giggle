@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
