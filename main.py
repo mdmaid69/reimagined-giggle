@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
