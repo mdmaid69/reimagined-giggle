@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def convert_to_octal(n):
+        return oct(n)
+x = 10
+y = 20
+print("Sum:", x + y)
