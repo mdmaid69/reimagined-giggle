@@ -1,6 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
