@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
