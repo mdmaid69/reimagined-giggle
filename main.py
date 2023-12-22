@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
