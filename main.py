@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import datetime
-print(datetime.datetime.now())
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
