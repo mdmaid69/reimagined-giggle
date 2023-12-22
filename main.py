@@ -1,5 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
