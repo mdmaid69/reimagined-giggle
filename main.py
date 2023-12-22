@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
