@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
