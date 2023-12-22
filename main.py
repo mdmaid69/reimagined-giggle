@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
