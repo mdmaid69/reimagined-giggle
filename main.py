@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
