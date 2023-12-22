@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def clear_array(array):
+        array *= 0
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
