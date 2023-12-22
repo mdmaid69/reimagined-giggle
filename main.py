@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
