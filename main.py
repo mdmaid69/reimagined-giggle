@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
