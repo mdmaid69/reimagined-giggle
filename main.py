@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
