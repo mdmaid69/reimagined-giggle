@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
