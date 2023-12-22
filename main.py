@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def clear_array(array):
-        array *= 0
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_circle(r):
+        return 3.14 * r**2
