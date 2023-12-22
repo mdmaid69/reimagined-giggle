@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
