@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
