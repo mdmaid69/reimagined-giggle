@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
