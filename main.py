@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
