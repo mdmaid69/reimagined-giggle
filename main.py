@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
