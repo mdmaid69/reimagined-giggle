@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+print(sum(range(10)))
