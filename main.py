@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_user_string():
+        return collections.UserString()
