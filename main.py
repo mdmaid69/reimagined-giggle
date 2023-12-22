@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
