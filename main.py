@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
