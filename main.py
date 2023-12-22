@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
