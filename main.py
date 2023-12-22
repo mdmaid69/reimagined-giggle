@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
