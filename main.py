@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
