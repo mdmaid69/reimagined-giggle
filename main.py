@@ -1,8 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
