@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
