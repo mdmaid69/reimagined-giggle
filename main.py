@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def reverse_array(array):
+        array.reverse()
+  def remove_duplicates(lst):
+        return list(set(lst))
