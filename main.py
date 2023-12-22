@@ -1,8 +1,7 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
