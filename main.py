@@ -1,4 +1,4 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import tensorflow as tf
-print(tf.__version__)
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+print(math.pi)
