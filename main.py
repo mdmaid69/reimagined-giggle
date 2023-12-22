@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
