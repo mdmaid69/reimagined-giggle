@@ -1,10 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def reverse_list(lst):
+        return lst[::-1]
+import tensorflow as tf
+print(tf.__version__)
