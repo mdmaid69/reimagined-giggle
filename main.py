@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
