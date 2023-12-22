@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def cube_number(x):
-        return x**3
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
