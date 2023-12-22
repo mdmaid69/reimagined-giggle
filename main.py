@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
