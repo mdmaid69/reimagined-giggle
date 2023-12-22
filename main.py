@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
