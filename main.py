@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
