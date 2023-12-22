@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
