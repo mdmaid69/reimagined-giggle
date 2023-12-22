@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
