@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import numpy as np
+print(np.array([1, 2, 3]))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
