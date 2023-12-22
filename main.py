@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
