@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Hello, world!")
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
