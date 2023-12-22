@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
