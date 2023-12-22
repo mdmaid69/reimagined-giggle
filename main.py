@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
