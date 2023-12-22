@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_volume(length, width, height):
-        return length * width * height
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
