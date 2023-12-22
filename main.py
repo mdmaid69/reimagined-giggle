@@ -1,7 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
