@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
