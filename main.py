@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_tuple(array):
+        return tuple(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
