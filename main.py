@@ -1,6 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
