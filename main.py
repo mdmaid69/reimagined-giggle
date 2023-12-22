@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
