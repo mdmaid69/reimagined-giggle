@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
