@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
