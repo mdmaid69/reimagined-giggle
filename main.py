@@ -1,8 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
