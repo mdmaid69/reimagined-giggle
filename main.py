@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
