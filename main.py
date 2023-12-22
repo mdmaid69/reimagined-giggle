@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
