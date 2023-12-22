@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_str(array):
+        return str(array)
+  def convert_to_hex(n):
+        return hex(n)
