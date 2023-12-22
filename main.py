@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
