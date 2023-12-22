@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def count_elements(lst):
+        return len(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
