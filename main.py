@@ -1,7 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
