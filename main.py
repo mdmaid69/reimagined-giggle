@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_user_list():
+        return collections.UserList()
