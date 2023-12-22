@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def reverse_list(lst):
-        return lst[::-1]
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
