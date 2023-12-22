@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
