@@ -1,7 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
