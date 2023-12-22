@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_sign(x):
+        return math.copysign(1, x)
