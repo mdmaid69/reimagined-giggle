@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
