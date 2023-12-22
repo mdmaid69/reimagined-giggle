@@ -1,9 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
