@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import sys
-  def get_python_version():
-        return sys.version
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
