@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
