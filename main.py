@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
