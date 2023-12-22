@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
