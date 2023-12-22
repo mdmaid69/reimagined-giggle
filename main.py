@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def count_words(sentence):
+        return len(sentence.split())
