@@ -1,5 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
