@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
