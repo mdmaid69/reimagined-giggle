@@ -1,4 +1,8 @@
-def square_number(x):
-        return x**2
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
