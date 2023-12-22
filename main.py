@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def reverse_list(lst):
-        return lst[::-1]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
