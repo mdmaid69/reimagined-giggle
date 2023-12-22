@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
