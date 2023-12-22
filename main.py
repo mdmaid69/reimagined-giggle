@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
