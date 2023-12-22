@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
