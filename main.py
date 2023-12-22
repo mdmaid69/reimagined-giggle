@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def sort_list(lst):
+        return sorted(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
