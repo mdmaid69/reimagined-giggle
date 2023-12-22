@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
