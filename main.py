@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def multiply_numbers(x, y):
+        return x * y
+import array
+def reverse_array(array):
+        array.reverse()
