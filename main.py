@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
