@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
