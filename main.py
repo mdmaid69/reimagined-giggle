@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
