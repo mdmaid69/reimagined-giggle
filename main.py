@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def square_number(x):
+        return x**2
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
