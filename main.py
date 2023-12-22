@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def multiply_numbers(x, y):
+        return x * y
