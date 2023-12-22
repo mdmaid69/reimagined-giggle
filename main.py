@@ -1,4 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-print("Hello, world!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def exit_program():
+        sys.exit()
