@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+for i in range(5):
+        print(i)
