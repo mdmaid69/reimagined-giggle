@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
