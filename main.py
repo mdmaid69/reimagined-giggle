@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_current_datetime():
+        return datetime.datetime.now()
