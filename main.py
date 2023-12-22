@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
