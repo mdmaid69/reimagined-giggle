@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
