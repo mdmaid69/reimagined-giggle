@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
