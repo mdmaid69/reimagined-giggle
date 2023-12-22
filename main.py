@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
