@@ -1,8 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
