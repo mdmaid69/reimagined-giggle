@@ -1,4 +1,7 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_user_string():
+        return collections.UserString()
