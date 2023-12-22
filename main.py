@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_stack():
+        return collections.deque()
