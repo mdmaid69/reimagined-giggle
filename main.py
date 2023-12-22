@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
