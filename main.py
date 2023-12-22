@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_user_string():
+        return collections.UserString()
