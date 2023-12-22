@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
