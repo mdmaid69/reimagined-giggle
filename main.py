@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
