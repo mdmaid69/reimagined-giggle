@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
