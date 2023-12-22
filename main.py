@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
