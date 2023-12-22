@@ -1,5 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
