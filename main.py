@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
