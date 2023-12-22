@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
