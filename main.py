@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
