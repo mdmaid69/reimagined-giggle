@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def multiply_numbers(x, y):
+        return x * y
