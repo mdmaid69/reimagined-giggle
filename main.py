@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def add_numbers(a, b):
-        return a + b
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
