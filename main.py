@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
