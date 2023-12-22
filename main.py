@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
