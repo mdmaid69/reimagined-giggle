@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
