@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
