@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
