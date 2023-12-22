@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_perpetuity(payment, rate):
+        return payment / rate
