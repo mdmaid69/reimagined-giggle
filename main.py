@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def sort_numbers(numbers):
-        return sorted(numbers)
+def convert_to_hex(n):
+        return hex(n)
+import os
+print(os.getcwd())
