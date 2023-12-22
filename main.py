@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
