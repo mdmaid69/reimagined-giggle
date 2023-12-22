@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
