@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_area_rectangle(l, w):
+        return l * w
