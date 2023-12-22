@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
