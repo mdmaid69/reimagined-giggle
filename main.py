@@ -1,8 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
