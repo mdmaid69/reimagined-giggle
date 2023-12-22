@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def is_palindrome(s):
-        return s == s[::-1]
+def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
