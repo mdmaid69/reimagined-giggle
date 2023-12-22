@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
