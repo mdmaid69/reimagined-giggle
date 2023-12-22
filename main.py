@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
