@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def convert_to_hex(n):
-        return hex(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def create_user_list():
+        return collections.UserList()
