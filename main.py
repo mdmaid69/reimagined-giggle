@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
