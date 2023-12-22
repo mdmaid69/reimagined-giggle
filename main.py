@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
