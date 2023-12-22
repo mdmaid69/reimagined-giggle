@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
