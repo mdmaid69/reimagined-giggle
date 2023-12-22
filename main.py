@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
