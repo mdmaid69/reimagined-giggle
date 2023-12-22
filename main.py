@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import time
+def get_current_time():
+        return time.time()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
