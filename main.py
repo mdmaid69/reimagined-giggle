@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
