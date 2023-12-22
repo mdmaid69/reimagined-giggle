@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
