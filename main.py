@@ -1,5 +1,8 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_array_to_list(array):
+        return array.tolist()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
