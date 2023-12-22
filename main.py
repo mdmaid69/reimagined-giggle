@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
