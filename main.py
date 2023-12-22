@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_int(array):
+        return int(array[0])
