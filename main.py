@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
