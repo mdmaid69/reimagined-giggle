@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def add_numbers(a, b):
+        return a + b
