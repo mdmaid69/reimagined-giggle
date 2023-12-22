@@ -1,8 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def create_user_string():
+        return collections.UserString()
