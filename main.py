@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def count_elements(lst):
+        return len(lst)
+import os
+print(os.getcwd())
