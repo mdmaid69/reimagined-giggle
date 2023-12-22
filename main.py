@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
