@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
