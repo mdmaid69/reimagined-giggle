@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
