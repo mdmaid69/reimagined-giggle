@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_power(work, time):
+        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
