@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
