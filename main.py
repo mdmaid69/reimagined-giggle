@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import datetime
-print(datetime.datetime.now())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
