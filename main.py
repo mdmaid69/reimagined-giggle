@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def add_numbers(x, y):
-        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
