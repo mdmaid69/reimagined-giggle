@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
