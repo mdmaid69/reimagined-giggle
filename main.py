@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import sys
-  def get_python_version():
-        return sys.version
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
