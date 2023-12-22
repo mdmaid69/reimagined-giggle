@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def convert_to_octal(n):
-        return oct(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
