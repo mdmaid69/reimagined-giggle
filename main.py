@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
