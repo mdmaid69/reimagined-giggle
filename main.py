@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def cube_number(x):
+        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
