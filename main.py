@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
