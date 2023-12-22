@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
