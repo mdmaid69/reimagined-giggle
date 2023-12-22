@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_current_directory():
+        return os.getcwd()
