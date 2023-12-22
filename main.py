@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
