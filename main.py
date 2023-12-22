@@ -1,6 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
