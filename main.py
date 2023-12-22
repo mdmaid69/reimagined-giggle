@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def clear_array(array):
-        array *= 0
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
