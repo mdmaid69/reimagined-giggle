@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
