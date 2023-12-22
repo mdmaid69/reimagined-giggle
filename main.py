@@ -1,4 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-for i in range(10): print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
