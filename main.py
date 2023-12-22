@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_max(lst):
-        return max(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
