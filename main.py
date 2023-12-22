@@ -1,4 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-print(sum(range(10)))
+x = 10
+y = 20
+print("Sum:", x + y)
+import collections
+def create_priority_queue():
+        return collections.deque()
