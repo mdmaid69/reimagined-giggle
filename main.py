@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
