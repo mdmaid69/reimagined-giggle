@@ -1,4 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def is_even(n):
-        return n % 2 == 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
