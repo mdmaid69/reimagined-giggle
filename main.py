@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
