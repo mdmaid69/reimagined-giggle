@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-print(os.getcwd())
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import sys
+print(sys.version)
