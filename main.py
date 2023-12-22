@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
