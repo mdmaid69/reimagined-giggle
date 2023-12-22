@@ -1,8 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def remove_from_array(array, item):
+        array.remove(item)
