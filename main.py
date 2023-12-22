@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
