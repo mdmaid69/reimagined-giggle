@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import datetime
+print(datetime.datetime.now())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
