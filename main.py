@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def find_min(lst):
+        return min(lst)
