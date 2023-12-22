@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def multiply_numbers(x, y):
+        return x * y
