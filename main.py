@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_power(work, time):
-        return work / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+def is_odd(n):
+        return n % 2 != 0
