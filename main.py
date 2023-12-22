@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
