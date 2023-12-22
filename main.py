@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
