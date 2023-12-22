@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
