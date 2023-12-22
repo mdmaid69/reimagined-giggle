@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
