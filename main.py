@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
