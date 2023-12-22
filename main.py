@@ -1,4 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_max(lst):
-        return max(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
