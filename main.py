@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
