@@ -1,3 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-for i in range(10): print(i)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
