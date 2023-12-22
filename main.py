@@ -1,5 +1,8 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+  def get_current_directory():
+        return os.getcwd()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
