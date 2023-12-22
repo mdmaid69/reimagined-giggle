@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
