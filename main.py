@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def count_words(sentence):
+        return len(sentence.split())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
