@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def remove_duplicates(lst):
+        return list(set(lst))
