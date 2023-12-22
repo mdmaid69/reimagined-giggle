@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
