@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
