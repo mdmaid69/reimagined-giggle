@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
