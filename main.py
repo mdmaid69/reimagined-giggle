@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def add_numbers(x, y):
+        return x + y
