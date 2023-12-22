@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
