@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
