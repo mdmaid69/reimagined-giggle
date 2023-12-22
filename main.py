@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
