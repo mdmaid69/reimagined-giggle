@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import sys
-print(sys.version)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
