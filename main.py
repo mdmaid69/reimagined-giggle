@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_pressure(force, area):
-        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
