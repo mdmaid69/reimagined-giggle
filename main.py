@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
