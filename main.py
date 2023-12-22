@@ -1,6 +1,9 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
