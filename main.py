@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
