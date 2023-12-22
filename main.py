@@ -1,6 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
