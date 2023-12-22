@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def subtract_numbers(x, y):
+        return x - y
