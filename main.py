@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
