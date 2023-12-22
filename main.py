@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
