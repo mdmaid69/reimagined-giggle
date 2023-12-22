@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
