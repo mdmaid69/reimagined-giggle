@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
