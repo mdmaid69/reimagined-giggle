@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def add_numbers(x, y):
+        return x + y
