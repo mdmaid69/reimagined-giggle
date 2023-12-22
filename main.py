@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
