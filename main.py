@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
