@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
