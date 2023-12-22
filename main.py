@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
