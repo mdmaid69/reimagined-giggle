@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import sys
+  def get_python_version():
+        return sys.version
