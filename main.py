@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+print(random.randint(0, 100))
