@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
