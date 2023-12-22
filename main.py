@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
