@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
