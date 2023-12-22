@@ -1,5 +1,12 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
