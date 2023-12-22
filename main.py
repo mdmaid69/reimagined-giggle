@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
