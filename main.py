@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
