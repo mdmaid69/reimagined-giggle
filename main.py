@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
