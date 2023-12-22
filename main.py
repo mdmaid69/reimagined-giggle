@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def is_odd(n):
+        return n % 2 != 0
+import array
+def reverse_array(array):
+        array.reverse()
