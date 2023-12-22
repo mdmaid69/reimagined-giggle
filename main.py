@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+print(os.getcwd())
