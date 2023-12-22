@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
