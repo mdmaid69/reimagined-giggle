@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
