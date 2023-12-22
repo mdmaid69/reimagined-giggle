@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
