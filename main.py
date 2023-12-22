@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
