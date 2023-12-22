@@ -1,4 +1,9 @@
-import datetime
-print(datetime.datetime.now())
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
