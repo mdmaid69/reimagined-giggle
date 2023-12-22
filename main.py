@@ -1,7 +1,6 @@
-def add_numbers(a, b):
-        return a + b
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
