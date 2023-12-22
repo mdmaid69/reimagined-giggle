@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
