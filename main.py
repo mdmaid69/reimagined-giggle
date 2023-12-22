@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
