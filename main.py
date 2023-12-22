@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
