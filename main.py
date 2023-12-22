@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
