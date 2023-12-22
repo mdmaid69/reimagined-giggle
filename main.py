@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_hex(n):
+        return hex(n)
+def count_elements(lst):
+        return len(lst)
