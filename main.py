@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
