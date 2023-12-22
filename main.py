@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
