@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
