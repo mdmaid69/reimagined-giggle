@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
