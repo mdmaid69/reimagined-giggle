@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
