@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import logging
+def log_message(message):
+        logging.info(message)
