@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_index(array, item):
+        return array.index(item)
