@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
