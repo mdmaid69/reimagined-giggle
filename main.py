@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_typecode(array):
+        return array.typecode
