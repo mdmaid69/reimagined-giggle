@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_pressure(force, area):
-        return force / area
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
