@@ -1,7 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
