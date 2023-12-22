@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
