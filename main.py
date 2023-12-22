@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
