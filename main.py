@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
