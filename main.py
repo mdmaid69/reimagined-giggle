@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
