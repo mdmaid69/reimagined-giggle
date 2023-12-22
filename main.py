@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
