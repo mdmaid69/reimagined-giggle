@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def subtract_numbers(x, y):
-        return x - y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def convert_to_binary(n):
+        return bin(n)
