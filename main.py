@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
