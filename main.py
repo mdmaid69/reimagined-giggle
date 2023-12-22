@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
