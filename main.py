@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def subtract_numbers(x, y):
+        return x - y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
