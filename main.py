@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
