@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
