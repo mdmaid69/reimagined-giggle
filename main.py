@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
