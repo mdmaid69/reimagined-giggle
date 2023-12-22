@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
