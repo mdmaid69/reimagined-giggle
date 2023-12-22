@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
