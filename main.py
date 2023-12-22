@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
