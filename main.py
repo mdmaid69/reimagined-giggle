@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
