@@ -1,6 +1,10 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
