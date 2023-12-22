@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def find_min(numbers):
+        return min(numbers)
+def sort_numbers(numbers):
+        return sorted(numbers)
