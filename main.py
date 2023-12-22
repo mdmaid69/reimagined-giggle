@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
