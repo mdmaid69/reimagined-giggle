@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def count_characters(sentence):
+        return len(sentence)
+import platform
+def get_python_version():
+        return platform.python_version()
