@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
