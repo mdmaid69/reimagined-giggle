@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
