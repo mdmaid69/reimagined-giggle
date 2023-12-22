@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
