@@ -1,10 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_power(work, time):
+        return work / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
