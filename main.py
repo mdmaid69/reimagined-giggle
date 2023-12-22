@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
