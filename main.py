@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
