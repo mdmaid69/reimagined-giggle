@@ -1,6 +1,7 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
