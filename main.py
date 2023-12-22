@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
