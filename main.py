@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
