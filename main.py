@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
