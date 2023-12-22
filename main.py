@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
