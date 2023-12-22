@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
