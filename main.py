@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
