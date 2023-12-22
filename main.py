@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import time
+print(time.time())
