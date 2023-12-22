@@ -1,6 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
