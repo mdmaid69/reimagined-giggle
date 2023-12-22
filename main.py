@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
