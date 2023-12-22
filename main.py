@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
