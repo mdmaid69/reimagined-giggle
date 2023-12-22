@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
