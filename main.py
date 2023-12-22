@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_pressure(force, area):
+        return force / area
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
