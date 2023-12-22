@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
