@@ -1,10 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
