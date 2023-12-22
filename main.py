@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
