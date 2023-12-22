@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
