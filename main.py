@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def subtract_numbers(x, y):
-        return x - y
+import random
+print(random.randint(0, 100))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
