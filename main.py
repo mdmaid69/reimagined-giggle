@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
