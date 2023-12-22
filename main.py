@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
