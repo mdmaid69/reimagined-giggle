@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def reverse_array(array):
-        array.reverse()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
