@@ -1,5 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
