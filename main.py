@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
