@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
