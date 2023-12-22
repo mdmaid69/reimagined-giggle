@@ -1,8 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def reverse_list(lst):
+        return lst[::-1]
