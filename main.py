@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
