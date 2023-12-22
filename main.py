@@ -1,6 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
