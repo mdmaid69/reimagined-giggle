@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_floor(x):
+        return math.floor(x)
