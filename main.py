@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def reverse_list(lst):
-        return lst[::-1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
