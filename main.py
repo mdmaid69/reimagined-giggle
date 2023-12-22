@@ -1,8 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
