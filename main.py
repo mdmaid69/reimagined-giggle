@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+print(re.match("h.*o", "hello world"))
