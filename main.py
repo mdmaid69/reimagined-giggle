@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
