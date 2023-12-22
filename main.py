@@ -1,7 +1,7 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
