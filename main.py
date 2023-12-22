@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
