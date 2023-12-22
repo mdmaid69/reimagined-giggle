@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
