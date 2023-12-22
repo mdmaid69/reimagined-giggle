@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_index(array, item):
+        return array.index(item)
