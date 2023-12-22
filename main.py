@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
