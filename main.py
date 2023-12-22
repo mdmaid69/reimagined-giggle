@@ -1,8 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import unittest
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
