@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-print(random.randint(0, 100))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def reverse_list(lst):
+        return lst[::-1]
