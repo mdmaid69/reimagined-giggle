@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
