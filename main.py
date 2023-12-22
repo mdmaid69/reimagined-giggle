@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
