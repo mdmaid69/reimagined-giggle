@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
