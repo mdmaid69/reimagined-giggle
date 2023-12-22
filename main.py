@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
