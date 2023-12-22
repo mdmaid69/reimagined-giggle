@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def convert_to_binary(n):
-        return bin(n)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
