@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
