@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+x = 10
+y = 20
+print("Sum:", x + y)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
