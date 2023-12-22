@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def is_odd(n):
+        return n % 2 != 0
