@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def reverse_array(array):
+        array.reverse()
