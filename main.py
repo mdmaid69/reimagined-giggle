@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
