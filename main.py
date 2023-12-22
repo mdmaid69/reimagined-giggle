@@ -1,9 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
