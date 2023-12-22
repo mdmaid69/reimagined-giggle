@@ -1,5 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def change_working_directory(path):
+        os.chdir(path)
