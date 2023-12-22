@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
