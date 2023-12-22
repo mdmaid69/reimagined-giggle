@@ -1,6 +1,8 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
