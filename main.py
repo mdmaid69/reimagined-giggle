@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
+  def multiply_numbers(x, y):
+        return x * y
