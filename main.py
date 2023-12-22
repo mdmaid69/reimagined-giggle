@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cosine(x):
+        return math.cos(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
