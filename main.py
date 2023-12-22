@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
