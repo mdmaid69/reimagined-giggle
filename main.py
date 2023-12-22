@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def cube_number(x):
+        return x**3
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
