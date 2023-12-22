@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
