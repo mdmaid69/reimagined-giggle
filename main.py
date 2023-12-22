@@ -1,9 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+print(math.pi)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
