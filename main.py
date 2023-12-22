@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
