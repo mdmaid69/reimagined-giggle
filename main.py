@@ -1,6 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
