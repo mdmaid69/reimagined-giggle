@@ -1,7 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def greet(name):
+        print(f"Hello, {name}!")
