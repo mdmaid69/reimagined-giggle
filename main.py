@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
