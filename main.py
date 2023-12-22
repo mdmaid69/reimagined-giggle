@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
