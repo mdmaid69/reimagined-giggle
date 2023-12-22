@@ -1,12 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
