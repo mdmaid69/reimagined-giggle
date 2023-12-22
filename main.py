@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
