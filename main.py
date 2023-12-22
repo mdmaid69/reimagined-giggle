@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
