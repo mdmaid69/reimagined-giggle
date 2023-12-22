@@ -1,7 +1,9 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
