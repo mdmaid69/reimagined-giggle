@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_as_set(array):
+        return set(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
