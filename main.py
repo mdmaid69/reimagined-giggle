@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def square_number(x):
+        return x**2
