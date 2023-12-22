@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
