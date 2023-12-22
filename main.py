@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_work(force, distance):
+        return force * distance
