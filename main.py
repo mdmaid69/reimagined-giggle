@@ -1,8 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def cube_number(x):
+        return x**3
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
