@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
