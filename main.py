@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
