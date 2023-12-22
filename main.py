@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
