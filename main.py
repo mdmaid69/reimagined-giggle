@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def count_words(sentence):
+        return len(sentence.split())
