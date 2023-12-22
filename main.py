@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_as_bool(array):
+        return bool(array)
