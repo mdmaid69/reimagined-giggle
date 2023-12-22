@@ -1,6 +1,9 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
