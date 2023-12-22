@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def split_path(path):
+        return os.path.split(path)
