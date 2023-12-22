@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
