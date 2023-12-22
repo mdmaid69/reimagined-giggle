@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-for i in range(5):
-        print(i)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
