@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
