@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
