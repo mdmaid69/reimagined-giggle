@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
