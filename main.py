@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_work(force, distance):
-        return force * distance
+  def create_numpy_array(lst):
+        return np.array(lst)
