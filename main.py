@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def is_even(n):
-        return n % 2 == 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
