@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import random
-print(random.randint(0, 100))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def is_odd(n):
+        return n % 2 != 0
