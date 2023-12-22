@@ -1,4 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-print([x**2 for x in range(10)])
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
