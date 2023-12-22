@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
