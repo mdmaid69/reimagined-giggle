@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
