@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
