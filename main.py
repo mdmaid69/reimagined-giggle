@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
