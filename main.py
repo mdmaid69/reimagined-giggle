@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
