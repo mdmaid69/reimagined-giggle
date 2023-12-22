@@ -1,9 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
