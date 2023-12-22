@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
