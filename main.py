@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def count_elements(lst):
-        return len(lst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
