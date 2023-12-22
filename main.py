@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def is_odd(n):
-        return n % 2 != 0
+name = "Python"
+print("Hello,", name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
