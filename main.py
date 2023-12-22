@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def greet(name):
-        print(f"Hello, {name}!")
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
