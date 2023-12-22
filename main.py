@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def square_number(x):
-        return x**2
+def reverse_string(s):
+        return s[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
