@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
