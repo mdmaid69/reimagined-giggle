@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
