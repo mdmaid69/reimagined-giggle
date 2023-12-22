@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_octal(n):
-        return oct(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def remove_duplicates(lst):
+        return list(set(lst))
