@@ -1,6 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
