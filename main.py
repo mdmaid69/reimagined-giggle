@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
