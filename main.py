@@ -1,7 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
