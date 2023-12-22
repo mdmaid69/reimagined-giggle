@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
