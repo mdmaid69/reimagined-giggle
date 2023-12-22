@@ -1,6 +1,5 @@
-import random
-print(random.randint(0, 100))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+for i in range(5):
+        print(i)
+import sys
+def exit_program():
+        sys.exit()
