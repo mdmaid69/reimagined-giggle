@@ -1,6 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
