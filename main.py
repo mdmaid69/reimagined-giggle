@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import sys
-  def get_python_version():
-        return sys.version
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
