@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sys
+def exit_program():
+        sys.exit()
