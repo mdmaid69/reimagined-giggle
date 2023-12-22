@@ -1,6 +1,8 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
