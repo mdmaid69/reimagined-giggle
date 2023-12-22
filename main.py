@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
