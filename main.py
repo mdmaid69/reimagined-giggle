@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
