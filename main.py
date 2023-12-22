@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
