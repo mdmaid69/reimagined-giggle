@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def reverse_list(lst):
-        return lst[::-1]
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
