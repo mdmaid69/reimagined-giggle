@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
