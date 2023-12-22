@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area(radius):
+        return 3.14 * radius * radius
