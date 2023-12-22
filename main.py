@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def count_elements(lst):
+        return len(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
