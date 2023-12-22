@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def count_elements(lst):
-        return len(lst)
+def multiply_numbers(x, y):
+        return x * y
+  def cube_number(x):
+        return x**3
