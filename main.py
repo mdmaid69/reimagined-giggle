@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def reverse_list(lst):
+        return lst[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
