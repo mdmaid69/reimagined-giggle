@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_int(array):
+        return int(array[0])
