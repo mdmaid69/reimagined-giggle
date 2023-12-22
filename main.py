@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
