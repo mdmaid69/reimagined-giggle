@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
