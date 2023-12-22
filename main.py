@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
