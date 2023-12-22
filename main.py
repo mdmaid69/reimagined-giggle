@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
