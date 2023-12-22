@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_exponential(x):
+        return math.exp(x)
