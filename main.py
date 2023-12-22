@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+from collections import Counter
+print(Counter("hello world"))
