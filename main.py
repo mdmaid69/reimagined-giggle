@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def is_palindrome(s):
+        return s == s[::-1]
