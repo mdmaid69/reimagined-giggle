@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
