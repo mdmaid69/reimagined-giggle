@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
