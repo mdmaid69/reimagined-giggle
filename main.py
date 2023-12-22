@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
