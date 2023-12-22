@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
