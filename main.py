@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
