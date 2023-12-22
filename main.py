@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
