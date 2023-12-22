@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_length(array):
-        return len(array)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
