@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
