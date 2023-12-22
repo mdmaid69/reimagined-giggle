@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+x = 10
+y = 20
+print("Sum:", x + y)
