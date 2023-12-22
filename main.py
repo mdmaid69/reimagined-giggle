@@ -1,6 +1,9 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
