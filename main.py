@@ -1,9 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def convert_to_binary(n):
+        return bin(n)
+  def multiply_numbers(x, y):
+        return x * y
