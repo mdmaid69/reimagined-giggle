@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
