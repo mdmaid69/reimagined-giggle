@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
