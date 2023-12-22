@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
