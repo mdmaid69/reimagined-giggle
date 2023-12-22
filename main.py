@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_max(numbers):
+        return max(numbers)
+  def calculate_area_rectangle(l, w):
+        return l * w
