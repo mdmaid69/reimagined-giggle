@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
