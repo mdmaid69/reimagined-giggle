@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import os
-print(os.getcwd())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
