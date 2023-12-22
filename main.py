@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
