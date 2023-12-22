@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
