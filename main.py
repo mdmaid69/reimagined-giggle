@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def reverse_string(s):
-        return s[::-1]
+def cube_number(x):
+        return x**3
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
