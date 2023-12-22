@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
