@@ -1,5 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
