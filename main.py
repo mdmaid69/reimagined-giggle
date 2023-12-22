@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
