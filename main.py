@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import time
+def get_time_since_epoch():
+        return time.time()
+def convert_to_octal(n):
+        return oct(n)
