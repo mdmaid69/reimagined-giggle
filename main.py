@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
