@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
