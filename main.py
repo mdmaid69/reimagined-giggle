@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
