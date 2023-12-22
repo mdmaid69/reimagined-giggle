@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_power(work, time):
+        return work / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
