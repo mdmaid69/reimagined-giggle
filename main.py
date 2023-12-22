@@ -1,6 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
