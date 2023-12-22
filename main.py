@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
