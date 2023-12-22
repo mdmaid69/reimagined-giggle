@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Characters:", len(text))
