@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
