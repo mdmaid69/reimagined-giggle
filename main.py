@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
