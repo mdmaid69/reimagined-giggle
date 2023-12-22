@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
