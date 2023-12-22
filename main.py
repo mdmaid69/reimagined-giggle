@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
