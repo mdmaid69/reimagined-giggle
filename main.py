@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
