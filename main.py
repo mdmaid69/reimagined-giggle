@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def divide_numbers(x, y):
-        return x / y
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
