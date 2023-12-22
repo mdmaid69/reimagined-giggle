@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
