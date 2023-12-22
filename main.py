@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_power(work, time):
+        return work / time
