@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
