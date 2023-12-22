@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
