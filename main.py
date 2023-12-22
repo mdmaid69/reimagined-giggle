@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-print(random.randint(0, 100))
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
