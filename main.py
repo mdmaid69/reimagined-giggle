@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_work(force, distance):
+        return force * distance
