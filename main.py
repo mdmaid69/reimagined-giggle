@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_current_time():
+        return time.ctime()
