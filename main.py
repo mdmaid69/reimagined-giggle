@@ -1,6 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
