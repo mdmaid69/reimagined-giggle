@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
