@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
