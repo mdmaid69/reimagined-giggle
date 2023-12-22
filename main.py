@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
