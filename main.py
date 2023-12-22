@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def reverse_list(lst):
+        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
