@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
