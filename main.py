@@ -1,6 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
