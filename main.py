@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
