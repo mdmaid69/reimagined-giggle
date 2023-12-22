@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_length(array):
+        return len(array)
