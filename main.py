@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_list(array):
+        return array.tolist()
