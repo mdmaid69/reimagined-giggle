@@ -1,5 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
