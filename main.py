@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_power(work, time):
+        return work / time
