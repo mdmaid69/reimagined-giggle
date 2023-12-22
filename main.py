@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
