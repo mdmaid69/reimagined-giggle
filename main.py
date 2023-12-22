@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def convert_to_hex(n):
+        return hex(n)
