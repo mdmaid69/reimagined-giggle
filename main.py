@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
