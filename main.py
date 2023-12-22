@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
