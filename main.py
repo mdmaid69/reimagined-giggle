@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_string_from_array(array):
+        return array.tobytes()
