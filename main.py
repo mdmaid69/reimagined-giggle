@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
