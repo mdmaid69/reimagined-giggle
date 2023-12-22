@@ -1,6 +1,7 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
