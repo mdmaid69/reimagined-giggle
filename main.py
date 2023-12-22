@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
