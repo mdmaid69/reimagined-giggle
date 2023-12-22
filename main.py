@@ -1,8 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
