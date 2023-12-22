@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
