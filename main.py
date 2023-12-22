@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
