@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def find_min(numbers):
+        return min(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
