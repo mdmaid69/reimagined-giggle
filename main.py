@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
