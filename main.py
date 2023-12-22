@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
