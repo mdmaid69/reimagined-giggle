@@ -1,4 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
