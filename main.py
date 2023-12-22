@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
