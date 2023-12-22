@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+name = "Python"
+print("Hello,", name)
+def convert_to_octal(n):
+        return oct(n)
