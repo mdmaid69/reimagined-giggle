@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
