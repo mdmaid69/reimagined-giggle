@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
