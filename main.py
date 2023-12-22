@@ -1,4 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-print("Hello, world!")
+import time
+def get_current_time():
+        return time.ctime()
+def count_elements(lst):
+        return len(lst)
