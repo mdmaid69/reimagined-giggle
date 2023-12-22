@@ -1,8 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
