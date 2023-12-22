@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
