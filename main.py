@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
