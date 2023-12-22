@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
