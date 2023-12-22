@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
