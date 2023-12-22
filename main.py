@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
