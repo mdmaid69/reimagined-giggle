@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def square_number(x):
+        return x**2
