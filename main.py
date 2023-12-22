@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_volume(length, width, height):
+        return length * width * height
+import platform
+def get_os_info():
+        return platform.uname()
