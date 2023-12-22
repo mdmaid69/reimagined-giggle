@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
