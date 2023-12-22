@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+name = "Python"
+print("Hello,", name)
