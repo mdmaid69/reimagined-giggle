@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
