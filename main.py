@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def square_number(x):
+        return x**2
