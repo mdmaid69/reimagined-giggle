@@ -1,8 +1,8 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-import collections
-def create_user_string():
-        return collections.UserString()
