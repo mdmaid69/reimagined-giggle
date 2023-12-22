@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
