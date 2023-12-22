@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
