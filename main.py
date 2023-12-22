@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+for i in range(10): print(i)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
