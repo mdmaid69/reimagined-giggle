@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
