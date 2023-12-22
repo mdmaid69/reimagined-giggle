@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_stack():
+        return collections.deque()
