@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
