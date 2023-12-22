@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
