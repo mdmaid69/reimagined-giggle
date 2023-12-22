@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
