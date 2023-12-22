@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
