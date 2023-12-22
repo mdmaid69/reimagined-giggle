@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
