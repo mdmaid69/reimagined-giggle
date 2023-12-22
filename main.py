@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
