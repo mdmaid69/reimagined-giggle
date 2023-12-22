@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
