@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import sys
+def print_python_version():
+        return sys.version
