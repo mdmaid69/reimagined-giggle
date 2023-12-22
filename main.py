@@ -1,5 +1,10 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_pressure(force, area):
-        return force / area
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
