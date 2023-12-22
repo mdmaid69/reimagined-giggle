@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_volume(length, width, height):
+        return length * width * height
