@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
