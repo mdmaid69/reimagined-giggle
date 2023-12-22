@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_power(work, time):
-        return work / time
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
