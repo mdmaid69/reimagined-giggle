@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
