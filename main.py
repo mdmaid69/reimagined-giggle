@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def reverse_array(array):
+        array.reverse()
