@@ -1,6 +1,11 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
