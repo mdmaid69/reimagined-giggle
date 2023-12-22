@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
