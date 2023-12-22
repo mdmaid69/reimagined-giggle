@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
