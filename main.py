@@ -1,4 +1,6 @@
-print(sum(range(10)))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_str(array):
+        return str(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
