@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
