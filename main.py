@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def find_max(numbers):
+        return max(numbers)
