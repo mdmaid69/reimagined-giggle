@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
