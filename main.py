@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def clear_array(array):
+        array *= 0
