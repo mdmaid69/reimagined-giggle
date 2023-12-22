@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
