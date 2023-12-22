@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
