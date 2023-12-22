@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
