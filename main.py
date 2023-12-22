@@ -1,6 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def is_odd(n):
+        return n % 2 != 0
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
