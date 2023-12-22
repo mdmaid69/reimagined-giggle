@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
