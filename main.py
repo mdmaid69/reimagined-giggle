@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def add_numbers(x, y):
+        return x + y
