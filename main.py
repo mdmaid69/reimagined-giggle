@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def add_numbers(x, y):
-        return x + y
+print([x**2 for x in range(10)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
