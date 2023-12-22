@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def is_odd(n):
-        return n % 2 != 0
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
