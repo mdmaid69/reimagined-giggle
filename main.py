@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
