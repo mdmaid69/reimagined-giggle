@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
