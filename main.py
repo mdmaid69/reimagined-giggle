@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
