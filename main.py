@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_list():
+        return collections.UserList()
