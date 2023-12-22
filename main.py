@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
