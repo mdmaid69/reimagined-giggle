@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
