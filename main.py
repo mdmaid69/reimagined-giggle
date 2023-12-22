@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
