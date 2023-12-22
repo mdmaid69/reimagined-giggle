@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
