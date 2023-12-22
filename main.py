@@ -1,4 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-print([x**2 for x in range(10)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
