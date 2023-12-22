@@ -1,8 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
