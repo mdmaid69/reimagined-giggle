@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
