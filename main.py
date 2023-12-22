@@ -1,8 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
