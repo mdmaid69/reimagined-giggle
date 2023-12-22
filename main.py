@@ -1,12 +1,11 @@
-import queue
+import sys
+def exit_program():
+        sys.exit()
+import threading
 
-q = queue.Queue()
+def print_hello():
+        print("Hello, world!")
 
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
