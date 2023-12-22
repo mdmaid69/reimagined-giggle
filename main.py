@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_min(lst):
-        return min(lst)
+def count_words(sentence):
+        return len(sentence.split())
+text = "Hello, world!"
+print("Characters:", len(text))
