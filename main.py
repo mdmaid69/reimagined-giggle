@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_work(force, distance):
+        return force * distance
