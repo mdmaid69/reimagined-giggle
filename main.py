@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def add_numbers(a, b):
-        return a + b
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
