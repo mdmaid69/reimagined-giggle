@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
