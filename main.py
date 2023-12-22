@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
