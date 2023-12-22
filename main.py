@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
