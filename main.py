@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
