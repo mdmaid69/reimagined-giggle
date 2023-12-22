@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
