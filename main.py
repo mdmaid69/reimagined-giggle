@@ -1,7 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
