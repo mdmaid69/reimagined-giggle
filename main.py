@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
