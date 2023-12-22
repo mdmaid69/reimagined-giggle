@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
