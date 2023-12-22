@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def find_max(lst):
-        return max(lst)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
