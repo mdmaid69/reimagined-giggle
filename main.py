@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
