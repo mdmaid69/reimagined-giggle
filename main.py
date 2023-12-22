@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
