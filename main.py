@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
