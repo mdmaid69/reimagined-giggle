@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
