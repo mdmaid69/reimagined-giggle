@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+print("Hello, world!")
+import collections
+def create_user_list():
+        return collections.UserList()
