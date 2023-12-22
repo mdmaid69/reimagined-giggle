@@ -1,8 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
