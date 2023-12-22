@@ -1,5 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
