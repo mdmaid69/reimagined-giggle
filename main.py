@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def sort_list(lst):
+        return sorted(lst)
