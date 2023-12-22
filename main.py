@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
