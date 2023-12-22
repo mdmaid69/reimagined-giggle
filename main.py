@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def square_number(x):
-        return x**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_cosine(x):
+        return math.cos(x)
