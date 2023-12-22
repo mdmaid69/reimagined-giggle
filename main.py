@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
