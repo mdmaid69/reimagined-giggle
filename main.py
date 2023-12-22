@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-print(sys.version)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
