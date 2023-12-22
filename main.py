@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
