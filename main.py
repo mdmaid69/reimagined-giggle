@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
