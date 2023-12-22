@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
