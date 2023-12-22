@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def sort_numbers(numbers):
+        return sorted(numbers)
