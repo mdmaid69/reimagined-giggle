@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
