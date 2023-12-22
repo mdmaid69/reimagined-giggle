@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def convert_to_hex(n):
+        return hex(n)
