@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
