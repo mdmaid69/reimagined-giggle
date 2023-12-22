@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_frozenset(array):
+        return frozenset(array)
