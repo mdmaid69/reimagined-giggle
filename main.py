@@ -1,4 +1,8 @@
-  def square_number(x):
-        return x**2
-import re
-print(re.match("h.*o", "hello world"))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
