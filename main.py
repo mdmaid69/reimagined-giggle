@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def reverse_string(s):
-        return s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
