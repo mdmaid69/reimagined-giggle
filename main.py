@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def log_message(message):
+        logging.info(message)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
