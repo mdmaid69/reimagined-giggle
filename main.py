@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
