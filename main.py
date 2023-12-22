@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
