@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
