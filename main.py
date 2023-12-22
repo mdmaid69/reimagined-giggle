@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
