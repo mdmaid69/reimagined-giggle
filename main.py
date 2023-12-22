@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
