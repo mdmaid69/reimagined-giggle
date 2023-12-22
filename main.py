@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
