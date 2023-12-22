@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def convert_to_octal(n):
+        return oct(n)
+name = "Python"
+print("Hello,", name)
