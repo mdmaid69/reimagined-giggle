@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
