@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def reverse_list(lst):
+        return lst[::-1]
