@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+from collections import Counter
+print(Counter("hello world"))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
