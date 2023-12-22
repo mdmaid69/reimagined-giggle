@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_volume(length, width, height):
+        return length * width * height
