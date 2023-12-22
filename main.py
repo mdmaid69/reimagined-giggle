@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
