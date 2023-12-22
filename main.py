@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
