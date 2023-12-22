@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_power(work, time):
+        return work / time
