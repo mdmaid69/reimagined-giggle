@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
