@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
