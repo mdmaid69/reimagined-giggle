@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
