@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
