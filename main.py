@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
