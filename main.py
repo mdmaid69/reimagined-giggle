@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
