@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
