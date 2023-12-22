@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def change_working_directory(path):
+        os.chdir(path)
