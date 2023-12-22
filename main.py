@@ -1,6 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
