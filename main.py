@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
