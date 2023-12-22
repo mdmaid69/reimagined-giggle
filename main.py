@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_tuple(array):
+        return tuple(array)
