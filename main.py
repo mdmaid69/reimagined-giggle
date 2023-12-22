@@ -1,8 +1,8 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
