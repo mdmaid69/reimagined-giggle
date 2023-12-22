@@ -1,6 +1,5 @@
+import os
+print(os.getcwd())
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_sign(x):
+        return math.copysign(1, x)
