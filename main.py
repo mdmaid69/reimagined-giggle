@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
