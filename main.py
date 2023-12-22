@@ -1,9 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
