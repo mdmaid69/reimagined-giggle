@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
