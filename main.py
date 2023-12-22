@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_pressure(force, area):
+        return force / area
