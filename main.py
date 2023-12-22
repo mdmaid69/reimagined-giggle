@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def change_working_directory(path):
+        os.chdir(path)
