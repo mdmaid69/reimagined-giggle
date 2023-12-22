@@ -1,9 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
