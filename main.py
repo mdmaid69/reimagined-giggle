@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
