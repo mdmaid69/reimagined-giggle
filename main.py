@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import sys
-def print_python_version():
-        print(sys.version)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
