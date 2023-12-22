@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
