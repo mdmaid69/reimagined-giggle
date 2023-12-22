@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_power(work, time):
+        return work / time
