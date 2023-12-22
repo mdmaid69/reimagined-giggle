@@ -1,6 +1,8 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
