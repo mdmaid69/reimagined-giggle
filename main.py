@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
