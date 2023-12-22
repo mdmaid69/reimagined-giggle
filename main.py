@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def get_current_time():
-        return time.time()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
