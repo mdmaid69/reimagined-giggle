@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_min(lst):
+        return min(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
