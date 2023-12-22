@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
