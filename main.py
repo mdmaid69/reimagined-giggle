@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
