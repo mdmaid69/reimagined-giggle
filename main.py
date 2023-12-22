@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import time
+def get_time_since_epoch():
+        return time.time()
