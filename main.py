@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
