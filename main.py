@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
