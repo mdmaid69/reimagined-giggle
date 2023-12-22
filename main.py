@@ -1,8 +1,3 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+print(sum(range(10)))
