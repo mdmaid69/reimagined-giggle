@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
