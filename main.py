@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
