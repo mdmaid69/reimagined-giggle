@@ -1,5 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def add_numbers(x, y):
-        return x + y
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
