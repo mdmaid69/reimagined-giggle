@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
