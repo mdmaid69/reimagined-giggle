@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_str(array):
+        return str(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
