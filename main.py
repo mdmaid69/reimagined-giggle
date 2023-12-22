@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+from collections import Counter
+print(Counter("hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
