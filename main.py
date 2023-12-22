@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def add_numbers(x, y):
-        return x + y
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
