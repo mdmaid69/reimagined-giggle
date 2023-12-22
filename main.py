@@ -1,5 +1,7 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
