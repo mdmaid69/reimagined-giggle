@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def reverse_array(array):
-        array.reverse()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+from collections import Counter
+print(Counter("hello world"))
