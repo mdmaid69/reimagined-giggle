@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
