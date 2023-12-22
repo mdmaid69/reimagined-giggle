@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
