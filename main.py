@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
