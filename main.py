@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
