@@ -1,7 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def square_number(x):
+        return x**2
+def sort_list(lst):
+        return sorted(lst)
