@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_power(work, time):
+        return work / time
