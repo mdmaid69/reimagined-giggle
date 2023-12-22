@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def reverse_array(array):
+        array.reverse()
