@@ -1,9 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_set(array):
+        return set(array)
