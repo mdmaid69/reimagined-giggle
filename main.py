@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
