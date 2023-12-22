@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
