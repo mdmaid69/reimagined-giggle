@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def cube_number(x):
-        return x**3
+def count_characters(sentence):
+        return len(sentence)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
