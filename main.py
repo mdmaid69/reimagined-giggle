@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_int(array):
+        return int(array[0])
