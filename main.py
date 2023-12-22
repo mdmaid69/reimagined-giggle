@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def change_working_directory(path):
+        os.chdir(path)
