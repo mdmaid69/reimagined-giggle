@@ -1,10 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
