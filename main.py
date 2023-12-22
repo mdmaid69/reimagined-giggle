@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
