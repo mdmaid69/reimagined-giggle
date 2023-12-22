@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
