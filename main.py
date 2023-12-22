@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
