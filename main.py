@@ -1,4 +1,10 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
