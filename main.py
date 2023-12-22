@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
