@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_item(array, i):
+        return array[i]
