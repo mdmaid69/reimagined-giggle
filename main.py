@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
