@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
