@@ -1,7 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
