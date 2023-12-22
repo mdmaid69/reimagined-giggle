@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-for i in range(5):
-        print(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_stack():
+        return collections.deque()
