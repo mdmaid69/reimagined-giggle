@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
