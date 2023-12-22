@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
