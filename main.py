@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
