@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
