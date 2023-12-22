@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
