@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
