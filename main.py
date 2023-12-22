@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_min(lst):
+        return min(lst)
+import random
+print(random.randint(0, 100))
