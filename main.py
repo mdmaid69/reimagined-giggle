@@ -1,7 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
