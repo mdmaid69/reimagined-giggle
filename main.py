@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_directory_name(path):
+        return os.path.dirname(path)
