@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import numpy as np
+print(np.array([1, 2, 3]))
