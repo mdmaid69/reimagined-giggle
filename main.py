@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_bytes(array):
+        return bytes(array)
