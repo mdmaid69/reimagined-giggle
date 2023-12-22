@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
