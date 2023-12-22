@@ -1,5 +1,6 @@
-import math
-print(math.pi)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def exit_program():
+        sys.exit()
