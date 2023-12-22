@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
