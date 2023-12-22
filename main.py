@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
