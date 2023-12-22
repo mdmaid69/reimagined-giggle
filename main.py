@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item(array, i):
+        return array[i]
