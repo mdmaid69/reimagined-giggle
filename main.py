@@ -1,4 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-print(math.pi)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
