@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def convert_to_binary(n):
-        return bin(n)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
