@@ -1,6 +1,9 @@
 import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def multiply_numbers(x, y):
+        return x * y
