@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
