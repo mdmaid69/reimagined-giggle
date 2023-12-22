@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def count_elements(lst):
-        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
