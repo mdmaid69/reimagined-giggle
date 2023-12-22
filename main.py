@@ -1,5 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
