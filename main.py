@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def cube_number(x):
-        return x**3
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
