@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
