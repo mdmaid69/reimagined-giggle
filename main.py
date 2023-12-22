@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def add_numbers(x, y):
+        return x + y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
