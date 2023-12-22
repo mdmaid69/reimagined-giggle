@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
