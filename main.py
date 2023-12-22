@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def convert_to_octal(n):
+        return oct(n)
+  def multiply_numbers(x, y):
+        return x * y
