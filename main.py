@@ -1,8 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def is_even(n):
+        return n % 2 == 0
