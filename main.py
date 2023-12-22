@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
