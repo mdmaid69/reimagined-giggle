@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
