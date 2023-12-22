@@ -1,7 +1,8 @@
-import os
-print(os.getcwd())
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
