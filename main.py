@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import sys
+def print_python_version():
+        print(sys.version)
