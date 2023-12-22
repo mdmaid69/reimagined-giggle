@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
