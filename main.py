@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_length(array):
+        return len(array)
