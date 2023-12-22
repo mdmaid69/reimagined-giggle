@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
