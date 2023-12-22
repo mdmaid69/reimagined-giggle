@@ -1,8 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_logarithm_base_e(x):
+        return math.log(x)
