@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
