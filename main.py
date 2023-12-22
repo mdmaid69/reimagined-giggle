@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
