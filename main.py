@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_item(array, i):
+        return array[i]
