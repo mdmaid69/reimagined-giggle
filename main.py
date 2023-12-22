@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_counter():
+        return collections.Counter()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
