@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
