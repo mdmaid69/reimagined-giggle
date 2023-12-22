@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
