@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
