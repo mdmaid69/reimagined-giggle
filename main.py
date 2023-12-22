@@ -1,8 +1,7 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-for i in range(10): print(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
