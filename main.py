@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_index(array, item):
+        return array.index(item)
