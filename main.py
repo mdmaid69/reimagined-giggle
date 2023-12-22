@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
