@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
