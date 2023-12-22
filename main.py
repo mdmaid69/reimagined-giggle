@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
