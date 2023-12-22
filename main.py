@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_power(work, time):
-        return work / time
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
