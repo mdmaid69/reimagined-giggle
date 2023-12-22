@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-print(random.randint(0, 100))
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
