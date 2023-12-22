@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
