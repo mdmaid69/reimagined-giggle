@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def add_numbers(a, b):
+        return a + b
+  def reverse_list(lst):
+        return lst[::-1]
