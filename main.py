@@ -1,5 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
