@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
+  def remove_duplicates(lst):
+        return list(set(lst))
