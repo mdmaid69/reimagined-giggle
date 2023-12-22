@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_density(mass, volume):
+        return mass / volume
