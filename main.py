@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
