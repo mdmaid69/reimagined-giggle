@@ -1,5 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
