@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
