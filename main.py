@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def convert_to_hex(n):
+        return hex(n)
+import getpass
+def get_username():
+        return getpass.getuser()
