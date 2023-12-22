@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
