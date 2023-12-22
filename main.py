@@ -1,10 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
