@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
