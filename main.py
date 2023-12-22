@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import logging
-def log_message(message):
-        logging.info(message)
+def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
