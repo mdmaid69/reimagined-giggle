@@ -1,9 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
