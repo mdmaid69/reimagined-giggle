@@ -1,7 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
