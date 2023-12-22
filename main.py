@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_pressure(force, area):
+        return force / area
