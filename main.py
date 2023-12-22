@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
