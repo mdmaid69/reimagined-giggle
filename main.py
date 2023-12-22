@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def reverse_array(array):
+        array.reverse()
