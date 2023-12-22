@@ -1,6 +1,8 @@
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
