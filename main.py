@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
