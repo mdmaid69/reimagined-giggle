@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import sys
-print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
