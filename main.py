@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
