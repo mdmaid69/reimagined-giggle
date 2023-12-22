@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
