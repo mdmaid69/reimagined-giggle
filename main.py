@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
