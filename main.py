@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_array_length(array):
-        return len(array)
-  def add_numbers(x, y):
-        return x + y
+def pop_from_array(array, i=-1):
+        return array.pop(i)
