@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def sort_numbers(numbers):
+        return sorted(numbers)
