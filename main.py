@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_list(array):
+        return list(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
