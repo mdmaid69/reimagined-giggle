@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def count_elements(lst):
-        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_speed(distance, time):
+        return distance / time
