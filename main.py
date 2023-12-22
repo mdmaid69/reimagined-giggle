@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_max(numbers):
-        return max(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_set(array):
+        return set(array)
