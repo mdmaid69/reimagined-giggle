@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
