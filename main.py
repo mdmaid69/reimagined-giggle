@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def change_working_directory(path):
+        os.chdir(path)
