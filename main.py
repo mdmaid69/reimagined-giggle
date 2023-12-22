@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
