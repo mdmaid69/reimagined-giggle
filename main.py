@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
