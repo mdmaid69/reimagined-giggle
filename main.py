@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
