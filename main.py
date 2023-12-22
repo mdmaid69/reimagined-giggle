@@ -1,4 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-print(sum(range(10)))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def is_odd(n):
+        return n % 2 != 0
