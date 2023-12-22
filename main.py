@@ -1,4 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+def calculate_pressure(force, area):
+        return force / area
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
