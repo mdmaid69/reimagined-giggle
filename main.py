@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def add_numbers(x, y):
+        return x + y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
