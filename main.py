@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
