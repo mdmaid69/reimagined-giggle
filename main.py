@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
