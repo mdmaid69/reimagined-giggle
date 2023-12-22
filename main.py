@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
