@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
