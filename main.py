@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
