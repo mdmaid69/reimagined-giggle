@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
