@@ -1,7 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import platform
+def get_python_version():
+        return platform.python_version()
+  def convert_to_hex(n):
+        return hex(n)
