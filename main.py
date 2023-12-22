@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
