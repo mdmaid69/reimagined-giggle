@@ -1,8 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import collections
-def create_user_string():
-        return collections.UserString()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
