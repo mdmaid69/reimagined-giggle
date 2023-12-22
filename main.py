@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
