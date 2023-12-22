@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def sort_list(lst):
+        return sorted(lst)
