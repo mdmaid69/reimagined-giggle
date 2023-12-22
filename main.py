@@ -1,10 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
