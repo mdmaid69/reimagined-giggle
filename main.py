@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
