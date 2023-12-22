@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def multiply_numbers(x, y):
+        return x * y
