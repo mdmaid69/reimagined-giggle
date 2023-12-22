@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
