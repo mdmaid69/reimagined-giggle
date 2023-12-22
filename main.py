@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_queue():
-        return collections.deque()
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
