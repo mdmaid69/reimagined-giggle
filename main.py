@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def remove_duplicates(lst):
+        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
