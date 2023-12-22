@@ -1,7 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
