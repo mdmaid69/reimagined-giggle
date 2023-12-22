@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
