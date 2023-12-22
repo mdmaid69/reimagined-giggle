@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
