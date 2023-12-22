@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
