@@ -1,8 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
