@@ -1,5 +1,4 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+print(math.pi)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
