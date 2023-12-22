@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
