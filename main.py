@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
