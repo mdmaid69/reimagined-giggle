@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
