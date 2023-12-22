@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def add_numbers(x, y):
+        return x + y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
