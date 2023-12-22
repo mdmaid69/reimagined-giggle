@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Characters:", len(text))
