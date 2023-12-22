@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
