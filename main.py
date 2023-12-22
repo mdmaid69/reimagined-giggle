@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+name = "Python"
+print("Hello,", name)
+for i in range(5):
+        print(i)
