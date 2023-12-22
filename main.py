@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
