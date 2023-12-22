@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
