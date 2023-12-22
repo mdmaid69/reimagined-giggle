@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import time
+def get_time_since_epoch():
+        return time.time()
