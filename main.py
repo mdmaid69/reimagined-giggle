@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
