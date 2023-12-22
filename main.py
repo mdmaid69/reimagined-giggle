@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
