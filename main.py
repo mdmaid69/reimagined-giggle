@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
