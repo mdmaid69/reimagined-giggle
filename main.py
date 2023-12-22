@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
