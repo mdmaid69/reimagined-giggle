@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
