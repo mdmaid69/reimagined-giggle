@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_binary(n):
+        return bin(n)
+import re
+print(re.match("h.*o", "hello world"))
