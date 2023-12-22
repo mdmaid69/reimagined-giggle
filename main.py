@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
