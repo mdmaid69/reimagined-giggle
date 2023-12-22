@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
