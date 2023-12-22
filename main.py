@@ -1,5 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_array_to_unicode(array):
+        return array.tounicode()
