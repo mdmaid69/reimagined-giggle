@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+print("Hello, world!")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
