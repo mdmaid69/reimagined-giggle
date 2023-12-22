@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def add_numbers(a, b):
+        return a + b
