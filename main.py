@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_power(work, time):
+        return work / time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
