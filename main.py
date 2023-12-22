@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import datetime
+print(datetime.datetime.now())
