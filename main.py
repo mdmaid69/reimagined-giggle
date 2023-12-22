@@ -1,6 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
