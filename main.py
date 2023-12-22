@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
