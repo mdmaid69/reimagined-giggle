@@ -1,7 +1,3 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+print("Hello, world!")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
