@@ -1,6 +1,9 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
