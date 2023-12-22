@@ -1,6 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
