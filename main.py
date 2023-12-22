@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
