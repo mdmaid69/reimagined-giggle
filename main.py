@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
