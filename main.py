@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
