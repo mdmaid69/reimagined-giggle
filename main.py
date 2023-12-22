@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
