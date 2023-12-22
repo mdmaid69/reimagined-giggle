@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
