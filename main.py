@@ -1,7 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
