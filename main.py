@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+text = "Hello, world!"
+print("Characters:", len(text))
