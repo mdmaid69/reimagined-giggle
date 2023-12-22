@@ -1,5 +1,9 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
