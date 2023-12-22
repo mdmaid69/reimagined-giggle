@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_area_rectangle(l, w):
+        return l * w
