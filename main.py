@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
