@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def sort_numbers(numbers):
+        return sorted(numbers)
