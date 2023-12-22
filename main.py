@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_max(lst):
-        return max(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
