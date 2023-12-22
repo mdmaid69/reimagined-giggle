@@ -1,6 +1,7 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
