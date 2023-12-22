@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
