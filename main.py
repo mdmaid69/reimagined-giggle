@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sine(x):
+        return math.sin(x)
+  def reverse_list(lst):
+        return lst[::-1]
