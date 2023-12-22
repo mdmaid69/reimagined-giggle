@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
