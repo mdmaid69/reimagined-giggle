@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
