@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
   import csv
   def write_to_csv_file(file_name, data):
         with open(file_name, "w", newline="") as file:
