@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
