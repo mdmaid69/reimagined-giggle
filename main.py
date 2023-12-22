@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
