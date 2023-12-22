@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
