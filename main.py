@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
