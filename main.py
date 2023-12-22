@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
