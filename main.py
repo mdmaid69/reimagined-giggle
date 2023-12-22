@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def count_words(sentence):
+        return len(sentence.split())
+  def cube_number(x):
+        return x**3
