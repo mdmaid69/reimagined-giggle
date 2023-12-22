@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def remove_from_array(array, item):
+        array.remove(item)
