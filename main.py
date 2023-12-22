@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
