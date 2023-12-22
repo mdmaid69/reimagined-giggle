@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def reverse_list(lst):
+        return lst[::-1]
