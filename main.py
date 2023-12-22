@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
