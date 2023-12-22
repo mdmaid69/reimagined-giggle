@@ -1,5 +1,9 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def sort_list(lst):
-        return sorted(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
