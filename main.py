@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
