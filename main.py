@@ -1,8 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
