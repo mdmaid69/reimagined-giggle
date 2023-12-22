@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
