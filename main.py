@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import os
+print(os.getcwd())
