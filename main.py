@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import re
+print(re.match("h.*o", "hello world"))
