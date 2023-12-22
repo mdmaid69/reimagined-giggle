@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_item(array, i):
-        return array[i]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
