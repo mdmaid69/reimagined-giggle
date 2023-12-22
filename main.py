@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
