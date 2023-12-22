@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
