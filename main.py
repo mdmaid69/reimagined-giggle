@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
