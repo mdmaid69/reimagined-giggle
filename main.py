@@ -1,5 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
