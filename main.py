@@ -1,6 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
