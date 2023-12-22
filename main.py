@@ -1,5 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def add_numbers(x, y):
-        return x + y
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
