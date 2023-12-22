@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
