@@ -1,7 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
