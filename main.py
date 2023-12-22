@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_density(mass, volume):
-        return mass / volume
+  def cube_number(x):
+        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
