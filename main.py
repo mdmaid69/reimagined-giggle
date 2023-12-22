@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def sort_list(lst):
+        return sorted(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
