@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_list(array):
+        return list(array)
