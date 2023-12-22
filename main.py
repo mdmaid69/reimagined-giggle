@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
