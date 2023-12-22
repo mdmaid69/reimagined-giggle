@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def get_array_as_bool(array):
+        return bool(array)
