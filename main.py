@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def get_array_as_list(array):
-        return list(array)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_as_str(array):
+        return str(array)
