@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
