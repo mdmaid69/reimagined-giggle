@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
