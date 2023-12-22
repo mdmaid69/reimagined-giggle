@@ -1,6 +1,12 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
