@@ -1,5 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
