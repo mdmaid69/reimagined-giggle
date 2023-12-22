@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_min(lst):
+        return min(lst)
