@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_int(array):
+        return int(array[0])
