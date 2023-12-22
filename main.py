@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def count_characters(sentence):
+        return len(sentence)
