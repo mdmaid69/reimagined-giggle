@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def is_even(n):
-        return n % 2 == 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
