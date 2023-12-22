@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
