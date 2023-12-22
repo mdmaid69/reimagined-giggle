@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-def count_words(sentence):
-        return len(sentence.split())
+name = "Python"
+print("Hello,", name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
