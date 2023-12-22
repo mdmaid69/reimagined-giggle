@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
