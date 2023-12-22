@@ -1,7 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
