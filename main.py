@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import tensorflow as tf
+print(tf.__version__)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
