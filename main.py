@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-print(time.time())
+def greet(name):
+        print(f"Hello, {name}!")
+import platform
+def get_python_version():
+        return platform.python_version()
