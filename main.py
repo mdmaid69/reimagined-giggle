@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
