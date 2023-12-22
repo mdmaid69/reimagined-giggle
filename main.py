@@ -1,4 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-print("Hello, world!")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
