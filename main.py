@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def square_number(x):
-        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
