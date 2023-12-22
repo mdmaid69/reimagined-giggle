@@ -1,5 +1,9 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def convert_to_binary(n):
-        return bin(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
