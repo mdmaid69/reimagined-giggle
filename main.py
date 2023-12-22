@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+for i in range(5):
+        print(i)
