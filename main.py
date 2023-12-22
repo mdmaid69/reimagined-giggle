@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
