@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_length(array):
+        return len(array)
