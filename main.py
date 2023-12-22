@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import sys
+print(sys.version)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
