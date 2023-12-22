@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
