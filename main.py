@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
