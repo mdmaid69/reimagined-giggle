@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import time
+print(time.time())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
