@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def greet(name):
-        print(f"Hello, {name}!")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
