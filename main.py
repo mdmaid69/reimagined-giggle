@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
