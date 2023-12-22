@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
