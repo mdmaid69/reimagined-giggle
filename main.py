@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_current_working_directory():
+        return os.getcwd()
+import datetime
+def get_current_date():
+        return datetime.date.today()
