@@ -1,7 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_floor(x):
+        return math.floor(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
