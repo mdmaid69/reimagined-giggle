@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
