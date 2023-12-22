@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
