@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def reverse_list(lst):
+        return lst[::-1]
