@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
