@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-print(math.pi)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
