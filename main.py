@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import re
+print(re.match("h.*o", "hello world"))
