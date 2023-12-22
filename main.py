@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_max(lst):
+        return max(lst)
