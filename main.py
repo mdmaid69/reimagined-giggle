@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
