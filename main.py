@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
