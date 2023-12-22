@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
