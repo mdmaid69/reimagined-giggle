@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
