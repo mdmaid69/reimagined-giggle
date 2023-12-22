@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
