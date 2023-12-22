@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
