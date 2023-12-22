@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
