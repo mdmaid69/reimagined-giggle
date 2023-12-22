@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def greet(name):
+        print(f"Hello, {name}!")
