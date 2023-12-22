@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
