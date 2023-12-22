@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
