@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
