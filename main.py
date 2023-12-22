@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
