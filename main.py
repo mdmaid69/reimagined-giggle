@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
