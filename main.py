@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import numpy as np
-print(np.array([1, 2, 3]))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def find_min(lst):
+        return min(lst)
