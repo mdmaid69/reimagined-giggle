@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
