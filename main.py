@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
