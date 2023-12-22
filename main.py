@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
