@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
