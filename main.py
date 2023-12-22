@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
