@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
