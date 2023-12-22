@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
