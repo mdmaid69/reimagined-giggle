@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
