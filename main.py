@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
