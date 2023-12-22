@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
