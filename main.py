@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_acceleration(speed, time):
+        return speed / time
