@@ -1,8 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
