@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
