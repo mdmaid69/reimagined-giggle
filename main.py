@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
