@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
