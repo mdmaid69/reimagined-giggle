@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
