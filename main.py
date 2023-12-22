@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
