@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def clear_array(array):
+        array *= 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
