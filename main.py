@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def multiply_numbers(x, y):
-        return x * y
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
