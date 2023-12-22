@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
