@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
