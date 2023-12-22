@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.ctime()
+for i in range(5):
+        print(i)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
