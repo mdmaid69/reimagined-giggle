@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def count_elements(lst):
-        return len(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
