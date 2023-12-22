@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sign(x):
+        return math.copysign(1, x)
