@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
