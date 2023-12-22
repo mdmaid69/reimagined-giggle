@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
