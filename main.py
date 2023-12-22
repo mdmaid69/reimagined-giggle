@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
