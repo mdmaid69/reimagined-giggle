@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import random
+print(random.randint(0, 100))
