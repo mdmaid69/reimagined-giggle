@@ -1,5 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_bytearray(array):
+        return bytearray(array)
