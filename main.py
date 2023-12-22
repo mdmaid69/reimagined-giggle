@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def clear_array(array):
-        array *= 0
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
