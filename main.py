@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+from collections import Counter
+print(Counter("hello world"))
