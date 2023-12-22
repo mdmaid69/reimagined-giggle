@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
