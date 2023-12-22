@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def append_to_array(array, item):
+        array.append(item)
