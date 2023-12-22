@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
