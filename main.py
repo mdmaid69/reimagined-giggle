@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def print_python_version():
+        print(sys.version)
