@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+text = "Hello, world!"
+print("Characters:", len(text))
