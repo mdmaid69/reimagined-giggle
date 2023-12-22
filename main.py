@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def is_odd(n):
+        return n % 2 != 0
