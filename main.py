@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
