@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
