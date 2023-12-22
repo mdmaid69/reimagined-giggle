@@ -1,6 +1,6 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
