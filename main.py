@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+for i in range(5):
+        print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
