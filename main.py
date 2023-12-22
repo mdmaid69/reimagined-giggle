@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
