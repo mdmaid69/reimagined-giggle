@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def count_elements(lst):
+        return len(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
