@@ -1,6 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
