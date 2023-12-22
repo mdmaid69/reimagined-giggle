@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
