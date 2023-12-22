@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_max(numbers):
+        return max(numbers)
