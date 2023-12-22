@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
