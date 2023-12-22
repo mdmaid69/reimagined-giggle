@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_area_rectangle(l, w):
+        return l * w
