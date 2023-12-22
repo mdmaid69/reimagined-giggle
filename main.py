@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
