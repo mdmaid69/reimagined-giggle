@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
