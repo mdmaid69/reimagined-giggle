@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
