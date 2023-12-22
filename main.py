@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def print_python_version():
-        print(sys.version)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
