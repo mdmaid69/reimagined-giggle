@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def multiply_numbers(x, y):
+        return x * y
