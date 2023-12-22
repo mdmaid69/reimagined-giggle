@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
