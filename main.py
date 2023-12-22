@@ -1,5 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
