@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+print("Hello, world!")
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
