@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
