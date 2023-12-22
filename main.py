@@ -1,9 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
