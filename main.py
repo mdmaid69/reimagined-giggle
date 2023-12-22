@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
