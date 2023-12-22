@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
