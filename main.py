@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def reverse_list(lst):
+        return lst[::-1]
