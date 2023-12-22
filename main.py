@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
