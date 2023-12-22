@@ -1,8 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
