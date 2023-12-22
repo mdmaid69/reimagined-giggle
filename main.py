@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
