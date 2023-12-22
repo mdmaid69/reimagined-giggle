@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_str(array):
+        return str(array)
