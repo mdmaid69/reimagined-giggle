@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def get_current_working_directory():
+        return os.getcwd()
