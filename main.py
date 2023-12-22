@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
