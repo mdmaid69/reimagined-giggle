@@ -1,7 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def divide_numbers(x, y):
+        return x / y
