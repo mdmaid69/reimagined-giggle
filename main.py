@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
