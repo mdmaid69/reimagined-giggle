@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def reverse_array(array):
+        array.reverse()
