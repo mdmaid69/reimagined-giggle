@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
