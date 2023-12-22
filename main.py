@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
