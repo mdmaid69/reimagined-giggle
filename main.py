@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
