@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_stack():
+        return collections.deque()
