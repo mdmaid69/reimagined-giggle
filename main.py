@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
