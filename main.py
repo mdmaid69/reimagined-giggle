@@ -1,4 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-print([x**2 for x in range(10)])
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
