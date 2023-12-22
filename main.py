@@ -1,8 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_density(mass, volume):
+        return mass / volume
