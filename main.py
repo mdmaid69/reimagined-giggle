@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
