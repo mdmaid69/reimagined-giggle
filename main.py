@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
