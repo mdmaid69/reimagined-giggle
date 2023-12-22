@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
