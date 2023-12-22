@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_string(array):
+        return array.tostring()
+import collections
+def create_priority_queue():
+        return collections.deque()
