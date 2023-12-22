@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+print(os.getcwd())
