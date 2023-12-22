@@ -1,5 +1,9 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+print(sum(range(10)))
