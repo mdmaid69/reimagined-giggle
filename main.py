@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def is_odd(n):
+        return n % 2 != 0
