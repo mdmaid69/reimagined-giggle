@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
