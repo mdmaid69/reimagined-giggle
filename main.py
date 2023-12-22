@@ -1,3 +1,4 @@
-print("Hello, world!")
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_speed(distance, time):
+        return distance / time
