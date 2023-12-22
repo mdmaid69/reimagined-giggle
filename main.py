@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def add_numbers(x, y):
+        return x + y
