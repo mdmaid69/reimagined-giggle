@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
