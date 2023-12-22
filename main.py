@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
