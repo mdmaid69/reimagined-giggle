@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
