@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
