@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
