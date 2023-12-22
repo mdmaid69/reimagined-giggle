@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
