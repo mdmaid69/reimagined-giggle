@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_speed(distance, time):
+        return distance / time
