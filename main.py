@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
