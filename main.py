@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
