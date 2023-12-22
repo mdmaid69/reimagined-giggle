@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
