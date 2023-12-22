@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def reverse_string(s):
+        return s[::-1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
