@@ -1,6 +1,8 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
