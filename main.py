@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+name = "Python"
+print("Hello,", name)
