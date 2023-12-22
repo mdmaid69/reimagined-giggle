@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
