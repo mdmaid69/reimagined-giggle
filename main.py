@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
