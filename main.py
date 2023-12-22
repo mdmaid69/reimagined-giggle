@@ -1,9 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
