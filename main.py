@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def is_palindrome(s):
+        return s == s[::-1]
