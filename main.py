@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
