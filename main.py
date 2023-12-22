@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import datetime
+print(datetime.datetime.now())
