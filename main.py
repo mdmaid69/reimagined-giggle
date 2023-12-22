@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
