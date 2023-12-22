@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
