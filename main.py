@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
