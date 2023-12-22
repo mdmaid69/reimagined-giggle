@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def get_array_as_list(array):
-        return list(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
