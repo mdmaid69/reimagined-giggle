@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Reversed:", text[::-1])
+def reverse_list(lst):
+        return lst[::-1]
