@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import platform
+def get_os_info():
+        return platform.uname()
+  def square_number(x):
+        return x**2
