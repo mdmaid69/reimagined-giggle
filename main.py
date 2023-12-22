@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
