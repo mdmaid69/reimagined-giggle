@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
