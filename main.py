@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
