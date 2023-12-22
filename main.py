@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def is_palindrome(s):
+        return s == s[::-1]
