@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
