@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
