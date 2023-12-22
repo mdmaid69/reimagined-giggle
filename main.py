@@ -1,5 +1,3 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+print(sum(range(10)))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
