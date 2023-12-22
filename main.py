@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
