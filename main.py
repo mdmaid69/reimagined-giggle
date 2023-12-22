@@ -1,6 +1,8 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
