@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
