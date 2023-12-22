@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
