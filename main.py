@@ -1,4 +1,5 @@
-print("Hello, world!")
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def convert_to_hex(n):
+        return hex(n)
