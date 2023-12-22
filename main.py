@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
