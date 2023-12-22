@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
