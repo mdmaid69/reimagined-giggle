@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def append_to_array(array, item):
+        array.append(item)
