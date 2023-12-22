@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
