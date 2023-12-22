@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_force(mass, acceleration):
+        return mass * acceleration
