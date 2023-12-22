@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
