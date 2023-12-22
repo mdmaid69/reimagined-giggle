@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_union(list1, list2):
+        return set(list1) | set(list2)
