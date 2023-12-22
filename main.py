@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_index(array, item):
+        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
