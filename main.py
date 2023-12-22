@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
