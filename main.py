@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import hashlib
 def hash_string(s):
         return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
