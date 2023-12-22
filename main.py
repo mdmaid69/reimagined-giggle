@@ -1,5 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_directory_name(path):
+        return os.path.dirname(path)
