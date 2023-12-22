@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_list(array):
-        return list(array)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
