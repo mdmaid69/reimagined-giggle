@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_user_list():
-        return collections.UserList()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
