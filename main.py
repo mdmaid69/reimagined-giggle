@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
