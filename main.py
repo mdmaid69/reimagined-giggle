@@ -1,7 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def multiply_numbers(x, y):
-        return x * y
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
