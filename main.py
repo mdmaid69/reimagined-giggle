@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
