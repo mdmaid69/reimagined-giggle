@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
