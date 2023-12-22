@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_area_rectangle(l, w):
+        return l * w
