@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
