@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import getpass
+def get_username():
+        return getpass.getuser()
