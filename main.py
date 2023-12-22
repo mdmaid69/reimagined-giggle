@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
