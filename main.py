@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
