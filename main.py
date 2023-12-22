@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
+def find_union(list1, list2):
+        return set(list1) | set(list2)
