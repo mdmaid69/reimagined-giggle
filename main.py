@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-print(math.pi)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def exit_program():
+        sys.exit()
