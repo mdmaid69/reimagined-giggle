@@ -1,10 +1,11 @@
-import threading
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
