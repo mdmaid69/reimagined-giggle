@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
