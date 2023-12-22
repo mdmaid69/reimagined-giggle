@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+for i in range(5):
+        print(i)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
