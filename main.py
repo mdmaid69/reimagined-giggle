@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
