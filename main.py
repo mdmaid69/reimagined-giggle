@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
