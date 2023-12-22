@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
