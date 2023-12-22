@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_min(numbers):
-        return min(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
