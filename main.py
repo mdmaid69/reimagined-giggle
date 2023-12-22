@@ -1,5 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-for i in range(10): print(i)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
