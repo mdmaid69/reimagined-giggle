@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def convert_to_octal(n):
+        return oct(n)
