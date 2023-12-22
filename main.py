@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
