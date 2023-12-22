@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_as_set(array):
+        return set(array)
