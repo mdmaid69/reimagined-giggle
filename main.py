@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
