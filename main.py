@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
