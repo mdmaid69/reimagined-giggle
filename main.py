@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
