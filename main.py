@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
