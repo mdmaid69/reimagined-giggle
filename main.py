@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
