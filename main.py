@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-print(sys.version)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
