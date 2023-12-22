@@ -1,5 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
