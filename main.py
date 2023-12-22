@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
