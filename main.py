@@ -1,4 +1,11 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def find_max(lst):
+        return max(lst)
