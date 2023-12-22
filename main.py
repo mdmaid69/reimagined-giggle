@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
