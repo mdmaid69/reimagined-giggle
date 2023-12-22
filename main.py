@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
