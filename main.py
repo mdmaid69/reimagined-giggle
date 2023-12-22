@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def count_words(sentence):
+        return len(sentence.split())
+def count_elements(lst):
+        return len(lst)
