@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
