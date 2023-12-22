@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
