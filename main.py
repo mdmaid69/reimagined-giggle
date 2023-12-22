@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
