@@ -1,7 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
