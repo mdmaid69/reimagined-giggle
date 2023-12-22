@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def remove_directory(path):
+        os.rmdir(path)
