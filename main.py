@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
