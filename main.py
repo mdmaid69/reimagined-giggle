@@ -1,5 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-print(math.pi)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
