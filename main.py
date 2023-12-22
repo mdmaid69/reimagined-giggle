@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def count_elements(lst):
+        return len(lst)
