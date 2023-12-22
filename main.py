@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
