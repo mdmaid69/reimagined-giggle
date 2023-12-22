@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
