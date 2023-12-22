@@ -1,5 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
