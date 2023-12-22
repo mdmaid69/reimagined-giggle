@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def find_min(lst):
-        return min(lst)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
