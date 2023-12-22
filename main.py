@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
