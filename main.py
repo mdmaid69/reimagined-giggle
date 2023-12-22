@@ -1,5 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
