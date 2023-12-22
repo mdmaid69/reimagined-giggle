@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_typecode(array):
+        return array.typecode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
