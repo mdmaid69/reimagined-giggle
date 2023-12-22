@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
