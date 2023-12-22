@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def divide_numbers(x, y):
+        return x / y
