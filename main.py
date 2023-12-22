@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
