@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
