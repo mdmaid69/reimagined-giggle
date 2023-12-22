@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
