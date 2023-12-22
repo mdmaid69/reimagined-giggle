@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
