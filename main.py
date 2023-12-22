@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
