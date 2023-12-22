@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
