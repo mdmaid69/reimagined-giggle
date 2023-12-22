@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
