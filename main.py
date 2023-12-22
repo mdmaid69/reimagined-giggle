@@ -1,8 +1,10 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
