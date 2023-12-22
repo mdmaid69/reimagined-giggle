@@ -1,7 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
