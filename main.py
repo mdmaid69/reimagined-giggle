@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
