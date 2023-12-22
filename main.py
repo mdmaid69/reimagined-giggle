@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+for i in range(5):
+        print(i)
+def add_numbers(x, y):
+        return x + y
