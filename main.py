@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
