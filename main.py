@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
