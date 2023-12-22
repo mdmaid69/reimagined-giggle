@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
