@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def count_characters(sentence):
+        return len(sentence)
+import os
+def remove_directory(path):
+        os.rmdir(path)
