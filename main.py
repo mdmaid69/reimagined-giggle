@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+i = 0
+while i < 5:
+        print(i)
+        i += 1
