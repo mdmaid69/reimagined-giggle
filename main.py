@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_current_directory():
+        return os.getcwd()
