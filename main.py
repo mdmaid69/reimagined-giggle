@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
