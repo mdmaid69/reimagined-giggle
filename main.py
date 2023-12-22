@@ -1,8 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
