@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
