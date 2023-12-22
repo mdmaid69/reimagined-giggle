@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
