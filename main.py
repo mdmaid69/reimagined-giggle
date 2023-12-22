@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def multiply_numbers(x, y):
-        return x * y
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
