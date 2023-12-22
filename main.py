@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
