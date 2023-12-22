@@ -1,10 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
