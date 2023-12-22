@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
