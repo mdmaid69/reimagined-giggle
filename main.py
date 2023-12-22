@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
