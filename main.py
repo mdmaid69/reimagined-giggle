@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
