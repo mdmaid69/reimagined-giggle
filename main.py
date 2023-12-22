@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_float(array):
+        return float(array[0])
