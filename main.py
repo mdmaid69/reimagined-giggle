@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
