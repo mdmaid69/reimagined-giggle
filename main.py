@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
