@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
