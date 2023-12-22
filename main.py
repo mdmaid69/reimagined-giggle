@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
