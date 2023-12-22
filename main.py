@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
