@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_max(lst):
+        return max(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
