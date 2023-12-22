@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
