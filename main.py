@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_pressure(force, area):
-        return force / area
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def convert_to_octal(n):
+        return oct(n)
