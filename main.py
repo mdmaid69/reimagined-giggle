@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_as_list(array):
+        return list(array)
