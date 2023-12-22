@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
