@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+print([x**2 for x in range(10)])
