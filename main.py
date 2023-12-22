@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def convert_to_hex(n):
-        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
