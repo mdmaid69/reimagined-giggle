@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def is_odd(n):
-        return n % 2 != 0
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
