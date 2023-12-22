@@ -1,5 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_force(mass, acceleration):
+        return mass * acceleration
