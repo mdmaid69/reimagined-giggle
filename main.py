@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def is_odd(n):
+        return n % 2 != 0
