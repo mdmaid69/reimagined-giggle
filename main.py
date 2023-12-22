@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
