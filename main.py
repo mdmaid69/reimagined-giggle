@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
