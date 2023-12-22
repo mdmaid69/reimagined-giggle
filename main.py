@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
