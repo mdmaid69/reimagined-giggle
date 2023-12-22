@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
