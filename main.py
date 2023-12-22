@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_floor(x):
+        return math.floor(x)
