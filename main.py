@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_item(array, i):
+        return array[i]
