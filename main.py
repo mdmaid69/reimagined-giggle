@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+from collections import Counter
+print(Counter("hello world"))
