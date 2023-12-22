@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
