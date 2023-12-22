@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_user_string():
+        return collections.UserString()
