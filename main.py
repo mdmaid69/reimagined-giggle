@@ -1,16 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
