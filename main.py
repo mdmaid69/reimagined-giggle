@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import tensorflow as tf
+print(tf.__version__)
