@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def remove_duplicates(lst):
+        return list(set(lst))
+import time
+def get_current_time():
+        return time.ctime()
