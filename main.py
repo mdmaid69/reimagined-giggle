@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_work(force, distance):
-        return force * distance
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
