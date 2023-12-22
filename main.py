@@ -1,7 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
