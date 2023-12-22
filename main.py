@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
