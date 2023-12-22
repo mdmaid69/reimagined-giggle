@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_density(mass, volume):
+        return mass / volume
