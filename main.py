@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
