@@ -1,6 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
