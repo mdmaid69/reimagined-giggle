@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_area_circle(r):
+        return 3.14 * r**2
