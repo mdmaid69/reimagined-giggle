@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
