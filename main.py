@@ -1,7 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def count_characters(sentence):
+        return len(sentence)
