@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def multiply_numbers(x, y):
+        return x * y
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
