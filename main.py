@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def sort_numbers(numbers):
-        return sorted(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
