@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_power(work, time):
+        return work / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
