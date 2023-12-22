@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
