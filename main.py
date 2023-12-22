@@ -1,5 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
