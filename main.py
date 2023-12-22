@@ -1,7 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
