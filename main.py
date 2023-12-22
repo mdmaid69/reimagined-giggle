@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
