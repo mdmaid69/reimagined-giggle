@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
