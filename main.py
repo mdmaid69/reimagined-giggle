@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
