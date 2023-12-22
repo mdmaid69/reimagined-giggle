@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
