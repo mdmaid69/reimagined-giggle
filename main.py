@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def reverse_string(s):
+        return s[::-1]
+for i in range(5):
+        print(i)
