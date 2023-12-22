@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
