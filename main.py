@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
