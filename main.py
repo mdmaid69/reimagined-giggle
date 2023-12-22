@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
