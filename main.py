@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def sort_list(lst):
-        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
