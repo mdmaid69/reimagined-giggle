@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
