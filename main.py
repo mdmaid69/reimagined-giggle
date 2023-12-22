@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
