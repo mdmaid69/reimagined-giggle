@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
