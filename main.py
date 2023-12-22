@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+name = "Python"
+print("Hello,", name)
