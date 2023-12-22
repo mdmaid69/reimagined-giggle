@@ -1,8 +1,6 @@
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
