@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_current_working_directory():
+        return os.getcwd()
