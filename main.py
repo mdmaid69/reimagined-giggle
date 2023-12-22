@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
