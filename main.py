@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def count_characters(sentence):
-        return len(sentence)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
