@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
