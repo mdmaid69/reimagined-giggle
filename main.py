@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
