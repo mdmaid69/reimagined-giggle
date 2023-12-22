@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
