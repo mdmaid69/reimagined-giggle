@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
