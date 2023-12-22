@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
