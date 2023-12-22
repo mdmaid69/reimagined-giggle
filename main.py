@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
+import array
+def clear_array(array):
+        array *= 0
