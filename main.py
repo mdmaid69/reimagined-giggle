@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
