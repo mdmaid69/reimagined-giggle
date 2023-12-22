@@ -1,8 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def print_python_version():
+        print(sys.version)
+import logging
+def log_message(message):
+        logging.info(message)
