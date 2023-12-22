@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
