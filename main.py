@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
