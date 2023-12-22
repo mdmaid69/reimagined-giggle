@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_density(mass, volume):
+        return mass / volume
+import platform
+def get_os_info():
+        return platform.uname()
