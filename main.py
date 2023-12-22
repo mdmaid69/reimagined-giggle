@@ -1,8 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
