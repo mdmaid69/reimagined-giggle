@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+def print_python_version():
+        return sys.version
