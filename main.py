@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def reverse_string(s):
-        return s[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
