@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
