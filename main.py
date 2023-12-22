@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
