@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
