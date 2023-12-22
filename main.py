@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
