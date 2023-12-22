@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
