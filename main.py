@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
