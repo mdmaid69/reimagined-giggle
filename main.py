@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def count_elements(lst):
+        return len(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
