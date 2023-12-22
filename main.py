@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_work(force, distance):
+        return force * distance
