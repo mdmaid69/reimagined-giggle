@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
