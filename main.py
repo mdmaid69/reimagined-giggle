@@ -1,7 +1,11 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
