@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
