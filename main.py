@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
