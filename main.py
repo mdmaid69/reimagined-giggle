@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
