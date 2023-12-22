@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
