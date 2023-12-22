@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
