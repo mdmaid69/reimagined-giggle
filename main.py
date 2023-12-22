@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def cube_number(x):
-        return x**3
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_hex(n):
+        return hex(n)
