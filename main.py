@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
