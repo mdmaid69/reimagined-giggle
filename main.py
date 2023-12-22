@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
