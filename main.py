@@ -1,3 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-print("Hello, world!")
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
