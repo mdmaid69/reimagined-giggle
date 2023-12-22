@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import os
-print(os.getcwd())
+import sys
+def exit_program():
+        sys.exit()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
