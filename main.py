@@ -1,8 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
