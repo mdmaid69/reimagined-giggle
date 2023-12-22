@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+for i in range(5):
+        print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
