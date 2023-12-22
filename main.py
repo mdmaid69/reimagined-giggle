@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
