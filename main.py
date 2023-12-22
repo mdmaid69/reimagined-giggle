@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_area_circle(r):
+        return 3.14 * r**2
