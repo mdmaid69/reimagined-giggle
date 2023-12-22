@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
