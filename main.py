@@ -1,5 +1,9 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
