@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+for i in range(5):
+        print(i)
+import time
+def get_current_time():
+        return time.time()
