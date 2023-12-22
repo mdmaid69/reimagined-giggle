@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
