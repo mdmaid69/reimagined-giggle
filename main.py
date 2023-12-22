@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
