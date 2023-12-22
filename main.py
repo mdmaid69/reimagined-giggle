@@ -1,4 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-print([x**2 for x in range(10)])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
