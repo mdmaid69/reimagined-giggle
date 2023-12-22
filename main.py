@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import platform
+def get_os_info():
+        return platform.uname()
