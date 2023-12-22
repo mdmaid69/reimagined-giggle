@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
