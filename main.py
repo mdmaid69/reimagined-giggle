@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
