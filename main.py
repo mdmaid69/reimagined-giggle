@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
