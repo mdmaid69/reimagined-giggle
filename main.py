@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def convert_to_hex(n):
-        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
