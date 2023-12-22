@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
