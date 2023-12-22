@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def cube_number(x):
-        return x**3
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
