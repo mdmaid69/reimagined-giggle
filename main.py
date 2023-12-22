@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_counter():
+        return collections.Counter()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
