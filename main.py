@@ -1,7 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
