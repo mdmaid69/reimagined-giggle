@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
