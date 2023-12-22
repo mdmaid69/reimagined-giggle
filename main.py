@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import tensorflow as tf
+print(tf.__version__)
