@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
