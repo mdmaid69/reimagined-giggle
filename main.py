@@ -1,8 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_as_bool(array):
+        return bool(array)
