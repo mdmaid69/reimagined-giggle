@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def remove_duplicates(lst):
+        return list(set(lst))
