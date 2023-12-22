@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
