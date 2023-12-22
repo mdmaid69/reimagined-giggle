@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
