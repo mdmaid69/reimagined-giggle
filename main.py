@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
