@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def clear_array(array):
+        array *= 0
+def add_numbers(a, b):
+        return a + b
