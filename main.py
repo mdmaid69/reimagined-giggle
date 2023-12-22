@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
