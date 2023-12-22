@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
