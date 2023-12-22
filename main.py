@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
