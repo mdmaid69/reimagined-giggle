@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
