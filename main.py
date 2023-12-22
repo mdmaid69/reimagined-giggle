@@ -1,7 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
