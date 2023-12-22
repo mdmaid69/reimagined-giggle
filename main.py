@@ -1,10 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
