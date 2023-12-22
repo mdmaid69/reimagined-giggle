@@ -1,6 +1,3 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+print([x**2 for x in range(10)])
+  def square_number(x):
+        return x**2
