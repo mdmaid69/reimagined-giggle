@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+print([x**2 for x in range(10)])
