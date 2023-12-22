@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_density(mass, volume):
-        return mass / volume
+import platform
+def get_os_info():
+        return platform.uname()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
