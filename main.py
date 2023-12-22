@@ -1,7 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_item(array, i):
+        return array[i]
+from collections import Counter
+print(Counter("hello world"))
