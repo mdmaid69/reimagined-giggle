@@ -1,5 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
