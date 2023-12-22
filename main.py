@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_stack():
+        return collections.deque()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
