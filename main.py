@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
