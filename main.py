@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def divide_numbers(x, y):
+        return x / y
