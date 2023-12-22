@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def is_even(n):
-        return n % 2 == 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
