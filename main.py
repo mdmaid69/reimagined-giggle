@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
