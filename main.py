@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
