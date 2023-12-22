@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
