@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
