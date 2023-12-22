@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def count_words(sentence):
+        return len(sentence.split())
