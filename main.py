@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def convert_to_hex(n):
+        return hex(n)
+def count_elements(lst):
+        return len(lst)
