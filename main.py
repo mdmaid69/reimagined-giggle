@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_volume(length, width, height):
+        return length * width * height
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
