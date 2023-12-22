@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def is_odd(n):
-        return n % 2 != 0
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
