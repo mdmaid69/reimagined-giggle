@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_max(lst):
-        return max(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
