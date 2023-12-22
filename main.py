@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
