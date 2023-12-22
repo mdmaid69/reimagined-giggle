@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
