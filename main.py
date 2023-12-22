@@ -1,6 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
