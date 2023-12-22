@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
