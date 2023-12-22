@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
