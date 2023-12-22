@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def convert_to_octal(n):
+        return oct(n)
