@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def cube_number(x):
+        return x**3
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_arc_sine(x):
+        return math.asin(x)
