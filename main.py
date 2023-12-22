@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
