@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
