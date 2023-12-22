@@ -1,8 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import datetime
+def get_today_date():
+        return datetime.date.today()
