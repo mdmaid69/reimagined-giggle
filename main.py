@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
