@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def convert_to_binary(n):
-        return bin(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
