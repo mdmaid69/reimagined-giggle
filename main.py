@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def reverse_string(s):
+        return s[::-1]
