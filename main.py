@@ -1,8 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
