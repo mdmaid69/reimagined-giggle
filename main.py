@@ -1,7 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
