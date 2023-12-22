@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import collections
+def create_user_list():
+        return collections.UserList()
