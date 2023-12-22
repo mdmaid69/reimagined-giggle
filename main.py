@@ -1,7 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-for i in range(10): print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
