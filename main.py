@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def find_unique_words(sentence):
+        return set(sentence.split())
