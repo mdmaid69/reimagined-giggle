@@ -1,6 +1,4 @@
+for i in range(10): print(i)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
