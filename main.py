@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
