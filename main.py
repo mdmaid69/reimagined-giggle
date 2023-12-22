@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import sys
+def exit_program():
+        sys.exit()
