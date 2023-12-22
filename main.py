@@ -1,7 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
