@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
