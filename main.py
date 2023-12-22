@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def reverse_string(s):
+        return s[::-1]
