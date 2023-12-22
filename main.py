@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
