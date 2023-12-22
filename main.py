@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
