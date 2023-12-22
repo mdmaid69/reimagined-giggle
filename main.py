@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
