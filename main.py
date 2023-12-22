@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
