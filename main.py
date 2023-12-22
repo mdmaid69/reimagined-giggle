@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
