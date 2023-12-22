@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
