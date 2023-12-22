@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
