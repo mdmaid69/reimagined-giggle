@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
