@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import time
-print(time.time())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
