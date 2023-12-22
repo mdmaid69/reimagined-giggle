@@ -1,4 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_power(work, time):
-        return work / time
+  def sort_list(lst):
+        return sorted(lst)
+  def count_elements(lst):
+        return len(lst)
