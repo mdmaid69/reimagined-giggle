@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
