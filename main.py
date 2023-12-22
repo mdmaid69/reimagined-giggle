@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_power(work, time):
+        return work / time
+import array
+def reverse_array(array):
+        array.reverse()
