@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
