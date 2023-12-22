@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
