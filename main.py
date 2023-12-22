@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_min(lst):
+        return min(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
