@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
