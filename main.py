@@ -1,12 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
