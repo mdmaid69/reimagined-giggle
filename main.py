@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
