@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
