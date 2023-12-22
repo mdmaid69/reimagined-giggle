@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
