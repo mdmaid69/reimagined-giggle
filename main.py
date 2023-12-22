@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
