@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+print(random.randint(0, 100))
