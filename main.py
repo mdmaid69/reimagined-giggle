@@ -1,3 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-print(sum(range(10)))
+def sort_numbers(numbers):
+        return sorted(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
