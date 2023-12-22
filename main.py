@@ -1,13 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import numpy as np
+print(np.array([1, 2, 3]))
