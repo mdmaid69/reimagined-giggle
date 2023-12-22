@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+print(math.pi)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
