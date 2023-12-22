@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
