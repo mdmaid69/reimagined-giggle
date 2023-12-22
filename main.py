@@ -1,7 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
