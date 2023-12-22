@@ -1,7 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
