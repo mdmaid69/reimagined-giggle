@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
