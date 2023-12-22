@@ -1,5 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
