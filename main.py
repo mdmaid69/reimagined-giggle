@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import sys
+  def get_python_version():
+        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
