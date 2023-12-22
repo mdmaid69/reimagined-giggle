@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
