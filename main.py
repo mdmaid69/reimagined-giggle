@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
