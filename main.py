@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_list():
-        return collections.UserList()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
