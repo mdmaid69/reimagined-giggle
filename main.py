@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
