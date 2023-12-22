@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
