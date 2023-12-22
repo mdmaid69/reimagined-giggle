@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
