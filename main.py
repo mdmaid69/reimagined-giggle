@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
