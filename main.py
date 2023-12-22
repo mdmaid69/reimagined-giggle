@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
