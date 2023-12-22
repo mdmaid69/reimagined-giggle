@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
