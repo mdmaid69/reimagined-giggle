@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
