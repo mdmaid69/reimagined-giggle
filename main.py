@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
