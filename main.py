@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
