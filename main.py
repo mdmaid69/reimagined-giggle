@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
