@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
