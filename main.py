@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
