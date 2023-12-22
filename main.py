@@ -1,8 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
