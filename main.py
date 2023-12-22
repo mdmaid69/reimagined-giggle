@@ -1,6 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
