@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def square_number(x):
+        return x**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
