@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def add_numbers(a, b):
-        return a + b
+def cube_number(x):
+        return x**3
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
