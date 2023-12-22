@@ -1,5 +1,5 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-print(math.pi)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+print(os.getcwd())
