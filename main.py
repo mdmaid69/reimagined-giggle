@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def clear_array(array):
+        array *= 0
