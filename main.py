@@ -1,7 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import platform
+def get_python_version():
+        return platform.python_version()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
