@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
