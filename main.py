@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def sort_list(lst):
+        return sorted(lst)
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_environment_variable(var):
+        return os.getenv(var)
