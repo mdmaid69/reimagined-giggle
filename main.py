@@ -1,7 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
