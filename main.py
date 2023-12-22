@@ -1,9 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
