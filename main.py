@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
