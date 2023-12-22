@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
