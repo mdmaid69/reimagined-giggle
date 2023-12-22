@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
