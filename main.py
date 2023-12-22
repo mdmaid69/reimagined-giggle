@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_string_from_array(array):
+        return array.tobytes()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
