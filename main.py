@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
