@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
