@@ -1,7 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
