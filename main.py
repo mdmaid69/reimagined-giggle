@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def convert_to_binary(n):
+        return bin(n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
