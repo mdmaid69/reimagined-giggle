@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
