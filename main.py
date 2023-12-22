@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
