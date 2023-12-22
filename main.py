@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_size(filename):
+        return os.path.getsize(filename)
