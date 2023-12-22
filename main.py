@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+name = "Python"
+print("Hello,", name)
