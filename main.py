@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
