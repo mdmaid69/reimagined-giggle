@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
