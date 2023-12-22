@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
