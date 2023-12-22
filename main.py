@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
