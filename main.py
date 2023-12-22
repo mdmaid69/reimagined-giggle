@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def is_even(n):
-        return n % 2 == 0
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
