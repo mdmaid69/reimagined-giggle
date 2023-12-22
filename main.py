@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
