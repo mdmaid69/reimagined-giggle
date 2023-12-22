@@ -1,5 +1,8 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
