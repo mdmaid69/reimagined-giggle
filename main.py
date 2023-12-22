@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
