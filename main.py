@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
