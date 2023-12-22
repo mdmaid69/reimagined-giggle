@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
