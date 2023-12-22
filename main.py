@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
