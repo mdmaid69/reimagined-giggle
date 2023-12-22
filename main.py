@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def reverse_string(s):
+        return s[::-1]
