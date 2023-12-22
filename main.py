@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def delete_file(file_name):
+        os.remove(file_name)
