@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_as_str(array):
+        return str(array)
