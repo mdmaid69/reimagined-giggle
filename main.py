@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def is_odd(n):
-        return n % 2 != 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def cube_number(x):
+        return x**3
