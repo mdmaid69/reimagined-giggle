@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
