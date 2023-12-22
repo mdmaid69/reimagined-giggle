@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_acceleration(speed, time):
+        return speed / time
