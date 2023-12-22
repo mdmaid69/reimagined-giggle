@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
