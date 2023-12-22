@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
