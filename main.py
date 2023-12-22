@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def subtract_numbers(x, y):
-        return x - y
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
