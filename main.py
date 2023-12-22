@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
