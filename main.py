@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_exponential(x):
+        return math.exp(x)
