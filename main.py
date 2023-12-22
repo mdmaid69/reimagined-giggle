@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
