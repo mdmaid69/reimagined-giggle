@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def is_even(n):
-        return n % 2 == 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
