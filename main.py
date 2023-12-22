@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-from collections import Counter
-print(Counter("hello world"))
+  def count_elements(lst):
+        return len(lst)
+  def square_number(x):
+        return x**2
