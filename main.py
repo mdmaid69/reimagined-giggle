@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
