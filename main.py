@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
