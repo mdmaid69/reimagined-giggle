@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
