@@ -1,4 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def convert_to_binary(n):
-        return bin(n)
+  def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
