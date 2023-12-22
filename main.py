@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_area_rectangle(l, w):
+        return l * w
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
