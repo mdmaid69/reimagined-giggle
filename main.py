@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_power(work, time):
-        return work / time
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
