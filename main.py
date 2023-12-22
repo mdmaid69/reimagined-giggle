@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_array_to_list(array):
+        return array.tolist()
