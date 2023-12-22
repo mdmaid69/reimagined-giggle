@@ -1,6 +1,10 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
