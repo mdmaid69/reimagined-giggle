@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
