@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
