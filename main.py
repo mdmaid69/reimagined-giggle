@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
