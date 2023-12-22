@@ -1,5 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
