@@ -1,4 +1,3 @@
+def is_even(n):
+        return n % 2 == 0
 for i in range(10): print(i)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
