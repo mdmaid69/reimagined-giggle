@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def find_min(numbers):
+        return min(numbers)
