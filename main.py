@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
