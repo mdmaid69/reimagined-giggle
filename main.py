@@ -1,5 +1,9 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
