@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
