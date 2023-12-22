@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
