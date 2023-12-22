@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def reverse_array(array):
+        array.reverse()
