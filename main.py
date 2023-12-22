@@ -1,6 +1,6 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
