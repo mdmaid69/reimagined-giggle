@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
