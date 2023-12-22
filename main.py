@@ -1,6 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
