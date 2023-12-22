@@ -1,4 +1,4 @@
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Is palindrome:", text == text[::-1])
+def convert_to_binary(n):
+        return bin(n)
