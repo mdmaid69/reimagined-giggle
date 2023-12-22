@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
