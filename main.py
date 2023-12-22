@@ -1,7 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
