@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
