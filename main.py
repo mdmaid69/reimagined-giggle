@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
