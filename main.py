@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
