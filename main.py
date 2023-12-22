@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
