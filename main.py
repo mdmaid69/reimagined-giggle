@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
