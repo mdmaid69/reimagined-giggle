@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def is_even(n):
+        return n % 2 == 0
+def find_min(lst):
+        return min(lst)
