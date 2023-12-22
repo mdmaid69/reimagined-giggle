@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
