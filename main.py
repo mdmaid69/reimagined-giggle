@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
