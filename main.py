@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import time
-def get_current_time():
-        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
