@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def add_numbers(a, b):
-        return a + b
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
