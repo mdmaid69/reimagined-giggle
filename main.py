@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
