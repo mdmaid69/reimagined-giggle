@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
