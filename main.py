@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
