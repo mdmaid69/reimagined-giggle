@@ -1,6 +1,9 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
