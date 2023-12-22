@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
