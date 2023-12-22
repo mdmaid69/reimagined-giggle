@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import platform
+def get_python_version():
+        return platform.python_version()
