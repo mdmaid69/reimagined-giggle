@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
