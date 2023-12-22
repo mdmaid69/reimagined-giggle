@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import re
+print(re.match("h.*o", "hello world"))
