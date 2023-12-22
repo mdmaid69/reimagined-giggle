@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
