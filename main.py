@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
