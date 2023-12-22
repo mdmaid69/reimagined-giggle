@@ -1,8 +1,12 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
