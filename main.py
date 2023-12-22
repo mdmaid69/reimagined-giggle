@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import getpass
+def get_username():
+        return getpass.getuser()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
