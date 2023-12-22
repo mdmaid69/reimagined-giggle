@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def reverse_list(lst):
+        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
