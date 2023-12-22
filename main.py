@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
