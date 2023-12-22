@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def clear_array(array):
-        array *= 0
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_area_circle(r):
+        return 3.14 * r**2
