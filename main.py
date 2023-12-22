@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
