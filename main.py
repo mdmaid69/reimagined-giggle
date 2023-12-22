@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
