@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
