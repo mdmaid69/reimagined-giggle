@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def print_python_version():
+        print(sys.version)
