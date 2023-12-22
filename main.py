@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_stack():
+        return collections.deque()
