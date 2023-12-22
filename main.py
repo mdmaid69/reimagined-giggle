@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
