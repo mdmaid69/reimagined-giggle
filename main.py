@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
