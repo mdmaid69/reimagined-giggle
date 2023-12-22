@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def roll_die():
+        return random.randint(1, 6)
