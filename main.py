@@ -1,6 +1,8 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
