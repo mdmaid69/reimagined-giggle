@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
