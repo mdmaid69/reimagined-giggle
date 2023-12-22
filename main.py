@@ -1,7 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
