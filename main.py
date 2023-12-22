@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
