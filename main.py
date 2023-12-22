@@ -1,5 +1,11 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
