@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import time
-def get_current_time():
-        return time.ctime()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
