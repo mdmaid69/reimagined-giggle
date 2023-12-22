@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import time
-print(time.time())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
