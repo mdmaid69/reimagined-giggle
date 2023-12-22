@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
