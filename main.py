@@ -1,7 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
