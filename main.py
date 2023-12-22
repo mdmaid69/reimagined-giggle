@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
