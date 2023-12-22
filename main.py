@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
