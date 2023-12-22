@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+print(random.randint(0, 100))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
