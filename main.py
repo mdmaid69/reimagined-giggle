@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def square_number(x):
+        return x**2
+import re
+print(re.match("h.*o", "hello world"))
