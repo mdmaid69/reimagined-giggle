@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
