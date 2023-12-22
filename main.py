@@ -1,8 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
