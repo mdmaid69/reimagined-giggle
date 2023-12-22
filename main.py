@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
