@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
