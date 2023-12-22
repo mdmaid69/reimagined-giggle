@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
