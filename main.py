@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
