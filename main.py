@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
