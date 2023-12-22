@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-name = "Python"
-print("Hello,", name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+print([x**2 for x in range(10)])
