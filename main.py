@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
