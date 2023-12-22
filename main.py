@@ -1,5 +1,5 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+print("Average:", sum(numbers) / len(numbers))
