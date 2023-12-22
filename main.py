@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
