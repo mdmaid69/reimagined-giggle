@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
