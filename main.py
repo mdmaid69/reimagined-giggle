@@ -1,5 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def reverse_list(lst):
-        return lst[::-1]
+for i in range(10): print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
