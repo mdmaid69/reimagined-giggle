@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def sort_list(lst):
-        return sorted(lst)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
