@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
