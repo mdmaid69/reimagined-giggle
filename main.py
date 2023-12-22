@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
