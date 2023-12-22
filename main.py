@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
