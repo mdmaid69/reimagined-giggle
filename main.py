@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
