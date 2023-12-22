@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import datetime
-print(datetime.datetime.now())
+def convert_to_hex(n):
+        return hex(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
