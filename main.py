@@ -1,7 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
