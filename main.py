@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
