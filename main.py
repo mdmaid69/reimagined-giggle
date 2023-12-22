@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def append_to_array(array, item):
-        array.append(item)
+print(sum(range(10)))
+  def reverse_list(lst):
+        return lst[::-1]
