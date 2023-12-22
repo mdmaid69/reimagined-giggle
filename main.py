@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_pressure(force, area):
+        return force / area
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
