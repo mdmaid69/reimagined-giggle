@@ -1,6 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def multiply_numbers(x, y):
+        return x * y
