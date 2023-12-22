@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def cube_number(x):
+        return x**3
