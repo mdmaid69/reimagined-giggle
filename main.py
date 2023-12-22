@@ -1,7 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def cube_number(x):
+        return x**3
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
