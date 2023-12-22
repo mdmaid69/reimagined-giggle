@@ -1,7 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+print(math.pi)
