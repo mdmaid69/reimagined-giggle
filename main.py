@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
