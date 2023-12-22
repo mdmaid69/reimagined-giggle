@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
