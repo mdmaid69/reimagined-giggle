@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
