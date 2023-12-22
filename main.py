@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
