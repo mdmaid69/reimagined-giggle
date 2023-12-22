@@ -1,6 +1,5 @@
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
