@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
