@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
