@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_os_info():
-        return platform.uname()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
