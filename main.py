@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
