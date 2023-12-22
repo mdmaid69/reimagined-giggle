@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
