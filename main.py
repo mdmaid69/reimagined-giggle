@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import datetime
+def get_current_date():
+        return datetime.date.today()
