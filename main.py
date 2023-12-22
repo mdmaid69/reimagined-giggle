@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def square_number(x):
-        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
