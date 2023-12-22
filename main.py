@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
