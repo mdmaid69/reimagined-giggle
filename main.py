@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+for i in range(5):
+        print(i)
+def divide_numbers(x, y):
+        return x / y
