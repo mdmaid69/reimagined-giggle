@@ -1,5 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
