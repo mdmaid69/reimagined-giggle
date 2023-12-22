@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
