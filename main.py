@@ -1,4 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
