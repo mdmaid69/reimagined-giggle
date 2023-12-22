@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def find_min(lst):
-        return min(lst)
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
