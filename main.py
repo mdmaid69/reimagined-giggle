@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def cube_number(x):
+        return x**3
+import datetime
+def get_today_date():
+        return datetime.date.today()
