@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import datetime
-print(datetime.datetime.now())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
