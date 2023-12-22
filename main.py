@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+print(json.dumps({"name": "John", "age": 30}))
