@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
