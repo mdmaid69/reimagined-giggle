@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
