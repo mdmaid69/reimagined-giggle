@@ -1,10 +1,3 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+for i in range(10): print(i)
