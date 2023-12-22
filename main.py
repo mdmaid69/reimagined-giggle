@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def divide_numbers(x, y):
+        return x / y
+  def convert_to_hex(n):
+        return hex(n)
