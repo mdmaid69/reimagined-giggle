@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def clear_array(array):
+        array *= 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
