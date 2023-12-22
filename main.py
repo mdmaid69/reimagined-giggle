@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
