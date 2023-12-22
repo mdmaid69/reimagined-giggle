@@ -1,6 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_typecode(array):
+        return array.typecode
