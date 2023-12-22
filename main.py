@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
