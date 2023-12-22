@@ -1,5 +1,8 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_even(n):
-        return n % 2 == 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
