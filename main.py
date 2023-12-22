@@ -1,4 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_str(array):
+        return str(array)
