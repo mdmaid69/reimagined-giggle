@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
