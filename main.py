@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def convert_to_octal(n):
+        return oct(n)
