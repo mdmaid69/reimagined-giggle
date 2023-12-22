@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
