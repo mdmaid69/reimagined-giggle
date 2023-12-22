@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
