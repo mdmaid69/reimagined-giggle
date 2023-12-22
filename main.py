@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def count_characters(sentence):
+        return len(sentence)
