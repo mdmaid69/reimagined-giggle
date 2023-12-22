@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
