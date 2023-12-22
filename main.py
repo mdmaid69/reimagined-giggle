@@ -1,6 +1,3 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+print([x**2 for x in range(10)])
