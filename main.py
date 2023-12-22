@@ -1,8 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
