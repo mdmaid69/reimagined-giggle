@@ -1,9 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
