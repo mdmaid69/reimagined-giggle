@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
