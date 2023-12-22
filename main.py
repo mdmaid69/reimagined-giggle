@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
