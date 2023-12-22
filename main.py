@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
