@@ -1,11 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
