@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
