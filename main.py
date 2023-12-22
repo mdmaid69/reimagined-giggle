@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def square_number(x):
-        return x**2
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
