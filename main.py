@@ -1,8 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
