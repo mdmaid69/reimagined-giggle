@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
