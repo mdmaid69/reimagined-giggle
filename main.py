@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
