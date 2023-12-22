@@ -1,5 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
