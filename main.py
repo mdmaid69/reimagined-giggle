@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
