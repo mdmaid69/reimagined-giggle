@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
