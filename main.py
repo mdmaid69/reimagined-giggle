@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def get_current_time():
-        return time.time()
+def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
