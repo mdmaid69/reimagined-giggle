@@ -1,4 +1,5 @@
-print("Hello, world!")
+  def square_number(x):
+        return x**2
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
