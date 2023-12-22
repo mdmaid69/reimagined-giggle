@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def add_numbers(x, y):
+        return x + y
