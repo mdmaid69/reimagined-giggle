@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_counter():
+        return collections.Counter()
