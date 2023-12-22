@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
