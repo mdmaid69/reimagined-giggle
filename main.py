@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
