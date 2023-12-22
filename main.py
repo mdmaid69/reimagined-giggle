@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import platform
+def get_python_version():
+        return platform.python_version()
+def count_words(sentence):
+        return len(sentence.split())
