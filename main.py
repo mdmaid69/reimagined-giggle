@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+for i in range(10): print(i)
