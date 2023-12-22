@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
