@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_index(array, item):
+        return array.index(item)
