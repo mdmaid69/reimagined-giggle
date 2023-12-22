@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
