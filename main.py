@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
