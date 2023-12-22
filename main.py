@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import datetime
+print(datetime.datetime.now())
