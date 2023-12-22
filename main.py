@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
