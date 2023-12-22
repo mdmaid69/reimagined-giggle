@@ -1,6 +1,7 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
