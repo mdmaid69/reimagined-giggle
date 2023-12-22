@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
