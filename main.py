@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
