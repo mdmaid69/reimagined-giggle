@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_file(file_name):
+        os.remove(file_name)
+  def convert_to_binary(n):
+        return bin(n)
