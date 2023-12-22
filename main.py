@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
