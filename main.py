@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-def add_numbers(a, b):
-        return a + b
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_work(force, distance):
+        return force * distance
