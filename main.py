@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
