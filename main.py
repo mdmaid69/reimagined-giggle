@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def is_even(n):
+        return n % 2 == 0
