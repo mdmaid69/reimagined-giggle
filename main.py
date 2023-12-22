@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
