@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def convert_to_binary(n):
+        return bin(n)
