@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
