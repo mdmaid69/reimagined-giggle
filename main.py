@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
