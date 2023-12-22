@@ -1,6 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print("Hello, world!")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
