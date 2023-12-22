@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
