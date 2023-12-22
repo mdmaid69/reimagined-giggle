@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def iterate_over_array(array):
+        for item in array:
+        print(item)
