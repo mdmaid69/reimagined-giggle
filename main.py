@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def count_words(sentence):
+        return len(sentence.split())
