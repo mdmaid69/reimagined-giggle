@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
