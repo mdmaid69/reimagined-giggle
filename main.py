@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
