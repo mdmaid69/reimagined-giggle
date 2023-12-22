@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
