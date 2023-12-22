@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_min(lst):
+        return min(lst)
+def subtract_numbers(x, y):
+        return x - y
