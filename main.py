@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
