@@ -1,5 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import random
+print(random.randint(0, 100))
