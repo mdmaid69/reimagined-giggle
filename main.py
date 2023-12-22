@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def convert_to_binary(n):
+        return bin(n)
