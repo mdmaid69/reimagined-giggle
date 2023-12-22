@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import sys
-def exit_program():
-        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
