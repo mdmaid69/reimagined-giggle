@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
