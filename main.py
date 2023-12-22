@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
