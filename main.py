@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
