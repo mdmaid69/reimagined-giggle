@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def reverse_list(lst):
-        return lst[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
