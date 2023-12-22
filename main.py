@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def cube_number(x):
-        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
