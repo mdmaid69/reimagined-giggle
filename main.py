@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_sine(x):
+        return math.sin(x)
