@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-def print_python_version():
-        return sys.version
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
