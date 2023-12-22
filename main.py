@@ -1,6 +1,10 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
