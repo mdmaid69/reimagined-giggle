@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def sort_list(lst):
-        return sorted(lst)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
