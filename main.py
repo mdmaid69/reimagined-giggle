@@ -1,5 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
