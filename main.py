@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def count_elements(lst):
-        return len(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import logging
+def log_message(message):
+        logging.info(message)
