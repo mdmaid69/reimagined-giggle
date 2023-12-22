@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
