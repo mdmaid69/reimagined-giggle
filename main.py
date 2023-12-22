@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
