@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
