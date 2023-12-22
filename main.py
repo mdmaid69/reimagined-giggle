@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
