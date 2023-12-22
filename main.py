@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
