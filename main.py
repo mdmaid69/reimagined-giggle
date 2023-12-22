@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
