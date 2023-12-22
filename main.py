@@ -1,5 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import os
-print(os.getcwd())
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
