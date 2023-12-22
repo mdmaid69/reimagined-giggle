@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def multiply_numbers(x, y):
+        return x * y
