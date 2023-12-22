@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import time
+def get_current_time():
+        return time.ctime()
