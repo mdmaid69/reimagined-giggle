@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
