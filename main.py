@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
