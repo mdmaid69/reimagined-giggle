@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def print_python_version():
+        print(sys.version)
