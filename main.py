@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_min(lst):
+        return min(lst)
