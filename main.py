@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
