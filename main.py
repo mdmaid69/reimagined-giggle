@@ -1,5 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
