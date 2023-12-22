@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
