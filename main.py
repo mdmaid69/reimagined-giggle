@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
