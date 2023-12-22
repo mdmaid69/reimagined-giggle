@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
