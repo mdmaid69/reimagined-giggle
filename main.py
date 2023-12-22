@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def divide_numbers(x, y):
-        return x / y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def square_number(x):
+        return x**2
