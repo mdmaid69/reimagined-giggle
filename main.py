@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
