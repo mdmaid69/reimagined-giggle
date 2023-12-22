@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+print(random.randint(0, 100))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
