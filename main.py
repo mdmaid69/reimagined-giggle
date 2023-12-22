@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
