@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-  def sort_list(lst):
-        return sorted(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
