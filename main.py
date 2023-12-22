@@ -1,7 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
