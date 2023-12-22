@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
