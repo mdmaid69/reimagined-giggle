@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_user_string():
+        return collections.UserString()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
