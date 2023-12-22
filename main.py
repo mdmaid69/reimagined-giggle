@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
