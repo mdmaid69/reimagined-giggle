@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def reverse_list(lst):
-        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
