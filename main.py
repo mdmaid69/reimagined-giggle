@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
