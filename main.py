@@ -1,9 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
