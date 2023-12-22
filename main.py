@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
