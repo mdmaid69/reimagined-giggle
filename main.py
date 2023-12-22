@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
