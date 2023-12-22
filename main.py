@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_volume(length, width, height):
+        return length * width * height
