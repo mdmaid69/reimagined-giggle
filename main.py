@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
