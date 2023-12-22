@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
