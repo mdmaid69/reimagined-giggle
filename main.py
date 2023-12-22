@@ -1,3 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-for i in range(10): print(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
