@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
