@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
