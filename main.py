@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
