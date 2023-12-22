@@ -1,5 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
