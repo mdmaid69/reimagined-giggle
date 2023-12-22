@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
