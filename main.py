@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
