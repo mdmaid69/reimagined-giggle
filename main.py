@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_pressure(force, area):
-        return force / area
+def reverse_list(lst):
+        return lst[::-1]
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
