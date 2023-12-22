@@ -1,3 +1,5 @@
-print(sum(range(10)))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+print(sys.version)
+import os
+def change_working_directory(path):
+        os.chdir(path)
