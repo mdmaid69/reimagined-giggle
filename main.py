@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
