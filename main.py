@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_typecode(array):
+        return array.typecode
