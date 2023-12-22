@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
+import time
+def get_current_time():
+        return time.ctime()
