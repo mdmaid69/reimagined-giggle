@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
