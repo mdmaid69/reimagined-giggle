@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
