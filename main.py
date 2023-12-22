@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def cube_number(x):
+        return x**3
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
