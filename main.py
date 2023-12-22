@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def cube_number(x):
+        return x**3
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
