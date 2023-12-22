@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
