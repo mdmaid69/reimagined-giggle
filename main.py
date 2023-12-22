@@ -1,6 +1,7 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def is_even(n):
+        return n % 2 == 0
