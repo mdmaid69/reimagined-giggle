@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
