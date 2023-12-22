@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
