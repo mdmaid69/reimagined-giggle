@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import sys
+  def get_python_version():
+        return sys.version
