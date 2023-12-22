@@ -1,5 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
