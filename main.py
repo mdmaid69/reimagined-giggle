@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
