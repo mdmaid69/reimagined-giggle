@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
