@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def convert_to_binary(n):
-        return bin(n)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import tensorflow as tf
+print(tf.__version__)
