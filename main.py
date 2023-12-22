@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def is_palindrome(s):
+        return s == s[::-1]
