@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+name = "Python"
+print("Hello,", name)
