@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
