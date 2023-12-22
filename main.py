@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
