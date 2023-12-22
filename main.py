@@ -1,7 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
