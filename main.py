@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def count_characters(sentence):
+        return len(sentence)
