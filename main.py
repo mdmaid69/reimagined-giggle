@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
