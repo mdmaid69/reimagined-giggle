@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
