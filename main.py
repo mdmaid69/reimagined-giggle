@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def find_min(numbers):
+        return min(numbers)
