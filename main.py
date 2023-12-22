@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
