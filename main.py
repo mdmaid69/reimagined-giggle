@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import sys
+print(sys.version)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
