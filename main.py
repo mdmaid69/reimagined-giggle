@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def divide_numbers(x, y):
+        return x / y
