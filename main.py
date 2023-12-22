@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_elements(lst):
+        return len(lst)
