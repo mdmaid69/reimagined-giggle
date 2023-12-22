@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_index(array, item):
+        return array.index(item)
