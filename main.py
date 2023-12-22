@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
