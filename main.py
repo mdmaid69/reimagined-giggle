@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
