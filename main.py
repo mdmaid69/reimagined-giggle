@@ -1,5 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
