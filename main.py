@@ -1,7 +1,7 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
