@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_odd(n):
+        return n % 2 != 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
