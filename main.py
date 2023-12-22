@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
