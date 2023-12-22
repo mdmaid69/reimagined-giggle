@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_length(array):
+        return len(array)
