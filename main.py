@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def count_elements(lst):
+        return len(lst)
+import collections
+def create_user_list():
+        return collections.UserList()
