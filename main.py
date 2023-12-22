@@ -1,8 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def greet(name):
+        print(f"Hello, {name}!")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
