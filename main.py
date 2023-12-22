@@ -1,8 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_user_string():
+        return collections.UserString()
+import getpass
+def get_username():
+        return getpass.getuser()
