@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
