@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def sort_list(lst):
+        return sorted(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
