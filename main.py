@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
