@@ -1,8 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
