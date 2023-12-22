@@ -1,4 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-print(sum(range(10)))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
