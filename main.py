@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def add_numbers(x, y):
-        return x + y
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
