@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
