@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_power(work, time):
-        return work / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+for i in range(5):
+        print(i)
