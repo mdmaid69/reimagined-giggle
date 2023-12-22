@@ -1,7 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
