@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
