@@ -1,5 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
