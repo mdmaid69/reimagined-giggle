@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_min(lst):
+        return min(lst)
