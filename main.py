@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
