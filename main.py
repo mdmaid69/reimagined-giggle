@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
