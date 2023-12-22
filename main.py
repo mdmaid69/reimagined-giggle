@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_as_str(array):
+        return str(array)
