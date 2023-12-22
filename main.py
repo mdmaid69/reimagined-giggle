@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import time
+def get_current_time():
+        return time.time()
+def calculate_power(work, time):
+        return work / time
