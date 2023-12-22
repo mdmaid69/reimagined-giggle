@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def set_array_item(array, i, item):
+        array[i] = item
