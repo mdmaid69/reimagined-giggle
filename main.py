@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
