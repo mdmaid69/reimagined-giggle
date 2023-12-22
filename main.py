@@ -1,6 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def remove_duplicates(lst):
+        return list(set(lst))
