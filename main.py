@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def is_even(n):
+        return n % 2 == 0
+def multiply_numbers(x, y):
+        return x * y
