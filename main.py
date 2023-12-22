@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import sys
+def print_python_version():
+        print(sys.version)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
