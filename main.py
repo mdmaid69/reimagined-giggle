@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def clear_array(array):
+        array *= 0
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
