@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
