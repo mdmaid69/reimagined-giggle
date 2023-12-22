@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
