@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
