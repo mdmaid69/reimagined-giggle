@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
