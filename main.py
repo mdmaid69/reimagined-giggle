@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
