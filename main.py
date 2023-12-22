@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
