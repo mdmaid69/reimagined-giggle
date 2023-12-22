@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
