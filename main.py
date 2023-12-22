@@ -1,5 +1,8 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def count_elements(lst):
-        return len(lst)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
