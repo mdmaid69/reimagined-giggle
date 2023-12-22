@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def sort_list(lst):
+        return sorted(lst)
