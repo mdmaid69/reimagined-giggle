@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
