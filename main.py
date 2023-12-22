@@ -1,5 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
