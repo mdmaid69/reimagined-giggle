@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_set(array):
+        return set(array)
