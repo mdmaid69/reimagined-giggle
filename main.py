@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
