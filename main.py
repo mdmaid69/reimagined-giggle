@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
