@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
