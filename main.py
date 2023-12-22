@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
