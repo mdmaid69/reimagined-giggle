@@ -1,6 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def clear_array(array):
+        array *= 0
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
