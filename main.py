@@ -1,6 +1,6 @@
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
