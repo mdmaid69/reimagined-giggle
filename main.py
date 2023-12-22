@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
