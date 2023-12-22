@@ -1,7 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
