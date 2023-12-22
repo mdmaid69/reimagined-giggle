@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
