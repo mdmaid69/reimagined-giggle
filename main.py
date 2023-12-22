@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-print(os.getcwd())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_as_str(array):
+        return str(array)
