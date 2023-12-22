@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_min(numbers):
+        return min(numbers)
+def convert_to_hex(n):
+        return hex(n)
