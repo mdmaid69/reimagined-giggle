@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
