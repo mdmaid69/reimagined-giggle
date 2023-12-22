@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_density(mass, volume):
-        return mass / volume
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
