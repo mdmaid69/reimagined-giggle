@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+for i in range(10): print(i)
