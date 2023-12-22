@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def add_numbers(x, y):
+        return x + y
