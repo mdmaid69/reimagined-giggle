@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
