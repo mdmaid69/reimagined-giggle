@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
