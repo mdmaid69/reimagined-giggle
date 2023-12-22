@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
