@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def multiply_numbers(x, y):
-        return x * y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
