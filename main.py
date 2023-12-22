@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import time
+def get_current_time():
+        return time.ctime()
