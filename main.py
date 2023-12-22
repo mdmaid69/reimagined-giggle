@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
