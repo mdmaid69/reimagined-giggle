@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
