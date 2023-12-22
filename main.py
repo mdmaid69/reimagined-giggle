@@ -1,8 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
