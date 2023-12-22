@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
