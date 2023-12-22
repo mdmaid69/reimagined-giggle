@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_acceleration(speed, time):
+        return speed / time
