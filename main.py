@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
