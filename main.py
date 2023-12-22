@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
