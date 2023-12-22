@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
