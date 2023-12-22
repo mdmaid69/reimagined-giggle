@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def convert_to_octal(n):
-        return oct(n)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
