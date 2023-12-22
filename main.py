@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_floor(x):
+        return math.floor(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
