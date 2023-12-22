@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
