@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
