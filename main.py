@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
