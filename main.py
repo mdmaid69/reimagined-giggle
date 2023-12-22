@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_sine(x):
+        return math.sin(x)
