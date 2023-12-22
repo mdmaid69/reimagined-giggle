@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
