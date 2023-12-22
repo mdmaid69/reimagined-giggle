@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
