@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+print(sys.version)
 import platform
-def get_os_info():
-        return platform.uname()
+def get_python_version():
+        return platform.python_version()
