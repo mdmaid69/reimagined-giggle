@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def cube_number(x):
-        return x**3
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
