@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def square_number(x):
-        return x**2
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
