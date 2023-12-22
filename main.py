@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
