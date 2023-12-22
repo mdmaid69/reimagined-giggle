@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
