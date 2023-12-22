@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def convert_to_octal(n):
-        return oct(n)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
