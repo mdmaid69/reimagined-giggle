@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
