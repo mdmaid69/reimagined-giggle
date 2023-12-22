@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
