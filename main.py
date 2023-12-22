@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
