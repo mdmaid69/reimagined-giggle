@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
