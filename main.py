@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_rectangle(l, w):
+        return l * w
+def is_even(n):
+        return n % 2 == 0
