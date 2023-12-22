@@ -1,6 +1,4 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def set_array_item(array, i, item):
+        array[i] = item
+print(sum(range(10)))
