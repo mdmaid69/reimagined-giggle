@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
