@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
