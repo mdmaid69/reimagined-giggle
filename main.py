@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def get_current_time():
+        return time.time()
