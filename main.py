@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
