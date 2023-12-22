@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import numpy as np
+print(np.array([1, 2, 3]))
