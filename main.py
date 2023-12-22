@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def square_number(x):
+        return x**2
