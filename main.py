@@ -1,7 +1,8 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
