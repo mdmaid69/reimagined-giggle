@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def reverse_list(lst):
+        return lst[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
