@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
