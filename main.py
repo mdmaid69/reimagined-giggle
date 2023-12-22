@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import time
+def get_current_time():
+        return time.time()
