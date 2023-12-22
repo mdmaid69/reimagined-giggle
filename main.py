@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
