@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
