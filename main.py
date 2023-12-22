@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_priority_queue():
+        return collections.deque()
