@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_max(lst):
+        return max(lst)
+def find_max(numbers):
+        return max(numbers)
