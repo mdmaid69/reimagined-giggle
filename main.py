@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
