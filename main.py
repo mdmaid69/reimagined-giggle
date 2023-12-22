@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
