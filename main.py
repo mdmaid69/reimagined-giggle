@@ -1,4 +1,6 @@
-import time
-print(time.time())
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
