@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import tensorflow as tf
+print(tf.__version__)
