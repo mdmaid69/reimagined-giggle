@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+print(sum(range(10)))
