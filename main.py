@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def subtract_numbers(x, y):
+        return x - y
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
