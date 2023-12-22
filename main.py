@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def convert_to_octal(n):
+        return oct(n)
