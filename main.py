@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
