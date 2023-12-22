@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
