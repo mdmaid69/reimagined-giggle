@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
