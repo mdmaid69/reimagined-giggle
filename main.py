@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
