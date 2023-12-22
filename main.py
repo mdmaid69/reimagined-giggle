@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
