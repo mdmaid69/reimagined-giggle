@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_as_complex(array):
+        return complex(array[0])
