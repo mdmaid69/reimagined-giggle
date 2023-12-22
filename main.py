@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+def exit_program():
+        sys.exit()
