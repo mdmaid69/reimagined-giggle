@@ -1,5 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
