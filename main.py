@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_as_repr(array):
+        return repr(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
