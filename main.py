@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
