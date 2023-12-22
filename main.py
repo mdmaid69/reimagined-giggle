@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
