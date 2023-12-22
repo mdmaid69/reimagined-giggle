@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
