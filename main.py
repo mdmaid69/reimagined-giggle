@@ -1,5 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
