@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
