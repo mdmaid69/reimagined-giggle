@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
