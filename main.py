@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
