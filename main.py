@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_current_working_directory():
+        return os.getcwd()
