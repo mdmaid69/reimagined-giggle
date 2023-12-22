@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def convert_to_binary(n):
+        return bin(n)
