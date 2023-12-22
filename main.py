@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import getpass
-def get_username():
-        return getpass.getuser()
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_acceleration(speed, time):
+        return speed / time
