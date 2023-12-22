@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
