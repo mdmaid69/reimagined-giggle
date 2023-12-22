@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def greet(name):
+        print(f"Hello, {name}!")
