@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-name = "Python"
-print("Hello,", name)
+  def get_current_directory():
+        return os.getcwd()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
