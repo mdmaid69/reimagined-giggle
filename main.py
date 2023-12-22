@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
