@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
