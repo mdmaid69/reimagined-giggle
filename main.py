@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
