@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+print(sum(range(10)))
