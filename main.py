@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def reverse_list(lst):
+        return lst[::-1]
