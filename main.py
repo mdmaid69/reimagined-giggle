@@ -1,6 +1,5 @@
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
