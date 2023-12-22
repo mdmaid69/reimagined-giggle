@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
