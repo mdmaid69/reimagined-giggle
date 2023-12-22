@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
