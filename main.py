@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
