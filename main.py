@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
