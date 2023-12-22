@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
