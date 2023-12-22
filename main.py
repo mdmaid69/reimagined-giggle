@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
