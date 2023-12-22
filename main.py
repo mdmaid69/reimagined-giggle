@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
