@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
