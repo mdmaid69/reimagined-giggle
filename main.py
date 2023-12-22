@@ -1,5 +1,8 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
