@@ -1,8 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_user_list():
+        return collections.UserList()
