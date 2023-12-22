@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def add_numbers(a, b):
-        return a + b
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
