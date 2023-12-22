@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_floor(x):
+        return math.floor(x)
