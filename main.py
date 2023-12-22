@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
