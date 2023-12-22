@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
