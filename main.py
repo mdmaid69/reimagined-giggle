@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
