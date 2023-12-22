@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+x = 10
+y = 20
+print("Sum:", x + y)
