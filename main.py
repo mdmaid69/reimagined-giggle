@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def reverse_list(lst):
+        return lst[::-1]
