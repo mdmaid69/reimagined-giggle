@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
