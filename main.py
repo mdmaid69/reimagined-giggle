@@ -1,5 +1,7 @@
-for i in range(5):
-        print(i)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
