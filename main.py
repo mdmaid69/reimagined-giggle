@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
