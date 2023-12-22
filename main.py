@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
