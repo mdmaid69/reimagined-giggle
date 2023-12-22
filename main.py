@@ -1,5 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
