@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
