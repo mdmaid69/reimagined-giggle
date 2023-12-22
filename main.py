@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
