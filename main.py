@@ -1,6 +1,11 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
