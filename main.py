@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
