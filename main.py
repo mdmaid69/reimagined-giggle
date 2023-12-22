@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import random
+print(random.randint(0, 100))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
