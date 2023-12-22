@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
