@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item(array, i):
+        return array[i]
