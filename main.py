@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def is_even(n):
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_even(n):
         return n % 2 == 0
