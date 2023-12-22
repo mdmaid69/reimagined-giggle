@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def reverse_list(lst):
+        return lst[::-1]
