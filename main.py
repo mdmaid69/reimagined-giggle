@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
