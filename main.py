@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def convert_to_octal(n):
+        return oct(n)
+import random
+print(random.randint(0, 100))
