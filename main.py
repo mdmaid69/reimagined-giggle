@@ -1,6 +1,9 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def print_python_version():
+        return sys.version
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
