@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import tensorflow as tf
+print(tf.__version__)
+def square_number(x):
+        return x**2
