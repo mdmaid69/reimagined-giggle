@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
