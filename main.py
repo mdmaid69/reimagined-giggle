@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_typecode(array):
+        return array.typecode
