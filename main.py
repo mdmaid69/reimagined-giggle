@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def cube_number(x):
-        return x**3
+def convert_to_binary(n):
+        return bin(n)
+  import sys
+  def get_python_version():
+        return sys.version
