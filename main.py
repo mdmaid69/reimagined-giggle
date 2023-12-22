@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+def count_elements(lst):
+        return len(lst)
