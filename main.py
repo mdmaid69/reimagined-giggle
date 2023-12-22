@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
