@@ -1,7 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def append_to_array(array, item):
+        array.append(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
