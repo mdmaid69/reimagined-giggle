@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import os
-print(os.getcwd())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def cube_number(x):
+        return x**3
