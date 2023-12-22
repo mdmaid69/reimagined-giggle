@@ -1,4 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
