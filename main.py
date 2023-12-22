@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
