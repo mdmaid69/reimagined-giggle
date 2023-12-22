@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def cube_number(x):
+        return x**3
