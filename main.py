@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
