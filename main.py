@@ -1,5 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def count_elements(lst):
+        return len(lst)
