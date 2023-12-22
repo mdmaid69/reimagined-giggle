@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
