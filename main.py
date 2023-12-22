@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def cube_number(x):
+        return x**3
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
