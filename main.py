@@ -1,5 +1,4 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
