@@ -1,12 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
