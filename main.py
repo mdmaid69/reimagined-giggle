@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def reverse_list(lst):
+        return lst[::-1]
+def find_max(lst):
+        return max(lst)
