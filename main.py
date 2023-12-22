@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_power(work, time):
-        return work / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
