@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def roll_die():
+        return random.randint(1, 6)
