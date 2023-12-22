@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
