@@ -1,4 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
