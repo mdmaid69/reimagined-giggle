@@ -1,5 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def add_numbers(x, y):
-        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def remove_duplicates(lst):
+        return list(set(lst))
