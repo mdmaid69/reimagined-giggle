@@ -1,6 +1,10 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
