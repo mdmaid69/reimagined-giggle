@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def subtract_numbers(x, y):
+        return x - y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
