@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
