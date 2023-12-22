@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
