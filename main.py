@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def cube_number(x):
+        return x**3
