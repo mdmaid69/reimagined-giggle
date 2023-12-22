@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
