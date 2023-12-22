@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def is_even(n):
-        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
