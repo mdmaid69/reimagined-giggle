@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
