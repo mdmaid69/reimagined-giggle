@@ -1,4 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
