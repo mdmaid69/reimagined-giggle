@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
