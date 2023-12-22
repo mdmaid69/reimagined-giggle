@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_pressure(force, area):
+        return force / area
