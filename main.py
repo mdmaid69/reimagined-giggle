@@ -1,7 +1,3 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_acceleration(speed, time):
+        return speed / time
+print([x**2 for x in range(10)])
