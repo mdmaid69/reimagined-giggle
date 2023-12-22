@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def divide_numbers(x, y):
+        return x / y
