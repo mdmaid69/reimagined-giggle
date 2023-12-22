@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
