@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
