@@ -1,5 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
