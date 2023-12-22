@@ -1,9 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
