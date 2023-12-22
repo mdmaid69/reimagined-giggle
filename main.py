@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
