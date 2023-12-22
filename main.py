@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Words:", len(text.split()))
