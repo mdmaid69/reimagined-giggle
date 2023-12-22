@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import tensorflow as tf
+print(tf.__version__)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
