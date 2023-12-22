@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def cube_number(x):
-        return x**3
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
