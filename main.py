@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def reverse_string(s):
-        return s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+print(datetime.datetime.now())
