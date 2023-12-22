@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
