@@ -1,6 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+name = "Python"
+print("Hello,", name)
