@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
