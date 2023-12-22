@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
