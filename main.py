@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def square_number(x):
+        return x**2
