@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+for i in range(5):
+        print(i)
+import collections
+def create_priority_queue():
+        return collections.deque()
