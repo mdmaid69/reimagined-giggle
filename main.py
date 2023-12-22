@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
