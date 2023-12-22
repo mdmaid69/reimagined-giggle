@@ -1,7 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
