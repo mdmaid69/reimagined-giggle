@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
