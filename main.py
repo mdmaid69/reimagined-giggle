@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def count_characters(sentence):
-        return len(sentence)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
