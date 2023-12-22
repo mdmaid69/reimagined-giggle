@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_user_list():
-        return collections.UserList()
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
