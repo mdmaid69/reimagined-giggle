@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
