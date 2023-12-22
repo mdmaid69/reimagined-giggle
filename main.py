@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import sys
+def print_python_version():
+        return sys.version
