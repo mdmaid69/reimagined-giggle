@@ -1,7 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
