@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
