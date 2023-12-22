@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
