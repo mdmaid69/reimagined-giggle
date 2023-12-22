@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def add_numbers(x, y):
-        return x + y
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
