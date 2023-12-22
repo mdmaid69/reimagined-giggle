@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
