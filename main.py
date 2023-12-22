@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
