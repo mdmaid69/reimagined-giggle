@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
