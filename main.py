@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
