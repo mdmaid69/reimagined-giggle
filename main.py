@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_area(radius):
+        return 3.14 * radius * radius
