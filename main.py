@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def convert_to_binary(n):
+        return bin(n)
