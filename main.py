@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import tensorflow as tf
+print(tf.__version__)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
