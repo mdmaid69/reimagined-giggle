@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
