@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
