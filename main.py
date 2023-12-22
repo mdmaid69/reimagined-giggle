@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import sys
+  def get_python_version():
+        return sys.version
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
