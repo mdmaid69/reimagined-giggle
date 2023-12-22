@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def subtract_numbers(x, y):
+        return x - y
