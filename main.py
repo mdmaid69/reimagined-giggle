@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import platform
+def get_os_info():
+        return platform.uname()
