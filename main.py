@@ -1,4 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
