@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
