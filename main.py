@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
