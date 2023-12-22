@@ -1,11 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def is_even(n):
+        return n % 2 == 0
