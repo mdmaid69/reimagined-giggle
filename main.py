@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
