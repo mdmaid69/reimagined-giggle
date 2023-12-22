@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
