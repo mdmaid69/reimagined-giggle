@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import re
-print(re.match("h.*o", "hello world"))
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
