@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
