@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
