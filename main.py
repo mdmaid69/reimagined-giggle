@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def cube_number(x):
+        return x**3
