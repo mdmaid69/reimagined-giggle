@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
