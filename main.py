@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_sine(x):
+        return math.sin(x)
