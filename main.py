@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_list(array):
+        return list(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
