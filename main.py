@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
