@@ -1,7 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
