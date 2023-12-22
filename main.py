@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
