@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
