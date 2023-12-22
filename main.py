@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
