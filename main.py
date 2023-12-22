@@ -1,4 +1,8 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-print("Hello, world!")
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_item(array, i):
+        return array[i]
