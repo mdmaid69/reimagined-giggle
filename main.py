@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
