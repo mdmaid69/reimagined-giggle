@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
