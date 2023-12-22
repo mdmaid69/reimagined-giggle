@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
