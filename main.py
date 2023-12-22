@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
