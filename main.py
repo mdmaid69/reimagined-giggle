@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-print(math.pi)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
