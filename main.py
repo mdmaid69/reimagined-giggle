@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import logging
+def log_message(message):
+        logging.info(message)
