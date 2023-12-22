@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
