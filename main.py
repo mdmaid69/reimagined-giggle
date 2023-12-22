@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
