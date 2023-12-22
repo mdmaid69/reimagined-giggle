@@ -1,7 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
