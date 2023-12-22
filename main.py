@@ -1,6 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_hex(n):
+        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
