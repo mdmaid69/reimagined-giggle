@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
