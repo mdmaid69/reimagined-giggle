@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_work(force, distance):
+        return force * distance
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
