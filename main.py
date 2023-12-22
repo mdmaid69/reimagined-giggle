@@ -1,8 +1,11 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import collections
-def create_counter():
-        return collections.Counter()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
