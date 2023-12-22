@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_unique_words(sentence):
+        return set(sentence.split())
