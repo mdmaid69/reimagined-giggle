@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
