@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def count_elements(lst):
+        return len(lst)
