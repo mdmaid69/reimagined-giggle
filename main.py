@@ -1,5 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import os
+def get_current_working_directory():
+        return os.getcwd()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
