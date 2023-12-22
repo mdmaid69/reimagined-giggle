@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
