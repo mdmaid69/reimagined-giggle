@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
