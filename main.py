@@ -1,4 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-for i in range(10): print(i)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
