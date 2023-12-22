@@ -1,6 +1,12 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
