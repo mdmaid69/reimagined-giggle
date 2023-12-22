@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import sys
-print(sys.version)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
