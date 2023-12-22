@@ -1,7 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_acceleration(speed, time):
+        return speed / time
