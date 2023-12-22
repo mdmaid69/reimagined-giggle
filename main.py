@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
