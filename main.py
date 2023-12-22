@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_max(lst):
+        return max(lst)
