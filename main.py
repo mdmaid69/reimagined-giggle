@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
