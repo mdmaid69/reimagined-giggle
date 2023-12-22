@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
