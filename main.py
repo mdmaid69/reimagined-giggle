@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
