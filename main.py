@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def cube_number(x):
-        return x**3
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
