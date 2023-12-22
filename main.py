@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
