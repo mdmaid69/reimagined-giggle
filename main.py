@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
