@@ -1,7 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def convert_to_binary(n):
-        return bin(n)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
