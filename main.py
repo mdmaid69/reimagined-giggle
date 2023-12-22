@@ -1,4 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-name = "Python"
-print("Hello,", name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
