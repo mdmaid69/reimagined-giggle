@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def remove_duplicates(lst):
-        return list(set(lst))
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_int(array):
+        return int(array[0])
