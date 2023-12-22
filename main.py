@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
