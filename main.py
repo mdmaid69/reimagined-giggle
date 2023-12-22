@@ -1,5 +1,9 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
