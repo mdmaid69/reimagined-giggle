@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
