@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def square_number(x):
-        return x**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_floor(x):
+        return math.floor(x)
