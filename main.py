@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_pressure(force, area):
+        return force / area
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
