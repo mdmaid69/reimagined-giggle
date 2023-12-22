@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
