@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def count_elements(lst):
+        return len(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
