@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
