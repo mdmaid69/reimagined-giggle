@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
