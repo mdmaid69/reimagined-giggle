@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cosine(x):
+        return math.cos(x)
