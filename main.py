@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
