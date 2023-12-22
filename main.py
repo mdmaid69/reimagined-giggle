@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
