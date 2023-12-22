@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
