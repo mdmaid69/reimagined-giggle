@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
