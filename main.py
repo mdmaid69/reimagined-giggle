@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def sort_list(lst):
-        return sorted(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+i = 0
+while i < 5:
+        print(i)
+        i += 1
