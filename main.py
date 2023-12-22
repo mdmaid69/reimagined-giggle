@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+def roll_die():
+        return random.randint(1, 6)
