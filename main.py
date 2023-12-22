@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def find_max(lst):
+        return max(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
