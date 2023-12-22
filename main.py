@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def multiply_numbers(x, y):
-        return x * y
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
