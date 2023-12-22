@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_queue():
-        return collections.deque()
+def get_array_as_str(array):
+        return str(array)
