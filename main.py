@@ -1,5 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
