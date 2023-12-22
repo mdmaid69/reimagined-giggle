@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
