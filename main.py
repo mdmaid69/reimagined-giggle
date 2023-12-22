@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
