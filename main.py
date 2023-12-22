@@ -1,6 +1,8 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_base_name(path):
+        return os.path.basename(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
