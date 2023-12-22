@@ -1,11 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def get_current_working_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
