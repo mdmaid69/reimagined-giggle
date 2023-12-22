@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
