@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
