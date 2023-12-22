@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import platform
+def get_python_version():
+        return platform.python_version()
