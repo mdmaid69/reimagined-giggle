@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
