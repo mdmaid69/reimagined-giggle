@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
