@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def find_max(numbers):
+        return max(numbers)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_bytes_from_array(array):
+        return array.tobytes()
