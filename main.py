@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
