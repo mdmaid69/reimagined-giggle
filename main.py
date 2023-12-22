@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import numpy as np
+print(np.array([1, 2, 3]))
