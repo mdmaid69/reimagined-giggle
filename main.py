@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def add_numbers(x, y):
-        return x + y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
