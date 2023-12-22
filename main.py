@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_index(array, item):
+        return array.index(item)
