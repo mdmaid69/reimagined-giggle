@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
