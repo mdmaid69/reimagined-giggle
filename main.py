@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
