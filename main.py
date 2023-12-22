@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def square_number(x):
+        return x**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
