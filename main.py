@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
