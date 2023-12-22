@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
