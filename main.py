@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
