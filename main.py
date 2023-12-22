@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
