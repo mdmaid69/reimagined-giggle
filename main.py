@@ -1,5 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_user_dict():
+        return collections.UserDict()
