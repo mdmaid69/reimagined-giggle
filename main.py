@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
