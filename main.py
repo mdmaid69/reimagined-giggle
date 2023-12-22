@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
