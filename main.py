@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
