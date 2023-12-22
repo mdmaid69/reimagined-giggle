@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_set(array):
-        return set(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
