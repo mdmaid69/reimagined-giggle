@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
