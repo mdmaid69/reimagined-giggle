@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
