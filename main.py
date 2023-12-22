@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
