@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def count_words(sentence):
+        return len(sentence.split())
+  def convert_to_hex(n):
+        return hex(n)
