@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
