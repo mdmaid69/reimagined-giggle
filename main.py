@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def convert_to_binary(n):
+        return bin(n)
