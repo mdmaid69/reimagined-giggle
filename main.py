@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
