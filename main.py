@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
