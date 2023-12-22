@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
