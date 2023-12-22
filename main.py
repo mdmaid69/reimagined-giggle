@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
