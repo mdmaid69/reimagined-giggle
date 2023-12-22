@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
