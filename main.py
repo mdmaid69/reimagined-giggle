@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
