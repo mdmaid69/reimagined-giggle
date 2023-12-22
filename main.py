@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
