@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
+import os
+print(os.getcwd())
