@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
