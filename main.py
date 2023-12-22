@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
