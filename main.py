@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
