@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_cosine(x):
+        return math.cos(x)
