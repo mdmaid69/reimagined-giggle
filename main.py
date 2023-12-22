@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
