@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
