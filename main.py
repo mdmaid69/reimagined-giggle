@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def sort_list(lst):
-        return sorted(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
