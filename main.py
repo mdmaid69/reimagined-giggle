@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
