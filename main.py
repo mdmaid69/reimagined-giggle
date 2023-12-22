@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
