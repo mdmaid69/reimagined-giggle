@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
