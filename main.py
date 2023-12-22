@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
