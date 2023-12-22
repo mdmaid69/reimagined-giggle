@@ -1,6 +1,3 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+print(sum(range(10)))
+def add_numbers(a, b):
+        return a + b
