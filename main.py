@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
