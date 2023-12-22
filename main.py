@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import getpass
+def get_username():
+        return getpass.getuser()
