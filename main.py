@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
