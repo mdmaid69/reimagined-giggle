@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
