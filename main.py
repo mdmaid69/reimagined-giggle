@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_length(array):
-        return len(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_speed(distance, time):
+        return distance / time
