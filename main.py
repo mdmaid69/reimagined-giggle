@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
