@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
