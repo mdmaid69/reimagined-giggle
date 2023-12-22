@@ -1,5 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
