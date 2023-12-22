@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import platform
+def get_python_version():
+        return platform.python_version()
