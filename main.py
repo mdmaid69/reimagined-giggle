@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
