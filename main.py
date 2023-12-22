@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
