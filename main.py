@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import os
-print(os.getcwd())
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
