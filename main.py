@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import datetime
-print(datetime.datetime.now())
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def create_priority_queue():
+        return collections.deque()
