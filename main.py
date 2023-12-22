@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
