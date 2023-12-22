@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import sys
-print(sys.version)
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
