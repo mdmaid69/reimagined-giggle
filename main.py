@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import os
+print(os.getcwd())
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
