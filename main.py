@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
