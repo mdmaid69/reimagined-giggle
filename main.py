@@ -1,7 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
