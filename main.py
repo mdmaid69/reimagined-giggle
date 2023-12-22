@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import collections
-def create_counter():
-        return collections.Counter()
+def create_stack():
+        return collections.deque()
