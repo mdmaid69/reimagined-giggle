@@ -1,8 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_power(work, time):
-        return work / time
+def calculate_pressure(force, area):
+        return force / area
+  def convert_to_hex(n):
+        return hex(n)
