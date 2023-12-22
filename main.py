@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
