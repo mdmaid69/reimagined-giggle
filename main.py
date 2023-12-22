@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print([x**2 for x in range(10)])
+  def calculate_area_rectangle(l, w):
+        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
