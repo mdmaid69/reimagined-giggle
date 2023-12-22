@@ -1,11 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
