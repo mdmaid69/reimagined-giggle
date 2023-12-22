@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import time
+def get_current_time():
+        return time.ctime()
