@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
