@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def convert_to_octal(n):
+        return oct(n)
