@@ -1,6 +1,7 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
