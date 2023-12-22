@@ -1,4 +1,10 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
