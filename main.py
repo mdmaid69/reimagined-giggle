@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def clear_array(array):
-        array *= 0
+import time
+def get_current_time():
+        return time.time()
+  def remove_duplicates(lst):
+        return list(set(lst))
