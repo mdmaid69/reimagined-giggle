@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_list_from_array(array):
+        return array.tolist()
