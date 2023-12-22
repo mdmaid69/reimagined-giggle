@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_error_function(x):
+        return math.erf(x)
