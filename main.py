@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
