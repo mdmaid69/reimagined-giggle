@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
