@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
