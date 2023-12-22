@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
