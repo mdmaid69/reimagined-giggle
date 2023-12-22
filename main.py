@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
