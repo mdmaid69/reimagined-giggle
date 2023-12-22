@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
