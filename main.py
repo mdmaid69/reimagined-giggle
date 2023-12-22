@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
