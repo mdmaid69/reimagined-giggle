@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
