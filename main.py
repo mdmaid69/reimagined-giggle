@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def convert_to_hex(n):
+        return hex(n)
+import array
+def reverse_array(array):
+        array.reverse()
