@@ -1,5 +1,3 @@
-  def is_odd(n):
-        return n % 2 != 0
-import getpass
-def get_username():
-        return getpass.getuser()
+for i in range(10): print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
