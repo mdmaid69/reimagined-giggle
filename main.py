@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def get_array_as_list(array):
+        return list(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
