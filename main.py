@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
