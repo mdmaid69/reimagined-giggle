@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
