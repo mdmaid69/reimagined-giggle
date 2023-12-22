@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_current_directory():
+        return os.getcwd()
