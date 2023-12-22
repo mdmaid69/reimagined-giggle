@@ -1,11 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
