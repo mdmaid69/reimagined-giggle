@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-print(sys.version)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def clear_array(array):
+        array *= 0
