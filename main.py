@@ -1,7 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
