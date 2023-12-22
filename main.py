@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
