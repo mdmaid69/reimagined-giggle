@@ -1,7 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bytes(array):
+        return bytes(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
