@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def square_number(x):
+        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
