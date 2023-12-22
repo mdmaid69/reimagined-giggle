@@ -1,8 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
