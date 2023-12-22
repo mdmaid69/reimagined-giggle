@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def find_max(lst):
-        return max(lst)
+def get_array_as_int(array):
+        return int(array[0])
