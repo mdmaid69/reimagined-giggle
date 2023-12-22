@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
