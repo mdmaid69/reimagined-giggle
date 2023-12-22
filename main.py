@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
