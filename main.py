@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
