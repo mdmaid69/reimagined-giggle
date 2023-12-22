@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
