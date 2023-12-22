@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
