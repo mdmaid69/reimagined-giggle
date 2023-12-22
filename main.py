@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
