@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
