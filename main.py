@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import tensorflow as tf
+print(tf.__version__)
+print([x**2 for x in range(10)])
