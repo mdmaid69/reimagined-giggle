@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
