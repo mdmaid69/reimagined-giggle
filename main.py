@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
