@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
