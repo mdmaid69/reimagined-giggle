@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_typecode(array):
+        return array.typecode
