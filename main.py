@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import platform
-def get_os_info():
-        return platform.uname()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
