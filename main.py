@@ -1,12 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
