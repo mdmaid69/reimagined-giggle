@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_length(array):
+        return len(array)
