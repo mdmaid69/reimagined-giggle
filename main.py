@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def cube_number(x):
-        return x**3
+  def get_current_working_directory():
+        return os.getcwd()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
