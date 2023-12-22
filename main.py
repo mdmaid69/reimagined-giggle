@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
