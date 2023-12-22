@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
