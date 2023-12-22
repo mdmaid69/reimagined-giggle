@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def is_even(n):
-        return n % 2 == 0
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_work(force, distance):
+        return force * distance
