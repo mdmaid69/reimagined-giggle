@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def convert_to_octal(n):
-        return oct(n)
+def cube_number(x):
+        return x**3
+import time
+def get_current_time():
+        return time.time()
