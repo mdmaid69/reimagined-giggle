@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
