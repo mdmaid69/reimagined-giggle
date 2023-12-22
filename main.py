@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
