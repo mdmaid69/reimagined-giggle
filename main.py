@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
