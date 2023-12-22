@@ -1,6 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
