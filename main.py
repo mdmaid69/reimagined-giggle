@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_max(lst):
-        return max(lst)
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
