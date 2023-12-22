@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
