@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
