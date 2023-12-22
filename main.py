@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
