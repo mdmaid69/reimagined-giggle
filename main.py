@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
