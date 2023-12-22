@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
