@@ -1,7 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
