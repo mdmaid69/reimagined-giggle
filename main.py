@@ -1,6 +1,5 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-import getpass
-def get_username():
-        return getpass.getuser()
+def create_user_string():
+        return collections.UserString()
+def remove_duplicates(lst):
+        return list(set(lst))
