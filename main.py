@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
