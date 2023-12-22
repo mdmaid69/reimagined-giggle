@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
