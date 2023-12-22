@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+for i in range(10): print(i)
