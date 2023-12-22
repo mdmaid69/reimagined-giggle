@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def convert_to_hex(n):
+        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
