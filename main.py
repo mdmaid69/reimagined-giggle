@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
