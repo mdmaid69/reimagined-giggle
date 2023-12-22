@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
