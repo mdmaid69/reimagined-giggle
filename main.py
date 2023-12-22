@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
