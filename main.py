@@ -1,4 +1,5 @@
-print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_repr(array):
+        return repr(array)
