@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def sort_list(lst):
+        return sorted(lst)
