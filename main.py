@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
