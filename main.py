@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
