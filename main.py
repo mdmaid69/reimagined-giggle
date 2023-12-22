@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+print(random.randint(0, 100))
