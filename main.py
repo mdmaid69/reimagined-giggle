@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_current_directory():
+        return os.getcwd()
+  def is_odd(n):
+        return n % 2 != 0
