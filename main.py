@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
