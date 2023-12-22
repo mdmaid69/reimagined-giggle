@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_area_rectangle(l, w):
+        return l * w
+def remove_duplicates(lst):
+        return list(set(lst))
