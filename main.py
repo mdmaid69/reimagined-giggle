@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def append_to_array(array, item):
+        array.append(item)
