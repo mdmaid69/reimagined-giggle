@@ -1,5 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
