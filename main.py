@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
