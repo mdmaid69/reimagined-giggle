@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
