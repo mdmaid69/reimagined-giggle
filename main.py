@@ -1,4 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-print("Hello, world!")
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
