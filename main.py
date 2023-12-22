@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
