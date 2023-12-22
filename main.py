@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def is_palindrome(s):
+        return s == s[::-1]
