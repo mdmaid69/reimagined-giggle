@@ -1,12 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
