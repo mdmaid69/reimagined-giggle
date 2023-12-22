@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def is_odd(n):
+        return n % 2 != 0
