@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def add_numbers(a, b):
-        return a + b
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+def get_current_working_directory():
+        return os.getcwd()
