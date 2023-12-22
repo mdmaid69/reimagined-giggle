@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
