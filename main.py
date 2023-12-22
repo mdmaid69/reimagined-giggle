@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
