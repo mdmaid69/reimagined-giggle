@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
