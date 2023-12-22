@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
