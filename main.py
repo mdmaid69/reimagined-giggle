@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
