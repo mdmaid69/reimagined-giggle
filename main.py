@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def square_number(x):
-        return x**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
