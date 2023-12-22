@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
