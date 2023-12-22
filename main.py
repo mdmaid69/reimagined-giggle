@@ -1,7 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
