@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
