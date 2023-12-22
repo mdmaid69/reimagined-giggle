@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def remove_from_array(array, item):
+        array.remove(item)
