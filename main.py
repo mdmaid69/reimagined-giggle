@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
