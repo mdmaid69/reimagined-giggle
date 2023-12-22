@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_queue():
+        return collections.deque()
