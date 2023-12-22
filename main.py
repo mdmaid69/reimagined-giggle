@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
