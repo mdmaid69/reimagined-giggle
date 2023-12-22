@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_speed(distance, time):
+        return distance / time
