@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+print(math.pi)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
