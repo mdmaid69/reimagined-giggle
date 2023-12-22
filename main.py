@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
