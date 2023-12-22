@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
