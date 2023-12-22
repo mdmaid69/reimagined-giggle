@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_set(array):
-        return set(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_power(work, time):
+        return work / time
