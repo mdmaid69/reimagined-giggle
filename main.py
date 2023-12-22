@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
