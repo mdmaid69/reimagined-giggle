@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
