@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
