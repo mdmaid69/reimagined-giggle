@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_length(array):
-        return len(array)
+def get_string_from_array(array):
+        return array.tobytes()
