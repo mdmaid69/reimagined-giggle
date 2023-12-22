@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
