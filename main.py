@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
