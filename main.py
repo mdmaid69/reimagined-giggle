@@ -1,6 +1,10 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
