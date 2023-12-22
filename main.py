@@ -1,3 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-print([x**2 for x in range(10)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
