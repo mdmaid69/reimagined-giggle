@@ -1,7 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def find_min(lst):
+        return min(lst)
