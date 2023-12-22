@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
