@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
