@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def is_palindrome(s):
-        return s == s[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_as_str(array):
+        return str(array)
