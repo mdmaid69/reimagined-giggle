@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
