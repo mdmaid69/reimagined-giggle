@@ -1,6 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
