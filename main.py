@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def convert_array_to_string(array):
+        return array.tostring()
