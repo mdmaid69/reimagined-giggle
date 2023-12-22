@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
