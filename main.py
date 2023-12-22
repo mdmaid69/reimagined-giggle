@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_logarithm(base, x):
+        return math.log(x, base)
