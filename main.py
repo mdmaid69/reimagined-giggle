@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
