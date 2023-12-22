@@ -1,6 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_array_as_repr(array):
+        return repr(array)
