@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
