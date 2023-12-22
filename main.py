@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
