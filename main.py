@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def square_number(x):
+        return x**2
