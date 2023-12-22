@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_work(force, distance):
+        return force * distance
