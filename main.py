@@ -1,12 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
