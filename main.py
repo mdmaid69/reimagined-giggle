@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def convert_to_octal(n):
-        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
