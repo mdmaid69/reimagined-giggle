@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
