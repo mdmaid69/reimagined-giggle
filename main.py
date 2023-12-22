@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-  def count_elements(lst):
-        return len(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
