@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_octal(n):
-        return oct(n)
+def find_min(numbers):
+        return min(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
