@@ -1,8 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
