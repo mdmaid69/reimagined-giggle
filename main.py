@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_set(array):
+        return set(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
