@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
