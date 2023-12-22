@@ -1,5 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import collections
-def create_queue():
-        return collections.deque()
-def is_even(n):
-        return n % 2 == 0
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
