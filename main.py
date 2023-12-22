@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_user_string():
+        return collections.UserString()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
