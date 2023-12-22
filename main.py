@@ -1,6 +1,9 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
