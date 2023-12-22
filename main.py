@@ -1,8 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
