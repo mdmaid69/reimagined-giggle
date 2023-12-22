@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
