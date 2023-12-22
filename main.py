@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def add_numbers(x, y):
-        return x + y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def find_max(numbers):
+        return max(numbers)
