@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
