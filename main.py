@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_power(work, time):
+        return work / time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
