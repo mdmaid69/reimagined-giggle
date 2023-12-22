@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_set(array):
+        return set(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
