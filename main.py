@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def count_elements(lst):
-        return len(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
