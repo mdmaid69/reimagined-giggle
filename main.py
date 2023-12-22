@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_min(lst):
-        return min(lst)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
