@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def sort_list(lst):
-        return sorted(lst)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
