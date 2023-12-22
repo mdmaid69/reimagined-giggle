@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def add_numbers(x, y):
+        return x + y
+  def convert_to_hex(n):
+        return hex(n)
