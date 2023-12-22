@@ -1,4 +1,11 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
