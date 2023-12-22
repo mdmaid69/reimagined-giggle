@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import collections
+def create_stack():
+        return collections.deque()
