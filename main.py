@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
