@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def count_elements(lst):
+        return len(lst)
