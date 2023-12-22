@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
