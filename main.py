@@ -1,6 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def convert_to_octal(n):
+        return oct(n)
