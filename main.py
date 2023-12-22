@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
