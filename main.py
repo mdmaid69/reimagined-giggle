@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
