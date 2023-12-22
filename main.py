@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
