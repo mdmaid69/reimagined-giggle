@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
   def get_file_size(file_name):
         return os.stat(file_name).st_size
+def calculate_volume(length, width, height):
+        return length * width * height
