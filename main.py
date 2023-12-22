@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
