@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
