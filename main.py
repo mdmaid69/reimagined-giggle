@@ -1,5 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_pressure(force, area):
-        return force / area
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
