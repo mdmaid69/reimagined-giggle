@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
