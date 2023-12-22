@@ -1,12 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
