@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
