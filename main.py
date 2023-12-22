@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import sys
+  def get_python_version():
+        return sys.version
