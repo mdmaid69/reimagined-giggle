@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def find_min(numbers):
+        return min(numbers)
