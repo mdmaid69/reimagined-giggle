@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
