@@ -1,6 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
