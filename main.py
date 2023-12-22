@@ -1,7 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
