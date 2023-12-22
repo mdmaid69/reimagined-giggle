@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
