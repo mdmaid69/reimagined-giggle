@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
