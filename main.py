@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
