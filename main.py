@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
