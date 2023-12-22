@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def find_min(numbers):
-        return min(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
