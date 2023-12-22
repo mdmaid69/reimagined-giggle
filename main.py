@@ -1,3 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-for i in range(10): print(i)
+print(sum(range(10)))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
