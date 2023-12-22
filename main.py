@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
