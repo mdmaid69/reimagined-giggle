@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_work(force, distance):
+        return force * distance
+def subtract_numbers(x, y):
+        return x - y
