@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
