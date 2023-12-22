@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
