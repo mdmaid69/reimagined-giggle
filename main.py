@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
