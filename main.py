@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
