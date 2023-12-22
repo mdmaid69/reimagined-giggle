@@ -1,5 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def convert_to_hex(n):
-        return hex(n)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def sort_list(lst):
+        return sorted(lst)
