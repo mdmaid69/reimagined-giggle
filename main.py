@@ -1,6 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
