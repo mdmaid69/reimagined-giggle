@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+for i in range(5):
+        print(i)
