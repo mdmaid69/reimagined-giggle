@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
