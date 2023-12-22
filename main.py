@@ -1,7 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def convert_to_binary(n):
+        return bin(n)
