@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
