@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_array_as_repr(array):
+        return repr(array)
