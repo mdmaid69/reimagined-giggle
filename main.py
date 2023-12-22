@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
