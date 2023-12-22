@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import time
+def get_current_time():
+        return time.ctime()
