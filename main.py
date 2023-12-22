@@ -1,7 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
