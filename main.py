@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
