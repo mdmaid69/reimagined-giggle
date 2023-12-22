@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
