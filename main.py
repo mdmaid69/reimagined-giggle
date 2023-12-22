@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
