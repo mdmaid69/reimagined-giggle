@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_density(mass, volume):
+        return mass / volume
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
