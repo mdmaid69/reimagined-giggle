@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
