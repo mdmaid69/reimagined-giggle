@@ -1,11 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_work(force, distance):
+        return force * distance
