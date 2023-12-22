@@ -1,6 +1,11 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
