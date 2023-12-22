@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
