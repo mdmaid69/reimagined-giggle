@@ -1,7 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
