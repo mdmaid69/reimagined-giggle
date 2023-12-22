@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
