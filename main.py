@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-print(random.randint(0, 100))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
