@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
