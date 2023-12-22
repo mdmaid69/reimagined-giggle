@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def exit_program():
+        sys.exit()
+import numpy as np
+print(np.array([1, 2, 3]))
