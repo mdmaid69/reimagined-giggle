@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def square_number(x):
+        return x**2
