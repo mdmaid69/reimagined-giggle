@@ -1,12 +1,4 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def is_odd(n):
+        return n % 2 != 0
