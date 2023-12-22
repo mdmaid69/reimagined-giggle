@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
