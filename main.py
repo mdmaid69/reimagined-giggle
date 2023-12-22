@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
