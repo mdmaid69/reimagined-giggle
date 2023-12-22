@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import tensorflow as tf
-print(tf.__version__)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
