@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
