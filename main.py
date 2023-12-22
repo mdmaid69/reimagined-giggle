@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
