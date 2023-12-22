@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-name = "Python"
-print("Hello,", name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
