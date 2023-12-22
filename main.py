@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
