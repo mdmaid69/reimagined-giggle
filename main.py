@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
