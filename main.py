@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_current_directory():
+        return os.getcwd()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
