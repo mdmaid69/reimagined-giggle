@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
