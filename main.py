@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_area(radius):
+        return 3.14 * radius * radius
