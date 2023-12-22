@@ -1,8 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
