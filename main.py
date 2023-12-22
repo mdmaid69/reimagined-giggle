@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
