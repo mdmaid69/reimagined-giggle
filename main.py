@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
