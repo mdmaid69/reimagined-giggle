@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+for i in range(5):
+        print(i)
