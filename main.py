@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
