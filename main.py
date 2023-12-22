@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_pressure(force, area):
-        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
