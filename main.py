@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import sys
+print(sys.version)
