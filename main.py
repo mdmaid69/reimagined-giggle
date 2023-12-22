@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_length(array):
+        return len(array)
