@@ -1,5 +1,12 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
