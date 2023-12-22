@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def convert_to_binary(n):
+        return bin(n)
