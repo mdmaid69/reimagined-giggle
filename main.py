@@ -1,4 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
