@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import tensorflow as tf
+print(tf.__version__)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
