@@ -1,5 +1,6 @@
 import logging
-def log_message(message):
-        logging.info(message)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
