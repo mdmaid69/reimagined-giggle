@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import tensorflow as tf
+print(tf.__version__)
