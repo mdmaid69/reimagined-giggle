@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
