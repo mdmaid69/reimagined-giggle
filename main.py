@@ -1,5 +1,12 @@
-def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
