@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
