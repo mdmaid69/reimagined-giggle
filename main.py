@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
