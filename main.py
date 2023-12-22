@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
