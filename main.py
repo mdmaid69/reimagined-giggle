@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
