@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
