@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def add_numbers(x, y):
-        return x + y
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def is_palindrome(s):
+        return s == s[::-1]
