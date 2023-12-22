@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
