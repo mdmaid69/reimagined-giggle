@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
