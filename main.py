@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
