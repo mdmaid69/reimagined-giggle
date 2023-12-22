@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
