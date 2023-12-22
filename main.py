@@ -1,5 +1,7 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
