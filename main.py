@@ -1,5 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
