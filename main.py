@@ -1,5 +1,7 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
