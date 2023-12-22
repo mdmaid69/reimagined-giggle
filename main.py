@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
