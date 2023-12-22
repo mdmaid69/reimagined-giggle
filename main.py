@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
