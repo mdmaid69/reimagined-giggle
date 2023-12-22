@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import random
-print(random.randint(0, 100))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import collections
+def create_queue():
+        return collections.deque()
