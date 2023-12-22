@@ -1,7 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
