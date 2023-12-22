@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
