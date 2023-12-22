@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
