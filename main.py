@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
