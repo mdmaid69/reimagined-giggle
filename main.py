@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_str(array):
+        return str(array)
