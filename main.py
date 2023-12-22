@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
