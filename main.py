@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def get_list_from_array(array):
+        return array.tolist()
