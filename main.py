@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
