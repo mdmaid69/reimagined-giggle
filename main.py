@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def reverse_list(lst):
+        return lst[::-1]
