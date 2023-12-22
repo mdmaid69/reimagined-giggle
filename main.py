@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
