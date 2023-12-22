@@ -1,5 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
