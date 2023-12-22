@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_power(work, time):
+        return work / time
