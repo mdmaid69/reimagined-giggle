@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
