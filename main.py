@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
