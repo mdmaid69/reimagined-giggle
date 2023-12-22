@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
