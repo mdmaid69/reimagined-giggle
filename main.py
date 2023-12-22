@@ -1,7 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+print(os.getcwd())
