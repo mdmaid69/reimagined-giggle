@@ -1,7 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
