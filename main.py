@@ -1,6 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
