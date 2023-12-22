@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
