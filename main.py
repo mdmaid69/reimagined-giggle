@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Reversed:", text[::-1])
