@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
