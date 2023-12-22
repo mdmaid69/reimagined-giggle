@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
