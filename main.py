@@ -1,13 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
