@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
