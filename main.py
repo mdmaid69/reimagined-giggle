@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
