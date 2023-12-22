@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
