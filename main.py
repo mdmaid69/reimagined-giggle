@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_pressure(force, area):
-        return force / area
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
