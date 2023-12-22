@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
