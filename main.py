@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
