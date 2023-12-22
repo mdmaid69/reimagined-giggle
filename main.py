@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
