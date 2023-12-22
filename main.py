@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Reversed:", text[::-1])
