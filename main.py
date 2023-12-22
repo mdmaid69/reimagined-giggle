@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
