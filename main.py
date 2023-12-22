@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_bytes(array):
+        return array.tobytes()
