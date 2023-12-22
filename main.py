@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
