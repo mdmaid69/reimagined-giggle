@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def convert_to_octal(n):
-        return oct(n)
+name = "Python"
+print("Hello,", name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
