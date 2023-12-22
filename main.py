@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def convert_to_octal(n):
+        return oct(n)
