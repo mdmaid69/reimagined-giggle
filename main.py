@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
