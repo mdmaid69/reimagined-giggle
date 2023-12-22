@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
