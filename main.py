@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
