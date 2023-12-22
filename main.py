@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
