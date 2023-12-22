@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
