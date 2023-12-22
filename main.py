@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def print_python_version():
-        return sys.version
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
