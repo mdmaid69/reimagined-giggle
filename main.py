@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
