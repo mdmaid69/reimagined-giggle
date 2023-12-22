@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def remove_from_array(array, item):
+        array.remove(item)
