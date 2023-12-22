@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
