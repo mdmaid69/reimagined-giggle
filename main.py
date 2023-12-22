@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
