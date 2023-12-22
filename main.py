@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
