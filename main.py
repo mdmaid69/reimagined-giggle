@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
