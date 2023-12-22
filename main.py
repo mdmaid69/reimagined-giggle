@@ -1,7 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_area_rectangle(l, w):
-        return l * w
+def pop_from_array(array, i=-1):
+        return array.pop(i)
