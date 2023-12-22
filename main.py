@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def convert_to_octal(n):
-        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+text = "Hello, world!"
+print("Characters:", len(text))
