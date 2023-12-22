@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-name = "Python"
-print("Hello,", name)
+def count_elements(lst):
+        return len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
