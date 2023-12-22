@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
