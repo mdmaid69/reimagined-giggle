@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
