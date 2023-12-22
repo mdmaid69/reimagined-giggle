@@ -1,5 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def is_odd(n):
-        return n % 2 != 0
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
