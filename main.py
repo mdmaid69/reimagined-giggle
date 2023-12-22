@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def is_odd(n):
+        return n % 2 != 0
