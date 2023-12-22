@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
