@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
