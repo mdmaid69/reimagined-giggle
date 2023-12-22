@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import logging
+def log_message(message):
+        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
