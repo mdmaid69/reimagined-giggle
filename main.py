@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+x = 10
+y = 20
+print("Sum:", x + y)
