@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-name = "Python"
-print("Hello,", name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
