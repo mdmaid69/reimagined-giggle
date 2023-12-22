@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
