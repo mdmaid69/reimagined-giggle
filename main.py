@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import tensorflow as tf
-print(tf.__version__)
+def cube_number(x):
+        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
