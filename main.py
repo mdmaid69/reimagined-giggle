@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def split_path(path):
+        return os.path.split(path)
