@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
