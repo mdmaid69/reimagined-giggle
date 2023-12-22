@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import sys
-def exit_program():
-        sys.exit()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
