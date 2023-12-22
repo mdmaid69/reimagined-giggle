@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
