@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
