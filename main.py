@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
