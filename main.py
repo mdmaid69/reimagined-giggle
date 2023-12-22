@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
