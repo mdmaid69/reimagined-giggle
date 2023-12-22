@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_set(array):
+        return set(array)
