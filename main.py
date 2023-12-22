@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
