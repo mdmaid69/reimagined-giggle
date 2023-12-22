@@ -1,9 +1,8 @@
-print([x**2 for x in range(10)])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
