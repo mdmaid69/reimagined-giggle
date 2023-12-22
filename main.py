@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
