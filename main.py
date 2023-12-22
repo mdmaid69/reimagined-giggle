@@ -1,6 +1,9 @@
 import time
-def get_current_time():
-        return time.time()
-  import sys
-  def get_python_version():
-        return sys.version
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
