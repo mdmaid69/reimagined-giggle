@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_pressure(force, area):
-        return force / area
+  def sort_list(lst):
+        return sorted(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
