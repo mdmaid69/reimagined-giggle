@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_binary(n):
-        return bin(n)
+import tensorflow as tf
+print(tf.__version__)
+def convert_to_hex(n):
+        return hex(n)
