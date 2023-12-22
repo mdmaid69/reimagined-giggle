@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def is_odd(n):
+        return n % 2 != 0
