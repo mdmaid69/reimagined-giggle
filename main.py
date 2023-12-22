@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def count_characters(sentence):
-        return len(sentence)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
