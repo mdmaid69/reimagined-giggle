@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def divide_numbers(x, y):
+        return x / y
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
