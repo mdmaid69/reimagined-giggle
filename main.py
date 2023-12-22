@@ -1,4 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def convert_to_binary(n):
+        return bin(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
