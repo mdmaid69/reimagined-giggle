@@ -1,4 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-print([x**2 for x in range(10)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
