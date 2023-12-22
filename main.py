@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def count_words(sentence):
-        return len(sentence.split())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
