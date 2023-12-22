@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import collections
-def create_counter():
-        return collections.Counter()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
