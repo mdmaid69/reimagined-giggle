@@ -1,4 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-def remove_duplicates(lst):
-        return list(set(lst))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
