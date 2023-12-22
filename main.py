@@ -1,4 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
