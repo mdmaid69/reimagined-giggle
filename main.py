@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
