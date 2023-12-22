@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_float(array):
+        return float(array[0])
