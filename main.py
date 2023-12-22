@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def is_palindrome(s):
+        return s == s[::-1]
