@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
