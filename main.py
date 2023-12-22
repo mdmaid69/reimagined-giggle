@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-for i in range(5):
-        print(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
