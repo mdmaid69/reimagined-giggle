@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def is_palindrome(s):
-        return s == s[::-1]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
