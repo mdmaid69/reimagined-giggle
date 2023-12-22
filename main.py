@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
