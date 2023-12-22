@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def count_elements(lst):
+        return len(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
