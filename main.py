@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
