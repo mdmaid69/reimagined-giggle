@@ -1,7 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+for i in range(10): print(i)
