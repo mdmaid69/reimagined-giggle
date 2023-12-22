@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-print(random.randint(0, 100))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
