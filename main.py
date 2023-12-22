@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def divide_numbers(x, y):
+        return x / y
