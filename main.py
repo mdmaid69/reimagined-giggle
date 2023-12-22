@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
