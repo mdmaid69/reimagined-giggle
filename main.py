@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_priority_queue():
+        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
