@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def add_numbers(x, y):
+        return x + y
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_length(array):
+        return len(array)
