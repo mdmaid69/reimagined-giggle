@@ -1,8 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def is_odd(n):
+        return n % 2 != 0
