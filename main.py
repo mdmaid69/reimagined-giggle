@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
