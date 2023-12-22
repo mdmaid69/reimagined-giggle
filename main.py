@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
