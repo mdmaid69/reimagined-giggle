@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
