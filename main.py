@@ -1,5 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_power(work, time):
-        return work / time
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
