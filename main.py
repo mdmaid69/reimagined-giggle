@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
