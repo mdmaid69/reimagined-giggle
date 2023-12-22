@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def count_words(sentence):
+        return len(sentence.split())
