@@ -1,6 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
