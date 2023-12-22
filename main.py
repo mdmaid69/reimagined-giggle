@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
