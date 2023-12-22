@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import tensorflow as tf
+print(tf.__version__)
