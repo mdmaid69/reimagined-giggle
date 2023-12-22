@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
