@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
