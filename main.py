@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_set(array):
+        return set(array)
