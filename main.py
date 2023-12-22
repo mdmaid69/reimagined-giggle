@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def sort_list(lst):
+        return sorted(lst)
+  def reverse_list(lst):
+        return lst[::-1]
