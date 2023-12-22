@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
