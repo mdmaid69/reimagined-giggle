@@ -1,4 +1,3 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def cube_number(x):
-        return x**3
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
