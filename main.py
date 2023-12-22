@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
