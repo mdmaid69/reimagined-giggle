@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+print(math.pi)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
