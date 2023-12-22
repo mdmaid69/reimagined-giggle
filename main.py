@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
