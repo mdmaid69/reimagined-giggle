@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
