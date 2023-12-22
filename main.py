@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
