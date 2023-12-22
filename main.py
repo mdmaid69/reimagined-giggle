@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
