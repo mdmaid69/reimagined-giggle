@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
