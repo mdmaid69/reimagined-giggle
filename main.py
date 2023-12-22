@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import time
+def get_current_time():
+        return time.time()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
