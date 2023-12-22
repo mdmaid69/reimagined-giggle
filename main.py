@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
