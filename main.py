@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def multiply_numbers(x, y):
+        return x * y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
