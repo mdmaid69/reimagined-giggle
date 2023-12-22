@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def remove_duplicates(lst):
+        return list(set(lst))
