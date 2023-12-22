@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def get_array_as_list(array):
+        return list(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
