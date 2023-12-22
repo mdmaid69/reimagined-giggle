@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
