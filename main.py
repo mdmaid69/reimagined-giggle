@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-print(math.pi)
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_as_set(array):
+        return set(array)
