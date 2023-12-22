@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
