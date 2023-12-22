@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
