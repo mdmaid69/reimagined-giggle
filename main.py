@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_sine(x):
+        return math.sin(x)
