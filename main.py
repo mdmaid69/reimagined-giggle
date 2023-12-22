@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_binary(n):
+        return bin(n)
