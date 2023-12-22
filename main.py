@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
