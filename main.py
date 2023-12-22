@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
