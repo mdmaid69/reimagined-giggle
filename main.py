@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import time
-print(time.time())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def remove_duplicates(lst):
+        return list(set(lst))
