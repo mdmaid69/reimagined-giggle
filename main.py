@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
