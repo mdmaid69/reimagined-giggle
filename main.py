@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
