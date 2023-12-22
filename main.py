@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
