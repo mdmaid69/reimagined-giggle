@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
