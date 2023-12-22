@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
