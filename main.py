@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import collections
+def create_user_list():
+        return collections.UserList()
