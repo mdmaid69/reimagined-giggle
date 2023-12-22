@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
