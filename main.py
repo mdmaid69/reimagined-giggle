@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
