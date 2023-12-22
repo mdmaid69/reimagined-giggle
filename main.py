@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-text = "Hello, world!"
-print("Characters:", len(text))
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
