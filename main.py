@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
