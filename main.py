@@ -1,6 +1,8 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
