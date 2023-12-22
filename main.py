@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def square_number(x):
+        return x**2
+  def convert_to_binary(n):
+        return bin(n)
