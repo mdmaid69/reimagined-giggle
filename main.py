@@ -1,6 +1,3 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+print(sum(range(10)))
+  def calculate_area_rectangle(l, w):
+        return l * w
