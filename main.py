@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
