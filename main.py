@@ -1,6 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
