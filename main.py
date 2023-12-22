@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
