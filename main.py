@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
