@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def sort_list(lst):
-        return sorted(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
