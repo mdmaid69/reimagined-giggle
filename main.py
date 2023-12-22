@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
