@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
