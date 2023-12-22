@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def find_min(numbers):
+        return min(numbers)
+import sys
+def print_python_version():
+        print(sys.version)
