@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
