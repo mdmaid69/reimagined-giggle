@@ -1,7 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def add_numbers(x, y):
+        return x + y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
