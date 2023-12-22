@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def cube_number(x):
+        return x**3
