@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_speed(distance, time):
-        return distance / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
