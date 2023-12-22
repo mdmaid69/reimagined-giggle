@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
+import tensorflow as tf
+print(tf.__version__)
