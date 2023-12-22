@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
