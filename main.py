@@ -1,7 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_str(array):
-        return str(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
