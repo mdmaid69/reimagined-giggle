@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_combinations(n, k):
+        return math.comb(n, k)
