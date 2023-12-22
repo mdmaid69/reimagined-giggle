@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
