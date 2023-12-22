@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def convert_to_hex(n):
-        return hex(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def cube_number(x):
+        return x**3
