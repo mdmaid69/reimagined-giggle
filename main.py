@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
