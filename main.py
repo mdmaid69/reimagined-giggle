@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
