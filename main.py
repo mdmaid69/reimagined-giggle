@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
