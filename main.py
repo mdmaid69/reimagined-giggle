@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
