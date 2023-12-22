@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
