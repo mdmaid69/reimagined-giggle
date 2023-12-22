@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def convert_to_octal(n):
+        return oct(n)
