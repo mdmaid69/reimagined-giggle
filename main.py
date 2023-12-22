@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
