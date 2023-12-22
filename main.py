@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
