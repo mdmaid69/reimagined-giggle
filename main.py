@@ -1,8 +1,12 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_contains_item(array, item):
+        return item in array
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
