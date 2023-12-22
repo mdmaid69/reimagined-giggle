@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
