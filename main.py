@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
