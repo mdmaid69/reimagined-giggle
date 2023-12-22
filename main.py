@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-text = "Hello, world!"
-print("Characters:", len(text))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
