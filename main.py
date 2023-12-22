@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
