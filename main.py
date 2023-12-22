@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_min(lst):
-        return min(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
