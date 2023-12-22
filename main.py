@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
