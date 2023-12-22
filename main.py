@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_priority_queue():
+        return collections.deque()
