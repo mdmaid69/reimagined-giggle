@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
