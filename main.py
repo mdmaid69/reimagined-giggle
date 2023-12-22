@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
