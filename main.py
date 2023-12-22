@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
