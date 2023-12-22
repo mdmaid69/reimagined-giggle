@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import re
+print(re.match("h.*o", "hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
