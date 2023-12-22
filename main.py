@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
