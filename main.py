@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
