@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_cosine(x):
+        return math.cos(x)
