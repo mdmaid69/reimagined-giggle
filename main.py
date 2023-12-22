@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
