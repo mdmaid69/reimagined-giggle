@@ -1,4 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
