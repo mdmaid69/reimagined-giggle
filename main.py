@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
