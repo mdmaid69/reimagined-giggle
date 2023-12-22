@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
