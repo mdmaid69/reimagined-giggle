@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def reverse_string(s):
+        return s[::-1]
