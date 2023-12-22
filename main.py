@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
