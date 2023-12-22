@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
