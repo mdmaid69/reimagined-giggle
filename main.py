@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Characters:", len(text))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
