@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
