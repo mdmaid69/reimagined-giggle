@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
