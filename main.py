@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_power(work, time):
+        return work / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
