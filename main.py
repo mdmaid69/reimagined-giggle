@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def split_path(path):
+        return os.path.split(path)
