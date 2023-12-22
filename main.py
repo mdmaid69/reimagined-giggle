@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
