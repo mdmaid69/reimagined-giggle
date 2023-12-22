@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
