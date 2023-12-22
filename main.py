@@ -1,5 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def find_max(numbers):
-        return max(numbers)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
