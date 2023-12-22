@@ -1,5 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
