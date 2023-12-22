@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
