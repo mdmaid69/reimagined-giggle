@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
