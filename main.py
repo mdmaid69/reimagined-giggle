@@ -1,7 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_power(work, time):
+        return work / time
