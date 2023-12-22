@@ -1,7 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
