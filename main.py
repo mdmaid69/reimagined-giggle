@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
