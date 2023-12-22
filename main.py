@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_binary(n):
+        return bin(n)
