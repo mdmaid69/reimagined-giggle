@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
