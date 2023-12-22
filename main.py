@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
