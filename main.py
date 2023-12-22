@@ -1,9 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
