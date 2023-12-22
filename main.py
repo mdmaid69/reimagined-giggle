@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def count_characters(sentence):
+        return len(sentence)
