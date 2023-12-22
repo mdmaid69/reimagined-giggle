@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
