@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def count_characters(sentence):
-        return len(sentence)
+def reverse_list(lst):
+        return lst[::-1]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
