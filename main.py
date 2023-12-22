@@ -1,6 +1,11 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def convert_to_octal(n):
+        return oct(n)
