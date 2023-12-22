@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def add_numbers(a, b):
+        return a + b
