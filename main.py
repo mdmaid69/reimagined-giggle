@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
