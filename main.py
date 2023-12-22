@@ -1,7 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
