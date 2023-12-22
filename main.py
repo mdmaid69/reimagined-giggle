@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
