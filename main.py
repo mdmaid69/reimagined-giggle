@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def is_odd(n):
+        return n % 2 != 0
