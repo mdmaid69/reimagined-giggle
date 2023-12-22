@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
