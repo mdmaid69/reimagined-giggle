@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
