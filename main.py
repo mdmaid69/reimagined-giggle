@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
