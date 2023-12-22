@@ -1,5 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
