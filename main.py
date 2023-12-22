@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def convert_to_binary(n):
+        return bin(n)
