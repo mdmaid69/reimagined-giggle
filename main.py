@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def count_elements(lst):
-        return len(lst)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_rectangle(l, w):
+        return l * w
