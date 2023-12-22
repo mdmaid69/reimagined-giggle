@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def subtract_numbers(x, y):
+        return x - y
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
