@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
