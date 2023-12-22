@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
