@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
