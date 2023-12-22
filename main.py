@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
