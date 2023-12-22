@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def reverse_array(array):
+        array.reverse()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
