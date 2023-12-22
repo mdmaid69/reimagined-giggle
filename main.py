@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def get_array_item(array, i):
+        return array[i]
