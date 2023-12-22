@@ -1,5 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def get_array_item(array, i):
-        return array[i]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def insert_into_array(array, i, item):
+        array.insert(i, item)
