@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
