@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def subtract_numbers(x, y):
-        return x - y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
