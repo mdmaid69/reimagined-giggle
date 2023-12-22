@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
