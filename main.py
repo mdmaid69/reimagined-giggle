@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import time
+def wait_for_seconds(seconds):
         time.sleep(seconds)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
