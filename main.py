@@ -1,7 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
