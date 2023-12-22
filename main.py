@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_user_string():
+        return collections.UserString()
