@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import time
+def get_time_since_epoch():
+        return time.time()
