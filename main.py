@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
