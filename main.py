@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_min(lst):
-        return min(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
