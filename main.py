@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def print_python_version():
-        return sys.version
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
