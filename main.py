@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
