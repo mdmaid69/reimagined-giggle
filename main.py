@@ -1,4 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
