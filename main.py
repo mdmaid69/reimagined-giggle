@@ -1,4 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-print(sum(range(10)))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
