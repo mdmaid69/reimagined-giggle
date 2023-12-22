@@ -1,5 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
