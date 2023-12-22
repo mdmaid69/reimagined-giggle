@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
