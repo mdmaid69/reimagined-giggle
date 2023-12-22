@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
