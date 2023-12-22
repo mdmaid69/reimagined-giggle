@@ -1,4 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
