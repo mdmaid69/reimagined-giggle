@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
