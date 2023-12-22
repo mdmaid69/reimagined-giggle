@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
