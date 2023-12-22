@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
