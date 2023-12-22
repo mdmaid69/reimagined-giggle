@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def square_number(x):
-        return x**2
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
