@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def roll_die():
+        return random.randint(1, 6)
