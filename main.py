@@ -1,5 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
