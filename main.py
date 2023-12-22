@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
