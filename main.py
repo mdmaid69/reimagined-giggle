@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+x = 10
+y = 20
+print("Sum:", x + y)
