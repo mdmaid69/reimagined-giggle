@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area_rectangle(l, w):
+        return l * w
