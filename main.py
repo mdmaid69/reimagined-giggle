@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
