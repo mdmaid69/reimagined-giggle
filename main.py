@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Characters:", len(text))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
