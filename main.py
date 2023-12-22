@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
