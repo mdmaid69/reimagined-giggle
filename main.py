@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
