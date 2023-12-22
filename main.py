@@ -1,7 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def find_max(lst):
+        return max(lst)
