@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
+def calculate_hyperbolic_arc_cosine(x):
         return math.acosh(x)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_power(work, time):
+        return work / time
