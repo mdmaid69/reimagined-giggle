@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
