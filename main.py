@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def square_number(x):
-        return x**2
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
