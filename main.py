@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
