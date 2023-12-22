@@ -1,5 +1,11 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_length(array):
+        return len(array)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
