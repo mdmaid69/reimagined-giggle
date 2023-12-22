@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
