@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
