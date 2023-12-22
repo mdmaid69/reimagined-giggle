@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
