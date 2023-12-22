@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+print(random.randint(0, 100))
