@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
