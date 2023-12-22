@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
