@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
