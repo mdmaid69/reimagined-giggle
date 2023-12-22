@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
