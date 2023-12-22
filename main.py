@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
