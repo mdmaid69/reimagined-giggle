@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
