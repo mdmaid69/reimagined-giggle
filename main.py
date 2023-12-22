@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
