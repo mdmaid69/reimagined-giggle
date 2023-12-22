@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+x = 10
+y = 20
+print("Sum:", x + y)
