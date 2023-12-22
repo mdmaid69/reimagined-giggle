@@ -1,8 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
