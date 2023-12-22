@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
