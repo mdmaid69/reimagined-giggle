@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
