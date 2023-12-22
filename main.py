@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
