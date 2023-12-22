@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
