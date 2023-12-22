@@ -1,8 +1,7 @@
+  def is_odd(n):
+        return n % 2 != 0
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
