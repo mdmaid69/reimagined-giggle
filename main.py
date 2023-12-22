@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
