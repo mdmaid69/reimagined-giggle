@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
