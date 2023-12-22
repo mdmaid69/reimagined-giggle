@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
