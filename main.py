@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
