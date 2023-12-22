@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
