@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import re
+print(re.match("h.*o", "hello world"))
