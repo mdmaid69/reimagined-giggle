@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_speed(distance, time):
+        return distance / time
