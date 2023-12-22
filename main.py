@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def reverse_list(lst):
-        return lst[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
+  def add_numbers(x, y):
+        return x + y
