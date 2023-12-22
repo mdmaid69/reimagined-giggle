@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_power(work, time):
-        return work / time
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
