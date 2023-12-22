@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def count_elements(lst):
-        return len(lst)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
