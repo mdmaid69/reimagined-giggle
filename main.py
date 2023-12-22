@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
