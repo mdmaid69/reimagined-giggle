@@ -1,5 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
