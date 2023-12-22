@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def convert_to_hex(n):
+        return hex(n)
