@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+print(math.pi)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
