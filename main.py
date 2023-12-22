@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
