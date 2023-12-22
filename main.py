@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
