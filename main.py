@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
