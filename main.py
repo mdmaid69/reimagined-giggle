@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
