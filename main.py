@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
