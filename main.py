@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
