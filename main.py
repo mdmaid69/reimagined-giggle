@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
