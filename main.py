@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
