@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
