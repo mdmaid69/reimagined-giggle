@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
