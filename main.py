@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
