@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
