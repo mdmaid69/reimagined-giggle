@@ -1,7 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
