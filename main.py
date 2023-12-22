@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
