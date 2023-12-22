@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
