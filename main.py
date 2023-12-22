@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
