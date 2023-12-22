@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
