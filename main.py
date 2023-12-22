@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
