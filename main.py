@@ -1,5 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
