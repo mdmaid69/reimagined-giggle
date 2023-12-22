@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_today_date():
+        return datetime.date.today()
