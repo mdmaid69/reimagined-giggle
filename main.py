@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def print_python_version():
-        print(sys.version)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
