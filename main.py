@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
