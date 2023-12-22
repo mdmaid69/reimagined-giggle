@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
