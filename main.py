@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
