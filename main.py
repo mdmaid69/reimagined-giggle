@@ -1,6 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
