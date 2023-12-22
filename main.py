@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
