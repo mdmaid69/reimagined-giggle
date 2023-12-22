@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
