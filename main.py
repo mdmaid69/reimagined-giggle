@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
