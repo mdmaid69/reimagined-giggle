@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
