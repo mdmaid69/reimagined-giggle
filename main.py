@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
