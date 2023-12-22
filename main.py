@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import logging
+def log_message(message):
+        logging.info(message)
