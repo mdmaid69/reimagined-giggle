@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
