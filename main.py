@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def extend_array(array, iterable):
+        array.extend(iterable)
