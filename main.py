@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import time
-def get_current_time():
-        return time.ctime()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
