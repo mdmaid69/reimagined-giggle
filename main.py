@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
