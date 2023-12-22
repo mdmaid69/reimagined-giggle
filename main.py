@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_min(lst):
+        return min(lst)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
