@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
