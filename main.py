@@ -1,7 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_average(lst):
+        return sum(lst) / len(lst)
