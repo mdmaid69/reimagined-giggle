@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def convert_to_hex(n):
+        return hex(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
