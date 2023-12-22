@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
