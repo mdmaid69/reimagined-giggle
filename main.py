@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
