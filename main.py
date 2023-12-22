@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
