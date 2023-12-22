@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_work(force, distance):
+        return force * distance
+  def is_even(n):
+        return n % 2 == 0
