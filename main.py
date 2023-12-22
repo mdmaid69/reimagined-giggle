@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
