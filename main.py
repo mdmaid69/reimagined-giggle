@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
