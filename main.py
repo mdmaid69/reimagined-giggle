@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def find_max(numbers):
+        return max(numbers)
+def convert_to_octal(n):
+        return oct(n)
