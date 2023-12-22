@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
