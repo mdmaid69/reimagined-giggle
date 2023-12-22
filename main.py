@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
