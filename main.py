@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def subtract_numbers(x, y):
+        return x - y
+  def count_elements(lst):
+        return len(lst)
