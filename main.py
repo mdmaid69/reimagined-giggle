@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
