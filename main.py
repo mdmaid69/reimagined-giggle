@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
