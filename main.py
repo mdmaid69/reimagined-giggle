@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_current_directory():
-        return os.getcwd()
+for i in range(10): print(i)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
