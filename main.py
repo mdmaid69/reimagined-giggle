@@ -1,3 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-for i in range(10): print(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
