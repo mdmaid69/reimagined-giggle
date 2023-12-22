@@ -1,4 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-print([x**2 for x in range(10)])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
