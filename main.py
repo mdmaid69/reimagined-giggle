@@ -1,4 +1,8 @@
-print("Hello, world!")
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
