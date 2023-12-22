@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
