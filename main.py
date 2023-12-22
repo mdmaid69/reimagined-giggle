@@ -1,5 +1,3 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def convert_to_binary(n):
+        return bin(n)
+print([x**2 for x in range(10)])
