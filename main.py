@@ -1,7 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
