@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
