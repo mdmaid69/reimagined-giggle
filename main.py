@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  def multiply_numbers(x, y):
-        return x * y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
