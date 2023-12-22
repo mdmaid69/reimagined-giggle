@@ -1,8 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
