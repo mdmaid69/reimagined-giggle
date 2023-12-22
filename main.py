@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def convert_to_hex(n):
-        return hex(n)
+import os
+print(os.getcwd())
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
