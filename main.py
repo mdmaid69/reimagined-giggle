@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
