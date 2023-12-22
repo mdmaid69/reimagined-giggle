@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
