@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
