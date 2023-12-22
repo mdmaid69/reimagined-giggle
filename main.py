@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
