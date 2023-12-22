@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
