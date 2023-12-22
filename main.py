@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
