@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def find_max(numbers):
+        return max(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
