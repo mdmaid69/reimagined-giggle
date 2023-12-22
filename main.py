@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_min(lst):
-        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
