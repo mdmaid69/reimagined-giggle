@@ -1,10 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  def multiply_numbers(x, y):
+        return x * y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
