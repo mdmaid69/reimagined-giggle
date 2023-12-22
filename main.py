@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def greet(name):
-        print(f"Hello, {name}!")
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
