@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
