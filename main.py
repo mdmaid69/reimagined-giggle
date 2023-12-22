@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import numpy as np
+print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
