@@ -1,7 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
