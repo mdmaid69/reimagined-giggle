@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_min(numbers):
+        return min(numbers)
+def subtract_numbers(x, y):
+        return x - y
