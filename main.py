@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
