@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def multiply_numbers(x, y):
+        return x * y
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
