@@ -1,7 +1,4 @@
-import random
-print(random.randint(0, 100))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Characters:", len(text))
