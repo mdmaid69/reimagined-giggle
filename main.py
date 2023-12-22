@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+from collections import Counter
+print(Counter("hello world"))
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
