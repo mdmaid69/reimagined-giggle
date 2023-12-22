@@ -1,7 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
