@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
