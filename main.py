@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
