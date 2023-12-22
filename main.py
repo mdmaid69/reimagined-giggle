@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
