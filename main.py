@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
