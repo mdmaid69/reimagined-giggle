@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_queue():
+        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
