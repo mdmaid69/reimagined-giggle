@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
