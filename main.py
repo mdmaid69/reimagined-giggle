@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
