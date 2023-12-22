@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def get_current_time():
+        return time.time()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
