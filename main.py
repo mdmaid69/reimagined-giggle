@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
