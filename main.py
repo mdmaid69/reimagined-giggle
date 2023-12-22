@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_pressure(force, area):
+        return force / area
