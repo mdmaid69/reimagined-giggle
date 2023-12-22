@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
