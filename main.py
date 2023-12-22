@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
