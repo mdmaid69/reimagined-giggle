@@ -1,6 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
