@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_max(numbers):
+        return max(numbers)
