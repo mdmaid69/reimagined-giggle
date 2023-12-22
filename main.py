@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
