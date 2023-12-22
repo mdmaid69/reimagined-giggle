@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
