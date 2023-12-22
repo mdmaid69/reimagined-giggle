@@ -1,6 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
