@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
