@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Characters:", len(text))
+def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
