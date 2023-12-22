@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
