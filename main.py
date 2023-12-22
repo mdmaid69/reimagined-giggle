@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_min(numbers):
-        return min(numbers)
+print("Hello, world!")
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
