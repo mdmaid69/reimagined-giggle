@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def convert_to_octal(n):
-        return oct(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
