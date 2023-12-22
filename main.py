@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
