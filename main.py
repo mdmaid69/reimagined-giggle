@@ -1,7 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
