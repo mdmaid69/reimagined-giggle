@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_complex(array):
+        return complex(array[0])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
