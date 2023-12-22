@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
