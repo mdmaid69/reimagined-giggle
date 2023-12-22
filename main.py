@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
