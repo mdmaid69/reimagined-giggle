@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import random
+def roll_die():
+        return random.randint(1, 6)
