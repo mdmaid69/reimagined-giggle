@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
