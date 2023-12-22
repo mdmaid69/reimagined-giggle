@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
