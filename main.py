@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
