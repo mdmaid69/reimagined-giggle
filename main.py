@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
