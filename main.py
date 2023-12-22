@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
