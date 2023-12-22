@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def square_number(x):
+        return x**2
