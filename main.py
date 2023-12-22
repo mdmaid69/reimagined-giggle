@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
