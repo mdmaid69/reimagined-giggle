@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def add_numbers(x, y):
+        return x + y
