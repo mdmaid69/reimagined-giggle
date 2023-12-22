@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def square_number(x):
-        return x**2
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
