@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def print_python_version():
+        print(sys.version)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
