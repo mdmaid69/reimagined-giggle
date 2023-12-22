@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
