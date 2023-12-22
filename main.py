@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+name = "Python"
+print("Hello,", name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
