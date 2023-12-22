@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def get_time_since_epoch():
+        return time.time()
