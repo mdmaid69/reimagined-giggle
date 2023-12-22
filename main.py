@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
