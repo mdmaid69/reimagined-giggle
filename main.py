@@ -1,5 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_pressure(force, area):
+        return force / area
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
