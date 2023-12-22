@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import sys
-print(sys.version)
+import logging
+def log_message(message):
+        logging.info(message)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
