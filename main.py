@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
