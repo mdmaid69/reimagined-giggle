@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
