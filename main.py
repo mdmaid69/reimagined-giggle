@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_list(array):
+        return list(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
