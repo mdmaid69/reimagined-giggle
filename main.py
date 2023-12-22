@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-print(random.randint(0, 100))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
