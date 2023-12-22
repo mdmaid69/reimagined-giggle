@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
