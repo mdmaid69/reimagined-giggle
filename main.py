@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_set(array):
-        return set(array)
+import collections
+def create_stack():
+        return collections.deque()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
