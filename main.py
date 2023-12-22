@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
