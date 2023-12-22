@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
