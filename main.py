@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def convert_to_octal(n):
+        return oct(n)
