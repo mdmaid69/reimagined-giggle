@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
