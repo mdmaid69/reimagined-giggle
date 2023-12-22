@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+for i in range(10): print(i)
+import time
+def get_current_time():
+        return time.ctime()
