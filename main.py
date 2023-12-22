@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
