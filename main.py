@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
