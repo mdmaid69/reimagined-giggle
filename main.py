@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_list():
-        return collections.UserList()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
