@@ -1,9 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-from flask import Flask
-app = Flask(__name__)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
