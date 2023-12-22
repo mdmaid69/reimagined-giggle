@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_volume(length, width, height):
+        return length * width * height
