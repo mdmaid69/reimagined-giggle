@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+for i in range(10): print(i)
