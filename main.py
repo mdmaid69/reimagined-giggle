@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def convert_to_octal(n):
+        return oct(n)
