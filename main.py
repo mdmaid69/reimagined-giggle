@@ -1,5 +1,9 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def subtract_numbers(x, y):
-        return x - y
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
