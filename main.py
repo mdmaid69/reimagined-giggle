@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
