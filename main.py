@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
