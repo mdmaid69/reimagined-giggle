@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import logging
-def log_message(message):
-        logging.info(message)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
