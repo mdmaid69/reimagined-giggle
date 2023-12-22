@@ -1,9 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+for i in range(5):
+        print(i)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
