@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_max(numbers):
-        return max(numbers)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
