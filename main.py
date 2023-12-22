@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import sys
-  def get_python_version():
-        return sys.version
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_list_from_array(array):
+        return array.tolist()
