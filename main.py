@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_list(array):
+        return list(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
