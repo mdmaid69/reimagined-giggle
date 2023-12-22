@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
