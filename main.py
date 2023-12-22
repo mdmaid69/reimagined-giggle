@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
