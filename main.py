@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
