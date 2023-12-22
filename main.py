@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
