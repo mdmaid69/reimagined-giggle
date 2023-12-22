@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
