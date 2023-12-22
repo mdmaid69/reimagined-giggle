@@ -1,7 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
         a.frombytes(bytes)
         return a
