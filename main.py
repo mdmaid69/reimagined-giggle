@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
