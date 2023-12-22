@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
