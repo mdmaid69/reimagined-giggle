@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def add_numbers(x, y):
+        return x + y
