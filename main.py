@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def reverse_string(s):
-        return s[::-1]
+def calculate_power(work, time):
+        return work / time
+def cube_number(x):
+        return x**3
