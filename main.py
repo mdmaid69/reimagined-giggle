@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
