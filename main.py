@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+print(math.pi)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_item_count(array, item):
+        return array.count(item)
