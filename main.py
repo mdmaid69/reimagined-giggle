@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
