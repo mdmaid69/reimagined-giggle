@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
