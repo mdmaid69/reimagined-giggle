@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
