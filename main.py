@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def clear_array(array):
-        array *= 0
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_length(array):
+        return len(array)
