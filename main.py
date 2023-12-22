@@ -1,8 +1,7 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import random
+def roll_die():
+        return random.randint(1, 6)
