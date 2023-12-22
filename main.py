@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
