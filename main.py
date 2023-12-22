@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
