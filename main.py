@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
