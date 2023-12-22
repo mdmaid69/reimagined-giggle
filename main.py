@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+print(math.pi)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
