@@ -1,7 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
