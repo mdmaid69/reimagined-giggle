@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def find_min(lst):
+        return min(lst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
