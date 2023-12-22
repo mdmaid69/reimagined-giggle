@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
