@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
