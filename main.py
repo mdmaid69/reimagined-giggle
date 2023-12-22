@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
