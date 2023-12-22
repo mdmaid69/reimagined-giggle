@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
