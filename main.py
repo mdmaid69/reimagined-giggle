@@ -1,8 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
