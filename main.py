@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import datetime
+def get_current_date():
+        return datetime.date.today()
