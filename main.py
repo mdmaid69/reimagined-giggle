@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
