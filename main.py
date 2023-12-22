@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
