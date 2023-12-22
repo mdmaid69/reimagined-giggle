@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
