@@ -1,6 +1,8 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
