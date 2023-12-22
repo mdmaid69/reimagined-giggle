@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_power(work, time):
-        return work / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_density(mass, volume):
+        return mass / volume
