@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_area_circle(r):
+        return 3.14 * r**2
