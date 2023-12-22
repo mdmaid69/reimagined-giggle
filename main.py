@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+name = "Python"
+print("Hello,", name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
