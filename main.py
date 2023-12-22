@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
