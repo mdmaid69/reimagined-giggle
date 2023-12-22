@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
