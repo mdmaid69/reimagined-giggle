@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
