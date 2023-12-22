@@ -1,7 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
