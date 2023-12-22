@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
