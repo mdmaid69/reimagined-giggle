@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-print(random.randint(0, 100))
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def exit_program():
+        sys.exit()
