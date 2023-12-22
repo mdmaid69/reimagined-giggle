@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
