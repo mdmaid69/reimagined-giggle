@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
