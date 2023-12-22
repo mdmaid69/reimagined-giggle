@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
