@@ -1,10 +1,9 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
