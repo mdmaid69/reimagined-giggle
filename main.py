@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import platform
-def get_os_info():
-        return platform.uname()
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
