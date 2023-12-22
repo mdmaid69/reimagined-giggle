@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def multiply_numbers(x, y):
-        return x * y
+def count_characters(sentence):
+        return len(sentence)
+import logging
+def log_message(message):
+        logging.info(message)
