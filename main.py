@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
