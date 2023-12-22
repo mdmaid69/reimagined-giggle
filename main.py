@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
