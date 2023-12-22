@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(a, b):
-        return a + b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_set(array):
+        return set(array)
