@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_elements(lst):
-        return len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
