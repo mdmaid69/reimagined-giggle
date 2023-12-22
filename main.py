@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_user_list():
+        return collections.UserList()
