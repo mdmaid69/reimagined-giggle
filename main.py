@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
