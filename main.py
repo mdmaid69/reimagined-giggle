@@ -1,6 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
