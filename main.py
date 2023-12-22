@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
