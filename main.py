@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
