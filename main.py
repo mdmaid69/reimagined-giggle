@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_list(array):
+        return list(array)
