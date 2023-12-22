@@ -1,5 +1,6 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
