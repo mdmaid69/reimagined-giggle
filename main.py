@@ -1,6 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
