@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_as_tuple(array):
+        return tuple(array)
