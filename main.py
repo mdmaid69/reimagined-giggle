@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def count_elements(lst):
+        return len(lst)
