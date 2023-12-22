@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def find_min(lst):
-        return min(lst)
+def calculate_work(force, distance):
+        return force * distance
+  def sort_list(lst):
+        return sorted(lst)
