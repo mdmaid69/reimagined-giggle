@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
