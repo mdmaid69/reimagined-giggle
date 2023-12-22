@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
