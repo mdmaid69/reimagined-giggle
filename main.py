@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
