@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+x = 10
+y = 20
+print("Sum:", x + y)
