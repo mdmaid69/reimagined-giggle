@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
