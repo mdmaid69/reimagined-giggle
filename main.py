@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_odd(n):
+        return n % 2 != 0
+def convert_to_octal(n):
+        return oct(n)
