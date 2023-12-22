@@ -1,4 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
