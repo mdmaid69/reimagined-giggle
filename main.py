@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
