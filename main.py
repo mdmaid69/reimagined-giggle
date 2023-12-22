@@ -1,8 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
