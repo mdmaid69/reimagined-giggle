@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
