@@ -1,5 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
