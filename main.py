@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_unique_words(sentence):
+        return set(sentence.split())
