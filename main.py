@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
