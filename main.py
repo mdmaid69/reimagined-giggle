@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
