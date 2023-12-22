@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
