@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
