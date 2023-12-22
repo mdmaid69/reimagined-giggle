@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
