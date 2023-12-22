@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
