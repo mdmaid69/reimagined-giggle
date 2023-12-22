@@ -1,7 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
