@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
