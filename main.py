@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
