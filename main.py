@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
