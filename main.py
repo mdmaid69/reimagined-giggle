@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_current_directory():
+        return os.getcwd()
+  def calculate_area_rectangle(l, w):
+        return l * w
