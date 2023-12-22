@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def subtract_numbers(x, y):
-        return x - y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
