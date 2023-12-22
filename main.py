@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
