@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def clear_array(array):
+        array *= 0
+def greet(name):
+        print(f"Hello, {name}!")
