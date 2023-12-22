@@ -1,5 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def print_python_version():
+        print(sys.version)
