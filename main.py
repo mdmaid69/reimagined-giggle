@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+print(re.match("h.*o", "hello world"))
