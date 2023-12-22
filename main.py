@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def reverse_list(lst):
-        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
+import tensorflow as tf
+print(tf.__version__)
