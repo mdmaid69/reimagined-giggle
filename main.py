@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
