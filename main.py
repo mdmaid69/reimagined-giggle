@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
