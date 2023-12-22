@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_item(array, i):
+        return array[i]
