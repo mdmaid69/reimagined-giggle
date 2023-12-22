@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def square_number(x):
-        return x**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
