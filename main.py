@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
