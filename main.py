@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def convert_to_octal(n):
+        return oct(n)
