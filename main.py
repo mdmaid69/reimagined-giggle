@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
