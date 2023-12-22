@@ -1,5 +1,5 @@
+import os
+print(os.getcwd())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
