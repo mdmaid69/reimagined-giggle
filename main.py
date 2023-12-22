@@ -1,9 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
