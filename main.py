@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
