@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
