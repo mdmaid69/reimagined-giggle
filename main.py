@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def append_to_array(array, item):
+        array.append(item)
