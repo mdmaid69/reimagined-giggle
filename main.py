@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
