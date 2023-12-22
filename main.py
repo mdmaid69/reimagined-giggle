@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
