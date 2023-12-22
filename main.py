@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
