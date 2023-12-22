@@ -1,7 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
