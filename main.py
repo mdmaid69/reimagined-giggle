@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_power(work, time):
+        return work / time
