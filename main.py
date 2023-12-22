@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def convert_to_hex(n):
-        return hex(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
