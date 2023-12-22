@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
