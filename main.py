@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def reverse_list(lst):
-        return lst[::-1]
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
