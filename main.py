@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
