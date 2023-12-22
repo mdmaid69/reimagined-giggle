@@ -1,4 +1,6 @@
-print("Hello, world!")
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
