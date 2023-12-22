@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
