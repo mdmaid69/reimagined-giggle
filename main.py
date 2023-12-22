@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
