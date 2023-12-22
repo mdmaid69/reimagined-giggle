@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
