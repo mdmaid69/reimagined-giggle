@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
