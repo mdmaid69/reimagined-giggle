@@ -1,8 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+print(re.match("h.*o", "hello world"))
