@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
