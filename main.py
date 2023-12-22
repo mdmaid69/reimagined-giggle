@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-import time
-print(time.time())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_typecode(array):
+        return array.typecode
