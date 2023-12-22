@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
