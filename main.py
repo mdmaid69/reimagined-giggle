@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
