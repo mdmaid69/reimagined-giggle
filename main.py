@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
