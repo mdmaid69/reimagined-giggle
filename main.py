@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
