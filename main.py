@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_min(numbers):
+        return min(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
