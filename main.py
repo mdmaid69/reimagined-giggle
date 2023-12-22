@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
