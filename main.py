@@ -1,4 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-for i in range(10): print(i)
+def get_array_as_bytes(array):
+        return bytes(array)
