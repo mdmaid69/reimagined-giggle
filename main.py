@@ -1,5 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
