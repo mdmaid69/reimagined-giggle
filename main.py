@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
