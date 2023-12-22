@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
