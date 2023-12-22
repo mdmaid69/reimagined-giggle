@@ -1,6 +1,8 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_string_from_array(array):
+        return array.tobytes()
