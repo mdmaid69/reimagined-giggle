@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
