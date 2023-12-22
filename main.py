@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import array
-def reverse_array(array):
-        array.reverse()
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
