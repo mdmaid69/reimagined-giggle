@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
