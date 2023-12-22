@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
