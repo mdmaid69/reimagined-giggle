@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
