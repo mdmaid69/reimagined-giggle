@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
