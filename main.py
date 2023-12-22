@@ -1,5 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
