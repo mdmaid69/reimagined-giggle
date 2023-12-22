@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
