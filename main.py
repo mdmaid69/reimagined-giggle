@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
