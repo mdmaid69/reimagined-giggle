@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
