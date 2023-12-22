@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
