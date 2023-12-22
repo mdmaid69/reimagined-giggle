@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
