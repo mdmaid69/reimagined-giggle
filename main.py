@@ -1,6 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
