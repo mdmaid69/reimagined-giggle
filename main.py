@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
