@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
