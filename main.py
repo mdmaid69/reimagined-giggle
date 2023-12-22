@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
