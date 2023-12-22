@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import datetime
-print(datetime.datetime.now())
+def get_current_date():
+        return datetime.date.today()
