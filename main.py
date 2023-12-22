@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def find_max(lst):
+        return max(lst)
