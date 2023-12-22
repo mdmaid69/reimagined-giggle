@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_volume(length, width, height):
-        return length * width * height
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
