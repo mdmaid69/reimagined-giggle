@@ -1,7 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import collections
-def create_queue():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def create_user_list():
+        return collections.UserList()
