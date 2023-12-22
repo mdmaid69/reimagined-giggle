@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def reverse_list(lst):
+        return lst[::-1]
