@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_item(array, i):
+        return array[i]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
