@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_min(lst):
+        return min(lst)
