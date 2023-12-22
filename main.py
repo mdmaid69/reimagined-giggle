@@ -1,5 +1,6 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def greet(name):
-        print(f"Hello, {name}!")
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
