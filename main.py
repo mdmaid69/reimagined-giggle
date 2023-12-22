@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
