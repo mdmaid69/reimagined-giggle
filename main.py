@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
