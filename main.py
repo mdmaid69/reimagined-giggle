@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
