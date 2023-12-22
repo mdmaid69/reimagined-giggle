@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
