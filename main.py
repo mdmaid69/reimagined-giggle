@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
