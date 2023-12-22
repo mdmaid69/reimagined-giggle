@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def reverse_array(array):
-        array.reverse()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_max(numbers):
+        return max(numbers)
