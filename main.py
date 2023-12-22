@@ -1,5 +1,8 @@
-def add_numbers(a, b):
-        return a + b
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
