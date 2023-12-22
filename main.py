@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
