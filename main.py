@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
