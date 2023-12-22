@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
