@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def add_numbers(x, y):
-        return x + y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
