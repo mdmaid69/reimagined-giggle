@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def exit_program():
+        sys.exit()
