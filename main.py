@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
