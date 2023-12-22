@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
