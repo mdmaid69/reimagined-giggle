@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
