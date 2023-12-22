@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-print(math.pi)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
