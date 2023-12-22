@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
