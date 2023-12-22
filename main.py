@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import collections
-def create_user_string():
-        return collections.UserString()
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_pressure(force, area):
+        return force / area
