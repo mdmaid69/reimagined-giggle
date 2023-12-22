@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import platform
-def get_python_version():
-        return platform.python_version()
+def is_odd(n):
+        return n % 2 != 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
