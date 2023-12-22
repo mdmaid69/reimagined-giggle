@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
