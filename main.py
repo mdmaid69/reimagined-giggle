@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
