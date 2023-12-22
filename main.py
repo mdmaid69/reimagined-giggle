@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def add_numbers(x, y):
         return x + y
-import array
-def get_array_as_float(array):
-        return float(array[0])
