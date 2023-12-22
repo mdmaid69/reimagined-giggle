@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
