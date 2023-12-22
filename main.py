@@ -1,7 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
