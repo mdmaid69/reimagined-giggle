@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
