@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
