@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_pressure(force, area):
-        return force / area
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_array_to_list(array):
+        return array.tolist()
