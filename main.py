@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_environment_variable(var):
+        return os.getenv(var)
