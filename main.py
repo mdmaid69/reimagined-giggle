@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_min(numbers):
-        return min(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_work(force, distance):
+        return force * distance
