@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
