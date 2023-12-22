@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
