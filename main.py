@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
