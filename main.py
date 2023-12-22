@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
