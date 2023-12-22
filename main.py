@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
