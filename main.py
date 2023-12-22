@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_tuple(array):
+        return tuple(array)
