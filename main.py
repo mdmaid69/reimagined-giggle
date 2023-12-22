@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
