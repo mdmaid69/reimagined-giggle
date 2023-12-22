@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
