@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
