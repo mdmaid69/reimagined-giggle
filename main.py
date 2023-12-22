@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def is_palindrome(s):
-        return s == s[::-1]
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
