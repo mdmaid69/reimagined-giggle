@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
