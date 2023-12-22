@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_unique_words(sentence):
-        return set(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
