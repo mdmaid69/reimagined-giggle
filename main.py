@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area_rectangle(l, w):
+        return l * w
