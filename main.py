@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
