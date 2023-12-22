@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
