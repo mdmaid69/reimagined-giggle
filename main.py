@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
