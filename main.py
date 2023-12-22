@@ -1,9 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
