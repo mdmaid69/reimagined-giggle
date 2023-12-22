@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
