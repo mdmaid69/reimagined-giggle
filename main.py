@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
