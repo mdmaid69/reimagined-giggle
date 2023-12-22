@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Words:", len(text.split()))
