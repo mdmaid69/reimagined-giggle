@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
