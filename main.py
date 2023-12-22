@@ -1,7 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
