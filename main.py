@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
