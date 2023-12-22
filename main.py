@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_pressure(force, area):
-        return force / area
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
