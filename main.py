@@ -1,9 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
