@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def split_path(path):
+        return os.path.split(path)
