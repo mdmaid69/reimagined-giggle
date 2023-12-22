@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
