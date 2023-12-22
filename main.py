@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
