@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import getpass
+def get_username():
+        return getpass.getuser()
+def greet(name):
+        print(f"Hello, {name}!")
