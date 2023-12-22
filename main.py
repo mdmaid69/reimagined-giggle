@@ -1,13 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
