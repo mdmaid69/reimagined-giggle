@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
