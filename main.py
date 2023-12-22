@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
