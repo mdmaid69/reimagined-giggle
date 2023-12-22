@@ -1,9 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
