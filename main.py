@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
