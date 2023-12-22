@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def reverse_list(lst):
-        return lst[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
