@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
