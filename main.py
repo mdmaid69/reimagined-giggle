@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import random
+print(random.randint(0, 100))
+def find_max(numbers):
+        return max(numbers)
