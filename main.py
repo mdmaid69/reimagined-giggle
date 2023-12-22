@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
