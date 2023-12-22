@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
