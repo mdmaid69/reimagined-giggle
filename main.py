@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
