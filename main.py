@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
