@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
