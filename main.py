@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def cube_number(x):
+        return x**3
