@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
