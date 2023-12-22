@@ -1,6 +1,8 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import datetime
+def get_current_date():
+        return datetime.date.today()
