@@ -1,8 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
