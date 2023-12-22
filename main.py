@@ -1,5 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def square_number(x):
-        return x**2
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
