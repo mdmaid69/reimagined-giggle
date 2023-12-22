@@ -1,8 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
