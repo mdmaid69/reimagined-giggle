@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def convert_to_binary(n):
+        return bin(n)
