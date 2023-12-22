@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
