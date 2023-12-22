@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def convert_to_octal(n):
+        return oct(n)
+def find_max(numbers):
+        return max(numbers)
