@@ -1,7 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
