@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import logging
-def log_message(message):
-        logging.info(message)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
