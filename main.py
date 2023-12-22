@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def cube_number(x):
+        return x**3
