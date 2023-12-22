@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
