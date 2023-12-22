@@ -1,8 +1,9 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
