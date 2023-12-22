@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def sort_list(lst):
-        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
