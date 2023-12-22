@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
