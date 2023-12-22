@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_current_working_directory():
+        return os.getcwd()
