@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
