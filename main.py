@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
