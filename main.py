@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
