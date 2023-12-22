@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_max(lst):
+        return max(lst)
