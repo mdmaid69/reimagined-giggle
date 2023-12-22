@@ -1,6 +1,3 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+print(sum(range(10)))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
