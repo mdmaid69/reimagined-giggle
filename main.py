@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import os
-print(os.getcwd())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def count_characters(sentence):
+        return len(sentence)
