@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
