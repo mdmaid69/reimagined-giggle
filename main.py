@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item(array, i):
-        return array[i]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
