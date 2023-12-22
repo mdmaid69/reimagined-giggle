@@ -1,6 +1,8 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def remove_from_array(array, item):
+        array.remove(item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
