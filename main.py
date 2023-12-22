@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
