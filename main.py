@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def convert_array_to_unicode(array):
+        return array.tounicode()
