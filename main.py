@@ -1,6 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
