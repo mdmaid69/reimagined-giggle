@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
