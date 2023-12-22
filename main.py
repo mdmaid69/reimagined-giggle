@@ -1,6 +1,3 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print(sum(range(10)))
