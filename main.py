@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def sort_list(lst):
+        return sorted(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
