@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
