@@ -1,4 +1,8 @@
-for i in range(5):
-        print(i)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_user_list():
+        return collections.UserList()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
