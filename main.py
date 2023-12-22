@@ -1,6 +1,8 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def reverse_list(lst):
+        return lst[::-1]
