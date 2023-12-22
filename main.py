@@ -1,6 +1,7 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
