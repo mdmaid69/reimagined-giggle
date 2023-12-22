@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
