@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_power(work, time):
+        return work / time
