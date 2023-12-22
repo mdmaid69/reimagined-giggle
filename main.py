@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
