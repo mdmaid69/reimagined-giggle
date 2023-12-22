@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def extend_array(array, iterable):
+        array.extend(iterable)
