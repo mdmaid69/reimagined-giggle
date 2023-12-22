@@ -1,3 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-print(sum(range(10)))
+def find_min(lst):
+        return min(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
