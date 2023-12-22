@@ -1,5 +1,9 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import datetime
+def get_current_date():
+        return datetime.date.today()
