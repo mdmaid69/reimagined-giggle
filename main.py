@@ -1,5 +1,9 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
