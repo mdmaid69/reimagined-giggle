@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
