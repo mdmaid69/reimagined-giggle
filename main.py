@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
