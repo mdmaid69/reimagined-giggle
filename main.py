@@ -1,5 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
