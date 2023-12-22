@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_acceleration(speed, time):
+        return speed / time
