@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
