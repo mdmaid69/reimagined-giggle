@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
