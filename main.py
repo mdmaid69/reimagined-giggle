@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def remove_duplicates(lst):
+        return list(set(lst))
