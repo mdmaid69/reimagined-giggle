@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
