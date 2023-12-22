@@ -1,5 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import platform
+def get_os_info():
+        return platform.uname()
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
