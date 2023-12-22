@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
