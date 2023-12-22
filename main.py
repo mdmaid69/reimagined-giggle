@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
