@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
