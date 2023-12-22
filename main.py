@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def add_numbers(a, b):
+        return a + b
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
