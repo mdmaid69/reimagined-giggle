@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_acceleration(speed, time):
-        return speed / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
