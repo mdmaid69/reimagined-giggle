@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-import sys
-print(sys.version)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
