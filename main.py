@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import collections
+def create_user_list():
+        return collections.UserList()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
