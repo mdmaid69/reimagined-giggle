@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
