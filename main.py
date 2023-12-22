@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
