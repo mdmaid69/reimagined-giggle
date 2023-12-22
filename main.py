@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def convert_to_binary(n):
-        return bin(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
