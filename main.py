@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
