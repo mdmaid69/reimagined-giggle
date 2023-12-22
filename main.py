@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-name = "Python"
-print("Hello,", name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
