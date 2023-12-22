@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
