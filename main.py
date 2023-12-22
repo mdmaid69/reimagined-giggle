@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
