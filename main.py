@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_power(work, time):
-        return work / time
+  def delete_file(file_name):
+        os.remove(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
