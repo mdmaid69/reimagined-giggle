@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_str(array):
+        return str(array)
