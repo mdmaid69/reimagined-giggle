@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_work(force, distance):
+        return force * distance
+  def multiply_numbers(x, y):
+        return x * y
