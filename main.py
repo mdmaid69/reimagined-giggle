@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
