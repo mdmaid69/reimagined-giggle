@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
