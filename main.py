@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
