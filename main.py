@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
