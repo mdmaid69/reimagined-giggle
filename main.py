@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
