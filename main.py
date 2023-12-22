@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
