@@ -1,4 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-print("Hello, world!")
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
