@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
