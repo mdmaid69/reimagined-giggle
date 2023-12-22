@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def remove_duplicates(lst):
+        return list(set(lst))
