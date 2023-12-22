@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
