@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_list(array):
+        return list(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
