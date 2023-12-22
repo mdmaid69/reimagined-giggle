@@ -1,6 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
