@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
