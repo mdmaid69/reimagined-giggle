@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import tensorflow as tf
-print(tf.__version__)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def sort_list(lst):
+        return sorted(lst)
