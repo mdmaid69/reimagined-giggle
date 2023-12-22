@@ -1,4 +1,13 @@
-print([x**2 for x in range(10)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
