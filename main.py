@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
