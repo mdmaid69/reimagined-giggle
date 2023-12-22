@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_circle(r):
+        return 3.14 * r**2
