@@ -1,7 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
