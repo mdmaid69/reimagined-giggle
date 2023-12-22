@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
