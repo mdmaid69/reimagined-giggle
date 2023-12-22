@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
