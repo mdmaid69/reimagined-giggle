@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
