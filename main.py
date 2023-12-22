@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
