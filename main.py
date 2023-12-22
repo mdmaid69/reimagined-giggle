@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import platform
+def get_os_info():
+        return platform.uname()
