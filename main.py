@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_tangent(x):
+        return math.tan(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
