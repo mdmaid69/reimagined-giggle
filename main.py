@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
