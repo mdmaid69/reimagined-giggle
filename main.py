@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+print(json.dumps({"name": "John", "age": 30}))
