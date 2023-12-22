@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_pressure(force, area):
+        return force / area
