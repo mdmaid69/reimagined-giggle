@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+from collections import Counter
+print(Counter("hello world"))
