@@ -1,5 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
