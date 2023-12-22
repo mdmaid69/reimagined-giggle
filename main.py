@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
