@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
