@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
