@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def sort_list(lst):
+        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
