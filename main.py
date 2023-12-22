@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
