@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
