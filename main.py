@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
