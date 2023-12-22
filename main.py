@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
