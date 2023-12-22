@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
