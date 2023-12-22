@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def divide_numbers(x, y):
-        return x / y
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
