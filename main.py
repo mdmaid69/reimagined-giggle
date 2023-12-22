@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
