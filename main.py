@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
