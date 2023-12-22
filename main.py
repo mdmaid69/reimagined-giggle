@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
