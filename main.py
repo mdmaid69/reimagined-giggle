@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
