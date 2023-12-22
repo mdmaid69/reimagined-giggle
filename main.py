@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
