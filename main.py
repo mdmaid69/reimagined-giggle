@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
