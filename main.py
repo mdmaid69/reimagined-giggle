@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
