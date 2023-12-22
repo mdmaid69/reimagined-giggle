@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
