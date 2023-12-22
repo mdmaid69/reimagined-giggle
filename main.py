@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
