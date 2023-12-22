@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
