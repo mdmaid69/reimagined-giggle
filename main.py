@@ -1,7 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
