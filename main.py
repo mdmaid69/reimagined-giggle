@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
