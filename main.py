@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
