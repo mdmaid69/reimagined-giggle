@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def sort_list(lst):
-        return sorted(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
