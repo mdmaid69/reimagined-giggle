@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
