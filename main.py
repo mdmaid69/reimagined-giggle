@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import platform
+def get_os_info():
+        return platform.uname()
