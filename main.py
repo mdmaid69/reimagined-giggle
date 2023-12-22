@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
