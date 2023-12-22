@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
