@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
