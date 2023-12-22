@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
