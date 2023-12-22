@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
