@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
