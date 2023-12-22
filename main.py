@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
