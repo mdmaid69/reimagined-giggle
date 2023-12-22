@@ -1,5 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
