@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
