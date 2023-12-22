@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
