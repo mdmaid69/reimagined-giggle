@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import re
+print(re.match("h.*o", "hello world"))
