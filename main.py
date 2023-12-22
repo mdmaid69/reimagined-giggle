@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+for i in range(5):
+        print(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
