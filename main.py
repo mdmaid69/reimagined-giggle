@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_power(work, time):
-        return work / time
+def remove_duplicates(lst):
+        return list(set(lst))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
