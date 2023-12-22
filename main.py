@@ -1,5 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def sort_list(lst):
-        return sorted(lst)
+def create_queue():
+        return collections.deque()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
