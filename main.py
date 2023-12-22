@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
