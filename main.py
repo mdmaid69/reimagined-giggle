@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_stack():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
