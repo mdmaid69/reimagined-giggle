@@ -1,8 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
