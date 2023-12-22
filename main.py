@@ -1,6 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
