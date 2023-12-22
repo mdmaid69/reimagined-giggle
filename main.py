@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
