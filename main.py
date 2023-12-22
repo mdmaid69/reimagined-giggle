@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
