@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
