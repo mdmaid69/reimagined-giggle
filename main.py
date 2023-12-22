@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
