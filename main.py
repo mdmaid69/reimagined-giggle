@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_gid(file_name):
+  def get_file_group(file_name):
         return os.stat(file_name).st_gid
