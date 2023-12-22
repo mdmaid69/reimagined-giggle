@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
