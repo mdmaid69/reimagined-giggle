@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
