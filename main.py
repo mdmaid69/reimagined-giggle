@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def greet(name):
+        print(f"Hello, {name}!")
