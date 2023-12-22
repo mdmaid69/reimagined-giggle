@@ -1,9 +1,8 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
