@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
