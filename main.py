@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
