@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
