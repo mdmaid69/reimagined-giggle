@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
