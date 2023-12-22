@@ -1,6 +1,9 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
