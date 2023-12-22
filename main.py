@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import sys
+print(sys.version)
