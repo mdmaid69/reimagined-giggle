@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
