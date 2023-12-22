@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
