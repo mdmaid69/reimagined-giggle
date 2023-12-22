@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
