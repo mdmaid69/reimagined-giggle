@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
