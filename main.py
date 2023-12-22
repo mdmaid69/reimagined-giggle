@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+for i in range(10): print(i)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
