@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
