@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_to_octal(n):
+        return oct(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
