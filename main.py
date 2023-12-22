@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
