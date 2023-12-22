@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
