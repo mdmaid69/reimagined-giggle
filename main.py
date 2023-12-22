@@ -1,9 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
