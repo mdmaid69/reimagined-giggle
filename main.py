@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_power(work, time):
+        return work / time
