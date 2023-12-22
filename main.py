@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
