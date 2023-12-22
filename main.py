@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_typecode(array):
+        return array.typecode
