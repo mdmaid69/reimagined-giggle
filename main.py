@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
