@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
