@@ -1,5 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-import os
-print(os.getcwd())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
