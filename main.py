@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
