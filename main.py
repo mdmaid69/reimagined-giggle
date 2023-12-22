@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
