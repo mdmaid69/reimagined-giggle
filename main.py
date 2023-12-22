@@ -1,9 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+print("Hello, world!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
