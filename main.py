@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-def print_python_version():
-        return sys.version
+def add_numbers(a, b):
+        return a + b
+def calculate_density(mass, volume):
+        return mass / volume
