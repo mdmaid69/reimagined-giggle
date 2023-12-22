@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
