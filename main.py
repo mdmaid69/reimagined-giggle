@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
