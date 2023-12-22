@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def cube_number(x):
-        return x**3
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
