@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import random
+print(random.randint(0, 100))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
