@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
