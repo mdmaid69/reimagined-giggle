@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_volume(length, width, height):
-        return length * width * height
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+print("Hello, world!")
