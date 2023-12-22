@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
