@@ -1,6 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
