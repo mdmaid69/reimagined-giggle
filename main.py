@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
