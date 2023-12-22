@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+for i in range(5):
+        print(i)
