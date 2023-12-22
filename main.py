@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
