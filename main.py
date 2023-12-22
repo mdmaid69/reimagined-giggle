@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
