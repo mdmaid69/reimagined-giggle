@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def remove_duplicates(lst):
+        return list(set(lst))
