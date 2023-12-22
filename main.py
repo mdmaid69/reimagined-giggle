@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-import random
-print(random.randint(0, 100))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
