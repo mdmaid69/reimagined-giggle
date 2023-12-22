@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_acceleration(speed, time):
-        return speed / time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def reverse_string(s):
+        return s[::-1]
