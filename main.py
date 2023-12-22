@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
