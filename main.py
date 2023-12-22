@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
