@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
