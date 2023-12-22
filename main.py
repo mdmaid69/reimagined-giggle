@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
