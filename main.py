@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
