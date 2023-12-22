@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
