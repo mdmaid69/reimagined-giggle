@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
