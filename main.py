@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
