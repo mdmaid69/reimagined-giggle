@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def reverse_string(s):
-        return s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
