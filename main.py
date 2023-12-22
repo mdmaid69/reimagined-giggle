@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
