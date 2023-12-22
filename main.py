@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
