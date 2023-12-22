@@ -1,7 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def square_number(x):
+        return x**2
