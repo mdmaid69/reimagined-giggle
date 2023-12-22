@@ -1,7 +1,3 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+print([x**2 for x in range(10)])
+  def is_even(n):
+        return n % 2 == 0
