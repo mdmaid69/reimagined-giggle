@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
