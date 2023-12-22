@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
