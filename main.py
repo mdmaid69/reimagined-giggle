@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import time
-def get_current_time():
-        return time.time()
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
