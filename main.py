@@ -1,5 +1,10 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
