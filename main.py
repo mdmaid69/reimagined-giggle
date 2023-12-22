@@ -1,6 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def get_array_slice(array, i, j):
+        return array[i:j]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
