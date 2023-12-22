@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-name = "Python"
-print("Hello,", name)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
