@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import tensorflow as tf
+print(tf.__version__)
