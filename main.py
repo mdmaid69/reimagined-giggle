@@ -1,6 +1,5 @@
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
