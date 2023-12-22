@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
