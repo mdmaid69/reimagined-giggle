@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
