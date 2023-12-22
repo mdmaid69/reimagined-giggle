@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
