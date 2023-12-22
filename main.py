@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def get_current_time():
+        return time.ctime()
+def is_palindrome(s):
+        return s == s[::-1]
