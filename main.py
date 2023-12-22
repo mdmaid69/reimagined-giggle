@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
