@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
