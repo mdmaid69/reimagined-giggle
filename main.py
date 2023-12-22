@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def count_elements(lst):
-        return len(lst)
+import random
+print(random.randint(0, 100))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
