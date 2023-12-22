@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import collections
+def create_user_string():
+        return collections.UserString()
