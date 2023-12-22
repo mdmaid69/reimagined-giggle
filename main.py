@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
