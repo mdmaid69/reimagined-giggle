@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def square_number(x):
-        return x**2
+def calculate_pressure(force, area):
+        return force / area
+def divide_numbers(x, y):
+        return x / y
