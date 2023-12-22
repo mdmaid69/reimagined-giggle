@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
