@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_list(array):
-        return list(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
