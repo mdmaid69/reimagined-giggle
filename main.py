@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import sys
+print(sys.version)
