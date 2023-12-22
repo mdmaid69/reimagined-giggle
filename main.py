@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
