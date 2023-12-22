@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
