@@ -1,8 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
