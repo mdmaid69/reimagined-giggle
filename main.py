@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def count_elements(lst):
+        return len(lst)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
