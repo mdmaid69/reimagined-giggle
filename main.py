@@ -1,6 +1,9 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
