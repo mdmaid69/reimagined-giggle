@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
