@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def get_array_as_tuple(array):
+        return tuple(array)
