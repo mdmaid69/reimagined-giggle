@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def convert_to_binary(n):
+        return bin(n)
