@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
