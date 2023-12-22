@@ -1,7 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
