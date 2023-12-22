@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
