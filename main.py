@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
