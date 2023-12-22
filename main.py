@@ -1,6 +1,11 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
