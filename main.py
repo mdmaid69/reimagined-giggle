@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
