@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
