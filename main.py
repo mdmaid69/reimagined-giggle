@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
