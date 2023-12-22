@@ -1,5 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def create_user_list():
+        return collections.UserList()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
