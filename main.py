@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
