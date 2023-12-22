@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
