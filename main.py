@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
