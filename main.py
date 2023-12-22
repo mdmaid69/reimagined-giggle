@@ -1,6 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def sort_list(lst):
-        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
