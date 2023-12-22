@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
