@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
