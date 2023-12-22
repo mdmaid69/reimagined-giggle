@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
