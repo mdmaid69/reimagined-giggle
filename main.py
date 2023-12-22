@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-for i in range(5):
-        print(i)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_repr(array):
+        return repr(array)
