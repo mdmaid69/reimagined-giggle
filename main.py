@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
