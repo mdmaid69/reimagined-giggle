@@ -1,5 +1,9 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
