@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
