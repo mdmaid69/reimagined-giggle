@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
