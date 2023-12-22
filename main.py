@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_min(lst):
+        return min(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
