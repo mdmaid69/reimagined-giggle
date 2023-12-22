@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
