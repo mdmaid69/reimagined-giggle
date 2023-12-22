@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def multiply_numbers(x, y):
+        return x * y
