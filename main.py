@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
