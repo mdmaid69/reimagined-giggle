@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
