@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def count_elements(lst):
-        return len(lst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
