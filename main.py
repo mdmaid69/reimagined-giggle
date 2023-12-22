@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
