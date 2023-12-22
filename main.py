@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
