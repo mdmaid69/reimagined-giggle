@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
