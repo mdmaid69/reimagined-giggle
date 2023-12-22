@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
