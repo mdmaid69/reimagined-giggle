@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
