@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
