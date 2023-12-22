@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
