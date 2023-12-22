@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
