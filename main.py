@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def count_elements(lst):
-        return len(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
