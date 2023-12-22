@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
