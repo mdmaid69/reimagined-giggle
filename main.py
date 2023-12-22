@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
