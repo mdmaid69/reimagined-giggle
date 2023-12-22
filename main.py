@@ -1,7 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
