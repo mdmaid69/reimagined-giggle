@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_pressure(force, area):
-        return force / area
+for i in range(10): print(i)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
