@@ -1,8 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import time
+def get_time_since_epoch():
+        return time.time()
