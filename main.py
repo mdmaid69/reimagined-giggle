@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
