@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
