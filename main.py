@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
