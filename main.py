@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
