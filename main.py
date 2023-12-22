@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+print(math.pi)
+import collections
+def create_priority_queue():
+        return collections.deque()
