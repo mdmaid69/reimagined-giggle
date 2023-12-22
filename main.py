@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
