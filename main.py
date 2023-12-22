@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
