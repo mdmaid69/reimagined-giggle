@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
