@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
