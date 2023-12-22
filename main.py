@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-print(random.randint(0, 100))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
