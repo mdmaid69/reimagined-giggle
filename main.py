@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import os
-print(os.getcwd())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
