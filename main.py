@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
