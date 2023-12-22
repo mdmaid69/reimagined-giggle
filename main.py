@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
