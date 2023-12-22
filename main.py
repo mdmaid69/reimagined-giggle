@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
