@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
