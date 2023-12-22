@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
