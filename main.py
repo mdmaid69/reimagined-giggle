@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_priority_queue():
+        return collections.deque()
