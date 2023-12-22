@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
