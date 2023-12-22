@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import getpass
+def get_username():
+        return getpass.getuser()
