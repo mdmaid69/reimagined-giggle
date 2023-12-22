@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
