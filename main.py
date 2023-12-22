@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
