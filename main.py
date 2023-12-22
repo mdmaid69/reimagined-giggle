@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_area(radius):
+        return 3.14 * radius * radius
