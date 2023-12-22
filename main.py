@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
