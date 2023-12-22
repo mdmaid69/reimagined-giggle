@@ -1,7 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
