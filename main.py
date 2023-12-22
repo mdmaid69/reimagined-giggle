@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import time
-def get_current_time():
-        return time.ctime()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_density(mass, volume):
+        return mass / volume
