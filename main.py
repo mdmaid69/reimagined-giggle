@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_stack():
+        return collections.deque()
