@@ -1,6 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
