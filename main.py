@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
