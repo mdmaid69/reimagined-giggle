@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
