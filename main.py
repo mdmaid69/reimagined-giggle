@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def square_number(x):
-        return x**2
+import collections
+def create_stack():
+        return collections.deque()
+import tensorflow as tf
+print(tf.__version__)
