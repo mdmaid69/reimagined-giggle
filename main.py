@@ -1,3 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-print("Hello, world!")
+def greet(name):
+        print(f"Hello, {name}!")
+def sort_numbers(numbers):
+        return sorted(numbers)
