@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
