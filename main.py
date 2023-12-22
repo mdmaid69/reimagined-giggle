@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
