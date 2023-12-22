@@ -1,5 +1,9 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
