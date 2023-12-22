@@ -1,8 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def is_palindrome(s):
+        return s == s[::-1]
