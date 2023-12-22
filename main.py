@@ -1,5 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def find_min(numbers):
-        return min(numbers)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
