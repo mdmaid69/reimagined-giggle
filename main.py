@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
