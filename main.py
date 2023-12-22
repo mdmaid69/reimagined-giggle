@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def add_numbers(x, y):
+        return x + y
+def calculate_power(work, time):
+        return work / time
