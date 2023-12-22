@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
