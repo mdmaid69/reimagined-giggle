@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
