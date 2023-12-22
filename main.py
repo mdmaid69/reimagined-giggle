@@ -1,3 +1,6 @@
-print("Hello, world!")
-  def count_elements(lst):
-        return len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
