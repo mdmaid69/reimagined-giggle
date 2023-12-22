@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import sys
-def print_python_version():
-        return sys.version
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_density(mass, volume):
+        return mass / volume
