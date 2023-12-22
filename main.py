@@ -1,5 +1,12 @@
-def find_max(lst):
-        return max(lst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
