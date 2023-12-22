@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
