@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_list_from_array(array):
+        return array.tolist()
