@@ -1,6 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_typecode(array):
+        return array.typecode
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
