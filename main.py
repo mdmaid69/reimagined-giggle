@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
