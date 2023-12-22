@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
