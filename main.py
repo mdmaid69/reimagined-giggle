@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def convert_to_binary(n):
-        return bin(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
