@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import numpy as np
-print(np.array([1, 2, 3]))
+import sys
+def print_python_version():
+        print(sys.version)
+def find_max(lst):
+        return max(lst)
