@@ -1,3 +1,5 @@
-print(sum(range(10)))
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
