@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
