@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
