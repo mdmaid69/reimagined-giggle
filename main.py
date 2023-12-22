@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
