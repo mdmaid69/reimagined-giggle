@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import time
+def get_current_time():
+        return time.ctime()
