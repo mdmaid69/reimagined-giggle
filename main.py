@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_stack():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
