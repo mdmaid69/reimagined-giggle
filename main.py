@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
