@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
