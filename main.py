@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
