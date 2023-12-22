@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def divide_numbers(x, y):
+        return x / y
+import os
+print(os.getcwd())
