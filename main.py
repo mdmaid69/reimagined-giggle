@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
