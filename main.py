@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def find_max(lst):
+        return max(lst)
