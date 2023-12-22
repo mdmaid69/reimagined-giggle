@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def cube_number(x):
-        return x**3
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
