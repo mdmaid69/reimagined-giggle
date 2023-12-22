@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
