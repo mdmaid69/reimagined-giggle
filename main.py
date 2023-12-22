@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_work(force, distance):
+        return force * distance
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
