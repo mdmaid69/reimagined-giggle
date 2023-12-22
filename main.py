@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
