@@ -1,5 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
