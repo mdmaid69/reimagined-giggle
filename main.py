@@ -1,6 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
