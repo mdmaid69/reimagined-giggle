@@ -1,6 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def is_odd(n):
+        return n % 2 != 0
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
