@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
