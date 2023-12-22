@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
