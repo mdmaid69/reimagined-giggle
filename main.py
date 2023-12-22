@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
