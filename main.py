@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_work(force, distance):
+        return force * distance
