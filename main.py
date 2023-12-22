@@ -1,7 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
