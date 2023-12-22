@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
