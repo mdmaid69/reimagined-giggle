@@ -1,6 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
