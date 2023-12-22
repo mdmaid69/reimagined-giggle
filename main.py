@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
