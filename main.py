@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def cube_number(x):
-        return x**3
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def add_numbers(x, y):
+        return x + y
