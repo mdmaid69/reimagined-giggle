@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import platform
+def get_os_info():
+        return platform.uname()
