@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
