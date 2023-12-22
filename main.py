@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+x = 10
+y = 20
+print("Sum:", x + y)
