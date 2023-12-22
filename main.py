@@ -1,5 +1,10 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
