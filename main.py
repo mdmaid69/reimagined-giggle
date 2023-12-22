@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
