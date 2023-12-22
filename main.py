@@ -1,6 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
