@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def divide_numbers(x, y):
-        return x / y
+import array
+def clear_array(array):
+        array *= 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
