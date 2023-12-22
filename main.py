@@ -1,5 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
