@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
