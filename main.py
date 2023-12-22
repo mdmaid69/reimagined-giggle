@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
