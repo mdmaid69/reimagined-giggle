@@ -1,8 +1,7 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
