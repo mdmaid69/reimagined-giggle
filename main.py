@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
