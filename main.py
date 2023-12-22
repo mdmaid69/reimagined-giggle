@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
