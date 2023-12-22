@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
