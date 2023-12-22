@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
+import datetime
+print(datetime.datetime.now())
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item(array, i):
+        return array[i]
