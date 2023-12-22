@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
