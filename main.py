@@ -1,7 +1,12 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
