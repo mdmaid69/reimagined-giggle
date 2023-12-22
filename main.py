@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
