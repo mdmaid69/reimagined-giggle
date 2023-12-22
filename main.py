@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_tangent(x):
+        return math.tan(x)
