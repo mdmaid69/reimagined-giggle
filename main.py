@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
