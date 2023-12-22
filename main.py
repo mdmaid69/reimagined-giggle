@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
