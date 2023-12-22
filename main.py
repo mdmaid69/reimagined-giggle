@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
