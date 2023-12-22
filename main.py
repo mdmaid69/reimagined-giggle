@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
