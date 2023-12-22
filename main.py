@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+print(os.getcwd())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
