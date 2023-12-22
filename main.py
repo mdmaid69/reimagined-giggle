@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
