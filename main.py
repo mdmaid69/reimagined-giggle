@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
