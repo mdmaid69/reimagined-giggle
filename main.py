@@ -1,5 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
