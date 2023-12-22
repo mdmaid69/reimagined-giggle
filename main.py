@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
