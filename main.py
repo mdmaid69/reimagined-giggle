@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
