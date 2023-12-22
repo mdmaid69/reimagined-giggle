@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
