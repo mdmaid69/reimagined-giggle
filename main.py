@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
