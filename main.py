@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
