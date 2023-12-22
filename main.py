@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
