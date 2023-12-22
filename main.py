@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
