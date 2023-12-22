@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
