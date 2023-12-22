@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
