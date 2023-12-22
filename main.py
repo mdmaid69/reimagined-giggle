@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def remove_from_array(array, item):
+        array.remove(item)
