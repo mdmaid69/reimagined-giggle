@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
