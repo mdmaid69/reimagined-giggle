@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import numpy as np
+print(np.array([1, 2, 3]))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
