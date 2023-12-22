@@ -1,6 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
