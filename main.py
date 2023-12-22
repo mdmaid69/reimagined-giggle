@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
