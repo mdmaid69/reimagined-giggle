@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
