@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+print(math.pi)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
