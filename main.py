@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
