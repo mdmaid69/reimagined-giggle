@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
