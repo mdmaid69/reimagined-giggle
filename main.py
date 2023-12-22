@@ -1,7 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
