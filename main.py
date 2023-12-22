@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
