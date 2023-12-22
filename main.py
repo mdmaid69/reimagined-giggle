@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
