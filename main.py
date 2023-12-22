@@ -1,8 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def reverse_string(s):
+        return s[::-1]
