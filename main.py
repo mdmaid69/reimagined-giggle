@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
