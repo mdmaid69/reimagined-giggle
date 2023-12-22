@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
