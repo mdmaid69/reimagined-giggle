@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
