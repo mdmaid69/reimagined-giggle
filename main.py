@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
