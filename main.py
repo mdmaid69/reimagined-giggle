@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
