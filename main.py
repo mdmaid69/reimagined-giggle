@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_list(array):
+        return list(array)
