@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
