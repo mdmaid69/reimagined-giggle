@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
