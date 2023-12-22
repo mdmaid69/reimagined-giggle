@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
