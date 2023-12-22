@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
