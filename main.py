@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
