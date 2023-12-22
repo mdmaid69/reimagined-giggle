@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def square_number(x):
-        return x**2
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
