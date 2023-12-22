@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
