@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
