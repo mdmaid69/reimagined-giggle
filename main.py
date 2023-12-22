@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
