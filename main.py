@@ -1,6 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def reverse_array(array):
+        array.reverse()
