@@ -1,7 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
