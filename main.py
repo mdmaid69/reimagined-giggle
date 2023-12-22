@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def print_python_version():
+        print(sys.version)
