@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def find_min(lst):
+        return min(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
