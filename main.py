@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
