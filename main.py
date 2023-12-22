@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
