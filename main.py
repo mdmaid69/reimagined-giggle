@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_work(force, distance):
+        return force * distance
