@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
