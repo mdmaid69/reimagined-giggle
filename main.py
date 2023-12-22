@@ -1,5 +1,8 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_item(array, i):
-        return array[i]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
