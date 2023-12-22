@@ -1,6 +1,6 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
