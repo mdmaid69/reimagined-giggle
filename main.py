@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_queue():
-        return collections.deque()
+def add_numbers(x, y):
+        return x + y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
