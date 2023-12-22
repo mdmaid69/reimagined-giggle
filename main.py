@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def count_elements(lst):
+        return len(lst)
