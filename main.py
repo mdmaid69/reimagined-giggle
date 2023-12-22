@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
