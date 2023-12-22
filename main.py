@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
