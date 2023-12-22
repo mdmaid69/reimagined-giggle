@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
