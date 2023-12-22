@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
