@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import time
-def get_current_time():
-        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
