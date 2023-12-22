@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
