@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_list():
+        return collections.UserList()
