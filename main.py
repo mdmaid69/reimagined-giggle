@@ -1,8 +1,8 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
