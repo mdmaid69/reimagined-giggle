@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
