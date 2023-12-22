@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_density(mass, volume):
+        return mass / volume
