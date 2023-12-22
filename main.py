@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
