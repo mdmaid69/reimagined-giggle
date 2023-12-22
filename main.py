@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
