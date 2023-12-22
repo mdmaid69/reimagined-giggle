@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
