@@ -1,5 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sys
+def exit_program():
+        sys.exit()
