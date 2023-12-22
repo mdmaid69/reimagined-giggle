@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-def find_min(numbers):
-        return min(numbers)
+  def convert_to_binary(n):
+        return bin(n)
+def square_number(x):
+        return x**2
