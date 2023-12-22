@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
