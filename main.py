@@ -1,8 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
