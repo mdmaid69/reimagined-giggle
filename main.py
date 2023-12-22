@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_bool(array):
+        return bool(array)
