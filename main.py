@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def sort_numbers(numbers):
+        return sorted(numbers)
