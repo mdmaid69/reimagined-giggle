@@ -1,3 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print([x**2 for x in range(10)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
