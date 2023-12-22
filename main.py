@@ -1,5 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_sign(x):
+        return math.copysign(1, x)
