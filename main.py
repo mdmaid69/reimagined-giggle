@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
