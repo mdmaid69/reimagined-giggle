@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
