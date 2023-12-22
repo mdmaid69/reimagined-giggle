@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
