@@ -1,6 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
