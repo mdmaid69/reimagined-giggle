@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
