@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def divide_numbers(x, y):
+        return x / y
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
