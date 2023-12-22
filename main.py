@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def convert_to_octal(n):
+        return oct(n)
