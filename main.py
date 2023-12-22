@@ -1,8 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def convert_to_hex(n):
+        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
