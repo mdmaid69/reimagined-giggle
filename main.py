@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def clear_array(array):
+        array *= 0
+def add_numbers(x, y):
+        return x + y
