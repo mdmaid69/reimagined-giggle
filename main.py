@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
