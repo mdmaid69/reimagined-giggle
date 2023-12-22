@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
