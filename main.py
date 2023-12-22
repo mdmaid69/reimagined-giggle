@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
