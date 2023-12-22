@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
