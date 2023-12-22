@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def square_number(x):
-        return x**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
