@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
