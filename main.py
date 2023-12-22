@@ -1,7 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_max(numbers):
+        return max(numbers)
+import os
+def remove_directory(path):
+        os.rmdir(path)
