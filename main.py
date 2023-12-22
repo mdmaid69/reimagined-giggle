@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def is_even(n):
+        return n % 2 == 0
