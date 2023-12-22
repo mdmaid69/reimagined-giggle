@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
