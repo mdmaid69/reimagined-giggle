@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import random
+def roll_die():
+        return random.randint(1, 6)
