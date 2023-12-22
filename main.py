@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
