@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import os
+def change_working_directory(path):
+        os.chdir(path)
