@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
