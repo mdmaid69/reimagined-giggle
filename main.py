@@ -1,6 +1,9 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
