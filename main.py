@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def cube_number(x):
-        return x**3
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
