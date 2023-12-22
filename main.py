@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
