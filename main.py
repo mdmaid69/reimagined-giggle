@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_list(array):
+        return list(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
