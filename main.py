@@ -1,4 +1,8 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
