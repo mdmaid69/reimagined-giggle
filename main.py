@@ -1,5 +1,10 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
