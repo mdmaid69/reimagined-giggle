@@ -1,5 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
