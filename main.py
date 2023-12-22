@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
