@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
