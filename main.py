@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
