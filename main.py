@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
