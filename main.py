@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
