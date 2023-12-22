@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def square_number(x):
-        return x**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
