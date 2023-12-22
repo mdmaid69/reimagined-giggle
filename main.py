@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
