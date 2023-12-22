@@ -1,7 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
