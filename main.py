@@ -1,10 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
