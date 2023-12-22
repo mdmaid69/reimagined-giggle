@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_pressure(force, area):
-        return force / area
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
