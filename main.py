@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
