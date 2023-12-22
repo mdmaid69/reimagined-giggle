@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
