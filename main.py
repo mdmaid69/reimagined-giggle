@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def multiply_numbers(x, y):
+        return x * y
