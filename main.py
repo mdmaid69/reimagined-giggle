@@ -1,8 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+from collections import Counter
+print(Counter("hello world"))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
