@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
