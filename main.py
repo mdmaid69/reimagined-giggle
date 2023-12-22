@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
