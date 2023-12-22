@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
