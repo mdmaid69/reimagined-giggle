@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-text = "Hello, world!"
-print("Characters:", len(text))
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
