@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
