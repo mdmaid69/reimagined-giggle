@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
