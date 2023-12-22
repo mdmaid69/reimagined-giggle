@@ -1,4 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_volume(length, width, height):
-        return length * width * height
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def set_array_item(array, i, item):
+        array[i] = item
