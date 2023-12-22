@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+print(math.pi)
