@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def convert_to_binary(n):
+        return bin(n)
