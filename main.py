@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_min(lst):
+        return min(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
