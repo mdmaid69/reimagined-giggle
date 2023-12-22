@@ -1,4 +1,8 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
