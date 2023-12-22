@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
