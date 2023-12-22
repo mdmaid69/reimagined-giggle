@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def subtract_numbers(x, y):
+        return x - y
