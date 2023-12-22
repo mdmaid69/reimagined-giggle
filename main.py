@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
