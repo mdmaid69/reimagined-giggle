@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
