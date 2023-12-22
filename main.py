@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
