@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
