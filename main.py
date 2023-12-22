@@ -1,7 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
