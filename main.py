@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
