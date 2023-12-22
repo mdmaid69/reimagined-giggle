@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
