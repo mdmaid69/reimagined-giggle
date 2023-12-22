@@ -1,6 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
