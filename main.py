@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
