@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
