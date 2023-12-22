@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
