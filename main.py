@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
