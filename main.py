@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_typecode(array):
+        return array.typecode
