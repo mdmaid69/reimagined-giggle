@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
