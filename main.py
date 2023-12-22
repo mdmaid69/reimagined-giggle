@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_perimeter_triangle(a, b, c):
+  def calculate_perimeter_triangle(a, b, c):
         return a + b + c
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
