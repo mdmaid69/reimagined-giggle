@@ -1,8 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_sine(x):
+        return math.sin(x)
