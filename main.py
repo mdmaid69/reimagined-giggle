@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-print(random.randint(0, 100))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
