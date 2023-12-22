@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
