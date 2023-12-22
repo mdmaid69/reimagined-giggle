@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
