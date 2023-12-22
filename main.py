@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
