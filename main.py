@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def sort_list(lst):
+        return sorted(lst)
