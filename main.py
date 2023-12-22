@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
