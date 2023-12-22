@@ -1,5 +1,9 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
