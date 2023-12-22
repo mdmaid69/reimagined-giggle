@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def sort_list(lst):
+        return sorted(lst)
