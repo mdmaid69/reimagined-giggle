@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
