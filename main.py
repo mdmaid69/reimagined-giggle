@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import tensorflow as tf
+print(tf.__version__)
+def reverse_string(s):
+        return s[::-1]
