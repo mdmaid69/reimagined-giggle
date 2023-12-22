@@ -1,8 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
