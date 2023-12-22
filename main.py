@@ -1,11 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_stack():
+        return collections.deque()
