@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
