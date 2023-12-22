@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def count_elements(lst):
-        return len(lst)
+import datetime
+print(datetime.datetime.now())
+def is_even(n):
+        return n % 2 == 0
