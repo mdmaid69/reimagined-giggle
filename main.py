@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def count_words(sentence):
+        return len(sentence.split())
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
