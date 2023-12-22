@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_str(array):
-        return str(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
