@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+for i in range(10): print(i)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
