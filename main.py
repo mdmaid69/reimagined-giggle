@@ -1,6 +1,7 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import platform
-def get_os_info():
-        return platform.uname()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
