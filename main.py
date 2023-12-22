@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
