@@ -1,9 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def count_elements(lst):
+        return len(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
