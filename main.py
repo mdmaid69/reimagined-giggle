@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
