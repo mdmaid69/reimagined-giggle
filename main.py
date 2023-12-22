@@ -1,5 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
