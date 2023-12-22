@@ -1,4 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
