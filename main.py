@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+print([x**2 for x in range(10)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
