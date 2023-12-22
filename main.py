@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+text = "Hello, world!"
+print("Characters:", len(text))
