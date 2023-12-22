@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def convert_to_octal(n):
+        return oct(n)
