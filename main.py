@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_base_name(path):
+        return os.path.basename(path)
+def convert_to_hex(n):
+        return hex(n)
