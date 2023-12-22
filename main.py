@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
