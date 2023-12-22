@@ -1,8 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
