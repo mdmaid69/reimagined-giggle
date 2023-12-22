@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
