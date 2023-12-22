@@ -1,4 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
