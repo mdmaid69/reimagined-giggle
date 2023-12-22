@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_sine(x):
+        return math.sin(x)
