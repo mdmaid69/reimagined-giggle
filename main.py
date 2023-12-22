@@ -1,8 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import sys
+def exit_program():
+        sys.exit()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
