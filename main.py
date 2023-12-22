@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_power(work, time):
+        return work / time
