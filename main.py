@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+for i in range(10): print(i)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
