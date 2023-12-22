@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import platform
+def get_python_version():
+        return platform.python_version()
