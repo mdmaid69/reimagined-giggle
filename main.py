@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
