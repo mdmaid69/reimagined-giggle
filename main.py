@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def reverse_list(lst):
+        return lst[::-1]
