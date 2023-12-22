@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_power(work, time):
-        return work / time
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
