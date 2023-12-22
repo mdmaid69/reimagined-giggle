@@ -1,4 +1,11 @@
-print("Hello, world!")
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_repr(array):
+        return repr(array)
