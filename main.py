@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
