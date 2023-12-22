@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def remove_from_array(array, item):
+        array.remove(item)
