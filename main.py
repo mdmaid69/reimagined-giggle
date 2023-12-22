@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
