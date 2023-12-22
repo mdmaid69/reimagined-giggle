@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_directory_name(path):
+        return os.path.dirname(path)
