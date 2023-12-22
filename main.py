@@ -1,5 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
