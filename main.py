@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
