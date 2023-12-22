@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import collections
+def create_counter():
+        return collections.Counter()
+def find_min(lst):
+        return min(lst)
