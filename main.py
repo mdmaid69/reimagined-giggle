@@ -1,8 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
