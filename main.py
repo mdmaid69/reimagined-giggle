@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
