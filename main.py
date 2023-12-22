@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
