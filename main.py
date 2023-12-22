@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import sys
+def exit_program():
+        sys.exit()
