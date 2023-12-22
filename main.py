@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
