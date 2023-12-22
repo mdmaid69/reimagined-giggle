@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def get_current_time():
+        return time.time()
