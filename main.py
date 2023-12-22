@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_list(array):
+        return list(array)
