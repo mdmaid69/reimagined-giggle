@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
