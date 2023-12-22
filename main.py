@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def square_number(x):
+        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
