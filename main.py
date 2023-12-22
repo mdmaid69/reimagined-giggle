@@ -1,8 +1,7 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import csv
-with open("some.csv", "w", newline="") as f:
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_typecode(array):
-        return array.typecode
+        writer.writerows(data)
