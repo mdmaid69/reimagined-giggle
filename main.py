@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
