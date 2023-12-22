@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
