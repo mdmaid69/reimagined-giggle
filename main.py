@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def count_characters(sentence):
-        return len(sentence)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
