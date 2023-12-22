@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def cube_number(x):
+        return x**3
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
