@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def roll_die():
+        return random.randint(1, 6)
