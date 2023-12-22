@@ -1,6 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def check_if_array_contains_item(array, item):
+        return item in array
+def count_elements(lst):
+        return len(lst)
