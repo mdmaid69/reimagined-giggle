@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
