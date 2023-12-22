@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def get_time_since_epoch():
+        return time.time()
