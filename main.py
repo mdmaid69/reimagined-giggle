@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
