@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
