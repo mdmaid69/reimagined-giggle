@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
