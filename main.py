@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def append_to_array(array, item):
+        array.append(item)
