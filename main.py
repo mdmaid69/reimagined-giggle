@@ -1,4 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_int(array):
+        return int(array[0])
