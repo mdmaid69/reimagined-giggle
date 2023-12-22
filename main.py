@@ -1,6 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
