@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
