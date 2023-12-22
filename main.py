@@ -1,6 +1,13 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
