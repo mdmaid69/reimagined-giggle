@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
