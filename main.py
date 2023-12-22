@@ -1,6 +1,9 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
