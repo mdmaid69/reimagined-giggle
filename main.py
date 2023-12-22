@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
