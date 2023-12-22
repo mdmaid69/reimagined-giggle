@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_current_time():
+        return time.time()
+def calculate_pressure(force, area):
+        return force / area
