@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def print_python_version():
-        return sys.version
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
