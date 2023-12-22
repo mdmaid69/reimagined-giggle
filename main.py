@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def subtract_numbers(x, y):
+        return x - y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
