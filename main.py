@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_volume(length, width, height):
-        return length * width * height
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
