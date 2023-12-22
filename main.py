@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
