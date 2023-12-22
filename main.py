@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+for i in range(10): print(i)
