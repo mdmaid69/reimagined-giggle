@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_stack():
-        return collections.deque()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
