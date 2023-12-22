@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
