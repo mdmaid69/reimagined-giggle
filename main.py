@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
