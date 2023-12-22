@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+text = "Hello, world!"
+print("Words:", len(text.split()))
