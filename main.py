@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
