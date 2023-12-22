@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def count_elements(lst):
+        return len(lst)
