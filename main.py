@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_queue():
+        return collections.deque()
