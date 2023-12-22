@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def cube_number(x):
+        return x**3
