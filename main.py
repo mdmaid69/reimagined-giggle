@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
