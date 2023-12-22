@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
