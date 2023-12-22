@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
