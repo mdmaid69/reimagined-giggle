@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-for i in range(5):
-        print(i)
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
