@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
