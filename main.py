@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
