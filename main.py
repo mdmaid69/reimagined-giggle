@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
