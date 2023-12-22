@@ -1,7 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import time
+def get_current_time():
+        return time.time()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
