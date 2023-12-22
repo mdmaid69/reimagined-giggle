@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
