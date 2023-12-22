@@ -1,4 +1,10 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
