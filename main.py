@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
