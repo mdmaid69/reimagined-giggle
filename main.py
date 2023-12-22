@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def sort_list(lst):
+        return sorted(lst)
