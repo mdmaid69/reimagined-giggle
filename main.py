@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_counter():
+        return collections.Counter()
