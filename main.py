@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
