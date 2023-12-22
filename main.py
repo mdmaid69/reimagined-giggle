@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
