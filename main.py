@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
