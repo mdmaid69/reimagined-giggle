@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_int(array):
+        return int(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
