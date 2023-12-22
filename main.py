@@ -1,6 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+for i in range(5):
+        print(i)
