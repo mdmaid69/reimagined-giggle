@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
