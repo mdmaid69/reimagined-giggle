@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
