@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+x = 10
+y = 20
+print("Sum:", x + y)
