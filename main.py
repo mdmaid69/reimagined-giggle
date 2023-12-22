@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
