@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
