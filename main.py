@@ -1,6 +1,12 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def append_to_array(array, item):
-        array.append(item)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
