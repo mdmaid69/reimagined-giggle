@@ -1,7 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
