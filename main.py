@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+for i in range(5):
+        print(i)
