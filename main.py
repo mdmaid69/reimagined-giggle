@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
