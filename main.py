@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
