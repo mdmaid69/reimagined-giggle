@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def subtract_numbers(x, y):
+        return x - y
