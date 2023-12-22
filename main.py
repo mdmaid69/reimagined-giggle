@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
