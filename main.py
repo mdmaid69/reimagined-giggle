@@ -1,6 +1,10 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
