@@ -1,5 +1,11 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
