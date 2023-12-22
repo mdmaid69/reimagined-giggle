@@ -1,6 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
