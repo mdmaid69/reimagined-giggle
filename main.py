@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
