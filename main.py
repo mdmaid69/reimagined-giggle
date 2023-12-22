@@ -1,7 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
