@@ -1,6 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_directory():
+        return os.getcwd()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
