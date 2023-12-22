@@ -1,5 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_exponential(x):
+        return math.exp(x)
