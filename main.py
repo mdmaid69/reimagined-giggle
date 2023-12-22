@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def remove_duplicates(lst):
+        return list(set(lst))
