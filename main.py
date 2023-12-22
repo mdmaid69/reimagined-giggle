@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
