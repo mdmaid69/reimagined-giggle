@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
