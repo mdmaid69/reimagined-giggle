@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import re
-print(re.match("h.*o", "hello world"))
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
