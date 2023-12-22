@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
