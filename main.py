@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
