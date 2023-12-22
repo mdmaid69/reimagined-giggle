@@ -1,6 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
