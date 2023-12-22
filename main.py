@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
