@@ -1,10 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
