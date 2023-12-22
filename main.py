@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def find_min(lst):
+        return min(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
