@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
