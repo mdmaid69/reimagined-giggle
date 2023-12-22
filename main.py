@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_acceleration(speed, time):
+        return speed / time
