@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
