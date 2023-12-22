@@ -1,6 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
