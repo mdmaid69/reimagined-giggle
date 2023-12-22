@@ -1,7 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def cube_number(x):
+        return x**3
