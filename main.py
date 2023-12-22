@@ -1,7 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
