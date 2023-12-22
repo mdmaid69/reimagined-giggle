@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
