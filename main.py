@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
