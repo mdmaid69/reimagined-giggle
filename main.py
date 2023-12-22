@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
