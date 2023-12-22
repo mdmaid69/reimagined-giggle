@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
