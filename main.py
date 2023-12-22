@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
