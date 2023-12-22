@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def is_odd(n):
+        return n % 2 != 0
