@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
