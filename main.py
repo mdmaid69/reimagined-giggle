@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
