@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
