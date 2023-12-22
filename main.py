@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def append_to_array(array, item):
+        array.append(item)
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
