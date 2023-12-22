@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
