@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_speed(distance, time):
+        return distance / time
