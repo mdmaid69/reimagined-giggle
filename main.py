@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
