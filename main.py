@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_power(work, time):
+        return work / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
