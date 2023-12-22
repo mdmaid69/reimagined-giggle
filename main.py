@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
