@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
