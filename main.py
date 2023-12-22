@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import platform
+def get_os_info():
+        return platform.uname()
