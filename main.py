@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
