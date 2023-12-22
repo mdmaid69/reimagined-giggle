@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import sys
-def print_python_version():
-        print(sys.version)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
