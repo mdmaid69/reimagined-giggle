@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_average(lst):
+        return sum(lst) / len(lst)
