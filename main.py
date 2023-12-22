@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def convert_to_hex(n):
+        return hex(n)
+import platform
+def get_os_info():
+        return platform.uname()
