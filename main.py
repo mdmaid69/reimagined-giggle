@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def convert_to_binary(n):
+        return bin(n)
