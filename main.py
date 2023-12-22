@@ -1,7 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
