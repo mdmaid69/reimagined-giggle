@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_ordered_dict():
+        return collections.OrderedDict()
+for i in range(10): print(i)
