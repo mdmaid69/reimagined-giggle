@@ -1,5 +1,5 @@
+def cube_number(x):
+        return x**3
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_bytes_from_array(array):
+        return array.tobytes()
