@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def clear_array(array):
+        array *= 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
