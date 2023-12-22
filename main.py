@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def reverse_string(s):
+        return s[::-1]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
