@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
