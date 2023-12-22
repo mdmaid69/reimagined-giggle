@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
