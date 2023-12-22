@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Words:", len(text.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
