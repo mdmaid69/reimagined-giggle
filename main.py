@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
