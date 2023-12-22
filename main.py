@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def square_number(x):
+        return x**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
