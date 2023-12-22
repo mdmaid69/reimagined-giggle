@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
