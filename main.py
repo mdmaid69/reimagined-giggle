@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_power(work, time):
+        return work / time
