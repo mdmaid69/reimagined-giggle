@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
