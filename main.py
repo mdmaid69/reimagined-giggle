@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_speed(distance, time):
+        return distance / time
+import numpy as np
+print(np.array([1, 2, 3]))
