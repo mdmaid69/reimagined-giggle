@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def convert_to_hex(n):
-        return hex(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
