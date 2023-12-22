@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+print([x**2 for x in range(10)])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
