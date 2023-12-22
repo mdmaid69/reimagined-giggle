@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+print(math.pi)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
