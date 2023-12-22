@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def reverse_array(array):
-        array.reverse()
+def set_array_item(array, i, item):
+        array[i] = item
