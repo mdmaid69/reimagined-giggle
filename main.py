@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
