@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
