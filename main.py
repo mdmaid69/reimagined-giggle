@@ -1,7 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def convert_to_octal(n):
+        return oct(n)
