@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
