@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import time
-print(time.time())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
