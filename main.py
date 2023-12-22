@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def square_number(x):
+        return x**2
+import os
+print(os.getcwd())
