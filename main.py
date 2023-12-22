@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import logging
+def log_message(message):
+        logging.info(message)
