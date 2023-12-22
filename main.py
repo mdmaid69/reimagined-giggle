@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
