@@ -1,6 +1,3 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+for i in range(10): print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
