@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
