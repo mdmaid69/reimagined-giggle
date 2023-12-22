@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def add_numbers(a, b):
-        return a + b
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
