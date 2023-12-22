@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_pressure(force, area):
+        return force / area
