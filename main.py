@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_min(lst):
+        return min(lst)
+def multiply_numbers(x, y):
+        return x * y
