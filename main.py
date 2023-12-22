@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
