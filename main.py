@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
