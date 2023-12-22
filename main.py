@@ -1,4 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def add_numbers(x, y):
-        return x + y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
