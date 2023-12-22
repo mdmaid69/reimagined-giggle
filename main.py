@@ -1,5 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
