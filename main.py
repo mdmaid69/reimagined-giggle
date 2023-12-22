@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
