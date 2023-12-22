@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import numpy as np
+print(np.array([1, 2, 3]))
