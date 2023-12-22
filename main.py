@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_as_list(array):
+        return list(array)
+  def square_number(x):
+        return x**2
