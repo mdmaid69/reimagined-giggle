@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_user_list():
+        return collections.UserList()
