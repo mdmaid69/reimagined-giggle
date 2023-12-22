@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
