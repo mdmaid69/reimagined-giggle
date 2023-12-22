@@ -1,5 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
