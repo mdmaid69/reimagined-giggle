@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
