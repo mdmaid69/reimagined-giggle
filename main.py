@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
