@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
