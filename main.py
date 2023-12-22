@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
