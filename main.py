@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
