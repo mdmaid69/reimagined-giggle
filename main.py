@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
