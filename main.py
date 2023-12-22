@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
