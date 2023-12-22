@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
