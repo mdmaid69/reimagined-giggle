@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_work(force, distance):
+        return force * distance
