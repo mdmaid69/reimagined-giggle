@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
