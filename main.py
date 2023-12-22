@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
