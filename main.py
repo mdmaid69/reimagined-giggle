@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
