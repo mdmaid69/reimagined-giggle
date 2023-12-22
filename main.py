@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
