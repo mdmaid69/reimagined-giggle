@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import platform
+def get_python_version():
+        return platform.python_version()
