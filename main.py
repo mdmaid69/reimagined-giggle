@@ -1,6 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_density(mass, volume):
+        return mass / volume
