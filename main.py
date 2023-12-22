@@ -1,4 +1,13 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
