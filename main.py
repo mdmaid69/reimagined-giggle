@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
