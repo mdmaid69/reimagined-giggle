@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
