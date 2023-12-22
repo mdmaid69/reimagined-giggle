@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
