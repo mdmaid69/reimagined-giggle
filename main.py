@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
