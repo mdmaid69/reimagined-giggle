@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
