@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import datetime
+print(datetime.datetime.now())
