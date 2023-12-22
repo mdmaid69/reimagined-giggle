@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
