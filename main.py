@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
