@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
