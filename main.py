@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
