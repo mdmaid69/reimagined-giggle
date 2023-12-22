@@ -1,6 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def extend_array(array, iterable):
+        array.extend(iterable)
