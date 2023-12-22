@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+print(re.match("h.*o", "hello world"))
