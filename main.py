@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def count_elements(lst):
-        return len(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
