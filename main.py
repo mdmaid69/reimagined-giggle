@@ -1,5 +1,7 @@
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def get_current_time():
-        return time.time()
+print("Reversed:", text[::-1])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
