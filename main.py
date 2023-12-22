@@ -1,5 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
