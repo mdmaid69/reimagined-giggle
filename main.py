@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
