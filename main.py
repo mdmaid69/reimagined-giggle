@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
