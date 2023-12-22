@@ -1,9 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
