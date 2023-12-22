@@ -1,7 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
