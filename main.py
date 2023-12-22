@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+name = "Python"
+print("Hello,", name)
