@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
