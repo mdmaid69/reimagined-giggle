@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def convert_to_binary(n):
+        return bin(n)
