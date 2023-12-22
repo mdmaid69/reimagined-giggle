@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def square_number(x):
-        return x**2
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
