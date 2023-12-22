@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
