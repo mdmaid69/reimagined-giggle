@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
