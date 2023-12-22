@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
