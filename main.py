@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_current_date():
+        return datetime.date.today()
