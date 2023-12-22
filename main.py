@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
