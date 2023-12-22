@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
