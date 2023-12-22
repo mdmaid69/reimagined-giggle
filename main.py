@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def set_array_item(array, i, item):
+        array[i] = item
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
