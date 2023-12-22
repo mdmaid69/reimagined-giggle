@@ -1,12 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
