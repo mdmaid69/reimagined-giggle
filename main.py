@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+name = "Python"
+print("Hello,", name)
 import array
 def get_array_length(array):
         return len(array)
