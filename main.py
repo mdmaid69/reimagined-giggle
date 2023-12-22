@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
