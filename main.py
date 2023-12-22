@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+for i in range(5):
+        print(i)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
