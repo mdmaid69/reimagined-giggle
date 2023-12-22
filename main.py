@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def add_numbers(x, y):
+        return x + y
+def reverse_string(s):
+        return s[::-1]
