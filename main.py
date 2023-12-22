@@ -1,5 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
