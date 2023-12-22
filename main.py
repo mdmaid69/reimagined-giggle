@@ -1,8 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def find_max(lst):
-        return max(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
