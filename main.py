@@ -1,3 +1,7 @@
-print([x**2 for x in range(10)])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
