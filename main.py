@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_volume(length, width, height):
+        return length * width * height
