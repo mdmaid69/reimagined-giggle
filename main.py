@@ -1,6 +1,8 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
