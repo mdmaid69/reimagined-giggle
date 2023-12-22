@@ -1,5 +1,9 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_stack():
+        return collections.deque()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
