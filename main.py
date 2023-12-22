@@ -1,6 +1,9 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
