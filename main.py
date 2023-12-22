@@ -1,4 +1,3 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+for i in range(10): print(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
