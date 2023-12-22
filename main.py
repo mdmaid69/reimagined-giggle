@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
