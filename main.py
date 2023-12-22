@@ -1,4 +1,7 @@
-print("Hello, world!")
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def multiply_numbers(x, y):
+        return x * y
