@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
