@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
