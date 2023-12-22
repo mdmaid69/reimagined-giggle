@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
