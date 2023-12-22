@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
