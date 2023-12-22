@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
