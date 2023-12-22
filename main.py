@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
