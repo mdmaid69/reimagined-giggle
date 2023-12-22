@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
