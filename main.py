@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+print(sum(range(10)))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
