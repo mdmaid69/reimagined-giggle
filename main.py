@@ -1,7 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
