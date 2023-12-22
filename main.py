@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_palindrome(s):
+        return s == s[::-1]
+def find_min(lst):
+        return min(lst)
