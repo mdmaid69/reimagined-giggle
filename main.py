@@ -1,6 +1,3 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+print([x**2 for x in range(10)])
+def subtract_numbers(x, y):
+        return x - y
