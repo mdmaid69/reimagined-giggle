@@ -1,6 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
