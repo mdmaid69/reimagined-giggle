@@ -1,5 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
