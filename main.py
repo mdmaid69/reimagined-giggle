@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
