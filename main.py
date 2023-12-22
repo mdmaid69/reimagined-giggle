@@ -1,7 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
