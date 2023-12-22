@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def is_odd(n):
-        return n % 2 != 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def convert_to_hex(n):
+        return hex(n)
