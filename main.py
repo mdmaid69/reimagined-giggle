@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
