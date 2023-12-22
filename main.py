@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def find_max(numbers):
-        return max(numbers)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
