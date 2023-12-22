@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_user_list():
-        return collections.UserList()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
