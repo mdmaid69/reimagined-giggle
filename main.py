@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
