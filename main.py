@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_density(mass, volume):
-        return mass / volume
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_user_list():
+        return collections.UserList()
