@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
