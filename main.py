@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
