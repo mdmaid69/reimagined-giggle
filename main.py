@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_sine(x):
+        return math.sin(x)
