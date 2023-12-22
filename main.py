@@ -1,8 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
