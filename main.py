@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
