@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
