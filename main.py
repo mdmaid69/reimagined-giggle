@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
