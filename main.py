@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
