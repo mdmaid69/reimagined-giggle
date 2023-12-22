@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
