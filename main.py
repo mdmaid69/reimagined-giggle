@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
