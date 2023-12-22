@@ -1,6 +1,7 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
