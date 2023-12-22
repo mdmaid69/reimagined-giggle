@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def square_number(x):
+        return x**2
+import platform
+def get_os_info():
+        return platform.uname()
