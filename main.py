@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
