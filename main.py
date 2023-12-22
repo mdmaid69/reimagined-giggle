@@ -1,3 +1,10 @@
-def divide_numbers(x, y):
-        return x / y
-print([x**2 for x in range(10)])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
