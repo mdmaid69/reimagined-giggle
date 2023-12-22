@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
