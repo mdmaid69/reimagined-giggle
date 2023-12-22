@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
