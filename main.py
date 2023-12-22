@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def subtract_numbers(x, y):
+        return x - y
+def reverse_list(lst):
+        return lst[::-1]
