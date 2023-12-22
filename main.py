@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
