@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
