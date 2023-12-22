@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
