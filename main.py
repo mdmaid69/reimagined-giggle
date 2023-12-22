@@ -1,8 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
