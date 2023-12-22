@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
