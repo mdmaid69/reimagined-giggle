@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
