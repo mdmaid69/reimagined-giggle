@@ -1,8 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
