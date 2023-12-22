@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
