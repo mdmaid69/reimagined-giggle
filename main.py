@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import tensorflow as tf
+print(tf.__version__)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
