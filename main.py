@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_pressure(force, area):
+        return force / area
