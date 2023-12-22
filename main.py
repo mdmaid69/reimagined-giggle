@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import numpy as np
+print(np.array([1, 2, 3]))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
