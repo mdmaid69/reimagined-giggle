@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_acceleration(speed, time):
+        return speed / time
