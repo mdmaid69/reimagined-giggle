@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
