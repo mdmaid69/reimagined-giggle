@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def is_even(n):
+        return n % 2 == 0
