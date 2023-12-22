@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
