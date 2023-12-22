@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def add_numbers(a, b):
+        return a + b
+def calculate_density(mass, volume):
+        return mass / volume
