@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
