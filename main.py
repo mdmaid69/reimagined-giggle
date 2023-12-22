@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
