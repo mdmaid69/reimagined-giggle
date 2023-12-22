@@ -1,5 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
