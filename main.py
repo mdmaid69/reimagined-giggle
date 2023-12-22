@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
