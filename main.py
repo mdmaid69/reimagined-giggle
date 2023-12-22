@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def count_elements(lst):
+        return len(lst)
