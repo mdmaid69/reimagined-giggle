@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def is_even(n):
+        return n % 2 == 0
