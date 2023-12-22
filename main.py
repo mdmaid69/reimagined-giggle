@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
