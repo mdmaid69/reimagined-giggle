@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import random
-print(random.randint(0, 100))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
