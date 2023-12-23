@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
