@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
