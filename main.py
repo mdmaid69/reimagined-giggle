@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
