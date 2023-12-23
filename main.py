@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+print(math.pi)
