@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
