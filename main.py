@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
