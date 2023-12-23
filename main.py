@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
