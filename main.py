@@ -1,5 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-print(re.match("h.*o", "hello world"))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
