@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_area_circle(r):
+        return 3.14 * r**2
