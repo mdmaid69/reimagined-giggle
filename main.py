@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def divide_numbers(x, y):
-        return x / y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
