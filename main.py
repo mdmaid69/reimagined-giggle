@@ -1,5 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
