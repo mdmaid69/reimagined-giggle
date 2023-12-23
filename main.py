@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
