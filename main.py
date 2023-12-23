@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
