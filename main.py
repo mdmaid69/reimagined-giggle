@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
