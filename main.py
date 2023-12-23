@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_volume(length, width, height):
+        return length * width * height
