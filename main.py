@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
