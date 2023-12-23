@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-from collections import Counter
-print(Counter("hello world"))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Characters:", len(text))
