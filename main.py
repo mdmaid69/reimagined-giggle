@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
