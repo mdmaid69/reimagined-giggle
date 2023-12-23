@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def greet(name):
+        print(f"Hello, {name}!")
