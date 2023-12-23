@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-for i in range(5):
-        print(i)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
