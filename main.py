@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
