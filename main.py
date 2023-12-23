@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
