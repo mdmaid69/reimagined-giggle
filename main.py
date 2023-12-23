@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def is_odd(n):
+        return n % 2 != 0
