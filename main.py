@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_density(mass, volume):
+        return mass / volume
