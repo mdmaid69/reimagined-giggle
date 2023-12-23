@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
