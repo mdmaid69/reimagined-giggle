@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
