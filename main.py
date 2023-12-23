@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_pressure(force, area):
+        return force / area
