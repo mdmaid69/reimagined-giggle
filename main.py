@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
