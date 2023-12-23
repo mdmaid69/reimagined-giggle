@@ -1,7 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_min(numbers):
+        return min(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
