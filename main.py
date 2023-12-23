@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
