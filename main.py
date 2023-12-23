@@ -1,6 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def clear_array(array):
-        array *= 0
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
