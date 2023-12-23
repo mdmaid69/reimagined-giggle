@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
