@@ -1,4 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-print("Hello, world!")
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
