@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
