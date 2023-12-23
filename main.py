@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
