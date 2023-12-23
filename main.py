@@ -1,7 +1,7 @@
-def count_elements(lst):
-        return len(lst)
 import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
