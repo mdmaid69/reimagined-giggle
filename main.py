@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def subtract_numbers(x, y):
+        return x - y
