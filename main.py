@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def is_even(n):
-        return n % 2 == 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
