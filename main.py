@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-print(re.match("h.*o", "hello world"))
+  def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
