@@ -1,7 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
