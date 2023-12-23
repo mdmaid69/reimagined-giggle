@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
