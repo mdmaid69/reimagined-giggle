@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def is_odd(n):
-        return n % 2 != 0
+import logging
+def log_message(message):
+        logging.info(message)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
