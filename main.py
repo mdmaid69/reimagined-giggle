@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
