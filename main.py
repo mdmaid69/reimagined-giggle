@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_work(force, distance):
+        return force * distance
