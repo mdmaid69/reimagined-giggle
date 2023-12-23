@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def count_elements(lst):
-        return len(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
