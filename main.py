@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
