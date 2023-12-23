@@ -1,5 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
