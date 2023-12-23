@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-from collections import Counter
-print(Counter("hello world"))
+import math
+print(math.pi)
+import time
+def get_current_time():
+        return time.time()
