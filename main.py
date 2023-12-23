@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
