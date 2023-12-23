@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
