@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
