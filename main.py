@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
