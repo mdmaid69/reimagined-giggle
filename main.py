@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def remove_duplicates(lst):
+        return list(set(lst))
