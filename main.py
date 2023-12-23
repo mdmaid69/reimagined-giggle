@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
