@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def reverse_string(s):
+        return s[::-1]
+import collections
+def create_stack():
+        return collections.deque()
