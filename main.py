@@ -1,5 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def is_even(n):
-        return n % 2 == 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
