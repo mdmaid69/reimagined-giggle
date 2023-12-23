@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
