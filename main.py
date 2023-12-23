@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+print("Hello, world!")
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_complex(array):
+        return complex(array[0])
