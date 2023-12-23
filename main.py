@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import collections
+def create_queue():
+        return collections.deque()
+import random
+def roll_die():
+        return random.randint(1, 6)
