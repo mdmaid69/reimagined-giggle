@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+print(os.getcwd())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
