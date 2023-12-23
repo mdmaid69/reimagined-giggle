@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_item_count(array, item):
+        return array.count(item)
