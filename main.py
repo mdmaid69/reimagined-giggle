@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def remove_duplicates(lst):
+        return list(set(lst))
