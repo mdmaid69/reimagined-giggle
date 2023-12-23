@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
