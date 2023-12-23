@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
