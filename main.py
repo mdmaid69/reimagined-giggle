@@ -1,8 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def delete_file(file_name):
+        os.remove(file_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
