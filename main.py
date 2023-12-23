@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
