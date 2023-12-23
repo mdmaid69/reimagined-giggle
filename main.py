@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def convert_to_hex(n):
-        return hex(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
