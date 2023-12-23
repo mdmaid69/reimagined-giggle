@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
