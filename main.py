@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
