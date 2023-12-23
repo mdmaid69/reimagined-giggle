@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
