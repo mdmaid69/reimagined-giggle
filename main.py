@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
