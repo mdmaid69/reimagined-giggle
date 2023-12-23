@@ -1,5 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import numpy as np
-print(np.array([1, 2, 3]))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
