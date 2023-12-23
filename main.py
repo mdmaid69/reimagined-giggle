@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def square_number(x):
-        return x**2
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
