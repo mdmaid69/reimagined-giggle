@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
