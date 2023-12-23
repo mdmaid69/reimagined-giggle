@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
