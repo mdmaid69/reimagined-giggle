@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
