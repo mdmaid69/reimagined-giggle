@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_index(array, item):
+        return array.index(item)
