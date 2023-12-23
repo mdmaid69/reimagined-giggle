@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
