@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def append_to_array(array, item):
+        array.append(item)
