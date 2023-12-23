@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
