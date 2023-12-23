@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
