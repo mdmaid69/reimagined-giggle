@@ -1,6 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
