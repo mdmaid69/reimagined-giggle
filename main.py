@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
