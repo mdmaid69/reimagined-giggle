@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
