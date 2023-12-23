@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def is_odd(n):
+        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
