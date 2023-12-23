@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
