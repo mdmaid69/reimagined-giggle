@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
