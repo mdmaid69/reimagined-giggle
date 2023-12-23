@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import sys
+print(sys.version)
