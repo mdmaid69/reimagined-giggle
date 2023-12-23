@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def is_even(n):
+        return n % 2 == 0
