@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import numpy as np
+print(np.array([1, 2, 3]))
