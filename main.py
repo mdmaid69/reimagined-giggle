@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def reverse_list(lst):
+        return lst[::-1]
