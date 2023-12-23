@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
