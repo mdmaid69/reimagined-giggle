@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
