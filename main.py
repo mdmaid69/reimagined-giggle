@@ -1,4 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-for i in range(10): print(i)
+import numpy as np
+print(np.array([1, 2, 3]))
+name = "Python"
+print("Hello,", name)
