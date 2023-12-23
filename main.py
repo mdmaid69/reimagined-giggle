@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
