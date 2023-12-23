@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def clear_array(array):
+        array *= 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
