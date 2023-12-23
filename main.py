@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
