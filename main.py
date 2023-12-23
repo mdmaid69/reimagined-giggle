@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
