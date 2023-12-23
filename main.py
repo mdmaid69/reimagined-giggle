@@ -1,5 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
