@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+print(sum(range(10)))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
