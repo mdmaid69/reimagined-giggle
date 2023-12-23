@@ -1,8 +1,7 @@
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
