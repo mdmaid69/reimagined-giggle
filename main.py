@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
