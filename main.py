@@ -1,6 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
