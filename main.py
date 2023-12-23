@@ -1,7 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
