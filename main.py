@@ -1,8 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
