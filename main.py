@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
