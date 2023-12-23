@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
