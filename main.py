@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
