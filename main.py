@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
