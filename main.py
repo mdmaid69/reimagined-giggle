@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
