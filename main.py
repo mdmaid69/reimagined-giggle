@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def find_max(lst):
-        return max(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
