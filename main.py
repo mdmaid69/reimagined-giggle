@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
