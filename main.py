@@ -1,8 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
