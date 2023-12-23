@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
