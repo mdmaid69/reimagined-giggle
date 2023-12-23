@@ -1,6 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
