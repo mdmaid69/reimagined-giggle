@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cosine(x):
+        return math.cos(x)
