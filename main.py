@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
