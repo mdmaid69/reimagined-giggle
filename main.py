@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_union(list1, list2):
+        return set(list1) | set(list2)
