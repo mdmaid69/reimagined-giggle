@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
