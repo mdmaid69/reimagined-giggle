@@ -1,6 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
