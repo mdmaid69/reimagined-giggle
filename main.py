@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
