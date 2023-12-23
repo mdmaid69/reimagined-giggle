@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
