@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
