@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def square_number(x):
+        return x**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
