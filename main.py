@@ -1,8 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
