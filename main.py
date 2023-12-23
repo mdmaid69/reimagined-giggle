@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
