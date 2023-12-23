@@ -1,7 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def convert_to_binary(n):
+        return bin(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
