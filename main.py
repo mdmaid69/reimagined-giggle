@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import logging
-def log_message(message):
-        logging.info(message)
+  def convert_to_hex(n):
+        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
