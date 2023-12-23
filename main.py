@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def cube_number(x):
-        return x**3
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import logging
+def log_message(message):
+        logging.info(message)
