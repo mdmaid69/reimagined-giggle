@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
