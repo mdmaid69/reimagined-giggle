@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
