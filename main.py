@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_min(lst):
-        return min(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
