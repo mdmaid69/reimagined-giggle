@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import sys
-def print_python_version():
-        return sys.version
+print(sys.version)
