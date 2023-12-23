@@ -1,8 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
