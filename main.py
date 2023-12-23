@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def reverse_list(lst):
+        return lst[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
