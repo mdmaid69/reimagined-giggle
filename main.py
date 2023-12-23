@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
+def square_number(x):
+        return x**2
