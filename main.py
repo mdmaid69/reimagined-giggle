@@ -1,6 +1,6 @@
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
