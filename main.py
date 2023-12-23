@@ -1,7 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
