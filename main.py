@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
