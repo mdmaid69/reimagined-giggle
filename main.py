@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
