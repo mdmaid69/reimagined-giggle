@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def convert_to_octal(n):
+        return oct(n)
