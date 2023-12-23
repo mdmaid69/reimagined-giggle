@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
