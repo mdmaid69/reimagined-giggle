@@ -1,4 +1,10 @@
-print([x**2 for x in range(10)])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
