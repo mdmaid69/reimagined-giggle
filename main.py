@@ -1,6 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
