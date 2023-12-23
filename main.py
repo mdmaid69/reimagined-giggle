@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import platform
-def get_os_info():
-        return platform.uname()
+def add_numbers(x, y):
+        return x + y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
