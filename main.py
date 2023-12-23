@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
