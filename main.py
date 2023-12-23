@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
