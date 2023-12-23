@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
