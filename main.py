@@ -1,5 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
