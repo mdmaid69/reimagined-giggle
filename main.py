@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
