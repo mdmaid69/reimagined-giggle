@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
