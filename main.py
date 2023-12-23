@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
