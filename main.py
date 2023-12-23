@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def cube_number(x):
-        return x**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def convert_to_octal(n):
+        return oct(n)
