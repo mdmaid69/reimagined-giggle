@@ -1,6 +1,3 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def reverse_string(s):
+        return s[::-1]
+for i in range(10): print(i)
