@@ -1,8 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_cosine(x):
+        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
