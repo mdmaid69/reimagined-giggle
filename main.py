@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
