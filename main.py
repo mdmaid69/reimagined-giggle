@@ -1,8 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def cube_number(x):
+        return x**3
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
