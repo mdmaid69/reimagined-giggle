@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
