@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
