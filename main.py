@@ -1,9 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
