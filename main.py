@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_tangent(x):
+        return math.tan(x)
+def reverse_string(s):
+        return s[::-1]
