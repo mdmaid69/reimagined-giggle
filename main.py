@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
