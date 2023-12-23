@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
