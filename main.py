@@ -1,6 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def get_array_typecode(array):
+        return array.typecode
+  def reverse_list(lst):
+        return lst[::-1]
