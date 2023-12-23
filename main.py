@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
