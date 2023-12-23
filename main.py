@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def is_odd(n):
-        return n % 2 != 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
