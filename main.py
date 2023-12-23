@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
