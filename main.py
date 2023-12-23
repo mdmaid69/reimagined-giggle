@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_length(array):
+        return len(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
