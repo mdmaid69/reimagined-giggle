@@ -1,6 +1,8 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
