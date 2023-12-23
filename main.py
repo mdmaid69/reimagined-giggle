@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def find_union(list1, list2):
+        return set(list1) | set(list2)
