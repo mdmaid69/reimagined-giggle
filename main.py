@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
