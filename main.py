@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
