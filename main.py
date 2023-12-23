@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
