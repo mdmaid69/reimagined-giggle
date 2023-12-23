@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
