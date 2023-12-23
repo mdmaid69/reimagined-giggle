@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
