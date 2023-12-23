@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
