@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
