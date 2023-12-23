@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def convert_to_binary(n):
+        return bin(n)
