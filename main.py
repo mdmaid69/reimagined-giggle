@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
