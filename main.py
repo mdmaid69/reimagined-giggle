@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
