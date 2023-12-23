@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
