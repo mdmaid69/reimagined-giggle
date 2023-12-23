@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
