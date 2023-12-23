@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def convert_to_binary(n):
+        return bin(n)
