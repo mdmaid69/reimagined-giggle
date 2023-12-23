@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
