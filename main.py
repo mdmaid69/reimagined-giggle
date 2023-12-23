@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
