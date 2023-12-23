@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
