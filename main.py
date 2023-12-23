@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_power(work, time):
+        return work / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
