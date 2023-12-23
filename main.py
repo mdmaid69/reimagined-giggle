@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def convert_to_hex(n):
-        return hex(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def reverse_array(array):
+        array.reverse()
