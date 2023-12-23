@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
