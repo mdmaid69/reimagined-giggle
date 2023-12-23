@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
