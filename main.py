@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_acceleration(speed, time):
+        return speed / time
