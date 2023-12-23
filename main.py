@@ -1,5 +1,8 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def split_path(path):
+        return os.path.split(path)
