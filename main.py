@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
