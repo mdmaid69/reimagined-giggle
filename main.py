@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
