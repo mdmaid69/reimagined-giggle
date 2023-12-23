@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
