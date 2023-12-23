@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-name = "Python"
-print("Hello,", name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
