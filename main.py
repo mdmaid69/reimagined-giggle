@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_user_string():
+        return collections.UserString()
