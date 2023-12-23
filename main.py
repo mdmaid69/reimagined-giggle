@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
