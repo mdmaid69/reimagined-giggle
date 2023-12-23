@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_rectangle(l, w):
+        return l * w
