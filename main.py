@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def create_user_list():
+        return collections.UserList()
