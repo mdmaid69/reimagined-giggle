@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
