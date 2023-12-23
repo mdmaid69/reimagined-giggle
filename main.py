@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
