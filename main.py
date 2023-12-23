@@ -1,6 +1,9 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
