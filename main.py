@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
