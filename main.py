@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def reverse_list(lst):
+        return lst[::-1]
