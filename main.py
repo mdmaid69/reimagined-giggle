@@ -1,8 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
