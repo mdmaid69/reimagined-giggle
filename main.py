@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
