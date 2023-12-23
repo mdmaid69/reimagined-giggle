@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
