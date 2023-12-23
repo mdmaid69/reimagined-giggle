@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
