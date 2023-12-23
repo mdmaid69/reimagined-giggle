@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def convert_to_octal(n):
+        return oct(n)
