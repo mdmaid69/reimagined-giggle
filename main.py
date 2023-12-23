@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
