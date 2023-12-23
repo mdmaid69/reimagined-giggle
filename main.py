@@ -1,6 +1,9 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
