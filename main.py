@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import random
+print(random.randint(0, 100))
+import array
+def append_to_array(array, item):
+        array.append(item)
