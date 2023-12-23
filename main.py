@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
