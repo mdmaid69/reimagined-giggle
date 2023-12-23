@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_queue():
+        return collections.deque()
