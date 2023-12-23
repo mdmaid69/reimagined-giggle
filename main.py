@@ -1,6 +1,4 @@
 import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print(time.time())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
