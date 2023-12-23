@@ -1,5 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def convert_to_hex(n):
-        return hex(n)
+def clear_array(array):
+        array *= 0
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
