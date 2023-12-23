@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
