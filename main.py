@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
