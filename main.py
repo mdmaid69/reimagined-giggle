@@ -1,6 +1,9 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
