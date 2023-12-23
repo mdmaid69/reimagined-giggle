@@ -1,8 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import getpass
+def get_username():
+        return getpass.getuser()
