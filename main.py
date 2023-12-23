@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_user_list():
+        return collections.UserList()
+  def cube_number(x):
+        return x**3
