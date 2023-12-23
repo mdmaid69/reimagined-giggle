@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def find_max(lst):
+        return max(lst)
+def sort_list(lst):
+        return sorted(lst)
