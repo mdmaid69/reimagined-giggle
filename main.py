@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def find_min(lst):
+        return min(lst)
 import math
-print(math.pi)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
