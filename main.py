@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
