@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
