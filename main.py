@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def reverse_string(s):
+        return s[::-1]
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
