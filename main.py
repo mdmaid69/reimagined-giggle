@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import datetime
-print(datetime.datetime.now())
+  def cube_number(x):
+        return x**3
+def convert_to_octal(n):
+        return oct(n)
