@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-for i in range(5):
-        print(i)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
