@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_list_from_array(array):
+        return array.tolist()
