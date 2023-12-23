@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
