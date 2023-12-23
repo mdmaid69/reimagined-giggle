@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_list(array):
-        return list(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
