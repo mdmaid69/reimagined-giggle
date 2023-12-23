@@ -1,6 +1,7 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import sys
-  def get_python_version():
-        return sys.version
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def sort_list(lst):
+        return sorted(lst)
