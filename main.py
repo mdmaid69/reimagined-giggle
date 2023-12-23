@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
