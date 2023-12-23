@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
