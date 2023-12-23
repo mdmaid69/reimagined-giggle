@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
