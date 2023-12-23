@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
