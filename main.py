@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
