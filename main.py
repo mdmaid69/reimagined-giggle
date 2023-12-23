@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
