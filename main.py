@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
