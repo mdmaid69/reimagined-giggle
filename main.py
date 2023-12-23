@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
