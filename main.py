@@ -1,5 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
