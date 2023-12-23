@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
