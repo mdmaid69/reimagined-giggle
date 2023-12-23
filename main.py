@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
