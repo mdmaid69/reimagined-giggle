@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def count_elements(lst):
+        return len(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
