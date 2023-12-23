@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def cube_number(x):
+        return x**3
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
