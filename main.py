@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
