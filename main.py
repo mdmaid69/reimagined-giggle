@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
