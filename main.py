@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
