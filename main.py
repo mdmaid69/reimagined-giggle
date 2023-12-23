@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
