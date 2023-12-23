@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def reverse_array(array):
+        array.reverse()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
