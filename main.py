@@ -1,5 +1,5 @@
-import time
-print(time.time())
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def reverse_string(s):
+        return s[::-1]
