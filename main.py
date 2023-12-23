@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
