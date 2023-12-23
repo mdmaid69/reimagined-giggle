@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+print(random.randint(0, 100))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
