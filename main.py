@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-print(os.getcwd())
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
