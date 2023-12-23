@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def append_to_array(array, item):
+        array.append(item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
