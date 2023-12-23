@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_as_list(array):
+        return list(array)
