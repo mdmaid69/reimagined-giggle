@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def divide_numbers(x, y):
-        return x / y
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
