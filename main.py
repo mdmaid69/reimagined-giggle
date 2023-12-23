@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
