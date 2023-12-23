@@ -1,7 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_priority_queue():
+        return collections.deque()
+def subtract_numbers(x, y):
+        return x - y
