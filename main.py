@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def subtract_numbers(x, y):
+        return x - y
