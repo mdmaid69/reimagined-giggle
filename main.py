@@ -1,9 +1,6 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
