@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import getpass
-def get_username():
-        return getpass.getuser()
+def square_number(x):
+        return x**2
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
