@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
