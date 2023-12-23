@@ -1,8 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
