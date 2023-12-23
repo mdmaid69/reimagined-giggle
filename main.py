@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_current_directory():
+        return os.getcwd()
