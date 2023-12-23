@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
