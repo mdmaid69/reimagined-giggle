@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import sys
+def exit_program():
+        sys.exit()
+import time
+print(time.time())
