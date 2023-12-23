@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
