@@ -1,6 +1,12 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
