@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_pressure(force, area):
+        return force / area
