@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
