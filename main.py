@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
