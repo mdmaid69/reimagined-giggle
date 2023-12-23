@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
