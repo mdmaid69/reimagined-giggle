@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
