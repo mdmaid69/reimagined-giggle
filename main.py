@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
