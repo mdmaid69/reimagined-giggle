@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def get_current_time():
-        return time.ctime()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
