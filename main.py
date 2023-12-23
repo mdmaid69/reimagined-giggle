@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
