@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
