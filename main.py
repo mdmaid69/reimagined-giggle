@@ -1,6 +1,12 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
