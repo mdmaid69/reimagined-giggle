@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_string(array):
+        return array.tostring()
