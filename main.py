@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_int(array):
+        return int(array[0])
