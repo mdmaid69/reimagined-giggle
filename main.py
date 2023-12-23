@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
