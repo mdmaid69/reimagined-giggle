@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_volume(length, width, height):
+        return length * width * height
