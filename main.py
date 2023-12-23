@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
