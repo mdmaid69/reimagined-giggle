@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
