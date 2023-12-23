@@ -1,6 +1,5 @@
-  def square_number(x):
-        return x**2
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+print(random.randint(0, 100))
