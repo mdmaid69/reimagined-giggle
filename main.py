@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
