@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
