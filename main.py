@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import time
+def get_current_time():
+        return time.ctime()
