@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+print(os.getcwd())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
