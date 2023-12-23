@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def convert_to_octal(n):
+        return oct(n)
