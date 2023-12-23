@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
