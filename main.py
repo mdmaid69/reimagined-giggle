@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
