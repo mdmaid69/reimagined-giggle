@@ -1,7 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
