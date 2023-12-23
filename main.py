@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
