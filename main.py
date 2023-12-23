@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
