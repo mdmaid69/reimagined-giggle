@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_force(mass, acceleration):
+        return mass * acceleration
