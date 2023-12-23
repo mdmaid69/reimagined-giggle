@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
