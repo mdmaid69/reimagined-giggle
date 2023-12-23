@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
