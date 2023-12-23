@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
