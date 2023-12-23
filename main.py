@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
