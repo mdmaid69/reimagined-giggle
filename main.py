@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def is_palindrome(s):
-        return s == s[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
