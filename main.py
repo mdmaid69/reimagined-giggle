@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
