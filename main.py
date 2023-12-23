@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def clear_array(array):
+        array *= 0
