@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
