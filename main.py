@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
