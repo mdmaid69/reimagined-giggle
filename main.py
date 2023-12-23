@@ -1,5 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
