@@ -1,8 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
