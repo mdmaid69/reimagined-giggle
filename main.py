@@ -1,8 +1,7 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
