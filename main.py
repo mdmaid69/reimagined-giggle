@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
