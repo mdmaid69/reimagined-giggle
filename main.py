@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
