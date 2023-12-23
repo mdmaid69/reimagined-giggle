@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
