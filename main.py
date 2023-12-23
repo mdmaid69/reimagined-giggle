@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
