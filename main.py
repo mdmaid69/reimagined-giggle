@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
