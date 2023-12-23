@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
