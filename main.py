@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
