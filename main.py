@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
