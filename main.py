@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
