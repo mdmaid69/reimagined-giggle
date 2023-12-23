@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import platform
-def get_python_version():
-        return platform.python_version()
+import getpass
+def get_username():
+        return getpass.getuser()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
