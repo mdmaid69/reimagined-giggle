@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
