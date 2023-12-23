@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def convert_to_octal(n):
+        return oct(n)
