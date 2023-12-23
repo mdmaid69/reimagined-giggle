@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
