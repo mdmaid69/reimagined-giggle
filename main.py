@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def count_elements(lst):
-        return len(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def convert_to_octal(n):
+        return oct(n)
