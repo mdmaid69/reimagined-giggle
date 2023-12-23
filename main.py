@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
