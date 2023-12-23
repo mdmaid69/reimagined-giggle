@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def is_even(n):
+        return n % 2 == 0
