@@ -1,7 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
