@@ -1,6 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
