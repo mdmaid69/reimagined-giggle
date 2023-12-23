@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
