@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
