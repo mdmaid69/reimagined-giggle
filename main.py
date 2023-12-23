@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_as_bool(array):
+        return bool(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
