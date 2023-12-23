@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def extend_array(array, iterable):
+        array.extend(iterable)
