@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
