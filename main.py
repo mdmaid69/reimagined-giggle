@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+for i in range(10): print(i)
