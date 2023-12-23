@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
