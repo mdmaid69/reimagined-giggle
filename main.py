@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
