@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
