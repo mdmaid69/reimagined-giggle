@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
