@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
