@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_os_info():
-        return platform.uname()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
