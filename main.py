@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def get_current_time():
+        return time.time()
