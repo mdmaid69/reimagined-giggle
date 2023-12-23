@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
