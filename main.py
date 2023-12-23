@@ -1,10 +1,8 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
