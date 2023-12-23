@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
