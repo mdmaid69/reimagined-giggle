@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import platform
+def get_os_info():
+        return platform.uname()
