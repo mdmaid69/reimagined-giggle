@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
