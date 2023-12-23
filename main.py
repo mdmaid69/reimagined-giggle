@@ -1,8 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
