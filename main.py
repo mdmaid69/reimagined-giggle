@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def sort_list(lst):
+        return sorted(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
