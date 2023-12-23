@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
