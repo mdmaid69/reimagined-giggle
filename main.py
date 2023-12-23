@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
