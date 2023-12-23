@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def subtract_numbers(x, y):
+        return x - y
