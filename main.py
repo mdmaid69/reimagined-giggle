@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
