@@ -1,6 +1,9 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
