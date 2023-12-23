@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def add_numbers(x, y):
+        return x + y
+import array
+def clear_array(array):
+        array *= 0
