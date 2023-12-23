@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
