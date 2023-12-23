@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
