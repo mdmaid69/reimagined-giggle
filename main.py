@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def is_even(n):
+        return n % 2 == 0
