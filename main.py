@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_str(array):
+        return str(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
