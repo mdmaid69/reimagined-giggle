@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_area_rectangle(l, w):
+        return l * w
