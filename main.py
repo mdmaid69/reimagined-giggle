@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
