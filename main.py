@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_area(radius):
+        return 3.14 * radius * radius
