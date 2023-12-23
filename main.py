@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
