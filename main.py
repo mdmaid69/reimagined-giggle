@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+print("Hello, world!")
 import array
-def reverse_array(array):
-        array.reverse()
+def set_array_item(array, i, item):
+        array[i] = item
