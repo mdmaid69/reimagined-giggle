@@ -1,6 +1,8 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
