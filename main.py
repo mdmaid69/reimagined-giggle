@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
