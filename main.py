@@ -1,8 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
