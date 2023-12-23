@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
