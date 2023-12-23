@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
