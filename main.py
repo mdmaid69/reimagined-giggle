@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import sys
+print(sys.version)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
