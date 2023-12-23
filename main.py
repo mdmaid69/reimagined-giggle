@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
