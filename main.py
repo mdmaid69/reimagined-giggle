@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
