@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def cube_number(x):
+        return x**3
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
