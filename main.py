@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
