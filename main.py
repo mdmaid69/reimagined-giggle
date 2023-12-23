@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
