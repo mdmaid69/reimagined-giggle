@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def split_path(path):
+        return os.path.split(path)
