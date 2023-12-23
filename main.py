@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
