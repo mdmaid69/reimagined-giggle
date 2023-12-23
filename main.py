@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
