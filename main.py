@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
