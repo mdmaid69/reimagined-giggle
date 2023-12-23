@@ -1,6 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
