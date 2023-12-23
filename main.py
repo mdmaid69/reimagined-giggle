@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_array_as_repr(array):
+        return repr(array)
