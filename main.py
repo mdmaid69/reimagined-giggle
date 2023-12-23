@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
