@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
