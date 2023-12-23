@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
