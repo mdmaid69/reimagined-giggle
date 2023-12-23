@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
