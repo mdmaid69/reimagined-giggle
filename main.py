@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
