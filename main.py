@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def convert_to_hex(n):
+        return hex(n)
