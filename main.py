@@ -1,8 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
