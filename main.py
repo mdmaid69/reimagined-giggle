@@ -1,7 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def load_json(filename):
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import csv
+def read_csv_file(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
