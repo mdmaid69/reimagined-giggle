@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def multiply_numbers(x, y):
+        return x * y
