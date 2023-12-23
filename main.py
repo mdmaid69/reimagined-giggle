@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
