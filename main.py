@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
