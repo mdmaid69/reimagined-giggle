@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
