@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
