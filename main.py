@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
