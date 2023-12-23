@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
