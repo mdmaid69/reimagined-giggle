@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
