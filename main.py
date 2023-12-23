@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
