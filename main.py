@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
