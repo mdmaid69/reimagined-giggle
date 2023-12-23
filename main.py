@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
