@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
