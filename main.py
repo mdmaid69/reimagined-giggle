@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
