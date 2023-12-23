@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
