@@ -1,6 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
