@@ -1,8 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
