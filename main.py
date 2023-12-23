@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  def sort_list(lst):
+        return sorted(lst)
