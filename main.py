@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
