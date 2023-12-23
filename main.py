@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
