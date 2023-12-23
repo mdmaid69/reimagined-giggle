@@ -1,5 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-text = "Hello, world!"
-print("Characters:", len(text))
+  def count_elements(lst):
+        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
