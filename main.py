@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_density(mass, volume):
+        return mass / volume
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
