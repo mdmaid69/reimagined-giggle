@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
