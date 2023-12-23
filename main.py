@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import platform
+def get_os_info():
+        return platform.uname()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
