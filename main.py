@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
