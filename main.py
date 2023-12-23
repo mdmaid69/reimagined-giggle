@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
