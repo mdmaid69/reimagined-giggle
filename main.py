@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
