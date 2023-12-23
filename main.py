@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
