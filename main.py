@@ -1,8 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
