@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
