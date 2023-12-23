@@ -1,8 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
