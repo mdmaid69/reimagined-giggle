@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def is_even(n):
+        return n % 2 == 0
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
