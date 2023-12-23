@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
