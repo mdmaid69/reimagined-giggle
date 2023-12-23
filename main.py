@@ -1,7 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def subtract_numbers(x, y):
+        return x - y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
