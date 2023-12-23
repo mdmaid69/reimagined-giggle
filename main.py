@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
