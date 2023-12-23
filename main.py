@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+print(math.pi)
+def count_words(sentence):
+        return len(sentence.split())
