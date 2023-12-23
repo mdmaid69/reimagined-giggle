@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_density(mass, volume):
+        return mass / volume
