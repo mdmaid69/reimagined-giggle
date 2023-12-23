@@ -1,6 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
