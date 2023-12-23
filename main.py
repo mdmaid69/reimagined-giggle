@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
