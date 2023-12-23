@@ -1,4 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-print(sum(range(10)))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
