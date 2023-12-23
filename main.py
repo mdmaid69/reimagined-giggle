@@ -1,5 +1,10 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_as_list(array):
-        return list(array)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
