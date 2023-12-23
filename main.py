@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
