@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
