@@ -1,8 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
