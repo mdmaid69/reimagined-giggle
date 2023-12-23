@@ -1,6 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
