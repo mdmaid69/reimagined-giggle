@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area(radius):
+        return 3.14 * radius * radius
