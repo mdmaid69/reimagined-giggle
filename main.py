@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
