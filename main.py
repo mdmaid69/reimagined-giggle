@@ -1,7 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def sort_list(lst):
+        return sorted(lst)
