@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def get_current_time():
-        return time.time()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
