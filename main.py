@@ -1,6 +1,12 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import array
-def clear_array(array):
-        array *= 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
