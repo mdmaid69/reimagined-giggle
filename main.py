@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Even:", [n for n in numbers if n % 2 == 0])
