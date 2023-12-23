@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
