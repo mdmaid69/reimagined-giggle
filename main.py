@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_speed(distance, time):
-        return distance / time
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
