@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
