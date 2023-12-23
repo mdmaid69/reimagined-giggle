@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
