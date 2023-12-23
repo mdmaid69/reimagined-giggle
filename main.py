@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
