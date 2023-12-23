@@ -1,5 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
