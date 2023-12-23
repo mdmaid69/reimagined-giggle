@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
