@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_power(work, time):
-        return work / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
