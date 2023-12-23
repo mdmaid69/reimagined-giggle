@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def is_palindrome(s):
-        return s == s[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
