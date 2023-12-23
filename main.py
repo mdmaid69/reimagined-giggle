@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
