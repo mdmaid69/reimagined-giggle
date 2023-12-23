@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
