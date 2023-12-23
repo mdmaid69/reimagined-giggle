@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_force(mass, acceleration):
+        return mass * acceleration
