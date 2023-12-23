@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
