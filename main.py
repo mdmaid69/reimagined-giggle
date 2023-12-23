@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
