@@ -1,7 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
