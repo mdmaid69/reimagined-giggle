@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_float(array):
+        return float(array[0])
