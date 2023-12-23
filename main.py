@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
