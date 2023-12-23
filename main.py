@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import csv
-def load_csv(filename):
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+        return json.load(f)
+  def add_numbers(x, y):
+        return x + y
