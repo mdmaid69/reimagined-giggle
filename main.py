@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
