@@ -1,4 +1,8 @@
-def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
