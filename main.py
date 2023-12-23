@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-print(re.match("h.*o", "hello world"))
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
