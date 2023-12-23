@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
