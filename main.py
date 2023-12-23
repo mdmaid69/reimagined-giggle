@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
