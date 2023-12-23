@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
