@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import random
+print(random.randint(0, 100))
