@@ -1,5 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+print("Hello, world!")
