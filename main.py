@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
