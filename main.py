@@ -1,4 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
