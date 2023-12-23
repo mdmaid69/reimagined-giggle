@@ -1,4 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-for i in range(10): print(i)
+def reverse_string(s):
+        return s[::-1]
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
