@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
