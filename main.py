@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
