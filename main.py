@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
