@@ -1,4 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_power(work, time):
-        return work / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_as_float(array):
+        return float(array[0])
