@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_user_string():
-        return collections.UserString()
+print([x**2 for x in range(10)])
+import array
+def get_array_typecode(array):
+        return array.typecode
