@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-for i in range(5):
-        print(i)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
