@@ -1,6 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
