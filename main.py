@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def is_even(n):
-        return n % 2 == 0
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
