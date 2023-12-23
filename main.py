@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
