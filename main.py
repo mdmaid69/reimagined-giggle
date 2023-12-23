@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
