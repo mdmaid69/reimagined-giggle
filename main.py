@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
