@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_unicode(array):
+        return array.tounicode()
