@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import platform
+def get_python_version():
+        return platform.python_version()
