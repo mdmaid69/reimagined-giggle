@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
