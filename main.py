@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def find_min(lst):
-        return min(lst)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
