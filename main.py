@@ -1,7 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
