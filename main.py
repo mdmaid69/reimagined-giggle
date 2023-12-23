@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
