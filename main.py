@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
