@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_queue():
+        return collections.deque()
