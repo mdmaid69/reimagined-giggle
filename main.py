@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
