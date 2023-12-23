@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import time
+def get_current_time():
+        return time.ctime()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
