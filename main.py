@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
