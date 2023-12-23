@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
