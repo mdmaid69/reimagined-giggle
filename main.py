@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_item(array, i):
+        return array[i]
