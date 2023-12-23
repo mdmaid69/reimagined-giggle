@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def split_path(path):
+        return os.path.split(path)
