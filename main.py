@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import getpass
+def get_username():
+        return getpass.getuser()
