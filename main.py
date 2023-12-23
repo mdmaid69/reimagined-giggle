@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
