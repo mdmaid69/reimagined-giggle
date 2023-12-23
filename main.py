@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_max(numbers):
+        return max(numbers)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
