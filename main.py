@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
