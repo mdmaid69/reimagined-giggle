@@ -1,3 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-print(sum(range(10)))
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
