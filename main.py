@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Characters:", len(text))
