@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
