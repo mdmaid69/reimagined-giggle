@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_set(array):
+        return set(array)
