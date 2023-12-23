@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def sort_list(lst):
+        return sorted(lst)
