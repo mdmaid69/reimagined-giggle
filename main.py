@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
