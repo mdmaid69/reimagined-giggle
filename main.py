@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def count_elements(lst):
+        return len(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
