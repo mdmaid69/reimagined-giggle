@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
