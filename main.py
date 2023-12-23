@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def divide_numbers(x, y):
+        return x / y
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
