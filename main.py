@@ -1,7 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_frozenset(array):
+        return frozenset(array)
