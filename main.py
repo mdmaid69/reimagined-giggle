@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
