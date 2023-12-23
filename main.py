@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
