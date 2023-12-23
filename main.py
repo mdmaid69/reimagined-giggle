@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
