@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def cube_number(x):
-        return x**3
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
