@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_max(lst):
+        return max(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
