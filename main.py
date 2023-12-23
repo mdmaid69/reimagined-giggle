@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def remove_duplicates(lst):
+        return list(set(lst))
