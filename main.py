@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
