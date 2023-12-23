@@ -1,6 +1,9 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_list(array):
+        return array.tolist()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
