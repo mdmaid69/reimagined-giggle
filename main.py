@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
