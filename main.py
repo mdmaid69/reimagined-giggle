@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
