@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def subtract_numbers(x, y):
+        return x - y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
