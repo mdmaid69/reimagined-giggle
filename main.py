@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_list(array):
+        return list(array)
