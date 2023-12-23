@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
