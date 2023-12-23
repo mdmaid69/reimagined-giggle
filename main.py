@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
