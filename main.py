@@ -1,8 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
