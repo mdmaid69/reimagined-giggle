@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def divide_numbers(x, y):
-        return x / y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_acceleration(speed, time):
+        return speed / time
