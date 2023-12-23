@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
