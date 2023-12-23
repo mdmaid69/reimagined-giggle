@@ -1,5 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_pressure(force, area):
-        return force / area
+def get_array_item(array, i):
+        return array[i]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
