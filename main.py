@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+x = 10
+y = 20
+print("Sum:", x + y)
