@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
