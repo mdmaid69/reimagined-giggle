@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_volume(length, width, height):
+        return length * width * height
