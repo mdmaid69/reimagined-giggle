@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_to_hex(n):
+        return hex(n)
+import array
+def reverse_array(array):
+        array.reverse()
