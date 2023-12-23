@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
