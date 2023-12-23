@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
