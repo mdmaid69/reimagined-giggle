@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_even(n):
-        return n % 2 == 0
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
