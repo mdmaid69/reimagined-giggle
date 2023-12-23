@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
