@@ -1,10 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
