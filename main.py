@@ -1,6 +1,9 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
