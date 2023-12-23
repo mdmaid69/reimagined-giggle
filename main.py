@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
