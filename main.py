@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
