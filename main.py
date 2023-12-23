@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
