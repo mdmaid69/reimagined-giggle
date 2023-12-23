@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
