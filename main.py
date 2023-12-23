@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_index(array, item):
+        return array.index(item)
