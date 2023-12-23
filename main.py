@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_queue():
-        return collections.deque()
+def convert_array_to_list(array):
+        return array.tolist()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
