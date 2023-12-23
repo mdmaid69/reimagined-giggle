@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import getpass
-def get_username():
-        return getpass.getuser()
+print([x**2 for x in range(10)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
