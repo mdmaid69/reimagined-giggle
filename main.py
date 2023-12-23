@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def convert_to_octal(n):
+        return oct(n)
