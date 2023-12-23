@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_int(array):
+        return int(array[0])
