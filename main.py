@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
