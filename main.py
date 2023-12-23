@@ -1,9 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
