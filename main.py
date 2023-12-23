@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def reverse_list(lst):
-        return lst[::-1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
