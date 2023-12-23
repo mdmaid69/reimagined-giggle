@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def cube_number(x):
+        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
