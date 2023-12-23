@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_stack():
-        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
