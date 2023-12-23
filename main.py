@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
