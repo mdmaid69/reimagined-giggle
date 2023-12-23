@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
