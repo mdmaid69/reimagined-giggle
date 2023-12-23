@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_gamma_function(x):
+        return math.gamma(x)
