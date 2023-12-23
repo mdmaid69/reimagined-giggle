@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
