@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
