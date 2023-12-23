@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_factorial(n):
+        return math.factorial(n)
