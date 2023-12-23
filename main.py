@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
