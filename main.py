@@ -1,11 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
