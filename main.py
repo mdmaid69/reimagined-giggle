@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import datetime
+def get_current_date():
+        return datetime.date.today()
