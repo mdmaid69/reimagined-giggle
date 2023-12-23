@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def cube_number(x):
-        return x**3
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
