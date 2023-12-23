@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def greet(name):
+        print(f"Hello, {name}!")
+def greet(name):
+        print(f"Hello, {name}!")
