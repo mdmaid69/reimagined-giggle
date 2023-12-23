@@ -1,4 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
