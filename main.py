@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
