@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
