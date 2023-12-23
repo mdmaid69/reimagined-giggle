@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
