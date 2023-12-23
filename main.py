@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
