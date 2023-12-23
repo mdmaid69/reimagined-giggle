@@ -1,7 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
