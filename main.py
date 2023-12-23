@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+print([x**2 for x in range(10)])
