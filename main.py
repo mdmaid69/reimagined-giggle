@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_list_from_array(array):
+        return array.tolist()
