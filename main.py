@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
