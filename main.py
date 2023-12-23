@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
