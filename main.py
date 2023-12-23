@@ -1,6 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
