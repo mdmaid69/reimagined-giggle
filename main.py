@@ -1,8 +1,10 @@
-import unittest
+def calculate_pressure(force, area):
+        return force / area
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
