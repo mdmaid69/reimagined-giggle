@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
