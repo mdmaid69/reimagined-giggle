@@ -1,5 +1,4 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def add_numbers(a, b):
-        return a + b
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+print([x**2 for x in range(10)])
