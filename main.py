@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def reverse_array(array):
-        array.reverse()
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_pressure(force, area):
+        return force / area
