@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
