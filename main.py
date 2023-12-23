@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
