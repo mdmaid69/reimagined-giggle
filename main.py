@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
