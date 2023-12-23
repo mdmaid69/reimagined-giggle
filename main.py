@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def reverse_list(lst):
+        return lst[::-1]
+  def is_odd(n):
+        return n % 2 != 0
