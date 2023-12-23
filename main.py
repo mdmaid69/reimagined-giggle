@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
