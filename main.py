@@ -1,5 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def convert_to_hex(n):
-        return hex(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
