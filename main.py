@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
