@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def count_elements(lst):
+        return len(lst)
