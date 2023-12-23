@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
