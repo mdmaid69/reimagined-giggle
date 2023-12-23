@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
