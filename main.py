@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
