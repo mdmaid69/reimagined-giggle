@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
