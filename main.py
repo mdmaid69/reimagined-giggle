@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pressure(force, area):
+        return force / area
