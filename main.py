@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
