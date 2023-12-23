@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
