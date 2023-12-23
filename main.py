@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
