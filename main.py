@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
