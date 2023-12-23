@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
