@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
