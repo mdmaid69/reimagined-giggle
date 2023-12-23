@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def remove_duplicates(lst):
+        return list(set(lst))
