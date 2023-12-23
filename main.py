@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_perpetuity(payment, rate):
+        return payment / rate
