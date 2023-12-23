@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
