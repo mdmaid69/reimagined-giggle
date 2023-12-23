@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
