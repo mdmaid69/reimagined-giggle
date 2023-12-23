@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+from collections import Counter
+print(Counter("hello world"))
