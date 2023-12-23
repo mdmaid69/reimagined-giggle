@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def remove_duplicates(lst):
+        return list(set(lst))
