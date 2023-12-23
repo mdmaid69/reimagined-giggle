@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
