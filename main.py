@@ -1,6 +1,10 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
