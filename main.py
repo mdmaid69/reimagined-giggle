@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
