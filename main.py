@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
