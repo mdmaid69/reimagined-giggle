@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_user_string():
+        return collections.UserString()
+  def convert_to_hex(n):
+        return hex(n)
