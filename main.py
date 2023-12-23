@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
