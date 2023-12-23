@@ -1,6 +1,8 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
