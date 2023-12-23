@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
