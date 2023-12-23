@@ -1,8 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
