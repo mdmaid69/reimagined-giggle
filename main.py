@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
