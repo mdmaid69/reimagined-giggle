@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
