@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def clear_array(array):
+        array *= 0
