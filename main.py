@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_length(array):
+        return len(array)
+for i in range(5):
+        print(i)
