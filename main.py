@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
