@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
