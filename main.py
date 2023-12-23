@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
