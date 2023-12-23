@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
