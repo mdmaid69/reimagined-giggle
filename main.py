@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def is_even(n):
+        return n % 2 == 0
