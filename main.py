@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
