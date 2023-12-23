@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
