@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
