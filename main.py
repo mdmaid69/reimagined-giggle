@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_pressure(force, area):
+        return force / area
+def is_palindrome(s):
+        return s == s[::-1]
