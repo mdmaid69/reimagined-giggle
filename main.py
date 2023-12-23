@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def count_words(sentence):
+        return len(sentence.split())
