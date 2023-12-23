@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
