@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
