@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_slice(array, i, j):
+        return array[i:j]
