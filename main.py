@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
