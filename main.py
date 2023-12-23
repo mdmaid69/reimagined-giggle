@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
