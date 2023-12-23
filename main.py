@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
