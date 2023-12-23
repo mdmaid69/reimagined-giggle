@@ -1,7 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
