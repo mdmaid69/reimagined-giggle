@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def count_elements(lst):
+        return len(lst)
