@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
