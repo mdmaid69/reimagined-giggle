@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
