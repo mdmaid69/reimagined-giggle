@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
