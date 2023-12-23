@@ -1,6 +1,7 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
