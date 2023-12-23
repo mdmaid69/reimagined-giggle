@@ -1,8 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def reverse_list(lst):
+        return lst[::-1]
