@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
