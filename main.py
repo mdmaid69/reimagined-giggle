@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
