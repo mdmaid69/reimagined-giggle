@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
