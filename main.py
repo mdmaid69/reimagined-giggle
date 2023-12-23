@@ -1,6 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_list_from_array(array):
+        return array.tolist()
