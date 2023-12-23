@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def reverse_array(array):
-        array.reverse()
+import collections
+def create_stack():
+        return collections.deque()
+def count_elements(lst):
+        return len(lst)
