@@ -1,9 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+text = "Hello, world!"
+print("Characters:", len(text))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
