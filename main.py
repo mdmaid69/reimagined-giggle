@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
