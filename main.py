@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
