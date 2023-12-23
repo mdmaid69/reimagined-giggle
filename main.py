@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_even(n):
+        return n % 2 == 0
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
