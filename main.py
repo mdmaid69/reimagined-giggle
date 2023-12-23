@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
