@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import logging
+def log_message(message):
+        logging.info(message)
+  def square_number(x):
+        return x**2
