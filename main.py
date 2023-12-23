@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import datetime
-print(datetime.datetime.now())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
