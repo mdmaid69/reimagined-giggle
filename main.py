@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
