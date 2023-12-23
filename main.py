@@ -1,6 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def convert_to_hex(n):
+        return hex(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
