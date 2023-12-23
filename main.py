@@ -1,5 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_as_str(array):
+        return str(array)
