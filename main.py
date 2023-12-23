@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+print([x**2 for x in range(10)])
