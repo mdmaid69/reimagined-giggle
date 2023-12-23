@@ -1,4 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-for i in range(10): print(i)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
