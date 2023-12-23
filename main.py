@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def check_if_array_contains_item(array, item):
+        return item in array
