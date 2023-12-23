@@ -1,5 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Reversed:", text[::-1])
