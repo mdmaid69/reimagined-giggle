@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def reverse_string(s):
+        return s[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
