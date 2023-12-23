@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
