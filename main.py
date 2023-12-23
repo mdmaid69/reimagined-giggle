@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def add_numbers(x, y):
-        return x + y
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
