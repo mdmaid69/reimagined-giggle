@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-x = 10
-y = 20
-print("Sum:", x + y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
