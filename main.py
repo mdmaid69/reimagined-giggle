@@ -1,4 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-for i in range(10): print(i)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
