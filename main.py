@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def count_words(sentence):
-        return len(sentence.split())
+  def is_odd(n):
+        return n % 2 != 0
+import platform
+def get_python_version():
+        return platform.python_version()
