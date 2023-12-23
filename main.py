@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
