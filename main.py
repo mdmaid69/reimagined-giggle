@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
