@@ -1,5 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_pressure(force, area):
-        return force / area
+def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
