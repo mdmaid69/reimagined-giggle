@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
