@@ -1,6 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
