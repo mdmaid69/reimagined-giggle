@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
