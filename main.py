@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import platform
+def get_python_version():
+        return platform.python_version()
