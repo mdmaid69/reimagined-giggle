@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_speed(distance, time):
-        return distance / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def cube_number(x):
+        return x**3
