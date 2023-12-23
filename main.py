@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import platform
+def get_python_version():
+        return platform.python_version()
