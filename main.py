@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
