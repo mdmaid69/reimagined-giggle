@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def is_palindrome(s):
+        return s == s[::-1]
