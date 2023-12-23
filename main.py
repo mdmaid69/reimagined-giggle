@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
