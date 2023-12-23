@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
