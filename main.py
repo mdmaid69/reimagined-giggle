@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_array_to_list(array):
+        return array.tolist()
