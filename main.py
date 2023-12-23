@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def check_if_array_contains_item(array, item):
+        return item in array
