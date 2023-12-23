@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_counter():
-        return collections.Counter()
+def get_array_item(array, i):
+        return array[i]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
