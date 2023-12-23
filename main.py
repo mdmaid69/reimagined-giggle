@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def subtract_numbers(x, y):
+        return x - y
