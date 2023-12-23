@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
