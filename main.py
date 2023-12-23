@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_user_string():
-        return collections.UserString()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+print(re.match("h.*o", "hello world"))
