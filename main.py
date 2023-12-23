@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def cube_number(x):
+        return x**3
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
