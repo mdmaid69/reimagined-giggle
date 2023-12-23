@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
