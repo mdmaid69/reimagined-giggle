@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_list():
+        return collections.UserList()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
