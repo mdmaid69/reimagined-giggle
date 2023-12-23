@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
