@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
