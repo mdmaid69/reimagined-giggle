@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-print(math.pi)
+import sys
+print(sys.version)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
