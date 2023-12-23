@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
