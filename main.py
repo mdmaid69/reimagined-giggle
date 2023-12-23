@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
