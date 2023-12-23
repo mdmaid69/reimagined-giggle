@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
