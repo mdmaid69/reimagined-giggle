@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
