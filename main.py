@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def remove_duplicates(lst):
-        return list(set(lst))
+print(sum(range(10)))
+import sys
+def exit_program():
+        sys.exit()
