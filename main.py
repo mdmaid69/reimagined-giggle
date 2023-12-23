@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import numpy as np
-print(np.array([1, 2, 3]))
+def subtract_numbers(x, y):
+        return x - y
+def sort_numbers(numbers):
+        return sorted(numbers)
