@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import platform
+def get_os_info():
+        return platform.uname()
