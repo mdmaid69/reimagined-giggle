@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
