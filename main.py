@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
