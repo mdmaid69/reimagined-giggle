@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
