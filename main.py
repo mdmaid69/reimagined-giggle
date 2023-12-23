@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def convert_to_octal(n):
+        return oct(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
