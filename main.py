@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def is_odd(n):
+        return n % 2 != 0
