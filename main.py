@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
