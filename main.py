@@ -1,7 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
+def add_numbers(a, b):
+        return a + b
