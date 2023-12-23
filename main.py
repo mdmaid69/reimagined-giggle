@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
