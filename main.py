@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def print_python_version():
+        return sys.version
