@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_floor(x):
+        return math.floor(x)
