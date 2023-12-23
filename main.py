@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
