@@ -1,5 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def add_numbers(x, y):
-        return x + y
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
