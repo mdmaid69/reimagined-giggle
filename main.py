@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
