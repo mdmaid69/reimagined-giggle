@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
