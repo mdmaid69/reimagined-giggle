@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_buffer_info(array):
+        return array.buffer_info()
