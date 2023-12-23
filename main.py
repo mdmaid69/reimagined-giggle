@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
