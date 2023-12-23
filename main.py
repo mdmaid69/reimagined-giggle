@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def convert_to_hex(n):
-        return hex(n)
+import sys
+def print_python_version():
+        return sys.version
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
