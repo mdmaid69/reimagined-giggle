@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
