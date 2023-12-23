@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
