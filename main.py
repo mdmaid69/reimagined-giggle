@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_array_to_string(array):
+        return array.tostring()
+def count_characters(sentence):
+        return len(sentence)
