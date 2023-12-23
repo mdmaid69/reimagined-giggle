@@ -1,5 +1,9 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
