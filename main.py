@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_force(mass, acceleration):
+        return mass * acceleration
