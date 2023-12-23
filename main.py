@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
