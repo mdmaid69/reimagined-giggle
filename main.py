@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
