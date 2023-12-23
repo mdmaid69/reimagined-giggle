@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
