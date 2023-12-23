@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
