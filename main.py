@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
