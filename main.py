@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
