@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def set_array_item(array, i, item):
+        array[i] = item
