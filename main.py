@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
