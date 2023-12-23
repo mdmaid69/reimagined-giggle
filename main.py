@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def convert_to_binary(n):
+        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
