@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_union(list1, list2):
+        return set(list1) | set(list2)
