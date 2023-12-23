@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
