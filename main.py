@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
