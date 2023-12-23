@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
