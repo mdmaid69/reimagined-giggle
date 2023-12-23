@@ -1,5 +1,10 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def convert_to_binary(n):
-        return bin(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
