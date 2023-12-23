@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
 import datetime
-def get_current_date():
+def get_today_date():
         return datetime.date.today()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
