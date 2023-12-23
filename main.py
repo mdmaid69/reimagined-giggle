@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
