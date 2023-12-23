@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def count_characters(sentence):
+        return len(sentence)
