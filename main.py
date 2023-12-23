@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
