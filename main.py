@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+print([x**2 for x in range(10)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
