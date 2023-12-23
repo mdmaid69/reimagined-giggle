@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_min(numbers):
+        return min(numbers)
