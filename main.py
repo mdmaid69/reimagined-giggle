@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
