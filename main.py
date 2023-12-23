@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_sine(x):
+        return math.sin(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
