@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
