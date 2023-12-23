@@ -1,4 +1,3 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_speed(distance, time):
-        return distance / time
+print([x**2 for x in range(10)])
+for i in range(5):
+        print(i)
