@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import sys
+def print_python_version():
+        print(sys.version)
