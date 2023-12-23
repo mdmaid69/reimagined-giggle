@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
