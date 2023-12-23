@@ -1,7 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
