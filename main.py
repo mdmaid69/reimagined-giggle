@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
