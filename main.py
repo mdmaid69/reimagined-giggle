@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
