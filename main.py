@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
