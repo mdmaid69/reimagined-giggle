@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import sys
-def print_python_version():
-        return sys.version
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
