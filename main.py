@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def cube_number(x):
+        return x**3
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
