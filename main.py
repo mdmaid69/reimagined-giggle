@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
