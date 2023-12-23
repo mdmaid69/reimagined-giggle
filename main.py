@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
