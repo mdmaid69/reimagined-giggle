@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
