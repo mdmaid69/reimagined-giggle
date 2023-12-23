@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
