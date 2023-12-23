@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_even(n):
+        return n % 2 == 0
