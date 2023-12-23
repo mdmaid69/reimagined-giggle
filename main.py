@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
