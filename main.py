@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
