@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
