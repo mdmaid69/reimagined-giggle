@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
