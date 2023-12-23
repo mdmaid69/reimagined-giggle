@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import numpy as np
+print(np.array([1, 2, 3]))
