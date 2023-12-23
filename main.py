@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_work(force, distance):
+        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
