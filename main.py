@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
