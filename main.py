@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import sys
-def exit_program():
-        sys.exit()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
