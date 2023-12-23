@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
