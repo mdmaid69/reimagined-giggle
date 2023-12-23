@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import getpass
+def get_username():
+        return getpass.getuser()
