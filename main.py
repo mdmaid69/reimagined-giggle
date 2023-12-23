@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
