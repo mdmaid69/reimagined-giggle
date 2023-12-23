@@ -1,7 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
