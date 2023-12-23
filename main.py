@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def print_python_version():
+        return sys.version
