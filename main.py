@@ -1,5 +1,8 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def multiply_numbers(x, y):
-        return x * y
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
