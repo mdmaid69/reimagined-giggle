@@ -1,7 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
