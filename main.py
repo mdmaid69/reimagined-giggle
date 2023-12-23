@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
