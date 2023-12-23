@@ -1,7 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def cube_number(x):
+        return x**3
