@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
