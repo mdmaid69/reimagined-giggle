@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
