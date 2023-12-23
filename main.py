@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        return sys.version
+def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
