@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
