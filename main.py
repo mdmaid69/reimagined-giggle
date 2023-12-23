@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_float(array):
+        return float(array[0])
