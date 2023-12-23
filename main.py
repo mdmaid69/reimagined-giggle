@@ -1,7 +1,3 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+print(sum(range(10)))
