@@ -1,5 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
