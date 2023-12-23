@@ -1,6 +1,7 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
