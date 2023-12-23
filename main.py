@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
