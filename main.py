@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
