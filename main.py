@@ -1,6 +1,7 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
