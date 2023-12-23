@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
