@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def cube_number(x):
-        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
