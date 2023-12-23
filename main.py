@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
