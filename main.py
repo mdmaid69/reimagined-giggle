@@ -1,7 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_absolute_value(x):
+        return math.fabs(x)
