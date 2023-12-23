@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_power(work, time):
+        return work / time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
