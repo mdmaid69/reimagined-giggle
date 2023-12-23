@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
