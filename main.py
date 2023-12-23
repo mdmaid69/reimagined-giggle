@@ -1,6 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def convert_to_binary(n):
+        return bin(n)
