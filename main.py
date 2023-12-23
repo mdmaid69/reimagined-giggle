@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def split_path(path):
+        return os.path.split(path)
