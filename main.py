@@ -1,10 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
