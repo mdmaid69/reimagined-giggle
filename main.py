@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
