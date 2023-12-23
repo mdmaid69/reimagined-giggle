@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
