@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
