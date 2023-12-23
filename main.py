@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
