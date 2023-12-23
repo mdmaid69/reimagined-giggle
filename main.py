@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
