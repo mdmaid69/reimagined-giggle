@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
