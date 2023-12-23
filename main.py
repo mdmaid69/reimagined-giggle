@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Words:", len(text.split()))
