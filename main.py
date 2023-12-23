@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
