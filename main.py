@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
