@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import re
+print(re.match("h.*o", "hello world"))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
