@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
