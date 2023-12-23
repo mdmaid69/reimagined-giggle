@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
