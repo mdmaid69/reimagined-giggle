@@ -1,4 +1,7 @@
-for i in range(10): print(i)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
