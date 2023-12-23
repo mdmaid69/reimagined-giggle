@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def find_max(numbers):
-        return max(numbers)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_bool(array):
+        return bool(array)
