@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
