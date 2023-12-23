@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def change_working_directory(path):
+        os.chdir(path)
