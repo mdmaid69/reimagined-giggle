@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_density(mass, volume):
-        return mass / volume
+def cube_number(x):
+        return x**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
