@@ -1,5 +1,5 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
