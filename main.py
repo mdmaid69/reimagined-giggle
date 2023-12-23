@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
