@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_pressure(force, area):
+        return force / area
