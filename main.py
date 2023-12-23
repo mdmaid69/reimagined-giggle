@@ -1,5 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def append_to_array(array, item):
+        array.append(item)
