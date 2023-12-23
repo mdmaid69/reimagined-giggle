@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
