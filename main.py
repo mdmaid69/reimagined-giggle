@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
