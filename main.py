@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_array_item(array, i):
+        return array[i]
