@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
