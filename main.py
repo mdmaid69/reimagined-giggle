@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
