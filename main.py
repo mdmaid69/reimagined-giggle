@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
