@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
