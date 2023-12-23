@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import sys
+def print_python_version():
+        return sys.version
