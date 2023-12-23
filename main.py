@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+print(random.randint(0, 100))
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Square numbers:", [x**2 for x in range(n)])
