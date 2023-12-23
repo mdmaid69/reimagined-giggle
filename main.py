@@ -1,5 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import time
-print(time.time())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+print(math.pi)
