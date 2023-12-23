@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def split_path(path):
+        return os.path.split(path)
