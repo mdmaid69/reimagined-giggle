@@ -1,6 +1,8 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_stack():
-        return collections.deque()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
