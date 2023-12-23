@@ -1,5 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def reverse_string(s):
-        return s[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
