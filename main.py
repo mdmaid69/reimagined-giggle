@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import sys
+def print_python_version():
+        print(sys.version)
+print([x**2 for x in range(10)])
