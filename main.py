@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def split_path(path):
+        return os.path.split(path)
