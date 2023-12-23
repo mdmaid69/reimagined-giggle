@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_min(numbers):
+        return min(numbers)
