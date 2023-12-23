@@ -1,8 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
