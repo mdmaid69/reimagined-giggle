@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def convert_to_hex(n):
+        return hex(n)
