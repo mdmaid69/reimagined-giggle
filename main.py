@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
