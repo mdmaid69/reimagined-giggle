@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
