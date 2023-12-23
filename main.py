@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
