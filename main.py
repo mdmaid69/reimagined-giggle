@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_min(numbers):
+        return min(numbers)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
