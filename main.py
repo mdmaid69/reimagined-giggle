@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def square_number(x):
-        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
