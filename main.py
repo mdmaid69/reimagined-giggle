@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
