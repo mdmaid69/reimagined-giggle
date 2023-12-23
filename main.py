@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def multiply_numbers(x, y):
+        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
