@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def cube_number(x):
+        return x**3
