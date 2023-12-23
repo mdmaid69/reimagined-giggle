@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_list_from_array(array):
+        return array.tolist()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
