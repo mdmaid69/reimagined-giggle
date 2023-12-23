@@ -1,6 +1,5 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
