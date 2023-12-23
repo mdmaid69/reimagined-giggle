@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def sort_list(lst):
+        return sorted(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
