@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def convert_to_binary(n):
+        return bin(n)
+import sys
+def print_python_version():
+        print(sys.version)
