@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
