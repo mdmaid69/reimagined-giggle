@@ -1,6 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
