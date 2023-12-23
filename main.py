@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
