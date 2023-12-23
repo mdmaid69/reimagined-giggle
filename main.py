@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def sort_list(lst):
+        return sorted(lst)
