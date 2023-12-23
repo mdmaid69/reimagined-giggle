@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def reverse_array(array):
-        array.reverse()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
