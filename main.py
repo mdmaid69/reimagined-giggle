@@ -1,7 +1,3 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+for i in range(10): print(i)
