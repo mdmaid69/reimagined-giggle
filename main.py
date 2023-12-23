@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import sys
-def exit_program():
-        sys.exit()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
