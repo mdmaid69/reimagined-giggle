@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
