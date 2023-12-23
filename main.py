@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
