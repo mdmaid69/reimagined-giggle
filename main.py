@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
