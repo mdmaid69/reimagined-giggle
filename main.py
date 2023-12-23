@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
