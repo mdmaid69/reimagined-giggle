@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
