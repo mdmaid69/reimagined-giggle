@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
