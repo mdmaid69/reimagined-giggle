@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
