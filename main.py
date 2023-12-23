@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
