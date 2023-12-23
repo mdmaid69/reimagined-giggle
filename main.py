@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
