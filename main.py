@@ -1,8 +1,7 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
