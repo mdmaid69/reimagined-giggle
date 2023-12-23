@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
