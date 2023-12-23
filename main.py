@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
