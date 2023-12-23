@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
