@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
