@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
