@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_set(array):
+        return set(array)
