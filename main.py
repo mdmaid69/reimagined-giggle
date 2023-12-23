@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
+def find_min(numbers):
+        return min(numbers)
