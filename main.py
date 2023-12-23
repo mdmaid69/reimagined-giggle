@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def divide_numbers(x, y):
+        return x / y
