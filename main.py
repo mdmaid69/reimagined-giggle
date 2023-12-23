@@ -1,6 +1,6 @@
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
