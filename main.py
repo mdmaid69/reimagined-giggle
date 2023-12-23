@@ -1,5 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sys
+def print_python_version():
+        return sys.version
