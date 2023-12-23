@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_max(numbers):
+        return max(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
