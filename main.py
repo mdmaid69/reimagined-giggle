@@ -1,7 +1,9 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
