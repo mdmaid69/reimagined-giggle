@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
