@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import logging
-def log_message(message):
-        logging.info(message)
+def find_min(lst):
+        return min(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
