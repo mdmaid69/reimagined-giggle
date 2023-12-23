@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
