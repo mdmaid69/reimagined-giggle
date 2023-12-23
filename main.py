@@ -1,5 +1,6 @@
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
