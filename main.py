@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
