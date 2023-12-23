@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_pressure(force, area):
+        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
