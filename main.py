@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
