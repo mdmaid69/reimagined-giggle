@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
