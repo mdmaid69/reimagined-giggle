@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_length(array):
+        return len(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
