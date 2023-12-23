@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import sys
-def print_python_version():
-        return sys.version
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
