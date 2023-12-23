@@ -1,5 +1,8 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
