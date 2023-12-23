@@ -1,5 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
