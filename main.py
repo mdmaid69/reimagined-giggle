@@ -1,6 +1,5 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
