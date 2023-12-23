@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
