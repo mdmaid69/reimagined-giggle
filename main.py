@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
