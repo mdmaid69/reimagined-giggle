@@ -1,6 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def clear_array(array):
+        array *= 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
