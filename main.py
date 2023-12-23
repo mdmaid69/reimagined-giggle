@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
