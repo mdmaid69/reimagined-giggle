@@ -1,8 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
