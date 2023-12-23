@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_max(lst):
-        return max(lst)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_priority_queue():
+        return collections.deque()
