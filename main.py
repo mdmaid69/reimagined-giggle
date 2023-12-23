@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def split_path(path):
+        return os.path.split(path)
