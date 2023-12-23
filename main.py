@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import sys
+  def get_python_version():
+        return sys.version
