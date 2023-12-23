@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
