@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
