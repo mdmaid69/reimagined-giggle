@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
