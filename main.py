@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
