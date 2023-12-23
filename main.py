@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_array_as_memoryview(array):
+        return memoryview(array)
