@@ -1,7 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def add_numbers(a, b):
-        return a + b
+def convert_array_to_list(array):
+        return array.tolist()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
