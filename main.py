@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
