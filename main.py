@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
