@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
