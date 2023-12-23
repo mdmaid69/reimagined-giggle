@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
