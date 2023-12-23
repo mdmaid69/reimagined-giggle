@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
