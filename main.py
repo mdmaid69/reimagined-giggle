@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def convert_to_octal(n):
+        return oct(n)
