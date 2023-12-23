@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def roll_die():
+        return random.randint(1, 6)
