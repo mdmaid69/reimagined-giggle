@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
