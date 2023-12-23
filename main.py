@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+print(sys.version)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
