@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import os
+def remove_directory(path):
+        os.rmdir(path)
