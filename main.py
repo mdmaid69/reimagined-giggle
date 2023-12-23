@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import time
-def get_current_time():
-        return time.time()
+  def add_numbers(x, y):
+        return x + y
+def find_max(numbers):
+        return max(numbers)
