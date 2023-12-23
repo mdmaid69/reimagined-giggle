@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_work(force, distance):
+        return force * distance
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
