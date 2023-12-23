@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
