@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
