@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
