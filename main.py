@@ -1,5 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import time
-print(time.time())
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
