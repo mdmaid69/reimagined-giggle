@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import time
-def get_current_time():
-        return time.ctime()
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
