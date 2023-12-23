@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def count_elements(lst):
-        return len(lst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
