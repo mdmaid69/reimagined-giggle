@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+print(sys.version)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
