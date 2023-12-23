@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def change_working_directory(path):
+        os.chdir(path)
