@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+print(math.pi)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
