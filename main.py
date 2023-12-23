@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import time
-print(time.time())
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
