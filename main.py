@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
