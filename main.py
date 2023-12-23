@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
