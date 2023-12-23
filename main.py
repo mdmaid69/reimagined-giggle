@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def count_elements(lst):
+        return len(lst)
