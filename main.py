@@ -1,6 +1,9 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-print([x**2 for x in range(10)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
