@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
