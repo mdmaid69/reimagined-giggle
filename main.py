@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
