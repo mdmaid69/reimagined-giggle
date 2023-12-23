@@ -1,5 +1,10 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
