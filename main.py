@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def count_elements(lst):
+        return len(lst)
