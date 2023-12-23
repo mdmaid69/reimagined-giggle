@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
