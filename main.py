@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
