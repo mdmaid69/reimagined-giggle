@@ -1,7 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
