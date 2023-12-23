@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_list_from_array(array):
+        return array.tolist()
