@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
