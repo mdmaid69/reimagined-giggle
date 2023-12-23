@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def split_path(path):
+        return os.path.split(path)
