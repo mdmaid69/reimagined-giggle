@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
