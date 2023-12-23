@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def square_number(x):
+        return x**2
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
