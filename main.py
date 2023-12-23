@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def clear_array(array):
+        array *= 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
