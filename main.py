@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
