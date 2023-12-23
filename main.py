@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_pressure(force, area):
+        return force / area
+import random
+def roll_die():
+        return random.randint(1, 6)
