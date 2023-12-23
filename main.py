@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
