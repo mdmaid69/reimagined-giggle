@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
