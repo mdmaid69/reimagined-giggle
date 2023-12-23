@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
