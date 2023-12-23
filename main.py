@@ -1,11 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
