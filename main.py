@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
