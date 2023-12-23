@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
