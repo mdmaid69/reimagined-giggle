@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def square_number(x):
+        return x**2
