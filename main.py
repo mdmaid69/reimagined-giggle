@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_unique_words(sentence):
+        return set(sentence.split())
