@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
