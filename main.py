@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
