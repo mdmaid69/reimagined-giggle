@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-def count_elements(lst):
-        return len(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def print_python_version():
+        print(sys.version)
