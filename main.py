@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_counter():
-        return collections.Counter()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
