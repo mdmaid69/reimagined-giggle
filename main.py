@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import sys
-def exit_program():
-        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
