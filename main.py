@@ -1,4 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
