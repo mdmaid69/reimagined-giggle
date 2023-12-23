@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
