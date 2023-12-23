@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def add_numbers(x, y):
+        return x + y
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
