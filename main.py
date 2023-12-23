@@ -1,11 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+for i in range(10): print(i)
