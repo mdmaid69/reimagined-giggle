@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def divide_numbers(x, y):
+        return x / y
