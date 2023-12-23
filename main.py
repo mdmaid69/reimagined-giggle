@@ -1,6 +1,9 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
