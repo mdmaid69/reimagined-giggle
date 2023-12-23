@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
