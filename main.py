@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
