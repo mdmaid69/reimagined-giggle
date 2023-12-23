@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
