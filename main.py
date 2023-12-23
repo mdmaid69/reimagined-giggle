@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def convert_to_binary(n):
-        return bin(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_area_rectangle(l, w):
+        return l * w
