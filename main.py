@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
