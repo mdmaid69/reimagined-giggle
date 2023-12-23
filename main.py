@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
