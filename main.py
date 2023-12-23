@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def split_path(path):
+        return os.path.split(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
