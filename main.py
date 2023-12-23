@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
