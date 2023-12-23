@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
