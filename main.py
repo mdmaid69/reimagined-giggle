@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
