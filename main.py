@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
