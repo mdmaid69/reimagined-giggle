@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def cube_number(x):
+        return x**3
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
