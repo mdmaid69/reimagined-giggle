@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
