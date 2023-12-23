@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
