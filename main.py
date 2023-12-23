@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
