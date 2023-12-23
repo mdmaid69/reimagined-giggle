@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def cube_number(x):
+        return x**3
