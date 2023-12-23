@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
