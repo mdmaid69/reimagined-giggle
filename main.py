@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
