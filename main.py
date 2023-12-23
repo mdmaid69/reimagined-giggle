@@ -1,5 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
