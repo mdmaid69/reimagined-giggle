@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import numpy as np
+print(np.array([1, 2, 3]))
