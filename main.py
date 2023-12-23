@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
