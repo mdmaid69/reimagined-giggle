@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
