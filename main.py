@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
