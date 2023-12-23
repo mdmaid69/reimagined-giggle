@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def convert_to_binary(n):
+        return bin(n)
