@@ -1,6 +1,9 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
