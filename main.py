@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+from collections import Counter
+print(Counter("hello world"))
