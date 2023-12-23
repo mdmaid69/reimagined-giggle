@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
