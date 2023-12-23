@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
