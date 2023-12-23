@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
