@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import datetime
-print(datetime.datetime.now())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
