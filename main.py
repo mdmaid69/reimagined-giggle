@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
