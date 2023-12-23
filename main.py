@@ -1,8 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
