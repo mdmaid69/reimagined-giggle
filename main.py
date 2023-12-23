@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
