@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
