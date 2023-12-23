@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import platform
+def get_python_version():
+        return platform.python_version()
