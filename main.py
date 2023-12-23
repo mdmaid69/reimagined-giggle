@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
