@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+x = 10
+y = 20
+print("Sum:", x + y)
