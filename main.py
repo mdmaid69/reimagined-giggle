@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_floor(x):
+        return math.floor(x)
