@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def cube_number(x):
-        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
