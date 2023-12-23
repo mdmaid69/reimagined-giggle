@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def subtract_numbers(x, y):
+        return x - y
+import random
+def roll_die():
+        return random.randint(1, 6)
