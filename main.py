@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+print(os.getcwd())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
