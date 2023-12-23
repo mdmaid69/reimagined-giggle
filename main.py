@@ -1,8 +1,8 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
