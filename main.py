@@ -1,7 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
