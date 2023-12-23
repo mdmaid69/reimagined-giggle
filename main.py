@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
