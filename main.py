@@ -1,7 +1,8 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
