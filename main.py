@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
