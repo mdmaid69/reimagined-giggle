@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
