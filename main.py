@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
