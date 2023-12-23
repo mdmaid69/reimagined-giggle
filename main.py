@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-print(os.getcwd())
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
