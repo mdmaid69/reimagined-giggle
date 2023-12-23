@@ -1,6 +1,8 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
