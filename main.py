@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
