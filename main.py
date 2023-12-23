@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
