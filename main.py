@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def cube_number(x):
+        return x**3
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
