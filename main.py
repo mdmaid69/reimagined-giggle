@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_to_octal(n):
+        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
