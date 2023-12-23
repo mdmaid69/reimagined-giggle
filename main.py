@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def divide_numbers(x, y):
+        return x / y
