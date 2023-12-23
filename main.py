@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def count_elements(lst):
+        return len(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
