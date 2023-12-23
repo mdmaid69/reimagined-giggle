@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
