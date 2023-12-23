@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def delete_file(file_name):
+        os.remove(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
