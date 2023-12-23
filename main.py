@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
