@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+def remove_directory(path):
+        os.rmdir(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
