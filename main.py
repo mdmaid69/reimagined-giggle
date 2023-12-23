@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
