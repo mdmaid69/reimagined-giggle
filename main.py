@@ -1,8 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
