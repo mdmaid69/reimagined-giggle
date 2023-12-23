@@ -1,5 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
