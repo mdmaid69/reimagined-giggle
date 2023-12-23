@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
