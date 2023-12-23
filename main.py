@@ -1,11 +1,7 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
