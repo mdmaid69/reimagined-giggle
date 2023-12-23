@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
