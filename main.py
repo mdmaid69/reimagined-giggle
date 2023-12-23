@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
