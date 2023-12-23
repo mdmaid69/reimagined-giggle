@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
