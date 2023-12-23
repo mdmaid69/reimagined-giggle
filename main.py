@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_str(array):
-        return str(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
