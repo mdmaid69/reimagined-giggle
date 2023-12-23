@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+print("Hello, world!")
+i = 0
+while i < 5:
+        print(i)
+        i += 1
