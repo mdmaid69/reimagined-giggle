@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
