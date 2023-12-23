@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
