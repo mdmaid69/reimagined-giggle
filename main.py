@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
