@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
