@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_area(radius):
-        return 3.14 * radius * radius
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
