@@ -1,5 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
