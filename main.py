@@ -1,7 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-for i in range(5):
-        print(i)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
