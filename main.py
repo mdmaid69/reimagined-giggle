@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_counter():
+        return collections.Counter()
