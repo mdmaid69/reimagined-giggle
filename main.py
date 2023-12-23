@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
