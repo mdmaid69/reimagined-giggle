@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def reverse_string(s):
+        return s[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
