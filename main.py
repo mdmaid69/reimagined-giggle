@@ -1,4 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-print([x**2 for x in range(10)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
