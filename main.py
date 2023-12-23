@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
