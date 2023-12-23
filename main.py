@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def count_words(sentence):
+        return len(sentence.split())
