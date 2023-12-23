@@ -1,11 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
