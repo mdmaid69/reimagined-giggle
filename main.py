@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
