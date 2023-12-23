@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
