@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
