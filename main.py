@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
