@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Characters:", len(text))
+from collections import Counter
+print(Counter("hello world"))
+def calculate_area_circle(r):
+        return 3.14 * r**2
