@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def multiply_numbers(x, y):
+        return x * y
