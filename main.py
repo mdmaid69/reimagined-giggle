@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
