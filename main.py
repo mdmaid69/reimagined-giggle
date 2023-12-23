@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
