@@ -1,5 +1,7 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def set_array_item(array, i, item):
+        array[i] = item
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
