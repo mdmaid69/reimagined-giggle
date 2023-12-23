@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_floor(x):
+        return math.floor(x)
