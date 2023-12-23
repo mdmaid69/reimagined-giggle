@@ -1,8 +1,10 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
