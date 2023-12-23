@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
