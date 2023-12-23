@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
