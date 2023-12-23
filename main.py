@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def greet(name):
+        print(f"Hello, {name}!")
+import logging
+def log_message(message):
+        logging.info(message)
