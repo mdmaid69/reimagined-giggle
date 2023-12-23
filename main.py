@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_pressure(force, area):
-        return force / area
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
