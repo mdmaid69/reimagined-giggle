@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
