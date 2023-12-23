@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
