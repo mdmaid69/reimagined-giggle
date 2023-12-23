@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def convert_to_hex(n):
+        return hex(n)
