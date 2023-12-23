@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_user_list():
+        return collections.UserList()
