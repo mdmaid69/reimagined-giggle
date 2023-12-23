@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_power(work, time):
+        return work / time
