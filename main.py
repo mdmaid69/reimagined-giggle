@@ -1,6 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
