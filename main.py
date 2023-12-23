@@ -1,6 +1,9 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
