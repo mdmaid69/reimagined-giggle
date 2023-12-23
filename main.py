@@ -1,6 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
