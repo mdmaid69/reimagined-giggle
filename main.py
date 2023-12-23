@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def add_numbers(a, b):
-        return a + b
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_user_dict():
+        return collections.UserDict()
