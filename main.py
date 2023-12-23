@@ -1,6 +1,5 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_item(array, i):
-        return array[i]
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
