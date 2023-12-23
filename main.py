@@ -1,5 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
