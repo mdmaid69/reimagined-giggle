@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
