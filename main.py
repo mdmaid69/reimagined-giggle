@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
