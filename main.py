@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_power(work, time):
+        return work / time
