@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
