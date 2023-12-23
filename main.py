@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
