@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
