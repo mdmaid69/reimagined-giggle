@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def add_numbers(x, y):
+        return x + y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
