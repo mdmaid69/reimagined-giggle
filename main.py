@@ -1,9 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
