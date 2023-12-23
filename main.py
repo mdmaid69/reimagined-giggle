@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
