@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
