@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
