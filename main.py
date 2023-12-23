@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_hyperbolic_arc_cosine(x):
+def calculate_inverse_hyperbolic_cosine(x):
         return math.acosh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
