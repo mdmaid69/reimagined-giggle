@@ -1,9 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
