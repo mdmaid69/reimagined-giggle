@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
