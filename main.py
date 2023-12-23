@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
