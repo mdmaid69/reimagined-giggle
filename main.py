@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
