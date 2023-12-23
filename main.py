@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
