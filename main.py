@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
