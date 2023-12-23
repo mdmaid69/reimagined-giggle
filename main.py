@@ -1,5 +1,11 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Characters:", len(text))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
