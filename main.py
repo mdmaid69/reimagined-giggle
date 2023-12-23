@@ -1,5 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def get_list_from_array(array):
+        return array.tolist()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
