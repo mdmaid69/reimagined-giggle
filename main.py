@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+print(json.dumps({"name": "John", "age": 30}))
