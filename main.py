@@ -1,9 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import sys
+  def get_python_version():
+        return sys.version
