@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
