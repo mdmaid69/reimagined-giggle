@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def divide_numbers(x, y):
-        return x / y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
