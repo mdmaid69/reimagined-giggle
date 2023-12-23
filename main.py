@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
