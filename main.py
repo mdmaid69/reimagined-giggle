@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
