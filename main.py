@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
