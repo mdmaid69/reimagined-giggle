@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
