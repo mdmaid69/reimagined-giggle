@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_user_dict():
+        return collections.UserDict()
