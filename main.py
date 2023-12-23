@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def clear_array(array):
+        array *= 0
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
