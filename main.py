@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
