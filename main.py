@@ -1,8 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def append_to_array(array, item):
+        array.append(item)
+def count_elements(lst):
+        return len(lst)
