@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
