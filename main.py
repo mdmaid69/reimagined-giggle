@@ -1,6 +1,8 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
