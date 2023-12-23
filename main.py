@@ -1,5 +1,8 @@
 import re
-def split_string(pattern, string):
+def split_by_pattern(pattern, string):
         return re.split(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
