@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
