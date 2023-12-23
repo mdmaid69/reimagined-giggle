@@ -1,9 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_exponential(x):
+        return math.exp(x)
