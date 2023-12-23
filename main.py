@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def multiply_numbers(x, y):
+        return x * y
+def find_min(lst):
+        return min(lst)
