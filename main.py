@@ -1,5 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
