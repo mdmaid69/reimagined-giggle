@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
