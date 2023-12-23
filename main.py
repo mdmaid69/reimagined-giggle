@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
