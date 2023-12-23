@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
