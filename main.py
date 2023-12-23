@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_max(lst):
+        return max(lst)
