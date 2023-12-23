@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
