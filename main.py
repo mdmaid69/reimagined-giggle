@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
