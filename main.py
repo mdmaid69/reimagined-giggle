@@ -1,8 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
