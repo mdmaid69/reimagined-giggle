@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
