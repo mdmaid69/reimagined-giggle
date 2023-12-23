@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def convert_to_hex(n):
-        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
