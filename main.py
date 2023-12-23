@@ -1,8 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_as_set(array):
-        return set(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def insert_into_array(array, i, item):
+        array.insert(i, item)
