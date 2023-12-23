@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_exponential(x):
+        return math.exp(x)
