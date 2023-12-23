@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def count_words(sentence):
+        return len(sentence.split())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
