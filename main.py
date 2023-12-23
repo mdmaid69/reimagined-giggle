@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def is_palindrome(s):
+        return s == s[::-1]
