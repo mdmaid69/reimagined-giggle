@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+from collections import Counter
+print(Counter("hello world"))
