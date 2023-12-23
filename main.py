@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_power(work, time):
-        return work / time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sine(x):
+        return math.sin(x)
