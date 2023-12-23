@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def find_min(numbers):
-        return min(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+def convert_to_hex(n):
+        return hex(n)
