@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_as_set(array):
-        return set(array)
+def reverse_string(s):
+        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
