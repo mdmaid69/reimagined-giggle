@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def count_characters(sentence):
-        return len(sentence)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+print(sys.version)
