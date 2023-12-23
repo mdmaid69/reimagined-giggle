@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
