@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
