@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_density(mass, volume):
+        return mass / volume
