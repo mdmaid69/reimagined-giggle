@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
