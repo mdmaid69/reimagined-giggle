@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
