@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def reverse_string(s):
-        return s[::-1]
+  def is_even(n):
+        return n % 2 == 0
+import collections
+def create_user_dict():
+        return collections.UserDict()
