@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
