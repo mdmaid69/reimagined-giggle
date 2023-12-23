@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
