@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_str(array):
+        return str(array)
+  def square_number(x):
+        return x**2
