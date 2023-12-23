@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
