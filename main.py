@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def cube_number(x):
+        return x**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
