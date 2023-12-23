@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
