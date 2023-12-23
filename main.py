@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
