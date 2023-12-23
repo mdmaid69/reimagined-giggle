@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
