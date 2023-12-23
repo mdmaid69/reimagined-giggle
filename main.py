@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def convert_array_to_list(array):
+        return array.tolist()
+x = 10
+y = 20
+print("Sum:", x + y)
