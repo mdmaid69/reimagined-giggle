@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
