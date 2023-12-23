@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def add_numbers(x, y):
-        return x + y
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
