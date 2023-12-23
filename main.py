@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import json
+def convert_to_json(data):
+        return json.dumps(data)
