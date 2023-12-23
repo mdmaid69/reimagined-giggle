@@ -1,7 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
