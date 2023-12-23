@@ -1,5 +1,12 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def subtract_numbers(x, y):
-        return x - y
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
