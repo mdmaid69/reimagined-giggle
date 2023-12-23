@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
