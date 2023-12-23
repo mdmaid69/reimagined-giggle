@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import sys
+  def get_python_version():
+        return sys.version
