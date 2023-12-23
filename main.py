@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_circle(r):
+        return 3.14 * r**2
