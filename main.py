@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
