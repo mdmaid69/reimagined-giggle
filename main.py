@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
