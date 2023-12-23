@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
