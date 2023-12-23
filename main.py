@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import datetime
-print(datetime.datetime.now())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_counter():
+        return collections.Counter()
