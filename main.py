@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
