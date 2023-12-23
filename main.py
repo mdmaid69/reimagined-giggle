@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
