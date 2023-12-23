@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_list(array):
+        return list(array)
+def convert_to_binary(n):
+        return bin(n)
