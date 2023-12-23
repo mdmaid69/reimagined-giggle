@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
