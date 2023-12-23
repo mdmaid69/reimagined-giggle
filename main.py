@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import os
-print(os.getcwd())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_bool(array):
+        return bool(array)
