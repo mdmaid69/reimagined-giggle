@@ -1,5 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
