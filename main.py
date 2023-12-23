@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
