@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_pressure(force, area):
-        return force / area
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
