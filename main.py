@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
