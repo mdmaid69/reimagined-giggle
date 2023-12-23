@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def divide_numbers(x, y):
-        return x / y
+def calculate_permutations(n, k):
+        return math.perm(n, k)
