@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
