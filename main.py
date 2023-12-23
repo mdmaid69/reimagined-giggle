@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def set_array_item(array, i, item):
+        array[i] = item
