@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_absolute_value(x):
+        return math.fabs(x)
