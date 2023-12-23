@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
