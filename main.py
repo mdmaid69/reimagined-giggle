@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
