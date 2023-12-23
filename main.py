@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
