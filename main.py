@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
