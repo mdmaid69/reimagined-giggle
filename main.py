@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
