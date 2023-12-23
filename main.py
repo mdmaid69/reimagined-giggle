@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_pressure(force, area):
+        return force / area
