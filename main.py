@@ -1,6 +1,5 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+print(math.pi)
