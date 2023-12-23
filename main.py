@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
