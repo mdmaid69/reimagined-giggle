@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import platform
-def get_python_version():
-        return platform.python_version()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
