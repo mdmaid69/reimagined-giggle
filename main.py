@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
