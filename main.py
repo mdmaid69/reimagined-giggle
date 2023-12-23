@@ -1,7 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
