@@ -1,8 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
