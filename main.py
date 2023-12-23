@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
