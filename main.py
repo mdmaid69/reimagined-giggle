@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
