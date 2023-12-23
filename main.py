@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
