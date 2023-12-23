@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_current_directory():
+        return os.getcwd()
