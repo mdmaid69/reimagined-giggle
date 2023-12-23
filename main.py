@@ -1,8 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
