@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+for i in range(10): print(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
