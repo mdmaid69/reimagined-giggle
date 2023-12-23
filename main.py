@@ -1,6 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
