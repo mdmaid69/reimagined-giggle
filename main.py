@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def add_numbers(a, b):
+        return a + b
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
