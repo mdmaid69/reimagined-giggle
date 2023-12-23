@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def cube_number(x):
-        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
