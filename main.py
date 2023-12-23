@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def print_python_version():
+        return sys.version
