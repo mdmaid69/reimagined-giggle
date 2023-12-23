@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def clear_array(array):
-        array *= 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
