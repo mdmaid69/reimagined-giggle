@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_queue():
+        return collections.deque()
