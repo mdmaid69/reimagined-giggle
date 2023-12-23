@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def add_numbers(x, y):
+        return x + y
