@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
