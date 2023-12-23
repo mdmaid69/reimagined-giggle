@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
