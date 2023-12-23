@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
