@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
