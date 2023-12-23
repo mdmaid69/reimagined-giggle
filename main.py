@@ -1,8 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_frozenset(array):
+        return frozenset(array)
