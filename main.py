@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+print(sys.version)
