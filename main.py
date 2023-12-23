@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
