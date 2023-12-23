@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
