@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
