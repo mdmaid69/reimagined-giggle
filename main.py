@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
