@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
