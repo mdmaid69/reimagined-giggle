@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_density(mass, volume):
+        return mass / volume
