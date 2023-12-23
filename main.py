@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def get_base_name(path):
+        return os.path.basename(path)
+def convert_to_octal(n):
+        return oct(n)
