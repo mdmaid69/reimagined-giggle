@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
