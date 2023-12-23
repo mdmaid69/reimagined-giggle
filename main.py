@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
