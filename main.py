@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-text = "Hello, world!"
-print("Characters:", len(text))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
