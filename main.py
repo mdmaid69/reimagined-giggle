@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
