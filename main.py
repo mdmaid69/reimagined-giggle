@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_typecode(array):
-        return array.typecode
+def reverse_list(lst):
+        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
