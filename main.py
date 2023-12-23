@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_hex(n):
+        return hex(n)
