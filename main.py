@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_queue():
+        return collections.deque()
+  def convert_to_binary(n):
+        return bin(n)
