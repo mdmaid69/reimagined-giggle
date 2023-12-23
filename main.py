@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
