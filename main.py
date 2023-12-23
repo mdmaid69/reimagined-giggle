@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
