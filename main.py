@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_absolute_value(x):
+        return math.fabs(x)
