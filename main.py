@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_stack():
-        return collections.deque()
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
