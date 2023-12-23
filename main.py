@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
