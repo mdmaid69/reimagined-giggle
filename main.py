@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def divide_numbers(x, y):
+        return x / y
