@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
