@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
