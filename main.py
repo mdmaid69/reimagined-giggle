@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def convert_to_binary(n):
+        return bin(n)
