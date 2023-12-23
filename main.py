@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
