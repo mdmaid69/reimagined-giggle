@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
