@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def cube_number(x):
+        return x**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
