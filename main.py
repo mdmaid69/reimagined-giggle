@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
