@@ -1,7 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
