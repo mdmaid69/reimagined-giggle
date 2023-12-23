@@ -1,7 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_power(work, time):
+        return work / time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
