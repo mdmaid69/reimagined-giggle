@@ -1,8 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
