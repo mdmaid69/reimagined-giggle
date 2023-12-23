@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-for i in range(5):
-        print(i)
+def remove_duplicates(lst):
+        return list(set(lst))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
