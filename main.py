@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_pressure(force, area):
-        return force / area
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
