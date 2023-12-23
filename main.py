@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
