@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
