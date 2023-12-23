@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
