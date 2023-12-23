@@ -1,4 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
