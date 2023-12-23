@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
