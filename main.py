@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def reverse_list(lst):
+        return lst[::-1]
