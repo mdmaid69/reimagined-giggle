@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
