@@ -1,4 +1,11 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def divide_numbers(x, y):
-        return x / y
+  def reverse_list(lst):
+        return lst[::-1]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
