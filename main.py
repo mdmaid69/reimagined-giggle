@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import re
+print(re.match("h.*o", "hello world"))
