@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+for i in range(10): print(i)
+import collections
+def create_user_string():
+        return collections.UserString()
