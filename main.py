@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
