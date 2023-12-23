@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
