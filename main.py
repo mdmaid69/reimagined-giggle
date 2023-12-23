@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
