@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def greet(name):
-        print(f"Hello, {name}!")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
