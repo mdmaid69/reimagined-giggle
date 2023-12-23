@@ -1,6 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
