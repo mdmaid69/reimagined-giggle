@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
