@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_acceleration(speed, time):
-        return speed / time
+  def cube_number(x):
+        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
