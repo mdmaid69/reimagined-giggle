@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_os_info():
+        return platform.uname()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
