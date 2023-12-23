@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def clear_array(array):
+        array *= 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
