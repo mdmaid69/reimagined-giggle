@@ -1,6 +1,8 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
