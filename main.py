@@ -1,5 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_acceleration(speed, time):
-        return speed / time
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
