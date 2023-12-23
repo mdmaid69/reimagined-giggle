@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def is_even(n):
-        return n % 2 == 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
