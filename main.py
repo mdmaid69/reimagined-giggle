@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
