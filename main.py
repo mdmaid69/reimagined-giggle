@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
