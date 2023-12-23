@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
