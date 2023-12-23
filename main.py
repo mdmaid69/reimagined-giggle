@@ -1,6 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def multiply_numbers(x, y):
+        return x * y
