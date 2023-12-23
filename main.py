@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+text = "Hello, world!"
+print("Words:", len(text.split()))
