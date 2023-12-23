@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
