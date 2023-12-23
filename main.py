@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
