@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+print(re.match("h.*o", "hello world"))
