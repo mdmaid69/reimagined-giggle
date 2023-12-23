@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def sort_list(lst):
-        return sorted(lst)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
