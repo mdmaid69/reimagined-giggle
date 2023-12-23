@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_counter():
+        return collections.Counter()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
