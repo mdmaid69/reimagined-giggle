@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
