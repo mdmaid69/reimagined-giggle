@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
