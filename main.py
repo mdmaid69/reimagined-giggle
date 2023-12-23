@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
