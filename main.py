@@ -1,4 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-for i in range(10): print(i)
+def divide_numbers(x, y):
+        return x / y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
