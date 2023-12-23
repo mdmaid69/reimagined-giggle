@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
