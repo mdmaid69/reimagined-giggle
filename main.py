@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
