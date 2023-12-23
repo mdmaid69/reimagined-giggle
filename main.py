@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
