@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
