@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
