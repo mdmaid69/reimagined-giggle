@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_item(array, i):
+        return array[i]
