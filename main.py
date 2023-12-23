@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
