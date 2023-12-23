@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
