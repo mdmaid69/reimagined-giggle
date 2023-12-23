@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-print(math.pi)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
