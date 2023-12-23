@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
