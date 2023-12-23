@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
