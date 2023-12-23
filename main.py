@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def print_python_version():
+        print(sys.version)
