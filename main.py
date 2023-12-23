@@ -1,4 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-print([x**2 for x in range(10)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
