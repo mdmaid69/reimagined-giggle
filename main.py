@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_item(array, i):
-        return array[i]
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
