@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
