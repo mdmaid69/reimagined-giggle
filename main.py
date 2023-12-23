@@ -1,6 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
