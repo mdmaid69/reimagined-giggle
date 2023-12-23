@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
