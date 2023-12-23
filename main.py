@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Characters:", len(text))
+print(sum(range(10)))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
