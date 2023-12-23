@@ -1,6 +1,8 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
