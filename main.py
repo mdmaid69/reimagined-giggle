@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_tangent(x):
+        return math.tan(x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
