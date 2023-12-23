@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def count_elements(lst):
+        return len(lst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
