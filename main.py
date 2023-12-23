@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sys
+def print_python_version():
+        print(sys.version)
