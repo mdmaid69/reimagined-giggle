@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def greet(name):
-        print(f"Hello, {name}!")
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
