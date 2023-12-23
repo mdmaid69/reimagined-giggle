@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
