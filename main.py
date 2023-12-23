@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_perpetuity(payment, rate):
+        return payment / rate
