@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import platform
+def get_os_info():
+        return platform.uname()
