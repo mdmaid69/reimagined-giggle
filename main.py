@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
