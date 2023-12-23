@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
