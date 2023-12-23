@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def reverse_string(s):
-        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
