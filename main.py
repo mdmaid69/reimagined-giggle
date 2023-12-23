@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def is_even(n):
+        return n % 2 == 0
