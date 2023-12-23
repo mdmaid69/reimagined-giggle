@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def count_elements(lst):
-        return len(lst)
+import time
+print(time.time())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
