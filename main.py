@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+print(os.getcwd())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
