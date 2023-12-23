@@ -1,5 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
