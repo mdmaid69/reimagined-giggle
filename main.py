@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def count_elements(lst):
-        return len(lst)
+import os
+print(os.getcwd())
+import collections
+def create_stack():
+        return collections.deque()
