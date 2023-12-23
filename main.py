@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Characters:", len(text))
+def cube_number(x):
+        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
