@@ -1,3 +1,6 @@
-print(sum(range(10)))
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
