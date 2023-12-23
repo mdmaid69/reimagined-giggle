@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
