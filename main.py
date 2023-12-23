@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
