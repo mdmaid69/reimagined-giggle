@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
