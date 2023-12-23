@@ -1,4 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-print(sum(range(10)))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
