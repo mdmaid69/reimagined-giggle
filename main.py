@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
