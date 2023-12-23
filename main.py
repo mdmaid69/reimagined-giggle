@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area(radius):
+        return 3.14 * radius * radius
