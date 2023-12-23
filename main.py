@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def convert_to_binary(n):
-        return bin(n)
+import time
+print(time.time())
+import sys
+def exit_program():
+        sys.exit()
