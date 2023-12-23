@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
