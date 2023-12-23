@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import sys
+print(sys.version)
