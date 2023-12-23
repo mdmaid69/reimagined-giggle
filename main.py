@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def convert_to_octal(n):
+        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
