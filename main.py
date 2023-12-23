@@ -1,6 +1,9 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
