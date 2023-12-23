@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
