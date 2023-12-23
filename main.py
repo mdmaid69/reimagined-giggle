@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
