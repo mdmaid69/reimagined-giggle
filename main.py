@@ -1,9 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
