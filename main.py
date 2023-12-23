@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
