@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
