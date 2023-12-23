@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def convert_to_octal(n):
+        return oct(n)
