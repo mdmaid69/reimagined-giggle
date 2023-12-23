@@ -1,5 +1,12 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
