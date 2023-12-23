@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def create_queue():
+        return collections.deque()
