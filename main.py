@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
