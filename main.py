@@ -1,6 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_to_json(data):
+        return json.dumps(data)
