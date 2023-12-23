@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+def exit_program():
+        sys.exit()
