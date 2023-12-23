@@ -1,6 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def count_characters(sentence):
+        return len(sentence)
+  def multiply_numbers(x, y):
+        return x * y
