@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+for i in range(5):
+        print(i)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
