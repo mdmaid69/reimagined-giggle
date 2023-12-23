@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
