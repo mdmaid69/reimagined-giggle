@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_max(numbers):
+        return max(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
