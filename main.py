@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def reverse_list(lst):
+        return lst[::-1]
