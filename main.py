@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
