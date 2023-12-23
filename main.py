@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
