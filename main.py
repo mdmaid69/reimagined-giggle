@@ -1,4 +1,5 @@
-import time
-print(time.time())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
