@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def convert_to_hex(n):
+        return hex(n)
