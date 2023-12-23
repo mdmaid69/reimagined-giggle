@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
