@@ -1,8 +1,15 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
