@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def change_working_directory(path):
+        os.chdir(path)
