@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(lst):
-        return min(lst)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def clear_array(array):
+        array *= 0
