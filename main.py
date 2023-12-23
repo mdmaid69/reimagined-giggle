@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
