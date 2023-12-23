@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
