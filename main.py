@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
