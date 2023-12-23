@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def is_odd(n):
+        return n % 2 != 0
+import logging
+def log_message(message):
+        logging.info(message)
