@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import platform
+def get_os_info():
+        return platform.uname()
