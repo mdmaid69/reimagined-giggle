@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import platform
+def get_os_info():
+        return platform.uname()
