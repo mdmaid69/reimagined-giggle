@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
