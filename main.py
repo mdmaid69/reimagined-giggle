@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
