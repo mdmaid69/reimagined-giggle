@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+print(math.pi)
+import getpass
+def get_username():
+        return getpass.getuser()
