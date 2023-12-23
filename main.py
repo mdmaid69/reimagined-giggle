@@ -1,5 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import re
-print(re.match("h.*o", "hello world"))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
