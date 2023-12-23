@@ -1,7 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_pressure(force, area):
+        return force / area
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
