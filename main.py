@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
