@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
