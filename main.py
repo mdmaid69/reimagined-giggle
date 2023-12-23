@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
