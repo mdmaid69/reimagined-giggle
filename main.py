@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_min(numbers):
-        return min(numbers)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
