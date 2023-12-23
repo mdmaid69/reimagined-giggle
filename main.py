@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
