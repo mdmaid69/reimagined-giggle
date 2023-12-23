@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
