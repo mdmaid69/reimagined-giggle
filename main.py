@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
