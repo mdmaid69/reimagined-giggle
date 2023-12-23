@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_item(array, i):
+        return array[i]
