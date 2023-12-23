@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
