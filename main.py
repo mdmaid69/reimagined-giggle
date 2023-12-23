@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def square_number(x):
+        return x**2
