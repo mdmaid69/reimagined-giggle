@@ -1,5 +1,9 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
