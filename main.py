@@ -1,6 +1,6 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def iterate_over_array(array):
+        for item in array:
+        print(item)
