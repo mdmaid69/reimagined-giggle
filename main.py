@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
