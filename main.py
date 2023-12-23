@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import logging
+def log_message(message):
+        logging.info(message)
