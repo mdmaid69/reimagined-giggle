@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
