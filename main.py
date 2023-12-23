@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
