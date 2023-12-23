@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_length(array):
+        return len(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
