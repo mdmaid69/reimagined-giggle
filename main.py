@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
