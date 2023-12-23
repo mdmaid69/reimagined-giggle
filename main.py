@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
