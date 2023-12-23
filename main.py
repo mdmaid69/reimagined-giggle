@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
