@@ -1,7 +1,6 @@
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sys
+print(sys.version)
