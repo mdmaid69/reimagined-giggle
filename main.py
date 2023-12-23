@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
