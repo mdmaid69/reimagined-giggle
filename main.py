@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
