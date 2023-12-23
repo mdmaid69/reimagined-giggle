@@ -1,4 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-print("Hello, world!")
+def find_min(lst):
+        return min(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
