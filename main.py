@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
