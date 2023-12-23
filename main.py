@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+x = 10
+y = 20
+print("Sum:", x + y)
