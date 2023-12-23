@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def square_number(x):
+        return x**2
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_base_name(path):
+        return os.path.basename(path)
