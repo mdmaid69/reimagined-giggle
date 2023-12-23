@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
