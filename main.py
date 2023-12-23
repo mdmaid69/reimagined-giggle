@@ -1,12 +1,5 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_max(numbers):
+        return max(numbers)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
