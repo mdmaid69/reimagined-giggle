@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area(radius):
+        return 3.14 * radius * radius
