@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
