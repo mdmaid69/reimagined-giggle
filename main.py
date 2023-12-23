@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
