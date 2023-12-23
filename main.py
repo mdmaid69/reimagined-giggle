@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
