@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
