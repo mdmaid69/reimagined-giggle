@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
