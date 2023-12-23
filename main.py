@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_arc_tangent(x):
+        return math.atan(x)
