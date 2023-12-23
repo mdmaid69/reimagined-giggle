@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
