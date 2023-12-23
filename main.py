@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def convert_to_hex(n):
+        return hex(n)
