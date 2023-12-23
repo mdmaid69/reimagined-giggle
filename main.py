@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_priority_queue():
+        return collections.deque()
