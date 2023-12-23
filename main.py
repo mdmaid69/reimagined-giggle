@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-print(random.randint(0, 100))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
