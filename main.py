@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
