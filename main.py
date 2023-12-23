@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+print(sys.version)
