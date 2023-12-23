@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
