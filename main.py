@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
