@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import datetime
+def get_current_date():
+        return datetime.date.today()
