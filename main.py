@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
