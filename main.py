@@ -1,5 +1,12 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
