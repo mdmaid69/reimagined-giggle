@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
