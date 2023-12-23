@@ -1,8 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def square_number(x):
+        return x**2
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
