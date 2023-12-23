@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Characters:", len(text))
