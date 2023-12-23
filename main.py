@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Characters:", len(text))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
