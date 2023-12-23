@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import sys
+def exit_program():
+        sys.exit()
