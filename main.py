@@ -1,7 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+for i in range(10): print(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
