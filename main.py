@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
