@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
