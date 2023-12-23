@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
