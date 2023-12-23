@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_user_list():
+        return collections.UserList()
