@@ -1,8 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
