@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_volume(length, width, height):
+        return length * width * height
