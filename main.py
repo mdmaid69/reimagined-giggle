@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
