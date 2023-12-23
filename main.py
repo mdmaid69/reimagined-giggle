@@ -1,5 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def cube_number(x):
-        return x**3
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
