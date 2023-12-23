@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+def add_numbers(x, y):
+        return x + y
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def clear_array(array):
+        array *= 0
