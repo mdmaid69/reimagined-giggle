@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-name = "Python"
-print("Hello,", name)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
