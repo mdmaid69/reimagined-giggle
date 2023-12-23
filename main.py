@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import random
-print(random.randint(0, 100))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
