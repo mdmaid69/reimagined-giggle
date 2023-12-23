@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
