@@ -1,5 +1,5 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_list(array):
-        return list(array)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
