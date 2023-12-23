@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
