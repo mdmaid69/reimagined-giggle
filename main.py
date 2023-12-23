@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_item(array, i):
+        return array[i]
