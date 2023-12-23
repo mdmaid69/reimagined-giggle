@@ -1,5 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
