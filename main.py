@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
