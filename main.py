@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
