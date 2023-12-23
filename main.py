@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
