@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
