@@ -1,7 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
