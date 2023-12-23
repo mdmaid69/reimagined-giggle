@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def subtract_numbers(x, y):
+        return x - y
