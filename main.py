@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
