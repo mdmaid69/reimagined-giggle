@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
