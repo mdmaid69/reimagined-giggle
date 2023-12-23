@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def count_elements(lst):
+        return len(lst)
