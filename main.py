@@ -1,7 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
