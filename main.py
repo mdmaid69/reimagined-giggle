@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
