@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-print(time.time())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
