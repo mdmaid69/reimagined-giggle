@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
