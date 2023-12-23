@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import time
-def get_current_time():
-        return time.time()
+def calculate_floor(x):
+        return math.floor(x)
