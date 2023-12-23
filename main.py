@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def is_even(n):
+        return n % 2 == 0
