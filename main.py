@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
