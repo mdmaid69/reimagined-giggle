@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
