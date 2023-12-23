@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
