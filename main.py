@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
