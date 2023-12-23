@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
