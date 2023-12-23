@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
