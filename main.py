@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
