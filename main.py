@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
