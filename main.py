@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def reverse_string(s):
+        return s[::-1]
