@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+name = "Python"
+print("Hello,", name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
