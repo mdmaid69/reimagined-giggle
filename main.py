@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
