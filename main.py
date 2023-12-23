@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def reverse_array(array):
+        array.reverse()
