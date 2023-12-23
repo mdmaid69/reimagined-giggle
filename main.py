@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_pressure(force, area):
+        return force / area
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
