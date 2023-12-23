@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_user_list():
+        return collections.UserList()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
