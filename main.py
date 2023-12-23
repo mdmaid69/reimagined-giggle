@@ -1,8 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
