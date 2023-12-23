@@ -1,5 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
