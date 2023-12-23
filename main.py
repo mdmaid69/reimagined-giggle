@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
