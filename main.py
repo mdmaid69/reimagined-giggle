@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_priority_queue():
+        return collections.deque()
