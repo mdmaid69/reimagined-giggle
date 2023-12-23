@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
