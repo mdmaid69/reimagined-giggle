@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
