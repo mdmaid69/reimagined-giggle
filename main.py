@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+from collections import Counter
+print(Counter("hello world"))
