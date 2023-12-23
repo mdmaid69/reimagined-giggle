@@ -1,5 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
