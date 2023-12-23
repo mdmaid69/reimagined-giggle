@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
