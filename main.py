@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
