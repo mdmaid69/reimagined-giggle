@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
