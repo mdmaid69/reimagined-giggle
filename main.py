@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
