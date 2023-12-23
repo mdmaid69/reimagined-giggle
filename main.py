@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
