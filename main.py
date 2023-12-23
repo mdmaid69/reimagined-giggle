@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
