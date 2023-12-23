@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def reverse_string(s):
+        return s[::-1]
