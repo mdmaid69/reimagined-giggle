@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
