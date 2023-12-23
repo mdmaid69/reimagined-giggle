@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
