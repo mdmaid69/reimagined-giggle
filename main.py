@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
