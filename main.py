@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def add_numbers(x, y):
+        return x + y
