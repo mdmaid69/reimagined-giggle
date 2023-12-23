@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_counter():
+        return collections.Counter()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
