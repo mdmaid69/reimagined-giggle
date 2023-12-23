@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def reverse_string(s):
+        return s[::-1]
+def count_elements(lst):
+        return len(lst)
