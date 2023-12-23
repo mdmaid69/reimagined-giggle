@@ -1,7 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_to_hex(n):
+        return hex(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
