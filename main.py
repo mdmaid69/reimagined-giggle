@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import sys
-def exit_program():
-        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
