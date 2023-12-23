@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
