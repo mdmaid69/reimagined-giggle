@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def delete_file(file_name):
+        os.remove(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
