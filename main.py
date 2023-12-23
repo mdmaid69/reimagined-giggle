@@ -1,8 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
