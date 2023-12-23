@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
