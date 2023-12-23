@@ -1,10 +1,4 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
