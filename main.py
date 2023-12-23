@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
