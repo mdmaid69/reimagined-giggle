@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
