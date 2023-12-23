@@ -1,8 +1,8 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
