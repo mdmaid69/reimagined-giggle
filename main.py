@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
