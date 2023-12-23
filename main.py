@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
