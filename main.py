@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_min(lst):
+        return min(lst)
