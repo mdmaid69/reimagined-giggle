@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import sys
-def print_python_version():
-        print(sys.version)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
