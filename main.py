@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
