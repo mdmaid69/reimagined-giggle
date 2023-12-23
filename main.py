@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_pressure(force, area):
-        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
