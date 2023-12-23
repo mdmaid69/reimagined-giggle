@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
