@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
