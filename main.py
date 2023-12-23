@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_power(work, time):
-        return work / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
