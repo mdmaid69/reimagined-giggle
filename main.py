@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+def roll_die():
+        return random.randint(1, 6)
+text = "Hello, world!"
+print("Words:", len(text.split()))
