@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
