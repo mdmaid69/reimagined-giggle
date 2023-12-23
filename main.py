@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
