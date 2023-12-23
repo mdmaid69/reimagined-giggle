@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
