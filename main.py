@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
