@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
