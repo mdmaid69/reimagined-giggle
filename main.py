@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
