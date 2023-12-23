@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def reverse_array(array):
+        array.reverse()
+import time
+def get_current_time():
+        return time.ctime()
