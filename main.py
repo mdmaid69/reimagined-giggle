@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
