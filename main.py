@@ -1,5 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
