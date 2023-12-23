@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
