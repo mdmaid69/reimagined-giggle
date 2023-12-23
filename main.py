@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def append_to_array(array, item):
+        array.append(item)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_itemsize(array):
+        return array.itemsize
