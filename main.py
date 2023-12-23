@@ -1,8 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
