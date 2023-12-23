@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
