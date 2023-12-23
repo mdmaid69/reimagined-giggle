@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
