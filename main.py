@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def change_working_directory(path):
+        os.chdir(path)
