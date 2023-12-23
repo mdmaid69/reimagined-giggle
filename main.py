@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def get_time_since_epoch():
+        return time.time()
