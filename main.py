@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def is_even(n):
-        return n % 2 == 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
