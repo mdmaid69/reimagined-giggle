@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+def exit_program():
+        sys.exit()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
