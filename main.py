@@ -1,6 +1,9 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
