@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
