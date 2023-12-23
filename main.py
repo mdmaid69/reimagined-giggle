@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
