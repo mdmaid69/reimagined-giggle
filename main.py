@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
