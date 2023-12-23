@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
