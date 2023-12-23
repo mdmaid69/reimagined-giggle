@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
