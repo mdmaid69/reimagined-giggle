@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
