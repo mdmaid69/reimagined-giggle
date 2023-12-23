@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_length(array):
+        return len(array)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
