@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import tensorflow as tf
+print(tf.__version__)
