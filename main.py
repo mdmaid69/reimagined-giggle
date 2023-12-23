@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
