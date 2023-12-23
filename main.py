@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
