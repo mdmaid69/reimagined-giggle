@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def cube_number(x):
+        return x**3
