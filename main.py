@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
