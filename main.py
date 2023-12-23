@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
