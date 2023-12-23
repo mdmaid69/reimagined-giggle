@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
