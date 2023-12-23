@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
