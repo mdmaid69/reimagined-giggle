@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def append_to_array(array, item):
-        array.append(item)
+def add_numbers(a, b):
+        return a + b
+  import sys
+  def get_python_version():
+        return sys.version
