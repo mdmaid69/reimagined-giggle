@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
