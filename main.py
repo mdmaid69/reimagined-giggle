@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def add_numbers(x, y):
+        return x + y
+def reverse_string(s):
+        return s[::-1]
