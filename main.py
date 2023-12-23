@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
