@@ -1,4 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-print(sum(range(10)))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
