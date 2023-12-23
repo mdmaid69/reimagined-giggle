@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_density(mass, volume):
+        return mass / volume
