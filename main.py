@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
