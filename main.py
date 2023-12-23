@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.time()
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
