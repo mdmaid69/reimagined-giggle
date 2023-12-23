@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
