@@ -1,5 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
