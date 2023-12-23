@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
