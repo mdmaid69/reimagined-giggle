@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def convert_to_octal(n):
-        return oct(n)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
