@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
