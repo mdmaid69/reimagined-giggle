@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
