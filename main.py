@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
