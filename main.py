@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
