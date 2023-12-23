@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def is_odd(n):
-        return n % 2 != 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def count_elements(lst):
+        return len(lst)
