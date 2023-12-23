@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
