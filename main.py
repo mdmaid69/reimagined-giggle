@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
