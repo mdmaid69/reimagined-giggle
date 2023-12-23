@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
