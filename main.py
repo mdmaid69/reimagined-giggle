@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def split_path(path):
+        return os.path.split(path)
