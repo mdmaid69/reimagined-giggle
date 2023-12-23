@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
