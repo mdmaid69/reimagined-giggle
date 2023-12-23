@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_pressure(force, area):
+        return force / area
