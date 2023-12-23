@@ -1,7 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
