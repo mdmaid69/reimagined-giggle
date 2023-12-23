@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def exit_program():
+        sys.exit()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
