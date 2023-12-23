@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def convert_to_hex(n):
+        return hex(n)
