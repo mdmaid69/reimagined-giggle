@@ -1,4 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def convert_to_octal(n):
-        return oct(n)
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
