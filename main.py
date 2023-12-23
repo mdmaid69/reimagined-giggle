@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
