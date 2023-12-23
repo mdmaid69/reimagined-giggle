@@ -1,9 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
