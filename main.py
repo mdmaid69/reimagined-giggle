@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
