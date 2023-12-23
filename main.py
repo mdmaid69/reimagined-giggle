@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
