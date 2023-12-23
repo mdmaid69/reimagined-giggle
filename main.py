@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
