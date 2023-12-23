@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
