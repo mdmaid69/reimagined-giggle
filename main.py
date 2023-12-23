@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
