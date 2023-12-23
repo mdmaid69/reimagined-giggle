@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
