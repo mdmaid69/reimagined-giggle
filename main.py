@@ -1,7 +1,8 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
