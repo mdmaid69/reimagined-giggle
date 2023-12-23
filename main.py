@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
