@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
