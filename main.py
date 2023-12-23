@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
