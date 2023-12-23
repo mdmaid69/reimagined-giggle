@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def subtract_numbers(x, y):
+        return x - y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
