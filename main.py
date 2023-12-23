@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
