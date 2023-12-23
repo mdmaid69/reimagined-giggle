@@ -1,12 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
