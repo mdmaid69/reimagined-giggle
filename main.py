@@ -1,7 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
