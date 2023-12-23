@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
