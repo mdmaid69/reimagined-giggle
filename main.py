@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
