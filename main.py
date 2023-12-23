@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
