@@ -1,7 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
