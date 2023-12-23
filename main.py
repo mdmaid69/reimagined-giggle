@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_power(work, time):
-        return work / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
