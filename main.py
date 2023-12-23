@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
