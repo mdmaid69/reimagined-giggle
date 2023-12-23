@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
