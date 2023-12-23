@@ -1,7 +1,9 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
