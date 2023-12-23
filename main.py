@@ -1,5 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_user_list():
+        return collections.UserList()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
