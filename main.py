@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
