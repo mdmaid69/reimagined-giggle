@@ -1,7 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
