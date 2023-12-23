@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_current_time():
-        return time.time()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def change_working_directory(path):
+        os.chdir(path)
