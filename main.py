@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
