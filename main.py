@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_max(numbers):
-        return max(numbers)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
