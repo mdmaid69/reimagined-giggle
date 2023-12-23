@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
