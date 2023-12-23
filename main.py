@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_as_list(array):
-        return list(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def split_path(path):
+        return os.path.split(path)
