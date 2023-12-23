@@ -1,8 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
