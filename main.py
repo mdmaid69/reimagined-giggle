@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def add_numbers(a, b):
-        return a + b
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
