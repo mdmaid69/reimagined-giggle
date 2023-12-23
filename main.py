@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
