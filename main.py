@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
