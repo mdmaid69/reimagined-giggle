@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
