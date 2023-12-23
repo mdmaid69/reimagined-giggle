@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
