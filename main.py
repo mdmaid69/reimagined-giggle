@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
