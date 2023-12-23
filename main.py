@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
