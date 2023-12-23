@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
