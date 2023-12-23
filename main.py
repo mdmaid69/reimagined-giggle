@@ -1,8 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
