@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
