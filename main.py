@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
