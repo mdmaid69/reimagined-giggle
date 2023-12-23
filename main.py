@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
