@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def count_words(sentence):
-        return len(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
