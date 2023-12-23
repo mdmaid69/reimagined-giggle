@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_area(radius):
+        return 3.14 * radius * radius
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
