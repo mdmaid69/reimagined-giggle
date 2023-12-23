@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
