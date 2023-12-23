@@ -1,5 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
