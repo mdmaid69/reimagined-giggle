@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
