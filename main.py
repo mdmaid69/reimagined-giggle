@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
