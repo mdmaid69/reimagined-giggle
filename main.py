@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def add_numbers(x, y):
+        return x + y
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
