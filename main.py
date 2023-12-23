@@ -1,6 +1,8 @@
-import socket
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def add_numbers(x, y):
-        return x + y
+@app.route("/")
+def hello():
+        return "Hello, World!"
