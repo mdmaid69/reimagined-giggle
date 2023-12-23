@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
