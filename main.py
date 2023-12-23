@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
