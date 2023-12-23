@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
