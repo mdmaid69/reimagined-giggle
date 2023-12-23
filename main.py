@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def is_odd(n):
-        return n % 2 != 0
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
