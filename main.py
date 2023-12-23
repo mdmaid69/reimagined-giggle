@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
