@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
