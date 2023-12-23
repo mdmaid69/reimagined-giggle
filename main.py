@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
