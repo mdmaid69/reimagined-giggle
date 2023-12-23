@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
