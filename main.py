@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
