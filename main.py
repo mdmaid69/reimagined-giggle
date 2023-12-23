@@ -1,5 +1,7 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
