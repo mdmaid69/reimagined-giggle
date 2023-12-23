@@ -1,5 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def add_numbers(x, y):
-        return x + y
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
