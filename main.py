@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
