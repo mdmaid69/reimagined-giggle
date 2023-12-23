@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
