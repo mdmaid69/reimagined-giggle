@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
