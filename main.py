@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
