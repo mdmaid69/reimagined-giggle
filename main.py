@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
