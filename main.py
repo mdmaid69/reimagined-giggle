@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def remove_directory(path):
+        os.rmdir(path)
