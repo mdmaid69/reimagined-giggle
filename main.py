@@ -1,5 +1,10 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
