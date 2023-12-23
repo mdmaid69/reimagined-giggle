@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
