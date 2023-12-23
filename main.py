@@ -1,5 +1,7 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
