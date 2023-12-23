@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
