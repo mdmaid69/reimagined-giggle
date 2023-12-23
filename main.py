@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def find_max(numbers):
-        return max(numbers)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
