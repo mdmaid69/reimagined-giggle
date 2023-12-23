@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
