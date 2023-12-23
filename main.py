@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
