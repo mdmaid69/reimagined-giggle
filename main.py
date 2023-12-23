@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
