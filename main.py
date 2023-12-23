@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
