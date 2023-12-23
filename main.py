@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
