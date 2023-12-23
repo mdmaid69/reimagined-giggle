@@ -1,7 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
