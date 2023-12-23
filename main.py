@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
