@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
