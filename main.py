@@ -1,6 +1,3 @@
-import sys
-def print_python_version():
-        return sys.version
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+print([x**2 for x in range(10)])
