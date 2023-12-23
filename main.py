@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def square_number(x):
-        return x**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
