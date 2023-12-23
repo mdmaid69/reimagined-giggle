@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_length(array):
-        return len(array)
+  def square_number(x):
+        return x**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
