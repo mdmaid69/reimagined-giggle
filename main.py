@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import tensorflow as tf
+print(tf.__version__)
