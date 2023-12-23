@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
