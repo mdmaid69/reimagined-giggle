@@ -1,4 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
