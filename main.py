@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
