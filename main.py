@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
