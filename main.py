@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
