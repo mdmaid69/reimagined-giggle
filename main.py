@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
