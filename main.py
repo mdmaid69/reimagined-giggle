@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
