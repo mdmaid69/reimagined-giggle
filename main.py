@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
