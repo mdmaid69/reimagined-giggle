@@ -1,7 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_array_index(array, item):
+        return array.index(item)
