@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def count_words(sentence):
+        return len(sentence.split())
