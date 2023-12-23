@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
