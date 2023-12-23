@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import logging
+def log_message(message):
+        logging.info(message)
