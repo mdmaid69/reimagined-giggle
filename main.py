@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
