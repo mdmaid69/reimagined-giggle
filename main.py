@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
