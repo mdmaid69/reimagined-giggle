@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
