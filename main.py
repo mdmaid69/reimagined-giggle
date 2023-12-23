@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
