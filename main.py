@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def square_number(x):
+        return x**2
