@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
