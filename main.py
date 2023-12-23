@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
