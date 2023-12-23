@@ -1,7 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
