@@ -1,7 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
