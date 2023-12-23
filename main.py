@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+print(json.dumps({"name": "John", "age": 30}))
