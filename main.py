@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
