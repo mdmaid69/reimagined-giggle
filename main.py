@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
