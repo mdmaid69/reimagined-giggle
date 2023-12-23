@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
