@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
