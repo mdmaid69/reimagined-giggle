@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
