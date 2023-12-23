@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
