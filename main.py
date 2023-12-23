@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_work(force, distance):
+        return force * distance
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
