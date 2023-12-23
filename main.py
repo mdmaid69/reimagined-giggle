@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
