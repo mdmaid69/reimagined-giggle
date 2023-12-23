@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(lst):
-        return min(lst)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
