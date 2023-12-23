@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
