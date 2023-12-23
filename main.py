@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
