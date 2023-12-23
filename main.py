@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-import os
-print(os.getcwd())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
