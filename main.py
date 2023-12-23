@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
