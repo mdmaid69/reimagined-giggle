@@ -1,5 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_itemsize(array):
+        return array.itemsize
