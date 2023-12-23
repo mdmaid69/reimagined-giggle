@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def is_even(n):
+        return n % 2 == 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
