@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
