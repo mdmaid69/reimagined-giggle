@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
