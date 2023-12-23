@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
