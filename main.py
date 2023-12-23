@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
