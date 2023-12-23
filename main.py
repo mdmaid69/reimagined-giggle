@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
