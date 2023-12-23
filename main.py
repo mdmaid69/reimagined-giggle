@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def convert_to_binary(n):
-        return bin(n)
+import sys
+print(sys.version)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
