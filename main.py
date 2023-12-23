@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
