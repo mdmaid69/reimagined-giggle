@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
