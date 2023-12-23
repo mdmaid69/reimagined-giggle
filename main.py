@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
