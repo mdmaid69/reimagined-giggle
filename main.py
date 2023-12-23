@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
