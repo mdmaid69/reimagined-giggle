@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import getpass
+def get_username():
+        return getpass.getuser()
