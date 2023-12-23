@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
