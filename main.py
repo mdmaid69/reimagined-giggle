@@ -1,7 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
