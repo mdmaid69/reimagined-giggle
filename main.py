@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
