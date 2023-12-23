@@ -1,6 +1,11 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
