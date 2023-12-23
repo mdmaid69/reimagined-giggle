@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
