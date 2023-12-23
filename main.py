@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
