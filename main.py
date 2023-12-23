@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
