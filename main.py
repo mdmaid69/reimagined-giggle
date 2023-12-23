@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_power(work, time):
-        return work / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
