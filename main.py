@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
