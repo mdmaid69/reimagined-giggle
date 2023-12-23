@@ -1,4 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-print("Hello, world!")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+for i in range(10): print(i)
