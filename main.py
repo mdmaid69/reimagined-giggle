@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
