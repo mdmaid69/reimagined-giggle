@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
