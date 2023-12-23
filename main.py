@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
