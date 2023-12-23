@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
