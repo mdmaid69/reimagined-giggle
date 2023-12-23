@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
