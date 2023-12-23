@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def divide_numbers(x, y):
-        return x / y
+  def calculate_area_rectangle(l, w):
+        return l * w
+def cube_number(x):
+        return x**3
