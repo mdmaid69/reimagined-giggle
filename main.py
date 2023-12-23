@@ -1,5 +1,9 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import sys
+def print_python_version():
+        return sys.version
