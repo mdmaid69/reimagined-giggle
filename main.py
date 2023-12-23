@@ -1,6 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def get_list_from_array(array):
+        return array.tolist()
