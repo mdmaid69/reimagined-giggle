@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print("Hello, world!")
