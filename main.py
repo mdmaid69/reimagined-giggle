@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
