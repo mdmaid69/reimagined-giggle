@@ -1,4 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def subtract_numbers(x, y):
+        return x - y
+  def reverse_list(lst):
+        return lst[::-1]
