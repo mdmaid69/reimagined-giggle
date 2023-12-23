@@ -1,5 +1,6 @@
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_error_function(x):
+        return math.erf(x)
