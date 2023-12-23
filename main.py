@@ -1,8 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
