@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
