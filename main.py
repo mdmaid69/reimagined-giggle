@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
