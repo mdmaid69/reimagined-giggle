@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
