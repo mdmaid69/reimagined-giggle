@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
