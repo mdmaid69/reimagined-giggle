@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
