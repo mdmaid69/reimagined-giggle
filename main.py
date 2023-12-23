@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def append_to_array(array, item):
+        array.append(item)
