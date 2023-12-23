@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
