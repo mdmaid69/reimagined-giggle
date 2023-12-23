@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
