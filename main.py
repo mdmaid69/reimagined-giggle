@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
