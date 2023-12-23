@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
