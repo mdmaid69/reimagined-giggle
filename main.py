@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
