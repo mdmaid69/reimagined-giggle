@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
