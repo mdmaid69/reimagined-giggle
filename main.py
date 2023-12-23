@@ -1,5 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
