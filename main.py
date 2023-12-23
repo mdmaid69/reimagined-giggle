@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_error_function(x):
+        return math.erf(x)
