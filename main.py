@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
