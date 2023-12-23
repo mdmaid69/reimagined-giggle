@@ -1,7 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
