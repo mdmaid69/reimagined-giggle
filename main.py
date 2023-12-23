@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
