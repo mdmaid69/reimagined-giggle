@@ -1,6 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
