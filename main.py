@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_set(array):
+        return set(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
