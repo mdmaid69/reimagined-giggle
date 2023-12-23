@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
