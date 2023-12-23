@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
