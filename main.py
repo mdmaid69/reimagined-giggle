@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
