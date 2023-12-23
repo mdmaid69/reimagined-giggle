@@ -1,4 +1,4 @@
-import math
-print(math.pi)
-def find_max(numbers):
-        return max(numbers)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_power(work, time):
+        return work / time
