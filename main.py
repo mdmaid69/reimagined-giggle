@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
