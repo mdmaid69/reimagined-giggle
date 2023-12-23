@@ -1,4 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def find_min(lst):
-        return min(lst)
+def count_characters(sentence):
+        return len(sentence)
+from collections import Counter
+print(Counter("hello world"))
