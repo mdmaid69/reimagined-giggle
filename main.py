@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(5):
-        print(i)
+import collections
+def create_stack():
+        return collections.deque()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
