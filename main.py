@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
