@@ -1,5 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import random
+print(random.randint(0, 100))
