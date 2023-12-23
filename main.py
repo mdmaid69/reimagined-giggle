@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
