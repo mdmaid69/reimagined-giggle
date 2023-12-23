@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def convert_to_binary(n):
+        return bin(n)
