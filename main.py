@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import logging
-def log_message(message):
-        logging.info(message)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def multiply_numbers(x, y):
+        return x * y
