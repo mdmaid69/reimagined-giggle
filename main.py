@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
