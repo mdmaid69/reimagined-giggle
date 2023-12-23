@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
