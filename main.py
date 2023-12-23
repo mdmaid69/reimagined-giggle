@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
