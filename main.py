@@ -1,5 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def divide_numbers(x, y):
-        return x / y
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
