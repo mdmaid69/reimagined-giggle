@@ -1,6 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
