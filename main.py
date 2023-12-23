@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
