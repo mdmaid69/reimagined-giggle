@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
