@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import datetime
+print(datetime.datetime.now())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
