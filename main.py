@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
