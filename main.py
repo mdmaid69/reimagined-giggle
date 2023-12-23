@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+name = "Python"
+print("Hello,", name)
