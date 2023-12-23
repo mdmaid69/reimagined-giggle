@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import time
+print(time.time())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
