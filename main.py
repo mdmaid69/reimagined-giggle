@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import datetime
+print(datetime.datetime.now())
