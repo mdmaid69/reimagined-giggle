@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_queue():
+        return collections.deque()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
