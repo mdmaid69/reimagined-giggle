@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_min(numbers):
+        return min(numbers)
