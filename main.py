@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def cube_number(x):
+        return x**3
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
