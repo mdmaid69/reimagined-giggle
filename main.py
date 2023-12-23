@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
