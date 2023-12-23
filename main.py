@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_current_working_directory():
+        return os.getcwd()
