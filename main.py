@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
