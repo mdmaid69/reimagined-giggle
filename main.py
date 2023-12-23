@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
