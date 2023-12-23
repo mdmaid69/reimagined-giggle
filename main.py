@@ -1,6 +1,13 @@
-def cube_number(x):
-        return x**3
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
