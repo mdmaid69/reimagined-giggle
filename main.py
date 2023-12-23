@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_pressure(force, area):
+        return force / area
+def count_words(sentence):
+        return len(sentence.split())
