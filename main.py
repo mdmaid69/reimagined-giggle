@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_characters(sentence):
+        return len(sentence)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
