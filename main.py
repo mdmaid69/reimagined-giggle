@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
