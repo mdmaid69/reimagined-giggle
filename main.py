@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
