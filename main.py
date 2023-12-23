@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def add_numbers(x, y):
+        return x + y
+import time
+def get_current_time():
+        return time.time()
