@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
