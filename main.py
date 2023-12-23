@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
