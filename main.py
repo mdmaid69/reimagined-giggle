@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def roll_die():
+        return random.randint(1, 6)
+def is_even(n):
+        return n % 2 == 0
