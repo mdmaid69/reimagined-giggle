@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import os
+def change_working_directory(path):
+        os.chdir(path)
