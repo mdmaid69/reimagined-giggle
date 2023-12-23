@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
