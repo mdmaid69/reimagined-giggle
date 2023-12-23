@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
