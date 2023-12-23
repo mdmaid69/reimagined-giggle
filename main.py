@@ -1,6 +1,11 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_power(work, time):
+        return work / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
