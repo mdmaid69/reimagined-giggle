@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
