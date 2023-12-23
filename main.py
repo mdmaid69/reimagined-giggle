@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+print(math.pi)
