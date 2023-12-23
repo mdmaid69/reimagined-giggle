@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
