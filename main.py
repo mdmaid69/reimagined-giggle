@@ -1,7 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
