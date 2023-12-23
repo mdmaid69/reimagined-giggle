@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
