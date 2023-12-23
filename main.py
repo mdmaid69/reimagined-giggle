@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import numpy as np
+print(np.array([1, 2, 3]))
