@@ -1,6 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def cube_number(x):
+        return x**3
