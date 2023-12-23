@@ -1,6 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
