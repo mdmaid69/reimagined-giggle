@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def count_elements(lst):
-        return len(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_list(lst):
+        return sorted(lst)
