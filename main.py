@@ -1,6 +1,5 @@
 import random
-def roll_die():
-        return random.randint(1, 6)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
