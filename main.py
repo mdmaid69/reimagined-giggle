@@ -1,5 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def is_odd(n):
-        return n % 2 != 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
