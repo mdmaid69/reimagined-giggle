@@ -1,8 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
