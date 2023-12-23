@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
