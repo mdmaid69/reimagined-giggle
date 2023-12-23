@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
