@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
