@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
