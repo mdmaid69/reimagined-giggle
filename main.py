@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
