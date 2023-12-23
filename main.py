@@ -1,6 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_length(array):
-        return len(array)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def multiply_numbers(x, y):
+        return x * y
