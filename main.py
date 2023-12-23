@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
