@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import datetime
+print(datetime.datetime.now())
+import random
+print(random.randint(0, 100))
