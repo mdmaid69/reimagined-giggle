@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
