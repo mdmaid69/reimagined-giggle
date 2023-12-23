@@ -1,6 +1,8 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
