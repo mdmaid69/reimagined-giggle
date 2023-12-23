@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
