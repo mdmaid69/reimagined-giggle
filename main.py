@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
