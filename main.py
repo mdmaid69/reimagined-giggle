@@ -1,5 +1,9 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_pressure(force, area):
-        return force / area
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
