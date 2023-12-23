@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_work(force, distance):
-        return force * distance
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
