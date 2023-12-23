@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+print(os.getcwd())
