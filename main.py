@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def clear_array(array):
+        array *= 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
