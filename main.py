@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
