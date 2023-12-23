@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
