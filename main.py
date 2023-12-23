@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
