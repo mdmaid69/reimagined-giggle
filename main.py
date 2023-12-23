@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
