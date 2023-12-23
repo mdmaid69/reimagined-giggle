@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-print(math.pi)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
