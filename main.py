@@ -1,6 +1,6 @@
 import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_counter():
-        return collections.Counter()
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
