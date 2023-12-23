@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
