@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
