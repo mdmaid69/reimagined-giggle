@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
