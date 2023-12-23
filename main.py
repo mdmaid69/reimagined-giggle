@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
