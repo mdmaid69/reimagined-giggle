@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
