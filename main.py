@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
