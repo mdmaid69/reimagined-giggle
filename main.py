@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
