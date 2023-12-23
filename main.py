@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
