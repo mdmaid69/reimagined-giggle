@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
