@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+import sys
+print(sys.version)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
