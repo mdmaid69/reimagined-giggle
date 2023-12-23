@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import sys
-def print_python_version():
-        return sys.version
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
