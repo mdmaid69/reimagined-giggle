@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
