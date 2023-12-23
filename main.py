@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
