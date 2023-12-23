@@ -1,6 +1,7 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import getpass
-def get_username():
-        return getpass.getuser()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
