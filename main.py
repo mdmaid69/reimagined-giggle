@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_user_string():
-        return collections.UserString()
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_speed(distance, time):
+        return distance / time
