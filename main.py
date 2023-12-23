@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def is_odd(n):
-        return n % 2 != 0
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
