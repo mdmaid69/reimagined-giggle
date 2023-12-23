@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
