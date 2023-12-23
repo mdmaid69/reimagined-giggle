@@ -1,6 +1,8 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
