@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
