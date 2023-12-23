@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
