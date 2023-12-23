@@ -1,8 +1,5 @@
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def split_path(path):
+        return os.path.split(path)
