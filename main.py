@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
