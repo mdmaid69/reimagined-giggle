@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
