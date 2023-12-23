@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def get_array_item(array, i):
+        return array[i]
+def add_numbers(a, b):
+        return a + b
