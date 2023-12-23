@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
