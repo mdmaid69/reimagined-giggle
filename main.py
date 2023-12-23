@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_current_time():
+        return time.ctime()
