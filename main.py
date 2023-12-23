@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
