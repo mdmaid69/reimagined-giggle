@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def append_to_array(array, item):
+        array.append(item)
