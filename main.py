@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
