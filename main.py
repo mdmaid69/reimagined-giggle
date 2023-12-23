@@ -1,4 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-for i in range(10): print(i)
+def get_array_as_float(array):
+        return float(array[0])
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
