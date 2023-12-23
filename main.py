@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-for i in range(5):
-        print(i)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
