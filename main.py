@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
