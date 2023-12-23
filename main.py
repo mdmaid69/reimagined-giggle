@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_stack():
+        return collections.deque()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
