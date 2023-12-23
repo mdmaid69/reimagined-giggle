@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
