@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
