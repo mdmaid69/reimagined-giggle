@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
