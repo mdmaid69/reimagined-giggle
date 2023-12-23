@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_current_time():
+        return time.ctime()
