@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+name = "Python"
+print("Hello,", name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
