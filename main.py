@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_speed(distance, time):
+        return distance / time
