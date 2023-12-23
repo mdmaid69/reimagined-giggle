@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
