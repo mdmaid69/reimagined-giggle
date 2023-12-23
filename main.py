@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
