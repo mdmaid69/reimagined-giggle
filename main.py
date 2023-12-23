@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import platform
-def get_python_version():
-        return platform.python_version()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
