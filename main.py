@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
