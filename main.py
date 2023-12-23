@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Characters:", len(text))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+print([x**2 for x in range(10)])
