@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
