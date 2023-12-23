@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
