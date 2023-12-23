@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
