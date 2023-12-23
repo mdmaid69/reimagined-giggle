@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
