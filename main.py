@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def divide_numbers(x, y):
+        return x / y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
