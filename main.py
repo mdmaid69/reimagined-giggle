@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def clear_array(array):
-        array *= 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
