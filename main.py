@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def remove_duplicates(lst):
+        return list(set(lst))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
