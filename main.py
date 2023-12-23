@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
