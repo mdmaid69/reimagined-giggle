@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
