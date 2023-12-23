@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
