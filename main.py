@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
