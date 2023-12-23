@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
