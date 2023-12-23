@@ -1,6 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
