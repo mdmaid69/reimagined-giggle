@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
