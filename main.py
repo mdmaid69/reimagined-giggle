@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
