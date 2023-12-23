@@ -1,10 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def count_elements(lst):
+        return len(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
