@@ -1,6 +1,8 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
