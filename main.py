@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
