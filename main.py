@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def is_odd(n):
-        return n % 2 != 0
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
