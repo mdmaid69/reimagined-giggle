@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
