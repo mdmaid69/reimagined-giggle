@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_min(lst):
-        return min(lst)
+def calculate_power(work, time):
+        return work / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
