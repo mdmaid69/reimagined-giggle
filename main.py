@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
