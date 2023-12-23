@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
