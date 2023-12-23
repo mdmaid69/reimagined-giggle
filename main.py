@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
