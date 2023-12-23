@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def add_numbers(x, y):
-        return x + y
+def generate_random_number(start, end):
+        return random.randint(start, end)
