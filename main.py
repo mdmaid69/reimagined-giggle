@@ -1,6 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_to_binary(n):
+        return bin(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
