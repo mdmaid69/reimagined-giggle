@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
