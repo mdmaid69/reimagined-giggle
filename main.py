@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
