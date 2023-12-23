@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_queue():
-        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
