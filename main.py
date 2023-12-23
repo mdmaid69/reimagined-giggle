@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
