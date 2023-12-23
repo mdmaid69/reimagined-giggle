@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
