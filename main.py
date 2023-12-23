@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_list_from_array(array):
+        return array.tolist()
