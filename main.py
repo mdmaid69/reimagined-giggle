@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
