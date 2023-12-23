@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
