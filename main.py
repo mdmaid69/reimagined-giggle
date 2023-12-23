@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def convert_to_octal(n):
-        return oct(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
