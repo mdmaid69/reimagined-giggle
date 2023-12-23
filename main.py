@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
