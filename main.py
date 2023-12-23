@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_ordered_dict():
+        return collections.OrderedDict()
