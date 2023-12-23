@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
