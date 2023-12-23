@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def divide_numbers(x, y):
+        return x / y
