@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
