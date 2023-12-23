@@ -1,8 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
