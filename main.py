@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
