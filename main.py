@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
