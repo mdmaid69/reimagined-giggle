@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+print(json.dumps({"name": "John", "age": 30}))
