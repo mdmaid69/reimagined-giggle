@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_power(work, time):
-        return work / time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
