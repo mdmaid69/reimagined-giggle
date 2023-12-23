@@ -1,4 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def divide_numbers(x, y):
-        return x / y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
