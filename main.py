@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
