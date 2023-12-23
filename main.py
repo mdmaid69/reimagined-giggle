@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
