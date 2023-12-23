@@ -1,5 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
