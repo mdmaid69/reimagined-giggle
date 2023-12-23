@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def reverse_string(s):
+        return s[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
