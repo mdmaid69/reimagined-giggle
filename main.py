@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
