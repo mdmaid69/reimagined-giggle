@@ -1,11 +1,6 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
