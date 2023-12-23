@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import sys
-def print_python_version():
-        print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
