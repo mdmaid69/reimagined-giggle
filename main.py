@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
