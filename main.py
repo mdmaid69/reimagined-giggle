@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
