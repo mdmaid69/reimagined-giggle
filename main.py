@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
