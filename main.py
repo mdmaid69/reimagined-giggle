@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
