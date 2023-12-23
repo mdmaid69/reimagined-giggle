@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def square_number(x):
+        return x**2
