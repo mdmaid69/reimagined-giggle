@@ -1,4 +1,3 @@
-def find_max(numbers):
-        return max(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print(sum(range(10)))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
