@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
