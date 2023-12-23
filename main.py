@@ -1,5 +1,10 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
