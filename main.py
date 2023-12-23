@@ -1,6 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def calculate_area_circle(r):
+        return 3.14 * r**2
