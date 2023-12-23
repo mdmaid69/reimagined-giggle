@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
