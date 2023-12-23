@@ -1,5 +1,4 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
