@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def sort_list(lst):
+        return sorted(lst)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
