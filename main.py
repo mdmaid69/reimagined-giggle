@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def add_numbers(x, y):
-        return x + y
+def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
