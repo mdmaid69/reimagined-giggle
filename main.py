@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
