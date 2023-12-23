@@ -1,4 +1,7 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
