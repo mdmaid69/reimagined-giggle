@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
