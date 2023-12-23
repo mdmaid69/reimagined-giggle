@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
