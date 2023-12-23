@@ -1,5 +1,4 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_min(numbers):
-        return min(numbers)
+def reverse_array(array):
+        array.reverse()
+for i in range(10): print(i)
