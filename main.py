@@ -1,6 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
