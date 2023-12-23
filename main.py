@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
