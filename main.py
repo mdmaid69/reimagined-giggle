@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
