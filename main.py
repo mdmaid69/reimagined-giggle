@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
