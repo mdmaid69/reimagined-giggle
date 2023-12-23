@@ -1,4 +1,5 @@
-print("Hello, world!")
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import sys
+  def get_python_version():
+        return sys.version
