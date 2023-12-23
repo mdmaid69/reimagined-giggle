@@ -1,5 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-from collections import Counter
-print(Counter("hello world"))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
