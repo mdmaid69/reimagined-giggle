@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
