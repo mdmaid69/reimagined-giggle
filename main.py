@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def add_numbers(x, y):
+        return x + y
