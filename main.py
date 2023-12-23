@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
