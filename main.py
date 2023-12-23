@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
