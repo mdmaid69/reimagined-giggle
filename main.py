@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
