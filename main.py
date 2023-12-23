@@ -1,6 +1,9 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
