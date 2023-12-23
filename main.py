@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
