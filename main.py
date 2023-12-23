@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
