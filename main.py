@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_density(mass, volume):
+        return mass / volume
