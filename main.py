@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
