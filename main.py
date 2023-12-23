@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
