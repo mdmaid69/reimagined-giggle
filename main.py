@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
