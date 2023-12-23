@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
