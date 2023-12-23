@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
