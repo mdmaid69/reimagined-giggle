@@ -1,4 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print("Hello, world!")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_area(radius):
+        return 3.14 * radius * radius
