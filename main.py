@@ -1,7 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def is_palindrome(s):
+        return s == s[::-1]
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
