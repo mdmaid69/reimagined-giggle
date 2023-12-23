@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
