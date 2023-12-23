@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
