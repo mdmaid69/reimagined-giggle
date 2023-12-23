@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def square_number(x):
-        return x**2
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
