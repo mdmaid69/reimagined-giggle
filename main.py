@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_str(array):
-        return str(array)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
