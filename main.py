@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
