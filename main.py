@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
