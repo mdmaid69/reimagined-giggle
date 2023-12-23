@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
