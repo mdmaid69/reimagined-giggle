@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
