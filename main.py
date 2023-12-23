@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
