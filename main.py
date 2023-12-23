@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
