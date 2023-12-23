@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_typecode(array):
+        return array.typecode
