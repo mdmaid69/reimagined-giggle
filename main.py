@@ -1,6 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
