@@ -1,5 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
