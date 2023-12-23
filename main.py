@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
