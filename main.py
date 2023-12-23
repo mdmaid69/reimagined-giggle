@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def convert_to_octal(n):
+        return oct(n)
