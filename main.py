@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  def sort_list(lst):
-        return sorted(lst)
+def count_characters(sentence):
+        return len(sentence)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
