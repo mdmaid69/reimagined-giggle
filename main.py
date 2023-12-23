@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
