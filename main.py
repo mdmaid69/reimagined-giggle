@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
