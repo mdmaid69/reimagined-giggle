@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sys
+  def get_python_version():
+        return sys.version
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
