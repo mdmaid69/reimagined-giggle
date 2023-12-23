@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def get_current_time():
+        return time.time()
