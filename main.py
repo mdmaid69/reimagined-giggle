@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def divide_numbers(x, y):
+        return x / y
