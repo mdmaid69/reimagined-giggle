@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
