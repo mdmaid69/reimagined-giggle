@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
