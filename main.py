@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
