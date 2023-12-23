@@ -1,5 +1,8 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
