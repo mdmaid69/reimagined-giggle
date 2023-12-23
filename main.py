@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
