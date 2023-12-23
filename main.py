@@ -1,5 +1,3 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+print(sum(range(10)))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
