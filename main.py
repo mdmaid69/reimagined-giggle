@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
