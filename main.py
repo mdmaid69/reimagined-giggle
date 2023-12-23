@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
