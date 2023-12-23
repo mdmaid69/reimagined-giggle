@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
