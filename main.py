@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
