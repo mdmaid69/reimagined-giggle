@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
