@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
