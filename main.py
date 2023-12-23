@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
