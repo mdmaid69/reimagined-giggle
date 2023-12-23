@@ -1,7 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
