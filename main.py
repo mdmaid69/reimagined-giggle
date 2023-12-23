@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def cube_number(x):
+        return x**3
