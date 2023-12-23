@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import sys
-print(sys.version)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
