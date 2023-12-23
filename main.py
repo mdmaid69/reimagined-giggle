@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
