@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_array_to_string(array):
+        return array.tostring()
