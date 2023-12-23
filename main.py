@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_queue():
-        return collections.deque()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import sys
+  def get_python_version():
+        return sys.version
