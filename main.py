@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
