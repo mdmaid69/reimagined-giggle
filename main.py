@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
