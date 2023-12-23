@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
