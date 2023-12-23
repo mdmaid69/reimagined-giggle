@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
