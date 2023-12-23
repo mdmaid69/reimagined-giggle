@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def add_numbers(x, y):
+        return x + y
+import os
+def change_working_directory(path):
+        os.chdir(path)
