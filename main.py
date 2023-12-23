@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
