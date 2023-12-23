@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
