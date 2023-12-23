@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
