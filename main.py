@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
