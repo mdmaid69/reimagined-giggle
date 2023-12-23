@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
