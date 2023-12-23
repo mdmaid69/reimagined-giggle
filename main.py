@@ -1,7 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
