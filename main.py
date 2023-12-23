@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def get_array_as_str(array):
+        return str(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
