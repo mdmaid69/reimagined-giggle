@@ -1,8 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
