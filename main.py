@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def append_to_array(array, item):
+        array.append(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
