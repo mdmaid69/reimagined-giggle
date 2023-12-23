@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def add_numbers(a, b):
+        return a + b
