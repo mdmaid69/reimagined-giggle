@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
