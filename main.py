@@ -1,6 +1,9 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
