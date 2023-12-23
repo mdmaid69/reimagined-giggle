@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
