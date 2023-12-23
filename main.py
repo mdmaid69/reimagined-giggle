@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
