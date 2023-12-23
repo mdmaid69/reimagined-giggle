@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
