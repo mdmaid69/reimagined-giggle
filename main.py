@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_volume(length, width, height):
-        return length * width * height
+  def delete_file(file_name):
+        os.remove(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
