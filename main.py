@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import collections
-def create_stack():
-        return collections.deque()
+import numpy as np
+print(np.array([1, 2, 3]))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
