@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+print(re.match("h.*o", "hello world"))
