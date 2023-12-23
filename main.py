@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
