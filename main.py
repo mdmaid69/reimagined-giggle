@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
