@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_area_rectangle(l, w):
+        return l * w
