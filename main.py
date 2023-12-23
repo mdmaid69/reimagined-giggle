@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
