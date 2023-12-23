@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import json
+print(json.dumps({"name": "John", "age": 30}))
