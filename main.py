@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_queue():
-        return collections.deque()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
