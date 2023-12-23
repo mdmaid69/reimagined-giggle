@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
