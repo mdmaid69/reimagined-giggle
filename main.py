@@ -1,5 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def calculate_area_circle(r):
+        return 3.14 * r**2
