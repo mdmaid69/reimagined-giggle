@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  def is_even(n):
+        return n % 2 == 0
