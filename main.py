@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def greet(name):
+        print(f"Hello, {name}!")
+import platform
+def get_python_version():
+        return platform.python_version()
