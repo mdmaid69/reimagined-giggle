@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_typecode(array):
+        return array.typecode
