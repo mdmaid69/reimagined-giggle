@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
