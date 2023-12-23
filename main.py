@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
