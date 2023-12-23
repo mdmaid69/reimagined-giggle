@@ -1,5 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
