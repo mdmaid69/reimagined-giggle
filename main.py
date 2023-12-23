@@ -1,7 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(a, b):
+        return a + b
