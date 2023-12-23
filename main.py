@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
