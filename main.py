@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def split_path(path):
+        return os.path.split(path)
