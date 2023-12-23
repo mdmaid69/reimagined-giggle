@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-def get_current_time():
-        return time.time()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
