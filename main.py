@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+print(os.getcwd())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
