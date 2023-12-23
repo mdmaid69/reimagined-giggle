@@ -1,6 +1,9 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
