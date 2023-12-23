@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def reverse_list(lst):
-        return lst[::-1]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def convert_to_octal(n):
+        return oct(n)
