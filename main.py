@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Characters:", len(text))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def cube_number(x):
+        return x**3
