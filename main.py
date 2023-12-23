@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def count_words(sentence):
+        return len(sentence.split())
