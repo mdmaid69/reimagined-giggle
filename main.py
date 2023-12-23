@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def square_number(x):
-        return x**2
+def get_array_as_repr(array):
+        return repr(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
