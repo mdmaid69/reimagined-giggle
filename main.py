@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
 def get_string_from_array(array):
         return array.tobytes()
