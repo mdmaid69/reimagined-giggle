@@ -1,6 +1,6 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
