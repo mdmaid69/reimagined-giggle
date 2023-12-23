@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_density(mass, volume):
+        return mass / volume
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
