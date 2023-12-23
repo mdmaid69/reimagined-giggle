@@ -1,8 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
