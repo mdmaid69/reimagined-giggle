@@ -1,10 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
