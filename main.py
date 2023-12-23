@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_factorial(n):
+        return math.factorial(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
