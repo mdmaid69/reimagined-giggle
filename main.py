@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
