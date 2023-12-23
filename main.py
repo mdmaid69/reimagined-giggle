@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import platform
+def get_python_version():
+        return platform.python_version()
