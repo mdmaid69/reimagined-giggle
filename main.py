@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
