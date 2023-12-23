@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
