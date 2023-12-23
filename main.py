@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
