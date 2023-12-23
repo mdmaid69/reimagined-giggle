@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import re
+print(re.match("h.*o", "hello world"))
+for i in range(5):
+        print(i)
