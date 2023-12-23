@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_exponential(x):
+        return math.exp(x)
