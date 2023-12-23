@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
