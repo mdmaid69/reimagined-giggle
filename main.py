@@ -1,6 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
