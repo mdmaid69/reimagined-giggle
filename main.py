@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
