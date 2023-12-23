@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
