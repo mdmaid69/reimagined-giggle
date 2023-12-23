@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
