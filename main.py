@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
