@@ -1,6 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
