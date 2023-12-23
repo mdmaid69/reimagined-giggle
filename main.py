@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
