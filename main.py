@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def cube_number(x):
+        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
