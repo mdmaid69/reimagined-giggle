@@ -1,8 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
