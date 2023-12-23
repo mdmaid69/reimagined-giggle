@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
