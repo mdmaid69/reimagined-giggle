@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
