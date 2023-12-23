@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_set(array):
-        return set(array)
+import random
+print(random.randint(0, 100))
+  def convert_to_binary(n):
+        return bin(n)
