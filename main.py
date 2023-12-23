@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
