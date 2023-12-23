@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
