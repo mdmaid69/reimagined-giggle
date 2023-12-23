@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def get_array_item(array, i):
+        return array[i]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
