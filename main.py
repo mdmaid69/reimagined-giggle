@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
