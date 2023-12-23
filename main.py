@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def convert_to_hex(n):
-        return hex(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
