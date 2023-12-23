@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def is_even(n):
-        return n % 2 == 0
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
