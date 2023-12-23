@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
