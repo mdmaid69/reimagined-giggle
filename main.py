@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
