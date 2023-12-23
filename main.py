@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
