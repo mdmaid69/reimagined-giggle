@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_density(mass, volume):
-        return mass / volume
+def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
