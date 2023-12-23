@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
