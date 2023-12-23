@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
