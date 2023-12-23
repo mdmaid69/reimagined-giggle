@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
