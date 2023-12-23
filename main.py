@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
