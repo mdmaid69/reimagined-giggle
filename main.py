@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_list(array):
+        return list(array)
