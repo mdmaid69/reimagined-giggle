@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
