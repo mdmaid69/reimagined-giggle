@@ -1,5 +1,3 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def sort_numbers(numbers):
-        return sorted(numbers)
+print([x**2 for x in range(10)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
