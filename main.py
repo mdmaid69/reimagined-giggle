@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
