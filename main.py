@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_repr(array):
+        return repr(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
