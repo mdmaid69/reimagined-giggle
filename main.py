@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def count_words(sentence):
+        return len(sentence.split())
