@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_as_str(array):
-        return str(array)
+  def square_number(x):
+        return x**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
