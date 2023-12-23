@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def count_elements(lst):
+        return len(lst)
