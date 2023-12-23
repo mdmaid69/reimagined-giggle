@@ -1,8 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
