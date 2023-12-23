@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
