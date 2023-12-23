@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
