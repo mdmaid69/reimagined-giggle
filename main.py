@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_base_name(path):
+        return os.path.basename(path)
