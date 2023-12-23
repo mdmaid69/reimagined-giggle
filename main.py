@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_current_directory():
+        return os.getcwd()
