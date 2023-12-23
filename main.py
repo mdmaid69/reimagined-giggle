@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
