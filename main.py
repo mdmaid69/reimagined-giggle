@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
