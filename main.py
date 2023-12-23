@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
