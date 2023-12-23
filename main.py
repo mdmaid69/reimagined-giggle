@@ -1,5 +1,7 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
