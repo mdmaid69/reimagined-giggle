@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_user_string():
+        return collections.UserString()
