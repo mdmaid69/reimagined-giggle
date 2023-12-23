@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+for i in range(5):
+        print(i)
