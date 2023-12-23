@@ -1,5 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
