@@ -1,4 +1,9 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def change_working_directory(path):
+        os.chdir(path)
