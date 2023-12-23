@@ -1,7 +1,8 @@
-for i in range(10): print(i)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
