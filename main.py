@@ -1,7 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
