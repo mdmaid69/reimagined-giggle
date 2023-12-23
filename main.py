@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
