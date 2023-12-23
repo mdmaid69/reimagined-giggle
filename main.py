@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
