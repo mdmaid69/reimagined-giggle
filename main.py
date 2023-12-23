@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
