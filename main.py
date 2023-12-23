@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_pressure(force, area):
+        return force / area
