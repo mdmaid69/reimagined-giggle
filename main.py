@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
