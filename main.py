@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
