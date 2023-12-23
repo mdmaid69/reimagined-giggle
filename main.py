@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import sys
+def print_python_version():
+        print(sys.version)
