@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def is_palindrome(s):
+        return s == s[::-1]
+  def add_numbers(x, y):
+        return x + y
