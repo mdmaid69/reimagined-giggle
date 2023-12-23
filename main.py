@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
