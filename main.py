@@ -1,10 +1,8 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
