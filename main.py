@@ -1,7 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import time
+def get_time_since_epoch():
+        return time.time()
