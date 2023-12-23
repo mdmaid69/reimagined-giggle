@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
