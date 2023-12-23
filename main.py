@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def add_numbers(x, y):
-        return x + y
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_sine(x):
+        return math.sin(x)
