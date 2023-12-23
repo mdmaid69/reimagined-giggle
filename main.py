@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_priority_queue():
+        return collections.deque()
