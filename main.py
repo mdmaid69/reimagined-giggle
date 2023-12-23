@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
