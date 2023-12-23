@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
