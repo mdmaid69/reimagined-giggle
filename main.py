@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
