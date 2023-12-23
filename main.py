@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
