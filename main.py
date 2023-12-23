@@ -1,5 +1,9 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
