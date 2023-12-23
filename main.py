@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def convert_to_octal(n):
+        return oct(n)
