@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
