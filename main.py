@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
