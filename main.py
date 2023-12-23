@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
