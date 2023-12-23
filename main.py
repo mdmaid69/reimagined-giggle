@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
