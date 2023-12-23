@@ -1,8 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
