@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
