@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
