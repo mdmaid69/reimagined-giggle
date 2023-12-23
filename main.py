@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
