@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
