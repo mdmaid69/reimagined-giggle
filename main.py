@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_list_from_array(array):
+        return array.tolist()
