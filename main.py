@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
