@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
