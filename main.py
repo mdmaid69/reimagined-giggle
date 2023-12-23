@@ -1,5 +1,12 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_current_time():
-        return time.time()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
