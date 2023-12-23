@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import array
-def clear_array(array):
-        array *= 0
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
