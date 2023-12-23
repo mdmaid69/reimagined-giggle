@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
