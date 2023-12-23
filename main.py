@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_speed(distance, time):
+        return distance / time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
