@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
