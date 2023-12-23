@@ -1,6 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
