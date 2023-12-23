@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def sort_list(lst):
+        return sorted(lst)
+def greet(name):
+        print(f"Hello, {name}!")
