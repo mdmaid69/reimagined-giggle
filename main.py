@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
