@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
