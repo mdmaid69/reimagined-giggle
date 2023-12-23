@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_set(array):
+        return set(array)
+def count_elements(lst):
+        return len(lst)
