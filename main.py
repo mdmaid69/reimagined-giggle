@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
