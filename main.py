@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def get_array_index(array, item):
+        return array.index(item)
+def count_elements(lst):
+        return len(lst)
