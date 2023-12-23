@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def add_numbers(x, y):
+        return x + y
