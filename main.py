@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
