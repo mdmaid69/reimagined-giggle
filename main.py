@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def find_max(numbers):
-        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
