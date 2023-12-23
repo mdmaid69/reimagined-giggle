@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
