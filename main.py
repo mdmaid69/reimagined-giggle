@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
