@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
