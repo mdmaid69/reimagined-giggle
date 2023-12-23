@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-def convert_to_octal(n):
-        return oct(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_work(force, distance):
+        return force * distance
