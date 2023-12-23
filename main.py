@@ -1,6 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
