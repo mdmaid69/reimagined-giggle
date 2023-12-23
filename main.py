@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
