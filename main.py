@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
