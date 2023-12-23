@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_power(work, time):
+        return work / time
