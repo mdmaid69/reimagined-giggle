@@ -1,8 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def add_numbers(x, y):
+        return x + y
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
         a.frombytes(bytes)
         return a
