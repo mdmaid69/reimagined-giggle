@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
