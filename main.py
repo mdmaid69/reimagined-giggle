@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
