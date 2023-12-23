@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+from collections import Counter
+print(Counter("hello world"))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
