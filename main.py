@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
