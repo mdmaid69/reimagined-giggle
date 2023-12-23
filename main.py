@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
