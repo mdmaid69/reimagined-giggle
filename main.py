@@ -1,7 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_error_function(x):
+        return math.erf(x)
