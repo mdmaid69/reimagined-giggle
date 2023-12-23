@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
