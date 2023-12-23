@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def cube_number(x):
-        return x**3
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
