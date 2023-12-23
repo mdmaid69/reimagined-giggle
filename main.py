@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
