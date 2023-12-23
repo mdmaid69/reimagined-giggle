@@ -1,8 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_item_count(array, item):
+        return array.count(item)
