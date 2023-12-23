@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_username():
+        return getpass.getuser()
