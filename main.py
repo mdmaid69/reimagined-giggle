@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def convert_to_octal(n):
-        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
