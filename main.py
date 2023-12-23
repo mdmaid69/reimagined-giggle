@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_acceleration(speed, time):
+        return speed / time
