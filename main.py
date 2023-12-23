@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
