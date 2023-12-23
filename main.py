@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
