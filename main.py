@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
