@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
