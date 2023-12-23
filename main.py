@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_even(n):
-        return n % 2 == 0
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
