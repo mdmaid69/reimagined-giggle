@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def print_python_version():
+        print(sys.version)
