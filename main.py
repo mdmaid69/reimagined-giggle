@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
