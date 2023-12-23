@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_float(array):
+        return float(array[0])
+import collections
+def create_stack():
+        return collections.deque()
