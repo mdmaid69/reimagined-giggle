@@ -1,12 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
