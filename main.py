@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
