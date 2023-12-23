@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
