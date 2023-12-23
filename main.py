@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
