@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
