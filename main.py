@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_max(lst):
+        return max(lst)
+def reverse_list(lst):
+        return lst[::-1]
