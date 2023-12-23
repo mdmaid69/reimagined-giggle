@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
