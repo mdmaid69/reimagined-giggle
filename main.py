@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
