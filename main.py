@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
