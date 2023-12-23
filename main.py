@@ -1,8 +1,9 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
