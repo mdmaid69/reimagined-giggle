@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
