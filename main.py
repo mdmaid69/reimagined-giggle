@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_average(lst):
+        return sum(lst) / len(lst)
