@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
