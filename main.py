@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
