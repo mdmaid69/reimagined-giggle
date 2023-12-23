@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def sort_numbers(numbers):
+        return sorted(numbers)
