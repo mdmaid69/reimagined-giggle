@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bool(array):
+        return bool(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
