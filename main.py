@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
