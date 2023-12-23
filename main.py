@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
