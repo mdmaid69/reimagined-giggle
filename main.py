@@ -1,8 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
 import array
-def get_array_from_string(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
