@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
