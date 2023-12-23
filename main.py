@@ -1,6 +1,9 @@
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
