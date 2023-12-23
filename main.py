@@ -1,4 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print(sum(range(10)))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
