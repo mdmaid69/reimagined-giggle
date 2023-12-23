@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
