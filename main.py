@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_power(work, time):
-        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
