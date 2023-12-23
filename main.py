@@ -1,5 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def find_min(lst):
-        return min(lst)
+def find_min(numbers):
+        return min(numbers)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
