@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
