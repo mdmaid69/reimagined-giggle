@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def is_palindrome(s):
-        return s == s[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
