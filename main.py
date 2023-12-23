@@ -1,12 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def extend_array(array, iterable):
+        array.extend(iterable)
