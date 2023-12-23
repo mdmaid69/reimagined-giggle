@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
