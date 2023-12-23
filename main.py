@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
