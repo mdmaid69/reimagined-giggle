@@ -1,8 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_current_directory():
+        return os.getcwd()
