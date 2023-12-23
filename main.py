@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def find_min(numbers):
-        return min(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
