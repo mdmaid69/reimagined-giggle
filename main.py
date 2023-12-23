@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
