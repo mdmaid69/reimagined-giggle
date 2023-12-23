@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
