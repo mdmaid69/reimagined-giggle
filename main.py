@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_min(lst):
+        return min(lst)
+  def sort_list(lst):
+        return sorted(lst)
