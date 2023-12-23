@@ -1,11 +1,7 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
