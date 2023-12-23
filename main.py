@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def roll_die():
+        return random.randint(1, 6)
