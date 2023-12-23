@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
