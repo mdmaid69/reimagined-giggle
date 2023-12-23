@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def reverse_string(s):
+        return s[::-1]
