@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
