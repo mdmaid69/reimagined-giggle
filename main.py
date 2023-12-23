@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
