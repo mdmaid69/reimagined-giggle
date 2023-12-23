@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
