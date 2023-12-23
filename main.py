@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
