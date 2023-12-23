@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
