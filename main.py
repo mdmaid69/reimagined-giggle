@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
