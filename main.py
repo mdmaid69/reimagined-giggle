@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
