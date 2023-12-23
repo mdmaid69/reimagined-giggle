@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def sort_list(lst):
+        return sorted(lst)
