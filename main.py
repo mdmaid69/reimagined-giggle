@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_floor(x):
-        return math.floor(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
