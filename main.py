@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
