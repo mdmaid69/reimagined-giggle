@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def divide_numbers(x, y):
-        return x / y
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_str(array):
+        return str(array)
