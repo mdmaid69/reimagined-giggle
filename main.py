@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
