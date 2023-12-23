@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
