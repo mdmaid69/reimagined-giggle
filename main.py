@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
