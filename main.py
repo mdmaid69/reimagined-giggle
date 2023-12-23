@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
