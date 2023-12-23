@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
