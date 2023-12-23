@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_list(array):
+        return list(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
