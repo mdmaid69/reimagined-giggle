@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def divide_numbers(x, y):
+        return x / y
