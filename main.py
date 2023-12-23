@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
