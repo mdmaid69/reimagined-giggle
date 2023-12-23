@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
