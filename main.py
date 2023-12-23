@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def is_palindrome(s):
-        return s == s[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
