@@ -1,4 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-print([x**2 for x in range(10)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
