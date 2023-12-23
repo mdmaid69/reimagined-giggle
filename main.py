@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
