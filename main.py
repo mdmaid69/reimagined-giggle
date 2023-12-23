@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_speed(distance, time):
+        return distance / time
