@@ -1,5 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def greet(name):
-        print(f"Hello, {name}!")
+def get_array_as_int(array):
+        return int(array[0])
