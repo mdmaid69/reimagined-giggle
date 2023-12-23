@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_list(array):
+        return list(array)
