@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
