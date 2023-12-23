@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_power(work, time):
-        return work / time
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
