@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
