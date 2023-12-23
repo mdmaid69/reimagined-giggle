@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
