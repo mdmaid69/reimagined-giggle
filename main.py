@@ -1,6 +1,11 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
