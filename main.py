@@ -1,3 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-for i in range(10): print(i)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
