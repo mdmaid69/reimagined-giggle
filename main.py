@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
