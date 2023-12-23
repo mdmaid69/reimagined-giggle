@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
