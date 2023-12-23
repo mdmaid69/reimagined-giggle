@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def square_number(x):
+        return x**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
