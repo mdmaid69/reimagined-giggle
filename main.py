@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
