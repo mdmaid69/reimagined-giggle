@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
