@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def clear_array(array):
-        array *= 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def convert_to_octal(n):
+        return oct(n)
