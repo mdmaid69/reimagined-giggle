@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def reverse_list(lst):
-        return lst[::-1]
+def is_odd(n):
+        return n % 2 != 0
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
