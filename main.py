@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
