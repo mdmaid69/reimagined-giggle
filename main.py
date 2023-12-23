@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
