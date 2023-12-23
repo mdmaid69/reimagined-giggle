@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
