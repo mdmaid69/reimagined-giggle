@@ -1,5 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
