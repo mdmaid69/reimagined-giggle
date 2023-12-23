@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def find_max(lst):
+        return max(lst)
