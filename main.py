@@ -1,5 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
