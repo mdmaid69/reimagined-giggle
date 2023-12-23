@@ -1,5 +1,13 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
