@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
