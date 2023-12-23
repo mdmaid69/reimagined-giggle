@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
