@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_density(mass, volume):
+        return mass / volume
