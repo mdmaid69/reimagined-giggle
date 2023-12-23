@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import sys
+def print_python_version():
+        return sys.version
