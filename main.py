@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import datetime
+def get_current_date():
+        return datetime.date.today()
