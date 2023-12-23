@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def add_numbers(x, y):
+        return x + y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
