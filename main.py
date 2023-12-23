@@ -1,4 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
