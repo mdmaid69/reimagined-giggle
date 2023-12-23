@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import time
+def get_time_since_epoch():
+        return time.time()
