@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
