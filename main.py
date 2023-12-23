@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
