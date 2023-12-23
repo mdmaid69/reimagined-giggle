@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
