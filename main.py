@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
