@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_int(array):
+        return int(array[0])
