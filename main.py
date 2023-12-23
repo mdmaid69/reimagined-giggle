@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
