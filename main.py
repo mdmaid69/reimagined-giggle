@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import tensorflow as tf
+print(tf.__version__)
