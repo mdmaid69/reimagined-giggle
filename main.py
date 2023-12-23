@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
