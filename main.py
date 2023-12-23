@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
