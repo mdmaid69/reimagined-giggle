@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
