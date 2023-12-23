@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
