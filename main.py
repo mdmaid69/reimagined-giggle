@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
