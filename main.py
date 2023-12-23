@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def reverse_string(s):
+        return s[::-1]
