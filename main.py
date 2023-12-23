@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
