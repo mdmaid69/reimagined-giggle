@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def sort_list(lst):
+        return sorted(lst)
