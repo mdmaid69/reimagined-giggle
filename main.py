@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
