@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
