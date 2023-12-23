@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import os
+print(os.getcwd())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
