@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
