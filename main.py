@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_string_from_array(array):
+        return array.tobytes()
