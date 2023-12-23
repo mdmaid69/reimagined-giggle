@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def clear_array(array):
-        array *= 0
+def pop_from_array(array, i=-1):
+        return array.pop(i)
