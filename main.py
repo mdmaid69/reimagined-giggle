@@ -1,6 +1,8 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
