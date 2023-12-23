@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
