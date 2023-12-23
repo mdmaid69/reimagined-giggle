@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
