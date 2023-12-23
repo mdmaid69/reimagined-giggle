@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_words(sentence):
+        return len(sentence.split())
