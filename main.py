@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+print([x**2 for x in range(10)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
