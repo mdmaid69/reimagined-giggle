@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
