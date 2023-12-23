@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_max(lst):
+        return max(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
