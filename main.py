@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
