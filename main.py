@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
