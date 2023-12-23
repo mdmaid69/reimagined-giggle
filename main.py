@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-print(os.getcwd())
+def square_number(x):
+        return x**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
