@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
