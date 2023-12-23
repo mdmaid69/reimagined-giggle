@@ -1,5 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_min(lst):
-        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
