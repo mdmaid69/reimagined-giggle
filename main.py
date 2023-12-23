@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
