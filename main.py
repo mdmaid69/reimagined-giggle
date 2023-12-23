@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_queue():
-        return collections.deque()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
