@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_pressure(force, area):
-        return force / area
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
