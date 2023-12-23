@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
