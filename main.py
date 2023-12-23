@@ -1,6 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print(sum(range(10)))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
