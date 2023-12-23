@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import platform
+def get_os_info():
+        return platform.uname()
+  def calculate_area_rectangle(l, w):
+        return l * w
