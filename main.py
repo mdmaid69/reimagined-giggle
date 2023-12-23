@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
