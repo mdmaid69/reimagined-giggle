@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
