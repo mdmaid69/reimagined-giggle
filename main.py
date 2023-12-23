@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_user_list():
+        return collections.UserList()
