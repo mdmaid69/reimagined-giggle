@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
