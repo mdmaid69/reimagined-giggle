@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
