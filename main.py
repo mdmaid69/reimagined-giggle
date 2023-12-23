@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
