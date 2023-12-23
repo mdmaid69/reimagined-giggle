@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
