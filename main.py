@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
