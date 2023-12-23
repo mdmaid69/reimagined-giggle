@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
