@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+print(time.time())
