@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def reverse_array(array):
+        array.reverse()
