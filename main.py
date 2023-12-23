@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_density(mass, volume):
+        return mass / volume
