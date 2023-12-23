@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
