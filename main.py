@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
