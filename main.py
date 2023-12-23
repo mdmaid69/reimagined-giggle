@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import sys
-def print_python_version():
-        return sys.version
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
