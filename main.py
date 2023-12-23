@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-name = "Python"
-print("Hello,", name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def remove_duplicates(lst):
+        return list(set(lst))
