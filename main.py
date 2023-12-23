@@ -1,7 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
