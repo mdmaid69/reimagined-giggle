@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
