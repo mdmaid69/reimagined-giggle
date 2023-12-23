@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import platform
+def get_python_version():
+        return platform.python_version()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
