@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
