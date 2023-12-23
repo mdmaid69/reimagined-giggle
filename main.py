@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_area_rectangle(l, w):
-        return l * w
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def is_even(n):
+        return n % 2 == 0
