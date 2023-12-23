@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
