@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def clear_array(array):
+        array *= 0
