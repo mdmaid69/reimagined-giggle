@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def multiply_numbers(x, y):
+        return x * y
