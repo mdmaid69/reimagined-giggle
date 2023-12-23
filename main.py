@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
