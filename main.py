@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def add_numbers(x, y):
-        return x + y
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
