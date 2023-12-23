@@ -1,9 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
