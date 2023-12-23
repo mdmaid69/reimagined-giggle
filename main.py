@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
