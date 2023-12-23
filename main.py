@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+  def is_odd(n):
+        return n % 2 != 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
