@@ -1,5 +1,10 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
