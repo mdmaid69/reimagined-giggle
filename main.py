@@ -1,8 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_set(array):
+        return set(array)
