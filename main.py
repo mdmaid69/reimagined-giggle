@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
