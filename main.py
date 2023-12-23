@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def divide_numbers(x, y):
+        return x / y
