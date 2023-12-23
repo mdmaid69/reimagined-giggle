@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
