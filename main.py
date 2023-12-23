@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
