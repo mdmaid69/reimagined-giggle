@@ -1,6 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
