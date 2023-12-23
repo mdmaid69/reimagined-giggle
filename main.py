@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
