@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Characters:", len(text))
