@@ -1,6 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_hypotenuse(a, b):
+def calculate_pythagorean_theorem(a, b):
         return math.sqrt(a**2 + b**2)
-import array
-def get_array_as_list(array):
-        return list(array)
