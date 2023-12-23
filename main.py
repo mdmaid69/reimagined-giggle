@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
