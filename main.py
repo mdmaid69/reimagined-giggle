@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
