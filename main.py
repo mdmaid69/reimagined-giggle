@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_base_name(path):
+        return os.path.basename(path)
