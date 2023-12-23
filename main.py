@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
