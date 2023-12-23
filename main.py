@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import sys
-def print_python_version():
-        return sys.version
+  def convert_to_hex(n):
+        return hex(n)
+  def square_number(x):
+        return x**2
