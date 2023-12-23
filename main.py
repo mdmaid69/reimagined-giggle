@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
