@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
