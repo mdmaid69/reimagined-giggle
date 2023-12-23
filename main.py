@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
