@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
