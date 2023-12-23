@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
