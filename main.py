@@ -1,8 +1,5 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
