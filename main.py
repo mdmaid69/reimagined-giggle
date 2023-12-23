@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
