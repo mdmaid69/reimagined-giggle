@@ -1,7 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def is_even(n):
+        return n % 2 == 0
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
