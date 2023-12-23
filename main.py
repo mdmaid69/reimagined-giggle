@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
