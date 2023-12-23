@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
