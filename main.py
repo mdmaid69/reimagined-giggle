@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_length(array):
+        return len(array)
+import logging
+def log_message(message):
+        logging.info(message)
