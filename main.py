@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
