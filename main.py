@@ -1,6 +1,9 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
