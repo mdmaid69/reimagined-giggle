@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_work(force, distance):
+        return force * distance
