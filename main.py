@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
