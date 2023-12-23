@@ -1,3 +1,6 @@
-print("Hello, world!")
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
