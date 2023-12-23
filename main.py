@@ -1,4 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-for i in range(10): print(i)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
