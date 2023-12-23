@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
