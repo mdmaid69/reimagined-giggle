@@ -1,10 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
