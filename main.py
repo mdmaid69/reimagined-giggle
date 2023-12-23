@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
