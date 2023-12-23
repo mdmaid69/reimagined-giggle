@@ -1,5 +1,10 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_min(lst):
-        return min(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
