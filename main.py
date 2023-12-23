@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_pressure(force, area):
+        return force / area
