@@ -1,10 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
