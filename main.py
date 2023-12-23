@@ -1,5 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def append_to_array(array, item):
+        array.append(item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
