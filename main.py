@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_current_directory():
+        return os.getcwd()
