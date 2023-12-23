@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_speed(distance, time):
+        return distance / time
