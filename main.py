@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_circle(r):
+        return 3.14 * r**2
