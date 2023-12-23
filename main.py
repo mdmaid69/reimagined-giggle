@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_item(array, i):
+        return array[i]
