@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
