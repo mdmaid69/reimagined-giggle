@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
