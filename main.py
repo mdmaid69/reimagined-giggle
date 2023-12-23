@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+print(sum(range(10)))
+import logging
+def log_message(message):
+        logging.info(message)
