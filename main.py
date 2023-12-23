@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
