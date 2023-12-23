@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
