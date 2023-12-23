@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
