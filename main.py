@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
