@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
