@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
