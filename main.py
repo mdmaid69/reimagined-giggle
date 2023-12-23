@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
