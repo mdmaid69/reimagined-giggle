@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
