@@ -1,5 +1,11 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_acceleration(speed, time):
+        return speed / time
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
