@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import getpass
-def get_username():
-        return getpass.getuser()
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_work(force, distance):
+        return force * distance
