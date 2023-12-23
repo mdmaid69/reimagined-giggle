@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
