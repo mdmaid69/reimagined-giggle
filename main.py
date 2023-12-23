@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def subtract_numbers(x, y):
+        return x - y
+def find_min(lst):
+        return min(lst)
