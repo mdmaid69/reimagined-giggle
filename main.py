@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
