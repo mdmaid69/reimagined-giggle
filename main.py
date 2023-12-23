@@ -1,8 +1,11 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
