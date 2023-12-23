@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
