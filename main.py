@@ -1,7 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
