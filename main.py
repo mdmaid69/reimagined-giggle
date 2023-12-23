@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
