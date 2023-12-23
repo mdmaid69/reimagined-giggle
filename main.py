@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_pressure(force, area):
-        return force / area
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
