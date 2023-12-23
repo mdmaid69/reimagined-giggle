@@ -1,5 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
