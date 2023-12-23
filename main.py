@@ -1,7 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_user_dict():
+        return collections.UserDict()
