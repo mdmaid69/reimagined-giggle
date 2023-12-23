@@ -1,11 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
