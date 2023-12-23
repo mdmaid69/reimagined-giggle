@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
