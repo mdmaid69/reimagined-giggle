@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
