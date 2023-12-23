@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
