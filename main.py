@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_tangent(x):
+        return math.tan(x)
