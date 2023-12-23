@@ -1,6 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
