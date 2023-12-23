@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def divide_numbers(x, y):
+        return x / y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
