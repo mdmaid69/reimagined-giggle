@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import time
+def get_current_time():
+        return time.time()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
