@@ -1,5 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def square_number(x):
-        return x**2
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
