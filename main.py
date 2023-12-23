@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
