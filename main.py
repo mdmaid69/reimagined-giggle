@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
