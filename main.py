@@ -1,5 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import random
-print(random.randint(0, 100))
+def convert_array_to_unicode(array):
+        return array.tounicode()
