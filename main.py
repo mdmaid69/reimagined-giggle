@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
