@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
