@@ -1,6 +1,11 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
