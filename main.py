@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
