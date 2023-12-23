@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_acceleration(speed, time):
+        return speed / time
