@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
