@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def count_characters(sentence):
+        return len(sentence)
