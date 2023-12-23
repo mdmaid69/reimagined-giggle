@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def create_queue():
+        return collections.deque()
