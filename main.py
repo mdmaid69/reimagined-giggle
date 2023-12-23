@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
