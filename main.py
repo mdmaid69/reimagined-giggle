@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-from collections import Counter
-print(Counter("hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def find_max(lst):
+        return max(lst)
