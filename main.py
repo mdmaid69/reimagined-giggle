@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_counter():
+        return collections.Counter()
