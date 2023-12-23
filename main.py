@@ -1,5 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
