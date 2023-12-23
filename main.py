@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import sys
-def exit_program():
-        sys.exit()
+import random
+print(random.randint(0, 100))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
