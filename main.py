@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
