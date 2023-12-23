@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
