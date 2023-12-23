@@ -1,8 +1,8 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
