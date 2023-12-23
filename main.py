@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
