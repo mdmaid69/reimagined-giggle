@@ -1,5 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
