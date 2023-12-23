@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
