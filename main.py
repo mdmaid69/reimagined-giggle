@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import time
+def get_time_since_epoch():
+        return time.time()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
