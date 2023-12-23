@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
