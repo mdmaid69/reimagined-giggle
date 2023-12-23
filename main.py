@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def square_number(x):
+        return x**2
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
