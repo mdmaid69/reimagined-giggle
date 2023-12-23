@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def convert_to_octal(n):
+        return oct(n)
