@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_pressure(force, area):
+        return force / area
