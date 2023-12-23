@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
