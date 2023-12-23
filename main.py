@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
