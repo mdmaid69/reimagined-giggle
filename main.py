@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_length(array):
-        return len(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
