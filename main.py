@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import sys
-def print_python_version():
-        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
