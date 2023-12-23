@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
