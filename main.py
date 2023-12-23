@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
