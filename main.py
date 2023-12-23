@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_odd(n):
+        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
