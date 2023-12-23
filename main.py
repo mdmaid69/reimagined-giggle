@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
