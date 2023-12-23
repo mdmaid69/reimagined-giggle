@@ -1,6 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
