@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
