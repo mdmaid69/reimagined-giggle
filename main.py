@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
