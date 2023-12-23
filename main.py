@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+x = 10
+y = 20
+print("Sum:", x + y)
