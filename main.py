@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
