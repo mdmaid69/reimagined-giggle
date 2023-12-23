@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
