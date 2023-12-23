@@ -1,4 +1,6 @@
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-def remove_duplicates(lst):
-        return list(set(lst))
+print("Words:", len(text.split()))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
