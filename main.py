@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
