@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def cube_number(x):
-        return x**3
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
