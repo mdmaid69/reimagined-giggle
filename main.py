@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
