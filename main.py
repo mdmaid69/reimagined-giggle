@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
