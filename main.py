@@ -1,9 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def exit_program():
+        sys.exit()
