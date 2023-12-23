@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
