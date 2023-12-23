@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
