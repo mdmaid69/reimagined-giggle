@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
