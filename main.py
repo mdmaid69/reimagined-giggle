@@ -1,5 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
