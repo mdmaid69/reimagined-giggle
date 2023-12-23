@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
