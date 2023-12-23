@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
