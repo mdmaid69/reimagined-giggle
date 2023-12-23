@@ -1,6 +1,8 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
