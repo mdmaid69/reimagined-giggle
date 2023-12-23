@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
