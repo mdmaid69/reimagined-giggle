@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def reverse_string(s):
-        return s[::-1]
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_user_dict():
+        return collections.UserDict()
