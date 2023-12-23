@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import sys
+def print_python_version():
+        return sys.version
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
