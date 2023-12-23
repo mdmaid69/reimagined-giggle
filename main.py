@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
