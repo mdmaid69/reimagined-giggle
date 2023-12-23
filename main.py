@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
