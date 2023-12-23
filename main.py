@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
