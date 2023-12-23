@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
