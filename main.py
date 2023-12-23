@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
