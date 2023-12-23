@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
