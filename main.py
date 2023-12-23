@@ -1,4 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(10): print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def remove_duplicates(lst):
+        return list(set(lst))
