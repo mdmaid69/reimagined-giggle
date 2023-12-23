@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import sys
-def print_python_version():
-        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
