@@ -1,5 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+for i in range(10): print(i)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
