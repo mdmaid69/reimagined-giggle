@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def reverse_array(array):
-        array.reverse()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def sort_numbers(numbers):
+        return sorted(numbers)
