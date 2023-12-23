@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import getpass
-def get_username():
-        return getpass.getuser()
+def reverse_list(lst):
+        return lst[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
