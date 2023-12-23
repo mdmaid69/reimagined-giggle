@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
