@@ -1,5 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
