@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def convert_to_binary(n):
+        return bin(n)
