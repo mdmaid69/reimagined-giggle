@@ -1,9 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
