@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
