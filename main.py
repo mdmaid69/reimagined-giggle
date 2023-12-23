@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
