@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def cube_number(x):
+        return x**3
