@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
