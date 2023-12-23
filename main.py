@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def get_time_since_epoch():
-        return time.time()
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
