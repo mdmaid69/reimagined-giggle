@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
