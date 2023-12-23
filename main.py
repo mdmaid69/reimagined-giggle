@@ -1,5 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_as_frozenset(array):
+        return frozenset(array)
