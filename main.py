@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_list_from_array(array):
+        return array.tolist()
