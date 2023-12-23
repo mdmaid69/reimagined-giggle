@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
