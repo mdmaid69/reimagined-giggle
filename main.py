@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
