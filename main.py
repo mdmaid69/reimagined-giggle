@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
