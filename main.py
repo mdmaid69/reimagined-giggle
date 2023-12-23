@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
