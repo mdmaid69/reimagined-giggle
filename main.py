@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def cube_number(x):
+        return x**3
