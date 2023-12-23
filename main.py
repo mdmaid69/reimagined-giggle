@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_volume(length, width, height):
+        return length * width * height
