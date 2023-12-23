@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def convert_to_octal(n):
+        return oct(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
