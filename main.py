@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
