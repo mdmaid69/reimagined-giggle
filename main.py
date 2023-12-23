@@ -1,6 +1,3 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+print(sum(range(10)))
