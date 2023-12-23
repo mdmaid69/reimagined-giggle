@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_area_rectangle(l, w):
+        return l * w
