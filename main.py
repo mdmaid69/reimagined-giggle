@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_as_str(array):
-        return str(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
