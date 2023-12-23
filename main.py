@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
