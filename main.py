@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def count_characters(sentence):
-        return len(sentence)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
