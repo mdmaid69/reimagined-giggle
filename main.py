@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def cube_number(x):
+        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
