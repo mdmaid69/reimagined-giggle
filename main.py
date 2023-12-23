@@ -1,12 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import collections
+def create_priority_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
