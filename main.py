@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+from collections import Counter
+print(Counter("hello world"))
+def calculate_work(force, distance):
+        return force * distance
