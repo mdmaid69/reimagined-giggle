@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
