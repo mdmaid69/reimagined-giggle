@@ -1,5 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-print("Hello, world!")
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
