@@ -1,6 +1,9 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
