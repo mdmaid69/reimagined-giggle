@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
