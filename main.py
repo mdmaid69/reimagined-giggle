@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
