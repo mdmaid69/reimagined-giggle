@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
