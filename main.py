@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
