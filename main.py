@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import time
+def get_current_time():
+        return time.ctime()
