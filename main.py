@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
