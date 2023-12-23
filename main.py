@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def change_working_directory(path):
+        os.chdir(path)
