@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
