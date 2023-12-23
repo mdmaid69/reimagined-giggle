@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
