@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_work(force, distance):
+        return force * distance
