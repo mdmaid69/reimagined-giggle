@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
