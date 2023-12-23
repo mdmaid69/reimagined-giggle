@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-for i in range(5):
-        print(i)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
