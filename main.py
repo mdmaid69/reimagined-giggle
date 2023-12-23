@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_work(force, distance):
+        return force * distance
