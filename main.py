@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
