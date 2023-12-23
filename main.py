@@ -1,5 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
