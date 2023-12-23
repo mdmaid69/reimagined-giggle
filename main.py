@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
