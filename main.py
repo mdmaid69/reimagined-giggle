@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def clear_array(array):
+        array *= 0
