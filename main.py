@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
