@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
