@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_pressure(force, area):
+        return force / area
+  def convert_to_octal(n):
+        return oct(n)
