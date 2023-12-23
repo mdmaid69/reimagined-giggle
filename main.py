@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        return sys.version
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
