@@ -1,7 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
