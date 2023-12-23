@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
