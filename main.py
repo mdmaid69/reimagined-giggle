@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
