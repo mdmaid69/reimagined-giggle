@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import logging
-def log_message(message):
-        logging.info(message)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+text = "Hello, world!"
+print("Characters:", len(text))
