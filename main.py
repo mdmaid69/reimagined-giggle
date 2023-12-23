@@ -1,7 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
