@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def find_min(numbers):
+        return min(numbers)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
