@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_sine(x):
+        return math.sin(x)
