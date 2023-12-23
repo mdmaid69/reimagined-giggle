@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 def calculate_force(mass, acceleration):
         return mass * acceleration
