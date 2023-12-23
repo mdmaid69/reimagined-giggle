@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
