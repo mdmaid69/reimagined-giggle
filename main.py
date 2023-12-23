@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
