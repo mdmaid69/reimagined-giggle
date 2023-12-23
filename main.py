@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_str(array):
+        return str(array)
