@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
