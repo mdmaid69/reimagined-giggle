@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
