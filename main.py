@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
