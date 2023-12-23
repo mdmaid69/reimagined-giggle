@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
