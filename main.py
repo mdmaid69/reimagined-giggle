@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
