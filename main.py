@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
