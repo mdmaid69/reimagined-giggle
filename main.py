@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
