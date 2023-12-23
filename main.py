@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def count_elements(lst):
+        return len(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
