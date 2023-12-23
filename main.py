@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
