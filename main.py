@@ -1,5 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
