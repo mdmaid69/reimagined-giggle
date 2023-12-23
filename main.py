@@ -1,5 +1,5 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
