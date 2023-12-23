@@ -1,6 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_error_function(x):
+        return math.erf(x)
