@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
