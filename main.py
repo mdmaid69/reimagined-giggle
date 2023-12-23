@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-text = "Hello, world!"
-print("Characters:", len(text))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
