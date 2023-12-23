@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
