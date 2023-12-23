@@ -1,5 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
