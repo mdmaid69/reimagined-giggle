@@ -1,5 +1,9 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
