@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
