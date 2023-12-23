@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
