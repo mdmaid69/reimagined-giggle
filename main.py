@@ -1,11 +1,7 @@
-import queue
+import socket
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
