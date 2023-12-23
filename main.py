@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
