@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+print([x**2 for x in range(10)])
