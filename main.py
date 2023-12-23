@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
