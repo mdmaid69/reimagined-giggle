@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
