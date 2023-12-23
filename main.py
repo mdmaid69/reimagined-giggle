@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
