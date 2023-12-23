@@ -1,6 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
