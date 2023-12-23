@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
