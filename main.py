@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
