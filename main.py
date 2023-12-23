@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
