@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
