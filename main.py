@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def add_numbers(a, b):
-        return a + b
+  def subtract_numbers(x, y):
+        return x - y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
