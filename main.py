@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
