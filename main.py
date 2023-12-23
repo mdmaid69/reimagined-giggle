@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import platform
+def get_os_info():
+        return platform.uname()
