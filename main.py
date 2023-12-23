@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_acceleration(speed, time):
+        return speed / time
