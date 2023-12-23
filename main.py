@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
