@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
