@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_max(numbers):
+        return max(numbers)
