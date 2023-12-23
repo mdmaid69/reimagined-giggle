@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Characters:", len(text))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
