@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
