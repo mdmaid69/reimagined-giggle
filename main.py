@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def square_number(x):
-        return x**2
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
