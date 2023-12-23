@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def multiply_numbers(x, y):
-        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
