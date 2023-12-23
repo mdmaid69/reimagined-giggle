@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def multiply_numbers(x, y):
-        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
