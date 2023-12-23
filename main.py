@@ -1,4 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-print(sum(range(10)))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
