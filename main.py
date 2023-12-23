@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-for i in range(5):
-        print(i)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
