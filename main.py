@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
