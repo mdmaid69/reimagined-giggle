@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def sort_list(lst):
+        return sorted(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
