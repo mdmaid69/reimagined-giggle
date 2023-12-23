@@ -1,4 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-for i in range(10): print(i)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
