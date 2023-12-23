@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
