@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
