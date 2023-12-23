@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_max(numbers):
+        return max(numbers)
