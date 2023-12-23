@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
