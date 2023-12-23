@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def is_palindrome(s):
+        return s == s[::-1]
