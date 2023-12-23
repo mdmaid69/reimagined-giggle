@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def remove_duplicates(lst):
+        return list(set(lst))
