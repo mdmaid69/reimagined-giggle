@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def subtract_numbers(x, y):
+        return x - y
+  def convert_to_octal(n):
+        return oct(n)
