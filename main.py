@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
