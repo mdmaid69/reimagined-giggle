@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def greet(name):
+        print(f"Hello, {name}!")
