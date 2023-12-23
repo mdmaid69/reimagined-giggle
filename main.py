@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
