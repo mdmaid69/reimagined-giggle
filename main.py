@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
