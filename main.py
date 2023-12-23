@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+for i in range(10): print(i)
+import time
+def get_current_time():
+        return time.ctime()
