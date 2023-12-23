@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
