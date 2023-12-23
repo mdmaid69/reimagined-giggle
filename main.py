@@ -1,6 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
