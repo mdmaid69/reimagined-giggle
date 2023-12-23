@@ -1,5 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
