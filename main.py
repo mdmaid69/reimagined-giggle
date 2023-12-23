@@ -1,6 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_hex(n):
+        return hex(n)
