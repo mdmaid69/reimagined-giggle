@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
