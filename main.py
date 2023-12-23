@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def cube_number(x):
+        return x**3
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
