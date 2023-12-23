@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
