@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import collections
+def create_user_string():
+        return collections.UserString()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
