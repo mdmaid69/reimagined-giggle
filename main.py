@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+print(json.dumps({"name": "John", "age": 30}))
