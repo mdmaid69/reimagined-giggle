@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
