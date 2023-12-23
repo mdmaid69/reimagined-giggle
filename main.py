@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
