@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def count_elements(lst):
+        return len(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
