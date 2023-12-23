@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def reverse_string(s):
-        return s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import datetime
+def get_today_date():
+        return datetime.date.today()
