@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
