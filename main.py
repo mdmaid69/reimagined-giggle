@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
