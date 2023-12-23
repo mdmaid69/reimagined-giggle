@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import collections
-def create_queue():
-        return collections.deque()
+def add_numbers(x, y):
+        return x + y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
