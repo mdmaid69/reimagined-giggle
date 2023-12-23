@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
