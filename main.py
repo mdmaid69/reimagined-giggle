@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+for i in range(5):
+        print(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
