@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_stack():
+        return collections.deque()
