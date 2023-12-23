@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
