@@ -1,5 +1,11 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
