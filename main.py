@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
