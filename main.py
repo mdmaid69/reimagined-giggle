@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_tangent(x):
+        return math.atan(x)
