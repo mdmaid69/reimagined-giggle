@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
