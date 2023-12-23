@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
