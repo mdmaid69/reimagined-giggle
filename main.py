@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
