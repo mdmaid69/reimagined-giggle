@@ -1,6 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+for i in range(5):
+        print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
