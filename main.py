@@ -1,7 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
