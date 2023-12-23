@@ -1,6 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
