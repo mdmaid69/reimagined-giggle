@@ -1,5 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
