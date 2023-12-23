@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
