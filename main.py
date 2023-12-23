@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def change_working_directory(path):
+        os.chdir(path)
