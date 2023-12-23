@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
