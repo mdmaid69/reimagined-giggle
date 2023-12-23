@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+for i in range(5):
+        print(i)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
