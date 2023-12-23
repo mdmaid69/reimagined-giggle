@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_area_rectangle(l, w):
-        return l * w
+print([x**2 for x in range(10)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
