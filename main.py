@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_pressure(force, area):
+        return force / area
