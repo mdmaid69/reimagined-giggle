@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
