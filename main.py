@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def print_python_version():
+        return sys.version
