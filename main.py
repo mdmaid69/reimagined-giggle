@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_density(mass, volume):
+        return mass / volume
+def find_union(list1, list2):
+        return set(list1) | set(list2)
