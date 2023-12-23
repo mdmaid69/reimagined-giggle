@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
