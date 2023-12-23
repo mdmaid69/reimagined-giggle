@@ -1,7 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
