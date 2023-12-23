@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
