@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import os
-print(os.getcwd())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
