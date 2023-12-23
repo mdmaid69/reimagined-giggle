@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
