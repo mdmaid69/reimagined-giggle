@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def clear_array(array):
+        array *= 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
