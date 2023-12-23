@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import time
+def get_current_time():
+        return time.ctime()
