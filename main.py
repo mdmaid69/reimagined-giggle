@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def count_elements(lst):
+        return len(lst)
