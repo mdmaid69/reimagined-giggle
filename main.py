@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
