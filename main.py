@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_elements(lst):
+        return len(lst)
