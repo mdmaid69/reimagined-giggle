@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
