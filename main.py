@@ -1,6 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
