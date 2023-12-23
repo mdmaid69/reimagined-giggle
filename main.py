@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def calculate_area_rectangle(l, w):
+        return l * w
