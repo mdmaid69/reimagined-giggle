@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_work(force, distance):
+        return force * distance
