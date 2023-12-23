@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
