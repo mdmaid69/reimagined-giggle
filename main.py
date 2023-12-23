@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import time
+def get_time_since_epoch():
+        return time.time()
