@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
