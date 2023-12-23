@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
