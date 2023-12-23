@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_area_rectangle(l, w):
-        return l * w
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
