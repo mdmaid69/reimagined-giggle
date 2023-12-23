@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
