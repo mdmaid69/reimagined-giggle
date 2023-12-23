@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
