@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+print(sum(range(10)))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
