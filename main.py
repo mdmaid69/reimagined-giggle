@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def add_numbers(x, y):
+        return x + y
