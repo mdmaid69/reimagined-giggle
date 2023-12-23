@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
