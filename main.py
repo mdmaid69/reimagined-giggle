@@ -1,4 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-print(sum(range(10)))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
