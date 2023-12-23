@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+i = 0
+while i < 5:
+        print(i)
+        i += 1
