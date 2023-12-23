@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
