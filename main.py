@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
