@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
