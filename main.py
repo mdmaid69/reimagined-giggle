@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
