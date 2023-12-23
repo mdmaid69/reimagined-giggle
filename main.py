@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_power(work, time):
+        return work / time
