@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
