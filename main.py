@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
