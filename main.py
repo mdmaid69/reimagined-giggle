@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
