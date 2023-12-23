@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
