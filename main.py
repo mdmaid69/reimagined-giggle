@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import numpy as np
+print(np.array([1, 2, 3]))
