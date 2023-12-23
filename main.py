@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def reverse_list(lst):
+        return lst[::-1]
+def add_numbers(a, b):
+        return a + b
