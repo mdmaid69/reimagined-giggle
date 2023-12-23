@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
