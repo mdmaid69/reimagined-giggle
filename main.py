@@ -1,5 +1,9 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
