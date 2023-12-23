@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
