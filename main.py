@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_sine(x):
+        return math.sin(x)
