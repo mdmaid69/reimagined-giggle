@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
