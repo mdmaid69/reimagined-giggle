@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_queue():
+        return collections.deque()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
