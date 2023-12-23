@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
