@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_repr(array):
+        return repr(array)
