@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
