@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def remove_duplicates(lst):
+        return list(set(lst))
