@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def convert_to_binary(n):
+        return bin(n)
