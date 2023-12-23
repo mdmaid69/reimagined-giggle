@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def subtract_numbers(x, y):
-        return x - y
+  def sort_list(lst):
+        return sorted(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
