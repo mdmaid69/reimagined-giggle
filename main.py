@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def convert_to_octal(n):
+        return oct(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
