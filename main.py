@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
