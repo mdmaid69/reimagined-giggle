@@ -1,7 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_hex(n):
+        return hex(n)
