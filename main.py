@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
