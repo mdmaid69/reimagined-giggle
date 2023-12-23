@@ -1,5 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
