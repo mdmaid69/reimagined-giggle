@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_area_rectangle(l, w):
-        return l * w
+import getpass
+def get_username():
+        return getpass.getuser()
+import sys
+def print_python_version():
+        print(sys.version)
