@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
