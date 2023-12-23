@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
