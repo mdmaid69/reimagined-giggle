@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import random
+def roll_die():
+        return random.randint(1, 6)
