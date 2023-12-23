@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
