@@ -1,9 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def add_numbers(x, y):
+        return x + y
