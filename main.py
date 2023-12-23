@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def square_number(x):
+        return x**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
