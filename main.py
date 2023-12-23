@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def cube_number(x):
-        return x**3
+  def convert_to_octal(n):
+        return oct(n)
+  def count_elements(lst):
+        return len(lst)
