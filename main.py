@@ -1,5 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+def reverse_string(s):
+        return s[::-1]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
