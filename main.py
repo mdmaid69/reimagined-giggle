@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
