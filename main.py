@@ -1,6 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def is_even(n):
+        return n % 2 == 0
