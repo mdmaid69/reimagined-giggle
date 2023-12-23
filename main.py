@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
