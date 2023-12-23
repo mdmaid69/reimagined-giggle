@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
