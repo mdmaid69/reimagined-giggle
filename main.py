@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
