@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
