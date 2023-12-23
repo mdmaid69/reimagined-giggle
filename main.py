@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
