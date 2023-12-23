@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
