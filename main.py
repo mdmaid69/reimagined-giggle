@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def add_numbers(x, y):
-        return x + y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
