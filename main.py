@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
