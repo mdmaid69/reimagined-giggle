@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
