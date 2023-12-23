@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-print(os.getcwd())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def square_number(x):
+        return x**2
