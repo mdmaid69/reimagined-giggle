@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
