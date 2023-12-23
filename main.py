@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
