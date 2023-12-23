@@ -1,7 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
