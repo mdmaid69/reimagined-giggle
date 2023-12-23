@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+for i in range(10): print(i)
