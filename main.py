@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
