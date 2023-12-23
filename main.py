@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
