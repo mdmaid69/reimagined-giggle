@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def is_even(n):
+        return n % 2 == 0
+def find_union(list1, list2):
+        return set(list1) | set(list2)
