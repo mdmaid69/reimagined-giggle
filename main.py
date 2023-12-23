@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
