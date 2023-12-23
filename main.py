@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_power(work, time):
+        return work / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
