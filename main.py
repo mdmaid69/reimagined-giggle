@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
