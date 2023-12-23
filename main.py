@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
