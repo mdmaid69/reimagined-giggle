@@ -1,5 +1,9 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
