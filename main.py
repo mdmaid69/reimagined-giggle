@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
