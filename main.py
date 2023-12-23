@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_speed(distance, time):
+        return distance / time
