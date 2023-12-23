@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
