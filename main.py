@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_bool(array):
+        return bool(array)
