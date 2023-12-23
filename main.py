@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
