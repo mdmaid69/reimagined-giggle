@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def remove_duplicates(lst):
+        return list(set(lst))
+def convert_to_octal(n):
+        return oct(n)
