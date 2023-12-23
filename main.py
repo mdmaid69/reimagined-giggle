@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_max(lst):
-        return max(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
