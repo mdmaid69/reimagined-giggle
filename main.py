@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
