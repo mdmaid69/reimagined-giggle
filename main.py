@@ -1,5 +1,12 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
