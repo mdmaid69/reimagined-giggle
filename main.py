@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_words(sentence):
+        return len(sentence.split())
