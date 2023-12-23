@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
