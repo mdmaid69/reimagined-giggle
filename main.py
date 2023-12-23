@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
