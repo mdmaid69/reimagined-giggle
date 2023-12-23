@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
