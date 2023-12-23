@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_queue():
+        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
