@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
