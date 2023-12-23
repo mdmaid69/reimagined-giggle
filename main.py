@@ -1,7 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
