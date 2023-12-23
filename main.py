@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_min(numbers):
-        return min(numbers)
+import random
+print(random.randint(0, 100))
+def remove_duplicates(lst):
+        return list(set(lst))
