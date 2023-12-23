@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+from collections import Counter
+print(Counter("hello world"))
+import sys
+def print_python_version():
+        print(sys.version)
