@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def exit_program():
+        sys.exit()
+def cube_number(x):
+        return x**3
