@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
