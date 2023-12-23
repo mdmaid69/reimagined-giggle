@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
