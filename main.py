@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
