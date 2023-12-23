@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def remove_duplicates(lst):
+        return list(set(lst))
