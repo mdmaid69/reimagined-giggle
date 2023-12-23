@@ -1,5 +1,11 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
