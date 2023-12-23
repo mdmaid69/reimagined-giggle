@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def count_elements(lst):
-        return len(lst)
+def divide_numbers(x, y):
+        return x / y
+import getpass
+def get_username():
+        return getpass.getuser()
