@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+from collections import Counter
+print(Counter("hello world"))
