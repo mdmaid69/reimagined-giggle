@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
