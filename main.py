@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
