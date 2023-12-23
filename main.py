@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
