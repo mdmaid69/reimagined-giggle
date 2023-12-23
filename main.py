@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+def print_python_version():
+        print(sys.version)
+def find_max(numbers):
+        return max(numbers)
