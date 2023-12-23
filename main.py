@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import getpass
+def get_username():
+        return getpass.getuser()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
