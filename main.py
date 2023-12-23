@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
