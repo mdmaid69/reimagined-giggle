@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def convert_to_hex(n):
-        return hex(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_acceleration(speed, time):
+        return speed / time
