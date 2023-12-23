@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def is_odd(n):
+        return n % 2 != 0
