@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_exponential(x):
+        return math.exp(x)
