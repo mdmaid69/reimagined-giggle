@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
