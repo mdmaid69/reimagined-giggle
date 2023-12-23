@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Characters:", len(text))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
