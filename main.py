@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
