@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+print([x**2 for x in range(10)])
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
