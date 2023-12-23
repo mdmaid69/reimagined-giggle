@@ -1,5 +1,8 @@
-def find_max(numbers):
-        return max(numbers)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
