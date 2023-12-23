@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
