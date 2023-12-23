@@ -1,8 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
