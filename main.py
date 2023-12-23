@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
