@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
