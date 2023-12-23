@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
