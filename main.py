@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
