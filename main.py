@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def convert_to_binary(n):
-        return bin(n)
+for i in range(5):
+        print(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
