@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
