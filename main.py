@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
