@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
+import collections
+def create_user_dict():
+        return collections.UserDict()
