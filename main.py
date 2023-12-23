@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
