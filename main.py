@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
