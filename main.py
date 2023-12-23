@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import platform
+def get_python_version():
+        return platform.python_version()
