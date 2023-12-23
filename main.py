@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+for i in range(10): print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
