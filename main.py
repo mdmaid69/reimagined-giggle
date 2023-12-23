@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_work(force, distance):
+        return force * distance
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
