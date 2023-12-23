@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
