@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
