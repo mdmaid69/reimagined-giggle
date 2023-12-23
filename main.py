@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sine(x):
+        return math.sin(x)
