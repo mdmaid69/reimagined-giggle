@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+print(sys.version)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
