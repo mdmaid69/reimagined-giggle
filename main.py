@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
