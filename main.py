@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
