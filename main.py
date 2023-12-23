@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
