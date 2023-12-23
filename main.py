@@ -1,8 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
