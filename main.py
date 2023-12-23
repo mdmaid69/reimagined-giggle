@@ -1,8 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
