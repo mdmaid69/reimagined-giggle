@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
