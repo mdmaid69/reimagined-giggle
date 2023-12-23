@@ -1,6 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_user_list():
+        return collections.UserList()
