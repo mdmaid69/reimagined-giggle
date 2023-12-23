@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
