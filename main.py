@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_area_rectangle(l, w):
+        return l * w
