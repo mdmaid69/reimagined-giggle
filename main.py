@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
