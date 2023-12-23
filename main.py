@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
