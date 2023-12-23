@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
