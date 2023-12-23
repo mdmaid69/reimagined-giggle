@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
