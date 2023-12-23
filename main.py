@@ -1,7 +1,8 @@
-  def cube_number(x):
-        return x**3
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
