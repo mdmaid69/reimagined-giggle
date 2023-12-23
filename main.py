@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
