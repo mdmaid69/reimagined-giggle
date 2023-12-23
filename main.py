@@ -1,4 +1,11 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def greet(name):
-        print(f"Hello, {name}!")
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
