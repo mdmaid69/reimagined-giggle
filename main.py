@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+print([x**2 for x in range(10)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
