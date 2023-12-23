@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
