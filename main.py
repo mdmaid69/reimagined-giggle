@@ -1,5 +1,9 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
