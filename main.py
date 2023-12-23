@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
