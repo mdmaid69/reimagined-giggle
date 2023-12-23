@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_queue():
+        return collections.deque()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
