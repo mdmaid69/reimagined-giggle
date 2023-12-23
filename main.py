@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
