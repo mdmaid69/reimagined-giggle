@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
