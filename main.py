@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import os
+print(os.getcwd())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
