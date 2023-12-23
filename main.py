@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_time_since_epoch():
-        return time.time()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
