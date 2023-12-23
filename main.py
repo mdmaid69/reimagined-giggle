@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_int(array):
-        return int(array[0])
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_array_as_tuple(array):
+        return tuple(array)
