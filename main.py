@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+x = 10
+y = 20
+print("Sum:", x + y)
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def exit_program():
+        sys.exit()
