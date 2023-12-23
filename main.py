@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
