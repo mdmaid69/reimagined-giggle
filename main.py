@@ -1,6 +1,8 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
