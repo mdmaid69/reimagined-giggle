@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def print_python_version():
+        print(sys.version)
