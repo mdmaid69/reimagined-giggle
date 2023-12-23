@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def change_working_directory(path):
+        os.chdir(path)
