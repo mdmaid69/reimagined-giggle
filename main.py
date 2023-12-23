@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def is_odd(n):
+        return n % 2 != 0
