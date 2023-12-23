@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
