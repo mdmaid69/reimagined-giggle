@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
