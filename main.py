@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def change_working_directory(path):
+        os.chdir(path)
