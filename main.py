@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
