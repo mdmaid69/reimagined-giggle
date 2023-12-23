@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
