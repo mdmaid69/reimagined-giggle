@@ -1,3 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-for i in range(10): print(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
