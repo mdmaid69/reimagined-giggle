@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
