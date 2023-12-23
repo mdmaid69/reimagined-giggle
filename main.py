@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_user_string():
-        return collections.UserString()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def sort_list(lst):
+        return sorted(lst)
