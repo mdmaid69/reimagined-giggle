@@ -1,3 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-print("Hello, world!")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
