@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def add_numbers(x, y):
+        return x + y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
