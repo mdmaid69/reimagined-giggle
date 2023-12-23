@@ -1,5 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
