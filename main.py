@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def convert_to_binary(n):
-        return bin(n)
+def subtract_numbers(x, y):
+        return x - y
+import getpass
+def get_username():
+        return getpass.getuser()
