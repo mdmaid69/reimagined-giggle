@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def square_number(x):
+        return x**2
