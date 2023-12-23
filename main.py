@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
