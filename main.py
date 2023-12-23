@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
