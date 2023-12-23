@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_power(work, time):
+        return work / time
