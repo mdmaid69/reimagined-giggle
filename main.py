@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_length(array):
+        return len(array)
