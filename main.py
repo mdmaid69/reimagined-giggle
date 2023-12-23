@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
