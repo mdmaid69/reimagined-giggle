@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_work(force, distance):
+        return force * distance
