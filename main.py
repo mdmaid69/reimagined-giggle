@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
