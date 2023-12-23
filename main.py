@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
