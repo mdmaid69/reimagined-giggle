@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def add_numbers(x, y):
+        return x + y
