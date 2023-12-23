@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
