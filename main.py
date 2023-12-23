@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
