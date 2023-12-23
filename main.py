@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
