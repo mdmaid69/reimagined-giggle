@@ -1,4 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-print(sum(range(10)))
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
