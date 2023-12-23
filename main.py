@@ -1,10 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
