@@ -1,13 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
