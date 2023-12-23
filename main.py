@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_hex(n):
+        return hex(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
