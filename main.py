@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
