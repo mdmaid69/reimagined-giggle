@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def is_palindrome(s):
+        return s == s[::-1]
+  def convert_to_hex(n):
+        return hex(n)
