@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
