@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_work(force, distance):
-        return force * distance
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
