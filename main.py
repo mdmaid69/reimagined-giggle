@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-x = 10
-y = 20
-print("Sum:", x + y)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
