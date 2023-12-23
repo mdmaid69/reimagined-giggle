@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+for i in range(10): print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
