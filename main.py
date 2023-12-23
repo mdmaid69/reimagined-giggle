@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def is_even(n):
-        return n % 2 == 0
+for i in range(5):
+        print(i)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
