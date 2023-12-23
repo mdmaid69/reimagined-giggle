@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
