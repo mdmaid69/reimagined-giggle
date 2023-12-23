@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_str(array):
+        return str(array)
