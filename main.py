@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
