@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
