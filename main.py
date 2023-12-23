@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
