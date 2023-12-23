@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
