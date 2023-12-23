@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def print_python_version():
+        print(sys.version)
