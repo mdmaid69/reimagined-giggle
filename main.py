@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
