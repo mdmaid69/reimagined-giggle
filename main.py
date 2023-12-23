@@ -1,7 +1,4 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+for i in range(10): print(i)
