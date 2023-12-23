@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import sys
-print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_work(force, distance):
+        return force * distance
