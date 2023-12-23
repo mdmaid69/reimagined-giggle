@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
