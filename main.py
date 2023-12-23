@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
