@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
