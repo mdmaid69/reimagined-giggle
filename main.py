@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def reverse_string(s):
-        return s[::-1]
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
