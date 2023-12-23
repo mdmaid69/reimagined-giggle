@@ -1,4 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-print([x**2 for x in range(10)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
