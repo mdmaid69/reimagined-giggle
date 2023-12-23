@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
