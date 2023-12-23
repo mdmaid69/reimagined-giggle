@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
