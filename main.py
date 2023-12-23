@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def append_to_array(array, item):
-        array.append(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_priority_queue():
+        return collections.deque()
