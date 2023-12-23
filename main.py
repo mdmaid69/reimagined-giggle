@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def count_characters(sentence):
+        return len(sentence)
+  def convert_to_binary(n):
+        return bin(n)
