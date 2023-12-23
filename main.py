@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_length(array):
-        return len(array)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_array_item_count(array, item):
+        return array.count(item)
