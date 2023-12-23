@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
