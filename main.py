@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
