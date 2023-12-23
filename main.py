@@ -1,7 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import sys
+def print_python_version():
+        print(sys.version)
