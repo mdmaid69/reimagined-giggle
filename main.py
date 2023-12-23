@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
