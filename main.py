@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+name = "Python"
+print("Hello,", name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
