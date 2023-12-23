@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_max(numbers):
+        return max(numbers)
