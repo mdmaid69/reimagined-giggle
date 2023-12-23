@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
