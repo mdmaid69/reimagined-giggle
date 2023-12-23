@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
