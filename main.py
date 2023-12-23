@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def add_numbers(a, b):
+        return a + b
