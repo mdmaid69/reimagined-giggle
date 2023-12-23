@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def find_min(numbers):
-        return min(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
