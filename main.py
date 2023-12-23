@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
