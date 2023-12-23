@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import time
+def get_current_time():
+        return time.ctime()
+import random
+print(random.randint(0, 100))
