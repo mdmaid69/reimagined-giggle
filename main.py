@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_min(numbers):
+        return min(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
