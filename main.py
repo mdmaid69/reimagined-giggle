@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+print(random.randint(0, 100))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
