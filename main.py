@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
