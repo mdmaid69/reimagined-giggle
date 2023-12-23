@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
