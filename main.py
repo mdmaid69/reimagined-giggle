@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
