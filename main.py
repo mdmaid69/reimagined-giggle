@@ -1,4 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
