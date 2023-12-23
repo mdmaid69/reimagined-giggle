@@ -1,11 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import datetime
+def get_today_date():
+        return datetime.date.today()
