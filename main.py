@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
