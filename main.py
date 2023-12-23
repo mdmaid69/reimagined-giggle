@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
