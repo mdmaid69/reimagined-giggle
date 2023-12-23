@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+print(random.randint(0, 100))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
