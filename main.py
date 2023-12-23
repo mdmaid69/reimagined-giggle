@@ -1,6 +1,3 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def subtract_numbers(x, y):
+        return x - y
+print([x**2 for x in range(10)])
