@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_str(array):
+        return str(array)
