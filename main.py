@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_speed(distance, time):
+        return distance / time
