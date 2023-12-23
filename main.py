@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
