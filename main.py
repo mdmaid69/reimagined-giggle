@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import json
+def convert_to_json(data):
+        return json.dumps(data)
