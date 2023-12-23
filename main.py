@@ -1,6 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
