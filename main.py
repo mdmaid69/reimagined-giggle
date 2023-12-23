@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
