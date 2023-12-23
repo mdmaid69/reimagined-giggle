@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
