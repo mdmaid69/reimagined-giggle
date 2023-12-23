@@ -1,6 +1,8 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import collections
-def create_user_list():
-        return collections.UserList()
+  def convert_to_octal(n):
+        return oct(n)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
