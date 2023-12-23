@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
