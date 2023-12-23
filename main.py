@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
