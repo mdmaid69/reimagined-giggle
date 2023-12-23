@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
