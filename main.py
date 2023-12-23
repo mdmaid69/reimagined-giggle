@@ -1,5 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
