@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def subtract_numbers(x, y):
+        return x - y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
