@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
