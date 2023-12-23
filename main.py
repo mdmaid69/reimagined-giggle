@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
