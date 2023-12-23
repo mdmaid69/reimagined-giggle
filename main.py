@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
