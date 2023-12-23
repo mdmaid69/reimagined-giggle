@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
