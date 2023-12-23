@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
