@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
