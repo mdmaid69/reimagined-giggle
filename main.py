@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
