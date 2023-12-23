@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
