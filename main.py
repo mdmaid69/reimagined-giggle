@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+name = "Python"
+print("Hello,", name)
