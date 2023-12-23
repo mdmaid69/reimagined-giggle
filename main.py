@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def square_number(x):
+        return x**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
