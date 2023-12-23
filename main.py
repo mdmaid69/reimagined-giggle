@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
