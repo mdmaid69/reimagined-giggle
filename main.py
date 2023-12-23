@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
