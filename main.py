@@ -1,5 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def is_even(n):
-        return n % 2 == 0
+def count_characters(sentence):
+        return len(sentence)
+import json
+print(json.dumps({"name": "John", "age": 30}))
