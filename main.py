@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
