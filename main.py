@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_volume(length, width, height):
-        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
