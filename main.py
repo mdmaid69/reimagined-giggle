@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_area_rectangle(l, w):
+        return l * w
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
