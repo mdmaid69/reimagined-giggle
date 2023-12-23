@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def multiply_numbers(x, y):
+        return x * y
