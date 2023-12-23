@@ -1,6 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import sys
+  def get_python_version():
+        return sys.version
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
