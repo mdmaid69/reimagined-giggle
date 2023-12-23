@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
