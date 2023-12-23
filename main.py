@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def find_min(numbers):
+        return min(numbers)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
