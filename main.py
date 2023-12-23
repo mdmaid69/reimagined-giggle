@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
