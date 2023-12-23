@@ -1,6 +1,3 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import time
 def measure_execution_time(func, *args):
         start = time.time()
@@ -8,3 +5,6 @@ def measure_execution_time(func, *args):
         end = time.time()
         print(f"Execution time: {end - start} seconds")
         return result
+import collections
+def create_priority_queue():
+        return collections.deque()
