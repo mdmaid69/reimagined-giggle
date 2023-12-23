@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
