@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
