@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
