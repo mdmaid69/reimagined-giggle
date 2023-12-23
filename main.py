@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
