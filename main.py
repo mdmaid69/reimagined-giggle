@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
