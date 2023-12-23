@@ -1,6 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
