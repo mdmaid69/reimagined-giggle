@@ -1,5 +1,10 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_power(work, time):
-        return work / time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
