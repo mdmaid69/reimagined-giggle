@@ -1,10 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
