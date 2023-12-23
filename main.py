@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_pressure(force, area):
+        return force / area
+  def count_elements(lst):
+        return len(lst)
