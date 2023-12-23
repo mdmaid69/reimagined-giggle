@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
