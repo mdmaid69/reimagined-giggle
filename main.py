@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
