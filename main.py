@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
