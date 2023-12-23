@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def add_numbers(a, b):
-        return a + b
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
