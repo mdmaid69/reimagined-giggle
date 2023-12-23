@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
