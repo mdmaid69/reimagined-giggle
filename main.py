@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_item(array, i):
-        return array[i]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
