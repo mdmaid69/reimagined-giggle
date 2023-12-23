@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
