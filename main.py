@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
