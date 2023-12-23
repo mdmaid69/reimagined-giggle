@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+def is_even(n):
+        return n % 2 == 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
