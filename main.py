@@ -1,12 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
