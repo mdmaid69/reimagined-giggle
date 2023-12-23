@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
