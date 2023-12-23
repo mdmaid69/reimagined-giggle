@@ -1,7 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_acceleration(speed, time):
+        return speed / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
