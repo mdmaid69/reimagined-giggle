@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
