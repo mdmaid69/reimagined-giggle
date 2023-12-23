@@ -1,6 +1,7 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
