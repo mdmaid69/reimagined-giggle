@@ -1,8 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
