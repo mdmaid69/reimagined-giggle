@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
