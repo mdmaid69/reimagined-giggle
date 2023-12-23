@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
