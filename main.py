@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
