@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
