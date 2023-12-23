@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
