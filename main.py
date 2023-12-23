@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
