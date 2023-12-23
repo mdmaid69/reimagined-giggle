@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
