@@ -1,6 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
