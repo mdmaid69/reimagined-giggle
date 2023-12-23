@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
