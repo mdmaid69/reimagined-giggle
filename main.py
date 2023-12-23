@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def exit_program():
+        sys.exit()
