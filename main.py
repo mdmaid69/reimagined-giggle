@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
