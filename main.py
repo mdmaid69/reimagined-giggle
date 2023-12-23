@@ -1,4 +1,12 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
