@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
