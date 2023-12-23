@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def sort_list(lst):
+        return sorted(lst)
