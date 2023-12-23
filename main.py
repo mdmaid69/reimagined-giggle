@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
