@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
