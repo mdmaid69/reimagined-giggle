@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def square_number(x):
+        return x**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
