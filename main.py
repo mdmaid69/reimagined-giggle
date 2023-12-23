@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
