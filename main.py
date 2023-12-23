@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
