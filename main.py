@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def convert_to_octal(n):
+        return oct(n)
