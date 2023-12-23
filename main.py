@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def clear_array(array):
+        array *= 0
