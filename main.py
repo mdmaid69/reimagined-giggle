@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def square_number(x):
+        return x**2
