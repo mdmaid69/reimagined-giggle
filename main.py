@@ -1,7 +1,7 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
