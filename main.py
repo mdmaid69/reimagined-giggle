@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
