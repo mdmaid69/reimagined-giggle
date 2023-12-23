@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_absolute_value(x):
+        return math.fabs(x)
