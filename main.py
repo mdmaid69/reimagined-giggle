@@ -1,6 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_acceleration(speed, time):
+        return speed / time
