@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_array_to_string(array):
+        return array.tostring()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
