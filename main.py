@@ -1,8 +1,5 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_average(lst):
+        return sum(lst) / len(lst)
