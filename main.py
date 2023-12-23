@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
