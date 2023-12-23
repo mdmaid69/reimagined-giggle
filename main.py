@@ -1,7 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def sort_list(lst):
-        return sorted(lst)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
