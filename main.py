@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
