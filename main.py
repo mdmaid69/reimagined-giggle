@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def print_python_version():
-        return sys.version
+import datetime
+print(datetime.datetime.now())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
