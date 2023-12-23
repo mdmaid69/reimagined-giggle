@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
