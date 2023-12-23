@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def count_characters(sentence):
-        return len(sentence)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
