@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
