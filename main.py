@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
