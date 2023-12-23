@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
