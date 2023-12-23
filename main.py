@@ -1,5 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_speed(distance, time):
-        return distance / time
+def sort_list(lst):
+        return sorted(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
