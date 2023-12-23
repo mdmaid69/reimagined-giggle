@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
