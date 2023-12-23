@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
