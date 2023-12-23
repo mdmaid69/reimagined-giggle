@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
