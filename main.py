@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
