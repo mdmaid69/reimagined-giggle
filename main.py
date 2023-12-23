@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
