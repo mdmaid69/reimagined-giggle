@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def add_numbers(a, b):
+        return a + b
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
