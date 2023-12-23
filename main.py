@@ -1,5 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
