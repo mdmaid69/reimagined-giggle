@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
