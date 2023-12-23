@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
