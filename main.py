@@ -1,6 +1,4 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+print([x**2 for x in range(10)])
