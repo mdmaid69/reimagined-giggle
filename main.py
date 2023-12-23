@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
