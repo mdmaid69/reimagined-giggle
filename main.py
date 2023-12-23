@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_arc_tangent(x):
+        return math.atan(x)
