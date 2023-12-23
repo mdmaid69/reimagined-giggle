@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
