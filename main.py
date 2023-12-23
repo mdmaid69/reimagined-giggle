@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
