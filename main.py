@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
