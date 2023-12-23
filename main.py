@@ -1,5 +1,8 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
