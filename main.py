@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
