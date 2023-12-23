@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Max:", max(numbers))
