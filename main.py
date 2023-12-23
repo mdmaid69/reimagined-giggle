@@ -1,8 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def square_number(x):
+        return x**2
