@@ -1,4 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-print([x**2 for x in range(10)])
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
