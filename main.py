@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
