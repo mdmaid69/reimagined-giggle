@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
