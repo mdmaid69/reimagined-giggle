@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_area(radius):
+        return 3.14 * radius * radius
