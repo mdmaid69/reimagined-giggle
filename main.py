@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import time
+def get_current_time():
+        return time.ctime()
