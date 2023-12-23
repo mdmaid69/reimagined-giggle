@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def count_elements(lst):
+        return len(lst)
