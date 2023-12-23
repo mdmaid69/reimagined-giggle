@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def find_min(lst):
-        return min(lst)
+def sort_list(lst):
+        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
