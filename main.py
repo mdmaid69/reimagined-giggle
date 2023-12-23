@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+def log_message(message):
+        logging.info(message)
