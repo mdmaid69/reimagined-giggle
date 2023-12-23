@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
