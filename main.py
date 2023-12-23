@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def cube_number(x):
-        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
