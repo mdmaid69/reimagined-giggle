@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
