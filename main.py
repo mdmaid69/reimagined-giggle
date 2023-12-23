@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
