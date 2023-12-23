@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def is_palindrome(s):
+        return s == s[::-1]
