@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
