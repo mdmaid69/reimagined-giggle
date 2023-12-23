@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_arc_cosine(x):
+        return math.acos(x)
