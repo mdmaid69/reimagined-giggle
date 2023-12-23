@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def find_min(numbers):
-        return min(numbers)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
