@@ -1,5 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def count_characters(sentence):
-        return len(sentence)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
