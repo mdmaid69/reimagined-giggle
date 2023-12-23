@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print(sum(range(10)))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
