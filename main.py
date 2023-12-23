@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
