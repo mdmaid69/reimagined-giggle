@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_power(work, time):
+        return work / time
