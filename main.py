@@ -1,6 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
