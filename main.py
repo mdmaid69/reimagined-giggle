@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def reverse_array(array):
+        array.reverse()
