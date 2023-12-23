@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_floor(x):
+        return math.floor(x)
