@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
