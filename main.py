@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
