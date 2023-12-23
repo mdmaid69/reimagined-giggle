@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def remove_duplicates(lst):
+        return list(set(lst))
