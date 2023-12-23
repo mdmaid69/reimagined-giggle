@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_max(numbers):
-        return max(numbers)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
