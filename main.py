@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
