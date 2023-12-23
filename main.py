@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
