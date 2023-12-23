@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+i = 0
+while i < 5:
+        print(i)
+        i += 1
