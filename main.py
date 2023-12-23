@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
