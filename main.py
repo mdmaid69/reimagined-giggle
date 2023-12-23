@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_arc_sine(x):
+        return math.asin(x)
