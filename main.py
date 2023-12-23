@@ -1,5 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
