@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
