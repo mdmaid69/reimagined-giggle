@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def add_numbers(x, y):
-        return x + y
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
