@@ -1,6 +1,8 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
