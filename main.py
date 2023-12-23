@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def print_python_version():
+        return sys.version
+from collections import Counter
+print(Counter("hello world"))
