@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
