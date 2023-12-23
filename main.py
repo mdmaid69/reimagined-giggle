@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
