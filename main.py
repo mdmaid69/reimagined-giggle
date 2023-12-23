@@ -1,6 +1,8 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
