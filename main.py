@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
