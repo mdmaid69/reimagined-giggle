@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
