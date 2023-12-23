@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import os
+def get_current_working_directory():
+        return os.getcwd()
