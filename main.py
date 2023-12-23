@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-for i in range(5):
-        print(i)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
