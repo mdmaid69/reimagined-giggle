@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
