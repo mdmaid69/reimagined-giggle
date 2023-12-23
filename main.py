@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
