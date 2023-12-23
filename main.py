@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_os_info():
-        return platform.uname()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def find_max(numbers):
+        return max(numbers)
