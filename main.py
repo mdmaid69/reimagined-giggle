@@ -1,6 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
