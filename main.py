@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
