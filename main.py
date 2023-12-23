@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
