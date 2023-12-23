@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import sys
-def exit_program():
-        sys.exit()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def add_numbers(x, y):
+        return x + y
