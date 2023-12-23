@@ -1,8 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def multiply_numbers(x, y):
+        return x * y
