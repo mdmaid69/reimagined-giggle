@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
