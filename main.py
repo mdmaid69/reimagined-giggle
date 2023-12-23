@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def convert_to_binary(n):
-        return bin(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
