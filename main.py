@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_max(lst):
+        return max(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
