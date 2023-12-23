@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
