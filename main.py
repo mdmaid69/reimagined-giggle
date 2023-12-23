@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
