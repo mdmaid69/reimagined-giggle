@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import collections
-def create_counter():
-        return collections.Counter()
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
