@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def is_even(n):
+        return n % 2 == 0
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
