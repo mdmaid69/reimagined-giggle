@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
