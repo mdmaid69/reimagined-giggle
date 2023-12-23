@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
