@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
