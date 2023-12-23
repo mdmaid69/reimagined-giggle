@@ -1,6 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
