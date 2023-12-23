@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
