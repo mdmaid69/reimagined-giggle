@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
