@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+name = "Python"
+print("Hello,", name)
