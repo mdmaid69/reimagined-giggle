@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
