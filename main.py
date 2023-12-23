@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
