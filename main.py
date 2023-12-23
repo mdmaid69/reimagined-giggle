@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
