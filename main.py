@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
