@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def is_even(n):
+        return n % 2 == 0
