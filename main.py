@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
