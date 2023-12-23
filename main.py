@@ -1,6 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
