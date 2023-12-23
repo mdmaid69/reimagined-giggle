@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+print(json.dumps({"name": "John", "age": 30}))
