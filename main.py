@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
