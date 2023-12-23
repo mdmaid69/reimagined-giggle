@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_current_directory():
+        return os.getcwd()
