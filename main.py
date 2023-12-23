@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
