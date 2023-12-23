@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def subtract_numbers(x, y):
-        return x - y
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
