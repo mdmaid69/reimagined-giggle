@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def exit_program():
-        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
