@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def add_numbers(x, y):
-        return x + y
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
