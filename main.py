@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
