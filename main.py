@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def remove_duplicates(lst):
+        return list(set(lst))
