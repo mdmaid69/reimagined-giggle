@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-print(os.getcwd())
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
