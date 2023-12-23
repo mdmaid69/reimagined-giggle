@@ -1,7 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def greet(name):
+        print(f"Hello, {name}!")
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
