@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
