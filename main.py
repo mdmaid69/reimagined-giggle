@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
