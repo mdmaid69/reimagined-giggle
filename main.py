@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
