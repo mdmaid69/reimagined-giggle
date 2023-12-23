@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
