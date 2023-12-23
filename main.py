@@ -1,6 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
