@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
