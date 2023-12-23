@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
