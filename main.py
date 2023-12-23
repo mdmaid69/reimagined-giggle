@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
