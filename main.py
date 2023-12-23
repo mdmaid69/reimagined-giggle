@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
