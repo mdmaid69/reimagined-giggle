@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_pressure(force, area):
+        return force / area
+  def is_even(n):
+        return n % 2 == 0
