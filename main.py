@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
