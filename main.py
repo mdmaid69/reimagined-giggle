@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
