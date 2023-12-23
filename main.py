@@ -1,8 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
