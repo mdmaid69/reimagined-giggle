@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def is_even(n):
+        return n % 2 == 0
