@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def reverse_string(s):
+        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
