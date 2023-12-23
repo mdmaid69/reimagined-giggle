@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def reverse_array(array):
-        array.reverse()
+import platform
+def get_python_version():
+        return platform.python_version()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
