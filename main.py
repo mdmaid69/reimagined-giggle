@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def exit_program():
+        sys.exit()
