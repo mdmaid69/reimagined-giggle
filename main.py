@@ -1,5 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def square_number(x):
-        return x**2
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
