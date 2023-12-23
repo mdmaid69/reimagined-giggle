@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
