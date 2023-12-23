@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
