@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
