@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
