@@ -1,4 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def convert_to_binary(n):
-        return bin(n)
+def convert_to_hex(n):
+        return hex(n)
+def find_unique_words(sentence):
+        return set(sentence.split())
