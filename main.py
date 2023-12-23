@@ -1,6 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
