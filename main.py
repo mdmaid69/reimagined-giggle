@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
