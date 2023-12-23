@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
