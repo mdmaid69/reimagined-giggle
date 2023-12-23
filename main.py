@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def clear_array(array):
+        array *= 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
