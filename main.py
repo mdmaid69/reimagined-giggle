@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
