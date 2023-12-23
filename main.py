@@ -1,5 +1,3 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+print([x**2 for x in range(10)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
