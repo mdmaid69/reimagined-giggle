@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import platform
+def get_os_info():
+        return platform.uname()
