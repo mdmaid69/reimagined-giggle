@@ -1,6 +1,5 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(math.pi)
