@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def convert_to_octal(n):
+        return oct(n)
