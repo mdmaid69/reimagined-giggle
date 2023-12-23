@@ -1,8 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
