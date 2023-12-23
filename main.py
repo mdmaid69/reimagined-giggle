@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
