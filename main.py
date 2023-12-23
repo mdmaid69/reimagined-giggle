@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+x = 10
+y = 20
+print("Sum:", x + y)
