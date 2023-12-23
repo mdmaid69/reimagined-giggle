@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
