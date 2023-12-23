@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-  def count_elements(lst):
-        return len(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_odd(n):
+        return n % 2 != 0
