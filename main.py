@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
