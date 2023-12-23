@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+for i in range(10): print(i)
