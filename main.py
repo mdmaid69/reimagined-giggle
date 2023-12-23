@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+print(random.randint(0, 100))
