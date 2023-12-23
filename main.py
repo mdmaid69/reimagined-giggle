@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def sort_list(lst):
+        return sorted(lst)
