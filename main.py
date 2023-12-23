@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
