@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
