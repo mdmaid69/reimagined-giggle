@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
