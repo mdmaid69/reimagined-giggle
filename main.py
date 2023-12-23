@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_int(array):
+        return int(array[0])
