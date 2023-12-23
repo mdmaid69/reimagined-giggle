@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
