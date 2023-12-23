@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_float(array):
+        return float(array[0])
