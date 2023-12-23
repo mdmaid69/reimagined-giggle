@@ -1,5 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
