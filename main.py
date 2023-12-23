@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
