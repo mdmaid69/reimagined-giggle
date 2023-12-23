@@ -1,5 +1,7 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import collections
+def create_stack():
+        return collections.deque()
