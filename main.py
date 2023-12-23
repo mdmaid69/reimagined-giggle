@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
