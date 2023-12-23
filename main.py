@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
