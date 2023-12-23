@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
