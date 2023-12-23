@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
