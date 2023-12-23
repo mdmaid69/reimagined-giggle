@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def convert_to_octal(n):
+        return oct(n)
