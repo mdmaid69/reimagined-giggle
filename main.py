@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
