@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
