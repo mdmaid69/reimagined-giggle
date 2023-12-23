@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_pressure(force, area):
+        return force / area
