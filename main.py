@@ -1,6 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_typecode(array):
+        return array.typecode
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
