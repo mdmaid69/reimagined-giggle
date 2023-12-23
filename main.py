@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_user_dict():
+        return collections.UserDict()
