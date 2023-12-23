@@ -1,7 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
