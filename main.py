@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
