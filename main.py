@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
