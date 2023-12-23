@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
