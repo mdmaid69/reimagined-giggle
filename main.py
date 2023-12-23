@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_min(numbers):
+        return min(numbers)
