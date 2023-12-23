@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
