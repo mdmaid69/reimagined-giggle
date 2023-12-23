@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_typecode(array):
+        return array.typecode
