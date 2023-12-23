@@ -1,10 +1,4 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_max(numbers):
+        return max(numbers)
