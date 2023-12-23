@@ -1,6 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
