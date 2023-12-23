@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_pressure(force, area):
+        return force / area
