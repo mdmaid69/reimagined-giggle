@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
