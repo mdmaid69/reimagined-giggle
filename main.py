@@ -1,6 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
