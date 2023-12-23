@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
