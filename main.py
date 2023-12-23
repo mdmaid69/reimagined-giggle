@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
