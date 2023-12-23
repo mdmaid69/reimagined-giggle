@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def count_elements(lst):
+        return len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
