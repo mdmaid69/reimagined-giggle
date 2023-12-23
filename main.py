@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import time
+def get_time_since_epoch():
+        return time.time()
