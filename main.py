@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
