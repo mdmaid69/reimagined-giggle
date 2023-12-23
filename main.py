@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_stack():
+        return collections.deque()
+for i in range(10): print(i)
