@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_repr(array):
+        return repr(array)
