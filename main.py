@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
