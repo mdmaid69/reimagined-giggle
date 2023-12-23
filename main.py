@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
