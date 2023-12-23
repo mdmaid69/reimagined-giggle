@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
