@@ -1,7 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
