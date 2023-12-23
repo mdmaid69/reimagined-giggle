@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
