@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def square_number(x):
-        return x**2
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
