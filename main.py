@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
