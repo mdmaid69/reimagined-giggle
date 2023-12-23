@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
