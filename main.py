@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_area_rectangle(l, w):
+        return l * w
