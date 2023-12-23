@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
