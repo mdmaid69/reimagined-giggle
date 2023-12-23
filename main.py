@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_typecode(array):
+        return array.typecode
