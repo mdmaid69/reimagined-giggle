@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
