@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
