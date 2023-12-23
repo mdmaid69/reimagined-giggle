@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_acceleration(speed, time):
+        return speed / time
