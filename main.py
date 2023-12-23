@@ -1,5 +1,4 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+print(datetime.datetime.now())
