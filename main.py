@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+def print_python_version():
+        return sys.version
