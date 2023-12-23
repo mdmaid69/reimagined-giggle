@@ -1,3 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-print([x**2 for x in range(10)])
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
