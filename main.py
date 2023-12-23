@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sys
-print(sys.version)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_acceleration(speed, time):
+        return speed / time
