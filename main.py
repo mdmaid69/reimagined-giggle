@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
