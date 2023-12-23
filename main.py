@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_max(numbers):
+        return max(numbers)
