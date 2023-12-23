@@ -1,4 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-for i in range(10): print(i)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
