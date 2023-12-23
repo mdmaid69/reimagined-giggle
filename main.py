@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_volume(length, width, height):
+        return length * width * height
