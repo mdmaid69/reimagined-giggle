@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import random
+print(random.randint(0, 100))
+import array
+def get_list_from_array(array):
+        return array.tolist()
