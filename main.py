@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
