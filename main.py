@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
