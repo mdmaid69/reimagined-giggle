@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
