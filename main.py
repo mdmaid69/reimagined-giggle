@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def reverse_list(lst):
+        return lst[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
