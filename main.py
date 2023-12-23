@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
