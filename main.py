@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
