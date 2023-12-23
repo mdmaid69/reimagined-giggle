@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_perpetuity(payment, rate):
+        return payment / rate
