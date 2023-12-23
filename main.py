@@ -1,9 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
