@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
