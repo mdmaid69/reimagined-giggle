@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
