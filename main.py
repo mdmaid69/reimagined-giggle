@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
