@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
