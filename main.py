@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_min(numbers):
+        return min(numbers)
