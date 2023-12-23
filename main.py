@@ -1,6 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
