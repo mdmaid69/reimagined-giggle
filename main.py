@@ -1,5 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def is_odd(n):
-        return n % 2 != 0
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
