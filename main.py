@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
