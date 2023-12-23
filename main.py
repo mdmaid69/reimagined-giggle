@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def divide_numbers(x, y):
+        return x / y
