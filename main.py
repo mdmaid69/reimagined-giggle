@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
+print([x**2 for x in range(10)])
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
