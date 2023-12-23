@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
