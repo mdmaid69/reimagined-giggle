@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
