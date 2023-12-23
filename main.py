@@ -1,5 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_itemsize(array):
+        return array.itemsize
