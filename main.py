@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
