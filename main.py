@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print("Hello, world!")
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
