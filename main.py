@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
