@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
