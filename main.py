@@ -1,5 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def count_elements(lst):
-        return len(lst)
+def get_array_as_repr(array):
+        return repr(array)
