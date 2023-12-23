@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_speed(distance, time):
+        return distance / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
