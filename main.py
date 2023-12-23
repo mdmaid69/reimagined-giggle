@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_hex(n):
+        return hex(n)
