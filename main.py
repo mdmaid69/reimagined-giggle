@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
