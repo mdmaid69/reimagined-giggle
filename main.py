@@ -1,5 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
