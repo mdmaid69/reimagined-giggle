@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
