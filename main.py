@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
