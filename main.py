@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+name = "Python"
+print("Hello,", name)
