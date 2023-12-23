@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
