@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_current_date():
+        return datetime.date.today()
