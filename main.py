@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
