@@ -1,6 +1,11 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
