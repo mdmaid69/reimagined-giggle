@@ -1,5 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
