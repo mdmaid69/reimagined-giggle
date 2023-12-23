@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_length(array):
+        return len(array)
