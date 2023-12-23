@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
