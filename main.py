@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
