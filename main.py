@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_error_function(x):
+        return math.erf(x)
