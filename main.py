@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
