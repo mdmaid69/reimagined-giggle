@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
