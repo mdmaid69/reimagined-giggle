@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
