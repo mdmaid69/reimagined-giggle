@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def remove_duplicates(lst):
+        return list(set(lst))
