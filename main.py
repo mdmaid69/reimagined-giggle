@@ -1,5 +1,9 @@
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
