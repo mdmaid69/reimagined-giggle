@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def remove_from_array(array, item):
+        array.remove(item)
