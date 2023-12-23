@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
