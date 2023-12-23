@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
