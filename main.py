@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def get_array_length(array):
-        return len(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_array_as_str(array):
+        return str(array)
