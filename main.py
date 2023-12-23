@@ -1,5 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_max(numbers):
-        return max(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
