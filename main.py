@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import time
+def get_current_time():
+        return time.time()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
