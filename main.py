@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
