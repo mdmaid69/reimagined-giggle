@@ -1,6 +1,10 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+print(os.getcwd())
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
