@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def is_odd(n):
+        return n % 2 != 0
