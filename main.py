@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_array_as_bytearray(array):
+        return bytearray(array)
