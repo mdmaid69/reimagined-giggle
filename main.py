@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
