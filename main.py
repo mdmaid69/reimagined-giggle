@@ -1,4 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
