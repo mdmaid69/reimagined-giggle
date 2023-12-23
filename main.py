@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_user_dict():
+        return collections.UserDict()
