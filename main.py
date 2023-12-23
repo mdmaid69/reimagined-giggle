@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
