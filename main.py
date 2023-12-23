@@ -1,8 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
