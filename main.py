@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
