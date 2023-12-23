@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
