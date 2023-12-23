@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
