@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_sine(x):
+        return math.sin(x)
