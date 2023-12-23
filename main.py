@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_factorial(n):
+        return math.factorial(n)
