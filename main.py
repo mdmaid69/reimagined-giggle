@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_speed(distance, time):
-        return distance / time
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
