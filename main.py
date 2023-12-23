@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
