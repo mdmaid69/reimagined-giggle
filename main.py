@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
