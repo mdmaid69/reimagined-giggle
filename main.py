@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
