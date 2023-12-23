@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
