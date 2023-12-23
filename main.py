@@ -1,6 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import platform
+def get_os_info():
+        return platform.uname()
