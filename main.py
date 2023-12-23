@@ -1,4 +1,8 @@
-  def convert_to_hex(n):
-        return hex(n)
-def square_number(x):
-        return x**2
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_as_list(array):
+        return list(array)
