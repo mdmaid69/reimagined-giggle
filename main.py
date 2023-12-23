@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
