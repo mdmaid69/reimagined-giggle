@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def reverse_list(lst):
+        return lst[::-1]
