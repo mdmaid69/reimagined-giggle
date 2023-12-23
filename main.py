@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_counter():
-        return collections.Counter()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
