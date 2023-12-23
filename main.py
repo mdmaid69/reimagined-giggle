@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
