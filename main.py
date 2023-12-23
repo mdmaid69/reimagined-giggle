@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
