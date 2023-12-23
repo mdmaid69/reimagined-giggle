@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
