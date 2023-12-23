@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
