@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
