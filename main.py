@@ -1,7 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
