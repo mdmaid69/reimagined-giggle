@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
