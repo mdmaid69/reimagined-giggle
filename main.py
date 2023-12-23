@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import array
-def reverse_array(array):
-        array.reverse()
-def greet(name):
-        print(f"Hello, {name}!")
+def get_array_length(array):
+        return len(array)
