@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
