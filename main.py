@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_to_binary(n):
+        return bin(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
