@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
