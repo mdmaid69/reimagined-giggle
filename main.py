@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
