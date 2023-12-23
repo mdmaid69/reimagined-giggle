@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
