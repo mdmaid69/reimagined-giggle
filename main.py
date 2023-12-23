@@ -1,5 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
