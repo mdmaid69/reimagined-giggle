@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
