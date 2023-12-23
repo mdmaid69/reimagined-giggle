@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_item(array, i):
+        return array[i]
