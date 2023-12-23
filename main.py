@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
