@@ -1,6 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_power(work, time):
+        return work / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
