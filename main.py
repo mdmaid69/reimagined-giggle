@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
