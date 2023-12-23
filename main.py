@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
