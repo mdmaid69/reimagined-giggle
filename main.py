@@ -1,8 +1,3 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def add_numbers(a, b):
+        return a + b
+print([x**2 for x in range(10)])
