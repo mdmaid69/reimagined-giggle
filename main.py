@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def reverse_string(s):
+        return s[::-1]
