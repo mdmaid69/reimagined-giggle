@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def divide_numbers(x, y):
+        return x / y
+import os
+def remove_directory(path):
+        os.rmdir(path)
