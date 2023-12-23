@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def delete_file(file_name):
+        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
