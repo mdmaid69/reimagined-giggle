@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_power(work, time):
+        return work / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
