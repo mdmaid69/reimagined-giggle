@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def add_numbers(x, y):
+        return x + y
