@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
