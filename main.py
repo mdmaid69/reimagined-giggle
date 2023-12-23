@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
