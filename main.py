@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
