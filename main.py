@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def subtract_numbers(x, y):
+        return x - y
