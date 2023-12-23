@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
