@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
