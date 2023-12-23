@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
