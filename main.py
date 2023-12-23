@@ -1,7 +1,8 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
