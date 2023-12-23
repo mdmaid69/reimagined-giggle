@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
