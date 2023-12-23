@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
