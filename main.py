@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
