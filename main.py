@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_power(work, time):
+        return work / time
