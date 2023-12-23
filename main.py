@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def sort_list(lst):
+        return sorted(lst)
