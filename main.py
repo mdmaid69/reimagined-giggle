@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_exponential(x):
+        return math.exp(x)
