@@ -1,7 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
