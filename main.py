@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Words:", len(text.split()))
