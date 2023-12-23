@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def delete_file(file_name):
+        os.remove(file_name)
