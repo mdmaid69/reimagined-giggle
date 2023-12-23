@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
