@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
