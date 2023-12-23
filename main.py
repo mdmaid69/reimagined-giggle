@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
