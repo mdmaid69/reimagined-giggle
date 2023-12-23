@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
