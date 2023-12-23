@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
