@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_pressure(force, area):
+        return force / area
