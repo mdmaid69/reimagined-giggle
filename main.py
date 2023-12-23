@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import logging
+def log_message(message):
+        logging.info(message)
