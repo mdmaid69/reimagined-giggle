@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
