@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
