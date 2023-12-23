@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
