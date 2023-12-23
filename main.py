@@ -1,4 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sys
+  def get_python_version():
+        return sys.version
