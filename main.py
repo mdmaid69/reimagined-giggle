@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
