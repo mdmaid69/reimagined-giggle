@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_work(force, distance):
+        return force * distance
