@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
