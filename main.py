@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
