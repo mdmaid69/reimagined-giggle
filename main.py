@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
