@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+print([x**2 for x in range(10)])
