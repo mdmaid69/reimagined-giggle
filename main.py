@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
