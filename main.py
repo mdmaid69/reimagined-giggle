@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
