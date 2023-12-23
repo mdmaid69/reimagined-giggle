@@ -1,3 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-print([x**2 for x in range(10)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
