@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
