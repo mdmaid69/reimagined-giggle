@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_item(array, i):
-        return array[i]
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
