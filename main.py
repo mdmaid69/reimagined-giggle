@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
