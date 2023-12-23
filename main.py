@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
