@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_str(array):
+        return str(array)
+  def convert_to_hex(n):
+        return hex(n)
