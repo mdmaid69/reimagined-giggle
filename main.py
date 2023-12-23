@@ -1,6 +1,9 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def split_path(path):
+        return os.path.split(path)
