@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
