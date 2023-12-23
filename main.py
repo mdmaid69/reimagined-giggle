@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
