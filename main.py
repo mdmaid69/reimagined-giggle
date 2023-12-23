@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
