@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
