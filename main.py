@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
