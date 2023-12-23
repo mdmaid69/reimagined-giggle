@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
