@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  def cube_number(x):
+        return x**3
