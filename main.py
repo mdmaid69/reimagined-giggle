@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
