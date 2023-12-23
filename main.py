@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
