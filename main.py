@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
