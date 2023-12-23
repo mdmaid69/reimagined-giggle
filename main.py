@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
