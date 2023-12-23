@@ -1,6 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
