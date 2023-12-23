@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_power(work, time):
+        return work / time
