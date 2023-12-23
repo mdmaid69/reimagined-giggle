@@ -1,8 +1,7 @@
-import json
-def load_json(filename):
+import csv
+def read_csv_file(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
