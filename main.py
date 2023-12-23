@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
