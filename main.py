@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def cube_number(x):
-        return x**3
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import platform
+def get_os_info():
+        return platform.uname()
