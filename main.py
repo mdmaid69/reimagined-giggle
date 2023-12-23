@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
