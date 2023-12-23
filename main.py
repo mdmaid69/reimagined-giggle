@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def find_min(lst):
+        return min(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
