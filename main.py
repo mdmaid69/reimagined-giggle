@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def is_odd(n):
+        return n % 2 != 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
