@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def reverse_array(array):
+        array.reverse()
