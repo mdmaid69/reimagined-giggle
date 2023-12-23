@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
