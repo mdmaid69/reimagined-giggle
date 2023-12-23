@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
