@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 x = 10
 y = 20
 print("Sum:", x + y)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
