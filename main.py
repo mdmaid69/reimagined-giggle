@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
