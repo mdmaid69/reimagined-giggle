@@ -1,8 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
