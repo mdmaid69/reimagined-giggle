@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
