@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
