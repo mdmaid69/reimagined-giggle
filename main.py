@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import platform
+def get_python_version():
+        return platform.python_version()
