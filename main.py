@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
