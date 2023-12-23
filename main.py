@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def square_number(x):
+        return x**2
+name = "Python"
+print("Hello,", name)
