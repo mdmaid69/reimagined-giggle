@@ -1,8 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
