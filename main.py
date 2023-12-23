@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_typecode(array):
+        return array.typecode
