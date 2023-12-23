@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_user_list():
-        return collections.UserList()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
