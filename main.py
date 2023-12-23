@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
