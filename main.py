@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
