@@ -1,8 +1,11 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
