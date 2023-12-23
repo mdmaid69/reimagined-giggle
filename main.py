@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_volume(length, width, height):
+        return length * width * height
