@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
