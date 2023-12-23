@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
