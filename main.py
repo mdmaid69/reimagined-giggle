@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def add_numbers(x, y):
+        return x + y
