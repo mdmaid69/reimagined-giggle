@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import time
-print(time.time())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+for i in range(5):
+        print(i)
