@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
