@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
