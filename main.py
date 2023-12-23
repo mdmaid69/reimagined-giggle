@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
