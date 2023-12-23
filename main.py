@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
