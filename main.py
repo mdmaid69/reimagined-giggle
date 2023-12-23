@@ -1,5 +1,6 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def is_palindrome(s):
-        return s == s[::-1]
+def iterate_over_array(array):
+        for item in array:
+        print(item)
