@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
