@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def remove_directory(path):
+        os.rmdir(path)
