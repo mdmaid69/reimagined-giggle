@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+for i in range(10): print(i)
