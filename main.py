@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
