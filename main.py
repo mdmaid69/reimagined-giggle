@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
