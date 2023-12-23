@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
