@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
