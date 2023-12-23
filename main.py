@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import time
+def get_current_time():
+        return time.time()
