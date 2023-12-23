@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
