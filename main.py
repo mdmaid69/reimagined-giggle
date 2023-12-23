@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_list_from_array(array):
+        return array.tolist()
+  def subtract_numbers(x, y):
+        return x - y
