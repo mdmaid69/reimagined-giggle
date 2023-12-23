@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
