@@ -1,8 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
