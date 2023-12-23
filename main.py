@@ -1,7 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_current_directory():
+        return os.getcwd()
