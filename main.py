@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
