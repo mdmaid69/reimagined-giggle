@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
