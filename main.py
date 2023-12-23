@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
+  def sort_list(lst):
+        return sorted(lst)
