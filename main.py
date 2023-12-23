@@ -1,5 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
