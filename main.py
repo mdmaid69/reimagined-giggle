@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
