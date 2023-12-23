@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_string():
+        return collections.UserString()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
