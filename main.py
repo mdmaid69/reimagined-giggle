@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
