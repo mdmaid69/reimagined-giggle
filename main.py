@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
