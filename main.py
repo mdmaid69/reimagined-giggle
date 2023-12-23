@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_min(numbers):
+        return min(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
