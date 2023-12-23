@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def clear_array(array):
-        array *= 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
