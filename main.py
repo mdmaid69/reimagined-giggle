@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
