@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+for i in range(5):
+        print(i)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
