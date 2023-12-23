@@ -1,5 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
