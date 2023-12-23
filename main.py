@@ -1,5 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
