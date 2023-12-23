@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
