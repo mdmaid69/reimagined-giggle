@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
