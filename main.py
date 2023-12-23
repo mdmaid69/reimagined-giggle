@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+print([x**2 for x in range(10)])
+import sys
+def print_python_version():
+        print(sys.version)
