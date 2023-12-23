@@ -1,7 +1,8 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
