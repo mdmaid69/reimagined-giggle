@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
