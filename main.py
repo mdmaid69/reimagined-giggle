@@ -1,12 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
