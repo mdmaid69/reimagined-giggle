@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
