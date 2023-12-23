@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def print_python_version():
+        return sys.version
