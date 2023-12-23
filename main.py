@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
