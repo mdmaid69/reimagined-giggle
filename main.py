@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import numpy as np
+print(np.array([1, 2, 3]))
