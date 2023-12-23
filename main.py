@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+for i in range(10): print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
