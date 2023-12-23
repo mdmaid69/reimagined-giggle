@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def remove_from_array(array, item):
+        array.remove(item)
