@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
