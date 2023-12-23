@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
