@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
