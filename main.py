@@ -1,10 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
