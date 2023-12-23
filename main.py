@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def is_odd(n):
-        return n % 2 != 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
