@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-for i in range(5):
-        print(i)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Words:", len(text.split()))
