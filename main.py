@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
