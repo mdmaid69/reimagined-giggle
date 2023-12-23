@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
