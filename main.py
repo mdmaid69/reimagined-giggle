@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
