@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
