@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
