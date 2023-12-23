@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
