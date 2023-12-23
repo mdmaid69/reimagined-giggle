@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
