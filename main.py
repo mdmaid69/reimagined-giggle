@@ -1,6 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
