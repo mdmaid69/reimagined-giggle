@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
