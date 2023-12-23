@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
