@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
