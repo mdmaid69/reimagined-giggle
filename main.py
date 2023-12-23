@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
