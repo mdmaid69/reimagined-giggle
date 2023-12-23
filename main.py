@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
