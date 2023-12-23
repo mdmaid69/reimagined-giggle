@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
