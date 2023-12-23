@@ -1,5 +1,10 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
