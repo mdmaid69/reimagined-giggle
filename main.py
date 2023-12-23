@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_list_from_array(array):
+        return array.tolist()
