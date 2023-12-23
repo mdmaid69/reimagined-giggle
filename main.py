@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def is_even(n):
-        return n % 2 == 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
