@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
