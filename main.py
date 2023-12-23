@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
