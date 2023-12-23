@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
