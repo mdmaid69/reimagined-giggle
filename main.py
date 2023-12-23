@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
