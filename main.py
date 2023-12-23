@@ -1,5 +1,9 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
