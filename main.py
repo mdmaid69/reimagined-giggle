@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
+def multiply_numbers(x, y):
+        return x * y
