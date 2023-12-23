@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
