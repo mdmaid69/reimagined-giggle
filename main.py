@@ -1,5 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-print(random.randint(0, 100))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_sine(x):
+        return math.sin(x)
