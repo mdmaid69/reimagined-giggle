@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
