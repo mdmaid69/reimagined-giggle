@@ -1,6 +1,10 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
