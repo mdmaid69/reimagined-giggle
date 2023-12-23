@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def clear_array(array):
+        array *= 0
