@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
