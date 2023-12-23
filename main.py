@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
