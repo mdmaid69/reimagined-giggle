@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
