@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_current_directory():
+        return os.getcwd()
