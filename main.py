@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+print(random.randint(0, 100))
