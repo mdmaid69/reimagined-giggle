@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
