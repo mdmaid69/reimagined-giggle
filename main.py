@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def count_elements(lst):
+        return len(lst)
