@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
