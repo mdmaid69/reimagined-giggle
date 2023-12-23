@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_area_rectangle(l, w):
-        return l * w
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
