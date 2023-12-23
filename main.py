@@ -1,6 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
