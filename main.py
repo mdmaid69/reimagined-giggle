@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
