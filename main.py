@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
