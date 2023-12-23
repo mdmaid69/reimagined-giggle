@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
