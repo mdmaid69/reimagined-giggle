@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
