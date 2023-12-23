@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
