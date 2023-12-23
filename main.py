@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def clear_array(array):
+        array *= 0
