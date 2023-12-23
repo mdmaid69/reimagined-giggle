@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_length(array):
+        return len(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
