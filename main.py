@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
