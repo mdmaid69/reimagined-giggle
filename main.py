@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def check_if_array_contains_item(array, item):
+        return item in array
