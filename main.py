@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
