@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
