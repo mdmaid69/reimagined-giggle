@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
