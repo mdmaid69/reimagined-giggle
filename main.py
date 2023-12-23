@@ -1,5 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def divide_numbers(x, y):
-        return x / y
+def calculate_combinations(n, k):
+        return math.comb(n, k)
