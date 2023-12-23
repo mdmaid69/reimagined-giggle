@@ -1,7 +1,11 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
