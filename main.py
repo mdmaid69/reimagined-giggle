@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
