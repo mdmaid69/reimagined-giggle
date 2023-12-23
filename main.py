@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
