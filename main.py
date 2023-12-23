@@ -1,5 +1,9 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
