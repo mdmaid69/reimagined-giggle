@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
