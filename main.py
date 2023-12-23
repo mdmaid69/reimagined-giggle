@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
