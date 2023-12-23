@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import sys
-def print_python_version():
-        print(sys.version)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
