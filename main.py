@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
