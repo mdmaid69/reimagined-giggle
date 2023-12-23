@@ -1,4 +1,8 @@
-import random
-print(random.randint(0, 100))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
