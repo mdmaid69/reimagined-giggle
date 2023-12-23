@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
