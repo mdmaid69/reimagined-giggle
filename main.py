@@ -1,5 +1,10 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def sort_list(lst):
-        return sorted(lst)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
