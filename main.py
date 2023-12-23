@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def reverse_string(s):
+        return s[::-1]
+def find_max(lst):
+        return max(lst)
