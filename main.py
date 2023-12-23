@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
