@@ -1,5 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
