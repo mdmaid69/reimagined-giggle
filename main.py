@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
