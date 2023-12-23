@@ -1,6 +1,3 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import random
-def roll_die():
-        return random.randint(1, 6)
+print(sum(range(10)))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
