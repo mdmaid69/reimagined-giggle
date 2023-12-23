@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def greet(name):
+        print(f"Hello, {name}!")
