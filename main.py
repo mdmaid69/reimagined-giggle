@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def square_number(x):
-        return x**2
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
