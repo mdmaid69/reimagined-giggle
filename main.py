@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def convert_to_hex(n):
+        return hex(n)
+def remove_duplicates(lst):
+        return list(set(lst))
