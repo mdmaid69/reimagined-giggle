@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def convert_to_octal(n):
+        return oct(n)
