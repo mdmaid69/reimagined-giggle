@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
