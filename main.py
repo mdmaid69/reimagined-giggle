@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import os
+print(os.getcwd())
