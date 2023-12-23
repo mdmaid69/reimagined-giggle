@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
