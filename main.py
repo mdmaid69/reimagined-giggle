@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def count_characters(sentence):
+        return len(sentence)
