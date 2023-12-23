@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def square_number(x):
-        return x**2
+def reverse_string(s):
+        return s[::-1]
+  def sort_list(lst):
+        return sorted(lst)
