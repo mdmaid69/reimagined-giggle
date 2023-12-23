@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
