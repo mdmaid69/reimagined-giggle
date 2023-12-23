@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
