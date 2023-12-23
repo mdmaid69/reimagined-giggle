@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
