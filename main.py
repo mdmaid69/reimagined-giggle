@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
