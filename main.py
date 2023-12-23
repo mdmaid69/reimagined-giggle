@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
