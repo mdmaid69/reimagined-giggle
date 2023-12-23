@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_as_str(array):
+        return str(array)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
