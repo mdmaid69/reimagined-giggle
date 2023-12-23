@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def convert_to_hex(n):
+        return hex(n)
