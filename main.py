@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def cube_number(x):
+        return x**3
