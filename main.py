@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
