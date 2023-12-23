@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
