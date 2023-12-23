@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
