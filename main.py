@@ -1,9 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_user_string():
+        return collections.UserString()
