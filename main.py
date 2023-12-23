@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def convert_array_to_list(array):
+        return array.tolist()
