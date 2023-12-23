@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def convert_to_octal(n):
+        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
