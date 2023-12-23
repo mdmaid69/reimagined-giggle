@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_area_circle(r):
+        return 3.14 * r**2
