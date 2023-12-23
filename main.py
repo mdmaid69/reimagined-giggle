@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def convert_to_octal(n):
+        return oct(n)
