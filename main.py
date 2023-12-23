@@ -1,6 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
