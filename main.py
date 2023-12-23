@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
