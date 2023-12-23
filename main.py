@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
