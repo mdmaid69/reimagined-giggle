@@ -1,7 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
