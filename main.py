@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def multiply_numbers(x, y):
+        return x * y
+  def sort_list(lst):
+        return sorted(lst)
