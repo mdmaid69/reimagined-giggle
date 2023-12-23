@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
