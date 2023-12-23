@@ -1,12 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
