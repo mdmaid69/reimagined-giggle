@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
