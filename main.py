@@ -1,5 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
