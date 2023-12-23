@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
