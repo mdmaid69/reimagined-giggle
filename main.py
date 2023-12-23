@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
