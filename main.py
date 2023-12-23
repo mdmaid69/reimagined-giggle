@@ -1,5 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
