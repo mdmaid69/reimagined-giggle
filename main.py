@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_power(work, time):
+        return work / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
