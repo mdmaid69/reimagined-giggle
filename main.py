@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def count_words(sentence):
+        return len(sentence.split())
