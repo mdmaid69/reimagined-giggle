@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import platform
+def get_os_info():
+        return platform.uname()
+import numpy as np
+print(np.array([1, 2, 3]))
