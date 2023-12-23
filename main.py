@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import logging
+def log_message(message):
+        logging.info(message)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
