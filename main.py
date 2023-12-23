@@ -1,7 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
