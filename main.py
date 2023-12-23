@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_odd(n):
-        return n % 2 != 0
+def get_file_size(filename):
+        return os.path.getsize(filename)
