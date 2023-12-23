@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_acceleration(speed, time):
+        return speed / time
