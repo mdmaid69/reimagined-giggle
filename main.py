@@ -1,5 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
