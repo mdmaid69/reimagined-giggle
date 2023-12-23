@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
