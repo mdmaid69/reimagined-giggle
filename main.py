@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def cube_number(x):
+        return x**3
