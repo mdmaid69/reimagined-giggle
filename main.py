@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
