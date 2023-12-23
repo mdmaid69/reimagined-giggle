@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
