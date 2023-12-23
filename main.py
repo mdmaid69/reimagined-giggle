@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
