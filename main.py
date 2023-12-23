@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def multiply_numbers(x, y):
+        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
