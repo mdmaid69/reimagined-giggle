@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_priority_queue():
+        return collections.deque()
