@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
