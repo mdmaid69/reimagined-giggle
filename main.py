@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
