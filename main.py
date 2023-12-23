@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def is_even(n):
+        return n % 2 == 0
