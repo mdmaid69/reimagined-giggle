@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def set_array_item(array, i, item):
+        array[i] = item
