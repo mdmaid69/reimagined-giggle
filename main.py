@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+for i in range(10): print(i)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
