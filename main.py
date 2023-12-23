@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def find_min(numbers):
+        return min(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
