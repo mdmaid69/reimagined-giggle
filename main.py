@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_power(work, time):
+        return work / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
