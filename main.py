@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
