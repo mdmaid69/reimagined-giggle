@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
