@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
