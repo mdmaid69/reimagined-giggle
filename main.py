@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import datetime
+print(datetime.datetime.now())
