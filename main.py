@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import json
+print(json.dumps({"name": "John", "age": 30}))
