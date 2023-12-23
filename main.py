@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def find_max(numbers):
-        return max(numbers)
+def calculate_speed(distance, time):
+        return distance / time
+def is_odd(n):
+        return n % 2 != 0
