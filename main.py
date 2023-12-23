@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_length(array):
+        return len(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
