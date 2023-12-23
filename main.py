@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
