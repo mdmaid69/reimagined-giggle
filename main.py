@@ -1,5 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
