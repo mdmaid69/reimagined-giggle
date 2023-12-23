@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
