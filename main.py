@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import random
-print(random.randint(0, 100))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_max(lst):
+        return max(lst)
