@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
