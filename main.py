@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_as_str(array):
+        return str(array)
