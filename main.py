@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def remove_duplicates(lst):
-        return list(set(lst))
+  def calculate_area_rectangle(l, w):
+        return l * w
+def reverse_string(s):
+        return s[::-1]
