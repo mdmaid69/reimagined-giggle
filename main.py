@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def is_even(n):
-        return n % 2 == 0
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
