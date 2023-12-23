@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def multiply_numbers(x, y):
+        return x * y
