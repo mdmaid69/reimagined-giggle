@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def convert_to_octal(n):
-        return oct(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
