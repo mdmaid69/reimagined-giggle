@@ -1,7 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
