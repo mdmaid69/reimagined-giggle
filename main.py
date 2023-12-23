@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_item(array, i):
-        return array[i]
-def add_numbers(a, b):
-        return a + b
+def append_to_array(array, item):
+        array.append(item)
