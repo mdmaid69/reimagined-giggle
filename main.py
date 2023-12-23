@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-import datetime
-print(datetime.datetime.now())
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
