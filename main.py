@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
