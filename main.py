@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
