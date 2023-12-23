@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def divide_numbers(x, y):
+        return x / y
+def calculate_volume(length, width, height):
+        return length * width * height
