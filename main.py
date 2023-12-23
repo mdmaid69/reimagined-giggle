@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
