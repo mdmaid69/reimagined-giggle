@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
