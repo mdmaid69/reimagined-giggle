@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def is_odd(n):
+        return n % 2 != 0
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
