@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_tangent(x):
+        return math.tan(x)
