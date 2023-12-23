@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def is_odd(n):
-        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
