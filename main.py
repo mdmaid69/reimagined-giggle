@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
