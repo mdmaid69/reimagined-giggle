@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
