@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
