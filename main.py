@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_binary(n):
-        return bin(n)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
