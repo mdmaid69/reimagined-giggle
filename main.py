@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
