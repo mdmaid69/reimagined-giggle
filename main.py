@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_power(work, time):
+        return work / time
