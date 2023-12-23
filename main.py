@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_hex(n):
-        return hex(n)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
