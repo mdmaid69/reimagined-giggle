@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
