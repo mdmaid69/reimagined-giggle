@@ -1,6 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
