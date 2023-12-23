@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import collections
-def create_counter():
-        return collections.Counter()
-def count_elements(lst):
-        return len(lst)
+def create_ordered_dict():
+        return collections.OrderedDict()
