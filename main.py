@@ -1,4 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-for i in range(10): print(i)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def reverse_string(s):
+        return s[::-1]
