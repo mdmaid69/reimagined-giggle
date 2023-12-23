@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
