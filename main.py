@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def reverse_list(lst):
-        return lst[::-1]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def count_words(sentence):
+        return len(sentence.split())
