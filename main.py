@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import logging
-def log_message(message):
-        logging.info(message)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
