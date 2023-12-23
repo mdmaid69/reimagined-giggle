@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_error_function(x):
+        return math.erf(x)
