@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def is_odd(n):
-        return n % 2 != 0
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
