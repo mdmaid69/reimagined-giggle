@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(x, y):
-        return x + y
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import datetime
+print(datetime.datetime.now())
