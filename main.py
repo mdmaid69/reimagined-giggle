@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
