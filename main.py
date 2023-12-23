@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
