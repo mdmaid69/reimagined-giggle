@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
