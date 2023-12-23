@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
