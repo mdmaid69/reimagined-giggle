@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
