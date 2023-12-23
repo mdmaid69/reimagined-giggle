@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def count_words(sentence):
+        return len(sentence.split())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
