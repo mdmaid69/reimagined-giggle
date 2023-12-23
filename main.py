@@ -1,6 +1,11 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
