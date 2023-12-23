@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import platform
-def get_os_info():
-        return platform.uname()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
