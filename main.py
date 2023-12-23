@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
