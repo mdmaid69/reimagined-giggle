@@ -1,5 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Characters:", len(text))
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def add_numbers(x, y):
+        return x + y
