@@ -1,5 +1,7 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
