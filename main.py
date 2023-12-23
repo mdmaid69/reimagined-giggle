@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def multiply_numbers(x, y):
-        return x * y
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
