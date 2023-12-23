@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def cube_number(x):
-        return x**3
+import collections
+def create_stack():
+        return collections.deque()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
