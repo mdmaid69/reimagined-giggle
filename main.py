@@ -1,7 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
