@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def cube_number(x):
-        return x**3
+  def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
