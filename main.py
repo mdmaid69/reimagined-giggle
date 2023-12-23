@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_volume(length, width, height):
+        return length * width * height
