@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-for i in range(5):
-        print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
