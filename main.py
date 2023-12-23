@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_acceleration(speed, time):
+        return speed / time
