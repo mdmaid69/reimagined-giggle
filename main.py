@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
