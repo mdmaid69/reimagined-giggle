@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_binary(n):
+        return bin(n)
