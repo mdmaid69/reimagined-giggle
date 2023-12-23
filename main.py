@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
