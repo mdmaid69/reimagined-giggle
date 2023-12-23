@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
