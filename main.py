@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
