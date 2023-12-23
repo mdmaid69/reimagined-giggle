@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
