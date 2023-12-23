@@ -1,8 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_frozenset(array):
+        return frozenset(array)
