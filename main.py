@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
