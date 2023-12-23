@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
