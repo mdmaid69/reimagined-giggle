@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
