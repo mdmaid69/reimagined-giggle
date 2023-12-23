@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
