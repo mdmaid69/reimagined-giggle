@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
