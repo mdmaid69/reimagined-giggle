@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
