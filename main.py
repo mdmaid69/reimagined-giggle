@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def is_palindrome(s):
+        return s == s[::-1]
+def sort_list(lst):
+        return sorted(lst)
