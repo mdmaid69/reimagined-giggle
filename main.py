@@ -1,7 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def divide_numbers(x, y):
+        return x / y
