@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def add_numbers(x, y):
+        return x + y
