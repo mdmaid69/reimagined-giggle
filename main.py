@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
