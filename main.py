@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
