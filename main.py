@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
