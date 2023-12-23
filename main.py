@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_set(array):
+        return set(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
