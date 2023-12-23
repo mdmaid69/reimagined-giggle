@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def get_time_since_epoch():
+        return time.time()
