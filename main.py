@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
