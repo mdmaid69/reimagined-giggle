@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import getpass
+def get_username():
+        return getpass.getuser()
