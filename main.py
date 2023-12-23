@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def cube_number(x):
-        return x**3
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
