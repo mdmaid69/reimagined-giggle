@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
