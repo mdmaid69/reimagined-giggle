@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
