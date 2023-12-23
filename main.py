@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
