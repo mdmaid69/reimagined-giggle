@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
