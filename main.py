@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+def add_numbers(x, y):
+        return x + y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
