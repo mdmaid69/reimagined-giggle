@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
