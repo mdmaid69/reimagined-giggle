@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def count_elements(lst):
-        return len(lst)
+def get_array_as_frozenset(array):
+        return frozenset(array)
