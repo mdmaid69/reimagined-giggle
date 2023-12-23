@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
