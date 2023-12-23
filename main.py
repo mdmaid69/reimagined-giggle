@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
