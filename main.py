@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
