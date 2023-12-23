@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
