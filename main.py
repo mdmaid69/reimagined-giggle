@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
