@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def sort_list(lst):
+        return sorted(lst)
