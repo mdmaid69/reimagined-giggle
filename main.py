@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
