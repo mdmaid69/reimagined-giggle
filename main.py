@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
