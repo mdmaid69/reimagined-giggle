@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
