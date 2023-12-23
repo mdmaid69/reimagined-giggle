@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
