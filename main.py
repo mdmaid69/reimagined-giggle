@@ -1,6 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
