@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_user_list():
+        return collections.UserList()
