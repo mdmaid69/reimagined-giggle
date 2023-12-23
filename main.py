@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def square_number(x):
+        return x**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
