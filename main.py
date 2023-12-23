@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
