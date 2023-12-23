@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
