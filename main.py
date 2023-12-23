@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
