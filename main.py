@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+text = "Hello, world!"
+print("Characters:", len(text))
