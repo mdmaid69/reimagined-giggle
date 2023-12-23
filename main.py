@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
