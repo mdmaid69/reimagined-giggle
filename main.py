@@ -1,9 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_string():
+        return collections.UserString()
