@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
