@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
