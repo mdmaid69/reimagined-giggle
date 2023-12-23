@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Words:", len(text.split()))
