@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
