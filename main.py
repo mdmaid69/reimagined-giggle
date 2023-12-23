@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
