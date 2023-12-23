@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
