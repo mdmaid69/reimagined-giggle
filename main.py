@@ -1,5 +1,3 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import sys
-print(sys.version)
+print([x**2 for x in range(10)])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
