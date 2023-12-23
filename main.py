@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import random
+print(random.randint(0, 100))
