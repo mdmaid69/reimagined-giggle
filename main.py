@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
