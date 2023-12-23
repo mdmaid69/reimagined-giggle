@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_exponential(x):
+        return math.exp(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
