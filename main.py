@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def cube_number(x):
-        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
