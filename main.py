@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
