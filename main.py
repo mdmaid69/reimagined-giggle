@@ -1,7 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
