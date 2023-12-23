@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
