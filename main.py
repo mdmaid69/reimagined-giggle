@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
