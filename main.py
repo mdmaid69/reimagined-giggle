@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
