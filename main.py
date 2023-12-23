@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
