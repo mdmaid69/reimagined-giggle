@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+print(random.randint(0, 100))
+import array
+def get_array_as_int(array):
+        return int(array[0])
