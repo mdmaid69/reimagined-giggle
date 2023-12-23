@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
