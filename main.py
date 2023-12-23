@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def remove_duplicates(lst):
+        return list(set(lst))
