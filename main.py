@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+print(json.dumps({"name": "John", "age": 30}))
