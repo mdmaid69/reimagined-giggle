@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
