@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-print(random.randint(0, 100))
+import time
+print(time.time())
+def convert_to_hex(n):
+        return hex(n)
