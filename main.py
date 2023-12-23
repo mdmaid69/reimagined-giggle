@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def square_number(x):
-        return x**2
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
