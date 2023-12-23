@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_float(array):
+        return float(array[0])
