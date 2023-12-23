@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
