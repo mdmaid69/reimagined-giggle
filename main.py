@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
