@@ -1,5 +1,9 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_max(numbers):
-        return max(numbers)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
