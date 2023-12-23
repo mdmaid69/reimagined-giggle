@@ -1,5 +1,12 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import sys
+def exit_program():
+        sys.exit()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
