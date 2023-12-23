@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
