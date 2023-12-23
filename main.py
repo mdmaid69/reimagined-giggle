@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
