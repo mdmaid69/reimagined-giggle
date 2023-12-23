@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
