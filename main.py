@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_current_working_directory():
+        return os.getcwd()
