@@ -1,4 +1,7 @@
-print(sum(range(10)))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
