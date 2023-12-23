@@ -1,6 +1,3 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import os
-def remove_directory(path):
-        os.rmdir(path)
+print([x**2 for x in range(10)])
+def calculate_volume(length, width, height):
+        return length * width * height
