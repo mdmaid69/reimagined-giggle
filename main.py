@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_pressure(force, area):
-        return force / area
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_power(work, time):
+        return work / time
