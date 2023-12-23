@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
