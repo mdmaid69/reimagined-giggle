@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
