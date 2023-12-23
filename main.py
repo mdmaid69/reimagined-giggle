@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
