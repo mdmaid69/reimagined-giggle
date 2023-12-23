@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_combinations(n, k):
+        return math.comb(n, k)
