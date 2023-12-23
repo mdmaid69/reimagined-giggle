@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_union(list1, list2):
+        return set(list1) | set(list2)
