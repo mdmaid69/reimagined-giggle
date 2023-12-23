@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import platform
+def get_os_info():
+        return platform.uname()
