@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
