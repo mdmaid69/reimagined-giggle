@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
