@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def sort_list(lst):
+        return sorted(lst)
