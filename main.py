@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
