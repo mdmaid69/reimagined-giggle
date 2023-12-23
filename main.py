@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
