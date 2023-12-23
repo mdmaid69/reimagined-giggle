@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+for i in range(5):
+        print(i)
