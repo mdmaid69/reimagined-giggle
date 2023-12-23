@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
