@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import time
+def get_time_since_epoch():
+        return time.time()
+import numpy as np
+print(np.array([1, 2, 3]))
