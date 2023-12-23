@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
