@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
