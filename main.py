@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
