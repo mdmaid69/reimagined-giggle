@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+for i in range(10): print(i)
