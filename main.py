@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
