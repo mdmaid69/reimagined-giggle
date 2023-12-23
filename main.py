@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
