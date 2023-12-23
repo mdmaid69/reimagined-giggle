@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
