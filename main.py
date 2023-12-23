@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
