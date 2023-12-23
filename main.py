@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
