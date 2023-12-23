@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def is_even(n):
-        return n % 2 == 0
+def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
