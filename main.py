@@ -1,6 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
