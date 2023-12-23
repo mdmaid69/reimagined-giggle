@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
