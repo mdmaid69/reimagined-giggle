@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
