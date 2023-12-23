@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def divide_numbers(x, y):
+        return x / y
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
