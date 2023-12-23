@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
