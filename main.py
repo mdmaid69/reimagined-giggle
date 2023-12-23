@@ -1,6 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
