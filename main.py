@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
