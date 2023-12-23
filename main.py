@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
