@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
