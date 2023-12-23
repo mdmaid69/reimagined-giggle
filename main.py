@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
