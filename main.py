@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
