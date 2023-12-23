@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
