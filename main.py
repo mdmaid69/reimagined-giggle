@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+x = 10
+y = 20
+print("Sum:", x + y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
