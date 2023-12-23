@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
