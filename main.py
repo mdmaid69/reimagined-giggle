@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import logging
+def log_message(message):
+        logging.info(message)
