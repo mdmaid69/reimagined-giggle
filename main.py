@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_list(array):
+        return list(array)
