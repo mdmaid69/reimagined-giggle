@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def is_palindrome(s):
+        return s == s[::-1]
