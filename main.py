@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
