@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  def convert_to_hex(n):
+        return hex(n)
