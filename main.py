@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
