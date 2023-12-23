@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
