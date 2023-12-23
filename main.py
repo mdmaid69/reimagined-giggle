@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
