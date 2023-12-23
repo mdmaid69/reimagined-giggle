@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import platform
-def get_os_info():
-        return platform.uname()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
