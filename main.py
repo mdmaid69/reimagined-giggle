@@ -1,9 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
