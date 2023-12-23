@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
