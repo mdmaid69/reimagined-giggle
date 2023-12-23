@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def reverse_string(s):
-        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
