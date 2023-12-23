@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
