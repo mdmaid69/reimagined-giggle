@@ -1,6 +1,12 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
