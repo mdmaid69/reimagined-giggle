@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print([x**2 for x in range(10)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
