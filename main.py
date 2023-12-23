@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+print(math.pi)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
