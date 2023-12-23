@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
