@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def subtract_numbers(x, y):
+        return x - y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
