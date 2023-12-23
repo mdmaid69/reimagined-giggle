@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_speed(distance, time):
-        return distance / time
+  def add_numbers(x, y):
+        return x + y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
