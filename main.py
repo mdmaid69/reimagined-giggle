@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
