@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
