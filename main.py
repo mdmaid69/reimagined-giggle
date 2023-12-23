@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import numpy as np
+print(np.array([1, 2, 3]))
