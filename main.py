@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
