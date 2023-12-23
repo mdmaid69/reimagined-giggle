@@ -1,7 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
