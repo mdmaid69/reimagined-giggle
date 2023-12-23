@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
