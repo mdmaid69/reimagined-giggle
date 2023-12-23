@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
