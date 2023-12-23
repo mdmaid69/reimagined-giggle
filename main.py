@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
