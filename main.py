@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def set_array_item(array, i, item):
+        array[i] = item
