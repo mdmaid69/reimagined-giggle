@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
