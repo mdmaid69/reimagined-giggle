@@ -1,6 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
