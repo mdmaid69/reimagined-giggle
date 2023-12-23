@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
