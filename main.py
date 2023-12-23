@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
