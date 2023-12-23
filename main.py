@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def convert_to_octal(n):
+        return oct(n)
