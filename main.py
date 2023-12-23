@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def convert_to_json(data):
+        return json.dumps(data)
