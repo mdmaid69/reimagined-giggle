@@ -1,9 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
