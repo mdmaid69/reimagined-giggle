@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_float(array):
+        return float(array[0])
