@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
