@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
