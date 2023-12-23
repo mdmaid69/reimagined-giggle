@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
