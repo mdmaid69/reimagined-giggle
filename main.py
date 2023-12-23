@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
