@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
