@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
