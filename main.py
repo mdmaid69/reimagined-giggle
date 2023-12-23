@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
+def convert_to_binary(n):
         return bin(n)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
