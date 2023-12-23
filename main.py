@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def square_number(x):
+        return x**2
+def multiply_numbers(x, y):
+        return x * y
