@@ -1,6 +1,10 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import platform
-def get_python_version():
-        return platform.python_version()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
