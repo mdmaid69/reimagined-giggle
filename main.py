@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
