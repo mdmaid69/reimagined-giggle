@@ -1,8 +1,8 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
