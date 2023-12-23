@@ -1,7 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
