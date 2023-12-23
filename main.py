@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
