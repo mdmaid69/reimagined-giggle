@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import getpass
+def get_username():
+        return getpass.getuser()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
