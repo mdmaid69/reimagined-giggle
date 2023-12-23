@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
