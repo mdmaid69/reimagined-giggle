@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
