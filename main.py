@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
