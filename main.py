@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import sys
+print(sys.version)
