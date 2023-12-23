@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
