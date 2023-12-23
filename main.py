@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
