@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+for i in range(10): print(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
