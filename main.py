@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
