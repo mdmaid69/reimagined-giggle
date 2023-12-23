@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def square_number(x):
-        return x**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def is_even(n):
+        return n % 2 == 0
