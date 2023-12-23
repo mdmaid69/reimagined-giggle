@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def is_odd(n):
+        return n % 2 != 0
