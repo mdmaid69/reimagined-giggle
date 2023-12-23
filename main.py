@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+print(sum(range(10)))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
