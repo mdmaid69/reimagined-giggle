@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
