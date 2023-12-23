@@ -1,9 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_density(mass, volume):
+        return mass / volume
