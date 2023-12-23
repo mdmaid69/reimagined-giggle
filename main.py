@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_string_from_array(array):
+        return array.tobytes()
