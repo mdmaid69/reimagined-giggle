@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
