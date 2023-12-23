@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
