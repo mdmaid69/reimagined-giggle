@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
