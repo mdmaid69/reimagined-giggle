@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
