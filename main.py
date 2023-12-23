@@ -1,5 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
