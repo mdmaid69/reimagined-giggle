@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+for i in range(5):
+        print(i)
