@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
