@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def reverse_list(lst):
+        return lst[::-1]
