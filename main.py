@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
