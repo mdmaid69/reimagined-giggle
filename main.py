@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
