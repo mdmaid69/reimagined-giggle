@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
