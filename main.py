@@ -1,5 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_arc_sine(x):
+        return math.asin(x)
