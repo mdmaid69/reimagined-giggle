@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
