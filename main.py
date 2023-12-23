@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def set_array_item(array, i, item):
+        array[i] = item
