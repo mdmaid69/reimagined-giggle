@@ -1,5 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
