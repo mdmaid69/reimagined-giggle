@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
