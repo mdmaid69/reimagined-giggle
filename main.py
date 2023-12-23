@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
