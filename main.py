@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
