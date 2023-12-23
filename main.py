@@ -1,6 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_list_from_array(array):
+        return array.tolist()
