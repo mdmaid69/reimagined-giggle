@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import os
-print(os.getcwd())
+def find_max(lst):
+        return max(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
