@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
