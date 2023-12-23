@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
