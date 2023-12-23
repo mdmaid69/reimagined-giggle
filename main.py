@@ -1,6 +1,9 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
