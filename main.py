@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
