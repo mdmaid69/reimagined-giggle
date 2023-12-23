@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def subtract_numbers(x, y):
+        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
