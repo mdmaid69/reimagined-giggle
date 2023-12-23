@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
