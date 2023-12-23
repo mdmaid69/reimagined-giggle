@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
