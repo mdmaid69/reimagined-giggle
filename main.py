@@ -1,6 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
   import time
   def wait_for_seconds(seconds):
         time.sleep(seconds)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
