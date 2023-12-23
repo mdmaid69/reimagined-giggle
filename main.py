@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
