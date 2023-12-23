@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
