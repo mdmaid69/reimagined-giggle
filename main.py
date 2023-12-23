@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
