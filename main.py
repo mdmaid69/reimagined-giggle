@@ -1,5 +1,12 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_priority_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
