@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def reverse_string(s):
-        return s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
