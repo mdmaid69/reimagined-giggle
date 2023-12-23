@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
