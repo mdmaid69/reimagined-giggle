@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
