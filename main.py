@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
