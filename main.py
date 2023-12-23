@@ -1,4 +1,10 @@
-def find_min(lst):
-        return min(lst)
-def square_number(x):
-        return x**2
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
