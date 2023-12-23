@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
