@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
