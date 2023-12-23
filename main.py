@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_array_to_string(array):
+        return array.tostring()
