@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
