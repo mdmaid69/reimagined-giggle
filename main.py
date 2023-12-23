@@ -1,6 +1,5 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
