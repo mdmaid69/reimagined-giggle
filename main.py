@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import time
+def get_current_time():
+        return time.ctime()
