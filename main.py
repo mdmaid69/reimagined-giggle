@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
