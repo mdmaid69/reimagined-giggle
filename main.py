@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
