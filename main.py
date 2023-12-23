@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
