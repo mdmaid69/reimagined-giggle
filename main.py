@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
