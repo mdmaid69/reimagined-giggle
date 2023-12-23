@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
