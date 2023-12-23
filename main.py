@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
