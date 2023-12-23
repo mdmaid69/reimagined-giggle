@@ -1,3 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-print(sum(range(10)))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
