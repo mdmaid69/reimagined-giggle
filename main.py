@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+print(sum(range(10)))
