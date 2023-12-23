@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import time
+def get_current_time():
+        return time.time()
