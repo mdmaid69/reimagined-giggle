@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_counter():
+        return collections.Counter()
+def sort_list(lst):
+        return sorted(lst)
