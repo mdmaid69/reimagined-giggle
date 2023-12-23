@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
