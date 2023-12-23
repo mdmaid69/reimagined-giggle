@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
