@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
