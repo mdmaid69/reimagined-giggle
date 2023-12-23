@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
