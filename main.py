@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
