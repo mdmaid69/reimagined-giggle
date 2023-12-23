@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
