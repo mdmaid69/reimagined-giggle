@@ -1,8 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import sys
+print(sys.version)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
