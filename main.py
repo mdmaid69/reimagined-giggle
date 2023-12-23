@@ -1,5 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
