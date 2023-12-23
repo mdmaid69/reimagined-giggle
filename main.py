@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
