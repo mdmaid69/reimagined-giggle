@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
