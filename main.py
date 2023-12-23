@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
