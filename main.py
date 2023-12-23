@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
