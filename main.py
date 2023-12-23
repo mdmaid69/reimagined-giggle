@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+x = 10
+y = 20
+print("Sum:", x + y)
