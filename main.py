@@ -1,9 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def insert_into_array(array, i, item):
+        array.insert(i, item)
