@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
