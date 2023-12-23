@@ -1,6 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
