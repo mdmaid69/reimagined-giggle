@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
