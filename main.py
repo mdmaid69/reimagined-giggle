@@ -1,7 +1,5 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
