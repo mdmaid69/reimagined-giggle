@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
