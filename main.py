@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_counter():
+        return collections.Counter()
+  def is_odd(n):
+        return n % 2 != 0
