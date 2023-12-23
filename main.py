@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_user_string():
+        return collections.UserString()
