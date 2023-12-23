@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
+def get_bytes_from_array(array):
         return array.tobytes()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
