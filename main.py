@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
