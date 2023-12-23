@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
