@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def add_numbers(a, b):
-        return a + b
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
