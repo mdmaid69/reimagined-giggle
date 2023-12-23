@@ -1,6 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
