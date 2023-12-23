@@ -1,6 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
