@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
