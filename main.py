@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
