@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def remove_directory(path):
+        os.rmdir(path)
