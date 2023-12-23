@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def convert_to_binary(n):
+        return bin(n)
