@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
