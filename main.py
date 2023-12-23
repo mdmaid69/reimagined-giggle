@@ -1,6 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
