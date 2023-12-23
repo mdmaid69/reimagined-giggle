@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
