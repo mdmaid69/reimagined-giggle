@@ -1,6 +1,8 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
