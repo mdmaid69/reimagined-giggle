@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
