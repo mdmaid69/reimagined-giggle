@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
