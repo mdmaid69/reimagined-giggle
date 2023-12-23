@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
