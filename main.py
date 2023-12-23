@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def add_numbers(a, b):
+        return a + b
+def calculate_power(work, time):
+        return work / time
