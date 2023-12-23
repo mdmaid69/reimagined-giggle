@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
