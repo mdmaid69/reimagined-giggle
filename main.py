@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
