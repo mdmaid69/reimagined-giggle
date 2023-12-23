@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
