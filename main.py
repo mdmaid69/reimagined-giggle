@@ -1,6 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+print(random.randint(0, 100))
