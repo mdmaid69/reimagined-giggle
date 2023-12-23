@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
