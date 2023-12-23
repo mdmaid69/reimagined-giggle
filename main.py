@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
