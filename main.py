@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
