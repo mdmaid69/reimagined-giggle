@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
