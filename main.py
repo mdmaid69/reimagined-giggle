@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
