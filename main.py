@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
