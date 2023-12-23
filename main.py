@@ -1,5 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
