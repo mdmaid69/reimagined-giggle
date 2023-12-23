@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
