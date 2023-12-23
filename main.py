@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
