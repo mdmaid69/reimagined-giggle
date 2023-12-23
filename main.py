@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-print(os.getcwd())
+def calculate_pressure(force, area):
+        return force / area
+def calculate_perpetuity(payment, rate):
+        return payment / rate
