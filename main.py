@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def divide_numbers(x, y):
+        return x / y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
