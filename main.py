@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
