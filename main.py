@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_sign(x):
+        return math.copysign(1, x)
