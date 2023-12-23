@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
