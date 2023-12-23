@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
