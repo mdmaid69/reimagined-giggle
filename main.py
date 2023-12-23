@@ -1,8 +1,8 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
