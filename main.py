@@ -1,12 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
