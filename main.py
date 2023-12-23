@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def append_to_array(array, item):
+        array.append(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
