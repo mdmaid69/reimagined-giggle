@@ -1,5 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
