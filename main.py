@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
