@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_work(force, distance):
-        return force * distance
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def reverse_list(lst):
+        return lst[::-1]
