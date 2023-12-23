@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
