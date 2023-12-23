@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
