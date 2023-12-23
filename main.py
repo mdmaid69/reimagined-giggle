@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
