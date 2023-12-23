@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
