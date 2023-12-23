@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
