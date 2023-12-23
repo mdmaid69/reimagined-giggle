@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
