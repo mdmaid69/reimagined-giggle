@@ -1,4 +1,5 @@
-def is_even(n):
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def is_even(n):
         return n % 2 == 0
-  def calculate_area_circle(r):
-        return 3.14 * r**2
