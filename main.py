@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
