@@ -1,5 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print(os.getcwd())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
