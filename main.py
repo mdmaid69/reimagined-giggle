@@ -1,6 +1,8 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
