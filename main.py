@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
