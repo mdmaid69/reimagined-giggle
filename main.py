@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def remove_directory(path):
+        os.rmdir(path)
