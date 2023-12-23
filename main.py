@@ -1,4 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
