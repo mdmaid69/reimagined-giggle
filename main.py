@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def cube_number(x):
+        return x**3
