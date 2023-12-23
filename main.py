@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_max(numbers):
+        return max(numbers)
