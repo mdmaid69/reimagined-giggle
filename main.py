@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
