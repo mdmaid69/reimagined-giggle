@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_sign(x):
+        return math.copysign(1, x)
