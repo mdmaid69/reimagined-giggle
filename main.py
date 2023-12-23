@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_pressure(force, area):
+        return force / area
