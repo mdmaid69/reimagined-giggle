@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
