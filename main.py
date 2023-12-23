@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
