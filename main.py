@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
