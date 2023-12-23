@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
