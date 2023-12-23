@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
