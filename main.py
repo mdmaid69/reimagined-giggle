@@ -1,5 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
