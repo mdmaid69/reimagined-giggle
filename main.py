@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
