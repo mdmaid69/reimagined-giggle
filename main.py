@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
