@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
