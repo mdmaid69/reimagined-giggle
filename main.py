@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def add_numbers(a, b):
-        return a + b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
