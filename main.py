@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
