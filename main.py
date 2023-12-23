@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
