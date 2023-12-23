@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
