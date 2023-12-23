@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+for i in range(10): print(i)
