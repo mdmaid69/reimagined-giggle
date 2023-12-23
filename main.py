@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
