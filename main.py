@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
