@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_area_rectangle(l, w):
+        return l * w
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
