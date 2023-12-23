@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
