@@ -1,4 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-print([x**2 for x in range(10)])
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
