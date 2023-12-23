@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
