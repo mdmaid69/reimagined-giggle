@@ -1,6 +1,3 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+print(sum(range(10)))
+  def count_elements(lst):
+        return len(lst)
