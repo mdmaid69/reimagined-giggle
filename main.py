@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
