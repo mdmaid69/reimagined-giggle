@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
