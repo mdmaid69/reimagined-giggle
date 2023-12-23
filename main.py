@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def is_even(n):
+        return n % 2 == 0
+def is_even(n):
+        return n % 2 == 0
