@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
