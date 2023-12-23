@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
