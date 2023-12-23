@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def multiply_numbers(x, y):
+        return x * y
