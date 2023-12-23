@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
