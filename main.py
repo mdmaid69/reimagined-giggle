@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
