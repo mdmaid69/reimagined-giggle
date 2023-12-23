@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
