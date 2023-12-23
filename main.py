@@ -1,5 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_absolute_value(x):
+        return math.fabs(x)
