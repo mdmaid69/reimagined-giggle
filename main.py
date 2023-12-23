@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_queue():
+        return collections.deque()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
