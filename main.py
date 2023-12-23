@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import time
-print(time.time())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
