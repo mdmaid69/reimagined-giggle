@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
