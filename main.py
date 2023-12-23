@@ -1,8 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
