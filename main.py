@@ -1,4 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-for i in range(10): print(i)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
