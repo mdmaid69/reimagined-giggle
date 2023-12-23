@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def convert_to_octal(n):
+        return oct(n)
