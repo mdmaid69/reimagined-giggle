@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
