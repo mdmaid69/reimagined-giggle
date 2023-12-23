@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
