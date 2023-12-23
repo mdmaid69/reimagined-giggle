@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+def reverse_list(lst):
+        return lst[::-1]
