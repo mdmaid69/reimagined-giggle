@@ -1,7 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
