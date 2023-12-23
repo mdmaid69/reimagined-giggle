@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
