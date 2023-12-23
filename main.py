@@ -1,5 +1,12 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
