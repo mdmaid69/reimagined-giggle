@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_directory_name(path):
+        return os.path.dirname(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
