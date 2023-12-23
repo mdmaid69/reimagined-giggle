@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+print("Average:", sum(numbers) / len(numbers))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
