@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
