@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_odd(n):
-        return n % 2 != 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
