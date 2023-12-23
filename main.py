@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def convert_to_hex(n):
+        return hex(n)
