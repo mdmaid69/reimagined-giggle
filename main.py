@@ -1,5 +1,8 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def subtract_numbers(x, y):
-        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
