@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
