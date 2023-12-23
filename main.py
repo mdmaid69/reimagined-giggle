@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import tensorflow as tf
+print(tf.__version__)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
