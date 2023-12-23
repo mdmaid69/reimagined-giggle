@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
