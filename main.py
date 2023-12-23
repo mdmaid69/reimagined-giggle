@@ -1,7 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
