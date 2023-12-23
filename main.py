@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def cube_number(x):
+        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
