@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
