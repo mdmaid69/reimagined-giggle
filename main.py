@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
