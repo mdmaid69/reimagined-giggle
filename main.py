@@ -1,5 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import tensorflow as tf
-print(tf.__version__)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+for i in range(5):
+        print(i)
