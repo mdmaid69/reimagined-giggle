@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
