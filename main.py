@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
