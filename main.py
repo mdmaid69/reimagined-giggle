@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
