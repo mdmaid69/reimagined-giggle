@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_max(numbers):
+        return max(numbers)
