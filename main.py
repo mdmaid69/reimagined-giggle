@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def greet(name):
+        print(f"Hello, {name}!")
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
