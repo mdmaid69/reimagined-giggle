@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def delete_file(file_name):
+        os.remove(file_name)
