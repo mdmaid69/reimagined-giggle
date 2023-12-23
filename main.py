@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def square_number(x):
+        return x**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
