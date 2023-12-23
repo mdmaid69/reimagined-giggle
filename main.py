@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def convert_to_octal(n):
-        return oct(n)
+  import sys
+  def get_python_version():
+        return sys.version
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
