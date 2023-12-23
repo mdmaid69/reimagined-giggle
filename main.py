@@ -1,9 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
