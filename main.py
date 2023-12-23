@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
