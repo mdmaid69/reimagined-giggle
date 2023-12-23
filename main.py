@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_list(array):
+        return list(array)
