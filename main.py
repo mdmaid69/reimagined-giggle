@@ -1,5 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_logarithm_base_e(x):
+        return math.log(x)
