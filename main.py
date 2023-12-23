@@ -1,6 +1,3 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import logging
-def log_message(message):
-        logging.info(message)
+for i in range(10): print(i)
+def subtract_numbers(x, y):
+        return x - y
