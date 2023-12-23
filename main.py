@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
