@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
