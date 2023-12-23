@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def remove_from_array(array, item):
+        array.remove(item)
