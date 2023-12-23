@@ -1,7 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
