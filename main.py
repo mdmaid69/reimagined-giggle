@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
