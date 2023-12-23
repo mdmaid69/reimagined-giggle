@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
