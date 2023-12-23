@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
