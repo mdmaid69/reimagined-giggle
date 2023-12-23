@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
