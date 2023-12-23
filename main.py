@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+x = 10
+y = 20
+print("Sum:", x + y)
