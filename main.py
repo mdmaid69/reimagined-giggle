@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_arc_sine(x):
+        return math.asin(x)
