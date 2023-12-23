@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
