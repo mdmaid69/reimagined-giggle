@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def create_user_list():
+        return collections.UserList()
