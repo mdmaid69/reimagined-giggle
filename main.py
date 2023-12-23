@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_palindrome(s):
+        return s == s[::-1]
+def find_min(lst):
+        return min(lst)
