@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def square_number(x):
+        return x**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
