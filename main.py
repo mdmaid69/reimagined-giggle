@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
