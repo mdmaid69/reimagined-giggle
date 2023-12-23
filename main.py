@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def add_numbers(a, b):
-        return a + b
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
