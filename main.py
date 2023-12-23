@@ -1,5 +1,10 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
