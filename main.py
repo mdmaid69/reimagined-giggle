@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+x = 10
+y = 20
+print("Sum:", x + y)
