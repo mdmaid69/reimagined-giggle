@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
