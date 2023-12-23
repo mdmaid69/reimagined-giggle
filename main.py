@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def convert_to_octal(n):
+        return oct(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
