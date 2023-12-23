@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sys
+print(sys.version)
