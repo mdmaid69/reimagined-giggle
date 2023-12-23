@@ -1,5 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import sys
-def print_python_version():
-        return sys.version
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
