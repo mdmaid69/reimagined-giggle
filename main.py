@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
