@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import os
+def remove_directory(path):
+        os.rmdir(path)
