@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
