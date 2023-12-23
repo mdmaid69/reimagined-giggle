@@ -1,6 +1,7 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def sort_list(lst):
+        return sorted(lst)
