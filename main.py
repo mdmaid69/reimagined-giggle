@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
