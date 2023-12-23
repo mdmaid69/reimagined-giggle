@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
