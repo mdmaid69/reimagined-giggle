@@ -1,8 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def sort_list(lst):
+        return sorted(lst)
