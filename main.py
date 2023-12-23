@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
