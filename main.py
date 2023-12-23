@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
