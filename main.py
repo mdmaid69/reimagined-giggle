@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_string_from_array(array):
+        return array.tobytes()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
