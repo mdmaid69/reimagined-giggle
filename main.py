@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_length(array):
+        return len(array)
