@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_volume(length, width, height):
+        return length * width * height
