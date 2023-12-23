@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
