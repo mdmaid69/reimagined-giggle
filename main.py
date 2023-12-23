@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_binary(n):
+        return bin(n)
