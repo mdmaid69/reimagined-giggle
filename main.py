@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
