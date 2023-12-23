@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def exit_program():
+        sys.exit()
+def is_even(n):
+        return n % 2 == 0
