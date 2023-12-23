@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
