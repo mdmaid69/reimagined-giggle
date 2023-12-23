@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
