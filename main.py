@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
