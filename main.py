@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import platform
+def get_python_version():
+        return platform.python_version()
