@@ -1,5 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_user_dict():
+        return collections.UserDict()
