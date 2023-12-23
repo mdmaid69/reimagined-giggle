@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
