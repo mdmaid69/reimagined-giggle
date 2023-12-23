@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
