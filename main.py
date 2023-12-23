@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def convert_to_octal(n):
+        return oct(n)
