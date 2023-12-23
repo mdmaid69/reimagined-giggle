@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_area_rectangle(l, w):
+        return l * w
