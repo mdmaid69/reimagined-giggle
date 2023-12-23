@@ -1,5 +1,9 @@
-def calculate_work(force, distance):
-        return force * distance
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
