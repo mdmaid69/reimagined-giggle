@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
