@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def roll_die():
-        return random.randint(1, 6)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_as_str(array):
+        return str(array)
