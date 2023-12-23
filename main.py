@@ -1,4 +1,5 @@
-print("Hello, world!")
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def create_queue():
+        return collections.deque()
+def add_numbers(x, y):
+        return x + y
