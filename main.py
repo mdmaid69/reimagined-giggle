@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  def cube_number(x):
-        return x**3
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
