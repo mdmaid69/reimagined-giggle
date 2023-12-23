@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
