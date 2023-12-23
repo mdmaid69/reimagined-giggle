@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def print_python_version():
-        print(sys.version)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
