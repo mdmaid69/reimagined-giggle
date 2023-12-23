@@ -1,5 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
