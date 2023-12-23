@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
