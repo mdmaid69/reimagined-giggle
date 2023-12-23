@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_frozenset(array):
+        return frozenset(array)
