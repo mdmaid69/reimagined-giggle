@@ -1,4 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
