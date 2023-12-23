@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def add_numbers(x, y):
+        return x + y
