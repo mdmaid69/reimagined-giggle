@@ -1,5 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
