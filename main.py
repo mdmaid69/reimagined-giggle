@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def convert_to_binary(n):
-        return bin(n)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
