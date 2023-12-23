@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
