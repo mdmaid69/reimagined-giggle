@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def square_number(x):
-        return x**2
+def find_min(lst):
+        return min(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
