@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
