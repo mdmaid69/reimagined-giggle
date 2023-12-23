@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import os
-print(os.getcwd())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
