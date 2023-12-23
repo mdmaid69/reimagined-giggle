@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
