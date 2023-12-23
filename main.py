@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
