@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
