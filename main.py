@@ -1,6 +1,8 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def split_path(path):
+        return os.path.split(path)
