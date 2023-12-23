@@ -1,5 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
