@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
