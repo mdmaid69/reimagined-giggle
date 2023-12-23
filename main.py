@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_min(lst):
+        return min(lst)
