@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
