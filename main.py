@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
