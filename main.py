@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
