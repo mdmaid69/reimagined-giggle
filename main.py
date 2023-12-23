@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
