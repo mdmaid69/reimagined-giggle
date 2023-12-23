@@ -1,5 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import re
-print(re.match("h.*o", "hello world"))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def split_string(pattern, string):
+        return re.split(pattern, string)
