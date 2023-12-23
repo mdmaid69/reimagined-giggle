@@ -1,8 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
