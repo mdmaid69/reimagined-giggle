@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
