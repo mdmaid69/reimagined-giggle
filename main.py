@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
