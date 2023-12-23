@@ -1,7 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
