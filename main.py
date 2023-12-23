@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
