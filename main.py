@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
