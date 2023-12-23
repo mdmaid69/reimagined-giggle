@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
