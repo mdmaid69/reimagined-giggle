@@ -1,6 +1,9 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import platform
-def get_python_version():
-        return platform.python_version()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
