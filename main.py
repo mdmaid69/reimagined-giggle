@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def is_even(n):
+        return n % 2 == 0
+import random
+print(random.randint(0, 100))
