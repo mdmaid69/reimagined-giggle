@@ -1,7 +1,6 @@
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def convert_array_to_unicode(array):
+        return array.tounicode()
