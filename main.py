@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
