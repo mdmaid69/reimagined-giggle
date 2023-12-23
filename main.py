@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import sys
+def print_python_version():
+        print(sys.version)
