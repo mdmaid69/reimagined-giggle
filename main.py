@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
