@@ -1,8 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def split_path(path):
+        return os.path.split(path)
