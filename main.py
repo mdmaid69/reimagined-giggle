@@ -1,8 +1,7 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
