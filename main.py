@@ -1,6 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
