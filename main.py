@@ -1,3 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-for i in range(10): print(i)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
