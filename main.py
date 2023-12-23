@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-print(re.match("h.*o", "hello world"))
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_int(array):
+        return int(array[0])
