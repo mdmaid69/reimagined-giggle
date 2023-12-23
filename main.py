@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def reverse_list(lst):
-        return lst[::-1]
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
