@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
