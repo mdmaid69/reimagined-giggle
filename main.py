@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_area_rectangle(l, w):
+        return l * w
