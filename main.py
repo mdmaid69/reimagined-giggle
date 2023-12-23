@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
