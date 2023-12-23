@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
