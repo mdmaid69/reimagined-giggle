@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-for i in range(5):
-        print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
