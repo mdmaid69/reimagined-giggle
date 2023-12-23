@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
