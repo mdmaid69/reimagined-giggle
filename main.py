@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
