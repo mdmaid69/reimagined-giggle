@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
