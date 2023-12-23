@@ -1,5 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+for i in range(5):
+        print(i)
