@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
