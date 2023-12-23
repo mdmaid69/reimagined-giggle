@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
