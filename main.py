@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
