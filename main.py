@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
