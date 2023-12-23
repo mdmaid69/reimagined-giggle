@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def count_elements(lst):
+        return len(lst)
+  def multiply_numbers(x, y):
+        return x * y
