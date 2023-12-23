@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
