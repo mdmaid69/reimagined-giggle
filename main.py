@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def add_numbers(a, b):
+        return a + b
+def calculate_power(work, time):
+        return work / time
