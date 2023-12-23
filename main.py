@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
