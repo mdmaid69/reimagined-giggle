@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_current_directory():
+        return os.getcwd()
