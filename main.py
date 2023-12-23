@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
