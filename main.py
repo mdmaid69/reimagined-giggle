@@ -1,5 +1,5 @@
+import time
+print(time.time())
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
