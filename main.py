@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
