@@ -1,5 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
