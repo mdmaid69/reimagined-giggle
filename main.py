@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_volume(length, width, height):
+        return length * width * height
+import time
+print(time.time())
