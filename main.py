@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def clear_array(array):
-        array *= 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
