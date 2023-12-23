@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
