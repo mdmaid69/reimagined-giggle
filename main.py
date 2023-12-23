@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def split_path(path):
+        return os.path.split(path)
