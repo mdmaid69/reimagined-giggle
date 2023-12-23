@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_speed(distance, time):
+        return distance / time
