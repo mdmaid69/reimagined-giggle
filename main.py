@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
