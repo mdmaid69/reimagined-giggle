@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
