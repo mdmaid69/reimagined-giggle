@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
