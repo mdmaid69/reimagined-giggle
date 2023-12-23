@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-print(datetime.datetime.now())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
