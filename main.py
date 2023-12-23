@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def is_even(n):
+        return n % 2 == 0
