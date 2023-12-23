@@ -1,11 +1,5 @@
+  def square_number(x):
+        return x**2
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
