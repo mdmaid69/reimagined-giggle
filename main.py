@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
