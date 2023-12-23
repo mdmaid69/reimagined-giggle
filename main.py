@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
