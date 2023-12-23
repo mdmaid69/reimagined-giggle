@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def add_numbers(a, b):
-        return a + b
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
