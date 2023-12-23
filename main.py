@@ -1,8 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
