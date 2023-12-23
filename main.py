@@ -1,5 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_max(numbers):
-        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
