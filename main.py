@@ -1,6 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
