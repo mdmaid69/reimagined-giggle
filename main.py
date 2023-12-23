@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def divide_numbers(x, y):
+        return x / y
