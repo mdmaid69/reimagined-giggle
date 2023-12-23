@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_power(work, time):
+        return work / time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
