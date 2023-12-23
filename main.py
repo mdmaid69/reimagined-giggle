@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
