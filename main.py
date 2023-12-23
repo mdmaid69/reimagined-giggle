@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
