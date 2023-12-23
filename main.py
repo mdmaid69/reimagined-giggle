@@ -1,6 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_rectangle(l, w):
+        return l * w
