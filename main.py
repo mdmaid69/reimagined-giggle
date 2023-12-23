@@ -1,4 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import random
+def roll_die():
+        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
