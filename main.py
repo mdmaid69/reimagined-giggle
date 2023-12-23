@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_work(force, distance):
+        return force * distance
