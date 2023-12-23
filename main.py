@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import sys
+print(sys.version)
