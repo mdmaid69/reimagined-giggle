@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def greet(name):
-        print(f"Hello, {name}!")
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
