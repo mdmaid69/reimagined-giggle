@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
