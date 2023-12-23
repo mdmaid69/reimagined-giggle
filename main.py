@@ -1,8 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
