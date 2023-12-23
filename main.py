@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+print(sum(range(10)))
