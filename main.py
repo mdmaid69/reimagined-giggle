@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
