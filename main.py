@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+print([x**2 for x in range(10)])
