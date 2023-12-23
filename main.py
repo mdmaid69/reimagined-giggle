@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
