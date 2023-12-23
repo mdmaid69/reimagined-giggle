@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def count_characters(sentence):
+        return len(sentence)
