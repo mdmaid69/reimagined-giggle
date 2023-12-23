@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
