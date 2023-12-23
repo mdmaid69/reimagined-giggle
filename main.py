@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
