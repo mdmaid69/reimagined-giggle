@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+from collections import Counter
+print(Counter("hello world"))
