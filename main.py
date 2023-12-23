@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def count_words(sentence):
+        return len(sentence.split())
