@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
