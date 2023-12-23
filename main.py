@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def clear_array(array):
-        array *= 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
