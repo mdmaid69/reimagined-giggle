@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
