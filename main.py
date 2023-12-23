@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+print(math.pi)
+def cube_number(x):
+        return x**3
