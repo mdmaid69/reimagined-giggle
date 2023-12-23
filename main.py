@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
