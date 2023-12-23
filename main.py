@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def reverse_string(s):
+        return s[::-1]
