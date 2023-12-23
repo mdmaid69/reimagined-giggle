@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_typecode(array):
-        return array.typecode
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
