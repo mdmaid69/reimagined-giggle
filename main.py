@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
