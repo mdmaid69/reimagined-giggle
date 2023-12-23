@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_stack():
-        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
