@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def add_numbers(x, y):
+        return x + y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
