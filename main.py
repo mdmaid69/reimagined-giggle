@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
