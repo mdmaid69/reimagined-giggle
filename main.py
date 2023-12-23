@@ -1,6 +1,9 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import sys
-  def get_python_version():
-        return sys.version
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
