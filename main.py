@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
