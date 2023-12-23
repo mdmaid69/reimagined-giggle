@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
