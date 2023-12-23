@@ -1,7 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def read_from_json(json_string):
+        return json.loads(json_string)
