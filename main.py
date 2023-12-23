@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
