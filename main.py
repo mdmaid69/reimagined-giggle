@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def reverse_array(array):
+        array.reverse()
