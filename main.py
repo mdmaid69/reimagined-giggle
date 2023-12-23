@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import sys
-print(sys.version)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
