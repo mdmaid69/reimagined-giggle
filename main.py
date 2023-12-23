@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
