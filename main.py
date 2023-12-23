@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import time
-def get_current_time():
-        return time.ctime()
+  def is_odd(n):
+        return n % 2 != 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
