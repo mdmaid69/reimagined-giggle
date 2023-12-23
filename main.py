@@ -1,6 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
