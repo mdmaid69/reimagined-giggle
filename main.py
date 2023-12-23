@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def greet(name):
+        print(f"Hello, {name}!")
