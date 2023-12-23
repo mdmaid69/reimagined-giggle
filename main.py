@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
