@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import random
-def roll_die():
-        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
