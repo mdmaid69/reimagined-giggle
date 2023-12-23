@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
