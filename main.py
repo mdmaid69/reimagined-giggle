@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
