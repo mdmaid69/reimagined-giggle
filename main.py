@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
