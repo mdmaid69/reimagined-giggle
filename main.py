@@ -1,6 +1,5 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print(math.pi)
