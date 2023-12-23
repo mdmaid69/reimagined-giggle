@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import tensorflow as tf
+print(tf.__version__)
