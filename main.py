@@ -1,7 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
