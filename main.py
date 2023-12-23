@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
