@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import datetime
-print(datetime.datetime.now())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
