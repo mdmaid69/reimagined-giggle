@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+print(json.dumps({"name": "John", "age": 30}))
