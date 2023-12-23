@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
