@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
