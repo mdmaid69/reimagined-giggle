@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
