@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_square_root(x):
+        return math.sqrt(x)
