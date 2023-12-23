@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
