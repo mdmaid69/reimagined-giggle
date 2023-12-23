@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
