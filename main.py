@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
