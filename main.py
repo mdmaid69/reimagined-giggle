@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
