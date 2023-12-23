@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
