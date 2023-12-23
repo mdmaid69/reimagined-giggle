@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
