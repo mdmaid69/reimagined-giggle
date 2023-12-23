@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_list(array):
-        return list(array)
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
