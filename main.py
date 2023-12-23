@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
