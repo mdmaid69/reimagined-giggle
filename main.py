@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-x = 10
-y = 20
-print("Sum:", x + y)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
