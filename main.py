@@ -1,6 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
