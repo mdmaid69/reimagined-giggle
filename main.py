@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_speed(distance, time):
+        return distance / time
+import os
+print(os.getcwd())
