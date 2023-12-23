@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
