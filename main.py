@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
