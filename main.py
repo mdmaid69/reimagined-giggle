@@ -1,6 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
