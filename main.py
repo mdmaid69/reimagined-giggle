@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_typecode(array):
+        return array.typecode
