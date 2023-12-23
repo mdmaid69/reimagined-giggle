@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
