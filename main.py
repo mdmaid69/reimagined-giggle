@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
