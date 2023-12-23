@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_max(numbers):
-        return max(numbers)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
