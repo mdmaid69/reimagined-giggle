@@ -1,11 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_as_list(array):
+        return list(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
