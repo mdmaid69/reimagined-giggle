@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
