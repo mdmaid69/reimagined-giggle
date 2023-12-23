@@ -1,5 +1,8 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
