@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
