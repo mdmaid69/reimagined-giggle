@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+print(json.dumps({"name": "John", "age": 30}))
