@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
