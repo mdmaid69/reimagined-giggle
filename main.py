@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import sys
+def exit_program():
+        sys.exit()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
