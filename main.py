@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
