@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
