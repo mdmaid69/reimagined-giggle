@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def count_elements(lst):
-        return len(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
