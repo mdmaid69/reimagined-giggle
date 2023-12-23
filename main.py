@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
