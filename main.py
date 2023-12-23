@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
+def find_min(lst):
+        return min(lst)
