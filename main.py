@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def sort_list(lst):
+        return sorted(lst)
