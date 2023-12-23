@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
