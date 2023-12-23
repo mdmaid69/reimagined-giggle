@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
