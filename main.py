@@ -1,5 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
