@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
