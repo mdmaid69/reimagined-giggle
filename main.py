@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
