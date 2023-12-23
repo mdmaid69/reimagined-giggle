@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
