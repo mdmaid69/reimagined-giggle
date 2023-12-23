@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
