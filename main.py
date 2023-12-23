@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def reverse_array(array):
+        array.reverse()
