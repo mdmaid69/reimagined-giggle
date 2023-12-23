@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
