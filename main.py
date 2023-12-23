@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def sort_list(lst):
+        return sorted(lst)
