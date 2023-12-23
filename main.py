@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
