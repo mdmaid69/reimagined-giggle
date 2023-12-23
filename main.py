@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_current_time():
+        return time.ctime()
