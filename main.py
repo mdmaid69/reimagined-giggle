@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_speed(distance, time):
+        return distance / time
