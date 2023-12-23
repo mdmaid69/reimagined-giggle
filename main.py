@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
