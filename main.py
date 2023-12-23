@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
