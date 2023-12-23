@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
