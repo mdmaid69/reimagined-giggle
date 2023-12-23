@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
