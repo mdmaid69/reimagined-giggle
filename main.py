@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
