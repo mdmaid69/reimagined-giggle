@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
