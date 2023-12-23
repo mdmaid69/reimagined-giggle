@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sys
+def exit_program():
+        sys.exit()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
