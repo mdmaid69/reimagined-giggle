@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
