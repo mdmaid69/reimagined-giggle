@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
