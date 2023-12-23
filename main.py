@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
