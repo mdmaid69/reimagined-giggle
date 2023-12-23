@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def clear_array(array):
+        array *= 0
+def calculate_work(force, distance):
+        return force * distance
