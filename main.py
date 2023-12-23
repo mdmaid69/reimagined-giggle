@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def multiply_numbers(x, y):
+        return x * y
