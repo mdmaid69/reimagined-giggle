@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
