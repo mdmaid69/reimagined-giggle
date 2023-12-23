@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
