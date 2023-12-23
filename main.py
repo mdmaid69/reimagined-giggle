@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
