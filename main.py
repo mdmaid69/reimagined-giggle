@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
