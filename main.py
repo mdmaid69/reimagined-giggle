@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
