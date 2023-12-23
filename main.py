@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
