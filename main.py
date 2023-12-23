@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import time
-def get_current_time():
-        return time.ctime()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  def is_even(n):
+        return n % 2 == 0
