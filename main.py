@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def greet(name):
+        print(f"Hello, {name}!")
+def convert_to_octal(n):
+        return oct(n)
