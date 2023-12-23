@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def get_current_time():
+        return time.time()
