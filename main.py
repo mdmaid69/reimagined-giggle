@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+name = "Python"
+print("Hello,", name)
