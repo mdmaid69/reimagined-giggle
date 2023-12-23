@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
