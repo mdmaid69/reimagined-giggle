@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
