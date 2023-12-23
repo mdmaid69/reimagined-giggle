@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def multiply_numbers(x, y):
-        return x * y
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
