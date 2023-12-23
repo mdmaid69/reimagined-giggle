@@ -1,3 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-for i in range(10): print(i)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
