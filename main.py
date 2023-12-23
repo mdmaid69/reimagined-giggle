@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_base_name(path):
+        return os.path.basename(path)
