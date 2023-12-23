@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
