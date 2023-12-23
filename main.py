@@ -1,3 +1,6 @@
-  def cube_number(x):
-        return x**3
-for i in range(10): print(i)
+def reverse_list(lst):
+        return lst[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
