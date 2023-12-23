@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
