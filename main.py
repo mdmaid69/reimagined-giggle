@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
