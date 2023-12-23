@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
