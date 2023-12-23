@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
