@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
