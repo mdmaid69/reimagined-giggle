@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import sys
+def print_python_version():
+        return sys.version
