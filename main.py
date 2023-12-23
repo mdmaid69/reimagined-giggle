@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def is_odd(n):
+        return n % 2 != 0
