@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
