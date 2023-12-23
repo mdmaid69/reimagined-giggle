@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
