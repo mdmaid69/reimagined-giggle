@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def sort_list(lst):
+        return sorted(lst)
+def reverse_list(lst):
+        return lst[::-1]
