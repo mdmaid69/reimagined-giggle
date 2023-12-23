@@ -1,9 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
