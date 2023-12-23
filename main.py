@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
