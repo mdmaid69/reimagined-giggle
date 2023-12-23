@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def subtract_numbers(x, y):
-        return x - y
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
