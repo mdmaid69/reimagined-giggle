@@ -1,9 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
