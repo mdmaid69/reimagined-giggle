@@ -1,4 +1,12 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
