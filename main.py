@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def reverse_list(lst):
+        return lst[::-1]
