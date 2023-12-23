@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
