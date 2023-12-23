@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
