@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
