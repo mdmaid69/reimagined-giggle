@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
