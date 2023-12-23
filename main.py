@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def sort_list(lst):
-        return sorted(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
