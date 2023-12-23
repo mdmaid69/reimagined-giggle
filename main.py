@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
