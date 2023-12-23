@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
