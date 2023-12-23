@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
