@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
