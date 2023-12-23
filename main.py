@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_queue():
-        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def square_number(x):
+        return x**2
