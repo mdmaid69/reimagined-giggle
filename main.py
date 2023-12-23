@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_work(force, distance):
+        return force * distance
+def reverse_list(lst):
+        return lst[::-1]
