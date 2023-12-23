@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_area_rectangle(l, w):
+        return l * w
