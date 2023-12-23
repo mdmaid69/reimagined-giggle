@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
