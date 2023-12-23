@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_itemsize(array):
+        return array.itemsize
