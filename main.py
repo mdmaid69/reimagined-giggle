@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
