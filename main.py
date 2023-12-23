@@ -1,5 +1,4 @@
 n = 10
 print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def divide_numbers(x, y):
+        return x / y
