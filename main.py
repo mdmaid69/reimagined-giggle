@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
