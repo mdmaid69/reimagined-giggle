@@ -1,6 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
