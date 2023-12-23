@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
