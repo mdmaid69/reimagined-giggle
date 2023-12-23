@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
