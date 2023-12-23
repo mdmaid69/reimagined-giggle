@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_work(force, distance):
+        return force * distance
+  def square_number(x):
+        return x**2
