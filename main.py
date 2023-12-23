@@ -1,8 +1,5 @@
-print("Hello, world!")
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
