@@ -1,5 +1,9 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+i = 0
+while i < 5:
+        print(i)
+        i += 1
