@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
