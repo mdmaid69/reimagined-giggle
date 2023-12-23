@@ -1,5 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
