@@ -1,4 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
