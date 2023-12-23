@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
