@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
