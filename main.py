@@ -1,5 +1,7 @@
-import os
-print(os.getcwd())
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def get_current_time():
+        return time.ctime()
