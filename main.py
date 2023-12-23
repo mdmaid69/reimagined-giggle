@@ -1,6 +1,3 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_density(mass, volume):
+        return mass / volume
+for i in range(10): print(i)
