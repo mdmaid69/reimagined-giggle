@@ -1,4 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-print("Hello, world!")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
