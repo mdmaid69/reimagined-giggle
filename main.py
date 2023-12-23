@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def reverse_string(s):
+        return s[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
