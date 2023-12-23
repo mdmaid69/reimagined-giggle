@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
