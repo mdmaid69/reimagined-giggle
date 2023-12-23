@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
