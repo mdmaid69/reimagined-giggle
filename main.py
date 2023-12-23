@@ -1,6 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
