@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
