@@ -1,8 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def square_number(x):
+        return x**2
