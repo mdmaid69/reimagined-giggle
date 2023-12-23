@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+print(datetime.datetime.now())
