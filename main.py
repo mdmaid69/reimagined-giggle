@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_acceleration(speed, time):
-        return speed / time
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
