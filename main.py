@@ -1,5 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+def calculate_area(radius):
+        return 3.14 * radius * radius
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
