@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_user_dict():
+        return collections.UserDict()
