@@ -1,7 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def generate_random_choice(choices):
+        return random.choice(choices)
+import tensorflow as tf
+print(tf.__version__)
