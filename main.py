@@ -1,5 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
