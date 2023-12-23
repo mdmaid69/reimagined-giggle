@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
