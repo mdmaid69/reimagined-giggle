@@ -1,9 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
