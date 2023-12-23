@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
