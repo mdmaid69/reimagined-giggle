@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
