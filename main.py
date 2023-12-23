@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
