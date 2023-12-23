@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
