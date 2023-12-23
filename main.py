@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
