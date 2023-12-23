@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
