@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
