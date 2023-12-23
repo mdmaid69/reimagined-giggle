@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
