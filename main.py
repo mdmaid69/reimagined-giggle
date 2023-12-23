@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
