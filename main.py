@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
