@@ -1,6 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
