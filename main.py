@@ -1,7 +1,8 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
