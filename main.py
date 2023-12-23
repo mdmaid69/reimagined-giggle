@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def divide_numbers(x, y):
+        return x / y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
