@@ -1,4 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-print([x**2 for x in range(10)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
