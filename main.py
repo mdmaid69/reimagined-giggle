@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
