@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_arc_sine(x):
+        return math.asin(x)
