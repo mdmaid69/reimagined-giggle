@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_max(numbers):
+        return max(numbers)
+import random
+print(random.randint(0, 100))
