@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import sys
+  def get_python_version():
+        return sys.version
