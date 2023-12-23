@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_current_directory():
+        return os.getcwd()
