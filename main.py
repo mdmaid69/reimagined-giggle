@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
