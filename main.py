@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
