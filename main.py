@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_stack():
-        return collections.deque()
+def get_list_from_array(array):
+        return array.tolist()
