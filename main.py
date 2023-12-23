@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import collections
+def create_counter():
+        return collections.Counter()
