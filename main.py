@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_palindrome(s):
+        return s == s[::-1]
