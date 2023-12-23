@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
