@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
