@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_work(force, distance):
+        return force * distance
