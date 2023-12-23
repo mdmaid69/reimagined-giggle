@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def clear_array(array):
-        array *= 0
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
