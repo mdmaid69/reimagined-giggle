@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def is_even(n):
-        return n % 2 == 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        return sys.version
