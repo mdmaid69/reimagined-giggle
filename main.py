@@ -1,5 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-print("Hello, world!")
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_max(numbers):
+        return max(numbers)
