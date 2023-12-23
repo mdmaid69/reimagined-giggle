@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def count_elements(lst):
+        return len(lst)
