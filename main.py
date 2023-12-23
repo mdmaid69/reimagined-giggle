@@ -1,4 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-for i in range(10): print(i)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
