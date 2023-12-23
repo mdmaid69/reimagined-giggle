@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def square_number(x):
+        return x**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
