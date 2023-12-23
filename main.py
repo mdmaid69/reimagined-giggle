@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
