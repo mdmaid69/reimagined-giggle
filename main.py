@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
