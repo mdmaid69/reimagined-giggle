@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
