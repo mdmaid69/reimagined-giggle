@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
