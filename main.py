@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
