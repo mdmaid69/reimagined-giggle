@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def cube_number(x):
-        return x**3
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def square_number(x):
+        return x**2
