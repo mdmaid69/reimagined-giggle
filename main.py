@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def reverse_list(lst):
-        return lst[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
