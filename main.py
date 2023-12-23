@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
