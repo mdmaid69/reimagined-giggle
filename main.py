@@ -1,6 +1,11 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
