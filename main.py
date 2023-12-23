@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def convert_to_octal(n):
+        return oct(n)
