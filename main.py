@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
