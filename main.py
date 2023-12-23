@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
