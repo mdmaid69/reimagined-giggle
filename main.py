@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_density(mass, volume):
+        return mass / volume
