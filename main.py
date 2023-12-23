@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
