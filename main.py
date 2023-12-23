@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
