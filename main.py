@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
