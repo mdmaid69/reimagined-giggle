@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
