@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
