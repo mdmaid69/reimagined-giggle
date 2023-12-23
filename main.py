@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def convert_to_binary(n):
+        return bin(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
