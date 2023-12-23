@@ -1,6 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def remove_duplicates(lst):
+        return list(set(lst))
