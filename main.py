@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
