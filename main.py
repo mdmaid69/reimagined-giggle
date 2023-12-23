@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
