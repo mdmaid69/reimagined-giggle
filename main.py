@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
