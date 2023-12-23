@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
