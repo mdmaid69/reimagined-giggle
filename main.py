@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
