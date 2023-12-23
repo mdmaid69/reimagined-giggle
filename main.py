@@ -1,6 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def cube_number(x):
+        return x**3
