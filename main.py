@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def count_characters(sentence):
+        return len(sentence)
