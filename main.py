@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  def convert_to_binary(n):
-        return bin(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+def greet(name):
+        print(f"Hello, {name}!")
