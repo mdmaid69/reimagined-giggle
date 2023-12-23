@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
+  def is_even(n):
+        return n % 2 == 0
