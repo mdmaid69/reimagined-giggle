@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
