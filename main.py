@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
