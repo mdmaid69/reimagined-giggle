@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_counter():
+        return collections.Counter()
