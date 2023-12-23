@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
