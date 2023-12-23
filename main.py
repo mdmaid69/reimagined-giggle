@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
