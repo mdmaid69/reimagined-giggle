@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
