@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
