@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
