@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_current_time():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
