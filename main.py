@@ -1,11 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_array_as_list(array):
+        return list(array)
+import random
+print(random.randint(0, 100))
