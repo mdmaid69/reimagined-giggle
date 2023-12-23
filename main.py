@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
