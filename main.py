@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def multiply_numbers(x, y):
-        return x * y
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
