@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
