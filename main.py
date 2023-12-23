@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
