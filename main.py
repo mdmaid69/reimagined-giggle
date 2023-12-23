@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
