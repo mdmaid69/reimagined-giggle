@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def get_array_as_int(array):
+        return int(array[0])
