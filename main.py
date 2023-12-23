@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
