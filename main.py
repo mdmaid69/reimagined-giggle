@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
