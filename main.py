@@ -1,4 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def convert_to_binary(n):
-        return bin(n)
+def divide_numbers(x, y):
+        return x / y
+def find_min(lst):
+        return min(lst)
