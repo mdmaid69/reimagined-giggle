@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
