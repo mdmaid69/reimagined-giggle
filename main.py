@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-print(sys.version)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
