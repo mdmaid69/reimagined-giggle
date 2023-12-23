@@ -1,9 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import datetime
+print(datetime.datetime.now())
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
