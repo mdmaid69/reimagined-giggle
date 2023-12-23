@@ -1,7 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
