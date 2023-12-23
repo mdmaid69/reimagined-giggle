@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def convert_to_hex(n):
-        return hex(n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
