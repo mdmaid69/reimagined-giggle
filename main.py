@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
