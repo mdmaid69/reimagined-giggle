@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def sort_numbers(numbers):
+        return sorted(numbers)
