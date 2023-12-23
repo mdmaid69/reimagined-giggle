@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
