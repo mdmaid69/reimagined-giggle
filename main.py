@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
