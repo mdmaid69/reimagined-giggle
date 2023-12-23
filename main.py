@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
