@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
