@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
