@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
