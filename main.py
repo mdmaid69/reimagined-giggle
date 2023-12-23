@@ -1,5 +1,12 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
