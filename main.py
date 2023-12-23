@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
