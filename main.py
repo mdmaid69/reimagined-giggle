@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+name = "Python"
+print("Hello,", name)
+def subtract_numbers(x, y):
+        return x - y
