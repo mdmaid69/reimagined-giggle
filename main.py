@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
