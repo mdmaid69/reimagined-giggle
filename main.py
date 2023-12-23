@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
