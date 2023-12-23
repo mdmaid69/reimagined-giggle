@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
