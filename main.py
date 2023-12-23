@@ -1,7 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
