@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Characters:", len(text))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def cube_number(x):
+        return x**3
