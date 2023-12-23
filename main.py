@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
