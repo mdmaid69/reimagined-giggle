@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
