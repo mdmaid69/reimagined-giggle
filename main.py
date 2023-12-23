@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_min(numbers):
+        return min(numbers)
