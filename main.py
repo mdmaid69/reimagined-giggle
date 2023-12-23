@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
