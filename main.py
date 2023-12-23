@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
