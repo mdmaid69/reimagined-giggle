@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
