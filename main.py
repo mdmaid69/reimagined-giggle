@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def subtract_numbers(x, y):
-        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
