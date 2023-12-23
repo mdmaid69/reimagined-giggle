@@ -1,12 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
