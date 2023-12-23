@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
