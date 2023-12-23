@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def convert_to_json(data):
+        return json.dumps(data)
