@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
