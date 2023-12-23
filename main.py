@@ -1,6 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def split_path(path):
+        return os.path.split(path)
