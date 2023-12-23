@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
