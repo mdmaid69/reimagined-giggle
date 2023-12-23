@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
