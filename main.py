@@ -1,4 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-print("Hello, world!")
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
