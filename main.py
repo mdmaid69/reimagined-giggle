@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def cube_number(x):
+        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
