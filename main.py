@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-print(sys.version)
+for i in range(5):
+        print(i)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
