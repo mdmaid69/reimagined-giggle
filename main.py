@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
