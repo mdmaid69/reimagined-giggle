@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-def roll_die():
-        return random.randint(1, 6)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+for i in range(10): print(i)
