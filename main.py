@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def count_elements(lst):
+        return len(lst)
