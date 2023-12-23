@@ -1,5 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def count_elements(lst):
+        return len(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
