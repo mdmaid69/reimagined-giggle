@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_power(work, time):
-        return work / time
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_min(numbers):
+        return min(numbers)
