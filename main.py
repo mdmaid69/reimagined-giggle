@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
