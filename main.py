@@ -1,5 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_itemsize(array):
+        return array.itemsize
