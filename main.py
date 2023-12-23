@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def greet(name):
-        print(f"Hello, {name}!")
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_acceleration(speed, time):
+        return speed / time
