@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def clear_array(array):
+        array *= 0
