@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
