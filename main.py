@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
