@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
