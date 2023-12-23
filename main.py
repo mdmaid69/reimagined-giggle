@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_item(array, i):
+        return array[i]
