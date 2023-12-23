@@ -1,6 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
