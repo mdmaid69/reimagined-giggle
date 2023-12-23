@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_tangent(x):
+        return math.tan(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
