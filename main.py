@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_stack():
+        return collections.deque()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
