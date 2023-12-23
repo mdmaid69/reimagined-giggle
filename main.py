@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+print(json.dumps({"name": "John", "age": 30}))
