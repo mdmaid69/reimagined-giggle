@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def subtract_numbers(x, y):
+        return x - y
