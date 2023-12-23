@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_int(array):
+        return int(array[0])
