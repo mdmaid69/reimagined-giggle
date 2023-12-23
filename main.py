@@ -1,7 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
