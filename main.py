@@ -1,9 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
