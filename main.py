@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
