@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
