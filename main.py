@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
