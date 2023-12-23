@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
