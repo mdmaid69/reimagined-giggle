@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
