@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
