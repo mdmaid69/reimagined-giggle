@@ -1,5 +1,6 @@
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-for i in range(5):
-        print(i)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def add_numbers(x, y):
+        return x + y
