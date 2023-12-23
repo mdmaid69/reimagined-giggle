@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
