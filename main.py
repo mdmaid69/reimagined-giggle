@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
