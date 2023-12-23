@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def find_min(lst):
-        return min(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
