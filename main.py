@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
