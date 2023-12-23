@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import time
+def get_time_since_epoch():
+        return time.time()
