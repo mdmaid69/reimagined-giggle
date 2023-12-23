@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
