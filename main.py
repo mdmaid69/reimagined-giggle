@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
