@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def find_max(numbers):
+        return max(numbers)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_memoryview(array):
+        return memoryview(array)
