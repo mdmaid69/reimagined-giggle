@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import logging
+def log_message(message):
+        logging.info(message)
