@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+text = "Hello, world!"
+print("Characters:", len(text))
