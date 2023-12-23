@@ -1,8 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def clear_array(array):
+        array *= 0
