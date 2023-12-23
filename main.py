@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
