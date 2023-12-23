@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_current_directory():
+        return os.getcwd()
