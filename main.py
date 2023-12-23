@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
