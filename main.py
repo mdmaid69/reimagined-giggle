@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
