@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_list():
+        return collections.UserList()
+def count_words(sentence):
+        return len(sentence.split())
