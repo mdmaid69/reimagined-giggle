@@ -1,5 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import collections
-def create_priority_queue():
-        return collections.deque()
-import re
-print(re.match("h.*o", "hello world"))
+def create_user_dict():
+        return collections.UserDict()
