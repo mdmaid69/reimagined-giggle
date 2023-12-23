@@ -1,5 +1,3 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print([x**2 for x in range(10)])
+def calculate_pressure(force, area):
+        return force / area
