@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
