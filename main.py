@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
