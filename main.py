@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
