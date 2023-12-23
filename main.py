@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def count_elements(lst):
+        return len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
