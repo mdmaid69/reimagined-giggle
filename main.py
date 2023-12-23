@@ -1,8 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def change_working_directory(path):
+        os.chdir(path)
