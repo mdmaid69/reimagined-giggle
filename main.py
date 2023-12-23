@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
