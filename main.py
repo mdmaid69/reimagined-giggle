@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
