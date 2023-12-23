@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
