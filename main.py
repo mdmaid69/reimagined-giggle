@@ -1,8 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
