@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
