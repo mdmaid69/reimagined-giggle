@@ -1,5 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import random
-print(random.randint(0, 100))
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
