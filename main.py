@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
