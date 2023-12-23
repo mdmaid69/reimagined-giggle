@@ -1,6 +1,9 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
