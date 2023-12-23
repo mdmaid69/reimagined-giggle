@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+print(re.match("h.*o", "hello world"))
