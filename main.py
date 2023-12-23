@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-x = 10
-y = 20
-print("Sum:", x + y)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
