@@ -1,12 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
