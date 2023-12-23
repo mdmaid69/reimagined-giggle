@@ -1,5 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
