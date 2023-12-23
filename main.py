@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-print(os.getcwd())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
