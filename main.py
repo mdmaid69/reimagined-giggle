@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
