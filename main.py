@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
