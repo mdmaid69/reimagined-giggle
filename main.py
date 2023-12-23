@@ -1,5 +1,3 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-print(math.pi)
+def add_numbers(a, b):
+        return a + b
+for i in range(10): print(i)
