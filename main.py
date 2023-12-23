@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def count_elements(lst):
-        return len(lst)
+def find_max(numbers):
+        return max(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
