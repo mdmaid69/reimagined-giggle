@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
