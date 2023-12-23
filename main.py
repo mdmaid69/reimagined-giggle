@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import tensorflow as tf
+print(tf.__version__)
