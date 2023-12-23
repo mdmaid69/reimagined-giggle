@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
