@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
