@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
