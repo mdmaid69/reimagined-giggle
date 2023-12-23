@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
