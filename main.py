@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
