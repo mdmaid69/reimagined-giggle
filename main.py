@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def is_odd(n):
+        return n % 2 != 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
