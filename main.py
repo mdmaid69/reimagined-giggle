@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
