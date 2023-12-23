@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
+import sys
+def exit_program():
+        sys.exit()
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+print(re.match("h.*o", "hello world"))
