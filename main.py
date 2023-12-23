@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
