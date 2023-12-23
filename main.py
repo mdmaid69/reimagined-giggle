@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
