@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
