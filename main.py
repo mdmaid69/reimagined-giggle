@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
