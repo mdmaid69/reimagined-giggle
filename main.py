@@ -1,6 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def clear_array(array):
+        array *= 0
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
