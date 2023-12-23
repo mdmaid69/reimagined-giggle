@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
