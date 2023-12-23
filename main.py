@@ -1,7 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def get_current_time():
+        return time.ctime()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
