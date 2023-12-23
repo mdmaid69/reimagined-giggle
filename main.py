@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
