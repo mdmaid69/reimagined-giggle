@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
