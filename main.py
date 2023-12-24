@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+def calculate_perpetuity(payment, rate):
+        return payment / rate
