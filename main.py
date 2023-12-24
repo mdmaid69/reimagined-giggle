@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
