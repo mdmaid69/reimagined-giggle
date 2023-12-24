@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
