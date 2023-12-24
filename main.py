@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def count_elements(lst):
+        return len(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
