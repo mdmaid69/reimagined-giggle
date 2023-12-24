@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
