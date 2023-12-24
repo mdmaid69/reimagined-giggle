@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def convert_to_hex(n):
+        return hex(n)
