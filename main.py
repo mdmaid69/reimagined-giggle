@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
