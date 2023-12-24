@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
