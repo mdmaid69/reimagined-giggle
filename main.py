@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
