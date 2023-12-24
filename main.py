@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
