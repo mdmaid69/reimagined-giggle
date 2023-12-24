@@ -1,8 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
