@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import time
+def get_time_since_epoch():
+        return time.time()
+def reverse_list(lst):
+        return lst[::-1]
