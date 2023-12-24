@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_queue():
+        return collections.deque()
