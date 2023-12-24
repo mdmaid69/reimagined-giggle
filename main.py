@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
