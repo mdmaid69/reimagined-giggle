@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+from collections import Counter
+print(Counter("hello world"))
