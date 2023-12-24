@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def is_palindrome(s):
-        return s == s[::-1]
+  def multiply_numbers(x, y):
+        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
