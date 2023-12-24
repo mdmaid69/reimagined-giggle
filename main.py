@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
