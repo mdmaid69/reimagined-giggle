@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import time
+print(time.time())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
