@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
