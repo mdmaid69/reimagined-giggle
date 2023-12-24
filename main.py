@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
