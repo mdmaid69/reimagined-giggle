@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
