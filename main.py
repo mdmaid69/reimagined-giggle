@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
