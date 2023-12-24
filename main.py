@@ -1,4 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
