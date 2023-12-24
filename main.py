@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
