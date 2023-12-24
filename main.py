@@ -1,5 +1,12 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
