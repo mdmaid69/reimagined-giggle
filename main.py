@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
