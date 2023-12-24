@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
