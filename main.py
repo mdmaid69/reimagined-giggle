@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
