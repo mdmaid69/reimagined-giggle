@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
