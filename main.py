@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
