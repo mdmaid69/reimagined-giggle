@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
