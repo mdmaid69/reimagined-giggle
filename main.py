@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
