@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
