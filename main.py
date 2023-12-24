@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
