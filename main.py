@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+name = "Python"
+print("Hello,", name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
