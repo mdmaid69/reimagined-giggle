@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
