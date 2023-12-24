@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
