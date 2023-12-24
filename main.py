@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
