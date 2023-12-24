@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
