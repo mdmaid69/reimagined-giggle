@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def convert_to_binary(n):
-        return bin(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
