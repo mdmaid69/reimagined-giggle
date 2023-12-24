@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def square_number(x):
-        return x**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
