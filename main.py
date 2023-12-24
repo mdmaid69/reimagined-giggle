@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
