@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
