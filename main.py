@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
