@@ -1,5 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import sys
-print(sys.version)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def print_python_version():
+        print(sys.version)
