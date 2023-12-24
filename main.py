@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
