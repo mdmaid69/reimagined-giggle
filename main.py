@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
