@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
