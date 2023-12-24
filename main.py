@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
