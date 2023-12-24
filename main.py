@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_max(numbers):
+        return max(numbers)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
