@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_index(array, item):
-        return array.index(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
