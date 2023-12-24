@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def reverse_list(lst):
+        return lst[::-1]
