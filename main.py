@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_item_count(array, item):
+        return array.count(item)
