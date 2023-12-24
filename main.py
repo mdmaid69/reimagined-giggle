@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
