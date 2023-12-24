@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
