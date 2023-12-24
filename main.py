@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
