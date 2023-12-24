@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
