@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
