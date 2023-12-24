@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_itemsize(array):
+        return array.itemsize
