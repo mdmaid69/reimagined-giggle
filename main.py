@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
