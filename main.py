@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def count_elements(lst):
-        return len(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
