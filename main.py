@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
