@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
