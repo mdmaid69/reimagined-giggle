@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
