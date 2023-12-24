@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
