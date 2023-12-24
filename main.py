@@ -1,7 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_density(mass, volume):
+        return mass / volume
+def find_unique_words(sentence):
+        return set(sentence.split())
