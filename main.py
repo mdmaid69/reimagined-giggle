@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
