@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def convert_to_octal(n):
-        return oct(n)
+def divide_numbers(x, y):
+        return x / y
+def reverse_list(lst):
+        return lst[::-1]
