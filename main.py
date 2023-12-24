@@ -1,8 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import platform
+def get_python_version():
+        return platform.python_version()
+name = "Python"
+print("Hello,", name)
