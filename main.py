@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
