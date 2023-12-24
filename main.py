@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
