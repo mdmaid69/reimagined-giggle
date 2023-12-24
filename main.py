@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
