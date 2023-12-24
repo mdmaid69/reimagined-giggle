@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import collections
-def create_queue():
-        return collections.deque()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_area_rectangle(l, w):
+        return l * w
