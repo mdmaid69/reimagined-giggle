@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def find_min(numbers):
+        return min(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
