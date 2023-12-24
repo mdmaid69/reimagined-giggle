@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import sys
+  def get_python_version():
+        return sys.version
