@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def convert_to_hex(n):
+        return hex(n)
