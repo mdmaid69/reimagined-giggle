@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
