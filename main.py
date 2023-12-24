@@ -1,6 +1,8 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
