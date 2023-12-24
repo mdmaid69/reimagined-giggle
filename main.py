@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_speed(distance, time):
+        return distance / time
