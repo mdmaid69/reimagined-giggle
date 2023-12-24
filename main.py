@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
