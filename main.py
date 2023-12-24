@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
