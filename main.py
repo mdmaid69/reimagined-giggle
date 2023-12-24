@@ -1,5 +1,10 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
