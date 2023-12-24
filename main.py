@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
