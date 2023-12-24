@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
