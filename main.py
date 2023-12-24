@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
