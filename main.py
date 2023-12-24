@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
