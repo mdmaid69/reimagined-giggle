@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
