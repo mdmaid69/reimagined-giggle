@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
