@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_min(lst):
+        return min(lst)
+  def subtract_numbers(x, y):
+        return x - y
