@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
