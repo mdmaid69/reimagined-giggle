@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import time
+def get_current_time():
+        return time.ctime()
