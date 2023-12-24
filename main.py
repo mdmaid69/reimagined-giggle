@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def convert_to_binary(n):
+        return bin(n)
