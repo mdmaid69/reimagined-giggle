@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
