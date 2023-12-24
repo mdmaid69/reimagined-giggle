@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-text = "Hello, world!"
-print("Characters:", len(text))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
