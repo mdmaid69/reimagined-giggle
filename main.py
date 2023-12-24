@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
