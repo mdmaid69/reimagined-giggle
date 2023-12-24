@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
