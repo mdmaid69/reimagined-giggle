@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
