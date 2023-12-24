@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
