@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
