@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
