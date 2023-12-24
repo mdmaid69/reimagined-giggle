@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def is_odd(n):
+        return n % 2 != 0
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
