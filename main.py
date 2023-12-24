@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def is_even(n):
+        return n % 2 == 0
