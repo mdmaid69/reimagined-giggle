@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
