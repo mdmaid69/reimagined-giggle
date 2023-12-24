@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
