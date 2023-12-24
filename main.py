@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
