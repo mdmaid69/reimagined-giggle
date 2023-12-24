@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
