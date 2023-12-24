@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
