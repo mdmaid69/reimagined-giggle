@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
