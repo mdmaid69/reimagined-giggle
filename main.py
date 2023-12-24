@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
