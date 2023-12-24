@@ -1,5 +1,11 @@
-  def add_numbers(x, y):
-        return x + y
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
