@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
