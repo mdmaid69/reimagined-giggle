@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_speed(distance, time):
+        return distance / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
