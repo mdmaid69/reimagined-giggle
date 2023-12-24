@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
