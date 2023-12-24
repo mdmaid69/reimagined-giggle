@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
