@@ -1,7 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
