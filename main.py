@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_priority_queue():
+        return collections.deque()
