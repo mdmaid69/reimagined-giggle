@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import time
-def get_current_time():
-        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def remove_duplicates(lst):
+        return list(set(lst))
