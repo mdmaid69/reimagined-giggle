@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
