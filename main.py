@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def reverse_list(lst):
-        return lst[::-1]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
