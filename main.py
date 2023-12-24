@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
