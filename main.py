@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
