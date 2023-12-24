@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
