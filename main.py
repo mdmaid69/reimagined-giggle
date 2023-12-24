@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
