@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
