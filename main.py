@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import collections
+def create_priority_queue():
+        return collections.deque()
