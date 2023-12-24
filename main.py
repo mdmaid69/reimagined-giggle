@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def add_numbers(a, b):
+        return a + b
+import os
+def change_working_directory(path):
+        os.chdir(path)
