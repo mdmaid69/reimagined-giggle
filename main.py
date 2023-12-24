@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
