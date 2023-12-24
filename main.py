@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
