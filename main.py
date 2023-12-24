@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_itemsize(array):
+        return array.itemsize
