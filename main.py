@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def find_min(numbers):
+        return min(numbers)
