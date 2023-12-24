@@ -1,7 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
