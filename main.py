@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
