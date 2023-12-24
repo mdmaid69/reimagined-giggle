@@ -1,4 +1,10 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-print(sum(range(10)))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
