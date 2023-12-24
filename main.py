@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
