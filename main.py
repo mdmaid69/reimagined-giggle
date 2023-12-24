@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
