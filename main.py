@@ -1,7 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
