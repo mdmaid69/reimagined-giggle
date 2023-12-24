@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
