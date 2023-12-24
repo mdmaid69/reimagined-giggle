@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
