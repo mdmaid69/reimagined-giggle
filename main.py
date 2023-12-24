@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
