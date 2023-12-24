@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
