@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
