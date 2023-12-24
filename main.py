@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
