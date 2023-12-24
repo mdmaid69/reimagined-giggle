@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
