@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+for i in range(10): print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
