@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def clear_array(array):
-        array *= 0
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
