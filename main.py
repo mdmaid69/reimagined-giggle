@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
