@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
