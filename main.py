@@ -1,6 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
