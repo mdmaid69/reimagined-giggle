@@ -1,5 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
