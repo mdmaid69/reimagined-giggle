@@ -1,5 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
