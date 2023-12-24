@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
