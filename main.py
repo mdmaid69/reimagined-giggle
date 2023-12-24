@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
