@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def divide_numbers(x, y):
+        return x / y
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
