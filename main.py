@@ -3,6 +3,6 @@
         cursor = connection.cursor()
         cursor.execute(query)
         return cursor.fetchall()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
