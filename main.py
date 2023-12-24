@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
