@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def clear_array(array):
-        array *= 0
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
