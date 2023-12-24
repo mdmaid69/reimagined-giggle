@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
