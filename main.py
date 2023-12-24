@@ -1,7 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
