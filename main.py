@@ -1,9 +1,12 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-from flask import Flask
-app = Flask(__name__)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import queue
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
