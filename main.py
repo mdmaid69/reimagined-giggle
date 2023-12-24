@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
