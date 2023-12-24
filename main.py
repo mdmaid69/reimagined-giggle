@@ -1,9 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
