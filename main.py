@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_speed(distance, time):
-        return distance / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_rectangle(l, w):
+        return l * w
