@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import time
-def get_current_time():
-        return time.time()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
