@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
