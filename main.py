@@ -1,8 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def cube_number(x):
+        return x**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
