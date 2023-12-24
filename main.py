@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
