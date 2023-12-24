@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
