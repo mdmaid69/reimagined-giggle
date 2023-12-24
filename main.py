@@ -1,4 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-print([x**2 for x in range(10)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
