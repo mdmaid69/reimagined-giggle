@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
