@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
