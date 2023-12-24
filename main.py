@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
