@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
