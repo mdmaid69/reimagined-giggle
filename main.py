@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
