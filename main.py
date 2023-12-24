@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_list():
+        return collections.UserList()
