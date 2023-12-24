@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
