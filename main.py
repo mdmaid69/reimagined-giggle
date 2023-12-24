@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
