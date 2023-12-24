@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
