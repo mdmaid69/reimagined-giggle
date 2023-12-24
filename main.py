@@ -1,5 +1,9 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_user_list():
-        return collections.UserList()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
