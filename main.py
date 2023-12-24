@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def is_odd(n):
+        return n % 2 != 0
