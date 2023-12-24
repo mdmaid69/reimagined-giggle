@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_str(array):
+        return str(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
