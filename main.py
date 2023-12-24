@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
