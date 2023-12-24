@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
