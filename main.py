@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
