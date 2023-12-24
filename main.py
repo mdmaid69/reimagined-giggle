@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
