@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
 import collections
-def create_stack():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
