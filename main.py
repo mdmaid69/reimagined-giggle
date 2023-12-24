@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
