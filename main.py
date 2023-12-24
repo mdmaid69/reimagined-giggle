@@ -1,6 +1,6 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
