@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def add_numbers(x, y):
-        return x + y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
