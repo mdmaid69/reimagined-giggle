@@ -1,8 +1,9 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
