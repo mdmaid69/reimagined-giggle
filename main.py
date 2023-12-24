@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
