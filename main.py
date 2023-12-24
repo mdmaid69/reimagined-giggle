@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
