@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
