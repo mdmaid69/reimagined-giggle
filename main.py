@@ -1,4 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
