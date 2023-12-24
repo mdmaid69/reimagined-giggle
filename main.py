@@ -1,5 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def count_elements(lst):
-        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
