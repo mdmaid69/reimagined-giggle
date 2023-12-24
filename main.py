@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import sys
+  def get_python_version():
+        return sys.version
