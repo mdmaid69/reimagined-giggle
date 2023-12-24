@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
