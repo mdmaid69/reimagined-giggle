@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
