@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
