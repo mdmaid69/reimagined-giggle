@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def reverse_list(lst):
+        return lst[::-1]
