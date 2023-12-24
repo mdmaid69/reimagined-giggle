@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
