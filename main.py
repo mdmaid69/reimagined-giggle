@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
