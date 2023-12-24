@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
