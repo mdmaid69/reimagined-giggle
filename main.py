@@ -1,6 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
