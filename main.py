@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
