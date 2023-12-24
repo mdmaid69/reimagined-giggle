@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def divide_numbers(x, y):
+        return x / y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
