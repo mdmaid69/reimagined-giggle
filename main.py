@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
