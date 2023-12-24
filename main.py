@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
