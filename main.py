@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
