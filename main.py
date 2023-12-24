@@ -1,5 +1,12 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
