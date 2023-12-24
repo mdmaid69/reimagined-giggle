@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def extend_array(array, iterable):
+        array.extend(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
