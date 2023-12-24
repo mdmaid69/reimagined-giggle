@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
