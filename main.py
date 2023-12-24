@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
