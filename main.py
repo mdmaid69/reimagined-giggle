@@ -1,3 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-print(sum(range(10)))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
