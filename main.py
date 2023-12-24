@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_counter():
-        return collections.Counter()
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
