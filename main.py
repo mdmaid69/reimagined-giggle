@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
