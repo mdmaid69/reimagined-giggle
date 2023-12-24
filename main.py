@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
