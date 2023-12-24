@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
