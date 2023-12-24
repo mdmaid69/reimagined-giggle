@@ -1,6 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
