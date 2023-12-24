@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
