@@ -1,5 +1,9 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
