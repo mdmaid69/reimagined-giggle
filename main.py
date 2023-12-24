@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
