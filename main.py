@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def count_elements(lst):
+        return len(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
