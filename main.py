@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
