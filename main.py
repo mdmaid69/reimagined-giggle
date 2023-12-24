@@ -1,4 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
