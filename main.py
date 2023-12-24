@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
