@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
