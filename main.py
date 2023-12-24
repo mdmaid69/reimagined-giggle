@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def is_palindrome(s):
+        return s == s[::-1]
