@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def convert_to_octal(n):
+        return oct(n)
