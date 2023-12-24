@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_perpetuity(payment, rate):
+        return payment / rate
