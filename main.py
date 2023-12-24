@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
