@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
