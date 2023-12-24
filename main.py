@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import getpass
-def get_username():
-        return getpass.getuser()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
