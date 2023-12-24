@@ -1,7 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
