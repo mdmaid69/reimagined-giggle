@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
