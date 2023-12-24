@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def subtract_numbers(x, y):
+        return x - y
+def find_max(numbers):
+        return max(numbers)
