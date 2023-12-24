@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
