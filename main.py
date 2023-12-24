@@ -1,11 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
