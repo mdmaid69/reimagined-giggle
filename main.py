@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def square_number(x):
-        return x**2
+for i in range(5):
+        print(i)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
