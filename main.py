@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.ctime()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
