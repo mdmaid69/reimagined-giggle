@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def convert_to_binary(n):
-        return bin(n)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_queue():
+        return collections.deque()
