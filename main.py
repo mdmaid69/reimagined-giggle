@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
