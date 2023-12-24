@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
