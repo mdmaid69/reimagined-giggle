@@ -1,6 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_queue():
+        return collections.deque()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
