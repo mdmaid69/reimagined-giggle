@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_speed(distance, time):
+        return distance / time
