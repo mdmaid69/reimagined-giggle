@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def remove_duplicates(lst):
-        return list(set(lst))
+  def count_elements(lst):
+        return len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
