@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
