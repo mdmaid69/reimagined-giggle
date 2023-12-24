@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
