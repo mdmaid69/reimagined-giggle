@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
