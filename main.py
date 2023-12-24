@@ -1,3 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-print([x**2 for x in range(10)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
