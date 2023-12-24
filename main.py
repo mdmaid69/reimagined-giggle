@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
