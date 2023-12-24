@@ -1,5 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_absolute_value(x):
+        return math.fabs(x)
