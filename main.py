@@ -1,8 +1,3 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(10): print(i)
