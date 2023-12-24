@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+from collections import Counter
+print(Counter("hello world"))
