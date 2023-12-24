@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def find_min(numbers):
+        return min(numbers)
