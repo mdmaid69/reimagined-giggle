@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
