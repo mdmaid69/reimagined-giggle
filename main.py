@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
