@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import random
+print(random.randint(0, 100))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
