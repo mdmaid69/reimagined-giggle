@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
