@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
