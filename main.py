@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
