@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
