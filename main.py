@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
