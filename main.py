@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_area_circle(r):
+        return 3.14 * r**2
