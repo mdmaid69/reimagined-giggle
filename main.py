@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
