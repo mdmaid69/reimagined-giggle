@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
