@@ -1,7 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
