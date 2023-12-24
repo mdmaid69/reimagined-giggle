@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
