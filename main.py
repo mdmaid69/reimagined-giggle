@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def reverse_string(s):
-        return s[::-1]
+  def cube_number(x):
+        return x**3
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
