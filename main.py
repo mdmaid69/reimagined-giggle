@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_list(array):
+        return list(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
