@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_list_from_array(array):
+        return array.tolist()
