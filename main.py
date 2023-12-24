@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
