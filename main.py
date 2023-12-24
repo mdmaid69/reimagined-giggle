@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
