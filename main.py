@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
