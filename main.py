@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def remove_duplicates(lst):
+        return list(set(lst))
