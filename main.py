@@ -1,6 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
