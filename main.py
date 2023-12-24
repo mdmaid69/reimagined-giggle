@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
