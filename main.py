@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
