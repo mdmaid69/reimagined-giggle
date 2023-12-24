@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
