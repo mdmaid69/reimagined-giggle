@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
