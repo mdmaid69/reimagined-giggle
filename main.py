@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
