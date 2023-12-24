@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
