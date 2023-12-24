@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
