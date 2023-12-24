@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def is_odd(n):
+        return n % 2 != 0
