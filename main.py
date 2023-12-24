@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
