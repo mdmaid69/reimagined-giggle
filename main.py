@@ -1,5 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def cube_number(x):
-        return x**3
+def calculate_sign(x):
+        return math.copysign(1, x)
