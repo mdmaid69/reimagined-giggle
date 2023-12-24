@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
