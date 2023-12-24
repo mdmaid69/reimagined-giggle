@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
