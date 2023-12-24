@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import platform
-def get_python_version():
-        return platform.python_version()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
