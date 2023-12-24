@@ -1,5 +1,5 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
