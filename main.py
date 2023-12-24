@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def get_bytes_from_array(array):
+        return array.tobytes()
