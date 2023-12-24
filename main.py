@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
