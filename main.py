@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import time
-def get_current_time():
-        return time.ctime()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
