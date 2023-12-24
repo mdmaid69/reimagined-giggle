@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_typecode(array):
+        return array.typecode
