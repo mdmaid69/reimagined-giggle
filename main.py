@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_length(array):
-        return len(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_array_typecode(array):
+        return array.typecode
