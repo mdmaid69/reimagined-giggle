@@ -1,6 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
