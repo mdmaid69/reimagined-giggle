@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def print_python_version():
-        return sys.version
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
