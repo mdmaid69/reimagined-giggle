@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
