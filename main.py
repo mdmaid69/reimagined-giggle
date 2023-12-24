@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
