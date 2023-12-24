@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
