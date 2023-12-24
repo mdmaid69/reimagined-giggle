@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def cube_number(x):
+        return x**3
