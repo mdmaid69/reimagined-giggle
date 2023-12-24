@@ -1,4 +1,10 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
