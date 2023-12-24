@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_characters(sentence):
-        return len(sentence)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
