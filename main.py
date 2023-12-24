@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def remove_duplicates(lst):
+        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
