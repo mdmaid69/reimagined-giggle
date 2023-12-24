@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
