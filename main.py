@@ -1,6 +1,9 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
