@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
