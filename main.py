@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
