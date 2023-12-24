@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
