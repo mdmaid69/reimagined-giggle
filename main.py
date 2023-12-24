@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def remove_from_array(array, item):
+        array.remove(item)
