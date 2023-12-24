@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
