@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
