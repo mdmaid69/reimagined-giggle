@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
