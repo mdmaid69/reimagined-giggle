@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
