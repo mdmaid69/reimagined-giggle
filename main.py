@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
