@@ -1,5 +1,13 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
