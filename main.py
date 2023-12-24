@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
