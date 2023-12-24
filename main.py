@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
