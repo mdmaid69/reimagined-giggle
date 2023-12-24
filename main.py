@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
