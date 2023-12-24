@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def greet(name):
+        print(f"Hello, {name}!")
