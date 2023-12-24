@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
