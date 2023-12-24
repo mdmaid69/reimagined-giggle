@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
