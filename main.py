@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_min(lst):
+        return min(lst)
