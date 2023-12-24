@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
