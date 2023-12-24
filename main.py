@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
