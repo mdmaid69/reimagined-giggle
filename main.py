@@ -1,5 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def convert_array_to_list(array):
+        return array.tolist()
