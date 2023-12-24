@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
