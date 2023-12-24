@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
