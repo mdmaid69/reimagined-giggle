@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_set(array):
+        return set(array)
