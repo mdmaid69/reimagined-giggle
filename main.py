@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
