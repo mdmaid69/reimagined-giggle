@@ -1,6 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def convert_to_hex(n):
+        return hex(n)
+x = 10
+y = 20
+print("Sum:", x + y)
