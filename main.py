@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
