@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
+import json
+print(json.dumps({"name": "John", "age": 30}))
