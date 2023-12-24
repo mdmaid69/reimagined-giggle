@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def convert_to_octal(n):
-        return oct(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_work(force, distance):
+        return force * distance
