@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def is_even(n):
-        return n % 2 == 0
+def cube_number(x):
+        return x**3
+import datetime
+print(datetime.datetime.now())
