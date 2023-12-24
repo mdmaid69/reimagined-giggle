@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import sys
-def exit_program():
-        sys.exit()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
