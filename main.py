@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
