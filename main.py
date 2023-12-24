@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
