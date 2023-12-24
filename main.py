@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
