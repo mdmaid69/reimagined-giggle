@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import platform
-def get_python_version():
-        return platform.python_version()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
