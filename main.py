@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import platform
+def get_os_info():
+        return platform.uname()
