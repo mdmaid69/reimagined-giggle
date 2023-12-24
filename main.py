@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
