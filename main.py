@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
