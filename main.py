@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
