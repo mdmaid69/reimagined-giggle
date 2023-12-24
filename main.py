@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import sys
-def print_python_version():
-        return sys.version
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_bool(array):
+        return bool(array)
