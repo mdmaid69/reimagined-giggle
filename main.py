@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
