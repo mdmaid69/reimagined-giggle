@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
