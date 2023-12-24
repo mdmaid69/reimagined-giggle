@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def is_odd(n):
-        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
