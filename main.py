@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
