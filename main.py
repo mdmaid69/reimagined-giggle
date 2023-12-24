@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
