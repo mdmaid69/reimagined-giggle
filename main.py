@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
