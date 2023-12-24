@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
