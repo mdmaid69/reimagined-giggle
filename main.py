@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
