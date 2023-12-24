@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
