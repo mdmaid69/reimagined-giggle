@@ -1,6 +1,3 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+for i in range(10): print(i)
