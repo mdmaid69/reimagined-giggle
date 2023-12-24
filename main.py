@@ -1,8 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def add_numbers(a, b):
+        return a + b
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
