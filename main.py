@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
