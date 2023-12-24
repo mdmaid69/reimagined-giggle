@@ -1,6 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
