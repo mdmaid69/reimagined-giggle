@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
