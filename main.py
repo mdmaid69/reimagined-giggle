@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+for i in range(10): print(i)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
