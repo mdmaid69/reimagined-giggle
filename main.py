@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
