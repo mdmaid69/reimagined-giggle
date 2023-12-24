@@ -1,6 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
