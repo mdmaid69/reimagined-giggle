@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
