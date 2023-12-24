@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_bool(array):
+        return bool(array)
+for i in range(10): print(i)
