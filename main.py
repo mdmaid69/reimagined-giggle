@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def clear_array(array):
+        array *= 0
+import sys
+def print_python_version():
+        print(sys.version)
