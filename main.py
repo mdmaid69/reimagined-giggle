@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sys
+def print_python_version():
+        print(sys.version)
