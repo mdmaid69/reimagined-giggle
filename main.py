@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
