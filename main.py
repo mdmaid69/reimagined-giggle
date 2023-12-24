@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
