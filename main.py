@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def count_words(sentence):
+        return len(sentence.split())
