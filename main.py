@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
