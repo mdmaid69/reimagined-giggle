@@ -1,8 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
