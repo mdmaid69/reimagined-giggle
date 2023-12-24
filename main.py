@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
