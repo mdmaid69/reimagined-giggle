@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def cube_number(x):
+        return x**3
