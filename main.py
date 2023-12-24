@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
