@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
