@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_speed(distance, time):
-        return distance / time
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def convert_array_to_string(array):
+        return array.tostring()
