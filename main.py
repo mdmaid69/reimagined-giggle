@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import os
+print(os.getcwd())
