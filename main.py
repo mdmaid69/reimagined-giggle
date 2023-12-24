@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
