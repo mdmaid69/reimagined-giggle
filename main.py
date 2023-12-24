@@ -1,5 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
