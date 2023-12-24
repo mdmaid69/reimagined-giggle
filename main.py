@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
