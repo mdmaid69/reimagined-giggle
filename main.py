@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def count_elements(lst):
-        return len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+print([x**2 for x in range(10)])
