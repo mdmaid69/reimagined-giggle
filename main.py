@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
