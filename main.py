@@ -1,6 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def get_array_as_complex(array):
+        return complex(array[0])
