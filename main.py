@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
