@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def add_numbers(a, b):
+        return a + b
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
