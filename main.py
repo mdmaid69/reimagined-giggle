@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
