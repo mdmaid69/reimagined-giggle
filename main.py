@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
