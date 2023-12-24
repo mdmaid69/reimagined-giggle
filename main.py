@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
