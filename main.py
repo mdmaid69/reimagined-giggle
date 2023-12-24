@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import tensorflow as tf
+print(tf.__version__)
