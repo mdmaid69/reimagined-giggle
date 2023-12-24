@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_priority_queue():
-        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
