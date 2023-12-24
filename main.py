@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
