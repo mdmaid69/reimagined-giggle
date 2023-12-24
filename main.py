@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def count_words(sentence):
+        return len(sentence.split())
+import platform
+def get_python_version():
+        return platform.python_version()
