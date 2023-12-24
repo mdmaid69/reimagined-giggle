@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
