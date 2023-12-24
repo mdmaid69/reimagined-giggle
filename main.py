@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
