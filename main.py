@@ -1,7 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def split_path(path):
+        return os.path.split(path)
