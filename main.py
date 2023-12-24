@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
