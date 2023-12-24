@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def add_numbers(x, y):
+        return x + y
+import os
+print(os.getcwd())
