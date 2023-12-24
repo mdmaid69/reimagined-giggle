@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
