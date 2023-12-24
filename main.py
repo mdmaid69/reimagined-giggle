@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import time
+def get_current_time():
+        return time.ctime()
