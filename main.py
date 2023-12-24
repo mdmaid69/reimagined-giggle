@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import random
+print(random.randint(0, 100))
+import random
+print(random.randint(0, 100))
