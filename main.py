@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def divide_numbers(x, y):
+        return x / y
