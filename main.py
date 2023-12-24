@@ -1,5 +1,8 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
