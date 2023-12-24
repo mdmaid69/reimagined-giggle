@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
