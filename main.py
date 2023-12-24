@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
