@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_area(radius):
+        return 3.14 * radius * radius
