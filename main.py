@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_typecode(array):
+        return array.typecode
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
