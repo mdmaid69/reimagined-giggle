@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def count_characters(sentence):
-        return len(sentence)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
