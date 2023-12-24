@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
