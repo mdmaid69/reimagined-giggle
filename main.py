@@ -1,5 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
