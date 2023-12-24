@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
