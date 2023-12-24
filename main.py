@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
