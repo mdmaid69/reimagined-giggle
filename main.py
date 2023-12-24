@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
