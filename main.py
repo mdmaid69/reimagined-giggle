@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_user_list():
-        return collections.UserList()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
