@@ -1,5 +1,9 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def is_even(n):
-        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
