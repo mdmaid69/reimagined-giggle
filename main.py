@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import getpass
+def get_username():
+        return getpass.getuser()
