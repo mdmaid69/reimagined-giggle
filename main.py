@@ -1,5 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
