@@ -1,7 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_user_string():
+        return collections.UserString()
+import tensorflow as tf
+print(tf.__version__)
