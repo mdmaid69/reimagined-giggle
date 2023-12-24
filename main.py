@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
