@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
