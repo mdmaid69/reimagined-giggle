@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
