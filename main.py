@@ -1,7 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def get_array_item(array, i):
+        return array[i]
