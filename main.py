@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import os
-print(os.getcwd())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def multiply_numbers(x, y):
+        return x * y
