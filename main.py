@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
