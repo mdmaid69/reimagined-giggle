@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_bool(array):
+        return bool(array)
