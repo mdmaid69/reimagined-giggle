@@ -1,7 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
