@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import datetime
+print(datetime.datetime.now())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
