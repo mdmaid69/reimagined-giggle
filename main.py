@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def exit_program():
+        sys.exit()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
