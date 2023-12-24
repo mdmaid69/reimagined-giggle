@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
