@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
