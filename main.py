@@ -1,5 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def cube_number(x):
-        return x**3
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
