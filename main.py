@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
