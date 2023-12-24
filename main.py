@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_union(list1, list2):
+        return set(list1) | set(list2)
