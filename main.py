@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
