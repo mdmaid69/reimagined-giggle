@@ -1,6 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def clear_array(array):
-        array *= 0
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
