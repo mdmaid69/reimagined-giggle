@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import sys
+  def get_python_version():
+        return sys.version
