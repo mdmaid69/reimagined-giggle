@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
