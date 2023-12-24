@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
