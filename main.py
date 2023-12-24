@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
