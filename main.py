@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def is_even(n):
-        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_array_to_list(array):
+        return array.tolist()
