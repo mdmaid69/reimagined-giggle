@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def reverse_string(s):
+        return s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
