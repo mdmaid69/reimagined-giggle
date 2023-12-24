@@ -1,6 +1,9 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
