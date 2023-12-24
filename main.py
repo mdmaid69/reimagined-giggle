@@ -1,6 +1,6 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def get_array_as_set(array):
+        return set(array)
