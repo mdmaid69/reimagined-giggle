@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
