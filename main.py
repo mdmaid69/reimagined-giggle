@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
