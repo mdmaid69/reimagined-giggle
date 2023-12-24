@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
