@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def cube_number(x):
+        return x**3
