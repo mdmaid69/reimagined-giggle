@@ -1,5 +1,9 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-text = "Hello, world!"
-print("Characters:", len(text))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
