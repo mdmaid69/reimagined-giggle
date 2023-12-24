@@ -1,8 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+for i in range(5):
+        print(i)
+def sort_list(lst):
+        return sorted(lst)
