@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def is_palindrome(s):
+        return s == s[::-1]
+  def count_elements(lst):
+        return len(lst)
