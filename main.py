@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
