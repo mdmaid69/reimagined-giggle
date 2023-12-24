@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
