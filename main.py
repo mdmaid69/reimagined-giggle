@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
