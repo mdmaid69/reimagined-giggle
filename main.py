@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
