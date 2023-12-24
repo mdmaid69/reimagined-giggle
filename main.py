@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def roll_die():
+        return random.randint(1, 6)
