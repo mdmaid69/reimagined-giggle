@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
