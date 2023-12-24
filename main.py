@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
