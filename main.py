@@ -1,6 +1,6 @@
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
