@@ -1,6 +1,4 @@
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print(time.time())
+def calculate_power(work, time):
+        return work / time
