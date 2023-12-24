@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_queue():
-        return collections.deque()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
