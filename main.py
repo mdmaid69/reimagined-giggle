@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_list(array):
+        return list(array)
