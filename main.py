@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
