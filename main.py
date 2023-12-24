@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_power(work, time):
-        return work / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
