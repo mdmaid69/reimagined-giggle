@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
