@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_area_circle(r):
+        return 3.14 * r**2
