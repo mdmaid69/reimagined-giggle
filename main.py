@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
