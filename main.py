@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import time
-def get_current_time():
-        return time.time()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
