@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
