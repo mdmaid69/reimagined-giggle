@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
