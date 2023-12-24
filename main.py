@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import getpass
+def get_username():
+        return getpass.getuser()
