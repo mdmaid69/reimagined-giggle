@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import platform
-def get_os_info():
-        return platform.uname()
+for i in range(5):
+        print(i)
+import random
+print(random.randint(0, 100))
