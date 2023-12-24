@@ -1,6 +1,10 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
