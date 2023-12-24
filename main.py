@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
