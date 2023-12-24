@@ -1,4 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-print(math.pi)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
