@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
