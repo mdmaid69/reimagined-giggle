@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_user_list():
+        return collections.UserList()
+def is_palindrome(s):
+        return s == s[::-1]
