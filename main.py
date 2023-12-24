@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
