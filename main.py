@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
