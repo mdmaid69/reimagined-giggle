@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
