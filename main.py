@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
