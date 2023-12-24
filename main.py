@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
