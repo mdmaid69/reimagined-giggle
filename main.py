@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
