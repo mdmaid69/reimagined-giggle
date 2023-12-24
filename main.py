@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
