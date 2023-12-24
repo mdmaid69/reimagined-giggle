@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
