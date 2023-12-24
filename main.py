@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
