@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
