@@ -1,6 +1,8 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
