@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
