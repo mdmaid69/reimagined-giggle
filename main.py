@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
