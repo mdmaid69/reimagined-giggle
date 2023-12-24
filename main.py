@@ -1,5 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
