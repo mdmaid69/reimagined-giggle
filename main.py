@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  def reverse_list(lst):
+        return lst[::-1]
