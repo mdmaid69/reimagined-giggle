@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_speed(distance, time):
+        return distance / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
