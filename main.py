@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def cube_number(x):
-        return x**3
+import random
+def roll_die():
+        return random.randint(1, 6)
+def remove_duplicates(lst):
+        return list(set(lst))
