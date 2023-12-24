@@ -1,8 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def convert_to_json(data):
+        return json.dumps(data)
