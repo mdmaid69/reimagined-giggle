@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_floor(x):
+        return math.floor(x)
