@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
