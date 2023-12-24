@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
