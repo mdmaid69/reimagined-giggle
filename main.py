@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-for i in range(5):
-        print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
