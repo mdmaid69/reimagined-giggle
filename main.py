@@ -1,7 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
