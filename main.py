@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def append_to_array(array, item):
-        array.append(item)
+name = "Python"
+print("Hello,", name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
