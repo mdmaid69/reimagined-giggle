@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def cube_number(x):
+        return x**3
