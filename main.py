@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import sys
+def exit_program():
+        sys.exit()
