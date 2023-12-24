@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
