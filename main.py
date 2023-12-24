@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+print([x**2 for x in range(10)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
