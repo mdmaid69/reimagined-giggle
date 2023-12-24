@@ -1,5 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def cube_number(x):
-        return x**3
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
