@@ -1,5 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def find_max(lst):
+        return max(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
