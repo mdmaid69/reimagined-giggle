@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
