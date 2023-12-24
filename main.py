@@ -1,7 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+print(os.getcwd())
