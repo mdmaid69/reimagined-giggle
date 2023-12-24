@@ -1,5 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+for i in range(5):
+        print(i)
