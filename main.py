@@ -1,6 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
