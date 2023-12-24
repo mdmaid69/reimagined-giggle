@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
