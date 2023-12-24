@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
