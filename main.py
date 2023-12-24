@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
