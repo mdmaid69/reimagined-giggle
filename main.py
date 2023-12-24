@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
