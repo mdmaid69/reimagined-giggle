@@ -1,7 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
