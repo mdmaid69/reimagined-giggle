@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
