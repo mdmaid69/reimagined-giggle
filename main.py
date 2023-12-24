@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def convert_to_binary(n):
+        return bin(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
