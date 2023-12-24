@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
