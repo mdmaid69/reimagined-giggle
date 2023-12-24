@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_factorial(n):
+        return math.factorial(n)
