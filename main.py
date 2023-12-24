@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
