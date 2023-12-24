@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
