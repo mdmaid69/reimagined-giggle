@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
