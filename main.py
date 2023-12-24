@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
