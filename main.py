@@ -1,8 +1,8 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
