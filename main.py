@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def count_elements(lst):
+        return len(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
