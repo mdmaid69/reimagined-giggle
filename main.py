@@ -1,5 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def square_number(x):
-        return x**2
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import logging
+def log_message(message):
+        logging.info(message)
