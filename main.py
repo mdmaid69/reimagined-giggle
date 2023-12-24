@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
