@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
