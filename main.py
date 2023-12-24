@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import logging
+def log_message(message):
+        logging.info(message)
