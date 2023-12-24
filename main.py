@@ -1,8 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
