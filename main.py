@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def subtract_numbers(x, y):
-        return x - y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
