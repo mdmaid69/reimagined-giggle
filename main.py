@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
