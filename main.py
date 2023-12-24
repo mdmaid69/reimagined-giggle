@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-print(time.time())
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
