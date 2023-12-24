@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
