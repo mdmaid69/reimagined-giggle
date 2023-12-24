@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import os
+print(os.getcwd())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
