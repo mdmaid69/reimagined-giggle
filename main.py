@@ -1,7 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
