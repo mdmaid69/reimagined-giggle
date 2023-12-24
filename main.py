@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
