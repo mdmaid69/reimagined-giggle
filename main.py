@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
