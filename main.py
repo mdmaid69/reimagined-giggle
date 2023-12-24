@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
