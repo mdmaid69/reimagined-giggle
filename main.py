@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
