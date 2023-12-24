@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def print_python_version():
+        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
