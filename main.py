@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_typecode(array):
+        return array.typecode
