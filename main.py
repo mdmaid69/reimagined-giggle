@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
