@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
