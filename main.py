@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
