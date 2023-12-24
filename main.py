@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import random
-print(random.randint(0, 100))
+def convert_to_binary(n):
+        return bin(n)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
