@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
