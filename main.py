@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
