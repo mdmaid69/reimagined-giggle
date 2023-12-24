@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
