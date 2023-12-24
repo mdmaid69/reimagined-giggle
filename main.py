@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
