@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item(array, i):
+        return array[i]
