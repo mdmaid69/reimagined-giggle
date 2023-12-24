@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
