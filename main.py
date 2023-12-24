@@ -1,5 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_area_rectangle(l, w):
-        return l * w
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
