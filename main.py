@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+for i in range(10): print(i)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
