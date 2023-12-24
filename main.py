@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_speed(distance, time):
-        return distance / time
+def square_number(x):
+        return x**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
