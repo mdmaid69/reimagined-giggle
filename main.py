@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
