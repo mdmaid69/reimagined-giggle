@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def convert_to_hex(n):
+        return hex(n)
