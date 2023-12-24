@@ -1,5 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
