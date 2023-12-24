@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
