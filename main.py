@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_area_circle(r):
+        return 3.14 * r**2
