@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
