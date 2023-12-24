@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+print(random.randint(0, 100))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
