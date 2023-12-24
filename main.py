@@ -1,5 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
