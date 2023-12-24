@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_area_rectangle(l, w):
-        return l * w
+def cube_number(x):
+        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
