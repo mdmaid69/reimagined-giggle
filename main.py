@@ -1,8 +1,5 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
