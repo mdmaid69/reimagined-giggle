@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def multiply_numbers(x, y):
+        return x * y
