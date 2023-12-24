@@ -1,5 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def subtract_numbers(x, y):
+        return x - y
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
