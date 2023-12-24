@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
