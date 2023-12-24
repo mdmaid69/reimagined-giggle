@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
