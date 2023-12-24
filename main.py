@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
