@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+i = 0
+while i < 5:
+        print(i)
+        i += 1
