@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
