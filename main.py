@@ -1,7 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
