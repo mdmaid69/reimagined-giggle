@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
