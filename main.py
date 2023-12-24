@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def cube_number(x):
+        return x**3
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
