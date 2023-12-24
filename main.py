@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
