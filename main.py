@@ -1,6 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
