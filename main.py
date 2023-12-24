@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
