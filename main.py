@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def is_palindrome(s):
-        return s == s[::-1]
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
