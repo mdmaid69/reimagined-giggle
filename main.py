@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
