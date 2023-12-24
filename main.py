@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def convert_to_octal(n):
+        return oct(n)
+import numpy as np
+print(np.array([1, 2, 3]))
