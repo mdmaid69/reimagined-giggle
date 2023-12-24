@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
