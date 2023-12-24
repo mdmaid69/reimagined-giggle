@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
