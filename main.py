@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
