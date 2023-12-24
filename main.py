@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
