@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
