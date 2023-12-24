@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-name = "Python"
-print("Hello,", name)
+import datetime
+print(datetime.datetime.now())
+from collections import Counter
+print(Counter("hello world"))
