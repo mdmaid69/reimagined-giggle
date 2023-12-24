@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import time
+print(time.time())
+import sys
+def print_python_version():
+        print(sys.version)
