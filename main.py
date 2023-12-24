@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
