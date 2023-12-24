@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
