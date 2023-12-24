@@ -1,7 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
