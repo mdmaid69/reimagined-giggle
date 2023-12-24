@@ -1,5 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_power(work, time):
-        return work / time
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
