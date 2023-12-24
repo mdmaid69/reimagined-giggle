@@ -1,8 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
