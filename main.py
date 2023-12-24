@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_user_list():
+        return collections.UserList()
