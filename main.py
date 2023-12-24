@@ -1,5 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
