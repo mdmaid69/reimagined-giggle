@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
