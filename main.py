@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def count_elements(lst):
-        return len(lst)
+def greet(name):
+        print(f"Hello, {name}!")
+  def convert_to_binary(n):
+        return bin(n)
