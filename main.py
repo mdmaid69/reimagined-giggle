@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_area_rectangle(l, w):
+        return l * w
