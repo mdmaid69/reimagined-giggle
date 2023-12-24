@@ -1,5 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
