@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def append_to_array(array, item):
+        array.append(item)
