@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
