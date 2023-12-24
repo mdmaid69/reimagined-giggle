@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
