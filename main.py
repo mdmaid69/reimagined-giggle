@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def count_characters(sentence):
+        return len(sentence)
