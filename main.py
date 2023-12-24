@@ -1,5 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
