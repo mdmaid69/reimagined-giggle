@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def is_odd(n):
+        return n % 2 != 0
