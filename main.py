@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+def square_number(x):
+        return x**2
+  def is_odd(n):
+        return n % 2 != 0
