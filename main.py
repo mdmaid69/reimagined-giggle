@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_item(array, i):
+        return array[i]
+  def calculate_area_rectangle(l, w):
+        return l * w
