@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
