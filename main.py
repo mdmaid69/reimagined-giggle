@@ -1,6 +1,9 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
