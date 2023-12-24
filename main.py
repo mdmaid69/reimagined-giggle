@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
