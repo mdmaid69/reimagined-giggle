@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
