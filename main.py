@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def remove_from_array(array, item):
+        array.remove(item)
