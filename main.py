@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
