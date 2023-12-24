@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
