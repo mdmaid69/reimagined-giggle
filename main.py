@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
