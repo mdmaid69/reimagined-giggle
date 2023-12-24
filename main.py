@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
