@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_sine(x):
+        return math.sin(x)
