@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
