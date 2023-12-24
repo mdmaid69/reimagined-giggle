@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
