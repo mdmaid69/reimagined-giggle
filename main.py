@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
