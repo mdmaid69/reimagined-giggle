@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
