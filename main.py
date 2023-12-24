@@ -1,5 +1,9 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
