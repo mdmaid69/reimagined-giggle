@@ -1,4 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-print([x**2 for x in range(10)])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
