@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def cube_number(x):
-        return x**3
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
