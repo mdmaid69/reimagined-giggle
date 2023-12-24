@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
