@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
