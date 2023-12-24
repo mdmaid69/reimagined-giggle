@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
