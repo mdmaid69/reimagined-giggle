@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
