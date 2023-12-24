@@ -1,3 +1,4 @@
-print(sum(range(10)))
-def subtract_numbers(x, y):
-        return x - y
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
