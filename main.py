@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
