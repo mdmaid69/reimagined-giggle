@@ -1,5 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def square_number(x):
-        return x**2
+  def get_base_name(path):
+        return os.path.basename(path)
