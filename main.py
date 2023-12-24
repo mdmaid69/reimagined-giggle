@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
