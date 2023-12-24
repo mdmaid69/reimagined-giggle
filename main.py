@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
