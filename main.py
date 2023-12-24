@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def square_number(x):
+        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
