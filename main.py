@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
