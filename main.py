@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
