@@ -1,6 +1,7 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
