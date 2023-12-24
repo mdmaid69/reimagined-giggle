@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import random
-print(random.randint(0, 100))
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
