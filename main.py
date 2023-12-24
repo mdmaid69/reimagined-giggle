@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
