@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
