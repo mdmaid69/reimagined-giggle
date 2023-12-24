@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
