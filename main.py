@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
