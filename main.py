@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
