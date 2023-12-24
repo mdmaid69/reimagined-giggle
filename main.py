@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
