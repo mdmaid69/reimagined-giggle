@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
