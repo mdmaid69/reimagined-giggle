@@ -1,4 +1,4 @@
+for i in range(10): print(i)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-print([x**2 for x in range(10)])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
