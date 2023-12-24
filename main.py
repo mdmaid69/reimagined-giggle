@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import datetime
+def get_current_date():
+        return datetime.date.today()
