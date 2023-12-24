@@ -1,6 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
