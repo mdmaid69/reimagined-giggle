@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
