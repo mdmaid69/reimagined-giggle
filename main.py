@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
