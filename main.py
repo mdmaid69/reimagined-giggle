@@ -1,5 +1,12 @@
 import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
