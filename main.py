@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def cube_number(x):
-        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_counter():
+        return collections.Counter()
