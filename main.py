@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+for i in range(5):
+        print(i)
+import array
+def get_list_from_array(array):
+        return array.tolist()
