@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
