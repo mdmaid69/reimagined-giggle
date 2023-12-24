@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def count_characters(sentence):
-        return len(sentence)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
