@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def find_min(numbers):
+        return min(numbers)
