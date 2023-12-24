@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def convert_to_binary(n):
+        return bin(n)
