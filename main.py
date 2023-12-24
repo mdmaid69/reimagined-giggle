@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
