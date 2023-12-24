@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
