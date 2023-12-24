@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-name = "Python"
-print("Hello,", name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
