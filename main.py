@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
