@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import getpass
+def get_username():
+        return getpass.getuser()
