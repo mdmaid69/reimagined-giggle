@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_area_rectangle(l, w):
+        return l * w
