@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
