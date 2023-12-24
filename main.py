@@ -1,7 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
