@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
