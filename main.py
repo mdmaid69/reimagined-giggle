@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def create_priority_queue():
+        return collections.deque()
