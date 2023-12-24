@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def reverse_array(array):
+        array.reverse()
