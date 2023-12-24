@@ -1,7 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def sort_list(lst):
+        return sorted(lst)
+def find_max(numbers):
+        return max(numbers)
