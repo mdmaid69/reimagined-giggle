@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
