@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
