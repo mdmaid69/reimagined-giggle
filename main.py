@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
