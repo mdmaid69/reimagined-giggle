@@ -1,7 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
