@@ -1,10 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_area_rectangle(l, w):
+        return l * w
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
