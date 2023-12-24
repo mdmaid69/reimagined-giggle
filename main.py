@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
