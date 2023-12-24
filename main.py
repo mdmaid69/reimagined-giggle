@@ -1,4 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_power(work, time):
+        return work / time
+import tensorflow as tf
+print(tf.__version__)
