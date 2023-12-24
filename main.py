@@ -1,12 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import queue
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import unittest
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
