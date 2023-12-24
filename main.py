@@ -1,6 +1,7 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
