@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
