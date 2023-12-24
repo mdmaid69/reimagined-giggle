@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
