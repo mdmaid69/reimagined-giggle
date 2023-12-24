@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
