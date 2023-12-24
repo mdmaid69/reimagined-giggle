@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import re
-print(re.match("h.*o", "hello world"))
+def add_numbers(x, y):
+        return x + y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
