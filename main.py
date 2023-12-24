@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def find_max(lst):
-        return max(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
