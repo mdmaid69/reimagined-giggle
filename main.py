@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def add_numbers(x, y):
+        return x + y
