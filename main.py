@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
