@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_density(mass, volume):
-        return mass / volume
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
