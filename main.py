@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
