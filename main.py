@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def is_odd(n):
+        return n % 2 != 0
