@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def split_path(path):
+        return os.path.split(path)
