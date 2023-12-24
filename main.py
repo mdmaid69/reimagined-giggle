@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
