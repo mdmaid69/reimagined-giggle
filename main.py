@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def multiply_numbers(x, y):
+        return x * y
