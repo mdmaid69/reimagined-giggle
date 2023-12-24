@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_int(array):
+        return int(array[0])
