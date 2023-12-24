@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
+def cube_number(x):
+        return x**3
