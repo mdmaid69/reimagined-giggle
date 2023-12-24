@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
