@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
