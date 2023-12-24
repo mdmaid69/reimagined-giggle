@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
