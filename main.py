@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_binary(n):
+        return bin(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
