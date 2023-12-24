@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
