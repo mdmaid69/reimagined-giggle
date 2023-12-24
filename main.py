@@ -1,6 +1,7 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
