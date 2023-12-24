@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
