@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
