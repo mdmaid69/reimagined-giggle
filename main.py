@@ -1,10 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
