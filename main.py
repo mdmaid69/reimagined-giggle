@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
