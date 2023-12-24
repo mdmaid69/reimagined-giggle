@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def convert_to_hex(n):
+        return hex(n)
