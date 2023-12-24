@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  def multiply_numbers(x, y):
+        return x * y
