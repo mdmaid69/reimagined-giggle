@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def reverse_list(lst):
-        return lst[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_even(n):
+        return n % 2 == 0
