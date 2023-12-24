@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def print_python_version():
+        return sys.version
