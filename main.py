@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
