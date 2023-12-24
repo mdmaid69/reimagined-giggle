@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_priority_queue():
-        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
