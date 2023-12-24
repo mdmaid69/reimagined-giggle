@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
