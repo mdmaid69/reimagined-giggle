@@ -1,7 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
