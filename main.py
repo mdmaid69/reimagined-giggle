@@ -1,9 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def count_elements(lst):
+        return len(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
