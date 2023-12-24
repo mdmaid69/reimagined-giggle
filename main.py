@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
