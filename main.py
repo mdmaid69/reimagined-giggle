@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
