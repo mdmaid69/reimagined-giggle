@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
