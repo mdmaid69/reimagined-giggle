@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
