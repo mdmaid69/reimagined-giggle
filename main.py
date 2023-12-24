@@ -1,4 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
