@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
