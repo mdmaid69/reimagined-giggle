@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
