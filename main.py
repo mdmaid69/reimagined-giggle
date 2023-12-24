@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
