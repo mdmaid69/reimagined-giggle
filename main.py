@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
