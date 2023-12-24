@@ -1,6 +1,8 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
