@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
