@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
