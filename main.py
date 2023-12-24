@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
