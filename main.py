@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
