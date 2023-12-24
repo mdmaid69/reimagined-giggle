@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
