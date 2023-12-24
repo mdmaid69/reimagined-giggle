@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
