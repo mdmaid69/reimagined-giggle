@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
