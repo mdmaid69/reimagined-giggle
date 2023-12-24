@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def multiply_numbers(x, y):
+        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
