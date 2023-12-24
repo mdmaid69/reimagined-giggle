@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
