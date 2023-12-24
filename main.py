@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def subtract_numbers(x, y):
-        return x - y
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
