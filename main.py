@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
