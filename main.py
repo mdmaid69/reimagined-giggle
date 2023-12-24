@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
