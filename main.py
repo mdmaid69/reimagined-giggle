@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_typecode(array):
-        return array.typecode
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
