@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
