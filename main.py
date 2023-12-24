@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
