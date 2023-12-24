@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+def subtract_numbers(x, y):
+        return x - y
