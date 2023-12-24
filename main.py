@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def add_numbers(x, y):
+        return x + y
+def find_max(lst):
+        return max(lst)
