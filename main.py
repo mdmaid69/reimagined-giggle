@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import sys
-def exit_program():
-        sys.exit()
+  def get_directory_name(path):
+        return os.path.dirname(path)
