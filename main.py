@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def print_python_version():
-        print(sys.version)
+print(sum(range(10)))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
