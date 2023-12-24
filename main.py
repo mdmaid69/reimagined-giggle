@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-name = "Python"
-print("Hello,", name)
+def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
