@@ -1,3 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-print([x**2 for x in range(10)])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
