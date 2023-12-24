@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
