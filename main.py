@@ -1,5 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_min(numbers):
-        return min(numbers)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
