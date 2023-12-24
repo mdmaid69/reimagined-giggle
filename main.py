@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def remove_duplicates(lst):
-        return list(set(lst))
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
