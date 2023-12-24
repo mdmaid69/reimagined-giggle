@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
