@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
