@@ -1,5 +1,3 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+print(sum(range(10)))
