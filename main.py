@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_work(force, distance):
-        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
