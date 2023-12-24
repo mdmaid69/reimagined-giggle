@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_gamma_function(x):
+        return math.gamma(x)
