@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
