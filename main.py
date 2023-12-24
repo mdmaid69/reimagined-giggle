@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
