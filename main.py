@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
