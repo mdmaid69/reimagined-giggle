@@ -1,9 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
