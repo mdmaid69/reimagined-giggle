@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
