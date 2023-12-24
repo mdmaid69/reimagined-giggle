@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
