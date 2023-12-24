@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import random
-print(random.randint(0, 100))
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
