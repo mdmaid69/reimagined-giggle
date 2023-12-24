@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
