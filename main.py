@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_memoryview(array):
+        return memoryview(array)
