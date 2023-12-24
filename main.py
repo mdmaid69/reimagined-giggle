@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
