@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
