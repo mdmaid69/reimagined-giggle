@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
