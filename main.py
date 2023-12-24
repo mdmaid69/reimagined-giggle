@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
