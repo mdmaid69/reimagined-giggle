@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
