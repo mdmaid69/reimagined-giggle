@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
