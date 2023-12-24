@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
