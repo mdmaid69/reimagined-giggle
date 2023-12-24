@@ -1,6 +1,9 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import time
+def get_time_since_epoch():
+        return time.time()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
