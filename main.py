@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def add_numbers(a, b):
+        return a + b
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def extend_array(array, iterable):
+        array.extend(iterable)
