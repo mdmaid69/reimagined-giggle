@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
