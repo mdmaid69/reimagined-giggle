@@ -1,5 +1,7 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
