@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
