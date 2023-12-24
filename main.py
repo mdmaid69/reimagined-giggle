@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import collections
+def create_counter():
+        return collections.Counter()
