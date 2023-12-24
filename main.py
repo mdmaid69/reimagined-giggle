@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import datetime
+print(datetime.datetime.now())
 import platform
-def get_python_version():
-        return platform.python_version()
+def get_os_info():
+        return platform.uname()
