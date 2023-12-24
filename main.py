@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def greet(name):
+        print(f"Hello, {name}!")
