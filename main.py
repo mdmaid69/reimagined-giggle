@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
