@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
