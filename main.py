@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
