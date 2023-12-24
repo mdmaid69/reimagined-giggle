@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def convert_to_binary(n):
-        return bin(n)
+def count_characters(sentence):
+        return len(sentence)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
