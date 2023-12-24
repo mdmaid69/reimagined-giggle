@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
