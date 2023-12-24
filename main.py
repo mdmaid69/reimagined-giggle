@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import time
-print(time.time())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
