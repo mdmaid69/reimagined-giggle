@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
