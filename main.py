@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
