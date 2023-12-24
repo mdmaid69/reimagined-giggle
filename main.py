@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def append_to_array(array, item):
+        array.append(item)
+def divide_numbers(x, y):
+        return x / y
