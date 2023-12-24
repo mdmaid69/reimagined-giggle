@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
