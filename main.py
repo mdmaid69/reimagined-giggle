@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_index(array, item):
+        return array.index(item)
