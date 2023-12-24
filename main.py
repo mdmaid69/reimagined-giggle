@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def split_path(path):
+        return os.path.split(path)
