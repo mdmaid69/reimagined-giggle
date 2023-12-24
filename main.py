@@ -1,5 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_item(array, i):
+        return array[i]
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
