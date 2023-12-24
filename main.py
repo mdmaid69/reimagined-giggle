@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
