@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
