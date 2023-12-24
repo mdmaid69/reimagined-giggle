@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_python_version():
+        return platform.python_version()
