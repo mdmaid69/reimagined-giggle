@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
