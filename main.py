@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def split_path(path):
+        return os.path.split(path)
