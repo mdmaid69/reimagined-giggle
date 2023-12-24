@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
