@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
