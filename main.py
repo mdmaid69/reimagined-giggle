@@ -1,5 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def clear_array(array):
-        array *= 0
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def get_array_as_tuple(array):
+        return tuple(array)
