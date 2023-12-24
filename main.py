@@ -1,6 +1,6 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
