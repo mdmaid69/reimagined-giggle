@@ -1,6 +1,7 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_item(array, i):
-        return array[i]
+def get_string_from_array(array):
+        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
