@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def subtract_numbers(x, y):
+        return x - y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
