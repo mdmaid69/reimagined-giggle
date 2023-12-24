@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
