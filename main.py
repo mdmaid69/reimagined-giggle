@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
