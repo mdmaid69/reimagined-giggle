@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_volume(length, width, height):
+        return length * width * height
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
