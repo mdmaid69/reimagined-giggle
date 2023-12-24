@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def multiply_numbers(x, y):
+        return x * y
