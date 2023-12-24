@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def convert_to_octal(n):
+        return oct(n)
