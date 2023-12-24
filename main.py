@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
