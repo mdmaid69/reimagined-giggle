@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
