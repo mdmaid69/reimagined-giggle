@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
