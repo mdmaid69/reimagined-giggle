@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
