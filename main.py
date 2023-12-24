@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
