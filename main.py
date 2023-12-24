@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
