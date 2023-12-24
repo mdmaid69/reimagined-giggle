@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
