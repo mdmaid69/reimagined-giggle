@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
