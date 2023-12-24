@@ -1,7 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_memoryview(array):
+        return memoryview(array)
