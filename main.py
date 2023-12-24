@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
