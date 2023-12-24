@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_as_str(array):
+        return str(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
