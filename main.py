@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
