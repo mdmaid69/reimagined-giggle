@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
