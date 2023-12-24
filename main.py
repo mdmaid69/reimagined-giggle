@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
