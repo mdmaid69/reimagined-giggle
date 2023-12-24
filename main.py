@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import sys
+print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
