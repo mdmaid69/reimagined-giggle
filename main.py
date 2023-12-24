@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
