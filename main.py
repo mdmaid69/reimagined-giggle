@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
