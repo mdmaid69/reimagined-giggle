@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
