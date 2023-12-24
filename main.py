@@ -1,6 +1,7 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def reverse_array(array):
-        array.reverse()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
