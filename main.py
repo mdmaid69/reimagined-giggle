@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_current_time():
+        return time.time()
+def find_min(numbers):
+        return min(numbers)
