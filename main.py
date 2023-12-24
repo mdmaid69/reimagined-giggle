@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
