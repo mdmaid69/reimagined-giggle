@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def cube_number(x):
-        return x**3
+def count_elements(lst):
+        return len(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
