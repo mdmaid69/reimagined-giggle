@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def count_characters(sentence):
+        return len(sentence)
