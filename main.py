@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
