@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_as_float(array):
+        return float(array[0])
