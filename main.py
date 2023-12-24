@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_power(work, time):
+        return work / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
