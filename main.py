@@ -1,4 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-for i in range(10): print(i)
+import logging
+def log_message(message):
+        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
