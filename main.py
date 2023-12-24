@@ -1,5 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
