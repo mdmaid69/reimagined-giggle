@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
