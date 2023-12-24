@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_pressure(force, area):
-        return force / area
+print("Hello, world!")
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
