@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import platform
+def get_os_info():
+        return platform.uname()
