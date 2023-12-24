@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
