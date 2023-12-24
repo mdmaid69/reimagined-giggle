@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_priority_queue():
-        return collections.deque()
+def cube_number(x):
+        return x**3
+def find_min(lst):
+        return min(lst)
