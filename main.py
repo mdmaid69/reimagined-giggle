@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_unique_words(sentence):
+        return set(sentence.split())
