@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def cube_number(x):
+        return x**3
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
