@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def count_elements(lst):
+        return len(lst)
