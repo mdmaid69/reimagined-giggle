@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(x, y):
-        return x + y
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def remove_duplicates(lst):
+        return list(set(lst))
