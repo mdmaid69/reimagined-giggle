@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def reverse_string(s):
+        return s[::-1]
