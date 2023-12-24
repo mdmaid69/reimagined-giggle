@@ -1,7 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+for i in range(10): print(i)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
