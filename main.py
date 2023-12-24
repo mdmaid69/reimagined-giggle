@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
