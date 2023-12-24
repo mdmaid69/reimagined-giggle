@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_tangent(x):
+        return math.tan(x)
