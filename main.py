@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def clear_array(array):
+        array *= 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
