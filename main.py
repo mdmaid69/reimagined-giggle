@@ -1,5 +1,4 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
