@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
