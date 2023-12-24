@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+for i in range(5):
+        print(i)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
