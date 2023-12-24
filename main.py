@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
