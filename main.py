@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
