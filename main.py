@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
