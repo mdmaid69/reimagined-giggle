@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_arc_cosine(x):
+        return math.acos(x)
