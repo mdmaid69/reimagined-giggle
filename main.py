@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
