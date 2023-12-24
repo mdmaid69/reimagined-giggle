@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
