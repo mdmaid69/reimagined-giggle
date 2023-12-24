@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
