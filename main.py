@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import sys
+print(sys.version)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
