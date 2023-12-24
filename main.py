@@ -1,3 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-print(sum(range(10)))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
