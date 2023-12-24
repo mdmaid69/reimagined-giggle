@@ -1,8 +1,7 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_base_name(path):
+        return os.path.basename(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
