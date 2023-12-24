@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
