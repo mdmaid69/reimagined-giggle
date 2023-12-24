@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import logging
-def log_message(message):
-        logging.info(message)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
