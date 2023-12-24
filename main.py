@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
