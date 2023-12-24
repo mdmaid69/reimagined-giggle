@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
