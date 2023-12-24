@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_queue():
+        return collections.deque()
+import time
+print(time.time())
