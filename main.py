@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def square_number(x):
+        return x**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
