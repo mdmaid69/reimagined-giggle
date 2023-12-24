@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
