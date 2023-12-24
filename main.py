@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
