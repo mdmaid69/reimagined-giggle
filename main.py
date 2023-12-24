@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def add_numbers(x, y):
-        return x + y
+name = "Python"
+print("Hello,", name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
