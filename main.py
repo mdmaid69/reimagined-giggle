@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_set(array):
+        return set(array)
