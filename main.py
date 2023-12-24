@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
