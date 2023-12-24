@@ -1,7 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
