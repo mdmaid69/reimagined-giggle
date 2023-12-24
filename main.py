@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def reverse_list(lst):
+        return lst[::-1]
