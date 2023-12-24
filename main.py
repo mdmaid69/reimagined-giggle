@@ -1,6 +1,10 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
