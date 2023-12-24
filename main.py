@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
