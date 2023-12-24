@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_queue():
+        return collections.deque()
