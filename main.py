@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
