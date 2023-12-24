@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+def sort_numbers(numbers):
+        return sorted(numbers)
