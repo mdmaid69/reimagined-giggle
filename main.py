@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
