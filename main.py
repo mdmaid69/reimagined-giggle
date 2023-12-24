@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(a, b):
+        return a + b
