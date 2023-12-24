@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def cube_number(x):
-        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
