@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
