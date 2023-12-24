@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
