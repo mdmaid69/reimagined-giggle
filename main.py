@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
