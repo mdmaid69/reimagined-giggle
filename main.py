@@ -1,5 +1,3 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+for i in range(10): print(i)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
