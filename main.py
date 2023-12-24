@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
