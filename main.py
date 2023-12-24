@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
