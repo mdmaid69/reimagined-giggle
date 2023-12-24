@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def cube_number(x):
+        return x**3
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_complex(array):
+        return complex(array[0])
