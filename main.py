@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
