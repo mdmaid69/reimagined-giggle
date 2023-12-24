@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
