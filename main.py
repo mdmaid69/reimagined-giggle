@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def add_numbers(x, y):
+        return x + y
