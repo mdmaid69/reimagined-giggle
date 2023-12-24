@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import array
-def clear_array(array):
-        array *= 0
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
