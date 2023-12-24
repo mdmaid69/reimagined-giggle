@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
