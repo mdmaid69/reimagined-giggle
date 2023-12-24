@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def subtract_numbers(x, y):
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def subtract_numbers(x, y):
         return x - y
