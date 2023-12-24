@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def square_number(x):
+        return x**2
