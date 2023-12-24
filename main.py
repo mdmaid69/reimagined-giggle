@@ -1,7 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_palindrome(s):
+        return s == s[::-1]
