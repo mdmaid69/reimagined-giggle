@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_power(work, time):
+        return work / time
