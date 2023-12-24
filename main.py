@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+print([x**2 for x in range(10)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
