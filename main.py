@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def convert_to_hex(n):
-        return hex(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
