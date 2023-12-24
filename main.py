@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
