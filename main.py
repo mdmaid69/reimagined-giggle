@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
