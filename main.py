@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+print([x**2 for x in range(10)])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
