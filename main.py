@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
