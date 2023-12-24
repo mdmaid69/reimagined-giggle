@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
