@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
+x = 10
+y = 20
+print("Sum:", x + y)
