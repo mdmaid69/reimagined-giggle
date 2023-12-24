@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def divide_numbers(x, y):
-        return x / y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_array_to_list(array):
+        return array.tolist()
