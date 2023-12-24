@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
