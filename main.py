@@ -1,5 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-for i in range(10): print(i)
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+print(re.match("h.*o", "hello world"))
