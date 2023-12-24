@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
