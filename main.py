@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import re
-print(re.match("h.*o", "hello world"))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def convert_to_octal(n):
+        return oct(n)
