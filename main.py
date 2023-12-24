@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
