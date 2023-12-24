@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def exit_program():
+        sys.exit()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
