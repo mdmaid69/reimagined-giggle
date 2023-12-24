@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
