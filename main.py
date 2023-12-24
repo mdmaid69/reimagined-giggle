@@ -1,4 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-for i in range(10): print(i)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
