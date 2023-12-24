@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
