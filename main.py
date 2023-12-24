@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
