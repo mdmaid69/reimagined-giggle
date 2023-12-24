@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
