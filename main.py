@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
