@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
