@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def is_even(n):
+        return n % 2 == 0
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
