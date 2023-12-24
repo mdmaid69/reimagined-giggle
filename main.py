@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
