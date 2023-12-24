@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def clear_array(array):
+        array *= 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
