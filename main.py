@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
