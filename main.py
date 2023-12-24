@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def find_min(lst):
-        return min(lst)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
