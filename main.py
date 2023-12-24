@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_string():
-        return collections.UserString()
+def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
