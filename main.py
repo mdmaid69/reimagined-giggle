@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import time
+print(time.time())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
