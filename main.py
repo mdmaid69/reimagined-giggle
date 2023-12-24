@@ -1,4 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-for i in range(10): print(i)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def reverse_list(lst):
+        return lst[::-1]
