@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
