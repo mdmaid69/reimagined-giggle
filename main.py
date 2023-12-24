@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
