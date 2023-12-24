@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
