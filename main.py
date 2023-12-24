@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
