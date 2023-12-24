@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
