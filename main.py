@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
