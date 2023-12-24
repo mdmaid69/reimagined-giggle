@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
