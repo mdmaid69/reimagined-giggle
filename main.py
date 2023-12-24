@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
