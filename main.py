@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def add_numbers(a, b):
-        return a + b
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
