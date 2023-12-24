@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
