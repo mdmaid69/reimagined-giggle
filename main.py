@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
