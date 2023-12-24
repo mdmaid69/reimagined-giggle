@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
