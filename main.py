@@ -1,4 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def is_even(n):
+        return n % 2 == 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
