@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
