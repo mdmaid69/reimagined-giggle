@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def convert_to_octal(n):
+        return oct(n)
