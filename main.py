@@ -1,3 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-print([x**2 for x in range(10)])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
