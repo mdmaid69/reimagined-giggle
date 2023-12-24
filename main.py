@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_set(array):
-        return set(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import time
+def get_time_since_epoch():
+        return time.time()
