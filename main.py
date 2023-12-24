@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
