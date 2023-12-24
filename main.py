@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import datetime
-print(datetime.datetime.now())
+def is_palindrome(s):
+        return s == s[::-1]
+  def subtract_numbers(x, y):
+        return x - y
