@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
