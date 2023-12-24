@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_min(lst):
+        return min(lst)
