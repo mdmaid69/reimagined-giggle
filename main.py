@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
