@@ -1,6 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
