@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
