@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
