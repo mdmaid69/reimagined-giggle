@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_hex(n):
+        return hex(n)
+x = 10
+y = 20
+print("Sum:", x + y)
