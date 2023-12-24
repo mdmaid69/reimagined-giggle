@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
