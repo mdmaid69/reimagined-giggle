@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
