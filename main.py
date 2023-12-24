@@ -1,12 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
