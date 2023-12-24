@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
