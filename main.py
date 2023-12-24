@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
