@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
