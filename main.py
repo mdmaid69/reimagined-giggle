@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
