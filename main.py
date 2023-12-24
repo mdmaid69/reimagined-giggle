@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
