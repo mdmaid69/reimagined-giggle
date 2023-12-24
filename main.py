@@ -1,6 +1,8 @@
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def delete_file(file_name):
+        os.remove(file_name)
