@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
