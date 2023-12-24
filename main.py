@@ -1,8 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
