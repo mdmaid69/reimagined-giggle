@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
