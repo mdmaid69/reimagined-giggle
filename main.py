@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
