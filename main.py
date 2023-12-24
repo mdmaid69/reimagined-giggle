@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
