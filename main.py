@@ -1,7 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
