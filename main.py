@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
