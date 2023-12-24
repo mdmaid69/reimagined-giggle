@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+print(datetime.datetime.now())
+def square_number(x):
+        return x**2
