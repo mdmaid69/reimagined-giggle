@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
