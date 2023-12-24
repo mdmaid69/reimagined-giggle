@@ -1,8 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
