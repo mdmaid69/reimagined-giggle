@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
