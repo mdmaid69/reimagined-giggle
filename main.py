@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
