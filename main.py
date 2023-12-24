@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
