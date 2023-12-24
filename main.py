@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
