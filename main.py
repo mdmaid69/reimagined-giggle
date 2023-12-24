@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
