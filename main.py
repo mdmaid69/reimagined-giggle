@@ -1,5 +1,9 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
