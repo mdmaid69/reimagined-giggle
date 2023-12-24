@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
