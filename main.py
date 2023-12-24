@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def find_min(numbers):
+        return min(numbers)
+def calculate_work(force, distance):
+        return force * distance
