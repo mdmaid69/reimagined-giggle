@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
