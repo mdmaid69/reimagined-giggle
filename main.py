@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
