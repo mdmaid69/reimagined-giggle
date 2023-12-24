@@ -1,6 +1,6 @@
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
