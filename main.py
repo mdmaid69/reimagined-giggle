@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
