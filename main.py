@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
