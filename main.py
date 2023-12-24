@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
