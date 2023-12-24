@@ -1,8 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
