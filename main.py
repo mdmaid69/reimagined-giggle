@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_acceleration(speed, time):
+        return speed / time
