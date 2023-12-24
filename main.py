@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
