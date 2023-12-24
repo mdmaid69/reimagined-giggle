@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import time
+def get_current_time():
+        return time.ctime()
