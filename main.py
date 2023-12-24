@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_min(lst):
+        return min(lst)
+import time
+print(time.time())
