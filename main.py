@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def convert_to_hex(n):
+        return hex(n)
