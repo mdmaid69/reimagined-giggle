@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_density(mass, volume):
-        return mass / volume
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
