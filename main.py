@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def square_number(x):
-        return x**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_density(mass, volume):
+        return mass / volume
