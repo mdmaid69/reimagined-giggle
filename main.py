@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+def find_max(lst):
+        return max(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
