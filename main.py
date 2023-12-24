@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_stack():
-        return collections.deque()
+  def sort_list(lst):
+        return sorted(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
