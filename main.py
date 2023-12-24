@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
