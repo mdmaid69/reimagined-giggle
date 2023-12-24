@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
