@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
