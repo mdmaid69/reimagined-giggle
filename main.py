@@ -1,5 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def count_elements(lst):
-        return len(lst)
+  def square_number(x):
+        return x**2
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
