@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def divide_numbers(x, y):
+        return x / y
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
