@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def sort_list(lst):
+        return sorted(lst)
