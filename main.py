@@ -1,5 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
