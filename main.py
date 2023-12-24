@@ -1,6 +1,11 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_user_list():
+        return collections.UserList()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
