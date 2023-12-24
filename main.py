@@ -1,6 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
