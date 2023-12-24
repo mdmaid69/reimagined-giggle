@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
