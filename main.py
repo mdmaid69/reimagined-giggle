@@ -1,7 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
