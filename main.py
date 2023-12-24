@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_hex(n):
+        return hex(n)
