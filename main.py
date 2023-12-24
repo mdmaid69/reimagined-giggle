@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
