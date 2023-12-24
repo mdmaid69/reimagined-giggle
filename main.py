@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
