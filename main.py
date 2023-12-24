@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
