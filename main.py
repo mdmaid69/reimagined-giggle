@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_floor(x):
-        return math.floor(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import tensorflow as tf
+print(tf.__version__)
