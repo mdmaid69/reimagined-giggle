@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import random
+print(random.randint(0, 100))
