@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
