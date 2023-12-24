@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_itemsize(array):
+        return array.itemsize
