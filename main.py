@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
