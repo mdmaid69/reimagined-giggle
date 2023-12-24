@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
