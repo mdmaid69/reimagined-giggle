@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+name = "Python"
+print("Hello,", name)
