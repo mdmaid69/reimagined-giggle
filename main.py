@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
