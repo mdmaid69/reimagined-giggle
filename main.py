@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
