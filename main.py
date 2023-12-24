@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
