@@ -1,7 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def multiply_numbers(x, y):
+        return x * y
