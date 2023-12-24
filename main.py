@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
 import math
-print(math.pi)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
