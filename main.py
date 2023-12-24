@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_set(array):
-        return set(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
