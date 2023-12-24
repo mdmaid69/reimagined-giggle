@@ -1,6 +1,8 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
