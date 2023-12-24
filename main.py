@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
