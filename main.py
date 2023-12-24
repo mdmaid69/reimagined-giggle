@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
