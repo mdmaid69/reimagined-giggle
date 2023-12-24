@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def split_path(path):
+        return os.path.split(path)
