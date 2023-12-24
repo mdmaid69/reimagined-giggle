@@ -1,5 +1,5 @@
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import sys
-print(sys.version)
+def set_array_item(array, i, item):
+        array[i] = item
