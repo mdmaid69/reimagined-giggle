@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
