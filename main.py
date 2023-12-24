@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def reverse_string(s):
-        return s[::-1]
+  def count_elements(lst):
+        return len(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
