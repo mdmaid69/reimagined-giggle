@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_acceleration(speed, time):
+        return speed / time
