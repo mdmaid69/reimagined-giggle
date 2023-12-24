@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
