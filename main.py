@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
