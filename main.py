@@ -1,12 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
