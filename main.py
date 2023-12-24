@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
