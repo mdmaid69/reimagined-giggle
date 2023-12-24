@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
