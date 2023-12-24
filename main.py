@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def cube_number(x):
+        return x**3
+  def convert_to_binary(n):
+        return bin(n)
