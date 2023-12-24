@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def count_elements(lst):
-        return len(lst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_counter():
+        return collections.Counter()
