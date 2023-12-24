@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
