@@ -1,7 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
