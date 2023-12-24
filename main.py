@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
