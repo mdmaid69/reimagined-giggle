@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
