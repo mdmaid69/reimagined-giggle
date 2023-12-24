@@ -1,6 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
