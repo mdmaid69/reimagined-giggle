@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def square_number(x):
+        return x**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
