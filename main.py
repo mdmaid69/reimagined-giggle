@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import array
-def reverse_array(array):
-        array.reverse()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_tuple(array):
+        return tuple(array)
