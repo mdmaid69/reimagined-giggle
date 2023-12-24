@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
