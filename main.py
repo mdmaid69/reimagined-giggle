@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+for i in range(10): print(i)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
