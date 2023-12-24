@@ -1,6 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
