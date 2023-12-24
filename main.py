@@ -1,6 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import sys
-def exit_program():
-        sys.exit()
+  def get_current_working_directory():
+        return os.getcwd()
