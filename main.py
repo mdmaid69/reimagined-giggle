@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def convert_to_octal(n):
+        return oct(n)
