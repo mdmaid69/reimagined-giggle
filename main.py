@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
