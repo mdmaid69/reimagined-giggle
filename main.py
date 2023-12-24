@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def roll_die():
+        return random.randint(1, 6)
