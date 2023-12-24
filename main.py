@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
