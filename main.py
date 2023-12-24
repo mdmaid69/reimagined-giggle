@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
