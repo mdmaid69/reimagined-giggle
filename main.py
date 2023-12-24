@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_str(array):
+        return str(array)
