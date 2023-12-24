@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+for i in range(5):
+        print(i)
