@@ -1,6 +1,4 @@
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+print(re.match("h.*o", "hello world"))
+  def square_number(x):
+        return x**2
