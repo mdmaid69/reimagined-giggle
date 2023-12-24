@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def convert_array_to_string(array):
+        return array.tostring()
