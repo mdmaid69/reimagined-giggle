@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
