@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
