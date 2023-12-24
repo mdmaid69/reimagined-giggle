@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def square_number(x):
-        return x**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
