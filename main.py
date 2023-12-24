@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
