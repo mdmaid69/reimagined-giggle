@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def convert_to_binary(n):
+        return bin(n)
