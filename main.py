@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_unique_words(sentence):
+        return set(sentence.split())
