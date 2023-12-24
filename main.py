@@ -1,7 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
