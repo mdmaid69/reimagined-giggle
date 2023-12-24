@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_item(array, i):
+        return array[i]
