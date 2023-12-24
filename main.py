@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import os
-print(os.getcwd())
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
