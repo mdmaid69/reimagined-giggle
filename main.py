@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def get_current_working_directory():
+        return os.getcwd()
