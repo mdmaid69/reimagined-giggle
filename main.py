@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def cube_number(x):
-        return x**3
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
