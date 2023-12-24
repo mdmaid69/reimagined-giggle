@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
