@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
