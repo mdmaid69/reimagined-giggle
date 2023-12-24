@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
