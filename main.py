@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
