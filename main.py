@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-def sort_list(lst):
-        return sorted(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
