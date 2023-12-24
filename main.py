@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
