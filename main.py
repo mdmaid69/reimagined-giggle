@@ -1,4 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-for i in range(10): print(i)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
