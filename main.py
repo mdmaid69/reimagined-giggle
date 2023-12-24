@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
