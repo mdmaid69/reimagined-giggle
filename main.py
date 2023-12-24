@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
