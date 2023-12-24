@@ -1,5 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_work(force, distance):
-        return force * distance
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
