@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
