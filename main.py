@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+print("Hello, world!")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
