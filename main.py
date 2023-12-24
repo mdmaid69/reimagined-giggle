@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+print(math.pi)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
