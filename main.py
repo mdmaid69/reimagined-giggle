@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
