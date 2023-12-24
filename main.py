@@ -1,5 +1,3 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
