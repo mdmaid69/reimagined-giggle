@@ -1,8 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_counter():
+        return collections.Counter()
