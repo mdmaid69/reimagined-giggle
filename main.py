@@ -1,5 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_power(work, time):
+        return work / time
