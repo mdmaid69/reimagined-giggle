@@ -1,8 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
