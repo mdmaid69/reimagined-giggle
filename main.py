@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def get_current_time():
+        return time.time()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
