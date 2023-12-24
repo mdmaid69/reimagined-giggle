@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
