@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
