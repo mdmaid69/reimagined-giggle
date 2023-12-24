@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
