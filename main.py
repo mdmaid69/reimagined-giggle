@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
