@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
