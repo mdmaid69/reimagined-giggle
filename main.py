@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def sort_numbers(numbers):
+        return sorted(numbers)
