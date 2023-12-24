@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
