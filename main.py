@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
