@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_min(numbers):
+        return min(numbers)
