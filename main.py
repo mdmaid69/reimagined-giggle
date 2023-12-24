@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
