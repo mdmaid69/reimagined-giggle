@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import time
+def get_time_since_epoch():
+        return time.time()
+import random
+def roll_die():
+        return random.randint(1, 6)
