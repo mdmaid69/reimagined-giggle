@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
