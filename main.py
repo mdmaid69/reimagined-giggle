@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def divide_numbers(x, y):
+        return x / y
