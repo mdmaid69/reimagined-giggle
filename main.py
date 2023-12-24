@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
