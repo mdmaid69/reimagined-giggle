@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
