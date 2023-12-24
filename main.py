@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_volume(length, width, height):
-        return length * width * height
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
