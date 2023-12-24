@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
