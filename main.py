@@ -1,5 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
