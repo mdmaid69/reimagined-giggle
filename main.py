@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def reverse_list(lst):
+        return lst[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
