@@ -1,5 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_priority_queue():
+        return collections.deque()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
