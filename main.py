@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def convert_to_octal(n):
+        return oct(n)
