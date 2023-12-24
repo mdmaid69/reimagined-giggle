@@ -1,6 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
