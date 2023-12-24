@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
