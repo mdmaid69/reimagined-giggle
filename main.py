@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
