@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
