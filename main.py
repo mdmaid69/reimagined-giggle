@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
