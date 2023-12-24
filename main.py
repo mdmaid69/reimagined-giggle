@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
