@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
