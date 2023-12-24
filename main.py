@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
