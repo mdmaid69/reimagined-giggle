@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def find_max(numbers):
+        return max(numbers)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
