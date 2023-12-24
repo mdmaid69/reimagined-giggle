@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
