@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def get_current_time():
+        return time.time()
