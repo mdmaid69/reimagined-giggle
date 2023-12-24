@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
