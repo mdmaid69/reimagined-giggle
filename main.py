@@ -1,5 +1,4 @@
 def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
