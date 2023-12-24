@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def square_number(x):
-        return x**2
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
