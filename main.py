@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
