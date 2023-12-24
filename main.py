@@ -1,6 +1,8 @@
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def get_username():
+        return getpass.getuser()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
