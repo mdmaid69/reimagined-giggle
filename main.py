@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import time
+def get_time_since_epoch():
+        return time.time()
