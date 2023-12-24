@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def remove_from_array(array, item):
+        array.remove(item)
