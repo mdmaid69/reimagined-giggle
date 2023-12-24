@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
