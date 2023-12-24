@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_typecode(array):
+        return array.typecode
