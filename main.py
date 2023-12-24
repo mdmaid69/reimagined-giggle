@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
