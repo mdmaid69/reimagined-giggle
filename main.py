@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import tensorflow as tf
-print(tf.__version__)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
