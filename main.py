@@ -1,6 +1,11 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-x = 10
-y = 20
-print("Sum:", x + y)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def is_even(n):
+        return n % 2 == 0
