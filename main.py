@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
