@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
