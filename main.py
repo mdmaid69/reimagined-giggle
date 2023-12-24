@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_as_bool(array):
+        return bool(array)
