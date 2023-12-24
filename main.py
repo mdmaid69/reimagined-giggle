@@ -1,7 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
