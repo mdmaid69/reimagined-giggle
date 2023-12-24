@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def subtract_numbers(x, y):
+        return x - y
+def convert_to_binary(n):
+        return bin(n)
