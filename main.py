@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
