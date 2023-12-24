@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def exit_program():
+        sys.exit()
