@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
