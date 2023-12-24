@@ -1,5 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
