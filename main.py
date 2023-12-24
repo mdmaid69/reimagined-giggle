@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def convert_to_octal(n):
+        return oct(n)
