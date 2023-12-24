@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
