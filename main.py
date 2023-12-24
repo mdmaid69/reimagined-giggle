@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+def get_time_since_epoch():
+        return time.time()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
