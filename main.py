@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def add_numbers(x, y):
+        return x + y
+def calculate_speed(distance, time):
+        return distance / time
