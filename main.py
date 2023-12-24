@@ -1,8 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
