@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
