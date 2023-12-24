@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def add_numbers(x, y):
+        return x + y
