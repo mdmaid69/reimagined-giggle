@@ -1,7 +1,10 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import socket
+import threading
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+text = "Hello, world!"
+print("Words:", len(text.split()))
