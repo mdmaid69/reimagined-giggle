@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
