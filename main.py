@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
