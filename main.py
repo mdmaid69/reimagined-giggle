@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
