@@ -1,6 +1,5 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def reverse_list(lst):
+        return lst[::-1]
