@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
