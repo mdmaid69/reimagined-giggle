@@ -1,6 +1,6 @@
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_username():
+        return getpass.getuser()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
