@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-print(math.pi)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
