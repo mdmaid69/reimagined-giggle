@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
