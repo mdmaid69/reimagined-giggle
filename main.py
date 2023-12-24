@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
+import platform
+def get_python_version():
+        return platform.python_version()
