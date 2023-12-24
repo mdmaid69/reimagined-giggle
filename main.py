@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
