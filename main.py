@@ -1,9 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
