@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
