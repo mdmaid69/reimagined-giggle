@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
