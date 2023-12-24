@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
