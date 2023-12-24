@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import itertools
 def get_combinations(iterable, r):
         return list(itertools.combinations(iterable, r))
