@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
