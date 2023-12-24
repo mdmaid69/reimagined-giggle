@@ -1,4 +1,3 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print(sum(range(10)))
