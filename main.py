@@ -1,7 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
