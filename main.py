@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
