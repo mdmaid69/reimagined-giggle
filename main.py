@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def find_max(numbers):
+        return max(numbers)
