@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_queue():
-        return collections.deque()
+def find_min(numbers):
+        return min(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
