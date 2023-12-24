@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+print(os.getcwd())
