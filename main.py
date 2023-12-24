@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
