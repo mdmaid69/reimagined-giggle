@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
