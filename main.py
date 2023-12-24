@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
