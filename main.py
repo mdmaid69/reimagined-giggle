@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def count_words(sentence):
+        return len(sentence.split())
