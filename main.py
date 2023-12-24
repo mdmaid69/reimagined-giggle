@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
