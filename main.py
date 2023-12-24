@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_speed(distance, time):
-        return distance / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def split_path(path):
+        return os.path.split(path)
