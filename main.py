@@ -1,5 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
