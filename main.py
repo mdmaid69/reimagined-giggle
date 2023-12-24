@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
