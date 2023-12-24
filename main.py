@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_counter():
+        return collections.Counter()
