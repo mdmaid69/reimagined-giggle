@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
