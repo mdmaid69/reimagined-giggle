@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_str(array):
+        return str(array)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
