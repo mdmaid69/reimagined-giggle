@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
