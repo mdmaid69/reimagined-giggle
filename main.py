@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
