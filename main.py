@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
