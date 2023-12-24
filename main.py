@@ -1,8 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
