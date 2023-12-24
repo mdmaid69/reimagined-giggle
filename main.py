@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
