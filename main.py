@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
