@@ -1,6 +1,7 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
