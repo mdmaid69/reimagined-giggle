@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def sort_numbers(numbers):
+        return sorted(numbers)
