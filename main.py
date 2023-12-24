@@ -1,5 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
