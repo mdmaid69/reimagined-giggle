@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
