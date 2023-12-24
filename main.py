@@ -1,10 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def get_array_as_bool(array):
+        return bool(array)
