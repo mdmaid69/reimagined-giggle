@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
