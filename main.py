@@ -1,7 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
