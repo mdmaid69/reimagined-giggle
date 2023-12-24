@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
