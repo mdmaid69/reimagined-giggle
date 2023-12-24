@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
