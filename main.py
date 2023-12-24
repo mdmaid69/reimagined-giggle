@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def is_even(n):
+        return n % 2 == 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
