@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def is_even(n):
-        return n % 2 == 0
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
