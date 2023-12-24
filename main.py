@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
 import re
-def replace_all_occurrences(pattern, replacement, string):
+def replace_pattern(pattern, replacement, string):
         return re.sub(pattern, replacement, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
