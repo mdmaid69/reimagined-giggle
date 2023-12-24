@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
