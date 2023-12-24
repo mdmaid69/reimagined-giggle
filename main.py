@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_area_circle(r):
+        return 3.14 * r**2
