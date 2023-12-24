@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
