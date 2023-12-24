@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+print(os.getcwd())
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
