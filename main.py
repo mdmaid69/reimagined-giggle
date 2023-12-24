@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
