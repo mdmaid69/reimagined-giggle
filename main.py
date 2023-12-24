@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def remove_duplicates(lst):
+        return list(set(lst))
