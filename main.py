@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
