@@ -1,5 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import platform
+def get_python_version():
+        return platform.python_version()
