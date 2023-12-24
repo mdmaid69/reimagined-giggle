@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def clear_array(array):
-        array *= 0
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
