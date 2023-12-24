@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
