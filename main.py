@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
