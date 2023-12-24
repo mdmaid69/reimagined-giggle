@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
