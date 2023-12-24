@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
