@@ -1,6 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
