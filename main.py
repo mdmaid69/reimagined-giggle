@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
