@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
