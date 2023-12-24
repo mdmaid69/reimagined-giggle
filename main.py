@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import re
-print(re.match("h.*o", "hello world"))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
