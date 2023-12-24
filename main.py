@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
