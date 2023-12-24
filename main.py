@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
