@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
