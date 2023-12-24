@@ -1,7 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-for i in range(5):
-        print(i)
+def get_bytes_from_array(array):
+        return array.tobytes()
