@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
