@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
