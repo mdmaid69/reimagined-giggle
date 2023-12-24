@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_odd(n):
+        return n % 2 != 0
