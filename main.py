@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
