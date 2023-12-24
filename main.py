@@ -1,7 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
