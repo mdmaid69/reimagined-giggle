@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
