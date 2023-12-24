@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def count_elements(lst):
+        return len(lst)
