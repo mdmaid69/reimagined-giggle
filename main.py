@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def count_elements(lst):
-        return len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
