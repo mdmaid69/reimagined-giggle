@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_density(mass, volume):
-        return mass / volume
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
