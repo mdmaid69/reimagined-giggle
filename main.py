@@ -1,7 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def count_elements(lst):
+        return len(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
