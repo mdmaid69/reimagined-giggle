@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
