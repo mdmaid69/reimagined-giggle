@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
