@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
