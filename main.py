@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
