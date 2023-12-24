@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_str(array):
+        return str(array)
