@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
