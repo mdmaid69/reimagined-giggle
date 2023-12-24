@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def convert_to_hex(n):
+        return hex(n)
