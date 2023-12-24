@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
