@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
