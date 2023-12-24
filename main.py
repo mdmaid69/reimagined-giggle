@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def sort_list(lst):
-        return sorted(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_min(lst):
+        return min(lst)
