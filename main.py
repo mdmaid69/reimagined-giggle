@@ -1,6 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
