@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
