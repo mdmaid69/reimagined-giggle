@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
