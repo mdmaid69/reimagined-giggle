@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
