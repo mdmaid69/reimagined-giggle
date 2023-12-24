@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_area_rectangle(l, w):
+        return l * w
