@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
