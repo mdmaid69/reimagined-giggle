@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
