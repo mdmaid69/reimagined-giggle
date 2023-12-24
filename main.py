@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
