@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
