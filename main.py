@@ -1,5 +1,8 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
