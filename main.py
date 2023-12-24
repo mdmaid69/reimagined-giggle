@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def add_numbers(x, y):
+        return x + y
