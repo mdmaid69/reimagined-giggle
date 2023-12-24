@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
