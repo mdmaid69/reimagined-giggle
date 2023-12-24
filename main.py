@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
