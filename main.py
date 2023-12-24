@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def convert_to_hex(n):
-        return hex(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def multiply_numbers(x, y):
+        return x * y
