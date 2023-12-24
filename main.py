@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def append_to_array(array, item):
+        array.append(item)
+print([x**2 for x in range(10)])
