@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
