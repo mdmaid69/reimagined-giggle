@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
