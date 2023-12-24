@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
