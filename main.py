@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
