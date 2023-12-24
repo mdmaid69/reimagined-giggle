@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
