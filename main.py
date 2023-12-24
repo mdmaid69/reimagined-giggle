@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
