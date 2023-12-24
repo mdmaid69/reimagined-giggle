@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
