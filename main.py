@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
