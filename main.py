@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def is_even(n):
+        return n % 2 == 0
