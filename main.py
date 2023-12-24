@@ -1,5 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
