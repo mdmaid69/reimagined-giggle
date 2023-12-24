@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
