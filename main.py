@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
