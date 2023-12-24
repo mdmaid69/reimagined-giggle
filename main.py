@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
