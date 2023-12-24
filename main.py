@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
