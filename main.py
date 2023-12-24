@@ -1,5 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
