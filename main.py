@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
