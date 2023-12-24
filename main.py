@@ -1,4 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
