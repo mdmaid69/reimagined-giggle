@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_pressure(force, area):
+        return force / area
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
