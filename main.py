@@ -1,6 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def subtract_numbers(x, y):
+        return x - y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
