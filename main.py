@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
