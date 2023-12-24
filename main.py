@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
