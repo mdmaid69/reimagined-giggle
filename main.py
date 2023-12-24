@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_work(force, distance):
-        return force * distance
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
