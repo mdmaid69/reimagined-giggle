@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import sys
+def exit_program():
+        sys.exit()
