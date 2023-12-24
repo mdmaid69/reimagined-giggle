@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
