@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def convert_array_to_string(array):
+        return array.tostring()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
