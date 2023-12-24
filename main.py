@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
