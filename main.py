@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
