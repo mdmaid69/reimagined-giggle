@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
