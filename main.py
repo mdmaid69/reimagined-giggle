@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
