@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_force(mass, acceleration):
+        return mass * acceleration
