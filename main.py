@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import collections
-def create_counter():
-        return collections.Counter()
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
