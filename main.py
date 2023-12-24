@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_work(force, distance):
-        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_str(array):
+        return str(array)
