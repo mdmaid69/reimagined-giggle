@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import time
+def get_current_time():
+        return time.time()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
