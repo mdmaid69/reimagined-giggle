@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
