@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
