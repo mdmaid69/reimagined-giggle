@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def add_numbers(x, y):
+        return x + y
