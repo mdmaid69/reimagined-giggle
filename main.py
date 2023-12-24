@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
