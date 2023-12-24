@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
