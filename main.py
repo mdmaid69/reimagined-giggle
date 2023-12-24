@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def cube_number(x):
-        return x**3
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
