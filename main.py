@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
