@@ -1,7 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
