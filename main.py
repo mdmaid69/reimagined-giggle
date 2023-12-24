@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
