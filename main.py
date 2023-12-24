@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
