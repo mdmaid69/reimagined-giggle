@@ -1,7 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def convert_to_binary(n):
+        return bin(n)
