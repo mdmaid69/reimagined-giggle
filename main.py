@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_volume(length, width, height):
+        return length * width * height
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
