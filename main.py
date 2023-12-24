@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
