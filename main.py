@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
