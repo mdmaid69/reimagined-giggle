@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_volume(length, width, height):
+        return length * width * height
