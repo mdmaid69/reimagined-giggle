@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
