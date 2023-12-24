@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_acceleration(speed, time):
+        return speed / time
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
