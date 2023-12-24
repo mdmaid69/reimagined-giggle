@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
