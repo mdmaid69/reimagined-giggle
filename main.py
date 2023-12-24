@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
