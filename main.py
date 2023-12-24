@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
