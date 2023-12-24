@@ -1,9 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
