@@ -1,6 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
