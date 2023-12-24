@@ -1,4 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-print("Hello, world!")
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
