@@ -1,8 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
