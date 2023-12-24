@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
