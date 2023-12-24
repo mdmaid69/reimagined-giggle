@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
