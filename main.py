@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
