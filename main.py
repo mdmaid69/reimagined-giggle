@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
