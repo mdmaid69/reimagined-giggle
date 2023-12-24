@@ -1,11 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
