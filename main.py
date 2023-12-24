@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
