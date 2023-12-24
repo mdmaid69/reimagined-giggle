@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
