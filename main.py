@@ -1,9 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
