@@ -1,7 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
