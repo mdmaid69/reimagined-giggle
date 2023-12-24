@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+print(os.getcwd())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
