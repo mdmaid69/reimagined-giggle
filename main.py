@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_error_function(x):
+        return math.erf(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
