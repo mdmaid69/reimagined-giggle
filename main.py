@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
