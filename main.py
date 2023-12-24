@@ -1,5 +1,3 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def cube_number(x):
-        return x**3
+print("Hello, world!")
+def calculate_area_circle(r):
+        return 3.14 * r**2
