@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_float(array):
+        return float(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
