@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def sort_list(lst):
+        return sorted(lst)
