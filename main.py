@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def cube_number(x):
-        return x**3
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
