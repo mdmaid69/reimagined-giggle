@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
