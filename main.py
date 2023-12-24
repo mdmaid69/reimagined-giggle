@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
