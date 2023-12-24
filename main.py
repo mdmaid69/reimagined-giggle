@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+x = 10
+y = 20
+print("Sum:", x + y)
