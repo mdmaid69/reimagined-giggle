@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
