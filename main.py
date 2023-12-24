@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+name = "Python"
+print("Hello,", name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
