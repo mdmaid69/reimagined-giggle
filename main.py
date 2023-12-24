@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def is_palindrome(s):
-        return s == s[::-1]
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
