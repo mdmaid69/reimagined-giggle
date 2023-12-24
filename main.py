@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
