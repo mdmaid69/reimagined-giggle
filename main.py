@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def cube_number(x):
+        return x**3
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
