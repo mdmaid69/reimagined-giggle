@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
