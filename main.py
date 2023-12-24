@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_min(lst):
-        return min(lst)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
