@@ -1,8 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
