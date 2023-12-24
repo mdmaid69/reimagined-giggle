@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_acceleration(speed, time):
+        return speed / time
