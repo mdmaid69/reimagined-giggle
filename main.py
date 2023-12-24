@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
