@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_acceleration(speed, time):
+        return speed / time
