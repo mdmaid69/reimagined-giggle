@@ -1,11 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
