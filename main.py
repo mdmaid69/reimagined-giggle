@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
