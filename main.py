@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_typecode(array):
+        return array.typecode
