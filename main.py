@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
