@@ -1,8 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def is_odd(n):
+        return n % 2 != 0
