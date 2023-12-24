@@ -1,8 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+print([x**2 for x in range(10)])
