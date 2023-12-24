@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
