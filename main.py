@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
