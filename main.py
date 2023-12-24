@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import tensorflow as tf
+print(tf.__version__)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
