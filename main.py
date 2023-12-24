@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
