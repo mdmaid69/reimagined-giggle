@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-print(os.getcwd())
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
