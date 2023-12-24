@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
