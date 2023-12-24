@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def is_even(n):
+        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
