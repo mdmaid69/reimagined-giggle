@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
