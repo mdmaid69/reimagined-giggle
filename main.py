@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
