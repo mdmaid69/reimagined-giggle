@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def get_array_as_list(array):
-        return list(array)
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
