@@ -1,6 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
