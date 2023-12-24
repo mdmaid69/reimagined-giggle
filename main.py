@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
