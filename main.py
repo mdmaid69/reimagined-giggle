@@ -1,6 +1,11 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import sys
+def exit_program():
+        sys.exit()
