@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import datetime
-print(datetime.datetime.now())
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
