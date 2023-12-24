@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def get_array_length(array):
-        return len(array)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_sine(x):
+        return math.sin(x)
