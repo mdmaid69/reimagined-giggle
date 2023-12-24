@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import sys
+  def get_python_version():
+        return sys.version
