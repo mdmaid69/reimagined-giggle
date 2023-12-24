@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
