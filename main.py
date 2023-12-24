@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import tensorflow as tf
+print(tf.__version__)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
