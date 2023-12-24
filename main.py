@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_length(array):
+        return len(array)
