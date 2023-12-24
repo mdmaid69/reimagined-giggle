@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_user_string():
+        return collections.UserString()
