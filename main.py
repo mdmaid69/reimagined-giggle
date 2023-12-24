@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
