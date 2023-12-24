@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def add_numbers(x, y):
-        return x + y
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def create_user_dict():
+        return collections.UserDict()
