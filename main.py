@@ -1,8 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_slice(array, i, j):
+        return array[i:j]
+def cube_number(x):
+        return x**3
