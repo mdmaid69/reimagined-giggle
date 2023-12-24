@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+print([x**2 for x in range(10)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
