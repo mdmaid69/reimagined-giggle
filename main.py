@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
