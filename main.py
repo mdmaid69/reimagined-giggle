@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_min(lst):
+        return min(lst)
