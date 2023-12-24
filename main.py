@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
