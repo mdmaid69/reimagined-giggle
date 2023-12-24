@@ -1,7 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
