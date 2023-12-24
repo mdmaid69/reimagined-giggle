@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_priority_queue():
+        return collections.deque()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
