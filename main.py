@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_area_rectangle(l, w):
+        return l * w
