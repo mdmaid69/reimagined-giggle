@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def convert_to_binary(n):
+        return bin(n)
