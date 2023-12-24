@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_max(numbers):
+        return max(numbers)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
