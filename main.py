@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
