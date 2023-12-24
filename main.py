@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
