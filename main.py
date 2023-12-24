@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
