@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
