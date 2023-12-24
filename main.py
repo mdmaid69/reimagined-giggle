@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
