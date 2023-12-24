@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
