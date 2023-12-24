@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def delete_file(file_name):
+        os.remove(file_name)
