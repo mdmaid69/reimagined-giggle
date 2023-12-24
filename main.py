@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def calculate_area_rectangle(l, w):
+        return l * w
