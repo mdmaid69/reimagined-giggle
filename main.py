@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_list_from_array(array):
+        return array.tolist()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
