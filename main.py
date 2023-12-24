@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
