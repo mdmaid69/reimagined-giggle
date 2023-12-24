@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def subtract_numbers(x, y):
-        return x - y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_words(sentence):
+        return len(sentence.split())
