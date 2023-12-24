@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_area_rectangle(l, w):
+        return l * w
