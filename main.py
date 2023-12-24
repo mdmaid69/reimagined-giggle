@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
