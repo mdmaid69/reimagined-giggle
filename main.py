@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
