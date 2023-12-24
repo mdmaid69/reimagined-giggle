@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
