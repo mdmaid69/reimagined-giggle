@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def cube_number(x):
+        return x**3
