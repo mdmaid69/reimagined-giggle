@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_user_string():
+        return collections.UserString()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
