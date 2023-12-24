@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
