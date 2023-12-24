@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-print(random.randint(0, 100))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
