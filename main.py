@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
