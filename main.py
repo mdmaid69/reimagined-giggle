@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_max(numbers):
-        return max(numbers)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_length(array):
+        return len(array)
