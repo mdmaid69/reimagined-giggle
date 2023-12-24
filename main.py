@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
