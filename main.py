@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def exit_program():
-        sys.exit()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
