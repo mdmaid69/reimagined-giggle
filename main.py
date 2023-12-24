@@ -1,7 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_even(n):
+        return n % 2 == 0
