@@ -1,5 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def is_even(n):
+        return n % 2 == 0
