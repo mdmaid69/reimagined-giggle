@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
