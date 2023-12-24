@@ -1,8 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_int(array):
+        return int(array[0])
