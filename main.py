@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
