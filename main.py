@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def cube_number(x):
-        return x**3
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
