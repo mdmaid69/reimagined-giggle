@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
