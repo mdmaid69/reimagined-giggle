@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
