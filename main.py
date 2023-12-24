@@ -1,4 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-print(sum(range(10)))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
