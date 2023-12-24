@@ -1,6 +1,10 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
