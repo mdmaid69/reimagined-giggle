@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+text = "Hello, world!"
+print("Characters:", len(text))
