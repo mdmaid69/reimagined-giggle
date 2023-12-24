@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import datetime
-print(datetime.datetime.now())
+def find_max(lst):
+        return max(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
