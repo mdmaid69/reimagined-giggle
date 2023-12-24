@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
