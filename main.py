@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
