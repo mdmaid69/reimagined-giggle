@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
