@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
