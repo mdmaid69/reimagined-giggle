@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
