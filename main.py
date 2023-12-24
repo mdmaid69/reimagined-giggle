@@ -1,5 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def count_elements(lst):
-        return len(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
