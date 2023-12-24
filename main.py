@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
