@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
