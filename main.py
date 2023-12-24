@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
