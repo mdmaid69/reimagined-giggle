@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
