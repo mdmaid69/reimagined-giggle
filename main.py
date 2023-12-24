@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import tensorflow as tf
+print(tf.__version__)
