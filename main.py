@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
