@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def cube_number(x):
-        return x**3
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
