@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_dict():
+        return collections.UserDict()
