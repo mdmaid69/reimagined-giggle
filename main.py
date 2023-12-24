@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
