@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
