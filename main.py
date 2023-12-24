@@ -1,7 +1,8 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
