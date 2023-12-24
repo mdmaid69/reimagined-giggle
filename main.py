@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
