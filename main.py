@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import datetime
-print(datetime.datetime.now())
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import platform
+def get_os_info():
+        return platform.uname()
