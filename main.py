@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def reverse_list(lst):
+        return lst[::-1]
