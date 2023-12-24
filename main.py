@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def cube_number(x):
-        return x**3
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
