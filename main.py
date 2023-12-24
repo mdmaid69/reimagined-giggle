@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
