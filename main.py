@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
