@@ -1,4 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-print(sum(range(10)))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
