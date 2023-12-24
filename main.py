@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
