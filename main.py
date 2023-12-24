@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
