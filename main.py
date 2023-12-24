@@ -1,6 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
