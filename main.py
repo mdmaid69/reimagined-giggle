@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
