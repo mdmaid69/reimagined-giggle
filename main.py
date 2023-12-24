@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
