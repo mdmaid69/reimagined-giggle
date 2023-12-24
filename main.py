@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
