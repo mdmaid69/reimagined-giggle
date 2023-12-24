@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def convert_to_binary(n):
-        return bin(n)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
