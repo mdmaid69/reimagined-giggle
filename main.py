@@ -1,3 +1,5 @@
-print(sum(range(10)))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
