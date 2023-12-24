@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
