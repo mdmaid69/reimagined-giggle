@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
