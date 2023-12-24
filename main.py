@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def find_unique_words(sentence):
-        return set(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
