@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
