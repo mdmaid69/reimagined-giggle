@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def cube_number(x):
+        return x**3
