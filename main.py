@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import time
-print(time.time())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import json
+print(json.dumps({"name": "John", "age": 30}))
