@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def count_elements(lst):
+        return len(lst)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
