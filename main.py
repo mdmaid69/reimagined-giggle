@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def find_unique_words(sentence):
+        return set(sentence.split())
