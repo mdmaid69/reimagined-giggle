@@ -1,5 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
