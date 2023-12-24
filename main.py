@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_length(array):
-        return len(array)
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
