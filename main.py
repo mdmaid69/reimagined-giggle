@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
