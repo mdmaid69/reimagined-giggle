@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
