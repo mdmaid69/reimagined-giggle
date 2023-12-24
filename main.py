@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
