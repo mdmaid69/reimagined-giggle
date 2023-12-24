@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
