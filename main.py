@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_cosine(x):
+        return math.cos(x)
