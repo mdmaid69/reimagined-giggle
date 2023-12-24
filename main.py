@@ -1,11 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
