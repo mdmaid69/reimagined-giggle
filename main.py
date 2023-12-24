@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
