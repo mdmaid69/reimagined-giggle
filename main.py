@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
