@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
