@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
