@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_float(array):
+        return float(array[0])
