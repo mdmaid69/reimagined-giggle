@@ -1,8 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
