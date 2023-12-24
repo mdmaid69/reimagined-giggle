@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_min(lst):
+        return min(lst)
