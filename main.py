@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
