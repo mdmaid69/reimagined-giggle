@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
