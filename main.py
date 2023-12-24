@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def cube_number(x):
-        return x**3
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
