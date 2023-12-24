@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
