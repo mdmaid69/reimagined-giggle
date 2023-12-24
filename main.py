@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
