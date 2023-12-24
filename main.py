@@ -1,4 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-def count_words(sentence):
-        return len(sentence.split())
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
