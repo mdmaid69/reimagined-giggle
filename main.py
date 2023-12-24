@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
