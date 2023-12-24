@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def is_odd(n):
-        return n % 2 != 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
