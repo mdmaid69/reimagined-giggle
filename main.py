@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_power(work, time):
+        return work / time
