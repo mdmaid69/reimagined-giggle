@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
