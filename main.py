@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def cube_number(x):
+        return x**3
