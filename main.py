@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
