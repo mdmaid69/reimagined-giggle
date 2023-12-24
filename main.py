@@ -1,8 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
