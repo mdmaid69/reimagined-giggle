@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def remove_duplicates(lst):
+        return list(set(lst))
