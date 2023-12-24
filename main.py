@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+print(math.pi)
+def find_unique_words(sentence):
+        return set(sentence.split())
