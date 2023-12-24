@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def find_min(numbers):
+        return min(numbers)
