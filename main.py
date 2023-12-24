@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
