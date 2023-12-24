@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_power(work, time):
-        return work / time
+for i in range(5):
+        print(i)
+  def convert_to_octal(n):
+        return oct(n)
