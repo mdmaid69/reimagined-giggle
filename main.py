@@ -1,8 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
