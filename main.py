@@ -1,8 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
