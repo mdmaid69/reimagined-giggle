@@ -1,7 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def reverse_list(lst):
+        return lst[::-1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
