@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
