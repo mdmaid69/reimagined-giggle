@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
