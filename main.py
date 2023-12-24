@@ -1,5 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_speed(distance, time):
-        return distance / time
+def convert_array_to_string(array):
+        return array.tostring()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
