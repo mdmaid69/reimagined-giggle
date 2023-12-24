@@ -1,6 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
