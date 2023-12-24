@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
