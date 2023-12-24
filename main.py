@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_acceleration(speed, time):
+        return speed / time
