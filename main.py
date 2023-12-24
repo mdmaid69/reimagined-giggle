@@ -1,5 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_circle_area(radius):
+        return math.pi * radius**2
