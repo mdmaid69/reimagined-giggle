@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
