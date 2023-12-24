@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
