@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
