@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
