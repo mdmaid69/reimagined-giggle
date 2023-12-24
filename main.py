@@ -1,8 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
