@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def convert_to_hex(n):
+        return hex(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
