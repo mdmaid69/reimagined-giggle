@@ -1,4 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def is_even(n):
+        return n % 2 == 0
