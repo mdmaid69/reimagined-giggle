@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
