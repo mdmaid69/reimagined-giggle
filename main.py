@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
