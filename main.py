@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
