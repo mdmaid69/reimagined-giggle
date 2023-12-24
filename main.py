@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
