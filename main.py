@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_power(work, time):
+        return work / time
