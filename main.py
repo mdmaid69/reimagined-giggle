@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import datetime
-def get_today_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+  def convert_to_binary(n):
+        return bin(n)
