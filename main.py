@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
