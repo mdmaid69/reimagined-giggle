@@ -1,8 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
