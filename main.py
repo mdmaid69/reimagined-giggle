@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
