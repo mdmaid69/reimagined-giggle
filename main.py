@@ -1,6 +1,3 @@
-import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_python_version():
-        return platform.python_version()
+print(sum(range(10)))
+def calculate_density(mass, volume):
+        return mass / volume
