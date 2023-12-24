@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
