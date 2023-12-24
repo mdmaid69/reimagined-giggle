@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_set(array):
-        return set(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
