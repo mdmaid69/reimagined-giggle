@@ -1,4 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_area_rectangle(l, w):
+        return l * w
