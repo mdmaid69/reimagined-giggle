@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
