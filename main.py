@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
