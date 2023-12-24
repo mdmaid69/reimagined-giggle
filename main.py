@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def subtract_numbers(x, y):
+        return x - y
+def add_numbers(a, b):
+        return a + b
