@@ -1,7 +1,5 @@
+import datetime
+print(datetime.datetime.now())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
