@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import logging
+def log_message(message):
+        logging.info(message)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
