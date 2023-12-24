@@ -1,8 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
