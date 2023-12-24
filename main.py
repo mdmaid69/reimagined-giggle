@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
