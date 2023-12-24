@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def greet(name):
+        print(f"Hello, {name}!")
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
