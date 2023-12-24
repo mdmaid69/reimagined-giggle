@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
