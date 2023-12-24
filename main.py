@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import sys
+def print_python_version():
+        print(sys.version)
