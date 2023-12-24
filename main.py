@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
