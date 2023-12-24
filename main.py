@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
