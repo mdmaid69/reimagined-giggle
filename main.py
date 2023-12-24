@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
