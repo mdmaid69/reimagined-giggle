@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_directory():
+        return os.getcwd()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
