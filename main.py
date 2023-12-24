@@ -1,5 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
