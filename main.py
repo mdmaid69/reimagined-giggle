@@ -1,7 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+for i in range(10): print(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
