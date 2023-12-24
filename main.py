@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def cube_number(x):
+        return x**3
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
