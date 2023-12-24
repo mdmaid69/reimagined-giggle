@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
