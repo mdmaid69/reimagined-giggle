@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def remove_from_array(array, item):
+        array.remove(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
