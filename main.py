@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
