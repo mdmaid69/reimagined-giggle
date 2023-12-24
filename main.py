@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import time
+def get_current_time():
+        return time.time()
