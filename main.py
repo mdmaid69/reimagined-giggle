@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
