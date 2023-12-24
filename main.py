@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
