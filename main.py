@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_area_circle(r):
+        return 3.14 * r**2
