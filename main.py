@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
