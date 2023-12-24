@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
