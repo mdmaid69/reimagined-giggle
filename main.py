@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_work(force, distance):
+        return force * distance
