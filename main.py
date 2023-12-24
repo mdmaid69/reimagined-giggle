@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def is_even(n):
+        return n % 2 == 0
+import logging
+def log_message(message):
+        logging.info(message)
