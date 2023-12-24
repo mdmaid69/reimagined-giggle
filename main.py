@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
