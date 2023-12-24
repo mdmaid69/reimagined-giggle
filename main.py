@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_set(array):
+        return set(array)
