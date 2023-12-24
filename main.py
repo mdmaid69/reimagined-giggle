@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
