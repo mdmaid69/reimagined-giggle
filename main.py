@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
