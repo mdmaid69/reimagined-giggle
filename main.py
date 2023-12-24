@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import datetime
-print(datetime.datetime.now())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
