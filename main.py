@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
