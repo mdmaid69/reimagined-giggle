@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
