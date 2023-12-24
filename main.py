@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
