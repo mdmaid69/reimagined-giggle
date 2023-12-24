@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
