@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
