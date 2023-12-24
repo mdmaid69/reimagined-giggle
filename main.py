@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
