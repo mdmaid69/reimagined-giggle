@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
