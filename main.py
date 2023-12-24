@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
