@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_gamma_function(x):
+        return math.gamma(x)
