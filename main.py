@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_queue():
+        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
