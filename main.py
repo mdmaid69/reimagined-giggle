@@ -1,7 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
