@@ -1,6 +1,6 @@
-def cube_number(x):
-        return x**3
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
