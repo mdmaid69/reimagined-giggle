@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def count_elements(lst):
+        return len(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
