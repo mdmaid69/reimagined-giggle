@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
