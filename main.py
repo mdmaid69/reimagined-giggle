@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
