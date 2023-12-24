@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
