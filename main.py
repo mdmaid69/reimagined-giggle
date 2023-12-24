@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+text = "Hello, world!"
+print("Characters:", len(text))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
