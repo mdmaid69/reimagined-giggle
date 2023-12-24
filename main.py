@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_repr(array):
+        return repr(array)
