@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
