@@ -1,5 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
