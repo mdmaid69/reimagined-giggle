@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
