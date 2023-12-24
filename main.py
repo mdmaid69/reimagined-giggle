@@ -1,7 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
