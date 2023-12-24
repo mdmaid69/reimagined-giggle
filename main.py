@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
