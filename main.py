@@ -1,4 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-print("Hello, world!")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
