@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def is_odd(n):
-        return n % 2 != 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_pressure(force, area):
+        return force / area
