@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_item(array, i):
+        return array[i]
