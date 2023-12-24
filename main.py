@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+from collections import Counter
+print(Counter("hello world"))
