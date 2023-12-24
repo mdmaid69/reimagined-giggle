@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_current_directory():
+        return os.getcwd()
