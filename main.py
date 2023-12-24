@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def find_max(numbers):
-        return max(numbers)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
