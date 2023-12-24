@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
