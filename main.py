@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
