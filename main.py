@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_power(work, time):
+        return work / time
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
