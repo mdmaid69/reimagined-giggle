@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
