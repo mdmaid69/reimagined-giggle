@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
