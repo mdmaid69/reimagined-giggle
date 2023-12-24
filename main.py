@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def add_numbers(a, b):
+        return a + b
