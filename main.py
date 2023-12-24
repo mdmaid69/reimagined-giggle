@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
