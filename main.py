@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_array_as_set(array):
+        return set(array)
