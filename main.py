@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
