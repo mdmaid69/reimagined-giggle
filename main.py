@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
