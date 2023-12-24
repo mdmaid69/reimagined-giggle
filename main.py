@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
