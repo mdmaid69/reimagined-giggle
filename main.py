@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
