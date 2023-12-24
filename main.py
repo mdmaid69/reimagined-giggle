@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
