@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
