@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
