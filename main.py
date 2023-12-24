@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def cube_number(x):
+        return x**3
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
