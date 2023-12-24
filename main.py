@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_length(array):
+        return len(array)
