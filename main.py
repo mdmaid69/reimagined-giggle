@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
