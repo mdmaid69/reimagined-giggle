@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
