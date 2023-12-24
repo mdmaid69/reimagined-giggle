@@ -1,8 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
