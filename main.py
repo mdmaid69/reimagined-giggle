@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def is_even(n):
+        return n % 2 == 0
