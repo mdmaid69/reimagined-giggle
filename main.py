@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
