@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
