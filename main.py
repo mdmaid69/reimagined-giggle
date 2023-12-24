@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
