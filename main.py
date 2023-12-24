@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
