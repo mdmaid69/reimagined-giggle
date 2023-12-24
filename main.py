@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
