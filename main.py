@@ -1,5 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def is_palindrome(s):
-        return s == s[::-1]
+print(sum(range(10)))
+import numpy as np
+print(np.array([1, 2, 3]))
