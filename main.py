@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_power(work, time):
+        return work / time
