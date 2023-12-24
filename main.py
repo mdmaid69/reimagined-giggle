@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
