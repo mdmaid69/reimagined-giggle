@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
