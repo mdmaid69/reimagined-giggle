@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
