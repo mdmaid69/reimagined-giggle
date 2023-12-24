@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_density(mass, volume):
+        return mass / volume
