@@ -1,9 +1,7 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_from_file(filename, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromunicode(unicode)
         return a
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
