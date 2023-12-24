@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def reverse_array(array):
-        array.reverse()
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
