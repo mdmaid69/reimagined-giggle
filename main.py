@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
