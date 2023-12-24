@@ -1,5 +1,7 @@
+  def square_number(x):
+        return x**2
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
