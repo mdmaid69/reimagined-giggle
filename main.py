@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
