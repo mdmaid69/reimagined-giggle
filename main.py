@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
