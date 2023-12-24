@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_queue():
-        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def convert_to_octal(n):
+        return oct(n)
