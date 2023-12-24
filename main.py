@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
