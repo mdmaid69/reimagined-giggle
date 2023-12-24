@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
