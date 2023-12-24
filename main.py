@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
