@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-for i in range(10): print(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_error_function(x):
+        return math.erf(x)
