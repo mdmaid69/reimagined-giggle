@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_mode(file_name):
+  def get_file_permissions(file_name):
         return os.stat(file_name).st_mode
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
