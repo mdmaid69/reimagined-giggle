@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def multiply_numbers(x, y):
-        return x * y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
