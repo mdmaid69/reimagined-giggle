@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
