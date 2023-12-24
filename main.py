@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
