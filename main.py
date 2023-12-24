@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
