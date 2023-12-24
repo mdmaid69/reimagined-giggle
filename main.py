@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
