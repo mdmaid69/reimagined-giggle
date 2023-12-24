@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
