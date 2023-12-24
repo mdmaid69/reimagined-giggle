@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
