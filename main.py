@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_work(force, distance):
+        return force * distance
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
