@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_work(force, distance):
+        return force * distance
+import sys
+def exit_program():
+        sys.exit()
