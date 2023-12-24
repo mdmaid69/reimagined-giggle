@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_area_rectangle(l, w):
+        return l * w
