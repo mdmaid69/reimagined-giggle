@@ -1,4 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-print([x**2 for x in range(10)])
+def calculate_floor(x):
+        return math.floor(x)
