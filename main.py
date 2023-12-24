@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import getpass
+def get_username():
+        return getpass.getuser()
