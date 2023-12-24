@@ -1,7 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
