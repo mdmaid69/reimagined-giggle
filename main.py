@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
