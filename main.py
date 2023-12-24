@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
