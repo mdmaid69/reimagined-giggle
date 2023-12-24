@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
