@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def count_characters(sentence):
+        return len(sentence)
