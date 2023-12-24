@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
