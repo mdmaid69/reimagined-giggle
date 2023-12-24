@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
