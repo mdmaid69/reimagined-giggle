@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_area_circle(r):
+        return 3.14 * r**2
