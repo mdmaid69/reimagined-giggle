@@ -1,4 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print([x**2 for x in range(10)])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def sort_list(lst):
+        return sorted(lst)
