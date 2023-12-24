@@ -1,7 +1,8 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
