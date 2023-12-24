@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
