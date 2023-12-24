@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
