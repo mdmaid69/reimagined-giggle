@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def find_max(numbers):
-        return max(numbers)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_sine(x):
+        return math.sin(x)
