@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
