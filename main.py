@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+name = "Python"
+print("Hello,", name)
