@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def square_number(x):
+        return x**2
