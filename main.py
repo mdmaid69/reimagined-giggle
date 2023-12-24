@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def add_numbers(x, y):
+        return x + y
