@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
