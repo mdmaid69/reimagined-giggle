@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
