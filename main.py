@@ -1,6 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
