@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
