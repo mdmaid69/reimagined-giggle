@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import time
+def get_time_since_epoch():
+        return time.time()
