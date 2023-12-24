@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
