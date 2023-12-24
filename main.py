@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import platform
+def get_python_version():
+        return platform.python_version()
