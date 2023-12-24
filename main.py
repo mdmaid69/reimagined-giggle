@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
