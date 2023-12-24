@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
