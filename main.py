@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import time
+print(time.time())
