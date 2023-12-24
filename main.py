@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
