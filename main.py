@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+def calculate_volume(length, width, height):
+        return length * width * height
+import re
+print(re.match("h.*o", "hello world"))
