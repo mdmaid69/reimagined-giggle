@@ -1,7 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
