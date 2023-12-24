@@ -1,5 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
