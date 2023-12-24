@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_base_name(path):
+        return os.path.basename(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
