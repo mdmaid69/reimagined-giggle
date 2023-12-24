@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
