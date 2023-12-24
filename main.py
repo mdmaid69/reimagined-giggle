@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
