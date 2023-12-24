@@ -1,5 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
