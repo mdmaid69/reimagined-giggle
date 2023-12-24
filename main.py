@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
