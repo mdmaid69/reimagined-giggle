@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
