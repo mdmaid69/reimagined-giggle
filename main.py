@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_list(array):
+        return list(array)
