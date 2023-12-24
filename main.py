@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
