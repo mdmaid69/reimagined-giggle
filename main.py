@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
