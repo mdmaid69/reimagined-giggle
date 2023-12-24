@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
