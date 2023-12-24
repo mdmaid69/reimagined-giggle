@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
