@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
