@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def append_to_array(array, item):
+        array.append(item)
