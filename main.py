@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_to_octal(n):
+        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
