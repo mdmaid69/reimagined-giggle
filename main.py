@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
