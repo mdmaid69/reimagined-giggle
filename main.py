@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import logging
+def log_message(message):
+        logging.info(message)
