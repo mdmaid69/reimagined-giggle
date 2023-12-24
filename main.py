@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def is_palindrome(s):
+        return s == s[::-1]
