@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_density(mass, volume):
+        return mass / volume
