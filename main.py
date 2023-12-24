@@ -1,9 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
