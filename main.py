@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_repr(array):
+        return repr(array)
