@@ -1,6 +1,7 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_ceiling(x):
+        return math.ceil(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
