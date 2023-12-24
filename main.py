@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
