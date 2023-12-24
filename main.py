@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
