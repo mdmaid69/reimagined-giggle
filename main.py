@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
