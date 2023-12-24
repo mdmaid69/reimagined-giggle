@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_current_directory():
+        return os.getcwd()
