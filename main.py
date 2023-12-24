@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
