@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_acceleration(speed, time):
+        return speed / time
