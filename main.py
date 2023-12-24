@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+for i in range(5):
+        print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
