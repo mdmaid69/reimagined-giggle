@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
