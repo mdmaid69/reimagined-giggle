@@ -1,6 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
