@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def clear_array(array):
+        array *= 0
