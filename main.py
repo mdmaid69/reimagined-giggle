@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
