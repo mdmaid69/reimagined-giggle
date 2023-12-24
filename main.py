@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
