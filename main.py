@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
