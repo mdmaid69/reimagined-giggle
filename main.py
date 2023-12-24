@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
