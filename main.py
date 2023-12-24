@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
