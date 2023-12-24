@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_acceleration(speed, time):
+        return speed / time
+def convert_to_octal(n):
+        return oct(n)
