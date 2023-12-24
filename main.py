@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_elements(lst):
+        return len(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
