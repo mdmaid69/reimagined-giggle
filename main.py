@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
