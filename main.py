@@ -1,7 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
