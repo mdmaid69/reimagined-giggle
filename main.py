@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
