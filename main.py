@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
