@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+for i in range(10): print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
