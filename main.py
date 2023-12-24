@@ -1,7 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
