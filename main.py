@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
