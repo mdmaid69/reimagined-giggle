@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
