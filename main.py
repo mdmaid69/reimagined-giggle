@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
