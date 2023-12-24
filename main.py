@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
