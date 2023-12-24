@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
