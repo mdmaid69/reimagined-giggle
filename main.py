@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
