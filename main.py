@@ -1,4 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-for i in range(10): print(i)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
