@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def square_number(x):
+        return x**2
+import array
+def remove_from_array(array, item):
+        array.remove(item)
