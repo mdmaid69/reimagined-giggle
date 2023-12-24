@@ -1,7 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
