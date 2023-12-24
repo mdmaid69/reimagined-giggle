@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
