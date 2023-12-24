@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
