@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
