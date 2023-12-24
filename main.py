@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
