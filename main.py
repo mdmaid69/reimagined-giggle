@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
