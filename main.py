@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
