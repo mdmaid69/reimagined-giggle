@@ -1,6 +1,5 @@
-for i in range(5):
-        print(i)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
