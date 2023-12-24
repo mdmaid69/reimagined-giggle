@@ -1,5 +1,12 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_rectangle(l, w):
-        return l * w
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
