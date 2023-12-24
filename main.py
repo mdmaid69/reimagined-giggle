@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
