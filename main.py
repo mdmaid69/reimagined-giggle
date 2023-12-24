@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
