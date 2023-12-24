@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def cube_number(x):
-        return x**3
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
