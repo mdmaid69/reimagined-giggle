@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
