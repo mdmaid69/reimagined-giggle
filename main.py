@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def convert_to_binary(n):
-        return bin(n)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
