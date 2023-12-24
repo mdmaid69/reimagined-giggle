@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-import tensorflow as tf
-print(tf.__version__)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
