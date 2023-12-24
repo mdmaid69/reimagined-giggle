@@ -1,6 +1,12 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import time
-def get_current_time():
-        return time.time()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
