@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import platform
+def get_os_info():
+        return platform.uname()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
