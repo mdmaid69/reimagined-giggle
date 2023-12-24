@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import random
+def roll_die():
+        return random.randint(1, 6)
