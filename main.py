@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_itemsize(array):
+        return array.itemsize
