@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
