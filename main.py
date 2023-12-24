@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
