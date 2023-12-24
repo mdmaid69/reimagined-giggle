@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
