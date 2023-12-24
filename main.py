@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_set(array):
+        return set(array)
