@@ -1,4 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-for i in range(10): print(i)
+import collections
+def create_priority_queue():
+        return collections.deque()
+x = 10
+y = 20
+print("Sum:", x + y)
