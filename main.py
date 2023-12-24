@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_speed(distance, time):
+        return distance / time
+  def convert_to_hex(n):
+        return hex(n)
