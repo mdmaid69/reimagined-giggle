@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import time
+def get_time_since_epoch():
+        return time.time()
