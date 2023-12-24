@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
