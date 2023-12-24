@@ -1,5 +1,3 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def is_odd(n):
-        return n % 2 != 0
+print("Hello, world!")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
