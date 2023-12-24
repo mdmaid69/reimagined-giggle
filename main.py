@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import time
+def get_time_since_epoch():
+        return time.time()
