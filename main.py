@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
