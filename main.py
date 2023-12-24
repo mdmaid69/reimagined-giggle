@@ -1,9 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
