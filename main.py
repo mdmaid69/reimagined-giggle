@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
