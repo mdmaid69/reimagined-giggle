@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
