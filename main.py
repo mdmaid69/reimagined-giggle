@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
