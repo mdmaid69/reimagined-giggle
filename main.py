@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_pressure(force, area):
+        return force / area
