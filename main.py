@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+def square_number(x):
+        return x**2
+  def count_elements(lst):
+        return len(lst)
