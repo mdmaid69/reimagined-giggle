@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def square_number(x):
+        return x**2
