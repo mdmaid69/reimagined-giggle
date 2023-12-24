@@ -1,6 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-for i in range(5):
-        print(i)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
