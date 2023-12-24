@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_typecode(array):
+        return array.typecode
