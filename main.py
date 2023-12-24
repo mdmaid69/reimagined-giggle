@@ -1,5 +1,8 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
