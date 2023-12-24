@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
