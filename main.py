@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_work(force, distance):
+        return force * distance
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
