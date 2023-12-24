@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
