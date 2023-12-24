@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_rectangle(l, w):
-        return l * w
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
