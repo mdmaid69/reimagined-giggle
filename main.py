@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import time
+def get_current_time():
+        return time.ctime()
