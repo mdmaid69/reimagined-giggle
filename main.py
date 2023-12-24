@@ -1,7 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
