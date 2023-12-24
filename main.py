@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
