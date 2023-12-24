@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def is_odd(n):
+        return n % 2 != 0
