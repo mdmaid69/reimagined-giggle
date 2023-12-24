@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
