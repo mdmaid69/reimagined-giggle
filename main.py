@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def convert_to_octal(n):
+        return oct(n)
