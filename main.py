@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_bool(array):
+        return bool(array)
