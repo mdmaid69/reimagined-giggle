@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
