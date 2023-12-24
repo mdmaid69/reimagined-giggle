@@ -1,7 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
