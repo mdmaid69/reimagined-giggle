@@ -1,7 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def add_numbers(x, y):
+        return x + y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
