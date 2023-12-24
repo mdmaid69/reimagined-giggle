@@ -1,5 +1,6 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_acceleration(speed, time):
-        return speed / time
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
