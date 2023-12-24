@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
