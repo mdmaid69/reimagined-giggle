@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-name = "Python"
-print("Hello,", name)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
