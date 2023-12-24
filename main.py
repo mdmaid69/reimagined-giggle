@@ -1,5 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
