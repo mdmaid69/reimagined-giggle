@@ -1,3 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-print(sum(range(10)))
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
