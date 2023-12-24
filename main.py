@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
