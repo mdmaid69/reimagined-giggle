@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
