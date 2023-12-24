@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import random
+print(random.randint(0, 100))
