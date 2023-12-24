@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_queue():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
