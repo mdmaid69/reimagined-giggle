@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
