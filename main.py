@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
