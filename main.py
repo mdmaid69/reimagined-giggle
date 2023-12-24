@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def is_palindrome(s):
+        return s == s[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
