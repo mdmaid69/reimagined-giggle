@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
