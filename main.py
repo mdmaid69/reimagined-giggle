@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
