@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
