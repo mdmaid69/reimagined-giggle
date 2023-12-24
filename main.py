@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
