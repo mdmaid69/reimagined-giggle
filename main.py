@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
