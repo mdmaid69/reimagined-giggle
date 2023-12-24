@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import random
+print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
