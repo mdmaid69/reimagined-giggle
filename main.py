@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
