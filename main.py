@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
