@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
