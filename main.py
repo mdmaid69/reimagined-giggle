@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
