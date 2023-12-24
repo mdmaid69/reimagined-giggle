@@ -1,6 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
