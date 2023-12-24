@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
