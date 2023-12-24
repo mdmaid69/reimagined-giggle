@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
