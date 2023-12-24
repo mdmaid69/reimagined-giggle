@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
