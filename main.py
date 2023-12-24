@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
