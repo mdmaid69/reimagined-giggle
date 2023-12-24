@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
