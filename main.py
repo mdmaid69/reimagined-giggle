@@ -1,5 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
