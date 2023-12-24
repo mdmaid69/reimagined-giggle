@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
