@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
