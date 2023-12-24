@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
