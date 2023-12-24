@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def cube_number(x):
+        return x**3
+def count_words(sentence):
+        return len(sentence.split())
