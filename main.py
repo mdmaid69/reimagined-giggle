@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+from collections import Counter
+print(Counter("hello world"))
