@@ -1,5 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
