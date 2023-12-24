@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
