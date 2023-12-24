@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
