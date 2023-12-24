@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
