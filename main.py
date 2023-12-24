@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
