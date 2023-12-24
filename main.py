@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
