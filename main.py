@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-print(math.pi)
+import os
+print(os.getcwd())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
