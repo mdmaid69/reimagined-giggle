@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
