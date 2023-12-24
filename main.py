@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
