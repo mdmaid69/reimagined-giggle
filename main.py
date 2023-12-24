@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import sys
-  def get_python_version():
-        return sys.version
+import random
+print(random.randint(0, 100))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
