@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
