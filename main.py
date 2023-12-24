@@ -1,6 +1,8 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
