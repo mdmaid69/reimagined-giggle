@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
