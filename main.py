@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
