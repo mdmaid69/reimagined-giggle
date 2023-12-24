@@ -1,5 +1,5 @@
+import random
+print(random.randint(0, 100))
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
