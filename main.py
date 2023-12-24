@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
