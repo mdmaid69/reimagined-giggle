@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def count_elements(lst):
+        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
