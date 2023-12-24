@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
