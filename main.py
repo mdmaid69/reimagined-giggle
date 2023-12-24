@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
