@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def count_elements(lst):
+        return len(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
