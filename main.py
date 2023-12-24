@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_odd(n):
+        return n % 2 != 0
