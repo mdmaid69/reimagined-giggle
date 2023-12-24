@@ -1,8 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_item(array, i):
+        return array[i]
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
