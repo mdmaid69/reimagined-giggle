@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
