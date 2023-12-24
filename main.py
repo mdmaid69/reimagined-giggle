@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
