@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+name = "Python"
+print("Hello,", name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
