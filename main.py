@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def is_even(n):
+        return n % 2 == 0
