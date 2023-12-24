@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+from collections import Counter
+print(Counter("hello world"))
