@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def reverse_string(s):
+        return s[::-1]
