@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
