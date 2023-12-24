@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_queue():
-        return collections.deque()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
