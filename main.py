@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+name = "Python"
+print("Hello,", name)
