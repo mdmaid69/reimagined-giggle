@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
