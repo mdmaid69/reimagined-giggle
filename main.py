@@ -1,6 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
