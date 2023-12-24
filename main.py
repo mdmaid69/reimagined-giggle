@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
