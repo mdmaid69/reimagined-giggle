@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
