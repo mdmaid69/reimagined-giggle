@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
