@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
