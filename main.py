@@ -1,11 +1,8 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
