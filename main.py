@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_volume(length, width, height):
+        return length * width * height
