@@ -1,6 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
