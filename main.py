@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
