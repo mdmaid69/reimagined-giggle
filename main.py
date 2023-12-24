@@ -1,5 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def create_user_dict():
+        return collections.UserDict()
