@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def add_numbers(x, y):
+        return x + y
