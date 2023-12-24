@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
