@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+name = "Python"
+print("Hello,", name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
