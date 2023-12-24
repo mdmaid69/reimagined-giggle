@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
