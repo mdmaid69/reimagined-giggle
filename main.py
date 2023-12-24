@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import getpass
-def get_username():
-        return getpass.getuser()
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
