@@ -1,8 +1,8 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
