@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
