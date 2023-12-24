@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
