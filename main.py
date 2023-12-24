@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
