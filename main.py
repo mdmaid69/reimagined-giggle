@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_pressure(force, area):
+        return force / area
+import logging
+def log_message(message):
+        logging.info(message)
