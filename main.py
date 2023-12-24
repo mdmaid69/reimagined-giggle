@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
