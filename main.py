@@ -1,5 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+print(re.match("h.*o", "hello world"))
+def cube_number(x):
+        return x**3
