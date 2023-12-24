@@ -1,7 +1,9 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
