@@ -1,4 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
