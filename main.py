@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+x = 10
+y = 20
+print("Sum:", x + y)
