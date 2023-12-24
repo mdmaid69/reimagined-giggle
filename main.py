@@ -1,7 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sys
+def exit_program():
+        sys.exit()
