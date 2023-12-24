@@ -1,6 +1,7 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_index(array, item):
+        return array.index(item)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
