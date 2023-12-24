@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
