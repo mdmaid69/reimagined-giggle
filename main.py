@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
