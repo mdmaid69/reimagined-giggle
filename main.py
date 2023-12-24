@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
