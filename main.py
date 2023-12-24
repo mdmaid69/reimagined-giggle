@@ -1,6 +1,6 @@
   import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
   def get_file_gen(file_name):
         return os.stat(file_name).st_gen
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
