@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
