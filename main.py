@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import collections
-def create_stack():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
