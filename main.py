@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-name = "Python"
-print("Hello,", name)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_area_rectangle(l, w):
+        return l * w
