@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
