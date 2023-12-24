@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
