@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
