@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
