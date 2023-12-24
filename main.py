@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
