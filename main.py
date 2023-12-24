@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def is_even(n):
+        return n % 2 == 0
