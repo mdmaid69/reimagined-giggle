@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import collections
-def create_queue():
-        return collections.deque()
-def add_numbers(x, y):
-        return x + y
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
