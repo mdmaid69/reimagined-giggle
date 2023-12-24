@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import math
-print(math.pi)
+def calculate_tangent(x):
+        return math.tan(x)
