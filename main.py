@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
