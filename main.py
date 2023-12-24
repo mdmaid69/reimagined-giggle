@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
