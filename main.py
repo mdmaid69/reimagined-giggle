@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
