@@ -1,5 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
