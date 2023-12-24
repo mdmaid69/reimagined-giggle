@@ -1,5 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-print([x**2 for x in range(10)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
