@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
