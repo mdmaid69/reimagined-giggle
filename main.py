@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
