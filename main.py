@@ -1,6 +1,8 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_typecode(array):
-        return array.typecode
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
