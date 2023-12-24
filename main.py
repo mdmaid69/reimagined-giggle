@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
