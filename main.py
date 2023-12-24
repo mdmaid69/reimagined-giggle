@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import os
-print(os.getcwd())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def remove_duplicates(lst):
+        return list(set(lst))
