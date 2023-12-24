@@ -1,6 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
