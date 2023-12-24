@@ -1,7 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
