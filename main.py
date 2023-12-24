@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
