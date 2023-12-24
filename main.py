@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def convert_to_hex(n):
+        return hex(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
