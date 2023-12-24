@@ -1,7 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def get_array_item(array, i):
+        return array[i]
