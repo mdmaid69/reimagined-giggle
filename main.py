@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def divide_numbers(x, y):
-        return x / y
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
