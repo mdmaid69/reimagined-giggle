@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
