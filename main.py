@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
