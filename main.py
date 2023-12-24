@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
