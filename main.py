@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
