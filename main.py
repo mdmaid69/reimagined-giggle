@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
