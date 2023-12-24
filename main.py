@@ -1,5 +1,8 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def multiply_numbers(x, y):
-        return x * y
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
