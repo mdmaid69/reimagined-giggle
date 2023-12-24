@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
