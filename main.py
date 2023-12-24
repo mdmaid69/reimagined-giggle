@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
