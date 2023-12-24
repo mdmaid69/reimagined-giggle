@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import random
-print(random.randint(0, 100))
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
