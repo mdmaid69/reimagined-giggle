@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
