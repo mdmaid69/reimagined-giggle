@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def delete_file(file_name):
+        os.remove(file_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
