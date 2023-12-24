@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
