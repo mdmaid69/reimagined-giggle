@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
