@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import logging
+def log_message(message):
+        logging.info(message)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
