@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def find_max(numbers):
+        return max(numbers)
