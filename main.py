@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def add_numbers(x, y):
-        return x + y
+  def count_elements(lst):
+        return len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
