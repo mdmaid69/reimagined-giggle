@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def cube_number(x):
+        return x**3
+def count_characters(sentence):
+        return len(sentence)
