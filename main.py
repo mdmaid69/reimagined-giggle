@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
