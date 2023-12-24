@@ -1,7 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
