@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
