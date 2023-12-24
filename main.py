@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def convert_to_binary(n):
+        return bin(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
