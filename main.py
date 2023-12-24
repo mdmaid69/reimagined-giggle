@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import platform
+def get_python_version():
+        return platform.python_version()
