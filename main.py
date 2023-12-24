@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
