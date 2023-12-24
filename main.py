@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def clear_array(array):
+        array *= 0
+def count_words(sentence):
+        return len(sentence.split())
