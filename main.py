@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
