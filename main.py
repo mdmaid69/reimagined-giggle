@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
