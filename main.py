@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
