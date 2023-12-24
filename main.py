@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
