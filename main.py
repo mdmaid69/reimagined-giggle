@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
