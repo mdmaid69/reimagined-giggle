@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def convert_to_hex(n):
+        return hex(n)
