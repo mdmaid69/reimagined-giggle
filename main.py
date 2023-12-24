@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
