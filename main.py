@@ -1,5 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def add_numbers(x, y):
-        return x + y
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
