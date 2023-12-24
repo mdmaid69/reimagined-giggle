@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def cube_number(x):
-        return x**3
+def sort_list(lst):
+        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
