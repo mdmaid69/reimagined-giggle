@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import tensorflow as tf
+print(tf.__version__)
+def reverse_list(lst):
+        return lst[::-1]
