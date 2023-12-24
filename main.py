@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def is_even(n):
+        return n % 2 == 0
