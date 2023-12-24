@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
