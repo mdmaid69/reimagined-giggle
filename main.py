@@ -1,6 +1,7 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def convert_array_to_string(array):
+        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
