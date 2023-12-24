@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
