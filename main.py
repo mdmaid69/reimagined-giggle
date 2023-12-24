@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
