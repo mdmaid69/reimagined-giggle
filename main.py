@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def remove_directory(path):
+        os.rmdir(path)
