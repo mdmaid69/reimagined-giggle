@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_odd(n):
-        return n % 2 != 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
