@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
