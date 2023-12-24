@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
