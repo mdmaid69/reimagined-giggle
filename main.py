@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
