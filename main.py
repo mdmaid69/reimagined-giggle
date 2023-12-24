@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
