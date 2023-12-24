@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
