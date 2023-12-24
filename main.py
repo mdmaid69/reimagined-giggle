@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
