@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def is_even(n):
+        return n % 2 == 0
