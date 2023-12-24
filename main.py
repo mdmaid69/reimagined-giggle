@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
