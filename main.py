@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
