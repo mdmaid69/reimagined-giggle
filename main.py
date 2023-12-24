@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
