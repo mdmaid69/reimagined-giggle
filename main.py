@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
