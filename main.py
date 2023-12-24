@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
