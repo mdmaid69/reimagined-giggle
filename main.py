@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
