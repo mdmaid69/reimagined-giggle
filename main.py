@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
