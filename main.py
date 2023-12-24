@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
