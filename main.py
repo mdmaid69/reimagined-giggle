@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
