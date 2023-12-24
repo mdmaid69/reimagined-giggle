@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
