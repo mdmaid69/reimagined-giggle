@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
