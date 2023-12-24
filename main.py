@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_list(array):
+        return list(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
