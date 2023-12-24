@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import logging
+def log_message(message):
+        logging.info(message)
