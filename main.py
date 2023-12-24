@@ -1,4 +1,7 @@
-print(sum(range(10)))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
