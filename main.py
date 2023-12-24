@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
