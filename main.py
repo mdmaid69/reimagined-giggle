@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
