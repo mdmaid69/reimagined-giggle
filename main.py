@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
