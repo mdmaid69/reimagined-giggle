@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
