@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-from collections import Counter
-print(Counter("hello world"))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
