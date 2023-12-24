@@ -1,5 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def create_queue():
+        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
