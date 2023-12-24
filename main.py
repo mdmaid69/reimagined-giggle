@@ -1,5 +1,11 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
