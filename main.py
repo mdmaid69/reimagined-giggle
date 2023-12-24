@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_palindrome(s):
-        return s == s[::-1]
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
