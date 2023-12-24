@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
