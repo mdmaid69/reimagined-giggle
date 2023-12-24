@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-def get_current_time():
-        return time.ctime()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
