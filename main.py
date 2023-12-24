@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+x = 10
+y = 20
+print("Sum:", x + y)
+  def add_numbers(x, y):
+        return x + y
