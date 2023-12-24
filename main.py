@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def multiply_numbers(x, y):
+        return x * y
