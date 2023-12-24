@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
