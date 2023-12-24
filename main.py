@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Is palindrome:", text == text[::-1])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
