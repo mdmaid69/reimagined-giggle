@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
