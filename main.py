@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def add_numbers(x, y):
-        return x + y
+  def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_current_working_directory():
+        return os.getcwd()
