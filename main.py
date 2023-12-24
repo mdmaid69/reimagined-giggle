@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
