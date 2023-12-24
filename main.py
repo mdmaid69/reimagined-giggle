@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
