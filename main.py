@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
