@@ -1,5 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
