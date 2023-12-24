@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+print([x**2 for x in range(10)])
