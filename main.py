@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
