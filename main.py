@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
