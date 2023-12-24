@@ -1,8 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
