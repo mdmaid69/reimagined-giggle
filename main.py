@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
