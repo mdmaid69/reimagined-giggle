@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-def get_current_time():
-        return time.time()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  def convert_to_hex(n):
+        return hex(n)
