@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
