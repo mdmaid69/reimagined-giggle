@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Reversed:", text[::-1])
