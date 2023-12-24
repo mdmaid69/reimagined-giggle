@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def divide_numbers(x, y):
+        return x / y
+  def is_odd(n):
+        return n % 2 != 0
