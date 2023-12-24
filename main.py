@@ -1,6 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
