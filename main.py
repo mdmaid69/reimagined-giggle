@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
