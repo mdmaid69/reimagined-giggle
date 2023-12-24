@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
