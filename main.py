@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def reverse_list(lst):
-        return lst[::-1]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_counter():
+        return collections.Counter()
