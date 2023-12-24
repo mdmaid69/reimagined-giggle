@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+name = "Python"
+print("Hello,", name)
