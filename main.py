@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_work(force, distance):
+        return force * distance
