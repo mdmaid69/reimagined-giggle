@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def cube_number(x):
+        return x**3
