@@ -1,6 +1,8 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
