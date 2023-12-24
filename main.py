@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
