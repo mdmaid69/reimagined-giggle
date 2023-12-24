@@ -1,8 +1,4 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+for i in range(10): print(i)
