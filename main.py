@@ -1,4 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
