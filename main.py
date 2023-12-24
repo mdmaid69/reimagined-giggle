@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
