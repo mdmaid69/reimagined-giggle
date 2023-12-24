@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
