@@ -1,7 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
