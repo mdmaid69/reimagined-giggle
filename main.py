@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_max(numbers):
+        return max(numbers)
