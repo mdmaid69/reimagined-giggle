@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+print("Hello, world!")
