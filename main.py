@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
