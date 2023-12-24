@@ -1,6 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
