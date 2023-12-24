@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_odd(n):
-        return n % 2 != 0
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
