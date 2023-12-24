@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_work(force, distance):
+        return force * distance
