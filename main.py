@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def count_words(sentence):
-        return len(sentence.split())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
