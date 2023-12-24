@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_index(array, item):
+        return array.index(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
