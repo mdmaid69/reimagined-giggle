@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
