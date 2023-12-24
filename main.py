@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
