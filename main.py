@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
