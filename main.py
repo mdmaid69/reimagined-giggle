@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def find_min(numbers):
+        return min(numbers)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_str(array):
+        return str(array)
