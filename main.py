@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
