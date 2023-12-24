@@ -1,8 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_int(array):
+        return int(array[0])
