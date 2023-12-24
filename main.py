@@ -1,8 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
