@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
