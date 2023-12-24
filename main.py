@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def exit_program():
+        sys.exit()
