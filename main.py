@@ -1,6 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_array_as_int(array):
+        return int(array[0])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
