@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_unique_words(sentence):
+        return set(sentence.split())
