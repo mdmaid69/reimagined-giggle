@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def is_odd(n):
+        return n % 2 != 0
