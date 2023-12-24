@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
