@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
