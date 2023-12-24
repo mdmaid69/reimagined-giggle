@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
