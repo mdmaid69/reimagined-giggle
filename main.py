@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
