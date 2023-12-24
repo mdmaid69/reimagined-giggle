@@ -1,8 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
