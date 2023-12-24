@@ -1,5 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_set(array):
+        return set(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
