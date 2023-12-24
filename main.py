@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
