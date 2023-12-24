@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
