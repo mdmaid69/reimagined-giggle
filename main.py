@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def add_numbers(x, y):
-        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
