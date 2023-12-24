@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_max(lst):
+        return max(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
