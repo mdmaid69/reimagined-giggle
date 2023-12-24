@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
