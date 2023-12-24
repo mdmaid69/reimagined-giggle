@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
