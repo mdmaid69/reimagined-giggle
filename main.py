@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
