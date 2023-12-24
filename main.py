@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
