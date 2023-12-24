@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_repr(array):
+        return repr(array)
