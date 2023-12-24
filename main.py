@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
