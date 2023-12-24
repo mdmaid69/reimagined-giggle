@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
