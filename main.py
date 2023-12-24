@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def count_words(sentence):
+        return len(sentence.split())
