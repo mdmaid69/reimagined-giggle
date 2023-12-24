@@ -1,4 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
