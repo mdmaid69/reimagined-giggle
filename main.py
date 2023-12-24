@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
