@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
