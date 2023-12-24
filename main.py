@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
