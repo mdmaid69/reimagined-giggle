@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
