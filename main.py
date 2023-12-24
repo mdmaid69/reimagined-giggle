@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
