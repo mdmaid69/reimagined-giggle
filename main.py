@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
