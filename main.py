@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
