@@ -1,4 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import time
+def get_current_time():
+        return time.ctime()
