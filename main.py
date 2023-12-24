@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
