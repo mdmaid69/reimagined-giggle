@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def is_odd(n):
+        return n % 2 != 0
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
