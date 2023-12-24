@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
