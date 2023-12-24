@@ -1,6 +1,11 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def exit_program():
-        sys.exit()
+from collections import Counter
+print(Counter("hello world"))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
