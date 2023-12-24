@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def divide_numbers(x, y):
-        return x / y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import platform
+def get_os_info():
+        return platform.uname()
