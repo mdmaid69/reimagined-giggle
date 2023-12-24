@@ -1,8 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
