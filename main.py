@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def count_words(sentence):
+        return len(sentence.split())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
