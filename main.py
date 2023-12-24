@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+print(time.time())
