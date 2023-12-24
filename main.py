@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_density(mass, volume):
-        return mass / volume
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
