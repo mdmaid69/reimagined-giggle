@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
