@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import sys
+  def get_python_version():
+        return sys.version
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
