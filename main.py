@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_set(array):
+        return set(array)
