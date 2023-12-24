@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import platform
+def get_os_info():
+        return platform.uname()
