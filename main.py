@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import datetime
+print(datetime.datetime.now())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
