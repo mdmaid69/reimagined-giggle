@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
