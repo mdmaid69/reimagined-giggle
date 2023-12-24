@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def find_max(lst):
+        return max(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
