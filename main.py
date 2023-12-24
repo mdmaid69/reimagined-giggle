@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
