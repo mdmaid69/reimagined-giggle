@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
