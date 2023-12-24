@@ -1,9 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
