@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
