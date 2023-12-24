@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
