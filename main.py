@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
