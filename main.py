@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
