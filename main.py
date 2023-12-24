@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
