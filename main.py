@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import sys
+def print_python_version():
+        return sys.version
+def calculate_area_circle(r):
+        return 3.14 * r**2
