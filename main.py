@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+print(math.pi)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
