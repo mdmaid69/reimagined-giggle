@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
