@@ -1,7 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def convert_array_to_list(array):
+        return array.tolist()
