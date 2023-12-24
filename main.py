@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
