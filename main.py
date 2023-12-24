@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_density(mass, volume):
+        return mass / volume
