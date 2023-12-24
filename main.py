@@ -1,6 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
