@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
