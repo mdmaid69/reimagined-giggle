@@ -1,6 +1,9 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_ordered_dict():
+        return collections.OrderedDict()
