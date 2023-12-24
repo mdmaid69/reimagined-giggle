@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def split_path(path):
+        return os.path.split(path)
