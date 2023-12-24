@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def add_numbers(a, b):
+        return a + b
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
