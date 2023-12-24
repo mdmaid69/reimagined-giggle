@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
