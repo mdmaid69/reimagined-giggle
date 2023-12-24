@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_even(n):
+        return n % 2 == 0
