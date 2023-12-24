@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
