@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
