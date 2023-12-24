@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
