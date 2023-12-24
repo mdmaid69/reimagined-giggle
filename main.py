@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
