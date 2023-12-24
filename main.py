@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+print(re.match("h.*o", "hello world"))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
