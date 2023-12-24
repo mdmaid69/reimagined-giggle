@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
