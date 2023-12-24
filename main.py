@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
