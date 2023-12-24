@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_work(force, distance):
+        return force * distance
