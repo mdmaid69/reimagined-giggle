@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
