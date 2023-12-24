@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
