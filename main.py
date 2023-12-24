@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
