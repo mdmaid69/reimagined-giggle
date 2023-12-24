@@ -1,7 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
