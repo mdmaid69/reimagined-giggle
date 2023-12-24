@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
