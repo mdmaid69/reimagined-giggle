@@ -1,7 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import sys
+  def get_python_version():
+        return sys.version
