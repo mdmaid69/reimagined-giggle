@@ -1,5 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
