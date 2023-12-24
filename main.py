@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def multiply_numbers(x, y):
-        return x * y
+import tensorflow as tf
+print(tf.__version__)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
