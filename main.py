@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import tensorflow as tf
-print(tf.__version__)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
