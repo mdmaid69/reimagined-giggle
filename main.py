@@ -1,4 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-print([x**2 for x in range(10)])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
