@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
