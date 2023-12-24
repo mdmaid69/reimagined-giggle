@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
