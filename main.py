@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
