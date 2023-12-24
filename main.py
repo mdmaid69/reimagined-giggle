@@ -1,5 +1,8 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
