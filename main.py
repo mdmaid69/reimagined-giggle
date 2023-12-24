@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
