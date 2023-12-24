@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_as_list(array):
+        return list(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
