@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
