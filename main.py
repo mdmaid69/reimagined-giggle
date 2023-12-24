@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
