@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def reverse_list(lst):
-        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
