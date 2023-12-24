@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area(radius):
+        return 3.14 * radius * radius
