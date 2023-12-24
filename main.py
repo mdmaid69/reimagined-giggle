@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_user_string():
+        return collections.UserString()
+def greet(name):
+        print(f"Hello, {name}!")
