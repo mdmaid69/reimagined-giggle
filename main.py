@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_work(force, distance):
-        return force * distance
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
