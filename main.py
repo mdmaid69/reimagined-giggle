@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
