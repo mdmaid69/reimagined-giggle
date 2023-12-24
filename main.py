@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
