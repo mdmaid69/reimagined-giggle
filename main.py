@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
