@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
