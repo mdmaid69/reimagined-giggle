@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
