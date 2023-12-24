@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
