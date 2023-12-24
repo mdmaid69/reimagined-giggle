@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def add_numbers(a, b):
-        return a + b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_area_rectangle(l, w):
+        return l * w
