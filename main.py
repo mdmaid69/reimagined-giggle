@@ -1,5 +1,9 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
