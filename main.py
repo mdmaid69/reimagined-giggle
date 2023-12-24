@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-from collections import Counter
-print(Counter("hello world"))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
