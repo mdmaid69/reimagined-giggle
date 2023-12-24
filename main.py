@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def clear_array(array):
+        array *= 0
