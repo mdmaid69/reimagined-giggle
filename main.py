@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
