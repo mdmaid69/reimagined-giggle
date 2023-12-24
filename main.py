@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
