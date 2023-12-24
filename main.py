@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
