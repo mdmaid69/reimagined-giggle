@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
