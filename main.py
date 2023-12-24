@@ -1,8 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def find_min(lst):
+        return min(lst)
+def multiply_numbers(x, y):
+        return x * y
