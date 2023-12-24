@@ -1,6 +1,3 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+print(sum(range(10)))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
