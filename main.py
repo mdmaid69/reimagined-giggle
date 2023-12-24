@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
