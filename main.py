@@ -1,5 +1,3 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print([x**2 for x in range(10)])
+def find_min(lst):
+        return min(lst)
