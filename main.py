@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
