@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
