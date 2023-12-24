@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_acceleration(speed, time):
+        return speed / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
