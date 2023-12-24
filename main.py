@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_max(lst):
+        return max(lst)
