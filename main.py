@@ -1,7 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_pressure(force, area):
+        return force / area
