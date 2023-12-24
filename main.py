@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import platform
+def get_os_info():
+        return platform.uname()
+  def square_number(x):
+        return x**2
