@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
