@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
