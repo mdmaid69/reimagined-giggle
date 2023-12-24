@@ -1,5 +1,9 @@
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
