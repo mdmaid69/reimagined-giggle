@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
