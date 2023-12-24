@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
