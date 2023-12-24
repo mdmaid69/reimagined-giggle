@@ -1,5 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
