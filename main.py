@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def multiply_numbers(x, y):
+        return x * y
