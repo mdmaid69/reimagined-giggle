@@ -1,4 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
