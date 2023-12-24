@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
