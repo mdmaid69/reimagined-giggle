@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import os
-print(os.getcwd())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
