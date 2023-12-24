@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
