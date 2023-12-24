@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
