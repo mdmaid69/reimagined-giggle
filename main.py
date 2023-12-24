@@ -1,5 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_pressure(force, area):
-        return force / area
+import time
+print(time.time())
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
