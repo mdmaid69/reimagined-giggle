@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def remove_duplicates(lst):
+        return list(set(lst))
