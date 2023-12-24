@@ -1,4 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-print(sum(range(10)))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
