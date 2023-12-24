@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
