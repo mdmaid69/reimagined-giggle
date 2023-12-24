@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
