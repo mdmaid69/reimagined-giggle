@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def subtract_numbers(x, y):
+        return x - y
