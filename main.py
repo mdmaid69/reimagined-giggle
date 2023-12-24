@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
