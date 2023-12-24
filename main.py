@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
