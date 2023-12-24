@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_density(mass, volume):
+        return mass / volume
