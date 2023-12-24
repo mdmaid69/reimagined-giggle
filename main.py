@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
