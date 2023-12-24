@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
