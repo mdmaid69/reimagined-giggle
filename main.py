@@ -1,8 +1,8 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
