@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
