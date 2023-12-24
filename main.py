@@ -1,7 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
