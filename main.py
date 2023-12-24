@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
