@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
