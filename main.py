@@ -1,7 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def clear_array(array):
+        array *= 0
