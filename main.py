@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
