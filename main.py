@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def is_even(n):
+        return n % 2 == 0
