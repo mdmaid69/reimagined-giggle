@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def convert_to_hex(n):
+        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
