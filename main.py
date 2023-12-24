@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
