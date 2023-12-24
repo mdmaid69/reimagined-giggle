@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
