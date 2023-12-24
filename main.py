@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import sys
+def exit_program():
+        sys.exit()
