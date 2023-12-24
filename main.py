@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
