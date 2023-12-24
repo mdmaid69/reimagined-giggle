@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_priority_queue():
+        return collections.deque()
