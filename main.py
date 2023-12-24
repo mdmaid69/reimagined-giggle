@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_current_time():
+        return time.ctime()
