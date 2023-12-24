@@ -1,7 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def get_array_as_tuple(array):
+        return tuple(array)
