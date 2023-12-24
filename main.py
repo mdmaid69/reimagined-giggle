@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+text = "Hello, world!"
+print("Characters:", len(text))
