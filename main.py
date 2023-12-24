@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-print(os.getcwd())
+def convert_to_hex(n):
+        return hex(n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
