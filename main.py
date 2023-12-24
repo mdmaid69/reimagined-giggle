@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+from collections import Counter
+print(Counter("hello world"))
+import time
+def get_time_since_epoch():
+        return time.time()
