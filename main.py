@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
