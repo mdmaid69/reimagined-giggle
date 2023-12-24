@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
