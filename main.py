@@ -1,5 +1,8 @@
-def multiply_numbers(x, y):
-        return x * y
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_user_string():
+        return collections.UserString()
