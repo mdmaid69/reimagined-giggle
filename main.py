@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
