@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
