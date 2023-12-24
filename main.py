@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
