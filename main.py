@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Words:", len(text.split()))
