@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
