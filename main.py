@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
