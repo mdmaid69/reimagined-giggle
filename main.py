@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_work(force, distance):
-        return force * distance
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
