@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def square_number(x):
-        return x**2
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
