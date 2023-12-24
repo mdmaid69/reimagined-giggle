@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
