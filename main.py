@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
