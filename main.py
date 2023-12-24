@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
