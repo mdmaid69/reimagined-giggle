@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def find_min(numbers):
+        return min(numbers)
