@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-name = "Python"
-print("Hello,", name)
+def count_elements(lst):
+        return len(lst)
+def add_numbers(x, y):
+        return x + y
