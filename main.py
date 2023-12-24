@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
