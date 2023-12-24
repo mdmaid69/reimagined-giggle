@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
