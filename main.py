@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def is_palindrome(s):
+        return s == s[::-1]
