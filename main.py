@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
