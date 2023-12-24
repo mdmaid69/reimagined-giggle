@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
