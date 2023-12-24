@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
