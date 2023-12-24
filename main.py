@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-from collections import Counter
-print(Counter("hello world"))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
