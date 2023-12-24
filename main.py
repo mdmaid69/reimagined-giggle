@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
