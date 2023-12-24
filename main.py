@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
