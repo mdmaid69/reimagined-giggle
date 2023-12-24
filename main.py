@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
