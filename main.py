@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
