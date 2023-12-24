@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
