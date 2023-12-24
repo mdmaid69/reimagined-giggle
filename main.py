@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
