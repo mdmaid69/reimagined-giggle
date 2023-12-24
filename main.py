@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-print(os.getcwd())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
