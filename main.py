@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
