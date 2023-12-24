@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
