@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sys
+def exit_program():
+        sys.exit()
