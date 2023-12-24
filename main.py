@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
