@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
