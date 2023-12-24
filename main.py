@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
