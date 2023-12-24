@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import collections
+def create_user_list():
+        return collections.UserList()
+def cube_number(x):
+        return x**3
