@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
