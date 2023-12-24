@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def greet(name):
+        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
