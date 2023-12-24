@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
