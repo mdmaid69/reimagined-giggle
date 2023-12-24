@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
