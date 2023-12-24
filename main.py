@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
