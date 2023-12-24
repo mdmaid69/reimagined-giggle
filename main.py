@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
