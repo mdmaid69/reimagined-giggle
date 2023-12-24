@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
