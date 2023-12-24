@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
