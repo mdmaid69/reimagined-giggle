@@ -1,7 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_as_int(array):
+        return int(array[0])
