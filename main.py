@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
