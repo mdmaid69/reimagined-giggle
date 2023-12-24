@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
