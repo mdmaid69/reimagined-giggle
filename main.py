@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def cube_number(x):
+        return x**3
