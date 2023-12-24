@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_current_directory():
+        return os.getcwd()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
