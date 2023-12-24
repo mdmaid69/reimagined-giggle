@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
