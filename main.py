@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
