@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def count_elements(lst):
-        return len(lst)
+  def cube_number(x):
+        return x**3
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
