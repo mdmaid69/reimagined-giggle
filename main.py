@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def count_elements(lst):
+        return len(lst)
+import platform
+def get_os_info():
+        return platform.uname()
