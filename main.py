@@ -1,3 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-for i in range(10): print(i)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
