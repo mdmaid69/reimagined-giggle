@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
