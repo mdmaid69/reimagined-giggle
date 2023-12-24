@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
