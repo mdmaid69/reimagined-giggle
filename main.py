@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+name = "Python"
+print("Hello,", name)
