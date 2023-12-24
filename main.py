@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
