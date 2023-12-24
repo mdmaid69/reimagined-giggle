@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_int(array):
+        return int(array[0])
+import platform
+def get_python_version():
+        return platform.python_version()
