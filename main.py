@@ -1,7 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def convert_to_octal(n):
+        return oct(n)
