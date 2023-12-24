@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
