@@ -1,5 +1,10 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
