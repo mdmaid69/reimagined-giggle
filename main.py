@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
