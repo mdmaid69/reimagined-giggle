@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_stack():
+        return collections.deque()
