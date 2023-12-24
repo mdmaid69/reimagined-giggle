@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
