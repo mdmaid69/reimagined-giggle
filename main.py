@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
