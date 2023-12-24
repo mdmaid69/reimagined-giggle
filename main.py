@@ -1,8 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
