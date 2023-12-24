@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
