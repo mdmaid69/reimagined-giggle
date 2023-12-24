@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def is_even(n):
+        return n % 2 == 0
