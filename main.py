@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
