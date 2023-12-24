@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def check_if_array_contains_item(array, item):
+        return item in array
