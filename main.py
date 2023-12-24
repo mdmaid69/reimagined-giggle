@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import platform
+def get_os_info():
+        return platform.uname()
