@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
