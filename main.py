@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
