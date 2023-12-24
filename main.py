@@ -1,11 +1,11 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import threading
+def calculate_density(mass, volume):
+        return mass / volume
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
