@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def is_palindrome(s):
+        return s == s[::-1]
