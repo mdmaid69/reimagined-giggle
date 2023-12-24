@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def find_max(numbers):
-        return max(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_as_float(array):
+        return float(array[0])
