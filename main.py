@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_to_octal(n):
+        return oct(n)
+  import sys
+  def get_python_version():
+        return sys.version
