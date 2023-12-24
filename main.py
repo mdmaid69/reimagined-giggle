@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
