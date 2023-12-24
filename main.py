@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
