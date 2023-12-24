@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
