@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
