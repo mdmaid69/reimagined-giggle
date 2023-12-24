@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import numpy as np
-print(np.array([1, 2, 3]))
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_str(array):
+        return str(array)
