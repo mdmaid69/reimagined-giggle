@@ -1,4 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-for i in range(10): print(i)
+  def delete_file(file_name):
+        os.remove(file_name)
+def reverse_list(lst):
+        return lst[::-1]
