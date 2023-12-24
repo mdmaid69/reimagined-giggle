@@ -1,6 +1,9 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import time
+def get_current_time():
+        return time.time()
