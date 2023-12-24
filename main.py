@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
