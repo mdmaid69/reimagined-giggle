@@ -1,4 +1,3 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
+print([x**2 for x in range(10)])
