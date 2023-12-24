@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
