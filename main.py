@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
