@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def sort_list(lst):
-        return sorted(lst)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
