@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_frozenset(array):
+        return frozenset(array)
