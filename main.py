@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def reverse_list(lst):
+        return lst[::-1]
