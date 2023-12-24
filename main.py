@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def clear_array(array):
+        array *= 0
+def find_max(numbers):
+        return max(numbers)
