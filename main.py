@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
