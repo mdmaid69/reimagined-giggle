@@ -1,6 +1,5 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+print(random.randint(0, 100))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
