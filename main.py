@@ -1,5 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def is_odd(n):
-        return n % 2 != 0
+def calculate_absolute_value(x):
+        return math.fabs(x)
