@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
