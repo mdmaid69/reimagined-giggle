@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import os
-print(os.getcwd())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
