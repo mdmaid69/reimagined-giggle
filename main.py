@@ -1,5 +1,8 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
