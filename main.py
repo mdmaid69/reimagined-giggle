@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import collections
-def create_counter():
-        return collections.Counter()
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
