@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
