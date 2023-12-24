@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
