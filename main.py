@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def find_min(lst):
-        return min(lst)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
