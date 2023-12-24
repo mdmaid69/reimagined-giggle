@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def reverse_string(s):
+        return s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
