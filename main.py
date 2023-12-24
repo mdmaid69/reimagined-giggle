@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_square_root(x):
+        return math.sqrt(x)
