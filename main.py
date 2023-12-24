@@ -1,5 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
