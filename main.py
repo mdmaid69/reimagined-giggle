@@ -1,5 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
