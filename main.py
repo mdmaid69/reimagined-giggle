@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def is_palindrome(s):
+        return s == s[::-1]
