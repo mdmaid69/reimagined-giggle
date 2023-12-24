@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def is_even(n):
-        return n % 2 == 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
