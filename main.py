@@ -1,6 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
