@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
