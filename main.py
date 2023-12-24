@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
