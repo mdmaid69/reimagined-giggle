@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import collections
+def create_counter():
+        return collections.Counter()
