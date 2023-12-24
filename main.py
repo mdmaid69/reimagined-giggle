@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def convert_to_hex(n):
+        return hex(n)
