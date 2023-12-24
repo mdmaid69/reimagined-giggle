@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
