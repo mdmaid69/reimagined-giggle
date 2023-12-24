@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def is_odd(n):
+        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
