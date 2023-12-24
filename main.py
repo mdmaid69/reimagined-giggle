@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_time_since_epoch():
-        return time.time()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
