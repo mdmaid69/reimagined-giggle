@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Characters:", len(text))
+def greet(name):
+        print(f"Hello, {name}!")
