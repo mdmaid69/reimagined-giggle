@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
