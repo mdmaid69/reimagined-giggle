@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_priority_queue():
+        return collections.deque()
