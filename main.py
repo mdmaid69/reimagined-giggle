@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
