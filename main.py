@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
