@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
