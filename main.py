@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def convert_to_octal(n):
+        return oct(n)
