@@ -1,8 +1,11 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
