@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
