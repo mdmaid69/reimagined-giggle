@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_index(array, item):
+        return array.index(item)
