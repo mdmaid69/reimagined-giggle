@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
