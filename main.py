@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
