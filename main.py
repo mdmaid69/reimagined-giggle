@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
