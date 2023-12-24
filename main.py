@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def count_elements(lst):
-        return len(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
