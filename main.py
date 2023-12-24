@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def exit_program():
-        sys.exit()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
