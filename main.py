@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
