@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
