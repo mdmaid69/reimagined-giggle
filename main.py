@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
