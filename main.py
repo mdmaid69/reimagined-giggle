@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
