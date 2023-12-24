@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def is_even(n):
-        return n % 2 == 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
