@@ -1,6 +1,8 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
