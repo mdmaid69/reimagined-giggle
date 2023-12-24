@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
