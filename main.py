@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
