@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_hex(n):
-        return hex(n)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
