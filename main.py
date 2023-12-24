@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
