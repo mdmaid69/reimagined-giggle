@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cosine(x):
+        return math.cos(x)
