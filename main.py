@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+from collections import Counter
+print(Counter("hello world"))
