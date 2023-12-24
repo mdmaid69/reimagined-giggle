@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
