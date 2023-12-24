@@ -1,8 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def sort_list(lst):
+        return sorted(lst)
