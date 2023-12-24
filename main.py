@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
