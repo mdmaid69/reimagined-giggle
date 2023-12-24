@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def remove_duplicates(lst):
+        return list(set(lst))
