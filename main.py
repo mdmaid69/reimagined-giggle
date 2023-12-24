@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
