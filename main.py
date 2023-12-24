@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
