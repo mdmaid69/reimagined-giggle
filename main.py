@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_int(array):
+        return int(array[0])
