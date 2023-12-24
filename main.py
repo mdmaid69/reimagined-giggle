@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
