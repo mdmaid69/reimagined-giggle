@@ -1,4 +1,12 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def square_number(x):
-        return x**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
