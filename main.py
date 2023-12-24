@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
