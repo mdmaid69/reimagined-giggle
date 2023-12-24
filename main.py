@@ -1,7 +1,4 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
