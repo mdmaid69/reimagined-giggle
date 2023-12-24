@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
