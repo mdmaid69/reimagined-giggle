@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
