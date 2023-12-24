@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
