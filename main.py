@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import getpass
-def get_username():
-        return getpass.getuser()
+def count_elements(lst):
+        return len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
