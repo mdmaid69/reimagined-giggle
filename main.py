@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
