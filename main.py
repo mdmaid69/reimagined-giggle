@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def cube_number(x):
-        return x**3
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
