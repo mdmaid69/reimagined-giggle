@@ -1,8 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
