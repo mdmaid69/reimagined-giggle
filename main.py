@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
