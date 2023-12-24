@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
