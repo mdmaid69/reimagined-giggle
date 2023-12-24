@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
