@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
