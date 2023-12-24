@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
