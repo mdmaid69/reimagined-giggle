@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
