@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
