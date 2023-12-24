@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
