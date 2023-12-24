@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
