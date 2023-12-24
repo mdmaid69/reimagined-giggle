@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
