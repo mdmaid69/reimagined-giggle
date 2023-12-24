@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
