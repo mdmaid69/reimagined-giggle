@@ -1,8 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def convert_to_octal(n):
+        return oct(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
