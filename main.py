@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_max(numbers):
+        return max(numbers)
