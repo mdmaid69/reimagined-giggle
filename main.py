@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
