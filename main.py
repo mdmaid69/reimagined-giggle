@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_octal(n):
-        return oct(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
