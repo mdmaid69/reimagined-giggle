@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_power(work, time):
+        return work / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
