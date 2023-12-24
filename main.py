@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
