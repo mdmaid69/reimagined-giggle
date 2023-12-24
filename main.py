@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_power(work, time):
+        return work / time
