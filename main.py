@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
