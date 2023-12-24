@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_max(lst):
+        return max(lst)
+def find_max(numbers):
+        return max(numbers)
