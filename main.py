@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
