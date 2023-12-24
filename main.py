@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
