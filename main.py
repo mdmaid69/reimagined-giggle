@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def count_words(sentence):
-        return len(sentence.split())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
