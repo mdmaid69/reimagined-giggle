@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def exit_program():
-        sys.exit()
+  def delete_file(file_name):
+        os.remove(file_name)
