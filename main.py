@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
