@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
