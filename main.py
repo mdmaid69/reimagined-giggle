@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_pressure(force, area):
+        return force / area
