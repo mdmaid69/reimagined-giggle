@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_floor(x):
+        return math.floor(x)
