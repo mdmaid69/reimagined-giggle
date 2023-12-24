@@ -1,6 +1,8 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_counter():
-        return collections.Counter()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
