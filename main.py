@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
