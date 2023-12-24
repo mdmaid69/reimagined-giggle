@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_density(mass, volume):
+        return mass / volume
