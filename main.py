@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def reverse_array(array):
+        array.reverse()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
