@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
