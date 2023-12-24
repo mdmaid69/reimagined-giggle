@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_area_circle(r):
+        return 3.14 * r**2
