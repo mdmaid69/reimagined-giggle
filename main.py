@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
