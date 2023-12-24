@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def reverse_array(array):
-        array.reverse()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
