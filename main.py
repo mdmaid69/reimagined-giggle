@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import platform
-def get_os_info():
-        return platform.uname()
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
