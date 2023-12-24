@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def add_numbers(x, y):
+        return x + y
