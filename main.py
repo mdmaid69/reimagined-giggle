@@ -1,5 +1,3 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_density(mass, volume):
+        return mass / volume
+print([x**2 for x in range(10)])
