@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
