@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
