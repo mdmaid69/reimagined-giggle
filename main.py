@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def add_numbers(a, b):
-        return a + b
+import sys
+print(sys.version)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
