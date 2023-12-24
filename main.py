@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def cube_number(x):
-        return x**3
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
