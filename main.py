@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_to_hex(n):
+        return hex(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
