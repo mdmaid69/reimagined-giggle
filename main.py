@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import sys
+def print_python_version():
+        return sys.version
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
