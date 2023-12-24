@@ -1,4 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
