@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def find_min(numbers):
-        return min(numbers)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
