@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import random
+print(random.randint(0, 100))
