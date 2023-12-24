@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_work(force, distance):
-        return force * distance
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
