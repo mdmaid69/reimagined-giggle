@@ -1,4 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
