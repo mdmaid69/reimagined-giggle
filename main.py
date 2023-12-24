@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
