@@ -1,5 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
