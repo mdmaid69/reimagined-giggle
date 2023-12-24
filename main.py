@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_current_directory():
-        return os.getcwd()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
