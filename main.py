@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import re
+print(re.match("h.*o", "hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
