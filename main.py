@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
