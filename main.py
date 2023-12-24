@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
