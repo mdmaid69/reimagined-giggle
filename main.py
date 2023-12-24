@@ -1,7 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
