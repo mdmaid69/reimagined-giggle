@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_item(array, i):
-        return array[i]
+def append_to_array(array, item):
+        array.append(item)
