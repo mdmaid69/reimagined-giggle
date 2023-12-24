@@ -1,8 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
