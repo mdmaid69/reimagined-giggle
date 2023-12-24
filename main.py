@@ -1,5 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_force(mass, acceleration):
+        return mass * acceleration
