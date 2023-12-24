@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
