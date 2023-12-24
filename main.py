@@ -1,8 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
