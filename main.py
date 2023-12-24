@@ -1,6 +1,8 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
