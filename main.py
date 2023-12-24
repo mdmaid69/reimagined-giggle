@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def count_characters(sentence):
-        return len(sentence)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
