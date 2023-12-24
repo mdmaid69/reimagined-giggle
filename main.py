@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
