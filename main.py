@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
