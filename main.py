@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from collections import Counter
+print(Counter("hello world"))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
