@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def is_odd(n):
+        return n % 2 != 0
