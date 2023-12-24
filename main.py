@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def check_if_array_contains_item(array, item):
+        return item in array
