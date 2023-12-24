@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
