@@ -1,6 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def find_unique_words(sentence):
+        return set(sentence.split())
