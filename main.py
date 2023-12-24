@@ -1,5 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
