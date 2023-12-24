@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
