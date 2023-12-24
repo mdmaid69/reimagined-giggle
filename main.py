@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
