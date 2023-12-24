@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
