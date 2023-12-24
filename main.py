@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
