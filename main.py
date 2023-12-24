@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+print(sum(range(10)))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
