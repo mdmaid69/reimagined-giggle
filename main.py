@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
