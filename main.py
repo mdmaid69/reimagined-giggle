@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
