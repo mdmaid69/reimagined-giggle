@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
