@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def sort_list(lst):
+        return sorted(lst)
