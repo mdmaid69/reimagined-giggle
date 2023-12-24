@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
