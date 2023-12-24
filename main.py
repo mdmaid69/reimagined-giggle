@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
