@@ -1,7 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
