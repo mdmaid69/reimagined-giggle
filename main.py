@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
