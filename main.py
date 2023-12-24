@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
