@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
