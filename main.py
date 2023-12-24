@@ -1,5 +1,7 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
