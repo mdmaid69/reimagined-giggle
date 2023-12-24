@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
