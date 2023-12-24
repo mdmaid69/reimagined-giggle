@@ -1,7 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
