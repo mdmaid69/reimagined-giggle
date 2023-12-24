@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
