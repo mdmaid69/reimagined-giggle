@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
