@@ -1,7 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
