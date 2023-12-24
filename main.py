@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
