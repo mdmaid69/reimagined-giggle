@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def subtract_numbers(x, y):
+        return x - y
