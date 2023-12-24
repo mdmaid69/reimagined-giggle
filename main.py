@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
