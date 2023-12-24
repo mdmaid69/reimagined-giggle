@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
