@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def reverse_list(lst):
+        return lst[::-1]
