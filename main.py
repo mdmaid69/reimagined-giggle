@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
