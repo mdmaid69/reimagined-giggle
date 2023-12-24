@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import platform
+def get_python_version():
+        return platform.python_version()
