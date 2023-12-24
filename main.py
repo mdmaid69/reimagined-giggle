@@ -1,10 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
