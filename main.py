@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
