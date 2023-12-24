@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
