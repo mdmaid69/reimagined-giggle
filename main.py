@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
