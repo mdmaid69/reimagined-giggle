@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import time
+def get_current_time():
+        return time.ctime()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
