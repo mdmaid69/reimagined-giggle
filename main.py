@@ -1,8 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
