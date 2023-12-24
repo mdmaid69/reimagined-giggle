@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
