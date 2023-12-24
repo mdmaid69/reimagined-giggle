@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
