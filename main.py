@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_queue():
+        return collections.deque()
+def is_palindrome(s):
+        return s == s[::-1]
