@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
