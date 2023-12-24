@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def remove_duplicates(lst):
+        return list(set(lst))
