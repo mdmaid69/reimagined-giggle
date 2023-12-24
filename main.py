@@ -1,6 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
