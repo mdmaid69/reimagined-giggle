@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def convert_to_binary(n):
+        return bin(n)
