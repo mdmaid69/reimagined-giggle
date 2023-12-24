@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def clear_array(array):
-        array *= 0
+def check_if_array_contains_item(array, item):
+        return item in array
