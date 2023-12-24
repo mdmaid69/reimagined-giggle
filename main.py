@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
