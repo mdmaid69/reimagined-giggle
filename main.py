@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
