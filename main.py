@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+print([x**2 for x in range(10)])
