@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
