@@ -1,8 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
