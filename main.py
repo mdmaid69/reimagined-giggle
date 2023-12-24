@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
