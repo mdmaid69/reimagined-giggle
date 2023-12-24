@@ -1,6 +1,8 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
