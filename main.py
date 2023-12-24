@@ -1,5 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
