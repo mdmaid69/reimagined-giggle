@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
