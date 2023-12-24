@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
