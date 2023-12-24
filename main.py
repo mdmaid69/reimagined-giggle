@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sys
-def print_python_version():
-        print(sys.version)
+  def multiply_numbers(x, y):
+        return x * y
+import os
+print(os.getcwd())
