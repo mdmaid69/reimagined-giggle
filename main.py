@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
