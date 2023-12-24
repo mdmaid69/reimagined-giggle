@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
