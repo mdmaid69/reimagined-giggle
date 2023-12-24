@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def remove_duplicates(lst):
-        return list(set(lst))
+def greet(name):
+        print(f"Hello, {name}!")
+  def cube_number(x):
+        return x**3
