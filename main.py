@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
