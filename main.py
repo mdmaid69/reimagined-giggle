@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
