@@ -1,6 +1,7 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
