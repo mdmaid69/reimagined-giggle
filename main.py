@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
