@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def convert_to_binary(n):
-        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_min(lst):
+        return min(lst)
