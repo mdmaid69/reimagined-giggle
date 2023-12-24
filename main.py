@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
