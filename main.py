@@ -1,4 +1,3 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_min(numbers):
+        return min(numbers)
+for i in range(10): print(i)
