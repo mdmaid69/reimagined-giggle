@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
