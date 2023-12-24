@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
