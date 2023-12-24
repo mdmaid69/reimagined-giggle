@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Characters:", len(text))
