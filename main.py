@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import tensorflow as tf
+print(tf.__version__)
