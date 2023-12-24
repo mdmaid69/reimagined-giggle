@@ -1,4 +1,9 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
