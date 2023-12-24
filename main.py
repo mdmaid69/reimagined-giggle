@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
