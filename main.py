@@ -1,8 +1,8 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
