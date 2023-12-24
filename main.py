@@ -1,5 +1,8 @@
-name = "Python"
-print("Hello,", name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_density(mass, volume):
+        return mass / volume
