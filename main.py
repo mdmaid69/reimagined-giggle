@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
