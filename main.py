@@ -1,7 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
