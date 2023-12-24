@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
