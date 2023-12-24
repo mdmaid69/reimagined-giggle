@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
