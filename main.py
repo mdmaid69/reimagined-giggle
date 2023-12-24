@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
