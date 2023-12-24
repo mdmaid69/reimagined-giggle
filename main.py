@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_str(array):
+        return str(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
