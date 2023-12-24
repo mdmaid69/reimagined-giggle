@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
