@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
