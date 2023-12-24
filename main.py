@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+print(sys.version)
