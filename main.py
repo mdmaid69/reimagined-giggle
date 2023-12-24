@@ -1,7 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
