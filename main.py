@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import sys
+def exit_program():
+        sys.exit()
