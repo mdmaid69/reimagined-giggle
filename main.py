@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_exponential(x):
+        return math.exp(x)
