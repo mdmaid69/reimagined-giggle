@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def square_number(x):
+        return x**2
+import datetime
+print(datetime.datetime.now())
