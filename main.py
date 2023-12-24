@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
