@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_as_list(array):
+        return list(array)
