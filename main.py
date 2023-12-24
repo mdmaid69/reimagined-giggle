@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
