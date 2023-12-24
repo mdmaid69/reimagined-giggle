@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
