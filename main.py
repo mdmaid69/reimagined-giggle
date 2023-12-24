@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
