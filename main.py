@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
