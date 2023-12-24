@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
