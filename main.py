@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def multiply_numbers(x, y):
+        return x * y
