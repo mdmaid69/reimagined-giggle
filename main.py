@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
