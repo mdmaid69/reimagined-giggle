@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
