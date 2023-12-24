@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
