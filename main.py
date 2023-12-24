@@ -1,7 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
