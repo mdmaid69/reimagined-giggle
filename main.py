@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
