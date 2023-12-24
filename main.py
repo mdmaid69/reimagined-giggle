@@ -1,6 +1,9 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
