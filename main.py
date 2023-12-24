@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
