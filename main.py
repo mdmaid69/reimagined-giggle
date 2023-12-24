@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
