@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
