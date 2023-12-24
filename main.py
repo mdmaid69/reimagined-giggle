@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
