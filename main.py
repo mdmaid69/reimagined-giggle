@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
