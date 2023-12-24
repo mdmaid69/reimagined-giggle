@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def find_max(numbers):
-        return max(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_stack():
+        return collections.deque()
