@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
