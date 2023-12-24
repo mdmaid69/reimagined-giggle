@@ -1,5 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
