@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def find_max(lst):
+        return max(lst)
