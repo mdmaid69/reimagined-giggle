@@ -1,5 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+print(datetime.datetime.now())
