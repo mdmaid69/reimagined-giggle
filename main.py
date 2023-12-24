@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
