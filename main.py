@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
