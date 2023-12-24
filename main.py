@@ -1,8 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
