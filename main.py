@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
