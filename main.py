@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
