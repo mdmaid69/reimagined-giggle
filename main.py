@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
