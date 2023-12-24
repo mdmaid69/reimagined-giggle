@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
