@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
