@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def cube_number(x):
+        return x**3
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
