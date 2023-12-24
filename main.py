@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
