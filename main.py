@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
