@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
