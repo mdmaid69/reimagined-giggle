@@ -1,6 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
