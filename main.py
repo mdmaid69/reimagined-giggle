@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
