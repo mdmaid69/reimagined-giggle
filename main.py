@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
