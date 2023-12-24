@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
