@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def greet(name):
-        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
