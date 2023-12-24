@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
