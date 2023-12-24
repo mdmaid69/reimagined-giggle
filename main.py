@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
