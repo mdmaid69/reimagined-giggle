@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+print(math.pi)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
