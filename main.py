@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_error_function(x):
+        return math.erf(x)
