@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
