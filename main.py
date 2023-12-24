@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def is_even(n):
+        return n % 2 == 0
