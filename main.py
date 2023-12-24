@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
