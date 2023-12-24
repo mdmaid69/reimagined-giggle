@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
