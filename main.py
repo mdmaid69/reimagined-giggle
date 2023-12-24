@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import time
-def get_time_since_epoch():
-        return time.time()
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
