@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
