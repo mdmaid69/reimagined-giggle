@@ -1,5 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def add_numbers(a, b):
-        return a + b
+  def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
