@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
