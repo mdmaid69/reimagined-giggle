@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
