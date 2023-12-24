@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_user_list():
+        return collections.UserList()
