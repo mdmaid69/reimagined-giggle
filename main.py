@@ -1,5 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import numpy as np
-print(np.array([1, 2, 3]))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
