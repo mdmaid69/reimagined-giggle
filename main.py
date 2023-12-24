@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
