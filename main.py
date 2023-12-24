@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+def count_words(sentence):
+        return len(sentence.split())
