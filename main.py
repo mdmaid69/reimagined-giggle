@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
