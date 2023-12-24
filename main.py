@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def square_number(x):
-        return x**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def set_array_item(array, i, item):
+        array[i] = item
