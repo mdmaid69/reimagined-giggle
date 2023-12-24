@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
