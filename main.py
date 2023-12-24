@@ -1,4 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
