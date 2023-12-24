@@ -1,5 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
