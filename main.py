@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_directory_name(path):
+        return os.path.dirname(path)
