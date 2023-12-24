@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
