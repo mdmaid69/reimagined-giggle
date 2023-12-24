@@ -1,6 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
