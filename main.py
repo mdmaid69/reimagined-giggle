@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
