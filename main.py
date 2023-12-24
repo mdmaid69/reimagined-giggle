@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_speed(distance, time):
-        return distance / time
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
