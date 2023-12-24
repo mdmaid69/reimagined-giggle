@@ -1,6 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
