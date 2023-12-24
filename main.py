@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def add_numbers(x, y):
-        return x + y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
