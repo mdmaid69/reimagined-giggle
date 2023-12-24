@@ -1,7 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
