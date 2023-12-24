@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
