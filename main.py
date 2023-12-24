@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_user_string():
-        return collections.UserString()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
