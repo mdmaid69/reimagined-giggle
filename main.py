@@ -1,5 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
