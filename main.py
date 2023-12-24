@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
