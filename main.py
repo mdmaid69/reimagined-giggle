@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+print(re.match("h.*o", "hello world"))
