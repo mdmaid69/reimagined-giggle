@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_list(array):
+        return list(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
