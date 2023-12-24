@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_power(work, time):
-        return work / time
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
