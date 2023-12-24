@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
