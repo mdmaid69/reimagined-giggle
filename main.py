@@ -1,5 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def clear_array(array):
+        array *= 0
