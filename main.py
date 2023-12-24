@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
