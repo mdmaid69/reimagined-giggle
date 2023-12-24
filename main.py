@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
