@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def add_numbers(x, y):
+        return x + y
