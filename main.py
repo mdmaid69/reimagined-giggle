@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
