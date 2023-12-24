@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
