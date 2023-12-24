@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import getpass
+def get_username():
+        return getpass.getuser()
+import getpass
+def get_username():
+        return getpass.getuser()
