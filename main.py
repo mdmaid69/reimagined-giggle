@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
