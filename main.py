@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
