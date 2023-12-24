@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
