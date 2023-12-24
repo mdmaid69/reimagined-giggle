@@ -1,6 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def list_files_in_directory(path):
+        return os.listdir(path)
+def greet(name):
+        print(f"Hello, {name}!")
