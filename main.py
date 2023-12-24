@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
