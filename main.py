@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
