@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
