@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
