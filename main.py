@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
