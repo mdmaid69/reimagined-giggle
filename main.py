@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def count_characters(sentence):
+        return len(sentence)
