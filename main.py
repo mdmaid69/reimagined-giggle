@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
