@@ -1,4 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-print([x**2 for x in range(10)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
