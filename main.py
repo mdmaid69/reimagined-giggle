@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
