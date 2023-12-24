@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
+import getpass
+def get_username():
+        return getpass.getuser()
