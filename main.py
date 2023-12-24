@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
