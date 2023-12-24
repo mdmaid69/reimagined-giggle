@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import time
+def get_current_time():
+        return time.ctime()
