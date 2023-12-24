@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
