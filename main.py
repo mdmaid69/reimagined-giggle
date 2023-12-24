@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
