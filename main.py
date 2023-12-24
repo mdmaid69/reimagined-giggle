@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
