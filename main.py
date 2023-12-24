@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
