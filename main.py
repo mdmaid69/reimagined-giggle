@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_typecode(array):
-        return array.typecode
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
