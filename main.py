@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_area_circle(r):
+        return 3.14 * r**2
