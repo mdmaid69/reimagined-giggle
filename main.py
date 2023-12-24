@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_list(array):
+        return list(array)
