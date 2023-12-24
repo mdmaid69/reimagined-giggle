@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_max(lst):
-        return max(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
