@@ -1,5 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def sort_list(lst):
-        return sorted(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
