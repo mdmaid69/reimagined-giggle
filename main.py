@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
