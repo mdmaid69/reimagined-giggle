@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
