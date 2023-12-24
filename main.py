@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
