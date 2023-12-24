@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
