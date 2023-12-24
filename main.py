@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def sort_list(lst):
+        return sorted(lst)
