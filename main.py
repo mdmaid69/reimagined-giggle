@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
