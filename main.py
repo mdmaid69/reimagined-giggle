@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
