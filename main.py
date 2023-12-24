@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def append_to_array(array, item):
+        array.append(item)
