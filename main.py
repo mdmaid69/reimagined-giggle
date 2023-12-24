@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
