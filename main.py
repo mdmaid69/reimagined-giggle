@@ -1,5 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-import sys
-def exit_program():
-        sys.exit()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
