@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def reverse_array(array):
+        array.reverse()
