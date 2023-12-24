@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
