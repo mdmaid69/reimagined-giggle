@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def sort_list(lst):
-        return sorted(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
