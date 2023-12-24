@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
