@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import time
+def get_current_time():
+        return time.ctime()
+text = "Hello, world!"
+print("Characters:", len(text))
