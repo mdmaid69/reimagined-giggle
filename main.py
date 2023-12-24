@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
