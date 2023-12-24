@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
