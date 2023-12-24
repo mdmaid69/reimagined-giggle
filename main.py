@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_item(array, i):
+        return array[i]
