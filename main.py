@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def add_numbers(a, b):
-        return a + b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
