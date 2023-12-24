@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import tensorflow as tf
+print(tf.__version__)
