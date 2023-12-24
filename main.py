@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
