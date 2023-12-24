@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_item_count(array, item):
+        return array.count(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
