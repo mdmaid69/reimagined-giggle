@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
