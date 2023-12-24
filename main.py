@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
