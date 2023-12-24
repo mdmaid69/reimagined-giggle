@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
