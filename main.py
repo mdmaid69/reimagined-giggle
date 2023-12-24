@@ -1,4 +1,11 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
