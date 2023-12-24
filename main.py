@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
