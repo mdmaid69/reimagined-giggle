@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
