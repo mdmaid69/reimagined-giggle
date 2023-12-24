@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_floor(x):
+        return math.floor(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def append_to_array(array, item):
+        array.append(item)
