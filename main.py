@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def convert_to_octal(n):
+        return oct(n)
