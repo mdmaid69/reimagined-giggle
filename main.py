@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
