@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def add_numbers(x, y):
-        return x + y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
