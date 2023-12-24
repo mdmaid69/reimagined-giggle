@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
