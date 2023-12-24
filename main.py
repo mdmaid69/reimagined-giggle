@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
