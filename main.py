@@ -1,5 +1,10 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
