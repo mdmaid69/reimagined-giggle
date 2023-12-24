@@ -1,9 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
