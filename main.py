@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
+import math
+print(math.pi)
