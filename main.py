@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sine(x):
+        return math.sin(x)
+import logging
+def log_message(message):
+        logging.info(message)
