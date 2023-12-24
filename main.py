@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-from collections import Counter
-print(Counter("hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
