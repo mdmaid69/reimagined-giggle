@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_array_to_list(array):
+        return array.tolist()
