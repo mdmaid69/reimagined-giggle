@@ -1,7 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
