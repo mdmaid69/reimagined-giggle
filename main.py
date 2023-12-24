@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
