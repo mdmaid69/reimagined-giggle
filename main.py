@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_index(array, item):
+        return array.index(item)
