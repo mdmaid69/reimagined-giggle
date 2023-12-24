@@ -1,4 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_typecode(array):
+        return array.typecode
