@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
