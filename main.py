@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
