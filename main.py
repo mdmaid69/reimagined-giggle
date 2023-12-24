@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def add_numbers(x, y):
-        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
