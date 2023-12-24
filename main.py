@@ -1,3 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print(sum(range(10)))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
