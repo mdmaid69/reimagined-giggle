@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
