@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
