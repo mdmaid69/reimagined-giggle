@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
