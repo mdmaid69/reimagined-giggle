@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
