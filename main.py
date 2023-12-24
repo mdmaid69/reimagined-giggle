@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
