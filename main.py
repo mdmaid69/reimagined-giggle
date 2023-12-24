@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def multiply_numbers(x, y):
+        return x * y
