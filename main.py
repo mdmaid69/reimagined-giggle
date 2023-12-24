@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
