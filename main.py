@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
