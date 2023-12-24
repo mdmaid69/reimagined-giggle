@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_even(n):
+        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
