@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
