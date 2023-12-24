@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
