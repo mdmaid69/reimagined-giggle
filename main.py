@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-x = 10
-y = 20
-print("Sum:", x + y)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
