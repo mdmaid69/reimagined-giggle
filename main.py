@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_user_dict():
+        return collections.UserDict()
