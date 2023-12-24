@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
