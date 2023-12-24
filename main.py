@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
