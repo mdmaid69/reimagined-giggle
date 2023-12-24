@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_float(array):
+        return float(array[0])
