@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+print(sum(range(10)))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
