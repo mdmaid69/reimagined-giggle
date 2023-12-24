@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
