@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_square_root(x):
+        return math.sqrt(x)
