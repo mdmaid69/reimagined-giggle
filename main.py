@@ -1,5 +1,10 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
