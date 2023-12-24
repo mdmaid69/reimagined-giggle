@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
