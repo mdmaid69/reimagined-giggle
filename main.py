@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
