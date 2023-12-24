@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
