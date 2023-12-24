@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_perimeter_triangle(a, b, c):
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def calculate_perimeter_triangle(a, b, c):
         return a + b + c
