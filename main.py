@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
