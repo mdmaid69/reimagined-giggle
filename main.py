@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def exit_program():
-        sys.exit()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def cube_number(x):
+        return x**3
