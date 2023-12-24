@@ -1,7 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
