@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import time
+def get_time_since_epoch():
+        return time.time()
