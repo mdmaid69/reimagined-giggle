@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
