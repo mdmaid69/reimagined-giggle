@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_square_root(x):
+        return math.sqrt(x)
