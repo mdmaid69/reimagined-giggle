@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import tensorflow as tf
+print(tf.__version__)
