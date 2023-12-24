@@ -1,10 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
