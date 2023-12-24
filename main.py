@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def add_numbers(a, b):
+        return a + b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
