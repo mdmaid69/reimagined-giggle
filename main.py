@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
