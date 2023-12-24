@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
