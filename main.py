@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
