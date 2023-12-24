@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
