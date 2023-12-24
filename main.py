@@ -1,7 +1,11 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
