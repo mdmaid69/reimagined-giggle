@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
