@@ -1,6 +1,7 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
