@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def add_numbers(x, y):
+        return x + y
+def reverse_list(lst):
+        return lst[::-1]
