@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
