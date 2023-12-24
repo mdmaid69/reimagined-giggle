@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        return sys.version
+def count_characters(sentence):
+        return len(sentence)
