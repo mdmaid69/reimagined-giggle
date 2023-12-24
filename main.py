@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-  def sort_list(lst):
-        return sorted(lst)
+def get_string_from_array(array):
+        return array.tobytes()
+import sys
+def print_python_version():
+        return sys.version
