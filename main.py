@@ -1,8 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+def print_python_version():
+        return sys.version
