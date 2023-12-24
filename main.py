@@ -1,6 +1,9 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
