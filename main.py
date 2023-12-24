@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
