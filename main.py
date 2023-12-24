@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
