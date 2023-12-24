@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+print(math.pi)
