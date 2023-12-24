@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
