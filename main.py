@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
