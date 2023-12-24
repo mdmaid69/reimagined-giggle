@@ -1,8 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+from collections import Counter
+print(Counter("hello world"))
+def find_min(numbers):
+        return min(numbers)
