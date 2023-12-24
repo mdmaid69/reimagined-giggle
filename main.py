@@ -1,6 +1,7 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_factorial(n):
+        return math.factorial(n)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
