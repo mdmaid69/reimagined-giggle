@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
