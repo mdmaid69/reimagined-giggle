@@ -1,8 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
