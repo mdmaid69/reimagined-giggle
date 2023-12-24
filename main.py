@@ -1,10 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
