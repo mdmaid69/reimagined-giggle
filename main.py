@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
