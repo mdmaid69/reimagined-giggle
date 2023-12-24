@@ -1,6 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
