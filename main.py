@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
