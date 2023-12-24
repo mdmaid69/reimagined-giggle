@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
