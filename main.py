@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import os
+def remove_directory(path):
+        os.rmdir(path)
