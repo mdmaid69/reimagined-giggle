@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
