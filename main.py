@@ -1,7 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
