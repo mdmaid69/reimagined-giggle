@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
