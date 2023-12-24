@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
