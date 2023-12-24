@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
