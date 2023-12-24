@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def find_max(numbers):
-        return max(numbers)
+def sort_list(lst):
+        return sorted(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
