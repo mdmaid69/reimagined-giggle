@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_area_circle(r):
+        return 3.14 * r**2
