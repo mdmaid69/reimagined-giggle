@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
