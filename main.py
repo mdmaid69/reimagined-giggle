@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_counter():
-        return collections.Counter()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
