@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
