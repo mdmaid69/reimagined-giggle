@@ -1,5 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
