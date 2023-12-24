@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
