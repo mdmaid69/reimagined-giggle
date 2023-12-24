@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+for i in range(10): print(i)
