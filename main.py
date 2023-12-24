@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
