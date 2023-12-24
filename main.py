@@ -1,6 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def create_user_dict():
+        return collections.UserDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
