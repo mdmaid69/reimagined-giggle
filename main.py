@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
