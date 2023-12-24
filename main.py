@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_current_date():
+        return datetime.date.today()
