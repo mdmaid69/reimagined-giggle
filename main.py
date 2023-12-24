@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
