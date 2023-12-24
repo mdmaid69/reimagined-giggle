@@ -1,6 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
