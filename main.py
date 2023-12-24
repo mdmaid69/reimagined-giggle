@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_to_hex(n):
+        return hex(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
