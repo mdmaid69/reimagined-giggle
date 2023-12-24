@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def multiply_numbers(x, y):
+        return x * y
