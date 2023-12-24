@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
