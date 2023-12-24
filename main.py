@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def is_odd(n):
+        return n % 2 != 0
