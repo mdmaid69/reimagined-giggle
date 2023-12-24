@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_volume(length, width, height):
+        return length * width * height
