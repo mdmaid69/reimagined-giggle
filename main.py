@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
