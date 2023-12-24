@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
