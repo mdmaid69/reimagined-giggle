@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_work(force, distance):
+        return force * distance
