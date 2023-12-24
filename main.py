@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def cube_number(x):
+        return x**3
