@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
