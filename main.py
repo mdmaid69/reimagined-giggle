@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
