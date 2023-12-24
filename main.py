@@ -1,5 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
