@@ -1,5 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
