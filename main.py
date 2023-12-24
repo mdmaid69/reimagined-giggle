@@ -1,4 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
