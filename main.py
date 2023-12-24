@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def add_numbers(x, y):
-        return x + y
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
