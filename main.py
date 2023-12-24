@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
