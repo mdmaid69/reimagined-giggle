@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
