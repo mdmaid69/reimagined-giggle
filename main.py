@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
