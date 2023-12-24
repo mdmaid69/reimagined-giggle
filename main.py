@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
