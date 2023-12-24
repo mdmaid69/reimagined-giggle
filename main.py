@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
