@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-name = "Python"
-print("Hello,", name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
