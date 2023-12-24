@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_to_octal(n):
+        return oct(n)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
