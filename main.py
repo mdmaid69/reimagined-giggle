@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import platform
-def get_python_version():
-        return platform.python_version()
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
