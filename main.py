@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
