@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_factorial(n):
+        return math.factorial(n)
