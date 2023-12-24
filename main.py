@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
