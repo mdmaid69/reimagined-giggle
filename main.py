@@ -1,6 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
