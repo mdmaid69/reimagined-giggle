@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_sine(x):
+        return math.sin(x)
