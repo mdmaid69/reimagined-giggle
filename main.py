@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def create_counter():
-        return collections.Counter()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def find_min(lst):
+        return min(lst)
