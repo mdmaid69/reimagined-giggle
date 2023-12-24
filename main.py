@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_error_function(x):
+        return math.erf(x)
