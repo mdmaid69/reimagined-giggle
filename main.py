@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
