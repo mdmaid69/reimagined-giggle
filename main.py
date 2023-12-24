@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
