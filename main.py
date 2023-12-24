@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_binary(n):
-        return bin(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def add_numbers(x, y):
+        return x + y
