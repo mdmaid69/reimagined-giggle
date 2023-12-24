@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def is_odd(n):
-        return n % 2 != 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
