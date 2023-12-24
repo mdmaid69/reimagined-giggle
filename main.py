@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def square_number(x):
-        return x**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
