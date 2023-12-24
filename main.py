@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
