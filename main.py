@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
