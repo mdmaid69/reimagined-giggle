@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
