@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
