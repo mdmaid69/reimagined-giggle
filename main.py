@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
