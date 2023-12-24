@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
