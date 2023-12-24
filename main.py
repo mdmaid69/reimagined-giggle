@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
