@@ -1,5 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def convert_to_octal(n):
-        return oct(n)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
