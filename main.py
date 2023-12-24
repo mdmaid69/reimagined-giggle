@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
