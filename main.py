@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def is_even(n):
+        return n % 2 == 0
