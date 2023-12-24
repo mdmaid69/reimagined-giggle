@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
