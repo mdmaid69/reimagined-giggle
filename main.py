@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
