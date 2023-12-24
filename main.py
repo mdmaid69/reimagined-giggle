@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import logging
+def log_message(message):
+        logging.info(message)
