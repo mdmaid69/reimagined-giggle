@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def count_words(sentence):
-        return len(sentence.split())
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
