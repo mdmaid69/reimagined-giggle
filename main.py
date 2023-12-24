@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_queue():
+        return collections.deque()
+import collections
+def create_priority_queue():
+        return collections.deque()
