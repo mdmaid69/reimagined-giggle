@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_speed(distance, time):
+        return distance / time
+  def convert_to_octal(n):
+        return oct(n)
