@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
