@@ -1,5 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
