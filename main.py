@@ -1,7 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
