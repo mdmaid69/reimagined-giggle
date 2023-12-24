@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
