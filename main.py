@@ -1,9 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def is_odd(n):
+        return n % 2 != 0
