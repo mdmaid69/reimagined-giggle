@@ -1,6 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_repr(array):
+        return repr(array)
