@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def multiply_numbers(x, y):
-        return x * y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def change_working_directory(path):
+        os.chdir(path)
