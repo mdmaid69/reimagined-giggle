@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
