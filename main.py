@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
