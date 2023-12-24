@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
