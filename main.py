@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
