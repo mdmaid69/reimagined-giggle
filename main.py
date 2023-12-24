@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
