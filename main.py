@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
