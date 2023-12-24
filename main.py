@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_user_list():
+        return collections.UserList()
