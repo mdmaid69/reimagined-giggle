@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_density(mass, volume):
+        return mass / volume
