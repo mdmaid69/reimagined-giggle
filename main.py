@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_speed(distance, time):
+        return distance / time
