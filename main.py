@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
