@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
