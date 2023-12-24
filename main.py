@@ -1,8 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
