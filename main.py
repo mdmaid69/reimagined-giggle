@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
