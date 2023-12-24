@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
