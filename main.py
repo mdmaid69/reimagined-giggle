@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def is_odd(n):
-        return n % 2 != 0
+def multiply_numbers(x, y):
+        return x * y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
