@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def sort_numbers(numbers):
+        return sorted(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
