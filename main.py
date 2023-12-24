@@ -1,7 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
