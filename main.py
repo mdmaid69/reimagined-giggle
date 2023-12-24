@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_queue():
-        return collections.deque()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def reverse_list(lst):
+        return lst[::-1]
