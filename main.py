@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
