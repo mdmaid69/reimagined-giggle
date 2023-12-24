@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
