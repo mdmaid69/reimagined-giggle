@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def is_even(n):
+        return n % 2 == 0
