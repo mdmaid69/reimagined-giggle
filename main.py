@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
