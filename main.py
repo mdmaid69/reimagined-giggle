@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_absolute_value(x):
+        return math.fabs(x)
