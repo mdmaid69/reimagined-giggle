@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
