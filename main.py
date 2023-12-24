@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
