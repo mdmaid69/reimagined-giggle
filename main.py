@@ -1,5 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def cube_number(x):
-        return x**3
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def reverse_list(lst):
+        return lst[::-1]
