@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
