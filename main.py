@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
