@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
