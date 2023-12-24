@@ -1,5 +1,9 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
