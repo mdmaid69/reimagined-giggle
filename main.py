@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
