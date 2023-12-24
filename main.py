@@ -1,6 +1,6 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
