@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
