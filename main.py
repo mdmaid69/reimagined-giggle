@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_palindrome(s):
-        return s == s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+print(math.pi)
