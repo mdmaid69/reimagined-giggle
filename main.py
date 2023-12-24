@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
