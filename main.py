@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
+import time
+def get_current_time():
+        return time.time()
