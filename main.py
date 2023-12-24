@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
