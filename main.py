@@ -1,5 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+from collections import Counter
+print(Counter("hello world"))
