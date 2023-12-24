@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_speed(distance, time):
+        return distance / time
