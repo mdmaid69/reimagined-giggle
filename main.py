@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
