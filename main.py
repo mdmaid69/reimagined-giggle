@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
