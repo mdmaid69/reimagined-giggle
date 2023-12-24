@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def convert_to_hex(n):
+        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
