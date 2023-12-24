@@ -1,8 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+print(sys.version)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
