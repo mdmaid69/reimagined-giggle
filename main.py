@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
