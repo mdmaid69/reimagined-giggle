@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+for i in range(10): print(i)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
