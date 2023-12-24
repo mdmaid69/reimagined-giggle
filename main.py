@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
