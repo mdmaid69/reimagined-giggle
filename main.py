@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def subtract_numbers(x, y):
+        return x - y
