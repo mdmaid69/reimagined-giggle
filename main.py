@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def get_array_length(array):
+        return len(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
