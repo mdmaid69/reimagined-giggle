@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
