@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
