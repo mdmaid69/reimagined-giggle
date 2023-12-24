@@ -1,5 +1,5 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def exit_program():
+        sys.exit()
+def multiply_numbers(x, y):
+        return x * y
