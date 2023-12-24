@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import collections
-def create_counter():
-        return collections.Counter()
+  import sys
+  def get_python_version():
+        return sys.version
+def convert_to_hex(n):
+        return hex(n)
