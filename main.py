@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
