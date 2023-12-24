@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
