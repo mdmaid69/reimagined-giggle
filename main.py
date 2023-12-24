@@ -1,8 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
