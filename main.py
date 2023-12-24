@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
