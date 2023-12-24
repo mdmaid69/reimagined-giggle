@@ -1,5 +1,3 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_current_directory():
-        return os.getcwd()
+for i in range(10): print(i)
+def calculate_work(force, distance):
+        return force * distance
