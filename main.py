@@ -1,6 +1,4 @@
+  def convert_to_hex(n):
+        return hex(n)
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+print(list(itertools.permutations([1, 2, 3])))
