@@ -1,5 +1,3 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def square_number(x):
+        return x**2
+print([x**2 for x in range(10)])
