@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
