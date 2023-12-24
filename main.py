@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
