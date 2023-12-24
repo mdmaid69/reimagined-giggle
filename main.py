@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import platform
-def get_os_info():
-        return platform.uname()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
