@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import time
+def get_current_time():
+        return time.ctime()
+def sort_list(lst):
+        return sorted(lst)
