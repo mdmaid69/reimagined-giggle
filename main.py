@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+name = "Python"
+print("Hello,", name)
