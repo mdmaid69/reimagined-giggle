@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
