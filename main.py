@@ -1,8 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
