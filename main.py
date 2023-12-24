@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def cube_number(x):
-        return x**3
+def calculate_density(mass, volume):
+        return mass / volume
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
