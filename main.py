@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
