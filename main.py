@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
