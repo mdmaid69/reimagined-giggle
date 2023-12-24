@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
