@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import sys
-def exit_program():
-        sys.exit()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
