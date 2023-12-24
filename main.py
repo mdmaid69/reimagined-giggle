@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
