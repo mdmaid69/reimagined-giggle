@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
