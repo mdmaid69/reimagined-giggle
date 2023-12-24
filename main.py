@@ -1,4 +1,9 @@
-def is_even(n):
-        return n % 2 == 0
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
