@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_pressure(force, area):
-        return force / area
+def count_words(sentence):
+        return len(sentence.split())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
