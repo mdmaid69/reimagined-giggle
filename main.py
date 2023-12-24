@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
