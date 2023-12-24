@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def square_number(x):
+        return x**2
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
