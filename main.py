@@ -1,4 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
