@@ -1,6 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
