@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
