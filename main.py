@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
