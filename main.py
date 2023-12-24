@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def is_even(n):
+        return n % 2 == 0
+import random
+print(random.randint(0, 100))
