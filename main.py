@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def clear_array(array):
+        array *= 0
