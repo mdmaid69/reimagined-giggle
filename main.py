@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
