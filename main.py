@@ -1,8 +1,10 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
