@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
