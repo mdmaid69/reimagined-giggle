@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
