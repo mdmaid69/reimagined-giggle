@@ -1,7 +1,9 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
