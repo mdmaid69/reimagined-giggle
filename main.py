@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
