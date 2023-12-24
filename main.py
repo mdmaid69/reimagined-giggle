@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
