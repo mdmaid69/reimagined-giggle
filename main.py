@@ -1,6 +1,10 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
