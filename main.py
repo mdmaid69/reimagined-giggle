@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
