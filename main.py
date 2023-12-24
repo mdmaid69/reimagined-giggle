@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import time
+def get_time_since_epoch():
+        return time.time()
