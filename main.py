@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
