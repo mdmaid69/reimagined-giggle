@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
