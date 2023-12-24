@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+print(os.getcwd())
