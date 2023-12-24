@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def divide_numbers(x, y):
-        return x / y
+def get_array_as_repr(array):
+        return repr(array)
