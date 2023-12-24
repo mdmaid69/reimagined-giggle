@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import tensorflow as tf
+print(tf.__version__)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
