@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def find_max(lst):
-        return max(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
