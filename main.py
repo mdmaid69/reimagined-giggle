@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
