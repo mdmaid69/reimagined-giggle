@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
