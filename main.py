@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_list(array):
-        return list(array)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
