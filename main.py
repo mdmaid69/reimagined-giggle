@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
