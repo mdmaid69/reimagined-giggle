@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
