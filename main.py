@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+print(re.match("h.*o", "hello world"))
