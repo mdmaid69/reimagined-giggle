@@ -1,7 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
