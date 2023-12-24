@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
