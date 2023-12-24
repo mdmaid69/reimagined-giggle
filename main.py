@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_int(array):
+        return int(array[0])
