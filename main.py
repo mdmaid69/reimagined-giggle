@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
