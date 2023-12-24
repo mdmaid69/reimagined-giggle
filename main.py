@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_volume(length, width, height):
+        return length * width * height
+i = 0
+while i < 5:
+        print(i)
+        i += 1
