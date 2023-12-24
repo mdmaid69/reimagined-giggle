@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+def get_current_time():
+        return time.ctime()
