@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_work(force, distance):
-        return force * distance
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
