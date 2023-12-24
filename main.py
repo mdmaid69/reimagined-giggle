@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_current_directory():
+        return os.getcwd()
