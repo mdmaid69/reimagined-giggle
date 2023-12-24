@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def clear_array(array):
+        array *= 0
