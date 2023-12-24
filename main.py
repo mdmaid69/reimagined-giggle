@@ -1,5 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def convert_to_octal(n):
-        return oct(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
