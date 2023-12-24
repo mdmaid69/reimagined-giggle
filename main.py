@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
