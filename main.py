@@ -1,5 +1,6 @@
 import time
-def get_current_time():
+def get_time_since_epoch():
         return time.time()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
