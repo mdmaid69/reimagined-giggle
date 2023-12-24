@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def get_array_as_int(array):
+        return int(array[0])
