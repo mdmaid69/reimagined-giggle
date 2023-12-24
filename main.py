@@ -1,4 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def convert_to_binary(n):
-        return bin(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
