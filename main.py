@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import sys
+  def get_python_version():
+        return sys.version
