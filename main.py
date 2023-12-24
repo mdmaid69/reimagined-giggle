@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+x = 10
+y = 20
+print("Sum:", x + y)
