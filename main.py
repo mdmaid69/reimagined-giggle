@@ -1,5 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
