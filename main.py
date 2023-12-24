@@ -1,11 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
