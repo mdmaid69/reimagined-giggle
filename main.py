@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
