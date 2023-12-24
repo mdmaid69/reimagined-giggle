@@ -1,4 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-print(sum(range(10)))
+  def square_number(x):
+        return x**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
