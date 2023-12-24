@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
