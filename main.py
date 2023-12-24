@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
