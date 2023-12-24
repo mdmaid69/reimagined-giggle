@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import sys
+def print_python_version():
+        print(sys.version)
