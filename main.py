@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
