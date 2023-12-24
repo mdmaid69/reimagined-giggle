@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
