@@ -1,6 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
