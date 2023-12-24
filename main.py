@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
