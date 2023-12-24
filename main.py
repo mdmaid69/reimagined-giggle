@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
