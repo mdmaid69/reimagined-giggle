@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
