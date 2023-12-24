@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
