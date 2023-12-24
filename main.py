@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
