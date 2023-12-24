@@ -1,6 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def get_array_as_repr(array):
+        return repr(array)
+def remove_duplicates(lst):
+        return list(set(lst))
