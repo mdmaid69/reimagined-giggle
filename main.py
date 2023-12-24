@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+print("Hello, world!")
