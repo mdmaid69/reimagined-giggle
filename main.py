@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
