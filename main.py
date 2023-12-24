@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_max(lst):
-        return max(lst)
+def calculate_ceiling(x):
+        return math.ceil(x)
