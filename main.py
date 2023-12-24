@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
