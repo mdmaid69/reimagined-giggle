@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
