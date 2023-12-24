@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_power(work, time):
-        return work / time
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
