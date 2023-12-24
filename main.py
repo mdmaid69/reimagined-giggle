@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import getpass
+def get_username():
+        return getpass.getuser()
