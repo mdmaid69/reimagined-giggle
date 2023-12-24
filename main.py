@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
