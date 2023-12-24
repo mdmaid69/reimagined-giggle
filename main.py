@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
