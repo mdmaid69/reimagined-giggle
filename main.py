@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
