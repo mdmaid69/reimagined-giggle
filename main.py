@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
