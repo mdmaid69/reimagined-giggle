@@ -1,6 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
