@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
