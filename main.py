@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_list(array):
+        return array.tolist()
