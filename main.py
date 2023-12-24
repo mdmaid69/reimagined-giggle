@@ -1,5 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
