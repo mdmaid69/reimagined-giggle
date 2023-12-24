@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
