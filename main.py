@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
