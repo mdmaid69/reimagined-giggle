@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
