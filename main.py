@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
