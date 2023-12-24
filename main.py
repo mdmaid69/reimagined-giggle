@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def count_elements(lst):
+        return len(lst)
