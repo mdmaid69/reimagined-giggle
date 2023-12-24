@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
