@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
