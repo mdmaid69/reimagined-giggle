@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
