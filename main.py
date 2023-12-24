@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def remove_duplicates(lst):
+        return list(set(lst))
