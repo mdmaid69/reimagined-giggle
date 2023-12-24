@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
