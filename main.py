@@ -1,4 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Characters:", len(text))
+def convert_to_binary(n):
+        return bin(n)
