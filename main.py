@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
