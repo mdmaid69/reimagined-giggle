@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
