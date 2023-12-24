@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
