@@ -1,6 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import time
+def get_current_time():
+        return time.ctime()
+import platform
+def get_os_info():
+        return platform.uname()
