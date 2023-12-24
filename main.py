@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
