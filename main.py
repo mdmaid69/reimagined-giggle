@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
