@@ -1,5 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def append_to_array(array, item):
+        array.append(item)
