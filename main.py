@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
