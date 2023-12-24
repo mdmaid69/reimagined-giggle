@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
