@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def split_path(path):
+        return os.path.split(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
