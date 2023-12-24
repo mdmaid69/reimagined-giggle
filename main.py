@@ -1,4 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def append_to_array(array, item):
+        array.append(item)
