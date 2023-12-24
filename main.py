@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def is_odd(n):
+        return n % 2 != 0
