@@ -1,7 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
