@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+for i in range(10): print(i)
