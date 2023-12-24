@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+print(re.match("h.*o", "hello world"))
