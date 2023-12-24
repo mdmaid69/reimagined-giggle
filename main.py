@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def remove_duplicates(lst):
+        return list(set(lst))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
