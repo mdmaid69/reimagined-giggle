@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_string_from_array(array):
+        return array.tobytes()
