@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
