@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import logging
+def log_message(message):
+        logging.info(message)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
