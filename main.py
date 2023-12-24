@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
