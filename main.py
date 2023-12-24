@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_user_string():
+        return collections.UserString()
