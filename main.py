@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
