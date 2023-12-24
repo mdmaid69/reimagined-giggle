@@ -1,6 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
