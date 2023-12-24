@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
