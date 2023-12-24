@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
