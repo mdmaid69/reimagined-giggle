@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def count_elements(lst):
+        return len(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
