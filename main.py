@@ -1,8 +1,8 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
