@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
