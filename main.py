@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
