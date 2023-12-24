@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
