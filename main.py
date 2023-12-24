@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
