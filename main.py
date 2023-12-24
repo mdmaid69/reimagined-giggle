@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def get_array_index(array, item):
+        return array.index(item)
