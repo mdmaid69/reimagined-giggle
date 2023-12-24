@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area(radius):
+        return 3.14 * radius * radius
