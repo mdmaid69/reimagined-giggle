@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
