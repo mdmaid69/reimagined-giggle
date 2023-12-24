@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
