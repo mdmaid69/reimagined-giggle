@@ -1,7 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
