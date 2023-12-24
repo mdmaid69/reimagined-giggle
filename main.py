@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_min(lst):
-        return min(lst)
+def calculate_power(work, time):
+        return work / time
+  def square_number(x):
+        return x**2
