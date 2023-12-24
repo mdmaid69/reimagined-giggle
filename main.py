@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def find_min(numbers):
+        return min(numbers)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
