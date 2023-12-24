@@ -1,5 +1,6 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
