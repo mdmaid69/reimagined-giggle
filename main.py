@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
