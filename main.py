@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
