@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
