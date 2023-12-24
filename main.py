@@ -1,5 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
