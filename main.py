@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
