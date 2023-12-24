@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def square_number(x):
-        return x**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import sys
+def exit_program():
+        sys.exit()
