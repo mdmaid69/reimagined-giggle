@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import collections
+def create_user_list():
+        return collections.UserList()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
