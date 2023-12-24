@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
