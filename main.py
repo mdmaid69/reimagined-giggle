@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
