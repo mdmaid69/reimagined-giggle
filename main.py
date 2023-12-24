@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
