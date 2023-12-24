@@ -1,6 +1,9 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def subtract_numbers(x, y):
+        return x - y
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
