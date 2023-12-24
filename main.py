@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
