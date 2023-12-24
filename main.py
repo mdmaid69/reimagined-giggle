@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
