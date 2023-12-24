@@ -1,8 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
