@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
