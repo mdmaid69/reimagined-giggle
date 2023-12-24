@@ -1,6 +1,5 @@
+import os
+print(os.getcwd())
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
