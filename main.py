@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
