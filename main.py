@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
