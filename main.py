@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
