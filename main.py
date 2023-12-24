@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
