@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
