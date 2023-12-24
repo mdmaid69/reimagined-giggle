@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
