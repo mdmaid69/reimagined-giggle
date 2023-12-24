@@ -1,6 +1,3 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
