@@ -1,6 +1,9 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
