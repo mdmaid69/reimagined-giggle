@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_to_hex(n):
+        return hex(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
