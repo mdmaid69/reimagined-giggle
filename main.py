@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_stack():
-        return collections.deque()
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
