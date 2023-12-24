@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_string_from_array(array):
+        return array.tobytes()
