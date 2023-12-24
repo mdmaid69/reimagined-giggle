@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_stack():
+        return collections.deque()
