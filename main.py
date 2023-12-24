@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
