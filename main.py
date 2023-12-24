@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
