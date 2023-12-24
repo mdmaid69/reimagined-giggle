@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
