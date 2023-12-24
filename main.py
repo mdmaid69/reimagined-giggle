@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
