@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_as_str(array):
+        return str(array)
