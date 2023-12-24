@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import collections
-def create_user_dict():
-        return collections.UserDict()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
