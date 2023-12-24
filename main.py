@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
