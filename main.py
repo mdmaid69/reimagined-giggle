@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
