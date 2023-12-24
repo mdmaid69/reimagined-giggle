@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
