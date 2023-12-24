@@ -1,8 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
