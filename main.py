@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
