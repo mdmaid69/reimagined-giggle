@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
