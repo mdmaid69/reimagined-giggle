@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def convert_to_binary(n):
-        return bin(n)
+  def add_numbers(x, y):
+        return x + y
+import sys
+def exit_program():
+        sys.exit()
