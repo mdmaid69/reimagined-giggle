@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
