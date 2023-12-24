@@ -1,6 +1,9 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
