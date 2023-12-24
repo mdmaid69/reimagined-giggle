@@ -1,6 +1,9 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
