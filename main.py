@@ -1,5 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import getpass
-def get_username():
-        return getpass.getuser()
+from collections import Counter
+print(Counter("hello world"))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
