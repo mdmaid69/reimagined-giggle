@@ -1,6 +1,7 @@
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
