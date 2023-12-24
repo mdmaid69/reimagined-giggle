@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
