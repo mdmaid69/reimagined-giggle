@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
