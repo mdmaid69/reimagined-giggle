@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+text = "Hello, world!"
+print("Characters:", len(text))
