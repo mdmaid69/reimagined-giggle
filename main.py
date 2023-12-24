@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
