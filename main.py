@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
