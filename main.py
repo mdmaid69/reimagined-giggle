@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def cube_number(x):
-        return x**3
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
