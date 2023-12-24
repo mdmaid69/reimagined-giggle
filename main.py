@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
