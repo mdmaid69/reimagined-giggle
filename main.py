@@ -1,6 +1,9 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
