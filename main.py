@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
