@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
