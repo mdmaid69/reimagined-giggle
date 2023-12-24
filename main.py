@@ -1,6 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
