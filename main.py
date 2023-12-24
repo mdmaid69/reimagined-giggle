@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def subtract_numbers(x, y):
-        return x - y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
