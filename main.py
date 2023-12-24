@@ -1,6 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
