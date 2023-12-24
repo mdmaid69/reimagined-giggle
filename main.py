@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import collections
+def create_user_list():
+        return collections.UserList()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
