@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
