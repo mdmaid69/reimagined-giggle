@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
