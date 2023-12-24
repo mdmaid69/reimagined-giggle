@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
