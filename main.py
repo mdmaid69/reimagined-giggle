@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def clear_array(array):
+        array *= 0
