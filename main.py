@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_acceleration(speed, time):
+        return speed / time
