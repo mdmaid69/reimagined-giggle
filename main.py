@@ -1,5 +1,12 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
