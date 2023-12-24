@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import platform
-def get_python_version():
-        return platform.python_version()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
