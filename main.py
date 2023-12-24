@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
