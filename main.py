@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
