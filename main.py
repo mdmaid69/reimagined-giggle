@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
