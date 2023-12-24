@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def convert_to_octal(n):
+        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
