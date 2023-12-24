@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_user_string():
+        return collections.UserString()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
