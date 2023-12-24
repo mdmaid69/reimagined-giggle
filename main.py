@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def count_elements(lst):
+        return len(lst)
