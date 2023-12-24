@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
