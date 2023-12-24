@@ -1,7 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def get_list_from_array(array):
+        return array.tolist()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
