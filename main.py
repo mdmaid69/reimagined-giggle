@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
