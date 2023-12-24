@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
