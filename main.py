@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
