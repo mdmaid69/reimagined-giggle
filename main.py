@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
