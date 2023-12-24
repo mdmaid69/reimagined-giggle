@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def reverse_list(lst):
-        return lst[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import time
+def get_current_time():
+        return time.ctime()
