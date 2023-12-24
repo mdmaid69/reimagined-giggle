@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
