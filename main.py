@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
