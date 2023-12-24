@@ -1,7 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
