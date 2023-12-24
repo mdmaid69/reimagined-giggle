@@ -1,8 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
