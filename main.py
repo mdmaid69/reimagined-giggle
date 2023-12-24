@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def get_time_since_epoch():
+        return time.time()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
