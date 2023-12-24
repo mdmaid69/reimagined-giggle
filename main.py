@@ -1,5 +1,14 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
