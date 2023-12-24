@@ -1,7 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def convert_to_binary(n):
-        return bin(n)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
