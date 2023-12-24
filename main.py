@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_speed(distance, time):
+        return distance / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
