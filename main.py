@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def count_characters(sentence):
+        return len(sentence)
+  def multiply_numbers(x, y):
+        return x * y
