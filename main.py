@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
