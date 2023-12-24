@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-print(random.randint(0, 100))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
