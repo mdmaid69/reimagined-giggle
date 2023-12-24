@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
