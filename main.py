@@ -1,8 +1,7 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
