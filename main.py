@@ -1,5 +1,4 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
