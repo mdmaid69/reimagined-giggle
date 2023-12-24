@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
