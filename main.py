@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
