@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
