@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
