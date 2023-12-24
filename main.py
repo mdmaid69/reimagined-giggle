@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
