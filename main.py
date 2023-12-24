@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
