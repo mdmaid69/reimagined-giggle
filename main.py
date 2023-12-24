@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
