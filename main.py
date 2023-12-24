@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
