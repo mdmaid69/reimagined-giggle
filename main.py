@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
