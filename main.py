@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-print(os.getcwd())
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
