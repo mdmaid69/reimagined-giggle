@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
