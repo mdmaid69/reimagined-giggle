@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
