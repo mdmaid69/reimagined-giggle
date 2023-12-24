@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def count_elements(lst):
+        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
