@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
