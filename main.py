@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
