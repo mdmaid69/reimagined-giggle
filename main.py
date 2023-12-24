@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
