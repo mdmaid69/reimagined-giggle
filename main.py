@@ -1,5 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_acceleration(speed, time):
+        return speed / time
