@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def roll_die():
+        return random.randint(1, 6)
