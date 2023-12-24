@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
