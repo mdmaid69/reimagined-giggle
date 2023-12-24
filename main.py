@@ -1,12 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def convert_to_octal(n):
+        return oct(n)
