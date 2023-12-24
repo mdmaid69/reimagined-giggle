@@ -1,5 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def divide_numbers(x, y):
-        return x / y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
