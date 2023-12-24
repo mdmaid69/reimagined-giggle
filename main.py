@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
