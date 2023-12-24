@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def print_python_version():
+        print(sys.version)
