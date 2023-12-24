@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
