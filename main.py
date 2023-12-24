@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
