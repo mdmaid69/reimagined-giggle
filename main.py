@@ -1,8 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import time
+def get_current_time():
+        return time.ctime()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
