@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
