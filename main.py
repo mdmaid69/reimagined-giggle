@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
