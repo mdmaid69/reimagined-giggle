@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
