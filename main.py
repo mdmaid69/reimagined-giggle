@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
