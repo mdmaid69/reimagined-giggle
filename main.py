@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
