@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
