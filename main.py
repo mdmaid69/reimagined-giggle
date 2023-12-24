@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_queue():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
