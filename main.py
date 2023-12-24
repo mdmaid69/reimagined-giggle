@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sys
+def print_python_version():
+        print(sys.version)
