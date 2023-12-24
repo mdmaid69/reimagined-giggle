@@ -1,5 +1,8 @@
-import time
-print(time.time())
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
