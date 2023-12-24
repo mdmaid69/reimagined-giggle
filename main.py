@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
