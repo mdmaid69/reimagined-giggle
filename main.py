@@ -1,8 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
