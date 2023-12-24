@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import datetime
+def get_current_date():
+        return datetime.date.today()
