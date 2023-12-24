@@ -1,6 +1,9 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
