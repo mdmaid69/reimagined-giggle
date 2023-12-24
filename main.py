@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
