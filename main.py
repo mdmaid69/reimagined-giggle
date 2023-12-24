@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
