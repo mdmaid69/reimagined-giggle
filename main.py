@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
