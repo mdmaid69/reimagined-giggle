@@ -1,5 +1,11 @@
-print([x**2 for x in range(10)])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
