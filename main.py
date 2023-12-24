@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_work(force, distance):
+        return force * distance
