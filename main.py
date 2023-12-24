@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def sort_list(lst):
+        return sorted(lst)
