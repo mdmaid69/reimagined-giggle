@@ -1,6 +1,7 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
