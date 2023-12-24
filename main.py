@@ -1,8 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
