@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def subtract_numbers(x, y):
-        return x - y
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def is_even(n):
+        return n % 2 == 0
