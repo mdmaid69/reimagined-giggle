@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def is_even(n):
+        return n % 2 == 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
