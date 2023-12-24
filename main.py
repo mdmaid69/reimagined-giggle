@@ -1,4 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-print([x**2 for x in range(10)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
