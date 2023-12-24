@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
