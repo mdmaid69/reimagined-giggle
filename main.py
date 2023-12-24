@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
