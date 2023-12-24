@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
