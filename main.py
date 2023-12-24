@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_area_rectangle(l, w):
+        return l * w
