@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_username():
+        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
