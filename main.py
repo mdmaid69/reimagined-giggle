@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def reverse_string(s):
+        return s[::-1]
