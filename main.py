@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_speed(distance, time):
+        return distance / time
