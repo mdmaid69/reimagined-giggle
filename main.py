@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+print(random.randint(0, 100))
+import array
+def reverse_array(array):
+        array.reverse()
