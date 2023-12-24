@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def convert_to_binary(n):
+        return bin(n)
