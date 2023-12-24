@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def cube_number(x):
+        return x**3
+import os
+def remove_directory(path):
+        os.rmdir(path)
