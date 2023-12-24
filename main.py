@@ -1,6 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def square_number(x):
+        return x**2
