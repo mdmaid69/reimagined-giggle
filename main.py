@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
