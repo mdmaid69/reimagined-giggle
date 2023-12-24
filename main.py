@@ -1,8 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
