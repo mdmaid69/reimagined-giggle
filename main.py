@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
