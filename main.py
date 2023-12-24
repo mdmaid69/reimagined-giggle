@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(lst):
+        return min(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
