@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
