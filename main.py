@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
