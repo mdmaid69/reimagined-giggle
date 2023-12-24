@@ -1,4 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import datetime
-print(datetime.datetime.now())
-import time
-print(time.time())
+def get_current_datetime():
+        return datetime.datetime.now()
