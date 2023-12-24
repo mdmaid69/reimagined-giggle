@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def subtract_numbers(x, y):
-        return x - y
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
