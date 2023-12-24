@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_work(force, distance):
+        return force * distance
