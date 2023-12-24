@@ -1,5 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_acceleration(speed, time):
-        return speed / time
+def delete_directory(path):
+        shutil.rmtree(path)
