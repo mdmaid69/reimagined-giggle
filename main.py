@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
