@@ -1,4 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-  def is_odd(n):
-        return n % 2 != 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
