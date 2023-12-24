@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_density(mass, volume):
+        return mass / volume
