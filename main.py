@@ -1,8 +1,7 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+x = 10
+y = 20
+print("Sum:", x + y)
