@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import numpy as np
+print(np.array([1, 2, 3]))
