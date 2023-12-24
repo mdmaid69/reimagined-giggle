@@ -1,8 +1,3 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_speed(distance, time):
+        return distance / time
+print([x**2 for x in range(10)])
