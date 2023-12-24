@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def print_python_version():
+        print(sys.version)
+  def is_even(n):
+        return n % 2 == 0
