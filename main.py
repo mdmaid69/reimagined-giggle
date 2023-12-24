@@ -1,6 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
