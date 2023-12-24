@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
