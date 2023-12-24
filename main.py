@@ -1,5 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def is_even(n):
-        return n % 2 == 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
