@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
