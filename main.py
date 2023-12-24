@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def add_numbers(x, y):
+        return x + y
+def calculate_density(mass, volume):
+        return mass / volume
