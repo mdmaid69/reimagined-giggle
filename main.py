@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+def get_current_time():
+        return time.time()
