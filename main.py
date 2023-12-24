@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
