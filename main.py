@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_area(radius):
-        return 3.14 * radius * radius
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
