@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def exit_program():
-        sys.exit()
+import time
+def get_current_time():
+        return time.time()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
