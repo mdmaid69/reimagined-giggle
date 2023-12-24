@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
