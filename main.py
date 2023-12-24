@@ -1,8 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
