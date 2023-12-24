@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
