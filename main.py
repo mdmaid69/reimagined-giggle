@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
