@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import collections
-def create_counter():
-        return collections.Counter()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def create_ordered_dict():
+        return collections.OrderedDict()
