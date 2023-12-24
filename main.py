@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_area_rectangle(l, w):
+        return l * w
