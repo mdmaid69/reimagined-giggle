@@ -1,6 +1,8 @@
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
