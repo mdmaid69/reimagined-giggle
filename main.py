@@ -1,5 +1,4 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+print("Uppercase:", text.upper())
