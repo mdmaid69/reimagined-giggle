@@ -1,5 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def split_path(path):
-        return os.path.split(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
