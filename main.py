@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
