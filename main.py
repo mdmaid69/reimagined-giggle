@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def cube_number(x):
+        return x**3
