@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_square_root(x):
+        return math.sqrt(x)
