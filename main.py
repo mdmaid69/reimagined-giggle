@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
