@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
