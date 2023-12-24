@@ -1,7 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
