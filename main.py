@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def reverse_array(array):
-        array.reverse()
+print([x**2 for x in range(10)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
