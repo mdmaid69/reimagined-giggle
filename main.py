@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_ceiling(x):
+        return math.ceil(x)
