@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
