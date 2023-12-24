@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def get_bytes_from_array(array):
+        return array.tobytes()
