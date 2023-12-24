@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_characters(sentence):
-        return len(sentence)
+  def get_current_directory():
+        return os.getcwd()
