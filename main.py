@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
