@@ -1,7 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
