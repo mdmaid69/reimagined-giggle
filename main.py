@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-from collections import Counter
-print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
