@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
