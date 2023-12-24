@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
