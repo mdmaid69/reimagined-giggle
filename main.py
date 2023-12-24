@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
