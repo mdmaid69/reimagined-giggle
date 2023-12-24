@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def square_number(x):
+        return x**2
