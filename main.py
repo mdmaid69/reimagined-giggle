@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def find_max(lst):
+        return max(lst)
