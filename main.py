@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
