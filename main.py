@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
