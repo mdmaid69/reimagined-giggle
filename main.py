@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
