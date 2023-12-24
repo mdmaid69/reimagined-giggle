@@ -1,4 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
