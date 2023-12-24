@@ -1,6 +1,11 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import time
+def get_current_time():
+        return time.ctime()
