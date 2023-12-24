@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
