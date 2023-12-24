@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
