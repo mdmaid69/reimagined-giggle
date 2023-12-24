@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-name = "Python"
-print("Hello,", name)
+def convert_to_octal(n):
+        return oct(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
