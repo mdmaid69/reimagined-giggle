@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
