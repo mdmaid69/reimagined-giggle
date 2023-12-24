@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
