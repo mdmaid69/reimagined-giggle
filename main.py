@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
