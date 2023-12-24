@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
