@@ -1,6 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def get_array_slice(array, i, j):
+        return array[i:j]
+def count_words(sentence):
+        return len(sentence.split())
