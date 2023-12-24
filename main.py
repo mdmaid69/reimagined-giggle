@@ -1,4 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
