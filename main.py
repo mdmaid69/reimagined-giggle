@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def convert_to_hex(n):
-        return hex(n)
+def reverse_string(s):
+        return s[::-1]
+def is_even(n):
+        return n % 2 == 0
