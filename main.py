@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import tensorflow as tf
+print(tf.__version__)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
