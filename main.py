@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_volume(length, width, height):
+        return length * width * height
