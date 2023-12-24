@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import collections
-def create_user_dict():
-        return collections.UserDict()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
