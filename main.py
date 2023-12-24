@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
