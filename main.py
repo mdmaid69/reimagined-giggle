@@ -1,5 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
