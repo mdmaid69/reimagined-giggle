@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
