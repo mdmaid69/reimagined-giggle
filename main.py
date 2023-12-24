@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
