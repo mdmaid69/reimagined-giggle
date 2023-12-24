@@ -1,6 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_speed(distance, time):
+        return distance / time
