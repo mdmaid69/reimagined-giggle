@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
