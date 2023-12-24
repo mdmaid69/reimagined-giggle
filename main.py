@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
