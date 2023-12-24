@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def multiply_numbers(x, y):
+        return x * y
