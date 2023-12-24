@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
