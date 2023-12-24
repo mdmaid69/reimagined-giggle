@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_volume(length, width, height):
+        return length * width * height
