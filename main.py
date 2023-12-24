@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_set(array):
+        return set(array)
