@@ -1,5 +1,3 @@
-  def multiply_numbers(x, y):
-        return x * y
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+print([x**2 for x in range(10)])
