@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_area_circle(r):
+        return 3.14 * r**2
