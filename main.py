@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import platform
+def get_os_info():
+        return platform.uname()
