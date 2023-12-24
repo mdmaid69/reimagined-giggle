@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
