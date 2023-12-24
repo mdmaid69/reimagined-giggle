@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
