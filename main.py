@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
