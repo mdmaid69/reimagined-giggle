@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_list(array):
-        return list(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
