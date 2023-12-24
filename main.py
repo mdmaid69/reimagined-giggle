@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+def roll_die():
+        return random.randint(1, 6)
