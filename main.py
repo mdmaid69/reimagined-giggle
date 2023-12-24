@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_counter():
-        return collections.Counter()
+def get_bytes_from_array(array):
+        return array.tobytes()
