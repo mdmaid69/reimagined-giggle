@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
