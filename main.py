@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
