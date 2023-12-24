@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
