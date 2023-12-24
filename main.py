@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_density(mass, volume):
+        return mass / volume
