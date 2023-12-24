@@ -1,6 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
