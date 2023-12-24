@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
