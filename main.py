@@ -1,6 +1,3 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_as_str(array):
-        return str(array)
+print(sum(range(10)))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
