@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
