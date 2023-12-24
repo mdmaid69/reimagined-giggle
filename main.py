@@ -1,5 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
