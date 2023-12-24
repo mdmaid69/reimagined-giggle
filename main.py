@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+print("Hello, world!")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
