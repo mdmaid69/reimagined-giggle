@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+print(os.getcwd())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
