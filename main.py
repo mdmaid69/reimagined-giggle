@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
