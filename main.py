@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
