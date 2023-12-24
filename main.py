@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def is_even(n):
-        return n % 2 == 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
