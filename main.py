@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
