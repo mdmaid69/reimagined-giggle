@@ -1,5 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
