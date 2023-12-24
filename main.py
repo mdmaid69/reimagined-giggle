@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
