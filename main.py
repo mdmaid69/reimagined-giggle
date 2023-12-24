@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def is_odd(n):
+        return n % 2 != 0
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
