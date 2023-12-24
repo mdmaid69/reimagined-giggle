@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
