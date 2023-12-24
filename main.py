@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
