@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
