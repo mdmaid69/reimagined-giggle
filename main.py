@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_gamma_function(x):
+        return math.gamma(x)
