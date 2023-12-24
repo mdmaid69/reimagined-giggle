@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
