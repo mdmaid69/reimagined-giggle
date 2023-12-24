@@ -1,3 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-print([x**2 for x in range(10)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import numpy as np
+print(np.array([1, 2, 3]))
