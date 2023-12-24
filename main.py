@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import platform
+def get_python_version():
+        return platform.python_version()
