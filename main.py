@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
