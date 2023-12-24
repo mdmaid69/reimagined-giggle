@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
