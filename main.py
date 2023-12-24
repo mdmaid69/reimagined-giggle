@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
