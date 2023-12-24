@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def get_array_length(array):
+        return len(array)
