@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+name = "Python"
+print("Hello,", name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
