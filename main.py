@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
