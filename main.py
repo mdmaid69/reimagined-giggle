@@ -1,7 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
