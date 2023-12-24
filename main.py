@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
