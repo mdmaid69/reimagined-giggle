@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_work(force, distance):
-        return force * distance
+def add_numbers(x, y):
+        return x + y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
