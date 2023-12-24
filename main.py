@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def subtract_numbers(x, y):
+        return x - y
