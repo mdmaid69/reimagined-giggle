@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
