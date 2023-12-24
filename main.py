@@ -1,5 +1,8 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
