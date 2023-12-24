@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import tensorflow as tf
+print(tf.__version__)
+  def subtract_numbers(x, y):
+        return x - y
