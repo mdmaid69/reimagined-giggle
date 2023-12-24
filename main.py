@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
