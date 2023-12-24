@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_queue():
+        return collections.deque()
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print(list(itertools.permutations([1, 2, 3])))
