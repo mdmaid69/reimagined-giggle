@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def reverse_list(lst):
-        return lst[::-1]
+def find_min(lst):
+        return min(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
