@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
