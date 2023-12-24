@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def square_number(x):
-        return x**2
+def greet(name):
+        print(f"Hello, {name}!")
+def find_min(numbers):
+        return min(numbers)
