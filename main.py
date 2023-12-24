@@ -1,4 +1,4 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
