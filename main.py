@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
