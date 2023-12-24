@@ -1,4 +1,7 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
