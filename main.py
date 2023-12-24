@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
