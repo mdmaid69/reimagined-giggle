@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
