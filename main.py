@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def find_min(numbers):
-        return min(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+from collections import Counter
+print(Counter("hello world"))
