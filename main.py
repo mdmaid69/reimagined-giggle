@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
