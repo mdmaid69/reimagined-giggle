@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
