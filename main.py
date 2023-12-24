@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def convert_to_hex(n):
-        return hex(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
