@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
