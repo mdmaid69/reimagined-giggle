@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import re
+print(re.match("h.*o", "hello world"))
