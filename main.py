@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_pressure(force, area):
+        return force / area
