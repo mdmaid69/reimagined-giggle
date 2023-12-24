@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_pressure(force, area):
-        return force / area
+import time
+def get_time_since_epoch():
+        return time.time()
+import sys
+def print_python_version():
+        return sys.version
