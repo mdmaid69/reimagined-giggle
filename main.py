@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
