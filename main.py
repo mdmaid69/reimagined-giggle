@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
