@@ -1,5 +1,7 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
