@@ -1,5 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
