@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
