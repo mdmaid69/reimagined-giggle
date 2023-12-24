@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import os
+def remove_directory(path):
+        os.rmdir(path)
