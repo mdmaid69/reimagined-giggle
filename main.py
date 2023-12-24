@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
