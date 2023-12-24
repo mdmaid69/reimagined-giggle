@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+print(os.getcwd())
