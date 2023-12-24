@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
