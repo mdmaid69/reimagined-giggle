@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
