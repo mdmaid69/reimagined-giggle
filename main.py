@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Characters:", len(text))
