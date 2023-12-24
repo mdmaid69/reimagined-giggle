@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def get_current_working_directory():
         return os.getcwd()
-  def count_elements(lst):
-        return len(lst)
