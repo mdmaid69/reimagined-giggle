@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def reverse_string(s):
+        return s[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
