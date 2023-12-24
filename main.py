@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_volume(length, width, height):
+        return length * width * height
