@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
