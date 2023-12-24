@@ -1,5 +1,9 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_volume(length, width, height):
+        return length * width * height
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
