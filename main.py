@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def reverse_list(lst):
+        return lst[::-1]
