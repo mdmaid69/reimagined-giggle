@@ -1,5 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_error_function(x):
+        return math.erf(x)
