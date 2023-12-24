@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def exit_program():
+        sys.exit()
