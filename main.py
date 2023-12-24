@@ -1,9 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
