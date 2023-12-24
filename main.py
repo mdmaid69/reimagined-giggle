@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
