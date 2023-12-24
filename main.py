@@ -1,3 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-print([x**2 for x in range(10)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_acceleration(speed, time):
+        return speed / time
