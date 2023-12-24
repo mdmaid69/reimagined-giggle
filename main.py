@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
