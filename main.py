@@ -1,8 +1,8 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
