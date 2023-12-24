@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
