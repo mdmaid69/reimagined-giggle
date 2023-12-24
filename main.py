@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
