@@ -1,4 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-print(math.pi)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
