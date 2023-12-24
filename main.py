@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
