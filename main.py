@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
