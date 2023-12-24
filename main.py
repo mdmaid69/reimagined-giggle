@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
