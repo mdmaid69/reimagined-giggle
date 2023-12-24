@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-x = 10
-y = 20
-print("Sum:", x + y)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
