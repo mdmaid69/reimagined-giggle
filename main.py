@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
