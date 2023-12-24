@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_item(array, i):
+        return array[i]
