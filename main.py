@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
