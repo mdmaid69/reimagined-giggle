@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
