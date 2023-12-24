@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def find_min(numbers):
+        return min(numbers)
