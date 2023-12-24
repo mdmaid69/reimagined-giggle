@@ -1,6 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
