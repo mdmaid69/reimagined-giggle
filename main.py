@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def multiply_numbers(x, y):
-        return x * y
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sys
+def exit_program():
+        sys.exit()
