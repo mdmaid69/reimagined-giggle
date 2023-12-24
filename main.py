@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
