@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
