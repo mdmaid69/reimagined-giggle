@@ -1,5 +1,4 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+print("Hello, world!")
