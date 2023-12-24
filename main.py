@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
