@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def cube_number(x):
+        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
