@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def add_numbers(x, y):
+        return x + y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
