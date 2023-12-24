@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+print([x**2 for x in range(10)])
