@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
