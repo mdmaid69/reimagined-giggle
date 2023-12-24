@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def append_to_array(array, item):
+        array.append(item)
