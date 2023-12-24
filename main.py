@@ -1,7 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
