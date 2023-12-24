@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def is_odd(n):
+        return n % 2 != 0
