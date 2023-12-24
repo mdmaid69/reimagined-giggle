@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
