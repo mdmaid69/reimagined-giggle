@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def roll_die():
+        return random.randint(1, 6)
