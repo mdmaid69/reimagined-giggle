@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def cube_number(x):
+        return x**3
+def greet(name):
+        print(f"Hello, {name}!")
