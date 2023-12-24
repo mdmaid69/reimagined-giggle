@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
