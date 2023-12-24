@@ -1,10 +1,6 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
