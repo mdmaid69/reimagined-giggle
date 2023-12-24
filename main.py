@@ -1,7 +1,8 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
