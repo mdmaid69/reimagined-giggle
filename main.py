@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_bool(array):
+        return bool(array)
