@@ -1,6 +1,12 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import sys
+  def get_python_version():
+        return sys.version
