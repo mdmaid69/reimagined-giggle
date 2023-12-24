@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
