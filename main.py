@@ -1,5 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
