@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
