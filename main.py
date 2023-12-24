@@ -1,7 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
