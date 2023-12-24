@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_power(work, time):
+        return work / time
+def square_number(x):
+        return x**2
