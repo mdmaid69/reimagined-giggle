@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
