@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
