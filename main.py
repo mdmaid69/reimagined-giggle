@@ -1,6 +1,10 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
