@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
