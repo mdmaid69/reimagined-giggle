@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
