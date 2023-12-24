@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_area(radius):
+        return 3.14 * radius * radius
