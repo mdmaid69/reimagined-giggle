@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
