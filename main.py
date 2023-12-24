@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
