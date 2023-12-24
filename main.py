@@ -1,3 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-print(sum(range(10)))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
