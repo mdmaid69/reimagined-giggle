@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-import random
-print(random.randint(0, 100))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
