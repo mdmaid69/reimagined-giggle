@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
