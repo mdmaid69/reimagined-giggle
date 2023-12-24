@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+print("Sum:", sum(numbers))
