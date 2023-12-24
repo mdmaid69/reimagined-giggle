@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_acceleration(speed, time):
+        return speed / time
