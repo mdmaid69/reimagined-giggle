@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
