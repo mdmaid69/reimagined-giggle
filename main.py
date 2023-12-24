@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
