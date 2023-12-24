@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
