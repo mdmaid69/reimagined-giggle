@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
