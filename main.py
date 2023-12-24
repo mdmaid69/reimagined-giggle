@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
