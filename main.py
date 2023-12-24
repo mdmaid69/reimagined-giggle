@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def convert_to_binary(n):
-        return bin(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
