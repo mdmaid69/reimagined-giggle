@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
