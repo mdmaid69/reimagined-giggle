@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def clear_array(array):
+        array *= 0
+  def reverse_list(lst):
+        return lst[::-1]
