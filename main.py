@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
