@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
