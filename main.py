@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-print(sys.version)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
