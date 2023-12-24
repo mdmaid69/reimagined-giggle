@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
