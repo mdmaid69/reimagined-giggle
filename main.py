@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
