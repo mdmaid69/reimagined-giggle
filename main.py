@@ -1,6 +1,11 @@
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def remove_from_array(array, item):
+        array.remove(item)
