@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
