@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def cube_number(x):
+        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
