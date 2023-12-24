@@ -1,6 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
