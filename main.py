@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import tensorflow as tf
+print(tf.__version__)
