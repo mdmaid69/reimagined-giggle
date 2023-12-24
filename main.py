@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
