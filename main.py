@@ -1,5 +1,9 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-print(random.randint(0, 100))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import time
+def get_time_since_epoch():
+        return time.time()
