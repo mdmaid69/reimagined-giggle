@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
