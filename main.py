@@ -1,5 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
