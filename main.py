@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def remove_from_array(array, item):
+        array.remove(item)
