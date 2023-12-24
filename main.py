@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def is_even(n):
+        return n % 2 == 0
