@@ -1,7 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
