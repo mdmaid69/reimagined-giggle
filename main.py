@@ -1,5 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
