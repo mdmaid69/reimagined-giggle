@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
