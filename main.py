@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_power(work, time):
+        return work / time
