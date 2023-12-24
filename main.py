@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
