@@ -1,8 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
