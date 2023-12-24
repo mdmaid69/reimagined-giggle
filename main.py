@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
