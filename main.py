@@ -1,3 +1,5 @@
-print(sum(range(10)))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
