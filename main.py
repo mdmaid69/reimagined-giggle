@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_min(lst):
+        return min(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
