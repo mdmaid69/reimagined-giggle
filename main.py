@@ -1,5 +1,10 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
