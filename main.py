@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
