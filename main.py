@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
