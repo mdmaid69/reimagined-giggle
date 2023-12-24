@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_item(array, i):
+        return array[i]
