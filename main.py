@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
+x = 10
+y = 20
+print("Sum:", x + y)
