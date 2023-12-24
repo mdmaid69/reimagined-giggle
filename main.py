@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+for i in range(5):
+        print(i)
