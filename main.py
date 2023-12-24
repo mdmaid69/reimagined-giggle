@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
