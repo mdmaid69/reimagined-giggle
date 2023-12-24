@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
