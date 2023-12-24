@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
