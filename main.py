@@ -1,5 +1,6 @@
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_pressure(force, area):
-        return force / area
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
