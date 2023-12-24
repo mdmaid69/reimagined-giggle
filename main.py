@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import time
+def get_time_since_epoch():
+        return time.time()
