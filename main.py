@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
