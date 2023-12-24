@@ -1,7 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
