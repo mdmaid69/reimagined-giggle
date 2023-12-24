@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
