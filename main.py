@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_min(lst):
-        return min(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
