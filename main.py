@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
