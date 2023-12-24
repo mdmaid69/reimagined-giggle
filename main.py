@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
