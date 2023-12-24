@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
