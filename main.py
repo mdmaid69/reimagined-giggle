@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
