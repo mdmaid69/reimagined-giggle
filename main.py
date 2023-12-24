@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
