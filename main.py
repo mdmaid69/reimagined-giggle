@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
