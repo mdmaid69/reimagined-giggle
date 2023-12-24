@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
