@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
