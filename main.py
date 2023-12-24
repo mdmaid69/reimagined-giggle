@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import getpass
+def get_username():
+        return getpass.getuser()
