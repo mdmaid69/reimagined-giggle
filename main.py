@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
