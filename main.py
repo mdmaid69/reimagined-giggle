@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
