@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
