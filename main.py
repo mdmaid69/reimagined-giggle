@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.ctime()
