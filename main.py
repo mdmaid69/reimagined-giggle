@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_unique_words(sentence):
+        return set(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
