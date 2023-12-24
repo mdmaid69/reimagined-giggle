@@ -1,7 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_float(array):
+        return float(array[0])
+  def convert_to_octal(n):
+        return oct(n)
