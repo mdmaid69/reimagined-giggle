@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-def exit_program():
-        sys.exit()
+  def sort_list(lst):
+        return sorted(lst)
+def find_min(lst):
+        return min(lst)
