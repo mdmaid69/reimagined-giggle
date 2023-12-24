@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
