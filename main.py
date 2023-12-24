@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def subtract_numbers(x, y):
+        return x - y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
