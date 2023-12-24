@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
