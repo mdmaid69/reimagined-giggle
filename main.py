@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import sys
-print(sys.version)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
