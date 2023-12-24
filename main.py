@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
