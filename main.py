@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def convert_to_octal(n):
+        return oct(n)
