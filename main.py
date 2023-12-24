@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import logging
+def log_message(message):
+        logging.info(message)
