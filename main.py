@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
