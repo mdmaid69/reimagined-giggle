@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def convert_to_hex(n):
-        return hex(n)
+import sys
+def print_python_version():
+        return sys.version
+x = 10
+y = 20
+print("Sum:", x + y)
