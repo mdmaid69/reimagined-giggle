@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
