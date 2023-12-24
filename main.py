@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_user_list():
-        return collections.UserList()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
