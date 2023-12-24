@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
