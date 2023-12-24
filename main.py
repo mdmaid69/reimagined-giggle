@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
