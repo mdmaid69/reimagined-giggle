@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
