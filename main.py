@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
