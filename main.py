@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
