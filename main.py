@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import logging
+def log_message(message):
+        logging.info(message)
