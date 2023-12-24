@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
