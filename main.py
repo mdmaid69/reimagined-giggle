@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
