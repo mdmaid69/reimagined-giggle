@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_work(force, distance):
+        return force * distance
