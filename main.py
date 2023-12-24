@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+print("Hello, world!")
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
