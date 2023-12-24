@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
