@@ -1,5 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
