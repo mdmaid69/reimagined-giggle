@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def is_odd(n):
+        return n % 2 != 0
