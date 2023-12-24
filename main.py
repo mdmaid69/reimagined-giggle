@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
