@@ -1,6 +1,4 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-x = 10
-y = 20
-print("Sum:", x + y)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+print(sum(range(10)))
