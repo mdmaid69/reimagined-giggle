@@ -1,9 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
