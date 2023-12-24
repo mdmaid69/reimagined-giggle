@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def square_number(x):
-        return x**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
