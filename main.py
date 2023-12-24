@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
