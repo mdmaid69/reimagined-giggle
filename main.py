@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
