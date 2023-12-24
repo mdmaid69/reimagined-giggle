@@ -1,7 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_hex(n):
+        return hex(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
