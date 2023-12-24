@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
