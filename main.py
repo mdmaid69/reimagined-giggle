@@ -1,5 +1,8 @@
 import random
-print(random.randint(0, 100))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
