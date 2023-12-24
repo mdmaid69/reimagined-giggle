@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
