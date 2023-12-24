@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
