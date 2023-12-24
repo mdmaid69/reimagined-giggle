@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
