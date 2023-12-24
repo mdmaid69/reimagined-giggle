@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
