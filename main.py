@@ -1,8 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def cube_number(x):
+        return x**3
