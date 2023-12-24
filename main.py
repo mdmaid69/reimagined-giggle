@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+name = "Python"
+print("Hello,", name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
