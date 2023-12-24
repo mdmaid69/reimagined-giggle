@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
