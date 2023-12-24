@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import time
+def get_time_since_epoch():
+        return time.time()
