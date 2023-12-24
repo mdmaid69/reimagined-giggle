@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_work(force, distance):
+        return force * distance
