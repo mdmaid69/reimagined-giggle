@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
