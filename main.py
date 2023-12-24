@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import getpass
+def get_username():
+        return getpass.getuser()
