@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
