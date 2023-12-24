@@ -1,8 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
