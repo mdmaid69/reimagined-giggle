@@ -1,8 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
