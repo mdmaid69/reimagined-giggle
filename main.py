@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_item(array, i):
+        return array[i]
