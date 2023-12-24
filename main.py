@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
