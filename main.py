@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
