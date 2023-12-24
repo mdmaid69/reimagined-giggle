@@ -1,5 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
