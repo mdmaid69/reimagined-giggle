@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
