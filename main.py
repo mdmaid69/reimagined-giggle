@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def add_numbers(x, y):
+        return x + y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
