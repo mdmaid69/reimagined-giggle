@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
