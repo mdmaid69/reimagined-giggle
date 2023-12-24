@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import numpy as np
+print(np.array([1, 2, 3]))
