@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def cube_number(x):
+        return x**3
