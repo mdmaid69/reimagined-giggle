@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  def cube_number(x):
-        return x**3
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
