@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
