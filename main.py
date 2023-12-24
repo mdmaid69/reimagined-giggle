@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
