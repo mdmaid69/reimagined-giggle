@@ -1,4 +1,11 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
