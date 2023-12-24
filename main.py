@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
