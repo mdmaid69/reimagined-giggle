@@ -1,5 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
