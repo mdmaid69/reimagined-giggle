@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
