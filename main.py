@@ -1,5 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
