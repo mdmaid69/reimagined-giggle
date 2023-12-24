@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
