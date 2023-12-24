@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
