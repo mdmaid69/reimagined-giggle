@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
