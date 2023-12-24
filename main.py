@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import collections
-def create_queue():
-        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
