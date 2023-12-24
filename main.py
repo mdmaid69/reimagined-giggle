@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
