@@ -1,4 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
