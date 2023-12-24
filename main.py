@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
