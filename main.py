@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
