@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
