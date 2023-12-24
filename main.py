@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
