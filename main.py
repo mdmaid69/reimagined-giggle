@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
