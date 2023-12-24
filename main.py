@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_volume(length, width, height):
+        return length * width * height
