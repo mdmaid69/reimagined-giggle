@@ -1,12 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
