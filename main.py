@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
