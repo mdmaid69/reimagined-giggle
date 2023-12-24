@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
