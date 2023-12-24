@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def cube_number(x):
-        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
