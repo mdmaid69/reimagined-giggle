@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import getpass
+def get_username():
+        return getpass.getuser()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
