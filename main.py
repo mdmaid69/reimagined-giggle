@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
