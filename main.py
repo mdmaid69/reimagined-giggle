@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def remove_directory(path):
+        os.rmdir(path)
