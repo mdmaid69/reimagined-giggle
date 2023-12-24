@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
