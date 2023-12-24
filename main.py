@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
