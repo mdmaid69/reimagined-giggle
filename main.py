@@ -1,8 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
