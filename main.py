@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
