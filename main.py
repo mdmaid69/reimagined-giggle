@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def append_to_array(array, item):
+        array.append(item)
