@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
