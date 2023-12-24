@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import platform
+def get_python_version():
+        return platform.python_version()
+import time
+def get_current_time():
+        return time.ctime()
