@@ -1,6 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
