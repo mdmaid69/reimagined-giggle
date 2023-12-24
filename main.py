@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def set_array_item(array, i, item):
+        array[i] = item
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
