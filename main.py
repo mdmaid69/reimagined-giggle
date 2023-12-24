@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
