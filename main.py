@@ -1,5 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def is_palindrome(s):
+        return s == s[::-1]
