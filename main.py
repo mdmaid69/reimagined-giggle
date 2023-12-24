@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
