@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
