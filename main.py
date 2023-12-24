@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
