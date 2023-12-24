@@ -1,7 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
