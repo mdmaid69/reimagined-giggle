@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_min(numbers):
+        return min(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
