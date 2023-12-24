@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_user_list():
+        return collections.UserList()
