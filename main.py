@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
