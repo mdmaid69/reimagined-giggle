@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
