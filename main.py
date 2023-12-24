@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  def is_even(n):
-        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
