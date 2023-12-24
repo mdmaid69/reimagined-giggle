@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def find_min(numbers):
-        return min(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
