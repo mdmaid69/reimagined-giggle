@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def add_numbers(x, y):
+        return x + y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
