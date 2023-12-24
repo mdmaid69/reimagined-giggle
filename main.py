@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
