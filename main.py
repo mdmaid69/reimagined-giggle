@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
