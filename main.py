@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
