@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
