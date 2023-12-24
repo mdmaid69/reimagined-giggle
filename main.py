@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_even(n):
+        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
