@@ -1,8 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_pressure(force, area):
+        return force / area
+def count_characters(sentence):
+        return len(sentence)
