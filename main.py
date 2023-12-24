@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
