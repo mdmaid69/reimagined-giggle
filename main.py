@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def subtract_numbers(x, y):
+        return x - y
