@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def convert_to_hex(n):
-        return hex(n)
+def reverse_string(s):
+        return s[::-1]
+def square_number(x):
+        return x**2
