@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_set(array):
+        return set(array)
