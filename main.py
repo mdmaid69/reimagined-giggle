@@ -1,6 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_repr(array):
+        return repr(array)
