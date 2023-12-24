@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
