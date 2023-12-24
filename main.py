@@ -1,7 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
