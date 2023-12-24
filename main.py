@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
