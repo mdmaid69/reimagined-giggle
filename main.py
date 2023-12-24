@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
