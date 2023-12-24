@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import datetime
-print(datetime.datetime.now())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
