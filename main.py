@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
