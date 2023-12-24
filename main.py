@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
