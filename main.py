@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
