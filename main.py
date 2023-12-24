@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
