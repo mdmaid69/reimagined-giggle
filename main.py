@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
