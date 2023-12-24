@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_volume(length, width, height):
+        return length * width * height
