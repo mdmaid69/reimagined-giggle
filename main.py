@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
