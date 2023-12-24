@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
