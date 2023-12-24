@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
