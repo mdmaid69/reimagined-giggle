@@ -1,6 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
