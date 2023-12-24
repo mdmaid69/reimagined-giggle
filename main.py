@@ -1,5 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
