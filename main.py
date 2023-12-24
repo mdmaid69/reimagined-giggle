@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import sys
-def print_python_version():
-        print(sys.version)
+def convert_to_octal(n):
+        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
