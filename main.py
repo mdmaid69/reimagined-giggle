@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
