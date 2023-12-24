@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def append_to_array(array, item):
+        array.append(item)
