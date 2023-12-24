@@ -1,5 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_max(lst):
-        return max(lst)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
