@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_max(lst):
-        return max(lst)
+def calculate_work(force, distance):
+        return force * distance
+import time
+print(time.time())
