@@ -1,6 +1,8 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import platform
-def get_python_version():
-        return platform.python_version()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
