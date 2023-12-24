@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
