@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def multiply_numbers(x, y):
+        return x * y
+import time
+def get_time_since_epoch():
+        return time.time()
