@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
