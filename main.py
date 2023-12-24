@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
