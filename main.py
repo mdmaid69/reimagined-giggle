@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
