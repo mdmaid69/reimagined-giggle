@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
