@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sys
-def print_python_version():
-        return sys.version
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
