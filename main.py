@@ -1,6 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
