@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
