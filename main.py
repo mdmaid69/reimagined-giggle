@@ -1,5 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
