@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+print([x**2 for x in range(10)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
