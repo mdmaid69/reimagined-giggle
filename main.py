@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
