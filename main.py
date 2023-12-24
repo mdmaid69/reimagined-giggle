@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
