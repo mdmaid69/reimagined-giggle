@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
