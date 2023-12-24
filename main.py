@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
