@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
