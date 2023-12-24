@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
