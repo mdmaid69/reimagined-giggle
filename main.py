@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
