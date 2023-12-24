@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
