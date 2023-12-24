@@ -1,4 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
