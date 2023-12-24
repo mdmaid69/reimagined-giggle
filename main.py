@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
