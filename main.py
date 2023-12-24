@@ -1,5 +1,9 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
