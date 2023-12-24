@@ -1,5 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
