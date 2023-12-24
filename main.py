@@ -1,8 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print(Counter("hello world"))
