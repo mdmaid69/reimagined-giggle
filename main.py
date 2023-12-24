@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
