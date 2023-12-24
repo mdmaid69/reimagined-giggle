@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
