@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def is_even(n):
+        return n % 2 == 0
