@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_list(array):
+        return array.tolist()
