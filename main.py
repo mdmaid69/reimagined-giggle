@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
