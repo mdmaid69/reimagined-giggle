@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
