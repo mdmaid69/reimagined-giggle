@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_max(lst):
+        return max(lst)
