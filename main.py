@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def reverse_list(lst):
-        return lst[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_work(force, distance):
+        return force * distance
