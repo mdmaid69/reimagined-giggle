@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def count_characters(sentence):
+        return len(sentence)
