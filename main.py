@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+def get_current_time():
+        return time.ctime()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
