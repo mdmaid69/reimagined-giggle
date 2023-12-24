@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
