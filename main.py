@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
