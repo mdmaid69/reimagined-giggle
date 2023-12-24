@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
