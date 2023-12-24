@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
