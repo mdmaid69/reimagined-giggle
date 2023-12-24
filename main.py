@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def square_number(x):
+        return x**2
