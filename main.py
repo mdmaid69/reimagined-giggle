@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
