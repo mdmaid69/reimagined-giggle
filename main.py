@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
