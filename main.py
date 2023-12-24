@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
