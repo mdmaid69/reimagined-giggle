@@ -1,4 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
