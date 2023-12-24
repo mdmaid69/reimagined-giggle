@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
