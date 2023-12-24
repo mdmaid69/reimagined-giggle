@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
