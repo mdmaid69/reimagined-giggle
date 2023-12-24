@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def is_even(n):
-        return n % 2 == 0
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
