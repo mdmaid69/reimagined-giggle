@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
