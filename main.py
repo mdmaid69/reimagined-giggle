@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def remove_duplicates(lst):
+        return list(set(lst))
