@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
