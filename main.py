@@ -1,6 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-for i in range(10): print(i)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
