@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import platform
+def get_os_info():
+        return platform.uname()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
