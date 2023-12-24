@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_item_count(array, item):
+        return array.count(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
