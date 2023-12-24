@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
