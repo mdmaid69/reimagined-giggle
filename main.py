@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
