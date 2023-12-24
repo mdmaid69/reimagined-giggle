@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
+def add_numbers(x, y):
+        return x + y
