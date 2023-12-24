@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import sys
+  def get_python_version():
+        return sys.version
