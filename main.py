@@ -1,7 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+print([x**2 for x in range(10)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
