@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+text = "Hello, world!"
+print("Characters:", len(text))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
