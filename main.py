@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import datetime
+def get_current_date():
+        return datetime.date.today()
