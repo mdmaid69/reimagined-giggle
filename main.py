@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
