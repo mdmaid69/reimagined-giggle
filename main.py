@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import re
-print(re.match("h.*o", "hello world"))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
