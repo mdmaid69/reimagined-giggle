@@ -1,6 +1,9 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def is_odd(n):
+        return n % 2 != 0
