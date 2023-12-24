@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
