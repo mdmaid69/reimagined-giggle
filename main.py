@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import sys
+print(sys.version)
