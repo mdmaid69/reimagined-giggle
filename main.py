@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
