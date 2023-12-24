@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
