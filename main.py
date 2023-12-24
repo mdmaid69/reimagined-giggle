@@ -1,9 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
