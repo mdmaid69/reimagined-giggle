@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
