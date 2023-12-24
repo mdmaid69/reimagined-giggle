@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def add_numbers(a, b):
-        return a + b
+import sys
+def print_python_version():
+        return sys.version
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
