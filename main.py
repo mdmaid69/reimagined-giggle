@@ -1,7 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_work(force, distance):
+        return force * distance
