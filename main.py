@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_floor(x):
+        return math.floor(x)
