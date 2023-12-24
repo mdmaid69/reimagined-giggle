@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
