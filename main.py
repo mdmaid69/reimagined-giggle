@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def clear_array(array):
+        array *= 0
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
