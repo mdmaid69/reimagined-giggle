@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def subtract_numbers(x, y):
-        return x - y
+def find_min(lst):
+        return min(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
