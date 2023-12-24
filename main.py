@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
