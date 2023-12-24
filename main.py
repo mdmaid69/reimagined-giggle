@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
