@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
