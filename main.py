@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
