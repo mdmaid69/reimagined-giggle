@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
