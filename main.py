@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def find_max(numbers):
+        return max(numbers)
