@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def divide_numbers(x, y):
+        return x / y
+  def reverse_list(lst):
+        return lst[::-1]
