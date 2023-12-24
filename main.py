@@ -1,6 +1,10 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
