@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_arc_sine(x):
+        return math.asin(x)
