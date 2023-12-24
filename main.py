@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
