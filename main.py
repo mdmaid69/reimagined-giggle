@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
