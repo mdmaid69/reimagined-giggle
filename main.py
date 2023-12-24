@@ -1,7 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def find_max(lst):
+        return max(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
