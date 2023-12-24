@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_density(mass, volume):
-        return mass / volume
+def square_number(x):
+        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
