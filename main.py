@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def square_number(x):
+        return x**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
