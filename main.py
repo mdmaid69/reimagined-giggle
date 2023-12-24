@@ -1,6 +1,7 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
