@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
