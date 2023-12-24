@@ -1,5 +1,6 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
