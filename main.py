@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_stack():
+        return collections.deque()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_bytes(array):
+        return bytes(array)
