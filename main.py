@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
