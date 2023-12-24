@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
