@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def square_number(x):
+        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
