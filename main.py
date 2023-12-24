@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_min(numbers):
-        return min(numbers)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
