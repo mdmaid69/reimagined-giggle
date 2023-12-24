@@ -1,11 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def multiply_numbers(x, y):
+        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
