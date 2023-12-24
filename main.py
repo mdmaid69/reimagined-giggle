@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
