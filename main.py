@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
