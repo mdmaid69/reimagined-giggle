@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def convert_to_hex(n):
-        return hex(n)
+def find_max(numbers):
+        return max(numbers)
+def add_numbers(x, y):
+        return x + y
