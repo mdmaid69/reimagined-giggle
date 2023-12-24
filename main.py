@@ -1,8 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
