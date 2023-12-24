@@ -1,7 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
