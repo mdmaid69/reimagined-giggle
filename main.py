@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_power(work, time):
+        return work / time
+def convert_to_binary(n):
+        return bin(n)
