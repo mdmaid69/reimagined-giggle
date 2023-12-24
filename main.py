@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_even(n):
+        return n % 2 == 0
