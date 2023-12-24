@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def count_elements(lst):
+        return len(lst)
