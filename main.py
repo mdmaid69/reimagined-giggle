@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
