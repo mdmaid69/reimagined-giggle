@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
