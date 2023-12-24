@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import sys
-def exit_program():
-        sys.exit()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_repr(array):
+        return repr(array)
