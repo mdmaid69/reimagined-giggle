@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
