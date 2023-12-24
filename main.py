@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
