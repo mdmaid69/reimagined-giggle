@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
