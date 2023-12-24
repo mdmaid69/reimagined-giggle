@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_pressure(force, area):
-        return force / area
+def count_characters(sentence):
+        return len(sentence)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
