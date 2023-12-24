@@ -1,12 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
