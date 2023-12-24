@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_length(array):
-        return len(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_dict():
+        return collections.UserDict()
