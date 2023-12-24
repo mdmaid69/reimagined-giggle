@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import random
+print(random.randint(0, 100))
