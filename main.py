@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import random
-print(random.randint(0, 100))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
