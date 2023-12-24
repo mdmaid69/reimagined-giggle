@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
