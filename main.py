@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def add_numbers(x, y):
+        return x + y
