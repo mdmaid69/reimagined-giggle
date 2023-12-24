@@ -1,9 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
