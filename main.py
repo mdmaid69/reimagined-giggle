@@ -1,5 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
