@@ -1,7 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
