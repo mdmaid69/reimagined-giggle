@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_power(work, time):
+        return work / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
