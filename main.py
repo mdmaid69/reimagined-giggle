@@ -1,7 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
