@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def count_elements(lst):
-        return len(lst)
+for i in range(5):
+        print(i)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
