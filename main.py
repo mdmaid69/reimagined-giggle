@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
