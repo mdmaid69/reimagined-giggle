@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
