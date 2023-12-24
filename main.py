@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
