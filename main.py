@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
