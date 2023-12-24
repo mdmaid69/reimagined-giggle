@@ -1,8 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
