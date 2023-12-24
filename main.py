@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
