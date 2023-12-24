@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
