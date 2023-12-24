@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
