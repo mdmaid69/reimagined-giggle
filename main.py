@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
