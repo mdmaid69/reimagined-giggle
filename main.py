@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_queue():
+        return collections.deque()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
