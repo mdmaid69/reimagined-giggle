@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
