@@ -1,8 +1,8 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
