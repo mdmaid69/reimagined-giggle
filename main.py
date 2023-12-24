@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
