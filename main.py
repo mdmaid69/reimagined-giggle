@@ -1,4 +1,9 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def is_even(n):
-        return n % 2 == 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
