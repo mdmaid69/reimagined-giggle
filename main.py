@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
