@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
