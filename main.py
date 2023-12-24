@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
