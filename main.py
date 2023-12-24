@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
