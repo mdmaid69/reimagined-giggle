@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def subtract_numbers(x, y):
-        return x - y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
