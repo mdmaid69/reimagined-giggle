@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
