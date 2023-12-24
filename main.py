@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_work(force, distance):
+        return force * distance
