@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def cube_number(x):
-        return x**3
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
