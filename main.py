@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def multiply_numbers(x, y):
+        return x * y
