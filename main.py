@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
