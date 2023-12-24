@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_int(array):
+        return int(array[0])
