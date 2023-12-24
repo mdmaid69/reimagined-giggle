@@ -1,6 +1,9 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def clear_array(array):
-        array *= 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
