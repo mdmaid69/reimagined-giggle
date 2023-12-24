@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_int(array):
+        return int(array[0])
