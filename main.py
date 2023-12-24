@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def square_number(x):
+        return x**2
