@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def subtract_numbers(x, y):
+        return x - y
