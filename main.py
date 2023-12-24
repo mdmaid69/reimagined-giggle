@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def find_max(numbers):
+        return max(numbers)
+def convert_to_hex(n):
+        return hex(n)
