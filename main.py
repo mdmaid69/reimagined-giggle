@@ -1,5 +1,3 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+for i in range(10): print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
