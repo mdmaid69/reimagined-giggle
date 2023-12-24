@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
