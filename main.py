@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def sort_list(lst):
-        return sorted(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
