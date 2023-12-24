@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import platform
+def get_os_info():
+        return platform.uname()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
