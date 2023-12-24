@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-def roll_die():
-        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+def get_current_working_directory():
+        return os.getcwd()
