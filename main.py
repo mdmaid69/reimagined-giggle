@@ -1,8 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
