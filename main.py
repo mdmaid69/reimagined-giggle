@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import time
+def get_current_time():
+        return time.ctime()
