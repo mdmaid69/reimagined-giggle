@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
