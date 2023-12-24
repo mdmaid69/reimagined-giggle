@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
