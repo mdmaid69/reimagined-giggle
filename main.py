@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_queue():
-        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
