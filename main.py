@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def is_palindrome(s):
+        return s == s[::-1]
