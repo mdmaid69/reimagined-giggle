@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
