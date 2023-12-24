@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_str(array):
+        return str(array)
