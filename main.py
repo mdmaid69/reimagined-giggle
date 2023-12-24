@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
