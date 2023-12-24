@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def convert_to_octal(n):
+  def convert_to_octal(n):
         return oct(n)
+def calculate_volume(length, width, height):
+        return length * width * height
