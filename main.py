@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
