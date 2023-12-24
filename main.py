@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
