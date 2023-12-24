@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
