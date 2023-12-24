@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def find_max(lst):
+        return max(lst)
+def multiply_numbers(x, y):
+        return x * y
