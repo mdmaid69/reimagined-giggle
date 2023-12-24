@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
