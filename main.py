@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
