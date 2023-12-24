@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
