@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
