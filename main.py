@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+print(os.getcwd())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
