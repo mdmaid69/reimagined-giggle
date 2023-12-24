@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import platform
+def get_python_version():
+        return platform.python_version()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
