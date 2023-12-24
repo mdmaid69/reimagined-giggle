@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
