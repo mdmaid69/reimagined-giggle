@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
