@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_int(array):
+        return int(array[0])
