@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
