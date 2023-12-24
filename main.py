@@ -1,5 +1,9 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
