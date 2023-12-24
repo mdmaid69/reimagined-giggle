@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
