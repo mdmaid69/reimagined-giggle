@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
