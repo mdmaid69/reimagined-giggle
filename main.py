@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+x = 10
+y = 20
+print("Sum:", x + y)
