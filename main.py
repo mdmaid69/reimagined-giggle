@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
