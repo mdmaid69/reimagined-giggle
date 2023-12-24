@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
