@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def clear_array(array):
+        array *= 0
