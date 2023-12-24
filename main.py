@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_float(array):
+        return float(array[0])
