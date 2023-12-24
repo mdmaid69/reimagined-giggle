@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
