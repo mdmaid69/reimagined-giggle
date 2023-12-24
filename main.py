@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
