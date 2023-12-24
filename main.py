@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+print(random.randint(0, 100))
