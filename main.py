@@ -1,6 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
