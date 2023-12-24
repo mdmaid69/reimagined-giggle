@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
