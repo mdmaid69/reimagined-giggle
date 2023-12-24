@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
