@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
