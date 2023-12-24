@@ -1,7 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
