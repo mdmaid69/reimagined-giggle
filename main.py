@@ -1,8 +1,11 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
