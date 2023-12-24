@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
