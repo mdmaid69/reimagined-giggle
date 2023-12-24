@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def is_even(n):
+        return n % 2 == 0
