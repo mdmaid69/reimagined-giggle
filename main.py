@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sys
-def exit_program():
-        sys.exit()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
