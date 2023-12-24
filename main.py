@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
