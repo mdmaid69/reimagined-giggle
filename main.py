@@ -1,12 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def convert_to_binary(n):
+        return bin(n)
