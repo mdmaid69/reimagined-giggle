@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
