@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
