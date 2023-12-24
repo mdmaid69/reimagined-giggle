@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
