@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
