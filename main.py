@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def reverse_list(lst):
-        return lst[::-1]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
