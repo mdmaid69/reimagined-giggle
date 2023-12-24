@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
