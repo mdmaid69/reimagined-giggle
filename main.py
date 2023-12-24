@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
