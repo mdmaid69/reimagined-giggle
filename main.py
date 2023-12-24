@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
