@@ -1,5 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_string_from_array(array):
+        return array.tobytes()
