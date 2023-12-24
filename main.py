@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
