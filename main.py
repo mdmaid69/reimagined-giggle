@@ -1,6 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
