@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_arc_sine(x):
+        return math.asin(x)
