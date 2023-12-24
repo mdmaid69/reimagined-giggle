@@ -1,7 +1,11 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
