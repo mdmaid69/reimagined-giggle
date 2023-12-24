@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
