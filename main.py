@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
