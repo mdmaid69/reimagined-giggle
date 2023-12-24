@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+x = 10
+y = 20
+print("Sum:", x + y)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
