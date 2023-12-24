@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_area_rectangle(l, w):
+        return l * w
