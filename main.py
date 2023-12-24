@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
