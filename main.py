@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def convert_to_octal(n):
+        return oct(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
