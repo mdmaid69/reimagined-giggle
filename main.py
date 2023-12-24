@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area_rectangle(l, w):
+        return l * w
