@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def subtract_numbers(x, y):
+        return x - y
