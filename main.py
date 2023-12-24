@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  def is_even(n):
-        return n % 2 == 0
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def square_number(x):
+        return x**2
