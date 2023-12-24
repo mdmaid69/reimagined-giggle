@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def sort_numbers(numbers):
+        return sorted(numbers)
