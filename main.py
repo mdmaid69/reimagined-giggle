@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
