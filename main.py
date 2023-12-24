@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def is_even(n):
-        return n % 2 == 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
