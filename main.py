@@ -1,5 +1,9 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_floor(x):
+        return math.floor(x)
