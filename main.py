@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def find_min(lst):
+        return min(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
