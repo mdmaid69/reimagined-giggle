@@ -1,5 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_power(work, time):
-        return work / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_work(force, distance):
+        return force * distance
