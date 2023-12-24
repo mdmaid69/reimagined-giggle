@@ -1,5 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
 import array
-def convert_array_to_bytes(array):
+def get_bytes_from_array(array):
         return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
