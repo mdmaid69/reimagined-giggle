@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
