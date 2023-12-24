@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
