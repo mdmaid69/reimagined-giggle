@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
