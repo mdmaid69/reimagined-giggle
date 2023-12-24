@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-print(os.getcwd())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
