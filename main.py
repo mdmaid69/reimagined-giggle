@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
