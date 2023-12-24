@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
