@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_counter():
+        return collections.Counter()
