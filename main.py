@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_work(force, distance):
+        return force * distance
