@@ -1,6 +1,8 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_tangent(x):
+        return math.tan(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
