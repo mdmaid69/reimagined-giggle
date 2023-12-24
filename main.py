@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
