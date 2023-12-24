@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def convert_to_octal(n):
+        return oct(n)
