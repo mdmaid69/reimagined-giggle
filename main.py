@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def convert_to_octal(n):
+        return oct(n)
