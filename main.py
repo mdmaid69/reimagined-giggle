@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_set(array):
+        return set(array)
