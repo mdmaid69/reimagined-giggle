@@ -1,7 +1,10 @@
-def multiply_numbers(x, y):
-        return x * y
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
