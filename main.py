@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-for i in range(5):
-        print(i)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
