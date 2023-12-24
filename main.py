@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
