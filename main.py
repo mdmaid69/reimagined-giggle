@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-print(random.randint(0, 100))
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
