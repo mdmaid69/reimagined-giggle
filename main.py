@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_octal(n):
+        return oct(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
