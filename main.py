@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import time
+print(time.time())
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
