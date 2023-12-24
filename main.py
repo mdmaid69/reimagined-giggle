@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def count_elements(lst):
+        return len(lst)
