@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
