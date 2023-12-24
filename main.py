@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def is_odd(n):
-        return n % 2 != 0
+print(sum(range(10)))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
