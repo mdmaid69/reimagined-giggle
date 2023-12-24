@@ -1,5 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
