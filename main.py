@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import logging
+def log_message(message):
+        logging.info(message)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
