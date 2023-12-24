@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def multiply_numbers(x, y):
+        return x * y
