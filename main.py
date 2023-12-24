@@ -1,5 +1,7 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
