@@ -1,6 +1,10 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import collections
+def create_user_dict():
+        return collections.UserDict()
