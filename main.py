@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
