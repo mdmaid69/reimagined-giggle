@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
