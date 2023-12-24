@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def count_elements(lst):
+        return len(lst)
