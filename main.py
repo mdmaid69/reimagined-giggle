@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
