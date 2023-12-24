@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
