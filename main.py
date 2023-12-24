@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
