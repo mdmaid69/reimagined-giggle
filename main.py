@@ -1,6 +1,10 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
