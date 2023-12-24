@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
