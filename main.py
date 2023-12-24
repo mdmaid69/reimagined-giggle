@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
