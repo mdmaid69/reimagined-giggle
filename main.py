@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
