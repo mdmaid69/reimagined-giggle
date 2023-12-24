@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
