@@ -1,8 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
