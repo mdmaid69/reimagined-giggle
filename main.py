@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
