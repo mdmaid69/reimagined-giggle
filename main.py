@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import sys
+print(sys.version)
