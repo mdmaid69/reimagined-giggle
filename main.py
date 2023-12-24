@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
