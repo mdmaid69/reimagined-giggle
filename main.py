@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
