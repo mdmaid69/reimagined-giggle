@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
