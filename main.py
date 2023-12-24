@@ -1,9 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
