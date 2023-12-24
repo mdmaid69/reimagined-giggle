@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def cube_number(x):
+        return x**3
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
