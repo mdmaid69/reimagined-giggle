@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
