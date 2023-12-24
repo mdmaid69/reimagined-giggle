@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
