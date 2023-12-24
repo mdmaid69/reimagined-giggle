@@ -1,6 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_item(array, i):
-        return array[i]
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
