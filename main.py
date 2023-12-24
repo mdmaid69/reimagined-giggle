@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
