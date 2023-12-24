@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+print(math.pi)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
