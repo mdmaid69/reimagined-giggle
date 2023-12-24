@@ -1,6 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
