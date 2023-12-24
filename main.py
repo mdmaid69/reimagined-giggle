@@ -1,7 +1,6 @@
-import os
-print(os.getcwd())
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
