@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_area_rectangle(l, w):
+        return l * w
+import tensorflow as tf
+print(tf.__version__)
