@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
