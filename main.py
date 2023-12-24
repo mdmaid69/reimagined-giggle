@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
