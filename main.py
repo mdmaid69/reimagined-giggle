@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
