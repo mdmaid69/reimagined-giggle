@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
