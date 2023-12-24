@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def count_elements(lst):
+        return len(lst)
