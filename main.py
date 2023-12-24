@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
+  def convert_to_binary(n):
+        return bin(n)
