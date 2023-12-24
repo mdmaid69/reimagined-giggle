@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_list_from_array(array):
+        return array.tolist()
