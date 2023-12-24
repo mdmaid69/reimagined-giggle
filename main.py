@@ -1,7 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
