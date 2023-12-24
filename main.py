@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
