@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
