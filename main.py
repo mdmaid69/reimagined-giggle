@@ -1,6 +1,5 @@
-  def square_number(x):
-        return x**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
