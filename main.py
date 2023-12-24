@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
