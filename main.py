@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
