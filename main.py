@@ -1,8 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
