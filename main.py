@@ -1,8 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
