@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def cube_number(x):
+        return x**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
