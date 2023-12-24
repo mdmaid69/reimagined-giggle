@@ -1,9 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
