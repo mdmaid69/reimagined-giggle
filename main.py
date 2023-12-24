@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
