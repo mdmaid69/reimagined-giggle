@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
