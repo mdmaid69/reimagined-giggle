@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
