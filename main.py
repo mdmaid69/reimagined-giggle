@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
