@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import sys
+def print_python_version():
+        print(sys.version)
