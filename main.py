@@ -1,5 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
