@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import time
+def get_time_since_epoch():
+        return time.time()
