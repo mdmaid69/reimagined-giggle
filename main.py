@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def is_palindrome(s):
+        return s == s[::-1]
