@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def greet(name):
+        print(f"Hello, {name}!")
+def is_palindrome(s):
+        return s == s[::-1]
