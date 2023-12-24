@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def square_number(x):
+        return x**2
