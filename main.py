@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+from collections import Counter
+print(Counter("hello world"))
