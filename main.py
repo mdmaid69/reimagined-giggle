@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
