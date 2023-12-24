@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
