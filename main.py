@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Square numbers:", [x**2 for x in range(n)])
