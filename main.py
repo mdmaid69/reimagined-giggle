@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def convert_to_binary(n):
-        return bin(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
