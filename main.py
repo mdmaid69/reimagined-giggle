@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_sine(x):
+        return math.sin(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
