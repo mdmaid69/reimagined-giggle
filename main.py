@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
