@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
