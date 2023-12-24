@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
