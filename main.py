@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
