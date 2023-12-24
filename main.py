@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
