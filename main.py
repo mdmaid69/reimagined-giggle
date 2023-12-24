@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
