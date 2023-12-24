@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def is_odd(n):
-        return n % 2 != 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
