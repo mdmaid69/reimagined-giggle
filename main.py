@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
