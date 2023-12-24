@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def square_number(x):
+        return x**2
