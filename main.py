@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
