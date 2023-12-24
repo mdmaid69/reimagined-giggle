@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
