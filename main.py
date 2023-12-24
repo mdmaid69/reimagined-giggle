@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
