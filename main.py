@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def convert_to_octal(n):
+        return oct(n)
