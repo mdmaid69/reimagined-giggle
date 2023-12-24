@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_length(array):
+        return len(array)
+  def sort_list(lst):
+        return sorted(lst)
