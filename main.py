@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
