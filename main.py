@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
