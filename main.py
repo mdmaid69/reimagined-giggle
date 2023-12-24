@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
