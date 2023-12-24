@@ -1,7 +1,9 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_user_string():
+        return collections.UserString()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
