@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import time
-print(time.time())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
