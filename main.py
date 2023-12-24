@@ -1,10 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
