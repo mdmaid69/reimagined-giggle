@@ -1,5 +1,5 @@
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
