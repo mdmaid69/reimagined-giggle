@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
