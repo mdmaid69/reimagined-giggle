@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
