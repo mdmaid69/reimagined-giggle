@@ -1,6 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
+  def convert_to_hex(n):
+        return hex(n)
