@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
