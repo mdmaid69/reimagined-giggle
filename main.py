@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def add_numbers(x, y):
+        return x + y
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
