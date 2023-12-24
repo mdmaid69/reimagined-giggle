@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
