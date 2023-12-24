@@ -1,6 +1,7 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
