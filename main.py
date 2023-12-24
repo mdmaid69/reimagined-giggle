@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-print(os.getcwd())
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
