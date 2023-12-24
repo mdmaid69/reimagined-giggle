@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import random
+print(random.randint(0, 100))
