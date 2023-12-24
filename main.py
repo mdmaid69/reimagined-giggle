@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
