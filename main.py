@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
