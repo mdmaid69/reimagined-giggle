@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
