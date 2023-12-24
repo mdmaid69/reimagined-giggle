@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
