@@ -1,5 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_min(numbers):
+        return min(numbers)
