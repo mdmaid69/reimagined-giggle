@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
