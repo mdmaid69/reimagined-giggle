@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def is_even(n):
+        return n % 2 == 0
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
