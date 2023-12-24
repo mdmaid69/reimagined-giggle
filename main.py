@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
