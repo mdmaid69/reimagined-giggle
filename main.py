@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
