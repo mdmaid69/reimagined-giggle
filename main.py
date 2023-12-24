@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_sine(x):
+        return math.sin(x)
