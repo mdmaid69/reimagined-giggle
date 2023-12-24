@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
