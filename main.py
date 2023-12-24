@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def reverse_string(s):
+        return s[::-1]
