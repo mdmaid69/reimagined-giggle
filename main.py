@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
