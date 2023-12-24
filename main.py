@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
