@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
