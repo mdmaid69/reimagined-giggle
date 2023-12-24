@@ -1,8 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
