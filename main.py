@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def convert_to_octal(n):
+        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
