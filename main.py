@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
