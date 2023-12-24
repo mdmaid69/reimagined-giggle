@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
