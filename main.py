@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def clear_array(array):
+        array *= 0
