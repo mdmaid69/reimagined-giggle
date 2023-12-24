@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
