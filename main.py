@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_acceleration(speed, time):
+        return speed / time
