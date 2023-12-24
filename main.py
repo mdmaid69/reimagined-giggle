@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
