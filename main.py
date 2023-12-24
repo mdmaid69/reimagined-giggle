@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def find_min(lst):
+        return min(lst)
