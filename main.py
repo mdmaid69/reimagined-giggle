@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
