@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_work(force, distance):
+        return force * distance
