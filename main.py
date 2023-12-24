@@ -1,6 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
