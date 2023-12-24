@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
