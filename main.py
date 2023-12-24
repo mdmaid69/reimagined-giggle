@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
