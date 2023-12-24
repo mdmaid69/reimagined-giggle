@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_speed(distance, time):
+        return distance / time
