@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
