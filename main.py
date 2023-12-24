@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
