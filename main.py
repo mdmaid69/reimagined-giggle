@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
