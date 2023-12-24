@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def count_elements(lst):
-        return len(lst)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
