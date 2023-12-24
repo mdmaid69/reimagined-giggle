@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
