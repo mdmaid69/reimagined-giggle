@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
