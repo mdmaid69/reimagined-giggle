@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
