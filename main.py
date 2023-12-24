@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
