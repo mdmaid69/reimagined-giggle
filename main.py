@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
