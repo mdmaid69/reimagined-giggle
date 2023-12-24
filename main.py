@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
