@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def reverse_string(s):
-        return s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
