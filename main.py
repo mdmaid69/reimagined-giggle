@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
