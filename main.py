@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def convert_to_binary(n):
-        return bin(n)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
