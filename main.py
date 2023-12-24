@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
