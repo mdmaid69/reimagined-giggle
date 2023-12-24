@@ -1,8 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
