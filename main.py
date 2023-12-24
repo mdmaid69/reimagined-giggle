@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import time
-def get_current_time():
-        return time.time()
+  def convert_to_binary(n):
+        return bin(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
