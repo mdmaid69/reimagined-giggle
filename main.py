@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def split_path(path):
+        return os.path.split(path)
