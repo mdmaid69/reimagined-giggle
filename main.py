@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
