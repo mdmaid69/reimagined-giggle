@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
