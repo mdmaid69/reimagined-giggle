@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
