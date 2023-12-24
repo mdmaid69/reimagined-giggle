@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
