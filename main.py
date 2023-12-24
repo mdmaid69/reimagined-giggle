@@ -1,5 +1,7 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
