@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
