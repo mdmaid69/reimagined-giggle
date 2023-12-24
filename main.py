@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def divide_numbers(x, y):
+        return x / y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
