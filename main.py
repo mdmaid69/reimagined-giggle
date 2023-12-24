@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
