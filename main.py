@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
