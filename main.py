@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
