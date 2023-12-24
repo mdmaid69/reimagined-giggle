@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
