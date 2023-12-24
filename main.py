@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def change_working_directory(path):
+        os.chdir(path)
