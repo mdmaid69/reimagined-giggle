@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
