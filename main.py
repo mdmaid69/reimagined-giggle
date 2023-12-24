@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def calculate_median(arr):
+        return np.median(arr)
