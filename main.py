@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def count_words(sentence):
+        return len(sentence.split())
