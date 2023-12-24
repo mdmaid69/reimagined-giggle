@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_acceleration(speed, time):
-        return speed / time
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
