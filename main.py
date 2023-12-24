@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
