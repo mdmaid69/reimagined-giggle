@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
