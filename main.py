@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
