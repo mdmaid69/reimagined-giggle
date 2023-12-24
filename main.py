@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
