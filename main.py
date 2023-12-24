@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
