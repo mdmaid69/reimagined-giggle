@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def convert_to_octal(n):
+        return oct(n)
