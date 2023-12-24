@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def is_odd(n):
+        return n % 2 != 0
