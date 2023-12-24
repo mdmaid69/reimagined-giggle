@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
