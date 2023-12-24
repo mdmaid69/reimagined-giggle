@@ -1,4 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_max(lst):
-        return max(lst)
+def calculate_power(work, time):
+        return work / time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
