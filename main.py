@@ -1,6 +1,8 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
