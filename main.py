@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
