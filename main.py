@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def multiply_numbers(x, y):
+        return x * y
