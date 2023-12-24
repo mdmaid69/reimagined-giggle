@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_bool(array):
+        return bool(array)
