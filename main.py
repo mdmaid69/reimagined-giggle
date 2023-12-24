@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import datetime
+print(datetime.datetime.now())
