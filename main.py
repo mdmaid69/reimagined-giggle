@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def convert_to_binary(n):
+        return bin(n)
