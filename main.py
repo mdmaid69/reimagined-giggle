@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
