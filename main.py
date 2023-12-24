@@ -1,6 +1,10 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
