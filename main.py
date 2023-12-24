@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import os
-print(os.getcwd())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def sort_list(lst):
+        return sorted(lst)
