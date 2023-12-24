@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
