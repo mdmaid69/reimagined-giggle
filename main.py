@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
