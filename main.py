@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
