@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
