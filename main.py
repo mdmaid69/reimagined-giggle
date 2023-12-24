@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
