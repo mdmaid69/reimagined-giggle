@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+for i in range(10): print(i)
