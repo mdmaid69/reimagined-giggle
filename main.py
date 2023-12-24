@@ -1,8 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
