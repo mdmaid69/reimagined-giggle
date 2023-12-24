@@ -1,6 +1,8 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
