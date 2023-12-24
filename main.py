@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import logging
+def log_message(message):
+        logging.info(message)
