@@ -1,8 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
