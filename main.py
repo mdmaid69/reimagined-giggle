@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import time
-def get_time_since_epoch():
-        return time.time()
+def add_numbers(x, y):
+        return x + y
+  def sort_list(lst):
+        return sorted(lst)
