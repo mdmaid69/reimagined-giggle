@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
