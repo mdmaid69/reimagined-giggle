@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
