@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def convert_to_hex(n):
+        return hex(n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
