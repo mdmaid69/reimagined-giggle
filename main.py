@@ -1,8 +1,6 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import platform
-def get_python_version():
-        return platform.python_version()
+def reverse_array(array):
+        array.reverse()
