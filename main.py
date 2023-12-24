@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
