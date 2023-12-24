@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
