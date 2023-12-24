@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
