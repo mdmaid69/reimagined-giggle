@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import numpy as np
+print(np.array([1, 2, 3]))
