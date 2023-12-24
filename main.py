@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
