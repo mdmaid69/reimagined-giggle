@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
+def convert_to_binary(n):
+        return bin(n)
