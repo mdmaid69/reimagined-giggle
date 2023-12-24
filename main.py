@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
