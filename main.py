@@ -1,8 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
