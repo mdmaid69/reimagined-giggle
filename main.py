@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
