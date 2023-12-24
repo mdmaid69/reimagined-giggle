@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
