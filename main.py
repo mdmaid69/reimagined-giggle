@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
