@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
