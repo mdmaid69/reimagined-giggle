@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
