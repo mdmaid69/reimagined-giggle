@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def sort_list(lst):
+        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
