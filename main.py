@@ -1,6 +1,8 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
