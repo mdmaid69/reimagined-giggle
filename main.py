@@ -1,6 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import datetime
+def get_today_date():
+        return datetime.date.today()
