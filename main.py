@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
