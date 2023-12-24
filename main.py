@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def remove_duplicates(lst):
+        return list(set(lst))
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
