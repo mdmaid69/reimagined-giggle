@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import platform
+def get_python_version():
+        return platform.python_version()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
