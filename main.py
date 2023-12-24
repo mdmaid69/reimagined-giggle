@@ -1,9 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-from flask import Flask
-app = Flask(__name__)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import socket
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
