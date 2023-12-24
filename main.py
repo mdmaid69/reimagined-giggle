@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
