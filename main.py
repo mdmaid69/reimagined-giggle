@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def add_numbers(x, y):
-        return x + y
+import getpass
+def get_username():
+        return getpass.getuser()
+import time
+def get_current_time():
+        return time.time()
