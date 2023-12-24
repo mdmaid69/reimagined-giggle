@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import getpass
-def get_username():
-        return getpass.getuser()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
