@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
