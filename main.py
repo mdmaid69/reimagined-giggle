@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
