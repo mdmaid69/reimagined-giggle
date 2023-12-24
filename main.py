@@ -1,4 +1,5 @@
-import time
-print(time.time())
-import tensorflow as tf
-print(tf.__version__)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
