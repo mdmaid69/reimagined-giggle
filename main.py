@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def get_current_time():
+        return time.time()
