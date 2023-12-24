@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def clear_array(array):
-        array *= 0
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  def multiply_numbers(x, y):
+        return x * y
