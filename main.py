@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
