@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
