@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
