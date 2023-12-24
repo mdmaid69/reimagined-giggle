@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
