@@ -1,6 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
