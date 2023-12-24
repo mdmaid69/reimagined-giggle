@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def divide_numbers(x, y):
-        return x / y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
