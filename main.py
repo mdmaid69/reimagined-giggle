@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
