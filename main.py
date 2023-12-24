@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
