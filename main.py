@@ -1,4 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-def convert_to_binary(n):
-        return bin(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
