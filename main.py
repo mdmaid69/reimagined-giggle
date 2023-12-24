@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_max(numbers):
-        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
