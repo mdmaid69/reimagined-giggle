@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
