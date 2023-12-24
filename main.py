@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+for i in range(5):
+        print(i)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
