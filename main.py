@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_volume(length, width, height):
+        return length * width * height
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
