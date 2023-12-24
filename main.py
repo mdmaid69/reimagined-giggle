@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
