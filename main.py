@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
