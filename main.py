@@ -1,8 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
