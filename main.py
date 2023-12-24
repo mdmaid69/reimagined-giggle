@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
