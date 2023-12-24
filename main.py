@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
