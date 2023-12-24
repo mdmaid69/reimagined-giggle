@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def sort_list(lst):
+        return sorted(lst)
