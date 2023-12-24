@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
