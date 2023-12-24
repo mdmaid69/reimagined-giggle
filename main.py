@@ -1,7 +1,7 @@
 import array
-def convert_string_to_array(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-def subtract_numbers(x, y):
-        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
