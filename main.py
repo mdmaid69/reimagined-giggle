@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
