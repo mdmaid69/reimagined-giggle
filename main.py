@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
