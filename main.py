@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
