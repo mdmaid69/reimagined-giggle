@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def cube_number(x):
+        return x**3
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
