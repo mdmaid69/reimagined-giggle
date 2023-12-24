@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import sys
+  def get_python_version():
+        return sys.version
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
