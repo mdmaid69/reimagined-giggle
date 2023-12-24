@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
