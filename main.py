@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def convert_to_hex(n):
+        return hex(n)
