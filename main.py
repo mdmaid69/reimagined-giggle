@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
