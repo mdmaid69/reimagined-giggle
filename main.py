@@ -1,10 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
