@@ -1,5 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def split_path(path):
+        return os.path.split(path)
