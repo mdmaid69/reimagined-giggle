@@ -1,7 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
