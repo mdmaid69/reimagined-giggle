@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
