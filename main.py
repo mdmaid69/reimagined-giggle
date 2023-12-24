@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
