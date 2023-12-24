@@ -1,6 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
