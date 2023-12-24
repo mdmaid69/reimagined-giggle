@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
