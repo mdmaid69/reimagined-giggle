@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def convert_to_octal(n):
+        return oct(n)
