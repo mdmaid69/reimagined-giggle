@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
