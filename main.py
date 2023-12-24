@@ -1,5 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+print(random.randint(0, 100))
