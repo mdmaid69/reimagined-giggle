@@ -1,5 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
