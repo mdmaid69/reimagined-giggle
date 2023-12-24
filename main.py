@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
