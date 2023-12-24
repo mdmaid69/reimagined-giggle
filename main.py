@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
