@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
