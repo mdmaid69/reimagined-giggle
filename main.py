@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
