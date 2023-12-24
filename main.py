@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
