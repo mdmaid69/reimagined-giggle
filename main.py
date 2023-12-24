@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
