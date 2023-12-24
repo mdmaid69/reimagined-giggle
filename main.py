@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
