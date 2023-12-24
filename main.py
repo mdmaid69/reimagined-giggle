@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
