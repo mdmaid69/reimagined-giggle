@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
