@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_tangent(x):
+        return math.tan(x)
