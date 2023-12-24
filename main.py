@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
