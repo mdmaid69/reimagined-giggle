@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def calculate_area_rectangle(l, w):
+        return l * w
