@@ -1,8 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
