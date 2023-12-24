@@ -1,6 +1,7 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
