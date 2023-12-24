@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
