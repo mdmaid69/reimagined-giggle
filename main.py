@@ -1,4 +1,7 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def divide_numbers(x, y):
-        return x / y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
