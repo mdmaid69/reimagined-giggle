@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
