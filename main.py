@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_priority_queue():
+        return collections.deque()
