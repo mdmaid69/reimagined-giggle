@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
