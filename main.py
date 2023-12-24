@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
