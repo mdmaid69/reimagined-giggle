@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
