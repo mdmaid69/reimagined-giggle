@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
