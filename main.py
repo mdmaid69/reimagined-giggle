@@ -1,5 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_index(array, item):
+        return array.index(item)
