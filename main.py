@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
