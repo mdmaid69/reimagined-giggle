@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
