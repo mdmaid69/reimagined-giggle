@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def convert_to_binary(n):
+        return bin(n)
