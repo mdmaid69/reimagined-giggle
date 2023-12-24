@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
