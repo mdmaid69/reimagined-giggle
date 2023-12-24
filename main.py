@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
