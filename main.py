@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
