@@ -1,7 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
