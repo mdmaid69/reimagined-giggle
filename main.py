@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
+  def is_even(n):
+        return n % 2 == 0
