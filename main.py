@@ -1,5 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
