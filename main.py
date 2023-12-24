@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
