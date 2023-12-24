@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
