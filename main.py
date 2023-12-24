@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_pressure(force, area):
+        return force / area
+def calculate_force(mass, acceleration):
+        return mass * acceleration
