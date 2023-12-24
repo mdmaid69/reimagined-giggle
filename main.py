@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
