@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_acceleration(speed, time):
+        return speed / time
