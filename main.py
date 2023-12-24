@@ -1,9 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
