@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
