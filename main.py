@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
