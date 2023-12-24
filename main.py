@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
