@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
