@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def add_numbers(x, y):
+        return x + y
