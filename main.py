@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_volume(length, width, height):
-        return length * width * height
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
