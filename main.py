@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
