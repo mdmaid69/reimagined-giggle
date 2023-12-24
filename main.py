@@ -1,4 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
