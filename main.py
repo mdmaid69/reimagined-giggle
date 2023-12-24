@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
