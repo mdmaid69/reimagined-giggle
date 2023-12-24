@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
