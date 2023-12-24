@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
