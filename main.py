@@ -1,6 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
