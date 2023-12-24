@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+def sort_numbers(numbers):
+        return sorted(numbers)
