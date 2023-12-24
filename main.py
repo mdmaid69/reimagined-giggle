@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
