@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-text = "Hello, world!"
-print("Characters:", len(text))
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
