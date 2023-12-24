@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
