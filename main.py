@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
