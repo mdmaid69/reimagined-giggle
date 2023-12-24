@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
