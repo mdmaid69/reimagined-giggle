@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def square_number(x):
+        return x**2
