@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_max(numbers):
+        return max(numbers)
