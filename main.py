@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
