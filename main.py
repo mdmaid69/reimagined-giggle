@@ -1,6 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
