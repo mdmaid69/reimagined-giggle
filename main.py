@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
