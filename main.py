@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
