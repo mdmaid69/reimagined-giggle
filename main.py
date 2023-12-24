@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+print(sum(range(10)))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
