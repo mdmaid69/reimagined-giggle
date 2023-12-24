@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
