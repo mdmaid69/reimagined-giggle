@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
