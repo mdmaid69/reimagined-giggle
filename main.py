@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Reversed:", text[::-1])
