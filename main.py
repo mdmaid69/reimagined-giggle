@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
