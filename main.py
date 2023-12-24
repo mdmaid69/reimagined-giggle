@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_min(lst):
+        return min(lst)
