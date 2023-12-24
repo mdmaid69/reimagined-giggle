@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
