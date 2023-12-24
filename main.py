@@ -1,5 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import os
-def change_working_directory(path):
-        os.chdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  def subtract_numbers(x, y):
+        return x - y
