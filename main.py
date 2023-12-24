@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.ctime()
