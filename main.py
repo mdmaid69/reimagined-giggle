@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def count_elements(lst):
-        return len(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
