@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
