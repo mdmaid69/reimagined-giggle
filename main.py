@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
