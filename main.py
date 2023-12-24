@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import time
-print(time.time())
+import random
+print(random.randint(0, 100))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
