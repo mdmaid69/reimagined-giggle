@@ -1,7 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+print([x**2 for x in range(10)])
