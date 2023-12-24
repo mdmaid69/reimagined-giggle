@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
