@@ -1,5 +1,6 @@
 import sys
-def print_python_version():
-        return sys.version
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
