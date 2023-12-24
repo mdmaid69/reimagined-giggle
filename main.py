@@ -1,9 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
