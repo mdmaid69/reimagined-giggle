@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_rectangle(l, w):
-        return l * w
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
