@@ -1,5 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import numpy as np
+print(np.array([1, 2, 3]))
