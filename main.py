@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
