@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def square_number(x):
-        return x**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
