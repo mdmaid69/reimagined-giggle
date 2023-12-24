@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+print(sys.version)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
