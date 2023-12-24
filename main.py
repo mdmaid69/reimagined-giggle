@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
