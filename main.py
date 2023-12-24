@@ -1,6 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
