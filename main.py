@@ -1,6 +1,9 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_tangent(x):
+        return math.tan(x)
