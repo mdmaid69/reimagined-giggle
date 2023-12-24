@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
