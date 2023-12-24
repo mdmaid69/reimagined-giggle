@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def reverse_array(array):
+        array.reverse()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
