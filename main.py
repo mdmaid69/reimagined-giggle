@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item(array, i):
+        return array[i]
+import random
+print(random.randint(0, 100))
