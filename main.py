@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def count_words(sentence):
-        return len(sentence.split())
+import sys
+print(sys.version)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
