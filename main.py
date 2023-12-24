@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import platform
+def get_python_version():
+        return platform.python_version()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
