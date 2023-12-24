@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
