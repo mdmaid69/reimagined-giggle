@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
