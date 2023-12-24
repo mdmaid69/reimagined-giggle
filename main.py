@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
