@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_min(lst):
+        return min(lst)
