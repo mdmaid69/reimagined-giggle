@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
