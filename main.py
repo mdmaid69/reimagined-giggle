@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
