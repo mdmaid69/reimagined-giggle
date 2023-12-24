@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
