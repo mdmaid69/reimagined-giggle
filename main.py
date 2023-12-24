@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
