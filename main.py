@@ -1,5 +1,9 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-print(sys.version)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
