@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
