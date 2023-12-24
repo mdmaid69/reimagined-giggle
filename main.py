@@ -1,6 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+for i in range(10): print(i)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
