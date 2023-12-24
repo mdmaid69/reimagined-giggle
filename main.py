@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def subtract_numbers(x, y):
+        return x - y
