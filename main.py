@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+print(random.randint(0, 100))
