@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def is_palindrome(s):
+        return s == s[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
