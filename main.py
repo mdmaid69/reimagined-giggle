@@ -1,7 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_pressure(force, area):
+        return force / area
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
