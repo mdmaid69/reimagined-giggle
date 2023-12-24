@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def get_environment_variable(var):
+        return os.getenv(var)
