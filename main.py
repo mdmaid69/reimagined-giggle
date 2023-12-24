@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def find_max(numbers):
-        return max(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
