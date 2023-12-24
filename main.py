@@ -1,5 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
