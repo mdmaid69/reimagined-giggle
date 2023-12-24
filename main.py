@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
