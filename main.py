@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def count_elements(lst):
+        return len(lst)
