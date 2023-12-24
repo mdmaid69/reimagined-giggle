@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
