@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
