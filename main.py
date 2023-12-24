@@ -1,8 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
