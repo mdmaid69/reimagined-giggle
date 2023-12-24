@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+name = "Python"
+print("Hello,", name)
