@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
