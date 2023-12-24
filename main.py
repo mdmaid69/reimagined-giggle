@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
