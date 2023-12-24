@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
