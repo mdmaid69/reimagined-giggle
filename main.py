@@ -1,7 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
