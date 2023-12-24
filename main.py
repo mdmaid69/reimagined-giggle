@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
