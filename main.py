@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import time
+def get_current_time():
+        return time.ctime()
