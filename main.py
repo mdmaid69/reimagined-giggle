@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
