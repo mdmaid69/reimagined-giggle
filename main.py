@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
