@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def square_number(x):
-        return x**2
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
