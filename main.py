@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
