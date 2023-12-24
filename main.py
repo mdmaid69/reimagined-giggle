@@ -1,5 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
