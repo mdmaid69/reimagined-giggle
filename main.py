@@ -1,7 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def subtract_numbers(x, y):
+        return x - y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
