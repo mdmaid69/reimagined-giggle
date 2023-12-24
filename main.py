@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
