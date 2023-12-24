@@ -1,8 +1,8 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
