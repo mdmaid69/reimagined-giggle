@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
