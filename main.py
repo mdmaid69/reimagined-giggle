@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def count_elements(lst):
+        return len(lst)
