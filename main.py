@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def sort_list(lst):
+        return sorted(lst)
