@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import logging
+def log_message(message):
+        logging.info(message)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
