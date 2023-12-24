@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
