@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
