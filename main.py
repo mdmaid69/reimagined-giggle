@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def cube_number(x):
+        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
