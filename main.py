@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
