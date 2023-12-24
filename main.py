@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import time
+def get_current_time():
+        return time.time()
