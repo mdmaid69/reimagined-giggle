@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
