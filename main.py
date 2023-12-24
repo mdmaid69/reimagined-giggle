@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
