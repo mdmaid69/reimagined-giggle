@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
