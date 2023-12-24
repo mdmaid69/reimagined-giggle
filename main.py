@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
