@@ -1,4 +1,9 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
