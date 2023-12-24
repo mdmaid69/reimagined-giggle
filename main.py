@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def get_time_since_epoch():
+        return time.time()
