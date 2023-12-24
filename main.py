@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def subtract_numbers(x, y):
+        return x - y
