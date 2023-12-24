@@ -1,8 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def get_current_time():
+        return time.time()
