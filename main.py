@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_os_info():
+        return platform.uname()
