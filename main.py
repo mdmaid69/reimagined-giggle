@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import time
+def get_current_time():
+        return time.ctime()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
