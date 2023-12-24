@@ -1,5 +1,7 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
