@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tensorflow as tf
+print(tf.__version__)
