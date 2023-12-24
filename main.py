@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
