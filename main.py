@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_length(array):
-        return len(array)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
