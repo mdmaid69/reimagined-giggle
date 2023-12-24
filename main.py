@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
