@@ -1,6 +1,12 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
