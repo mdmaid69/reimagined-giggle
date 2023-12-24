@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import tensorflow as tf
+print(tf.__version__)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
