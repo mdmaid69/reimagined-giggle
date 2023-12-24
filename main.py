@@ -1,5 +1,11 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def is_palindrome(s):
-        return s == s[::-1]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
