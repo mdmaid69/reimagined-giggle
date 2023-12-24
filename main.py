@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
