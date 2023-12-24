@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import random
+print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
