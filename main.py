@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
