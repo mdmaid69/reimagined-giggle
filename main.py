@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
