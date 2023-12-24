@@ -1,6 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
