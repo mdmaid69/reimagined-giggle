@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
