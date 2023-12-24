@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import time
-def get_time_since_epoch():
-        return time.time()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
