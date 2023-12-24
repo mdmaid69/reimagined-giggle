@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
