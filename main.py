@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
