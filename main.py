@@ -1,4 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-for i in range(10): print(i)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
