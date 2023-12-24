@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def remove_duplicates(lst):
+        return list(set(lst))
