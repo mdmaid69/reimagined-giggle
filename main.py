@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_itemsize(array):
+        return array.itemsize
