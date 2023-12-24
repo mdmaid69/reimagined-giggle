@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import tensorflow as tf
+print(tf.__version__)
