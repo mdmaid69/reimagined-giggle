@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
