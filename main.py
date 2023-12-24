@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
