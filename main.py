@@ -1,4 +1,6 @@
-print("Hello, world!")
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
