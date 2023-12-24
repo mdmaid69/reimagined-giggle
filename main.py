@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
