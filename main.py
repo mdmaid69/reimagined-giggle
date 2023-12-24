@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
