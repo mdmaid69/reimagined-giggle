@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
