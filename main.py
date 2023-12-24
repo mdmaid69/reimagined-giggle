@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def remove_from_array(array, item):
+        array.remove(item)
+import collections
+def create_user_list():
+        return collections.UserList()
