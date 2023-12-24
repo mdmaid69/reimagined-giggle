@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
