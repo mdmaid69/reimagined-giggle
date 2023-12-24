@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def multiply_numbers(x, y):
+        return x * y
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
