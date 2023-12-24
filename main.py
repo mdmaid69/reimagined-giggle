@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
