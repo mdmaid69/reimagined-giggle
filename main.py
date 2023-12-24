@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
