@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+text = "Hello, world!"
+print("Words:", len(text.split()))
