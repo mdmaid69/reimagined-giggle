@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
