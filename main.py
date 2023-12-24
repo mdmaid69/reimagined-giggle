@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
