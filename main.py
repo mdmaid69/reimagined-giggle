@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
