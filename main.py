@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_itemsize(array):
+        return array.itemsize
+  def calculate_area_rectangle(l, w):
+        return l * w
