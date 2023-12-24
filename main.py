@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+name = "Python"
+print("Hello,", name)
