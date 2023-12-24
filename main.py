@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
