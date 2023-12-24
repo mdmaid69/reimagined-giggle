@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
