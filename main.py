@@ -1,4 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
