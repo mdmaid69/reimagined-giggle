@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-text = "Hello, world!"
-print("Characters:", len(text))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def get_array_as_str(array):
+        return str(array)
