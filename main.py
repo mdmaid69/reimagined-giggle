@@ -1,10 +1,5 @@
-def cube_number(x):
-        return x**3
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Uppercase:", text.upper())
