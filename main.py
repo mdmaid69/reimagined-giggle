@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+for i in range(10): print(i)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
