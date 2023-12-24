@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import time
+def get_time_since_epoch():
+        return time.time()
