@@ -1,7 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
