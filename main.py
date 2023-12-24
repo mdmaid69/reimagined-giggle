@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
