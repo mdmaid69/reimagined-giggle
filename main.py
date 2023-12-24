@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
