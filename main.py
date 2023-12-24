@@ -1,5 +1,4 @@
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def square_number(x):
+        return x**2
