@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
