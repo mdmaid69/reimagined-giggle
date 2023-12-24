@@ -1,5 +1,8 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def square_number(x):
-        return x**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
