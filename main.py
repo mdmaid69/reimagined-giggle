@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def multiply_numbers(x, y):
+        return x * y
