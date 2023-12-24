@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import time
-print(time.time())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
