@@ -1,4 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(10): print(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
