@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
