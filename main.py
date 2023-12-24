@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
