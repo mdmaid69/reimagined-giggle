@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
