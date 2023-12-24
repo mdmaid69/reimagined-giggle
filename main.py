@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
