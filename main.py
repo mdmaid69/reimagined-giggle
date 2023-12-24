@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
