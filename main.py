@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
