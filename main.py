@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
