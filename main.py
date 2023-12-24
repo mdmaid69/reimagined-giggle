@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
