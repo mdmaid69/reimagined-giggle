@@ -1,5 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
