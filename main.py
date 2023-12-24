@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
