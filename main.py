@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
