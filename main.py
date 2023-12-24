@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import getpass
+def get_username():
+        return getpass.getuser()
