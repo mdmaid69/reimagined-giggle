@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
