@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_file_size(filename):
+        return os.path.getsize(filename)
