@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
