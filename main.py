@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import re
+print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        print(sys.version)
