@@ -1,5 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
