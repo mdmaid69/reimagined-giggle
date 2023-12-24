@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
