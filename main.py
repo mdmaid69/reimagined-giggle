@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def remove_directory(path):
+        os.rmdir(path)
