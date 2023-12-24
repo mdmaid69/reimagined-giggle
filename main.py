@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import os
+def get_current_working_directory():
+        return os.getcwd()
