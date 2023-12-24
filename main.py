@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import platform
+def get_python_version():
+        return platform.python_version()
