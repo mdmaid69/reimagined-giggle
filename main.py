@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
