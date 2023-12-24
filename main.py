@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
