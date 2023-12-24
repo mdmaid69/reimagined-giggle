@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
