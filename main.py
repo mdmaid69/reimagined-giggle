@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
