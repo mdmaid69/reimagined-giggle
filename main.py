@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
