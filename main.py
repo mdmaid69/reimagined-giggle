@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
