@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
