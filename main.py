@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def multiply_numbers(x, y):
+        return x * y
