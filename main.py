@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
