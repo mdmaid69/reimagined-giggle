@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
