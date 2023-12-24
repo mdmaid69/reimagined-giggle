@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_as_set(array):
+        return set(array)
