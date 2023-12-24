@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
