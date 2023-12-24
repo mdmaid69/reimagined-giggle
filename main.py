@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
