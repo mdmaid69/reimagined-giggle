@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import tensorflow as tf
-print(tf.__version__)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_words(sentence):
+        return len(sentence.split())
