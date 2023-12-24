@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_list(array):
+        return list(array)
