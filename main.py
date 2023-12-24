@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
