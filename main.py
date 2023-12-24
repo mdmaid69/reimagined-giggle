@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def square_number(x):
-        return x**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
