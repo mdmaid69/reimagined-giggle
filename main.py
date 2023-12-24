@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
