@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
