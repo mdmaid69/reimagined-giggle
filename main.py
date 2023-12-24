@@ -1,6 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import os
-def get_current_working_directory():
-        return os.getcwd()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def change_working_directory(path):
+        os.chdir(path)
