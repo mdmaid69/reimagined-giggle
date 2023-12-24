@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def add_numbers(x, y):
+        return x + y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
