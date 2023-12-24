@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
