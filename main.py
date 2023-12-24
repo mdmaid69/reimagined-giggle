@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def add_numbers(x, y):
+        return x + y
+for i in range(5):
+        print(i)
