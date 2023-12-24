@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
