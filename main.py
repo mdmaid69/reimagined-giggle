@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_str(array):
+        return str(array)
