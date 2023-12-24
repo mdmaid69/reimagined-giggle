@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_max(lst):
-        return max(lst)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
