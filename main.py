@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
