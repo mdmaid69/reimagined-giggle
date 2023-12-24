@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
