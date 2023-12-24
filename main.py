@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
