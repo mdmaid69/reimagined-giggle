@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
