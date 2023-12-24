@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
