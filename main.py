@@ -1,7 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
