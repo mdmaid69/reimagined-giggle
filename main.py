@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
