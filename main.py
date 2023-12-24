@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def find_max(numbers):
-        return max(numbers)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
