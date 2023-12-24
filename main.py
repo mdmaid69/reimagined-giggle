@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
