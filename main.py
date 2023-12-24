@@ -1,9 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+print([x**2 for x in range(10)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
