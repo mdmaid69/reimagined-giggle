@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
