@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import sys
-def exit_program():
-        sys.exit()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
