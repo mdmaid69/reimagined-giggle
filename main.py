@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
