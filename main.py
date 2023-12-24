@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
