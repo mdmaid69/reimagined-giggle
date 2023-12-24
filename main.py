@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_string_from_array(array):
+        return array.tobytes()
