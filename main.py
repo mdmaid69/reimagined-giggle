@@ -1,6 +1,8 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
