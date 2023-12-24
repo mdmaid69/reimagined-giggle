@@ -1,4 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-print([x**2 for x in range(10)])
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
