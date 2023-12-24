@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
