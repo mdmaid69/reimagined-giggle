@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def convert_to_hex(n):
+        return hex(n)
