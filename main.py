@@ -1,9 +1,8 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
