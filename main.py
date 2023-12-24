@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
