@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
