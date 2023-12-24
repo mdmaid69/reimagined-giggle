@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
