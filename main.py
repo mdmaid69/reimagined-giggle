@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
