@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
