@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_float(array):
+        return float(array[0])
