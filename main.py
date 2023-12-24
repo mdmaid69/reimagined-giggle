@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import time
-print(time.time())
+for i in range(5):
+        print(i)
+import json
+print(json.dumps({"name": "John", "age": 30}))
