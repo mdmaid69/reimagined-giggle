@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
