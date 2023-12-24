@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def is_even(n):
+        return n % 2 == 0
