@@ -1,8 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def sort_list(lst):
+        return sorted(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
