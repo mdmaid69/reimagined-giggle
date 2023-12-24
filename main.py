@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
