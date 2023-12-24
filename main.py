@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
