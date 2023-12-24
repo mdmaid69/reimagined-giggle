@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
