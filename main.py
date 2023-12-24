@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
