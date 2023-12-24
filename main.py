@@ -1,9 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
