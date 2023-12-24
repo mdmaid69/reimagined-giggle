@@ -1,10 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
