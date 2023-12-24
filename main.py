@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
