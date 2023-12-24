@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
