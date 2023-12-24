@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
