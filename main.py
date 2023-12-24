@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
