@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import random
-print(random.randint(0, 100))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
