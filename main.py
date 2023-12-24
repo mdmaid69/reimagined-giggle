@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def multiply_numbers(x, y):
-        return x * y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def print_python_version():
+        return sys.version
