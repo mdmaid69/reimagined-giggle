@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
