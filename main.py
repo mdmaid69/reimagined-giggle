@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_perpetuity(payment, rate):
+        return payment / rate
