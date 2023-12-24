@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_hex(n):
+        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
