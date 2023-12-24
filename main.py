@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import os
+print(os.getcwd())
+import array
+def get_array_index(array, item):
+        return array.index(item)
