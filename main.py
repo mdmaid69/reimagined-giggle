@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
