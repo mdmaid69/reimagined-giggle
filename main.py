@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def square_number(x):
+        return x**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
