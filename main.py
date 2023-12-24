@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
