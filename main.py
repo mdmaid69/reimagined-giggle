@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def convert_to_hex(n):
+        return hex(n)
+import logging
+def log_message(message):
+        logging.info(message)
