@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
