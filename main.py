@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
