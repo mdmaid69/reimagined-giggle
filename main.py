@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
