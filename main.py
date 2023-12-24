@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
