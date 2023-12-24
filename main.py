@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_complex(array):
+        return complex(array[0])
