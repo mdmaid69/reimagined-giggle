@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_work(force, distance):
-        return force * distance
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
