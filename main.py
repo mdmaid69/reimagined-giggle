@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
