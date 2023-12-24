@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
