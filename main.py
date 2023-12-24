@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
