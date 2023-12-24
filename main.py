@@ -1,11 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
