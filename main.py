@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def is_palindrome(s):
-        return s == s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def convert_to_octal(n):
+        return oct(n)
