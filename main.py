@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(work, time):
+        return work / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
