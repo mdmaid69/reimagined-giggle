@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  def square_number(x):
-        return x**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
