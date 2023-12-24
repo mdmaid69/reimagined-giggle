@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
