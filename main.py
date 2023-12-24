@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import array
+def get_array_as_list(array):
+        return list(array)
