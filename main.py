@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
