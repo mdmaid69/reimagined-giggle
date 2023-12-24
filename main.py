@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def clear_array(array):
+        array *= 0
