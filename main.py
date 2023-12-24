@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
