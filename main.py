@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
