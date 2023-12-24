@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def clear_array(array):
-        array *= 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def remove_duplicates(lst):
+        return list(set(lst))
