@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
