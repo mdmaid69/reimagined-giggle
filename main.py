@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
