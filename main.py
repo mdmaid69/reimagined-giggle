@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
