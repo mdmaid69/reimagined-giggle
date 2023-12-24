@@ -1,9 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
