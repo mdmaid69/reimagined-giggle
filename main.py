@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
