@@ -1,6 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
