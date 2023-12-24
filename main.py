@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
