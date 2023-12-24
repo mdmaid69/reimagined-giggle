@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_exponential(x):
+        return math.exp(x)
+  def count_elements(lst):
+        return len(lst)
