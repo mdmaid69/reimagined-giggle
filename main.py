@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
