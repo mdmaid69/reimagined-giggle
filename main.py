@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tensorflow as tf
-print(tf.__version__)
+import numpy as np
+print(np.array([1, 2, 3]))
+def divide_numbers(x, y):
+        return x / y
