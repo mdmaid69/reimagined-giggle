@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
