@@ -1,6 +1,6 @@
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
