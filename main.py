@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
