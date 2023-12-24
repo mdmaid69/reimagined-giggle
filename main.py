@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
