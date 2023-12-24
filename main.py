@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
