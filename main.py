@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
