@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_current_working_directory():
+        return os.getcwd()
