@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
