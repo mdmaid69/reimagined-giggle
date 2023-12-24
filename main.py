@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
