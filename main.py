@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_min(numbers):
-        return min(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
