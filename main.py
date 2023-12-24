@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
