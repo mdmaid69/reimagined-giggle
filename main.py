@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
