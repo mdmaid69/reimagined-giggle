@@ -1,8 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_user_string():
+        return collections.UserString()
