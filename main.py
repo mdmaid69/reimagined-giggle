@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
