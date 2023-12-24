@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def convert_to_octal(n):
-        return oct(n)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
