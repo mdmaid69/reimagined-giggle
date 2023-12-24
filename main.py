@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
