@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
