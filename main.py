@@ -1,5 +1,10 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
