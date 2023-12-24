@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_pressure(force, area):
+        return force / area
+def is_palindrome(s):
+        return s == s[::-1]
