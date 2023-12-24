@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
