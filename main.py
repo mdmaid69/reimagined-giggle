@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
