@@ -1,5 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import os
+print(os.getcwd())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
