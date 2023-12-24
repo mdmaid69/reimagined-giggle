@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_area_rectangle(l, w):
+        return l * w
+def count_elements(lst):
+        return len(lst)
