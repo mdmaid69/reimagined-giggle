@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
