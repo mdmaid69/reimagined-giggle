@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_square_root(x):
+        return math.sqrt(x)
