@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
