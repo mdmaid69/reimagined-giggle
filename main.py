@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
