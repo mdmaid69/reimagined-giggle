@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import logging
+def log_message(message):
+        logging.info(message)
