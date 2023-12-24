@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
