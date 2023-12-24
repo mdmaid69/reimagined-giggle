@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
