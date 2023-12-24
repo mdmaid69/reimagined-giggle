@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def count_elements(lst):
+        return len(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
