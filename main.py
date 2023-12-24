@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_as_str(array):
-        return str(array)
+import re
+print(re.match("h.*o", "hello world"))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
