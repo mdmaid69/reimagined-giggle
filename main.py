@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+  def is_even(n):
+        return n % 2 == 0
+  def convert_to_octal(n):
+        return oct(n)
