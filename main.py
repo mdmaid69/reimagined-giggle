@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_volume(length, width, height):
+        return length * width * height
