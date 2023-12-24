@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def print_python_version():
+        print(sys.version)
