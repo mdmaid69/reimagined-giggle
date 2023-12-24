@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
