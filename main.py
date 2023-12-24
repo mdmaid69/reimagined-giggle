@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def reverse_array(array):
+        array.reverse()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
