@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def reverse_list(lst):
+        return lst[::-1]
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
