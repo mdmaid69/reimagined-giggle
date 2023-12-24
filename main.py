@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
