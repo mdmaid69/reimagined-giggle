@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
