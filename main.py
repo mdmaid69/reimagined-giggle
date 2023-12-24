@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def is_odd(n):
+        return n % 2 != 0
