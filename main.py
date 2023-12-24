@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
