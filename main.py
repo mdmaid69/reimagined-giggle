@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_average(lst):
+        return sum(lst) / len(lst)
