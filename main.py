@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
