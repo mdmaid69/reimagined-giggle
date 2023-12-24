@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import datetime
+print(datetime.datetime.now())
