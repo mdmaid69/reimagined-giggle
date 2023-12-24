@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
