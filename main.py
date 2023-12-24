@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
