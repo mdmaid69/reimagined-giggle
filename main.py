@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def divide_numbers(x, y):
+        return x / y
+  def remove_duplicates(lst):
+        return list(set(lst))
