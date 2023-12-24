@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
