@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
