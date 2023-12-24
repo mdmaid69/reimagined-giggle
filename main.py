@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
