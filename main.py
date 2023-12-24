@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def is_odd(n):
-        return n % 2 != 0
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
