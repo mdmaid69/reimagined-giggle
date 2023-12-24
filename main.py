@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
