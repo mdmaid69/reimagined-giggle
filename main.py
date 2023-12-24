@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
