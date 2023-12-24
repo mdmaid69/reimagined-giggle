@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
