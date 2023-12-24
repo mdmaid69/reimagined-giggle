@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
