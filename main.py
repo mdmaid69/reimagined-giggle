@@ -1,5 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def is_even(n):
-        return n % 2 == 0
+def get_array_as_complex(array):
+        return complex(array[0])
