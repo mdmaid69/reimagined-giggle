@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
