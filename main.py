@@ -1,6 +1,8 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
