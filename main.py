@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def append_to_array(array, item):
+        array.append(item)
