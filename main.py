@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
