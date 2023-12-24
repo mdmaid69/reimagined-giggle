@@ -1,4 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-print([x**2 for x in range(10)])
+import collections
+def create_queue():
+        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
