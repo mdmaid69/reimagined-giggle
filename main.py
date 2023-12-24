@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
