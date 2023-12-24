@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def convert_to_octal(n):
+        return oct(n)
