@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def cube_number(x):
+        return x**3
+def find_max(numbers):
+        return max(numbers)
