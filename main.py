@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
