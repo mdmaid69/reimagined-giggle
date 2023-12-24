@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
