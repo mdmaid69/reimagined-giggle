@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
