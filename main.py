@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def count_elements(lst):
+        return len(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
