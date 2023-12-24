@@ -1,8 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_itemsize(array):
+        return array.itemsize
