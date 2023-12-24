@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
