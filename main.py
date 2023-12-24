@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def convert_to_binary(n):
+        return bin(n)
