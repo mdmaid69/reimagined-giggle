@@ -1,7 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
