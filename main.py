@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
