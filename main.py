@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def is_odd(n):
-        return n % 2 != 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
