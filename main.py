@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_user_string():
+        return collections.UserString()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
