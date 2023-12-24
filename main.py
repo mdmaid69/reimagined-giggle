@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
