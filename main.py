@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
