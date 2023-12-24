@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
