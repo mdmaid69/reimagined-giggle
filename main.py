@@ -1,3 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-print([x**2 for x in range(10)])
+import collections
+def create_user_list():
+        return collections.UserList()
+import collections
+def create_queue():
+        return collections.deque()
