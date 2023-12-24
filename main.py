@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
