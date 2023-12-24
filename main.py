@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_work(force, distance):
-        return force * distance
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
