@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
