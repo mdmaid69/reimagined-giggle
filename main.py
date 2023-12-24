@@ -1,6 +1,9 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
