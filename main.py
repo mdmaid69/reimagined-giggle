@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def cube_number(x):
+        return x**3
 import random
-def roll_die():
-        return random.randint(1, 6)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
