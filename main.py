@@ -1,7 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
