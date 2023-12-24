@@ -1,8 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
