@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def is_palindrome(s):
+        return s == s[::-1]
