@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
 def clear_array(array):
         array *= 0
