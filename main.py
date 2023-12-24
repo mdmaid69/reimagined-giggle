@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
