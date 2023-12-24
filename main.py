@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
