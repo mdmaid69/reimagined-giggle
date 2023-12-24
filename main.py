@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import platform
+def get_os_info():
+        return platform.uname()
+for i in range(10): print(i)
