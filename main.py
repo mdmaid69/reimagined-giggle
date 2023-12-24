@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def cube_number(x):
-        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
