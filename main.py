@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+print([x**2 for x in range(10)])
