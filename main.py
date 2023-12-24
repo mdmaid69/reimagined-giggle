@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
