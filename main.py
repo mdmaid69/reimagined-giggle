@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
