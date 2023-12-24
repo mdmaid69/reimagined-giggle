@@ -1,7 +1,7 @@
-def square_number(x):
-        return x**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
