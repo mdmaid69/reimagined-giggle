@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
