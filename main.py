@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
