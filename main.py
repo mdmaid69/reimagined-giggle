@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
