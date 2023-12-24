@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
