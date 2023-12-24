@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
