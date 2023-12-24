@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import datetime
+print(datetime.datetime.now())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
