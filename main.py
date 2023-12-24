@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_floor(x):
+        return math.floor(x)
