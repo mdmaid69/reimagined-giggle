@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-print(math.pi)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
