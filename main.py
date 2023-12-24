@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_floor(x):
+        return math.floor(x)
