@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
