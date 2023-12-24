@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
