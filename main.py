@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
