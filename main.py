@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
