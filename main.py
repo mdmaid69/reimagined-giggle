@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import datetime
+print(datetime.datetime.now())
+import sys
+def print_python_version():
+        print(sys.version)
