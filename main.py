@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
