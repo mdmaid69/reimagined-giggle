@@ -1,6 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
