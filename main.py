@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
