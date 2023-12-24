@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
