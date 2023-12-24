@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
