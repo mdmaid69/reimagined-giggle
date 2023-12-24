@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
