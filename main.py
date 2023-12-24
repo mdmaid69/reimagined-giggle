@@ -1,6 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
