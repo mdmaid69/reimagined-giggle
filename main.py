@@ -1,6 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import sys
+def print_python_version():
+        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
