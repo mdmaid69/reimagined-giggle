@@ -1,6 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
