@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
