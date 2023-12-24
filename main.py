@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def is_palindrome(s):
-        return s == s[::-1]
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
