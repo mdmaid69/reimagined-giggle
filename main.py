@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
