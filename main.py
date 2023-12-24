@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
