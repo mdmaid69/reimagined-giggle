@@ -1,6 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
