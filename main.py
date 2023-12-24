@@ -1,8 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
