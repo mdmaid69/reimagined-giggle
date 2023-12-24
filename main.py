@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
