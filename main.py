@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
