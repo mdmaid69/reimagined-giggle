@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
