@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def convert_to_octal(n):
+        return oct(n)
+import platform
+def get_os_info():
+        return platform.uname()
