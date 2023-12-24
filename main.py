@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import platform
-def get_os_info():
-        return platform.uname()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import tensorflow as tf
+print(tf.__version__)
