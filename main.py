@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_work(force, distance):
-        return force * distance
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
