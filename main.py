@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+print([x**2 for x in range(10)])
