@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def reverse_list(lst):
+        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
