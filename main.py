@@ -1,5 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
