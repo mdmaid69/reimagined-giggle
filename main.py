@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
