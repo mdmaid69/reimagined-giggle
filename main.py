@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
