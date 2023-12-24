@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
