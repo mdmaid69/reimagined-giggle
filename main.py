@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
