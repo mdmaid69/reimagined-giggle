@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
