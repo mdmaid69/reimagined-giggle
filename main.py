@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_complex(array):
+        return complex(array[0])
