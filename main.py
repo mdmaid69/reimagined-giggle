@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def cube_number(x):
-        return x**3
+  def sort_list(lst):
+        return sorted(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
