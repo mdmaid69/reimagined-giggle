@@ -1,5 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
