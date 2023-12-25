@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def square_number(x):
+        return x**2
