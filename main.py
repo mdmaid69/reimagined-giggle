@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_volume(length, width, height):
-        return length * width * height
+def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
