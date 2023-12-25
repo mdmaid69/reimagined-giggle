@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
