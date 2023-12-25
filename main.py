@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
