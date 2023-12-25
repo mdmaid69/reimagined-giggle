@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_work(force, distance):
+        return force * distance
