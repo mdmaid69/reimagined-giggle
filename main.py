@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def delete_file(file_name):
+        os.remove(file_name)
