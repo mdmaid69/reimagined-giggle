@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
