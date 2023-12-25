@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
