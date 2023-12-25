@@ -1,5 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
