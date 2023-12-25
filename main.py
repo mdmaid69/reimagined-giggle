@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
