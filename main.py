@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
