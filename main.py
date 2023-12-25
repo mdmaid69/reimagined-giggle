@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def is_odd(n):
+        return n % 2 != 0
