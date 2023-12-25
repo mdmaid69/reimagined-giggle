@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
