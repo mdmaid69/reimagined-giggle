@@ -1,7 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
