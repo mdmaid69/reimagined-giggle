@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
