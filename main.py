@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
