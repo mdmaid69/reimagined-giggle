@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
