@@ -1,5 +1,10 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
