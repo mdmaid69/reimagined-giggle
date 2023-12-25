@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_current_working_directory():
+        return os.getcwd()
