@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
