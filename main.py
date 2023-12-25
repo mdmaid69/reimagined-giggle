@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def reverse_string(s):
-        return s[::-1]
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
