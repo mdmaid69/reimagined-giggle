@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
