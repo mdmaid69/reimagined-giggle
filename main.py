@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_typecode(array):
+        return array.typecode
