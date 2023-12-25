@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
