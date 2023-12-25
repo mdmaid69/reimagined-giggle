@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def print_python_version():
+        return sys.version
