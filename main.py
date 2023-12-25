@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
