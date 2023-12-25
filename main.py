@@ -1,7 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
