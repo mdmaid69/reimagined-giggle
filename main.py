@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import os
-print(os.getcwd())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
