@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def sort_list(lst):
-        return sorted(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
