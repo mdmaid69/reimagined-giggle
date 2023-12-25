@@ -1,8 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
