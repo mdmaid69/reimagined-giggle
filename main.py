@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_counter():
-        return collections.Counter()
+name = "Python"
+print("Hello,", name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
