@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
