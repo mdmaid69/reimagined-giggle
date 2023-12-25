@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
