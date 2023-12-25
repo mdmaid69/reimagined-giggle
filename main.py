@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
