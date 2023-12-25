@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
