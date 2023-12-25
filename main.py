@@ -1,5 +1,11 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
