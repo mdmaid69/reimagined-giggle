@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import collections
+def create_stack():
+        return collections.deque()
