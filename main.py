@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
