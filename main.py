@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
