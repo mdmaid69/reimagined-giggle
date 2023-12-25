@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def clear_array(array):
+        array *= 0
