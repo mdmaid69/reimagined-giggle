@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
