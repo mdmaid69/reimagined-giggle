@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
