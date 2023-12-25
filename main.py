@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
