@@ -1,4 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-for i in range(10): print(i)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
