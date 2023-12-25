@@ -1,6 +1,8 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
