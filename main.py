@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
