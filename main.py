@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
