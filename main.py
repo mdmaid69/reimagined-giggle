@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
