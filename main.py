@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def exit_program():
+        sys.exit()
