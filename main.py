@@ -1,7 +1,8 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
