@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
