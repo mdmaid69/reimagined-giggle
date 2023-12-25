@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
