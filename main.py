@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
