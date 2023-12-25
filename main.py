@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_item(array, i):
+        return array[i]
