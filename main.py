@@ -1,3 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-print("Hello, world!")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def count_elements(lst):
+        return len(lst)
