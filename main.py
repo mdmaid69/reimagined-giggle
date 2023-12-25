@@ -1,4 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(10): print(i)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
