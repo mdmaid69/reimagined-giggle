@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
