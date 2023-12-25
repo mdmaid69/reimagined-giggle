@@ -1,4 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print([x**2 for x in range(10)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
