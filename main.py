@@ -1,7 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
