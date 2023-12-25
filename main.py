@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_sine(x):
+        return math.sin(x)
