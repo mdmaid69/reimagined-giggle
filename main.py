@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
