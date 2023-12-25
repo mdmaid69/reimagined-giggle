@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_list():
+        return collections.UserList()
+import time
+def get_current_time():
+        return time.ctime()
