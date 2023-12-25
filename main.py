@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import time
+def get_current_time():
+        return time.time()
