@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
