@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
