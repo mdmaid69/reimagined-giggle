@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def convert_to_binary(n):
+        return bin(n)
