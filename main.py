@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_unique_words(sentence):
+        return set(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
