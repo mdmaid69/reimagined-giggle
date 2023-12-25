@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
