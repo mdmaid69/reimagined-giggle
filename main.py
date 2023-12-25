@@ -1,3 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-print("Hello, world!")
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
