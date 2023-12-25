@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
