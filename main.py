@@ -1,5 +1,8 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
