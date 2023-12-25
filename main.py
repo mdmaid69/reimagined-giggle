@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
