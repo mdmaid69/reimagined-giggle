@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
