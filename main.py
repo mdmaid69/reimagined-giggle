@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def count_characters(sentence):
+        return len(sentence)
