@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def divide_numbers(x, y):
-        return x / y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
