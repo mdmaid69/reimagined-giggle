@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def sort_list(lst):
+        return sorted(lst)
