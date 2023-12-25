@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
