@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
