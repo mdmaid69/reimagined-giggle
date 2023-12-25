@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
