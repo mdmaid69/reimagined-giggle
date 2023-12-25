@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
