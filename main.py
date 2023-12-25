@@ -1,7 +1,9 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
