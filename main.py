@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
