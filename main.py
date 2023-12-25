@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+print(os.getcwd())
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
