@@ -1,6 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
