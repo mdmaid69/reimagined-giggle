@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def split_path(path):
+        return os.path.split(path)
