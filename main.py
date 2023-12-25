@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
