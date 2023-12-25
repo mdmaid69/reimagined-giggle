@@ -1,6 +1,9 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
