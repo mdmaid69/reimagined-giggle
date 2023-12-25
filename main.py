@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
