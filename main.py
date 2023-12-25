@@ -1,7 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
