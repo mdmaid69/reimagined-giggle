@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_queue():
+        return collections.deque()
