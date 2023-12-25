@@ -1,4 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
