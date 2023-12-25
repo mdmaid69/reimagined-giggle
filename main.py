@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
