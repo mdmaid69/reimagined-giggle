@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def convert_to_binary(n):
+        return bin(n)
+def count_words(sentence):
+        return len(sentence.split())
