@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
