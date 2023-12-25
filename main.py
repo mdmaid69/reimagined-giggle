@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
