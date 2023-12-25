@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_elements(lst):
-        return len(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
