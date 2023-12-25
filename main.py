@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
