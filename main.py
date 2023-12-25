@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_ordered_dict():
+        return collections.OrderedDict()
