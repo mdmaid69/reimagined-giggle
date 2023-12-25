@@ -1,7 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def sort_list(lst):
+        return sorted(lst)
