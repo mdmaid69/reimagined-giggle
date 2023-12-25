@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+for i in range(10): print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
