@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def multiply_numbers(x, y):
+        return x * y
