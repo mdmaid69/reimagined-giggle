@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_queue():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
