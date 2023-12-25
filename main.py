@@ -1,5 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_max(lst):
-        return max(lst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
