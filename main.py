@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
