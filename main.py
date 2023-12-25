@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
