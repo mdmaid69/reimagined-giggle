@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
