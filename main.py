@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
