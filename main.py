@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
