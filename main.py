@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
