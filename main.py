@@ -1,6 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
