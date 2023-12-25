@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+def print_python_version():
+        print(sys.version)
+def is_odd(n):
+        return n % 2 != 0
