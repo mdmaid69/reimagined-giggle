@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
