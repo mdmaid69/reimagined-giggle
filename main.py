@@ -1,10 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import sys
+print(sys.version)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
