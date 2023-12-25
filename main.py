@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import logging
+def log_message(message):
+        logging.info(message)
