@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
