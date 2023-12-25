@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def is_odd(n):
+        return n % 2 != 0
