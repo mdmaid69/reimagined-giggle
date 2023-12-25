@@ -1,6 +1,9 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def create_counter():
+        return collections.Counter()
