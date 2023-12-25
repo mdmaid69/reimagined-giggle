@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
