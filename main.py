@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
