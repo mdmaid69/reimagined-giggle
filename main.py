@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def greet(name):
-        print(f"Hello, {name}!")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
