@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
