@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_unique_words(sentence):
+        return set(sentence.split())
