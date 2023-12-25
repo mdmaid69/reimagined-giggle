@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
