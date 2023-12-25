@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def sort_list(lst):
+        return sorted(lst)
