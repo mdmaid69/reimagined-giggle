@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
+import re
+print(re.match("h.*o", "hello world"))
