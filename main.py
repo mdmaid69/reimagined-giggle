@@ -1,6 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
