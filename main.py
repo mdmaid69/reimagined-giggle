@@ -1,8 +1,6 @@
-import math
-print(math.pi)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
