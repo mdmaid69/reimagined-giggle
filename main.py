@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
