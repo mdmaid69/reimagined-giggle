@@ -1,5 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def find_max(numbers):
-        return max(numbers)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
