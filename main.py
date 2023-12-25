@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
