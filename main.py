@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
