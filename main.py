@@ -1,8 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
