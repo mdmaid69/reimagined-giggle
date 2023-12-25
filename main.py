@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
