@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
