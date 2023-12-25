@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+x = 10
+y = 20
+print("Sum:", x + y)
