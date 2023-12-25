@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
