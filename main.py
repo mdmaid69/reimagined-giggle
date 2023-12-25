@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-print(sys.version)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
