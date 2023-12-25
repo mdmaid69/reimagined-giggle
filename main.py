@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_max(numbers):
+        return max(numbers)
