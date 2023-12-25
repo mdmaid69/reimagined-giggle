@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
