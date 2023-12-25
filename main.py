@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import sys
+  def get_python_version():
+        return sys.version
