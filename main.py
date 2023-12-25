@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import platform
+def get_os_info():
+        return platform.uname()
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
