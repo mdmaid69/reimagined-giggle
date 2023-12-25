@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
