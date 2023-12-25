@@ -1,7 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
