@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def get_current_working_directory():
+        return os.getcwd()
