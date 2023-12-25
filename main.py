@@ -1,6 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
