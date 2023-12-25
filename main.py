@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
