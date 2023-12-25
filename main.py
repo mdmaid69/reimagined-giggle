@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
