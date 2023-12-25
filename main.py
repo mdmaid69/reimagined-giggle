@@ -1,8 +1,10 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def is_odd(n):
+        return n % 2 != 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
