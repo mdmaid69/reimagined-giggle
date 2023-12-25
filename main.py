@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def convert_to_hex(n):
+        return hex(n)
