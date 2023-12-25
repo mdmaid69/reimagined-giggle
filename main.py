@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def multiply_numbers(x, y):
+        return x * y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
