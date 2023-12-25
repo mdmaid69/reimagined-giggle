@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+print(os.getcwd())
