@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
