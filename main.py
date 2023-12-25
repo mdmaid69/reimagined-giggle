@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
