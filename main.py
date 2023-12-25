@@ -1,6 +1,7 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
