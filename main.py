@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
