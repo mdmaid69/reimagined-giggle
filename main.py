@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import collections
+def create_priority_queue():
+        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
