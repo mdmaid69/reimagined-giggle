@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
