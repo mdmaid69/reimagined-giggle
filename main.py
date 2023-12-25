@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def is_odd(n):
+        return n % 2 != 0
