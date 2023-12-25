@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+for i in range(10): print(i)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_square_root(x):
+        return math.sqrt(x)
