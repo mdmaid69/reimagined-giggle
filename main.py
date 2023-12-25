@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
