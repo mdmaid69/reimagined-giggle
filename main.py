@@ -1,6 +1,8 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
