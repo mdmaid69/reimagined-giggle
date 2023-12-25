@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
