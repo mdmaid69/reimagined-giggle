@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
