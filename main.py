@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_power(work, time):
-        return work / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
