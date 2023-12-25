@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
