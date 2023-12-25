@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
