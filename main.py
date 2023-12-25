@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_stack():
-        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_volume(length, width, height):
+        return length * width * height
