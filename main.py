@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
