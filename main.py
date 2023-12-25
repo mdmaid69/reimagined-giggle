@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def create_queue():
+        return collections.deque()
