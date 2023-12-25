@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
