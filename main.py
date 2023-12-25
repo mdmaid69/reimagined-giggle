@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+print(re.match("h.*o", "hello world"))
