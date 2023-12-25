@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-for i in range(10): print(i)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
