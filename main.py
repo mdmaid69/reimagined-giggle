@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
