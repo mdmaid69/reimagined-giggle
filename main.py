@@ -1,7 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
