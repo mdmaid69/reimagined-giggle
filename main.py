@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
