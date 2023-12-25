@@ -1,4 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_pressure(force, area):
-        return force / area
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
