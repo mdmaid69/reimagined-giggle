@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import sys
+def print_python_version():
+        print(sys.version)
