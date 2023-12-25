@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
