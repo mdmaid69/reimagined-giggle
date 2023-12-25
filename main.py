@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import sys
+print(sys.version)
