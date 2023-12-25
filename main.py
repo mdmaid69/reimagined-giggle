@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def exit_program():
+        sys.exit()
