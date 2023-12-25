@@ -1,4 +1,6 @@
-print("Hello, world!")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
