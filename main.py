@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_octal(n):
-        return oct(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
