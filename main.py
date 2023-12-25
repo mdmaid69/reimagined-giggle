@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
