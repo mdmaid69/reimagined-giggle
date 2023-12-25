@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
