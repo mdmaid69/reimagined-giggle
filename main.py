@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
