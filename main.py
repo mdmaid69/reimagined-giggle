@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def is_palindrome(s):
+        return s == s[::-1]
