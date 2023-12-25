@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def multiply_numbers(x, y):
+        return x * y
