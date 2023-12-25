@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
