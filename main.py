@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
