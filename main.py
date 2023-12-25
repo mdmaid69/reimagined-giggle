@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
