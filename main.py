@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+  def square_number(x):
+        return x**2
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
