@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
