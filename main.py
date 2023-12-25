@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def multiply_numbers(x, y):
+        return x * y
