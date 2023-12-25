@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+print(sum(range(10)))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
