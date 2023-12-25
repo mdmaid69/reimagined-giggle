@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import getpass
-def get_username():
-        return getpass.getuser()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
