@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
