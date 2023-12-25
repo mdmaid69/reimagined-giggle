@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
