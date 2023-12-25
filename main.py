@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(lst):
+        return max(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
