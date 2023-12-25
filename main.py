@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
