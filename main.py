@@ -1,4 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-def reverse_list(lst):
-        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
