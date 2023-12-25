@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
