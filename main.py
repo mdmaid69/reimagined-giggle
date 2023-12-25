@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
