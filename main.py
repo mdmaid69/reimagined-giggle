@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
