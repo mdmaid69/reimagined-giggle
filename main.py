@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import tensorflow as tf
+print(tf.__version__)
