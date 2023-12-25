@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
