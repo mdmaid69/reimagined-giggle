@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
