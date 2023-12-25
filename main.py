@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
