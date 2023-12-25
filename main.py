@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
