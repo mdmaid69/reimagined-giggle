@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
