@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import random
+print(random.randint(0, 100))
