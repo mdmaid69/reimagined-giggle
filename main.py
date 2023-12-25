@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+print(list(itertools.permutations([1, 2, 3])))
+import random
+print(random.randint(0, 100))
