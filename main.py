@@ -1,6 +1,9 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import array
+def clear_array(array):
+        array *= 0
