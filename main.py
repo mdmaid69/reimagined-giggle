@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
