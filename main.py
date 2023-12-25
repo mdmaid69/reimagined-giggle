@@ -1,6 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
