@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
