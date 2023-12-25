@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
