@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
