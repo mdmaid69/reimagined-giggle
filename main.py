@@ -1,10 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
