@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
