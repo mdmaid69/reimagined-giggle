@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
