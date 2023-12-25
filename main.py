@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
