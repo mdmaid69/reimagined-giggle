@@ -1,10 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
