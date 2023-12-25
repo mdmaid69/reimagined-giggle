@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
