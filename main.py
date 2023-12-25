@@ -1,4 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
