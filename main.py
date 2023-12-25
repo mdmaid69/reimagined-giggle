@@ -1,6 +1,11 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_tangent(x):
+        return math.tan(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
