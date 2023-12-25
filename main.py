@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Words:", len(text.split()))
