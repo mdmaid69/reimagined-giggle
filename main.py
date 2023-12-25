@@ -1,5 +1,6 @@
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
