@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
