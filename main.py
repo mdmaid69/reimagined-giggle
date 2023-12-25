@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def cube_number(x):
-        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
