@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def cube_number(x):
-        return x**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
