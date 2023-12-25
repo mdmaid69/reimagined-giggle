@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
