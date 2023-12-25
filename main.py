@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_speed(distance, time):
+        return distance / time
