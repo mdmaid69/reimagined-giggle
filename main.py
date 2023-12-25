@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def create_user_list():
+        return collections.UserList()
