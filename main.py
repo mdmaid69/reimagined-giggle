@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
