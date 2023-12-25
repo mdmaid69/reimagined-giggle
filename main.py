@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
