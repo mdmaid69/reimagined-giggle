@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
