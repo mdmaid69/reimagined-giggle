@@ -1,6 +1,9 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
