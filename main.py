@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
