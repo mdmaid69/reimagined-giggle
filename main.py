@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
