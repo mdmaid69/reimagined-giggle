@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def square_number(x):
+        return x**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
