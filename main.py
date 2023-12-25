@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
