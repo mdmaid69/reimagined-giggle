@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
