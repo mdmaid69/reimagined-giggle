@@ -1,8 +1,7 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
