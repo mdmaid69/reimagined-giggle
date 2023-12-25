@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
