@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
