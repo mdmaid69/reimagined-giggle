@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-name = "Python"
-print("Hello,", name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
