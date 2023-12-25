@@ -1,6 +1,8 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
