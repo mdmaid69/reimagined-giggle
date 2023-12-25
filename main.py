@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
