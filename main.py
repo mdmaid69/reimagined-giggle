@@ -1,6 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import sys
+  def get_python_version():
+        return sys.version
