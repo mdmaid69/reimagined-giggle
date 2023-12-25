@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
