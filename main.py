@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-name = "Python"
-print("Hello,", name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
