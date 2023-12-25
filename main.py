@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
