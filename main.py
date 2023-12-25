@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def cube_number(x):
+        return x**3
