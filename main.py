@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
