@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
