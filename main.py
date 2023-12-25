@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
