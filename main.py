@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+print(math.pi)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
