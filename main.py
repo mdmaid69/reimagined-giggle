@@ -1,7 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import sys
+def exit_program():
+        sys.exit()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
