@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+print(math.pi)
