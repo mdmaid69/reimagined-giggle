@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_str(array):
+        return str(array)
