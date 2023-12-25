@@ -1,4 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-print(re.match("h.*o", "hello world"))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
