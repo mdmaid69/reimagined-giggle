@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
