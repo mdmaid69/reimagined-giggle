@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
