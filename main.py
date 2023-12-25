@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_speed(distance, time):
+        return distance / time
