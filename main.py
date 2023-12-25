@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
