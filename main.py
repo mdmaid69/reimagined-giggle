@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
