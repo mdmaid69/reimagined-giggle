@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
