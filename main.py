@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
