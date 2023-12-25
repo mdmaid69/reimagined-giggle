@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
