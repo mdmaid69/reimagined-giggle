@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
