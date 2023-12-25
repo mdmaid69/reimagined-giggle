@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
