@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
