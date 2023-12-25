@@ -1,5 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
