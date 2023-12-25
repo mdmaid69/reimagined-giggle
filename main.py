@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_volume(length, width, height):
+        return length * width * height
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
