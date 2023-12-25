@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
