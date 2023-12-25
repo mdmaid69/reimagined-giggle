@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_max(lst):
-        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
