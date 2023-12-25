@@ -1,5 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def is_even(n):
-        return n % 2 == 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
