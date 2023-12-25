@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
