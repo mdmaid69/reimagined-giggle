@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def count_characters(sentence):
+        return len(sentence)
+  import sys
+  def get_python_version():
+        return sys.version
