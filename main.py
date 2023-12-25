@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_current_directory():
+        return os.getcwd()
