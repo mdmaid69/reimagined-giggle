@@ -1,6 +1,8 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
