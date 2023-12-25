@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
