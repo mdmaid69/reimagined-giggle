@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
