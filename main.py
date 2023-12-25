@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+from collections import Counter
+print(Counter("hello world"))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
