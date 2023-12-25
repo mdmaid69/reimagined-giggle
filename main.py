@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_queue():
+        return collections.deque()
