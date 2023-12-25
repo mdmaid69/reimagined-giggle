@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_pressure(force, area):
+        return force / area
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
