@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import collections
-def create_counter():
-        return collections.Counter()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
