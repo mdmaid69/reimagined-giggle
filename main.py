@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import random
+def roll_die():
+        return random.randint(1, 6)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
