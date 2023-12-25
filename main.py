@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_speed(distance, time):
+        return distance / time
