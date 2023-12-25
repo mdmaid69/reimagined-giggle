@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import sys
-print(sys.version)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
