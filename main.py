@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
