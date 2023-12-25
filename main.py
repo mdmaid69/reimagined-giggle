@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
