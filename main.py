@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import numpy as np
+print(np.array([1, 2, 3]))
+  def add_numbers(x, y):
+        return x + y
