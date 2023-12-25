@@ -1,3 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-print([x**2 for x in range(10)])
+import os
+print(os.getcwd())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
