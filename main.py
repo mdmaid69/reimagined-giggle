@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def split_path(path):
+        return os.path.split(path)
