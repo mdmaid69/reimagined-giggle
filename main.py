@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
