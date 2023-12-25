@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
