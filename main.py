@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
