@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
