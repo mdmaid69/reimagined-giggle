@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
