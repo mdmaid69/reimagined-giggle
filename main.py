@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_binary(n):
+        return bin(n)
