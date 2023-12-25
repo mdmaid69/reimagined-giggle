@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
