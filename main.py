@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
