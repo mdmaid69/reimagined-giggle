@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+for i in range(5):
+        print(i)
