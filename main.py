@@ -1,7 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
