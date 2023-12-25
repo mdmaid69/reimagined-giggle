@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
