@@ -1,8 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
