@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_string_from_array(array):
+        return array.tobytes()
