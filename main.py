@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
