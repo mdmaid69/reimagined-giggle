@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Characters:", len(text))
+from collections import Counter
+print(Counter("hello world"))
