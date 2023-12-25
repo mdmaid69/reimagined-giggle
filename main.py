@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_current_directory():
+        return os.getcwd()
