@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def greet(name):
+        print(f"Hello, {name}!")
