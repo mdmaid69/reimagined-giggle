@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
