@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
