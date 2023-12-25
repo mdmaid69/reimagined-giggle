@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_min(numbers):
+        return min(numbers)
