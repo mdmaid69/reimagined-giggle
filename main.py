@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
