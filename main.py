@@ -1,7 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
