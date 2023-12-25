@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
