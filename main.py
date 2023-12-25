@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
