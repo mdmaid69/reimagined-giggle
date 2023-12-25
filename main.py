@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_density(mass, volume):
+        return mass / volume
