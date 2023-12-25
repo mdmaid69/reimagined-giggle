@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
