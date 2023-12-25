@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
