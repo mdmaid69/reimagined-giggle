@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
