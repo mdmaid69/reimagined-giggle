@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def reverse_string(s):
+        return s[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
