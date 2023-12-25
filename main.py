@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def convert_to_hex(n):
-        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
