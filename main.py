@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
