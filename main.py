@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
