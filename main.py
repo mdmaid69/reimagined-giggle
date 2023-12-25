@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_hex(n):
-        return hex(n)
+  def square_number(x):
+        return x**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
