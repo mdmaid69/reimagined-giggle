@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
