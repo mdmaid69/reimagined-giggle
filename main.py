@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
