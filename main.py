@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
