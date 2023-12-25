@@ -1,5 +1,6 @@
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_square_root(x):
+        return math.sqrt(x)
