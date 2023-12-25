@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
