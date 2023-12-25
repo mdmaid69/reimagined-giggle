@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_min(lst):
+        return min(lst)
