@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
