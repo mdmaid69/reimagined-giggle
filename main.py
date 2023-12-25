@@ -1,4 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print([x**2 for x in range(10)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
