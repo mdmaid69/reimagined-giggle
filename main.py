@@ -1,7 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
