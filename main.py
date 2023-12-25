@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
