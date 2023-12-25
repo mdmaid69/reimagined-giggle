@@ -1,6 +1,11 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
