@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_acceleration(speed, time):
+        return speed / time
