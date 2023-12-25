@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def convert_to_octal(n):
+        return oct(n)
+import numpy as np
+print(np.array([1, 2, 3]))
