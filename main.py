@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def find_max(numbers):
+        return max(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
