@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
