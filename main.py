@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
