@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def append_to_array(array, item):
-        array.append(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
