@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import platform
+def get_os_info():
+        return platform.uname()
