@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
