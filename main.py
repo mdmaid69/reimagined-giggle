@@ -1,7 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_set(array):
+        return set(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
