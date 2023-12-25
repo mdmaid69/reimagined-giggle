@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import platform
-def get_python_version():
-        return platform.python_version()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
