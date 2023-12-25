@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
