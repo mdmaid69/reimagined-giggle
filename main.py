@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_length(array):
+        return len(array)
+def convert_to_octal(n):
+        return oct(n)
