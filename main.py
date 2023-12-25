@@ -1,3 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-for i in range(10): print(i)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
