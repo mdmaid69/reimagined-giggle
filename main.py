@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
