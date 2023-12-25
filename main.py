@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_density(mass, volume):
-        return mass / volume
+  def cube_number(x):
+        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
