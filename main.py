@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import time
-def get_current_time():
-        return time.time()
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def exit_program():
+        sys.exit()
