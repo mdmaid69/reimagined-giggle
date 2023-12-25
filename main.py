@@ -1,8 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
