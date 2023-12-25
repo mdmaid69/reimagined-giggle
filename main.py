@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_area(radius):
+        return 3.14 * radius * radius
