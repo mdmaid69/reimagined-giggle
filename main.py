@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
