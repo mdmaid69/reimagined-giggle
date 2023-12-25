@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
