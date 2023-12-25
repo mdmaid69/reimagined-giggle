@@ -1,11 +1,8 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
