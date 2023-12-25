@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
