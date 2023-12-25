@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
