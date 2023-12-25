@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
