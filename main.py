@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
