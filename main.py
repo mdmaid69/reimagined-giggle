@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
