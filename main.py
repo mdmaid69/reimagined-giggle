@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
