@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def convert_to_octal(n):
-        return oct(n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def subtract_numbers(x, y):
+        return x - y
