@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def convert_to_octal(n):
+        return oct(n)
