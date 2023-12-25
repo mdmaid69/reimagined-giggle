@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
