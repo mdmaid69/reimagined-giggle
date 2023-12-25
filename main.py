@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
