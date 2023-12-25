@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def remove_duplicates(lst):
+        return list(set(lst))
