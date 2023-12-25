@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
