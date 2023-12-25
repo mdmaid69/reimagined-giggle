@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def convert_to_hex(n):
+        return hex(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
