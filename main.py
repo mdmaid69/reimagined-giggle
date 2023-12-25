@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
