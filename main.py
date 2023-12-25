@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import numpy as np
+print(np.array([1, 2, 3]))
