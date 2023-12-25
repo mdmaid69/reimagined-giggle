@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-print(sys.version)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
