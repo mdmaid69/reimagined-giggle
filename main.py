@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def sort_numbers(numbers):
+        return sorted(numbers)
