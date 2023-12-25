@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def count_characters(sentence):
-        return len(sentence)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
