@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def convert_to_binary(n):
-        return bin(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
