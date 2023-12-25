@@ -1,4 +1,6 @@
-print(sum(range(10)))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
