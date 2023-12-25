@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
