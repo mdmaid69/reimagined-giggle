@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_user_list():
-        return collections.UserList()
+def append_to_array(array, item):
+        array.append(item)
+import sys
+def exit_program():
+        sys.exit()
