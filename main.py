@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def add_numbers(x, y):
-        return x + y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_palindrome(s):
+        return s == s[::-1]
