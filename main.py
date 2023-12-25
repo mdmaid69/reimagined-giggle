@@ -1,4 +1,9 @@
-def find_min(numbers):
-        return min(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
