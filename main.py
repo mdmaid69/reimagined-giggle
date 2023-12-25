@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def greet(name):
+        print(f"Hello, {name}!")
