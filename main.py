@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
