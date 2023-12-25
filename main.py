@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
