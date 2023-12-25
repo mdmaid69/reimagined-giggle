@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
