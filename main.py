@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
