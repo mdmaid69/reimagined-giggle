@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
