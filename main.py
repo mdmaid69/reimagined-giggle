@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
