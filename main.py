@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-print(random.randint(0, 100))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def greet(name):
+        print(f"Hello, {name}!")
