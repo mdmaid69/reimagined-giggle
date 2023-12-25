@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
