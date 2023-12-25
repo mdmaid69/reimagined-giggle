@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def count_elements(lst):
+        return len(lst)
