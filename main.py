@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
