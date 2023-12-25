@@ -1,7 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
