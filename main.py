@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
