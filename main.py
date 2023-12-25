@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
