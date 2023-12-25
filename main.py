@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def find_max(lst):
+        return max(lst)
+def find_max(numbers):
+        return max(numbers)
