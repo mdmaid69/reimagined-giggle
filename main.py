@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def is_even(n):
-        return n % 2 == 0
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
