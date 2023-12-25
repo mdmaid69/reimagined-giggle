@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_buffer_info(array):
+        return array.buffer_info()
