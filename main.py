@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
