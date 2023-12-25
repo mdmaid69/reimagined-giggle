@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
