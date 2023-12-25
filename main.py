@@ -1,5 +1,3 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+print(sum(range(10)))
+import time
+print(time.time())
