@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
