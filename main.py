@@ -1,5 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
