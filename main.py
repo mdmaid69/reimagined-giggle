@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
