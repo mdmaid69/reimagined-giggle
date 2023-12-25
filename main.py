@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+for i in range(10): print(i)
