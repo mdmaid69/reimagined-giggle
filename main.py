@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def extend_array(array, iterable):
+        array.extend(iterable)
