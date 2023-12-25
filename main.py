@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
