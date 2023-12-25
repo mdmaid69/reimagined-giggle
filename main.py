@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def convert_to_binary(n):
+        return bin(n)
