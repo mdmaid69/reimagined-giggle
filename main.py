@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
