@@ -1,5 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
