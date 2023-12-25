@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def clear_array(array):
+        array *= 0
