@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def count_characters(sentence):
+        return len(sentence)
