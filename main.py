@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_str(array):
+        return str(array)
