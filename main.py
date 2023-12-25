@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
