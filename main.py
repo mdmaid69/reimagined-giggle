@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
