@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def is_odd(n):
+        return n % 2 != 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
