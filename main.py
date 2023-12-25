@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
