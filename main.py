@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
