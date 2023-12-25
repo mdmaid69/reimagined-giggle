@@ -1,5 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import sys
-def exit_program():
-        sys.exit()
-import math
-print(math.pi)
+def add_to_python_path(path):
+        sys.path.append(path)
