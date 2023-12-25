@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
