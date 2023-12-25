@@ -1,5 +1,10 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
