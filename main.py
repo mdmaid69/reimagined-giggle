@@ -1,8 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
