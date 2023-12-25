@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import time
-print(time.time())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
