@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_list(array):
-        return list(array)
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
