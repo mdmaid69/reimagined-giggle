@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def find_min(numbers):
-        return min(numbers)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def is_even(n):
+        return n % 2 == 0
