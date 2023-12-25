@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
