@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def cube_number(x):
+        return x**3
