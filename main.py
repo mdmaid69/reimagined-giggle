@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
