@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
