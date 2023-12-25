@@ -1,12 +1,8 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
