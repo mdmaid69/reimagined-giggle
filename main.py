@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
