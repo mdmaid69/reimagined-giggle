@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
