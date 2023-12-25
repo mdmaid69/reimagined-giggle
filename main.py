@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
