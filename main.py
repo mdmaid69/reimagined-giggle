@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
