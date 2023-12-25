@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
