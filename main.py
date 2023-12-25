@@ -1,8 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
