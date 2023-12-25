@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_volume(length, width, height):
-        return length * width * height
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
