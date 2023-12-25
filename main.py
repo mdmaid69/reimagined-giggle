@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_area_rectangle(l, w):
+        return l * w
