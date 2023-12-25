@@ -1,8 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def get_current_working_directory():
+        return os.getcwd()
