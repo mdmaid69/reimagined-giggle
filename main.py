@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
