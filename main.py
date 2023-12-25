@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
