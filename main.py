@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def multiply_numbers(x, y):
-        return x * y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
