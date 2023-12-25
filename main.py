@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import sys
+def print_python_version():
+        return sys.version
