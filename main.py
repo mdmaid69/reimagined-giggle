@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+def find_max(lst):
+        return max(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
