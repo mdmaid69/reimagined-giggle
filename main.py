@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
