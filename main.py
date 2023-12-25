@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import getpass
-def get_username():
-        return getpass.getuser()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
