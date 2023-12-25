@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
