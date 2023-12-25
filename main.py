@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
