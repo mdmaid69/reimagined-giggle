@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
