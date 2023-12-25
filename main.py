@@ -1,6 +1,3 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+for i in range(10): print(i)
