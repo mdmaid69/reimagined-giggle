@@ -1,6 +1,8 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
