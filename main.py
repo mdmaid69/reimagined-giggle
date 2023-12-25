@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def count_characters(sentence):
-        return len(sentence)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
