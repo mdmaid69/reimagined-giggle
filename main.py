@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
