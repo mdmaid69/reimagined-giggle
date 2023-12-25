@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-for i in range(5):
-        print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
