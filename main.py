@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import tensorflow as tf
-print(tf.__version__)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def square_number(x):
+        return x**2
