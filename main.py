@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
