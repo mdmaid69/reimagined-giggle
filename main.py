@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+for i in range(10): print(i)
+import array
+def get_array_as_list(array):
+        return list(array)
