@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import getpass
+def get_username():
+        return getpass.getuser()
