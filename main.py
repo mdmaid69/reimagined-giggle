@@ -1,5 +1,4 @@
+def divide_numbers(x, y):
+        return x / y
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+print("Square numbers:", [x**2 for x in range(n)])
