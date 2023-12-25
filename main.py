@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
