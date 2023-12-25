@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
