@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
