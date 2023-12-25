@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
