@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
