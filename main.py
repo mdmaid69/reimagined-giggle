@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
