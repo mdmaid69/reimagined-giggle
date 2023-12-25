@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import time
+print(time.time())
+x = 10
+y = 20
+print("Sum:", x + y)
