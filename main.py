@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
