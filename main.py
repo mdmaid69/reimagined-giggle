@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
