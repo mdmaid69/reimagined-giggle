@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_power(work, time):
-        return work / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+for i in range(10): print(i)
