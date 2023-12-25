@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
