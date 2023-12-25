@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
