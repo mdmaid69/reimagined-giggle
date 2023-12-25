@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
