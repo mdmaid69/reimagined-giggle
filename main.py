@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def reverse_string(s):
+        return s[::-1]
