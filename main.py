@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def get_file_size(filename):
+        return os.path.getsize(filename)
