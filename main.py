@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_max(numbers):
+        return max(numbers)
