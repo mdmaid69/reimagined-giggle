@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
