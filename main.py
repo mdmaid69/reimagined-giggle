@@ -1,6 +1,12 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
