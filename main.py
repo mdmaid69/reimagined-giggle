@@ -1,5 +1,7 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
