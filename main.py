@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_max(lst):
+        return max(lst)
