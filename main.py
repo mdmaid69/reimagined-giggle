@@ -1,8 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+x = 10
+y = 20
+print("Sum:", x + y)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
