@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
