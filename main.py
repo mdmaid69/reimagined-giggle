@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
