@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
