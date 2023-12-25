@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
