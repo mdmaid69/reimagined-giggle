@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
