@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+text = "Hello, world!"
+print("Characters:", len(text))
