@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def square_number(x):
+        return x**2
