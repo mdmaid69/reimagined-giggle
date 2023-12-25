@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
