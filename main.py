@@ -1,7 +1,10 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def print_python_version():
+        return sys.version
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
