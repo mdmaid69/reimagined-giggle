@@ -1,6 +1,3 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+print("Hello, world!")
+def find_max(lst):
+        return max(lst)
