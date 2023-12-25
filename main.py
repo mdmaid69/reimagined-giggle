@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
