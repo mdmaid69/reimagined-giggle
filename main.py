@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-from collections import Counter
-print(Counter("hello world"))
+x = 10
+y = 20
+print("Sum:", x + y)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
