@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_str(array):
+        return str(array)
+def remove_duplicates(lst):
+        return list(set(lst))
