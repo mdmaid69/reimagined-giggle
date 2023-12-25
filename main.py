@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
