@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_power(work, time):
+        return work / time
+def find_unique_words(sentence):
+        return set(sentence.split())
