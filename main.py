@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_priority_queue():
+        return collections.deque()
+def add_numbers(a, b):
+        return a + b
