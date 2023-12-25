@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
