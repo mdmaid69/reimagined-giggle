@@ -1,8 +1,7 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
