@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+print("Squared:", [n**2 for n in numbers])
