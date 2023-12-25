@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_power(work, time):
+        return work / time
