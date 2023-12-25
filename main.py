@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def create_stack():
+        return collections.deque()
