@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
