@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
