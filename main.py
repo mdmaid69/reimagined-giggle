@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_frozenset(array):
+        return frozenset(array)
