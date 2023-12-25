@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def add_numbers(a, b):
-        return a + b
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+for i in range(5):
+        print(i)
