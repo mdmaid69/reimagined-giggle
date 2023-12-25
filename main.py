@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
