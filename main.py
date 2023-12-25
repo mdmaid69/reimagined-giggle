@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
