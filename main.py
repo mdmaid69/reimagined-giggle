@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_words(sentence):
-        return len(sentence.split())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
