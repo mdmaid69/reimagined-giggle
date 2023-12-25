@@ -1,6 +1,10 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
