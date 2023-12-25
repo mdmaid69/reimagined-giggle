@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def divide_numbers(x, y):
-        return x / y
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_stack():
+        return collections.deque()
