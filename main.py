@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
