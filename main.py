@@ -1,7 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
