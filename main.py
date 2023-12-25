@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
