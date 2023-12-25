@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
