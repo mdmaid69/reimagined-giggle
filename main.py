@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_pressure(force, area):
+        return force / area
