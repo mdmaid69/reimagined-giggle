@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
