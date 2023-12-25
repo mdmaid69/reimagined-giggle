@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
+name = "Python"
+print("Hello,", name)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_set(array):
+        return set(array)
