@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
