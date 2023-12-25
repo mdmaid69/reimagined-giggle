@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_set(array):
+        return set(array)
