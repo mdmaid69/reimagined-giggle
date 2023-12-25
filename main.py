@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def find_unique_words(sentence):
-        return set(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
