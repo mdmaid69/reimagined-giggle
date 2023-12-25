@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def cube_number(x):
-        return x**3
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
