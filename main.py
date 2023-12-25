@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def is_odd(n):
+        return n % 2 != 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
