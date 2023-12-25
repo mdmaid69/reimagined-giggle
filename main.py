@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
