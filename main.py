@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
