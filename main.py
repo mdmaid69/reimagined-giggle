@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
