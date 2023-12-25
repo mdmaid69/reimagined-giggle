@@ -1,6 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+print([x**2 for x in range(10)])
