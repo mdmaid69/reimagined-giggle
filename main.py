@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
