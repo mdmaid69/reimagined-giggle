@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_odd(n):
+        return n % 2 != 0
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
