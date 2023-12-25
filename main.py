@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
