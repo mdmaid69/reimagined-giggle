@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
