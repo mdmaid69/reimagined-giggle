@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
