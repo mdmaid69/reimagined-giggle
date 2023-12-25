@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 list1 = [1, 2, 3]
 list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+print("Common elements:", set(list1) & set(list2))
