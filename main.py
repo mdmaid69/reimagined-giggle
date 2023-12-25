@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def is_even(n):
+        return n % 2 == 0
