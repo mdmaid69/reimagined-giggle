@@ -1,5 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
