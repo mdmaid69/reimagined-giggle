@@ -1,4 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
