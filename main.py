@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
