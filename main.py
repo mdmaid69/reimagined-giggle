@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
