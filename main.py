@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def is_palindrome(s):
+        return s == s[::-1]
+  import sys
+  def get_python_version():
+        return sys.version
