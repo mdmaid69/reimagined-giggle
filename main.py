@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import sys
+  def get_python_version():
+        return sys.version
