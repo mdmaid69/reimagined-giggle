@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
