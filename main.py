@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
