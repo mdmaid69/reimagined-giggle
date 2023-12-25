@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_min(lst):
-        return min(lst)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
