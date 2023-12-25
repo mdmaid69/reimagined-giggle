@@ -1,5 +1,3 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+for i in range(10): print(i)
+def divide_numbers(x, y):
+        return x / y
