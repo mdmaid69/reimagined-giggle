@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_user_string():
-        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
