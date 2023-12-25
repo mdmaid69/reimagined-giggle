@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
