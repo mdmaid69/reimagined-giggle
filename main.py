@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
