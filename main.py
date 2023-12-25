@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def cube_number(x):
-        return x**3
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
