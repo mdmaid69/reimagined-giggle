@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_queue():
+        return collections.deque()
