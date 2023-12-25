@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
