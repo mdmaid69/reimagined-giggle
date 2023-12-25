@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
