@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
