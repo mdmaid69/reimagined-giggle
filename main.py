@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
