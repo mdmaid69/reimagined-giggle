@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_index(array, item):
+        return array.index(item)
+def find_max(numbers):
+        return max(numbers)
