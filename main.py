@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-name = "Python"
-print("Hello,", name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def add_numbers(x, y):
+        return x + y
