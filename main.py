@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
