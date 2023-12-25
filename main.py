@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def clear_array(array):
+        array *= 0
+import logging
+def log_message(message):
+        logging.info(message)
