@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def cube_number(x):
+        return x**3
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
