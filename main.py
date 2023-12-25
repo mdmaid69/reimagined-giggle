@@ -1,5 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
