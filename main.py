@@ -1,5 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
