@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
