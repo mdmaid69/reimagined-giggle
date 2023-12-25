@@ -1,7 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_pressure(force, area):
+        return force / area
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
