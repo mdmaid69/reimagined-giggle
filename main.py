@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
