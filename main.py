@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def reverse_array(array):
-        array.reverse()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
