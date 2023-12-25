@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+name = "Python"
+print("Hello,", name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
