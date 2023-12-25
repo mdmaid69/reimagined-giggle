@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_elements(lst):
-        return len(lst)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
