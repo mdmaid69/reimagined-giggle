@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
