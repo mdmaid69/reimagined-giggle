@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
