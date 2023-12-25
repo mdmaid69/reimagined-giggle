@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
