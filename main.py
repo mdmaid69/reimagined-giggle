@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_set(array):
+        return set(array)
