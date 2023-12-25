@@ -1,8 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
