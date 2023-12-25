@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import time
+def get_current_time():
+        return time.ctime()
