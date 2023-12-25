@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
