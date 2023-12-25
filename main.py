@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def count_elements(lst):
-        return len(lst)
+  def get_current_working_directory():
+        return os.getcwd()
