@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
