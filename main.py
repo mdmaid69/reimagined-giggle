@@ -1,5 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import numpy as np
-print(np.array([1, 2, 3]))
+import time
+def get_current_time():
+        return time.ctime()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
