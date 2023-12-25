@@ -1,4 +1,11 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
