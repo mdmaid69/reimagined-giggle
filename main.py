@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
+def calculate_inverse_hyperbolic_sine(x):
         return math.asinh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
