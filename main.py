@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def count_elements(lst):
-        return len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
