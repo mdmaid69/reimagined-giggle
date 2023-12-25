@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
