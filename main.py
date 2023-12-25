@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
