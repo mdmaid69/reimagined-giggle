@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def is_odd(n):
+        return n % 2 != 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
