@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
