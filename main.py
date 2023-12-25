@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def convert_to_octal(n):
+        return oct(n)
