@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
