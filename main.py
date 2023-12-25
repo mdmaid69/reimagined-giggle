@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
