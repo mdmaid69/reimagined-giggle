@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def is_odd(n):
-        return n % 2 != 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
