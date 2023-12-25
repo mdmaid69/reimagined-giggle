@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
