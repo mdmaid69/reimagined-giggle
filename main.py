@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
