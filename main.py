@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import time
-def get_current_time():
-        return time.time()
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
