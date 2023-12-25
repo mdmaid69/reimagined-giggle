@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def greet(name):
-        print(f"Hello, {name}!")
+def divide_numbers(x, y):
+        return x / y
+  def convert_to_hex(n):
+        return hex(n)
