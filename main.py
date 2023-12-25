@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
