@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
