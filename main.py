@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
