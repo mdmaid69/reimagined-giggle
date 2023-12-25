@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
