@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
