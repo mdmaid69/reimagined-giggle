@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
