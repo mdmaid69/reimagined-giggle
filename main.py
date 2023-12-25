@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
