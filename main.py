@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
