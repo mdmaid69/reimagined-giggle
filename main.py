@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import getpass
-def get_username():
-        return getpass.getuser()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
