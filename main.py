@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
