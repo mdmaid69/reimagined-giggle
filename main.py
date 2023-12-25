@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
