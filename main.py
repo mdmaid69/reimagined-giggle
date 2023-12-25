@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
