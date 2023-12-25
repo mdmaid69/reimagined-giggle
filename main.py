@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
