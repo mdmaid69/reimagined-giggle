@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
