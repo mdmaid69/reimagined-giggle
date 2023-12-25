@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def count_elements(lst):
+        return len(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
