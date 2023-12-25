@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
