@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
