@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
