@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def count_characters(sentence):
+        return len(sentence)
