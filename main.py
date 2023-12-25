@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import os
+def get_current_working_directory():
+        return os.getcwd()
