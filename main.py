@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def reverse_array(array):
+        array.reverse()
