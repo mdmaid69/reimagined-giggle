@@ -1,9 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
