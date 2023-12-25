@@ -1,6 +1,10 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
