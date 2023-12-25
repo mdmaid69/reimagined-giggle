@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_work(force, distance):
+        return force * distance
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
