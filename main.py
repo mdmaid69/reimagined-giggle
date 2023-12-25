@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_list(array):
+        return array.tolist()
