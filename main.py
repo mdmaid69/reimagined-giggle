@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(lst):
-        return min(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
