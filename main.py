@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
