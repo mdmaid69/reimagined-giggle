@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def convert_to_octal(n):
-        return oct(n)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
