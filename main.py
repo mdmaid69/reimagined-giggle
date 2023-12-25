@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_queue():
+        return collections.deque()
