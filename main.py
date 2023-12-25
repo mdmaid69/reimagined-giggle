@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
