@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_item(array, i):
+        return array[i]
