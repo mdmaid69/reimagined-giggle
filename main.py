@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
