@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import os
+def change_working_directory(path):
+        os.chdir(path)
