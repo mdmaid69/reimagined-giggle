@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
