@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
