@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import random
+print(random.randint(0, 100))
