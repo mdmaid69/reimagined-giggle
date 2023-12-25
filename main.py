@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
