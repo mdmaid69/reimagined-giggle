@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
