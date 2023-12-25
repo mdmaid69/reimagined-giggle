@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
