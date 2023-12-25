@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import time
-print(time.time())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
