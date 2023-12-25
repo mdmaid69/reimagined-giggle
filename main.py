@@ -1,4 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def add_numbers(x, y):
-        return x + y
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
