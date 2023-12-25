@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import sys
-  def get_python_version():
-        return sys.version
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
