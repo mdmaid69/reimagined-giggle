@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
