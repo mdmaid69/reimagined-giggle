@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
