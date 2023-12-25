@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_min(lst):
-        return min(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
