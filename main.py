@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
