@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
