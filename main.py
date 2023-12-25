@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
