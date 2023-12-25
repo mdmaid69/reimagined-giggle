@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
