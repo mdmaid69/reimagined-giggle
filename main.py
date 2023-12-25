@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import datetime
+print(datetime.datetime.now())
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
