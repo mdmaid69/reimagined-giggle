@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
