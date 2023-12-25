@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
