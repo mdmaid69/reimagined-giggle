@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
