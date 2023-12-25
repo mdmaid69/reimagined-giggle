@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
