@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
