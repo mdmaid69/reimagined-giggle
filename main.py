@@ -1,6 +1,12 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
