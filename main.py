@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def add_numbers(x, y):
+        return x + y
