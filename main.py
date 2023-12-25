@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
