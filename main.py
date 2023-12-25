@@ -1,9 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
