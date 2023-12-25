@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
