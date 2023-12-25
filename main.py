@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
