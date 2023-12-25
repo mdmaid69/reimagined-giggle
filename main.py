@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
