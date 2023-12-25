@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
