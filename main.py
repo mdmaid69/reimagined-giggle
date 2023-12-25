@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
