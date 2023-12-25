@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
