@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+for i in range(5):
+        print(i)
