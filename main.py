@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
