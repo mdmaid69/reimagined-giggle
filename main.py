@@ -1,6 +1,3 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import queue
 
 q = queue.Queue()
@@ -10,3 +7,5 @@ for i in range(5):
 
 while not q.empty():
         print(q.get())
+def count_elements(lst):
+        return len(lst)
