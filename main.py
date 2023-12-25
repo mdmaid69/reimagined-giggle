@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
