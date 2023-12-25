@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
