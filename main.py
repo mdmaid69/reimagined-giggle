@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def clear_array(array):
+        array *= 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
