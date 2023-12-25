@@ -1,7 +1,6 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
