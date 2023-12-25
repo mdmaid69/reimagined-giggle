@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
