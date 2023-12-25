@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def reverse_list(lst):
+        return lst[::-1]
