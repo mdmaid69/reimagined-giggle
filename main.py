@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
