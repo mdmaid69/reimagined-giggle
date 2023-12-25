@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
