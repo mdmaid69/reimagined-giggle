@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import datetime
-print(datetime.datetime.now())
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
