@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_as_str(array):
-        return str(array)
+def multiply_numbers(x, y):
+        return x * y
+def find_max(lst):
+        return max(lst)
