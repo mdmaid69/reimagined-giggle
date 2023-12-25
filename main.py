@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_density(mass, volume):
+        return mass / volume
+def reverse_string(s):
+        return s[::-1]
