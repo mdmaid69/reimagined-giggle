@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+print(sys.version)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
