@@ -1,5 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
