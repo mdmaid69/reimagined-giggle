@@ -1,4 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
