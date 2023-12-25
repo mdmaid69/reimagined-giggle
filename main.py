@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_floor(x):
+        return math.floor(x)
