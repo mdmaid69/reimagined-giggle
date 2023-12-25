@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
