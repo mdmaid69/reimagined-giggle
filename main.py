@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def convert_to_hex(n):
+        return hex(n)
