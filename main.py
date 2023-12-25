@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
