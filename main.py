@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
