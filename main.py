@@ -1,7 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def is_odd(n):
+        return n % 2 != 0
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
