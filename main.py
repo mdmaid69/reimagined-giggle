@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
