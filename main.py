@@ -1,5 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
