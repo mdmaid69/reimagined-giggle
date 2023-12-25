@@ -1,8 +1,8 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def get_array_from_string(string, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
