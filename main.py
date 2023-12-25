@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
