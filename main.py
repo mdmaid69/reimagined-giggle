@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
