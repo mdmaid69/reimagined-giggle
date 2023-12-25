@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_power(work, time):
+        return work / time
