@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_area_rectangle(l, w):
-        return l * w
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
