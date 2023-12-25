@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
