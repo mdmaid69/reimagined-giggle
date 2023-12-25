@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
