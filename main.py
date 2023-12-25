@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
