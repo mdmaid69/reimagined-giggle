@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
