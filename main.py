@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def count_characters(sentence):
-        return len(sentence)
+def subtract_numbers(x, y):
+        return x - y
+import time
+print(time.time())
