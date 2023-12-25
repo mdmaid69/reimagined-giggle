@@ -1,8 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+for i in range(10): print(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
