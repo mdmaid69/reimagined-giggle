@@ -1,7 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import time
+def get_current_time():
+        return time.ctime()
+def is_palindrome(s):
+        return s == s[::-1]
