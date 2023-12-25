@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_density(mass, volume):
-        return mass / volume
+  def is_even(n):
+        return n % 2 == 0
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
