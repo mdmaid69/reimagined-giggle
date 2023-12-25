@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def is_even(n):
+        return n % 2 == 0
