@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import re
-def replace_pattern(pattern, replacement, string):
+def replace_all_occurrences(pattern, replacement, string):
         return re.sub(pattern, replacement, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
