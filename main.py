@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+print("Hello, world!")
+import array
+def get_array_as_str(array):
+        return str(array)
