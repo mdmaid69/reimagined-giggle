@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
