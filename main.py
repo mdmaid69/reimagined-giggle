@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+x = 10
+y = 20
+print("Sum:", x + y)
