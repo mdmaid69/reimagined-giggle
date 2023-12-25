@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
