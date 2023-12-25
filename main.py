@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
