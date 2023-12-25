@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
