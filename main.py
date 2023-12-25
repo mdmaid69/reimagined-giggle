@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
