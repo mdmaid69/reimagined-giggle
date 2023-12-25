@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_speed(distance, time):
+        return distance / time
