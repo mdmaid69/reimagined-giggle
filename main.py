@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
