@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
