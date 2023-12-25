@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def add_numbers(x, y):
+        return x + y
+  def is_odd(n):
+        return n % 2 != 0
