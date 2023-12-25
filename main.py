@@ -1,5 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
