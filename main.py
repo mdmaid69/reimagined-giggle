@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
