@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def square_number(x):
+        return x**2
