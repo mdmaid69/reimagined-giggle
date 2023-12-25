@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
