@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
