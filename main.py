@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def greet(name):
-        print(f"Hello, {name}!")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
