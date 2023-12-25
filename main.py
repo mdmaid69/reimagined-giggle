@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
