@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
