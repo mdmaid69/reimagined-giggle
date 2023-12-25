@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
