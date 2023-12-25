@@ -1,5 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
