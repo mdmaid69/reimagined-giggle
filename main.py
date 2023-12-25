@@ -1,4 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
