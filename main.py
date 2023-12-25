@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def count_elements(lst):
-        return len(lst)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
