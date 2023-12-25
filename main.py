@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_min(lst):
+        return min(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
