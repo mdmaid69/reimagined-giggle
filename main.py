@@ -1,8 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
