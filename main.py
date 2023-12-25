@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_tangent(x):
+        return math.tan(x)
