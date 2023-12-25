@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+print([x**2 for x in range(10)])
