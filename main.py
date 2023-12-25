@@ -1,5 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import datetime
-print(datetime.datetime.now())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_today_date():
+        return datetime.date.today()
