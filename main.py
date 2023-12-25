@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_unique_words(sentence):
+        return set(sentence.split())
