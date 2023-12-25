@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def clear_array(array):
+        array *= 0
