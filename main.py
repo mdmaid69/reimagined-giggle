@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def reverse_list(lst):
+        return lst[::-1]
