@@ -1,6 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
