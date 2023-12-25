@@ -1,5 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
