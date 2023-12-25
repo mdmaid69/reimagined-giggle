@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_set(array):
+        return set(array)
+import platform
+def get_os_info():
+        return platform.uname()
