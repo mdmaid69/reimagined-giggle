@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_to_hex(n):
+        return hex(n)
+def convert_to_octal(n):
+        return oct(n)
