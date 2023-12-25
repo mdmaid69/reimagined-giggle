@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def find_min(lst):
+        return min(lst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
