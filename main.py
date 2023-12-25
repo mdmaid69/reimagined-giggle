@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
