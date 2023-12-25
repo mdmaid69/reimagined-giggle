@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_factorial(n):
+        return math.factorial(n)
