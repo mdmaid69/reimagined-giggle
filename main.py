@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
