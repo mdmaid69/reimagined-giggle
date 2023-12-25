@@ -1,6 +1,5 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def change_working_directory(path):
+        os.chdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
