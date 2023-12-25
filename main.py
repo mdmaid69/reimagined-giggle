@@ -1,6 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
