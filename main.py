@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def square_number(x):
+        return x**2
+import os
+def get_current_working_directory():
+        return os.getcwd()
