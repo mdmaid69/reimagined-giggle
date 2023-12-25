@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
