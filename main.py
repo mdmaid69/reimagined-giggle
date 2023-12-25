@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
