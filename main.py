@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
