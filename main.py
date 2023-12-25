@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
