@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import collections
-def create_stack():
-        return collections.deque()
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
