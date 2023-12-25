@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_binary(n):
-        return bin(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_repr(array):
+        return repr(array)
