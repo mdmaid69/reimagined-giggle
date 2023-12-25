@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
