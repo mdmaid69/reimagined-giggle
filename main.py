@@ -1,5 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
