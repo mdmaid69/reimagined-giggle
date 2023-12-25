@@ -1,8 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def sort_numbers(numbers):
+        return sorted(numbers)
