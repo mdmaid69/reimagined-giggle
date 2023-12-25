@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
