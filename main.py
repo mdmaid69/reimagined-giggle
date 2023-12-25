@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
