@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
