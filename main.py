@@ -1,11 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
