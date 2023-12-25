@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def cube_number(x):
-        return x**3
+import collections
+def create_stack():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
