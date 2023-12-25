@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_sine(x):
+        return math.sin(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
