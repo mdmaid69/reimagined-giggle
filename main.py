@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
