@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
