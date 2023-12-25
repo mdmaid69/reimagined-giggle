@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import numpy as np
+print(np.array([1, 2, 3]))
