@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
