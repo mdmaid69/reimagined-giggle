@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_speed(distance, time):
+        return distance / time
