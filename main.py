@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
