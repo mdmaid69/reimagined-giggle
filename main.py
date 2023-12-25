@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import time
-def get_current_time():
-        return time.ctime()
+  def is_odd(n):
+        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
