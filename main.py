@@ -1,5 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
