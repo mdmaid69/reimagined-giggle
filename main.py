@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+for i in range(5):
+        print(i)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
