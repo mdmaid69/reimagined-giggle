@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
