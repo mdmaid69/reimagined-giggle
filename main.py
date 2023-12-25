@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+from collections import Counter
+print(Counter("hello world"))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
