@@ -1,7 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
