@@ -1,6 +1,9 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
