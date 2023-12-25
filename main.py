@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
