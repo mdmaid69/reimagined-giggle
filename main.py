@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
