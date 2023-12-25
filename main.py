@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_user_string():
-        return collections.UserString()
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_set(array):
+        return set(array)
