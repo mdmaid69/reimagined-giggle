@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def cube_number(x):
+        return x**3
