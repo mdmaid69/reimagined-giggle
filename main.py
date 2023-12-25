@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
