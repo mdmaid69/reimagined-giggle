@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def create_stack():
+        return collections.deque()
