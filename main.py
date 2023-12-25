@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
