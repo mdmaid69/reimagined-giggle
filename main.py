@@ -1,8 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def count_words(sentence):
+        return len(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
