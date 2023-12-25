@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
