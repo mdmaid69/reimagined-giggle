@@ -1,8 +1,5 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
