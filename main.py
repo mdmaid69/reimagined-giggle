@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_list_from_array(array):
-        return array.tolist()
+for i in range(10): print(i)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
