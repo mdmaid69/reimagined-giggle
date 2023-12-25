@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import datetime
-def get_today_date():
+def get_current_date():
         return datetime.date.today()
