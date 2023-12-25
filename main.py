@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
