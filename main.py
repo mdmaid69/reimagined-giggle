@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
