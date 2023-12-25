@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+print(sys.version)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
