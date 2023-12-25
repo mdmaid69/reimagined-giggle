@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
