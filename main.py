@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
