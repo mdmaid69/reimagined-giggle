@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
