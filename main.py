@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
