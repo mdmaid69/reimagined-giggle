@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_bytes(array):
+        return bytes(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
