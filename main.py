@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+        reader = csv.reader(f)
+        return list(reader)
