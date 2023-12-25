@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
