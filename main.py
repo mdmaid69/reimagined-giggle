@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import tensorflow as tf
-print(tf.__version__)
+def count_elements(iterable):
+        return collections.Counter(iterable)
