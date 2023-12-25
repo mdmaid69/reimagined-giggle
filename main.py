@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def count_characters(sentence):
+        return len(sentence)
