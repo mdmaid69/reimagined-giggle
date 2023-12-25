@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
