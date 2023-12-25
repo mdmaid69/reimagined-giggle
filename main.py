@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
