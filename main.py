@@ -1,5 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def is_odd(n):
-        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
