@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print([x**2 for x in range(10)])
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
