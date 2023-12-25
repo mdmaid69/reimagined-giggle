@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
