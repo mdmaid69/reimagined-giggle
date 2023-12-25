@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
