@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def is_even(n):
+        return n % 2 == 0
