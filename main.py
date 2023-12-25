@@ -1,8 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
