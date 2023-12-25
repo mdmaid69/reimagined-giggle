@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+for i in range(5):
+        print(i)
+import sys
+def print_python_version():
+        return sys.version
