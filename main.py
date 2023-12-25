@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def square_number(x):
+        return x**2
+def is_even(n):
+        return n % 2 == 0
