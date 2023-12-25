@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
