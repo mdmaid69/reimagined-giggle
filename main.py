@@ -1,4 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-for i in range(10): print(i)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
