@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+i = 0
+while i < 5:
+        print(i)
+        i += 1
