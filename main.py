@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
