@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
