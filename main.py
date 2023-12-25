@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_acceleration(speed, time):
-        return speed / time
+import datetime
+def get_today_date():
+        return datetime.date.today()
+x = 10
+y = 20
+print("Sum:", x + y)
