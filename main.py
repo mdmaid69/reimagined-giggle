@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
