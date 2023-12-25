@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
