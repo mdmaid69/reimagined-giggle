@@ -1,5 +1,9 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import time
-print(time.time())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
