@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
