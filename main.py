@@ -1,8 +1,7 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
