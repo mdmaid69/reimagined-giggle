@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import time
+print(time.time())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
