@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def divide_numbers(x, y):
+        return x / y
 import time
-def get_current_time():
-        return time.ctime()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
