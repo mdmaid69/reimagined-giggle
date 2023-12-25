@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
