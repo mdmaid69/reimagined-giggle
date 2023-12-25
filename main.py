@@ -1,5 +1,7 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_work(force, distance):
-        return force * distance
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
