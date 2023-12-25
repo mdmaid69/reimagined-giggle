@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
