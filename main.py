@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
