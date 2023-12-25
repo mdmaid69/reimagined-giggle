@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def create_user_string():
+        return collections.UserString()
