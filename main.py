@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tensorflow as tf
+print(tf.__version__)
+text = "Hello, world!"
+print("Words:", len(text.split()))
