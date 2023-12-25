@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
