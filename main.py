@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
