@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def find_min(lst):
+        return min(lst)
