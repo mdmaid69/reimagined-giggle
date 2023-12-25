@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
