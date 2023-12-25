@@ -1,6 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
