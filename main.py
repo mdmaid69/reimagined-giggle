@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
