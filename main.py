@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
