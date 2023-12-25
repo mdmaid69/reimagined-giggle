@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
