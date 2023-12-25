@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
