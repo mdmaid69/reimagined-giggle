@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
