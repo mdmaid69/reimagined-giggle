@@ -1,5 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
