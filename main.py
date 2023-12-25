@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
