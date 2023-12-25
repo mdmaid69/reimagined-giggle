@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def square_number(x):
+        return x**2
+import os
+def get_current_working_directory():
+        return os.getcwd()
