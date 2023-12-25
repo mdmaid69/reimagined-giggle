@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
