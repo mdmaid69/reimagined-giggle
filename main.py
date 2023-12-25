@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
