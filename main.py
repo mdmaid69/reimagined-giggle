@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
