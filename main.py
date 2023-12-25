@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
