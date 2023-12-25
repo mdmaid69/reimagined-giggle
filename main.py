@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
