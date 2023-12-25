@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
