@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
