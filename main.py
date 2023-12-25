@@ -1,6 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
