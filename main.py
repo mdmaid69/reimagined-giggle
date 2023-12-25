@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
