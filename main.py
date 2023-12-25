@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
