@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
