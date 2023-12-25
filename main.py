@@ -1,4 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-for i in range(10): print(i)
+import datetime
+print(datetime.datetime.now())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
