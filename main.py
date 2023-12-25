@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
