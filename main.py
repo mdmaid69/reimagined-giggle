@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import datetime
+print(datetime.datetime.now())
