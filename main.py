@@ -1,3 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-print([x**2 for x in range(10)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
