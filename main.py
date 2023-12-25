@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
