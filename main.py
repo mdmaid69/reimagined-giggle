@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+for i in range(5):
+        print(i)
+import time
+def get_current_time():
+        return time.time()
