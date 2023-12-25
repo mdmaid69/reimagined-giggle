@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_queue():
+        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
