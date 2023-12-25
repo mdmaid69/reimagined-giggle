@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+print(datetime.datetime.now())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
