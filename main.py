@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
