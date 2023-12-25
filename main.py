@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import array
-def get_array_as_str(array):
-        return str(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
