@@ -1,8 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
