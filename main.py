@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
