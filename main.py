@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
