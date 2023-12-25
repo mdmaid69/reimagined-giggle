@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
