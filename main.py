@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
