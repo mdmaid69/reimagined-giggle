@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import tensorflow as tf
-print(tf.__version__)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
