@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
