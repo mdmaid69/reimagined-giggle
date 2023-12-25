@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def convert_to_octal(n):
-        return oct(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
