@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
