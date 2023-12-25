@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
