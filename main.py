@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_pressure(force, area):
-        return force / area
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
