@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
