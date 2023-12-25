@@ -1,5 +1,10 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
