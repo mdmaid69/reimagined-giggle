@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
