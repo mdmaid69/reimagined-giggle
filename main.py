@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def cube_number(x):
-        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
