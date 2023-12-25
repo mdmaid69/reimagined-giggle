@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
