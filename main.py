@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
