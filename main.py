@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
