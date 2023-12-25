@@ -1,6 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
