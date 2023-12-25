@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
