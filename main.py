@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_max(numbers):
+        return max(numbers)
+  def sort_list(lst):
+        return sorted(lst)
