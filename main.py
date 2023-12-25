@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def subtract_numbers(x, y):
+        return x - y
