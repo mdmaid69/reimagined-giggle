@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def is_even(n):
+        return n % 2 == 0
