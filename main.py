@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
