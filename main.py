@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
