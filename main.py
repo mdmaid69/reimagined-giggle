@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Characters:", len(text))
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
