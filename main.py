@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-text = "Hello, world!"
-print("Characters:", len(text))
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
