@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
