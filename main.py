@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def is_odd(n):
+        return n % 2 != 0
 import random
-print(random.randint(0, 100))
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
