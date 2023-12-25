@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_pressure(force, area):
+        return force / area
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
