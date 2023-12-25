@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
