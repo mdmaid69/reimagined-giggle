@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
