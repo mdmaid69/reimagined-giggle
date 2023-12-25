@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def cube_number(x):
+        return x**3
+import array
+def get_array_itemsize(array):
+        return array.itemsize
