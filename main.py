@@ -1,6 +1,9 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
