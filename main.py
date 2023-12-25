@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_tangent(x):
+        return math.tan(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
