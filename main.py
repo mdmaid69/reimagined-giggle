@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
