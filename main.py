@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
