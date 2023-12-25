@@ -1,6 +1,8 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def reverse_array(array):
-        array.reverse()
+def get_current_working_directory():
+        return os.getcwd()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
