@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
