@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
