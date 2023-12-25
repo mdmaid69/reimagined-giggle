@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def reverse_list(lst):
+        return lst[::-1]
