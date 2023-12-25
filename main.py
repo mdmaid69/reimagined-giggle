@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
