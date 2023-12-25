@@ -1,5 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def subtract_numbers(x, y):
-        return x - y
+def get_array_item_count(array, item):
+        return array.count(item)
+import collections
+def create_user_string():
+        return collections.UserString()
