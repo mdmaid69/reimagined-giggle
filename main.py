@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
