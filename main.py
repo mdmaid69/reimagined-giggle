@@ -1,4 +1,10 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-for i in range(5):
-        print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
