@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
