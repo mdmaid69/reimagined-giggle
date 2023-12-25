@@ -1,4 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
