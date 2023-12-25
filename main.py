@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def square_number(x):
+        return x**2
