@@ -1,6 +1,7 @@
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
