@@ -1,5 +1,10 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
