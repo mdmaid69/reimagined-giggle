@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def count_elements(lst):
+        return len(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
