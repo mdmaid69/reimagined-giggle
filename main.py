@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
