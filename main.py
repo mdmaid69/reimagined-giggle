@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
