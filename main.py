@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
