@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_typecode(array):
+        return array.typecode
+def calculate_power(work, time):
+        return work / time
