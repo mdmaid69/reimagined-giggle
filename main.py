@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_min(lst):
+        return min(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
