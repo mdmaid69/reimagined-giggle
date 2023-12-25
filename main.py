@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
