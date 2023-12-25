@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
