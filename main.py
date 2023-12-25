@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def square_number(x):
-        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
