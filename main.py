@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_exponential(x):
+        return math.exp(x)
