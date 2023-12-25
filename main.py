@@ -1,6 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
