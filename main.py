@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
