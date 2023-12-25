@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_as_bytearray(array):
+        return bytearray(array)
