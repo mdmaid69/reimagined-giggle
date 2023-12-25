@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
