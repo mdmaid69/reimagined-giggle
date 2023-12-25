@@ -1,6 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
