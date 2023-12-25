@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_bool(array):
+        return bool(array)
