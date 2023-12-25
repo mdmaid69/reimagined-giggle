@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
