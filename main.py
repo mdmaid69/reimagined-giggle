@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_permissions(file_name):
+  def get_file_mode(file_name):
         return os.stat(file_name).st_mode
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
