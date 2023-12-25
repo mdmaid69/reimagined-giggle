@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def append_to_array(array, item):
+        array.append(item)
