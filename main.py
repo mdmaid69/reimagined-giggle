@@ -1,6 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
