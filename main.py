@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
