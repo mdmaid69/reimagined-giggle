@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
