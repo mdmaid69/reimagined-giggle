@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
