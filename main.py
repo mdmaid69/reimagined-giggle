@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
