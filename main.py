@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
