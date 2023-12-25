@@ -1,8 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
