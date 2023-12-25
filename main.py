@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def find_max(lst):
+        return max(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
