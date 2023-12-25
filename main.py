@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
