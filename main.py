@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
