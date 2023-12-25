@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
