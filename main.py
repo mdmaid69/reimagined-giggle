@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import time
-def get_current_time():
-        return time.ctime()
+  def add_numbers(x, y):
+        return x + y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
