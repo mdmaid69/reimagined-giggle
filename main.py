@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
