@@ -1,8 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
