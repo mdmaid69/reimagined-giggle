@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
