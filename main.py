@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
