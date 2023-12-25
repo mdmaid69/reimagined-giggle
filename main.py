@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def reverse_array(array):
-        array.reverse()
+  def square_number(x):
+        return x**2
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
