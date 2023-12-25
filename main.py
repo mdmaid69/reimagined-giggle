@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
