@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-print(datetime.datetime.now())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_area_rectangle(l, w):
+        return l * w
