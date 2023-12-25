@@ -1,7 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
