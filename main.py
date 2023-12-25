@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def convert_to_hex(n):
+        return hex(n)
