@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
