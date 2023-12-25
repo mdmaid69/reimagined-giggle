@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def subtract_numbers(x, y):
+        return x - y
+  def remove_duplicates(lst):
+        return list(set(lst))
