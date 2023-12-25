@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
