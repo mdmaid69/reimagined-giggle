@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def divide_numbers(x, y):
+        return x / y
