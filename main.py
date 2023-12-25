@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
