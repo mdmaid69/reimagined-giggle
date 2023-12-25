@@ -1,6 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_tuple(array):
+        return tuple(array)
