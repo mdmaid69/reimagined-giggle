@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import time
-print(time.time())
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
