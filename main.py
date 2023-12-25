@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
