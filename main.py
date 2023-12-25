@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
