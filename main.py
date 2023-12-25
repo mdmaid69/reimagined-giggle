@@ -1,10 +1,4 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
