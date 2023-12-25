@@ -1,7 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
