@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import time
-print(time.time())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def add_numbers(a, b):
+        return a + b
