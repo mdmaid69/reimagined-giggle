@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
