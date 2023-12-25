@@ -1,4 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  def is_even(n):
+        return n % 2 == 0
