@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
