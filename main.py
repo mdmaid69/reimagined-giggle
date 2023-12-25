@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
