@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
