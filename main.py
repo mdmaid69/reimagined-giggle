@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
