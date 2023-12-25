@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_area_rectangle(l, w):
+        return l * w
