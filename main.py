@@ -1,5 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_as_complex(array):
+        return complex(array[0])
