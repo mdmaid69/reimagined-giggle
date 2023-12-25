@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import time
+def get_time_since_epoch():
+        return time.time()
