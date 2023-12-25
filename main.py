@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
