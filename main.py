@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
