@@ -1,10 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
