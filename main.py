@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
