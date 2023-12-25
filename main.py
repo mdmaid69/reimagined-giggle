@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
