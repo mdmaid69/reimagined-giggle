@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def sort_list(lst):
+        return sorted(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
