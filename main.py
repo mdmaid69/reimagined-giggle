@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
