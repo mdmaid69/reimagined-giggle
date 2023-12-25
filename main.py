@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
