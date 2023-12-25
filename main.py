@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
