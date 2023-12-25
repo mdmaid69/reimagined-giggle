@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
