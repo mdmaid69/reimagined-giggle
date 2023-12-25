@@ -1,5 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def reverse_string(s):
-        return s[::-1]
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
