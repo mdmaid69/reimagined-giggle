@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
