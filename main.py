@@ -1,5 +1,9 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
