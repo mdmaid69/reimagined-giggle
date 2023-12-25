@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
