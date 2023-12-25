@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_sine(x):
+        return math.sin(x)
