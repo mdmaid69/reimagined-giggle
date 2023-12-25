@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
