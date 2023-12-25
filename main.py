@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
