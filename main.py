@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
