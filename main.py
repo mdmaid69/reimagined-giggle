@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
