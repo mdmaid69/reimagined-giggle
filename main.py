@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
