@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def is_odd(n):
-        return n % 2 != 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
