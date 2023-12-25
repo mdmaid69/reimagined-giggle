@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
