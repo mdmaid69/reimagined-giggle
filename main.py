@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(x, y):
+        return x + y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
