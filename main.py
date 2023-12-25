@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
