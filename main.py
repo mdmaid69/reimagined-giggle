@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import datetime
+def get_today_date():
+        return datetime.date.today()
