@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_pressure(force, area):
+        return force / area
