@@ -1,5 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import getpass
+def get_username():
+        return getpass.getuser()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
