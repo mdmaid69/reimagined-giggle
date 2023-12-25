@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
