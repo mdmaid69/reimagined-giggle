@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def convert_to_octal(n):
+        return oct(n)
