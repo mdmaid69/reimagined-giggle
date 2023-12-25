@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_area_rectangle(l, w):
+        return l * w
