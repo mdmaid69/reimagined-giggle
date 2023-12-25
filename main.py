@@ -1,11 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
