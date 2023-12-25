@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
