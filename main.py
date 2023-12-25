@@ -1,10 +1,9 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
