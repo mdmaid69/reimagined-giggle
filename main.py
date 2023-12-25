@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
