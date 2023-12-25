@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
