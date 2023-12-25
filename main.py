@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
