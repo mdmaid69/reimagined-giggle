@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
