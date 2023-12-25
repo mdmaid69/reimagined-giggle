@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
