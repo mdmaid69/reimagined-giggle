@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def is_even(n):
+        return n % 2 == 0
