@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
