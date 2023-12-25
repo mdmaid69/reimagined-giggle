@@ -1,6 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import time
+def get_current_time():
+        return time.ctime()
