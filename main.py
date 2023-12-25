@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
