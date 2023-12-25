@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
