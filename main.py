@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import platform
-def get_os_info():
-        return platform.uname()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
