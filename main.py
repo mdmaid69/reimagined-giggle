@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
