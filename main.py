@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def reverse_list(lst):
-        return lst[::-1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def add_numbers(x, y):
+        return x + y
