@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_power(work, time):
+        return work / time
