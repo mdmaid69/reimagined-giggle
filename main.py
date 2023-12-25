@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_typecode(array):
+        return array.typecode
