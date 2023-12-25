@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def is_even(n):
-        return n % 2 == 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
