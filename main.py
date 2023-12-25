@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import time
-def get_current_time():
-        return time.time()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
