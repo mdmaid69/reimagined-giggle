@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def sort_list(lst):
-        return sorted(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
