@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
