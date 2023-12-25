@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_item(array, i):
+        return array[i]
