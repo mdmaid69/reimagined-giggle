@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
