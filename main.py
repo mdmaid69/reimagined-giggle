@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import datetime
-print(datetime.datetime.now())
+for i in range(10): print(i)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
