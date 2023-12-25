@@ -1,6 +1,7 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_pressure(force, area):
+        return force / area
