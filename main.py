@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_counter():
+        return collections.Counter()
