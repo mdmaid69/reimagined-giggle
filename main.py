@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
