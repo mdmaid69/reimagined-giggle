@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
