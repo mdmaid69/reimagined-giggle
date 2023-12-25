@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
