@@ -1,5 +1,10 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
