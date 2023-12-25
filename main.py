@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
