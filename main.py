@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
