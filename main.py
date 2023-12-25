@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
