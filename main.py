@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
