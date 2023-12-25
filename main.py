@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
