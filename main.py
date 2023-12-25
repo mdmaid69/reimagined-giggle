@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
