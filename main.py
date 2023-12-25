@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
