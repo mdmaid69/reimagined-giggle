@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_area_rectangle(l, w):
+        return l * w
