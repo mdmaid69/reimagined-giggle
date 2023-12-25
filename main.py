@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def multiply_numbers(x, y):
-        return x * y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
