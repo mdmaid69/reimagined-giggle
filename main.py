@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def find_min(numbers):
-        return min(numbers)
+def cube_number(x):
+        return x**3
+def find_max(lst):
+        return max(lst)
