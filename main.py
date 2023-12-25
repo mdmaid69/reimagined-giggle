@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def convert_to_binary(n):
+        return bin(n)
+  def count_elements(lst):
+        return len(lst)
