@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
