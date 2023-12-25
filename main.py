@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
