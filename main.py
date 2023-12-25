@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
