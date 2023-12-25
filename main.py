@@ -1,4 +1,5 @@
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
