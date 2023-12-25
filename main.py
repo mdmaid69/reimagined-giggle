@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def exit_program():
+        sys.exit()
+  def multiply_numbers(x, y):
+        return x * y
