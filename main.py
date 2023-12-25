@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
