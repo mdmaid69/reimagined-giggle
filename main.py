@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
