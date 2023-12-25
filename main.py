@@ -1,7 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import sys
+def exit_program():
+        sys.exit()
+import math
+print(math.pi)
