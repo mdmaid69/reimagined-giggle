@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
