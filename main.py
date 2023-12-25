@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
