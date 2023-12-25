@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
