@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def clear_array(array):
+        array *= 0
