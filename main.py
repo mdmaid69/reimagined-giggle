@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
