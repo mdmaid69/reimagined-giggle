@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
