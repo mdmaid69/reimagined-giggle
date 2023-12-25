@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
