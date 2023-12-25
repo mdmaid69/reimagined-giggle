@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_item(array, i):
-        return array[i]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+for i in range(5):
+        print(i)
