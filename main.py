@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
