@@ -1,4 +1,8 @@
-def cube_number(x):
-        return x**3
-  def add_numbers(x, y):
-        return x + y
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import array
+def set_array_item(array, i, item):
+        array[i] = item
