@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
