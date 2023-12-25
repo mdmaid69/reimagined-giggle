@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_current_directory():
+        return os.getcwd()
