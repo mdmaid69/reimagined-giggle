@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
