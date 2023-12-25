@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def multiply_numbers(x, y):
+        return x * y
