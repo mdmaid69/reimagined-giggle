@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
