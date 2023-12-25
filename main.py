@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def greet(name):
-        print(f"Hello, {name}!")
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
