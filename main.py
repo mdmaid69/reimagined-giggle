@@ -1,5 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def add_numbers(x, y):
-        return x + y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
