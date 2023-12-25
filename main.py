@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
