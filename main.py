@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
