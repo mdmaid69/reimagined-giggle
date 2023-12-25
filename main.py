@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def subtract_numbers(x, y):
+        return x - y
