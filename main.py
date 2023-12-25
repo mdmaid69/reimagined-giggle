@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
