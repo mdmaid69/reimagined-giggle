@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def remove_duplicates(lst):
+        return list(set(lst))
