@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_stack():
+        return collections.deque()
