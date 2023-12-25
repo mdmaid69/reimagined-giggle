@@ -1,7 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
