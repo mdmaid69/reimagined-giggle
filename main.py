@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_absolute_value(x):
+        return math.fabs(x)
