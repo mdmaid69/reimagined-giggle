@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def is_odd(n):
+        return n % 2 != 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
