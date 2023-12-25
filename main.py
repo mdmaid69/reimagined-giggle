@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
