@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def count_elements(lst):
+        return len(lst)
+  def add_numbers(x, y):
+        return x + y
