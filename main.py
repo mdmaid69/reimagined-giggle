@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
