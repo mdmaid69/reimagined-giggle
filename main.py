@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+print(sum(range(10)))
