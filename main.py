@@ -1,4 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
