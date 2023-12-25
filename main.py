@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def square_number(x):
-        return x**2
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
