@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_list(array):
+        return list(array)
