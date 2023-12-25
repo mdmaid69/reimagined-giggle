@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
