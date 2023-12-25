@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
