@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def square_number(x):
-        return x**2
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
