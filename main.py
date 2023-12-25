@@ -1,6 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def get_array_as_str(array):
+        return str(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
