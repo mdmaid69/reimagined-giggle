@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
