@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
