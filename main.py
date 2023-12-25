@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
