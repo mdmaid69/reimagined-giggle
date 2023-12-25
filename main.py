@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
