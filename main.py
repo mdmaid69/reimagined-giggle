@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def subtract_numbers(x, y):
+        return x - y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
