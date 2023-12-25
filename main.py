@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import collections
-def create_queue():
+def create_stack():
         return collections.deque()
-def find_max(numbers):
-        return max(numbers)
