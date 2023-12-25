@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
