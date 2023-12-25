@@ -1,6 +1,8 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
