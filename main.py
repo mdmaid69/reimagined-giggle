@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def cube_number(x):
+        return x**3
