@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import collections
+def create_stack():
+        return collections.deque()
