@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
