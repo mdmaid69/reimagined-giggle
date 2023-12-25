@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def add_numbers(x, y):
+        return x + y
