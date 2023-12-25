@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
