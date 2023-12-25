@@ -1,7 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
