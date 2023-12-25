@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
