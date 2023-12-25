@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
