@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def convert_array_to_list(array):
+        return array.tolist()
