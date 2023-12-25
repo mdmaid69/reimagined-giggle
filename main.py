@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
