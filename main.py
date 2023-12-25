@@ -1,4 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-def find_min(lst):
-        return min(lst)
+def calculate_speed(distance, time):
+        return distance / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
