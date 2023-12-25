@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
