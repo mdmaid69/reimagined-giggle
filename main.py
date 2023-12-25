@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import datetime
+print(datetime.datetime.now())
