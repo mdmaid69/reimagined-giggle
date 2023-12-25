@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_floor(x):
+        return math.floor(x)
