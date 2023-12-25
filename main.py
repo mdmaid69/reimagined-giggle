@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def cube_number(x):
+        return x**3
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
