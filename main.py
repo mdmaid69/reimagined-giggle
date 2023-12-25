@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
