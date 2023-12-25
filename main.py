@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
