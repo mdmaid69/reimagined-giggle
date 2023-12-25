@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
