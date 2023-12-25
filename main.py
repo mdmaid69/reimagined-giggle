@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import platform
+def get_os_info():
+        return platform.uname()
