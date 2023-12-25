@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
