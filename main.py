@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_python_version():
+        return platform.python_version()
