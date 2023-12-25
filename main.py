@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
