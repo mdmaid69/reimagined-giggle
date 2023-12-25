@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import time
-print(time.time())
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
