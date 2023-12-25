@@ -1,8 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
