@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
