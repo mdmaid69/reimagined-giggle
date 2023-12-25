@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
