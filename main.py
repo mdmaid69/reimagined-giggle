@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
