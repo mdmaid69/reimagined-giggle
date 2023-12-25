@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
