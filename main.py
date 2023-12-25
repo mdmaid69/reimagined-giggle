@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def reverse_list(lst):
+        return lst[::-1]
