@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
