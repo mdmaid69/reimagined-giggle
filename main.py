@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
