@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
