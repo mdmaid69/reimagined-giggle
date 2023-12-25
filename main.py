@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def count_words(sentence):
+        return len(sentence.split())
