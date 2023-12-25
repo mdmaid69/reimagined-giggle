@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_item(array, i):
-        return array[i]
+  def square_number(x):
+        return x**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
