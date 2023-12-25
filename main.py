@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
