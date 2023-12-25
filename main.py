@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def reverse_list(lst):
+        return lst[::-1]
