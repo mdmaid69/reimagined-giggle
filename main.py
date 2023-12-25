@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
