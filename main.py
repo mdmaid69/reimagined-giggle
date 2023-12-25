@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def greet(name):
+        print(f"Hello, {name}!")
