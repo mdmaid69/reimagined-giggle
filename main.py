@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_acceleration(speed, time):
+        return speed / time
