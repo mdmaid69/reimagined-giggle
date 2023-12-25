@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
