@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_volume(length, width, height):
+        return length * width * height
