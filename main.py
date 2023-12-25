@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
