@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tensorflow as tf
+print(tf.__version__)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
