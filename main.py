@@ -1,5 +1,12 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  def convert_to_hex(n):
-        return hex(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
