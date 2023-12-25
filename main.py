@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-for i in range(5):
-        print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def divide_numbers(x, y):
+        return x / y
