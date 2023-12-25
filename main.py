@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
