@@ -1,5 +1,7 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
