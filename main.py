@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
