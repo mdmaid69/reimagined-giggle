@@ -1,4 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-print([x**2 for x in range(10)])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
