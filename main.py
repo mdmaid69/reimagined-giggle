@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
