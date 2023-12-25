@@ -1,5 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
