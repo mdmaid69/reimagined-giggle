@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
