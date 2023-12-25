@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_power(work, time):
+        return work / time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
