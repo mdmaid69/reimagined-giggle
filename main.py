@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
