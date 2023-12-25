@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
