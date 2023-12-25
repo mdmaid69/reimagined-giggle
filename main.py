@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
