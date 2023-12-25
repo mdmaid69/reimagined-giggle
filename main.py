@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_work(force, distance):
+        return force * distance
