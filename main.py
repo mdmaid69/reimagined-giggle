@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
