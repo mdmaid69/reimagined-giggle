@@ -1,8 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
