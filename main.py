@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
