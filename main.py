@@ -1,7 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
