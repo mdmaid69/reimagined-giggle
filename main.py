@@ -1,5 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_array_as_list(array):
+        return list(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
