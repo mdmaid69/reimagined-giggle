@@ -1,9 +1,9 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
