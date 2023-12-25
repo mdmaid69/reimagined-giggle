@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+print(random.randint(0, 100))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
