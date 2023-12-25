@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def divide_numbers(x, y):
+        return x / y
