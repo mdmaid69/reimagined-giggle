@@ -1,6 +1,11 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def append_to_array(array, item):
+        array.append(item)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
