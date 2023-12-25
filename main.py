@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_pressure(force, area):
+        return force / area
