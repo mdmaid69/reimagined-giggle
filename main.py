@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
