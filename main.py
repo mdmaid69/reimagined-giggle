@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+def get_current_working_directory():
+        return os.getcwd()
