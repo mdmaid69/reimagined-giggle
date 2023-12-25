@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
