@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
