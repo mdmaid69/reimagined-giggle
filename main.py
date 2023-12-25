@@ -1,8 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
