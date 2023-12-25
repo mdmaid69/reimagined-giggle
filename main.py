@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_power(work, time):
-        return work / time
+def clear_array(array):
+        array *= 0
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
