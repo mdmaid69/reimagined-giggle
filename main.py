@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
