@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
