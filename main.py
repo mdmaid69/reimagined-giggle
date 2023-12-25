@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
