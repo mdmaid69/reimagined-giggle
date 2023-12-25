@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+print([x**2 for x in range(10)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
