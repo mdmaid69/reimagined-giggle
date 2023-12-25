@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
