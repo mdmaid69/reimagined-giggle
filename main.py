@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
