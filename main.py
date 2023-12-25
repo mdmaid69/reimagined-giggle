@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tensorflow as tf
-print(tf.__version__)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
