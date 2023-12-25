@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-text = "Hello, world!"
-print("Characters:", len(text))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
