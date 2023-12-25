@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
