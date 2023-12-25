@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
