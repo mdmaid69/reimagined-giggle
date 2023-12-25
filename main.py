@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import sys
+def exit_program():
+        sys.exit()
