@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
