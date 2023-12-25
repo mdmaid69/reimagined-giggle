@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
