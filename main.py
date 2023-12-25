@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_user_list():
+        return collections.UserList()
