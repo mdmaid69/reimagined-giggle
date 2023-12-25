@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
