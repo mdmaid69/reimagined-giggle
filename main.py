@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
