@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
