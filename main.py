@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-print(os.getcwd())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
