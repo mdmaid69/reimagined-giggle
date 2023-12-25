@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def sort_list(lst):
-        return sorted(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
