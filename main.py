@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
