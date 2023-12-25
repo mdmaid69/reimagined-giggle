@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_unique_words(sentence):
+        return set(sentence.split())
