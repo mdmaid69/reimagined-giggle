@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
