@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
