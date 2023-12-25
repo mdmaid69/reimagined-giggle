@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
