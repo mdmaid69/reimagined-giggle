@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
