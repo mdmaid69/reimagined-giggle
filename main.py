@@ -1,4 +1,4 @@
-import time
-print(time.time())
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def divide_numbers(x, y):
+        return x / y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
