@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
