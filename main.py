@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import time
+def get_current_time():
+        return time.time()
