@@ -1,5 +1,7 @@
-import math
-print(math.pi)
-import platform
-def get_os_info():
-        return platform.uname()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
