@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_str(array):
+        return str(array)
