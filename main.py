@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sys
-def exit_program():
-        sys.exit()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
