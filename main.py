@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
