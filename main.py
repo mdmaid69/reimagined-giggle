@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def cube_number(x):
+        return x**3
