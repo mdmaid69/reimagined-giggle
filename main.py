@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def is_even(n):
+        return n % 2 == 0
