@@ -1,8 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
