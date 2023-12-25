@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
