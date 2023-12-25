@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
