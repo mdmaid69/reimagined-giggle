@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
