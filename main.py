@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
