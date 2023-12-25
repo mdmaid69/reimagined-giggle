@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def get_bytes_from_array(array):
+        return array.tobytes()
