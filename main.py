@@ -1,5 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_density(mass, volume):
-        return mass / volume
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
