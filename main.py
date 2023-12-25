@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_bool(array):
+        return bool(array)
