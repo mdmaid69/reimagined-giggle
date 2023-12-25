@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
