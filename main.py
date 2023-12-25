@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
