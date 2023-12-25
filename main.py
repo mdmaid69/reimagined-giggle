@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_repr(array):
+        return repr(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
