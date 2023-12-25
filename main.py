@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
