@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import xml.etree.ElementTree as ET
 root = ET.Element("root")
 doc = ET.SubElement(root, "doc")
