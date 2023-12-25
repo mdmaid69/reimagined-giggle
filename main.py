@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
