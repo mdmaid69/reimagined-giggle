@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
