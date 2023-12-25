@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_list_from_array(array):
+        return array.tolist()
