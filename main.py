@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_counter():
+        return collections.Counter()
