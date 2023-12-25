@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
