@@ -1,5 +1,10 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
