@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
