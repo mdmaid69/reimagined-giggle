@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def subtract_numbers(x, y):
+        return x - y
