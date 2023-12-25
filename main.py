@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
