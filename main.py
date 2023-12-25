@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def remove_from_array(array, item):
+        array.remove(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
