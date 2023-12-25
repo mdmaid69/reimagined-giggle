@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
