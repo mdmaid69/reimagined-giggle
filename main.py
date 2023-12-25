@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Characters:", len(text))
