@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
