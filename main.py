@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  def sort_list(lst):
+        return sorted(lst)
