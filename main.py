@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
