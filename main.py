@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def remove_from_array(array, item):
+        array.remove(item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
