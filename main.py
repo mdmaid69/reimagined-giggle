@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
