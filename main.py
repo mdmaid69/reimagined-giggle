@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_today_date():
+        return datetime.date.today()
