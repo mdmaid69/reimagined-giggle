@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
