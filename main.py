@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
