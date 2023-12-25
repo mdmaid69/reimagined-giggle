@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-print(math.pi)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
