@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
