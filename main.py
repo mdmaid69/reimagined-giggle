@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import datetime
+def get_current_date():
+        return datetime.date.today()
