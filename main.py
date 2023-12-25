@@ -1,6 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
