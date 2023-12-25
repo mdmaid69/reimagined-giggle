@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
