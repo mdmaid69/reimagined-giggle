@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def set_array_item(array, i, item):
+        array[i] = item
