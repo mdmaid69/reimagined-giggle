@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def get_array_typecode(array):
+        return array.typecode
+import array
+def append_to_array(array, item):
+        array.append(item)
