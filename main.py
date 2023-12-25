@@ -1,5 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
