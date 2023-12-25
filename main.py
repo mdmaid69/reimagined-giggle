@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_max(numbers):
-        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
