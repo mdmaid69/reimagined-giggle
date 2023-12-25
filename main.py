@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
