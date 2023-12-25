@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
