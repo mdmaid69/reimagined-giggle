@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
