@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
