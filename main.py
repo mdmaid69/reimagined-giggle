@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
