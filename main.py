@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
