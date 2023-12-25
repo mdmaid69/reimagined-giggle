@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_min(lst):
-        return min(lst)
+def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
