@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
