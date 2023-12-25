@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def add_numbers(a, b):
+        return a + b
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
