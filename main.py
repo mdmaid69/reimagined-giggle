@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
