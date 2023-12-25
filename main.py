@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
