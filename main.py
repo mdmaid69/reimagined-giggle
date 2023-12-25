@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_elements(lst):
-        return len(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
