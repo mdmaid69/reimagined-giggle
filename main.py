@@ -1,5 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
