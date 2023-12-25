@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def convert_to_binary(n):
+        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
