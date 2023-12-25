@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def find_min(lst):
+        return min(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
