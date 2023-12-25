@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
