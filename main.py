@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
