@@ -1,5 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
