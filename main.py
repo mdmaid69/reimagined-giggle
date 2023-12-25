@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
