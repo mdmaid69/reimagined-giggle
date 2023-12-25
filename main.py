@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
