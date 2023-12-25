@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
