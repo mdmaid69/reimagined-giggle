@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
