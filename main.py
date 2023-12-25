@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
