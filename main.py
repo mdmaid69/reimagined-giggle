@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
