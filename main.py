@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
