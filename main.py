@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
