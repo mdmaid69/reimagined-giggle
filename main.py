@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print("Hello, world!")
+  import sys
+  def get_python_version():
+        return sys.version
