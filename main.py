@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_pressure(force, area):
+        return force / area
