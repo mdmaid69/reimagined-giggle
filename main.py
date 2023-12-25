@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
