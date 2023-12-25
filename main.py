@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def find_min(lst):
+        return min(lst)
