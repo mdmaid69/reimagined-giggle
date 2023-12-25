@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
