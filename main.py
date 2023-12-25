@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
