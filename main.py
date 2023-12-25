@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
