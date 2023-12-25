@@ -1,6 +1,10 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
