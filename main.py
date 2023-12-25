@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_as_bool(array):
+        return bool(array)
