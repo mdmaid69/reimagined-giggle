@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
