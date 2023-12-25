@@ -1,6 +1,12 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
