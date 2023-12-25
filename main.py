@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def is_odd(n):
+        return n % 2 != 0
