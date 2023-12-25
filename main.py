@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
