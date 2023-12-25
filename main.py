@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
