@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
