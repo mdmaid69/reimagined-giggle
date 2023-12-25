@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
