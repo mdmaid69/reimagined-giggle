@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
