@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def print_python_version():
+        return sys.version
