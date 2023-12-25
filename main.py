@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import sys
-def print_python_version():
-        print(sys.version)
+print(sys.version)
