@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
