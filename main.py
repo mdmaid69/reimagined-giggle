@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
