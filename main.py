@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_index(array, item):
+        return array.index(item)
