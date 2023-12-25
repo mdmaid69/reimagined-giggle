@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_slice(array, i, j):
+        return array[i:j]
