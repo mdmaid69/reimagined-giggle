@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
