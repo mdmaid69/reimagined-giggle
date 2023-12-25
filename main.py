@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
