@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Uppercase:", text.upper())
