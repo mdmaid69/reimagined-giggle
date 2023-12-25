@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
