@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def reverse_string(s):
-        return s[::-1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
