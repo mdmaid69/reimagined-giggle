@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def print_python_version():
+        return sys.version
