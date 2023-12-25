@@ -1,5 +1,9 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
