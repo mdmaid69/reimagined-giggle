@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
