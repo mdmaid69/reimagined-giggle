@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
