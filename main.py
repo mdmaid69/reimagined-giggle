@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
