@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
