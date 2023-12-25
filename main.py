@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def convert_to_octal(n):
+        return oct(n)
