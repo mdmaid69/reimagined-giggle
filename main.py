@@ -1,8 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+for i in range(5):
+        print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
