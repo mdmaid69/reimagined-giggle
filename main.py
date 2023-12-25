@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
