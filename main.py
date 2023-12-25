@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
