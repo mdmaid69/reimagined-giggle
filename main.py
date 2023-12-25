@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-print(math.pi)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
