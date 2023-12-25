@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
