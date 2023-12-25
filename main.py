@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
