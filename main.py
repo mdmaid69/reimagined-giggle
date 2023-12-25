@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
