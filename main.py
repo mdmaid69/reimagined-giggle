@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
