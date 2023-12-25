@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import time
-def get_current_time():
-        return time.ctime()
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
