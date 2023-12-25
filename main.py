@@ -1,6 +1,10 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
