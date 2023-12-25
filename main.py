@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
