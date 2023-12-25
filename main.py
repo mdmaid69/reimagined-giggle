@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
