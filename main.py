@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def is_even(n):
+        return n % 2 == 0
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
