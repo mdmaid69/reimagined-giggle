@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_float(array):
+        return float(array[0])
