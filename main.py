@@ -1,7 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
