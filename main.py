@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def clear_array(array):
+        array *= 0
