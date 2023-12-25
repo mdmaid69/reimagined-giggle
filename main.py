@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
