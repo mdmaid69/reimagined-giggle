@@ -1,5 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
