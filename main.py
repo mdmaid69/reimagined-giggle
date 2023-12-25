@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
