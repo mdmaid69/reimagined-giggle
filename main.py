@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
