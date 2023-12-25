@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import datetime
-print(datetime.datetime.now())
+def find_max(numbers):
+        return max(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
