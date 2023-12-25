@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
