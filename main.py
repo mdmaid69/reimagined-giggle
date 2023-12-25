@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+for i in range(5):
+        print(i)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
