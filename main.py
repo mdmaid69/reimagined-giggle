@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
