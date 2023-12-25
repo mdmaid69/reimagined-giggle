@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_max(lst):
+        return max(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
