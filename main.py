@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
