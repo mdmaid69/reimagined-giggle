@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
