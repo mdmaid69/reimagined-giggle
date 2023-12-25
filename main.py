@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
