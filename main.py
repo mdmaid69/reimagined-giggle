@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_user_string():
-        return collections.UserString()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
