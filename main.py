@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
