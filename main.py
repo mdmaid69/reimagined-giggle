@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def roll_die():
+        return random.randint(1, 6)
