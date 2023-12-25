@@ -1,6 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_power(work, time):
+        return work / time
+  def cube_number(x):
+        return x**3
