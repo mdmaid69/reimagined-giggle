@@ -1,7 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import collections
+def create_counter():
+        return collections.Counter()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
