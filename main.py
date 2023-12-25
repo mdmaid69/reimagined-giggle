@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
