@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
