@@ -1,5 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
