@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
