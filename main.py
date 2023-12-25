@@ -1,5 +1,4 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+print([x**2 for x in range(10)])
