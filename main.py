@@ -1,7 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
