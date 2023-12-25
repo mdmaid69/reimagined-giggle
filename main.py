@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
