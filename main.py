@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def cube_number(x):
-        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
