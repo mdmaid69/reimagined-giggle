@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_as_float(array):
+        return float(array[0])
