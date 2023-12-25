@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
