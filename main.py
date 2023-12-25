@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
