@@ -1,8 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
