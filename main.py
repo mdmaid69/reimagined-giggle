@@ -1,5 +1,8 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def is_odd(n):
-        return n % 2 != 0
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
