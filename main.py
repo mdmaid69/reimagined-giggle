@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def clear_array(array):
-        array *= 0
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
