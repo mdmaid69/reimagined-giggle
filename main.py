@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
