@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
