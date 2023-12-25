@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
