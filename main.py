@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
