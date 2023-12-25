@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_work(force, distance):
+        return force * distance
+def calculate_volume(length, width, height):
+        return length * width * height
