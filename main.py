@@ -1,8 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
