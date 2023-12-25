@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def count_characters(sentence):
-        return len(sentence)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
