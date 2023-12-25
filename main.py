@@ -1,5 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-name = "Python"
-print("Hello,", name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def is_palindrome(s):
+        return s == s[::-1]
