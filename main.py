@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def cube_number(x):
-        return x**3
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
