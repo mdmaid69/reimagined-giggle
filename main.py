@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_acceleration(speed, time):
-        return speed / time
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
