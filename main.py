@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+print("Hello, world!")
