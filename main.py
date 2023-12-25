@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
