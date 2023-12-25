@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import datetime
-print(datetime.datetime.now())
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
