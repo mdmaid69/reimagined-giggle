@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
