@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
