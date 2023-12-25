@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
