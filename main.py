@@ -1,5 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_sine(x):
+        return math.sin(x)
