@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import random
+print(random.randint(0, 100))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
