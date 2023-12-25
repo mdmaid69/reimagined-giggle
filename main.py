@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def count_elements(lst):
+        return len(lst)
