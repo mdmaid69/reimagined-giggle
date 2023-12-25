@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_power(work, time):
+        return work / time
