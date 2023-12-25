@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
