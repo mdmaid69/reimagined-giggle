@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
