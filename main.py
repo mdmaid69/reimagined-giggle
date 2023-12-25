@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
