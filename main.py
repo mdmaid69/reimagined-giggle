@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def cube_number(x):
-        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
