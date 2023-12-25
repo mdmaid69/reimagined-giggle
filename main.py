@@ -1,5 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
