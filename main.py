@@ -1,5 +1,7 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
