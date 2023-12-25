@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
