@@ -1,5 +1,8 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_volume(length, width, height):
-        return length * width * height
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
