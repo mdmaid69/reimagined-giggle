@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
