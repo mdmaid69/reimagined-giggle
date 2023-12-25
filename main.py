@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_even(n):
-        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
