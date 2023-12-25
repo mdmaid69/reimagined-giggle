@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
