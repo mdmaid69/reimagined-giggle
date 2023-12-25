@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
