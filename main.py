@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_unique_words(sentence):
+        return set(sentence.split())
