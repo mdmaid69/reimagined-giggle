@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
