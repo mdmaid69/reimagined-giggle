@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
