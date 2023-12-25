@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import collections
-def create_stack():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.time()
+def create_user_dict():
+        return collections.UserDict()
