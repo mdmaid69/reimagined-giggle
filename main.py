@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def is_even(n):
+        return n % 2 == 0
