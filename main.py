@@ -1,6 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
