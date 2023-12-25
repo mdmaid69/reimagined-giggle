@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_work(force, distance):
+        return force * distance
+def find_max(numbers):
+        return max(numbers)
