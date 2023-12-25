@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
