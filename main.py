@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
