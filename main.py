@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_list(array):
+        return list(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
