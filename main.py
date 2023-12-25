@@ -1,6 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
