@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def convert_to_binary(n):
-        return bin(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
