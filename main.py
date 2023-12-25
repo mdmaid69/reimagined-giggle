@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def sort_list(lst):
-        return sorted(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
