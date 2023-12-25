@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
