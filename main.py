@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def cube_number(x):
+        return x**3
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
