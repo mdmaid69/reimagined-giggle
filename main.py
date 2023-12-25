@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
