@@ -1,7 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import platform
+def get_os_info():
+        return platform.uname()
+def greet(name):
+        print(f"Hello, {name}!")
