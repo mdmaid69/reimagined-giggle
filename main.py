@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
