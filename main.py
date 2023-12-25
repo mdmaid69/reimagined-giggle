@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
