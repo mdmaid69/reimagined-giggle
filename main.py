@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
