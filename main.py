@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
