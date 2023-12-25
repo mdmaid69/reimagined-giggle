@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
