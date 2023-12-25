@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
