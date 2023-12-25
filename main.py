@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
