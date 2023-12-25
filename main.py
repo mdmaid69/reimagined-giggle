@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
