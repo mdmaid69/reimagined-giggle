@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
