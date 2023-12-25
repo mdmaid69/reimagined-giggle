@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def cube_number(x):
+        return x**3
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
