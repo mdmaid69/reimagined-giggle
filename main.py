@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_pressure(force, area):
-        return force / area
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_work(force, distance):
+        return force * distance
