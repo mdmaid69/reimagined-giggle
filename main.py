@@ -1,5 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
