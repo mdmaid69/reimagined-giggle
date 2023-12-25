@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
