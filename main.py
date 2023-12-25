@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
