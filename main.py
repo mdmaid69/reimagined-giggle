@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
