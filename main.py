@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_power(work, time):
-        return work / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def clear_array(array):
+        array *= 0
