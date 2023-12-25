@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
