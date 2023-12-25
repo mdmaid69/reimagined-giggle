@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
