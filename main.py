@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
