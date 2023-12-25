@@ -1,6 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_index(array, item):
+        return array.index(item)
