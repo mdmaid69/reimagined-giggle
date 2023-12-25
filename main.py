@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
