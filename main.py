@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+for i in range(10): print(i)
