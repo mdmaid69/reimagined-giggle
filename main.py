@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
