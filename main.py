@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def clear_array(array):
+        array *= 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
