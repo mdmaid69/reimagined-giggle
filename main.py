@@ -1,6 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
