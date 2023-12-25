@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def is_even(n):
+        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
