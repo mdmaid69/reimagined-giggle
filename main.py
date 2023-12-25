@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def count_words(sentence):
+        return len(sentence.split())
