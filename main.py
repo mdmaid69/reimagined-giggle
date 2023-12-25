@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def subtract_numbers(x, y):
+        return x - y
+def find_min(numbers):
+        return min(numbers)
