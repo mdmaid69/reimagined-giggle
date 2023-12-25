@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+for i in range(10): print(i)
