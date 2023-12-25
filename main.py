@@ -1,7 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
