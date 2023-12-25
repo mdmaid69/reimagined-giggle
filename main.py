@@ -1,8 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
