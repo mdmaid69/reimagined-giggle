@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_item_count(array, item):
+        return array.count(item)
