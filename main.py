@@ -1,5 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
