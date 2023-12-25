@@ -1,5 +1,7 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
