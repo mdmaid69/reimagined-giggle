@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
