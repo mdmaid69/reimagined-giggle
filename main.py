@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-print(math.pi)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
