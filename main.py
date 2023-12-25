@@ -1,3 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-for i in range(10): print(i)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
