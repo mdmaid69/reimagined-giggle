@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
