@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
