@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
