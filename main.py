@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
