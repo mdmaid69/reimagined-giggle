@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
