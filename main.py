@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
