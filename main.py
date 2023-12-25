@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
