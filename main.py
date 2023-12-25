@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
