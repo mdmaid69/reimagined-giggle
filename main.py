@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_volume(length, width, height):
+        return length * width * height
