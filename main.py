@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+text = "Hello, world!"
+print("Reversed:", text[::-1])
