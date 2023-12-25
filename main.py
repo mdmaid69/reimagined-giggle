@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_area_rectangle(l, w):
+        return l * w
