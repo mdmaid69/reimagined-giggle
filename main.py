@@ -1,10 +1,6 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import array
-def get_array_as_list(array):
-        return list(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
