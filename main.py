@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
