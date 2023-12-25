@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
