@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def convert_to_binary(n):
+        return bin(n)
