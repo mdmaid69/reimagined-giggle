@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import time
+print(time.time())
 import time
 def get_current_time():
-        return time.ctime()
+        return time.time()
