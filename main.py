@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
