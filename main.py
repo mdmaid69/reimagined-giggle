@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
