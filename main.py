@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
