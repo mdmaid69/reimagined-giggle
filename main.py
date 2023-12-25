@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_user_dict():
+        return collections.UserDict()
