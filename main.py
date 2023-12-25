@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
