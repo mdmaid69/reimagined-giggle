@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
