@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
