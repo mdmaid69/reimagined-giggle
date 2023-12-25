@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def subtract_numbers(x, y):
-        return x - y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
