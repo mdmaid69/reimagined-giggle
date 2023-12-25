@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
