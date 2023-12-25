@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
