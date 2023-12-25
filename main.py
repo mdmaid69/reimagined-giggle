@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
