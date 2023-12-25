@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
