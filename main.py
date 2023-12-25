@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def find_min(numbers):
-        return min(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_speed(distance, time):
+        return distance / time
