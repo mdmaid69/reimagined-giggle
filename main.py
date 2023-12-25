@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_power(work, time):
+        return work / time
