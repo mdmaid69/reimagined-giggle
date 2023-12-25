@@ -1,7 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
