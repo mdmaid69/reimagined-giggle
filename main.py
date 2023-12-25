@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
