@@ -1,5 +1,9 @@
-def cube_number(x):
-        return x**3
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
