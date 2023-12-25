@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
