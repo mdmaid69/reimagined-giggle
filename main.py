@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
+import socket
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
