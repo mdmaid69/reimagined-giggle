@@ -1,6 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
