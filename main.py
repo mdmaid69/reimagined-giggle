@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
