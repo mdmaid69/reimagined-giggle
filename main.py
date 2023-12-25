@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
