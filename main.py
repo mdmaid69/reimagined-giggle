@@ -1,9 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
