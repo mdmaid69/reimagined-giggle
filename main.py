@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_string():
+        return collections.UserString()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
