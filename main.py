@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
