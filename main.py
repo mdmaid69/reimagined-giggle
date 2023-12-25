@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
