@@ -1,7 +1,3 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+for i in range(10): print(i)
