@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
