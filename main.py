@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
