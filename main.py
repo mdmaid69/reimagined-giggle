@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
