@@ -1,7 +1,7 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def convert_to_binary(n):
+        return bin(n)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
