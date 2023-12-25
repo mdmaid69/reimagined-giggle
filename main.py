@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
