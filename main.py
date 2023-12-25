@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
