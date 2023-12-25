@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
