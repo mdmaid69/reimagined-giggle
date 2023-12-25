@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
