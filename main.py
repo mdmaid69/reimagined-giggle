@@ -1,6 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
