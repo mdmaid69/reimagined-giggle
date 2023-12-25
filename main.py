@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
