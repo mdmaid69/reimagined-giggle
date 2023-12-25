@@ -1,6 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_density(mass, volume):
-        return mass / volume
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
