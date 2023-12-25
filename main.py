@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
