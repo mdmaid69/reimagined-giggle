@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_work(force, distance):
+        return force * distance
+import random
+def roll_die():
+        return random.randint(1, 6)
