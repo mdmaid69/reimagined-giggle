@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_max(lst):
+        return max(lst)
