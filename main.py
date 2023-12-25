@@ -1,7 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+for i in range(10): print(i)
