@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def clear_array(array):
+        array *= 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
