@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_set(array):
+        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
