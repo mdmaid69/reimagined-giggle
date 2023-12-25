@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_volume(length, width, height):
+        return length * width * height
