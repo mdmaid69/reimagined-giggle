@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
