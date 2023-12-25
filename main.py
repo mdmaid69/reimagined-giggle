@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
