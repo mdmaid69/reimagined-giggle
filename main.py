@@ -1,5 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
