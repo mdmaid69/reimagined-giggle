@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def count_characters(sentence):
+        return len(sentence)
