@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_volume(length, width, height):
+        return length * width * height
