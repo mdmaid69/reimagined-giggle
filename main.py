@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
