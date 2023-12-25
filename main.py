@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import re
-print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
