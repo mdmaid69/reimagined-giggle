@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import sys
+def exit_program():
+        sys.exit()
