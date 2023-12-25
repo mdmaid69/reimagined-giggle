@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
