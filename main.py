@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_queue():
-        return collections.deque()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
