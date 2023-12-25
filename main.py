@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
