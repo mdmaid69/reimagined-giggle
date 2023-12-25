@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def convert_to_hex(n):
-        return hex(n)
+def is_even(n):
+        return n % 2 == 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
