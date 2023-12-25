@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def find_min(lst):
+        return min(lst)
