@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
