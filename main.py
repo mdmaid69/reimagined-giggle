@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def clear_array(array):
-        array *= 0
+  import sys
+  def get_python_version():
+        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
