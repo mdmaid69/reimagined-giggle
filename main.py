@@ -1,10 +1,9 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import unittest
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+from flask import Flask
+app = Flask(__name__)
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+@app.route("/")
+def hello():
+        return "Hello, World!"
