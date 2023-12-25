@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def sort_list(lst):
-        return sorted(lst)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
