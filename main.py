@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sys
+def exit_program():
+        sys.exit()
