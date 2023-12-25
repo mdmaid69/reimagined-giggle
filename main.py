@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def sort_numbers(numbers):
+        return sorted(numbers)
