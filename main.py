@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
