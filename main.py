@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_work(force, distance):
+        return force * distance
+x = 10
+y = 20
+print("Sum:", x + y)
