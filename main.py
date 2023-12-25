@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+print([x**2 for x in range(10)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
