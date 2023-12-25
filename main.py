@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
