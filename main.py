@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
