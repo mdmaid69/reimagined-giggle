@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
