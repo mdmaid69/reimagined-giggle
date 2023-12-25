@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
