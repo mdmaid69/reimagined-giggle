@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def square_number(x):
+        return x**2
+def sort_numbers(numbers):
+        return sorted(numbers)
