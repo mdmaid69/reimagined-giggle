@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def count_elements(lst):
+        return len(lst)
+def add_numbers(a, b):
+        return a + b
