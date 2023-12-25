@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import logging
-def log_message(message):
-        logging.info(message)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
