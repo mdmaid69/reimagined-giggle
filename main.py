@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
