@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_min(numbers):
-        return min(numbers)
+def convert_to_octal(n):
+        return oct(n)
+def square_number(x):
+        return x**2
