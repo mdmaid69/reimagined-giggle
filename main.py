@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
