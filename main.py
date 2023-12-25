@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
