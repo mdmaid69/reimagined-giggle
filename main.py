@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import platform
+def get_python_version():
+        return platform.python_version()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
