@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
