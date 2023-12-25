@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
