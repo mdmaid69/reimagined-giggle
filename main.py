@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+from collections import Counter
+print(Counter("hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
