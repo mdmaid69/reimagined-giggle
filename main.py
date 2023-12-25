@@ -1,6 +1,7 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
