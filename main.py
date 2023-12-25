@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sys
-  def get_python_version():
-        return sys.version
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def subtract_numbers(x, y):
+        return x - y
