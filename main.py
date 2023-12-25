@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
