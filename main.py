@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
