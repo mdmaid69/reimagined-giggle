@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def is_even(n):
+        return n % 2 == 0
+  def subtract_numbers(x, y):
+        return x - y
