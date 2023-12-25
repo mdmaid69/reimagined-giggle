@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
