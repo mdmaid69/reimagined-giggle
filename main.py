@@ -1,6 +1,5 @@
+import math
+print(math.pi)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
