@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
