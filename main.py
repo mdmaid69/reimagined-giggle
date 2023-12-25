@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def cube_number(x):
-        return x**3
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
