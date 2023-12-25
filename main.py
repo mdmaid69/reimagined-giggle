@@ -1,5 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_as_tuple(array):
+        return tuple(array)
+def sort_list(lst):
+        return sorted(lst)
