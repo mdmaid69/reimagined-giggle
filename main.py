@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import os
-print(os.getcwd())
+import sys
+print(sys.version)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
