@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
