@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def sort_list(lst):
+        return sorted(lst)
