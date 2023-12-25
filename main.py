@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
