@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
