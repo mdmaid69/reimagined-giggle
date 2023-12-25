@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def reverse_list(lst):
+        return lst[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
