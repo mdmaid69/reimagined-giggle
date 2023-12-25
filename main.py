@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def cube_number(x):
-        return x**3
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
