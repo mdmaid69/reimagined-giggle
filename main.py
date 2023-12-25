@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
