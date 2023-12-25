@@ -1,6 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
