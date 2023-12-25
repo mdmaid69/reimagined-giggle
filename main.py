@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
