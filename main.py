@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def convert_to_hex(n):
+        return hex(n)
