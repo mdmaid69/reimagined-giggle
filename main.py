@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def is_even(n):
+        return n % 2 == 0
