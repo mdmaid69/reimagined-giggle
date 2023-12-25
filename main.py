@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
