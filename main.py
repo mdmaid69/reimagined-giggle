@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
