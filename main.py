@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
