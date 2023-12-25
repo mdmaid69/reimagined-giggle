@@ -1,5 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
