@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
