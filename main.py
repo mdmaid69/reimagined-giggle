@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
