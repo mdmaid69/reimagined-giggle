@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
