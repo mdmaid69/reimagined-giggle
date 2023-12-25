@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_hex(n):
+        return hex(n)
