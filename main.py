@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def count_elements(lst):
-        return len(lst)
+def convert_to_octal(n):
+        return oct(n)
+def find_min(numbers):
+        return min(numbers)
