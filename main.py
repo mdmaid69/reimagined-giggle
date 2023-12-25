@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
