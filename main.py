@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
