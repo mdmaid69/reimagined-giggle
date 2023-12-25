@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
