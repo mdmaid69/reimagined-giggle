@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
