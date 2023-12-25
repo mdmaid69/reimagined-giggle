@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
