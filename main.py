@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
