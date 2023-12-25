@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
