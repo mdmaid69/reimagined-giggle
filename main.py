@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
