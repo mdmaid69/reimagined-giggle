@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
