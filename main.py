@@ -1,8 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def get_list_from_array(array):
+        return array.tolist()
