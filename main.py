@@ -1,6 +1,10 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
