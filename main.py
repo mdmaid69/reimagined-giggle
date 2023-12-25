@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
