@@ -1,5 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_python_version():
+        return platform.python_version()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
