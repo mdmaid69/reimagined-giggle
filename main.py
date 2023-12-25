@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
