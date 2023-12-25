@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def reverse_array(array):
-        array.reverse()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
