@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
