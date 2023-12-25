@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
