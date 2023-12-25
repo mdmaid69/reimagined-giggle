@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
