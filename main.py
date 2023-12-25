@@ -1,6 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
