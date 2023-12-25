@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
