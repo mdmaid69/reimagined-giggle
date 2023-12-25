@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_max(lst):
+        return max(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
