@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+for i in range(5):
+        print(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
