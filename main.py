@@ -1,5 +1,9 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
