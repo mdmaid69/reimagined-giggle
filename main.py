@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_pressure(force, area):
-        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
