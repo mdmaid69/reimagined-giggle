@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
