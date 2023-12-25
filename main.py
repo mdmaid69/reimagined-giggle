@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import sys
-  def get_python_version():
-        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
+def reverse_list(lst):
+        return lst[::-1]
