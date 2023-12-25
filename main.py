@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+def calculate_acceleration(speed, time):
+        return speed / time
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
