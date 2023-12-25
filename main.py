@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
