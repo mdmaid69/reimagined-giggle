@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
