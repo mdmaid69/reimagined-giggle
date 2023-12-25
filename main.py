@@ -1,8 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def find_min(numbers):
+        return min(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
