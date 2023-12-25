@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def add_numbers(x, y):
-        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
