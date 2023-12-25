@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
