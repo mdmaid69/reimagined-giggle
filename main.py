@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_rectangle(l, w):
+        return l * w
