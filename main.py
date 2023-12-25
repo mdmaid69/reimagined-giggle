@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
