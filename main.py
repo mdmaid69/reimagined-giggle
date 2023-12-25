@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
