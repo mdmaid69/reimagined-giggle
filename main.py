@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
