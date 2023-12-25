@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+print(sum(range(10)))
+import collections
+def create_priority_queue():
+        return collections.deque()
