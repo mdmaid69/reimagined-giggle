@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def square_number(x):
-        return x**2
+def multiply_numbers(x, y):
+        return x * y
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
