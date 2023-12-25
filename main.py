@@ -1,6 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
