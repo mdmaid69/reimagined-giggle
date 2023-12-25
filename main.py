@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Powers of 2:", [2**x for x in range(n)])
