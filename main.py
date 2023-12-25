@@ -1,4 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def reverse_list(lst):
-        return lst[::-1]
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
