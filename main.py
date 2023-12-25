@@ -1,4 +1,5 @@
-print(sum(range(10)))
+  def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_set(array):
+        return set(array)
