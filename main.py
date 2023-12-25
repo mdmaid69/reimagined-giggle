@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
