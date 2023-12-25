@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def sort_list(lst):
-        return sorted(lst)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def get_list_from_array(array):
+        return array.tolist()
