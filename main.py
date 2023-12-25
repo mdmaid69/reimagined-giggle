@@ -1,10 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
