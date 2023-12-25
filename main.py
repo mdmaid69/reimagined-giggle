@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
