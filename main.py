@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
