@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
