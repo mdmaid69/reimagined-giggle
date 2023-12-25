@@ -1,7 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+x = 10
+y = 20
+print("Sum:", x + y)
