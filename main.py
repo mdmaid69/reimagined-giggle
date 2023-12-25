@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
