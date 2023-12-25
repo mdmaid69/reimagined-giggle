@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
