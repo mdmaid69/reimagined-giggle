@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_density(mass, volume):
+        return mass / volume
