@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
