@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
