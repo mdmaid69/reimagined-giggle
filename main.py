@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def is_even(n):
+        return n % 2 == 0
+from collections import Counter
+print(Counter("hello world"))
