@@ -1,5 +1,10 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
