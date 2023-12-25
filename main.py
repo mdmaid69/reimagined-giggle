@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import sys
-def exit_program():
-        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
+def sort_list(lst):
+        return sorted(lst)
