@@ -1,4 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-for i in range(10): print(i)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
