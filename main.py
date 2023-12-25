@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_float(array):
+        return float(array[0])
