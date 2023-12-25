@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
