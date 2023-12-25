@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def reverse_list(lst):
+        return lst[::-1]
