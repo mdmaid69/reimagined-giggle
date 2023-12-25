@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import datetime
-print(datetime.datetime.now())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def cube_number(x):
+        return x**3
