@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
