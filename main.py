@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
