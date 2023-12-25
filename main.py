@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
