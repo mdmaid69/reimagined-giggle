@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
