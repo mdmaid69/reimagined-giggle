@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def convert_array_to_string(array):
+        return array.tostring()
