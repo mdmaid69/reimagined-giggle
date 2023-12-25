@@ -1,7 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
