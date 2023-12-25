@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
