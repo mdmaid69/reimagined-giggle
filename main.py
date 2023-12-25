@@ -1,5 +1,5 @@
+sentence = "Hello, world!"
 from collections import Counter
-print(Counter("hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+print("Word frequencies:", Counter(sentence.split()))
+def reverse_string(s):
+        return s[::-1]
