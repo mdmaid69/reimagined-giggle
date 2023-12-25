@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
