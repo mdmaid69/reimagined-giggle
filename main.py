@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
