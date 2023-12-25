@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def is_palindrome(s):
+        return s == s[::-1]
