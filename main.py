@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import tensorflow as tf
+print(tf.__version__)
