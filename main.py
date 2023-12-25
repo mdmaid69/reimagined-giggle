@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
