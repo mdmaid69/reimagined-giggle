@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
