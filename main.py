@@ -1,7 +1,5 @@
+import math
+print(math.pi)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_min(lst):
-        return min(lst)
+def set_array_item(array, i, item):
+        array[i] = item
