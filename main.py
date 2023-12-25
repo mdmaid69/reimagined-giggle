@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
