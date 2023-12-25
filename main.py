@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
