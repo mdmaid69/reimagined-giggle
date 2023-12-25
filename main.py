@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
