@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
