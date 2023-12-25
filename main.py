@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
