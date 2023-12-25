@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_pressure(force, area):
+        return force / area
