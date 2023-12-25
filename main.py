@@ -1,7 +1,7 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
