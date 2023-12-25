@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
