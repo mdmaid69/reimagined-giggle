@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
