@@ -1,5 +1,8 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
