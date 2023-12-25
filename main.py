@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def cube_number(x):
+        return x**3
