@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_item(array, i):
+        return array[i]
