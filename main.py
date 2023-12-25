@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import sys
+print(sys.version)
