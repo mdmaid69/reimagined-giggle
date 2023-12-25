@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def print_python_version():
-        return sys.version
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
