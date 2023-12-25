@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
