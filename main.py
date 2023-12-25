@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
