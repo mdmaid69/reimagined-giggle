@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
