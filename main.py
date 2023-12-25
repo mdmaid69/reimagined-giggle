@@ -1,7 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
