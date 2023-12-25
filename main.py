@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
