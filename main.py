@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
