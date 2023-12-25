@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_length(array):
-        return len(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
