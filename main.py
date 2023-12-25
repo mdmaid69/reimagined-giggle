@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
