@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_tangent(x):
+        return math.tan(x)
