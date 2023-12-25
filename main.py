@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def create_queue():
+        return collections.deque()
