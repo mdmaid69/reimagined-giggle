@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
