@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
