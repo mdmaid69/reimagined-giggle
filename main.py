@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def square_number(x):
+        return x**2
+def calculate_speed(distance, time):
+        return distance / time
