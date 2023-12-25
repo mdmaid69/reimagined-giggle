@@ -1,8 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_density(mass, volume):
+        return mass / volume
