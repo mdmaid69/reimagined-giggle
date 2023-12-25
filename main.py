@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
