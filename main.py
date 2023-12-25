@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def find_unique_words(sentence):
+        return set(sentence.split())
