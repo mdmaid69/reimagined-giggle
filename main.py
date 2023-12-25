@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
