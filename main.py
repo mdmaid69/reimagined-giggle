@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
