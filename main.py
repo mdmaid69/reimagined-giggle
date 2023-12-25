@@ -1,6 +1,3 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_work(force, distance):
+        return force * distance
+for i in range(10): print(i)
