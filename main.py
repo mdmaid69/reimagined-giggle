@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
