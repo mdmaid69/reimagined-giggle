@@ -1,5 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import json
+print(json.dumps({"name": "John", "age": 30}))
