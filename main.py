@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
