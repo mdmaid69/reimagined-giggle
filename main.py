@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def is_odd(n):
+        return n % 2 != 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
