@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_length(array):
+        return len(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
