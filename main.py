@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
