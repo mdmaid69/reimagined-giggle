@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def is_odd(n):
+        return n % 2 != 0
