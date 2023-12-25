@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
