@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def greet(name):
+        print(f"Hello, {name}!")
