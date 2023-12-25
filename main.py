@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
