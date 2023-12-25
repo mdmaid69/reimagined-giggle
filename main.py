@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
