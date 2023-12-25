@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-for i in range(5):
-        print(i)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
