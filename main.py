@@ -1,3 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-print(sum(range(10)))
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
