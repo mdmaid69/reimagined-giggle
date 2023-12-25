@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
