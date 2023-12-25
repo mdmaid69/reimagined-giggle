@@ -1,7 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
