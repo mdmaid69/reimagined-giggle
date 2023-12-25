@@ -1,7 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
