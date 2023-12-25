@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def count_elements(lst):
-        return len(lst)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
