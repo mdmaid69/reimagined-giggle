@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
