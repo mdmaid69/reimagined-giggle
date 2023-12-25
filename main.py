@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
