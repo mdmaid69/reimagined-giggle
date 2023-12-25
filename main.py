@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def convert_to_binary(n):
-        return bin(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
