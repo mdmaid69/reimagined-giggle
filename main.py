@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
