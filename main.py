@@ -1,5 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
