@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-print(random.randint(0, 100))
+def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_os_info():
+        return platform.uname()
