@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
