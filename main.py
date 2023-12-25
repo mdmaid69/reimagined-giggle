@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
