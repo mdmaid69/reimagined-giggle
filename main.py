@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
