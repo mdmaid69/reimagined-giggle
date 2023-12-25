@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def clear_array(array):
+        array *= 0
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
