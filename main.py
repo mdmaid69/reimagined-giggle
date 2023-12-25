@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_volume(length, width, height):
+        return length * width * height
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
