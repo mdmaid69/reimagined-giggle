@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import sys
-print(sys.version)
+def calculate_power(work, time):
+        return work / time
+def sort_list(lst):
+        return sorted(lst)
