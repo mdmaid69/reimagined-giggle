@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
