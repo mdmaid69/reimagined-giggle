@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
