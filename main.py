@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
