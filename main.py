@@ -1,3 +1,5 @@
-def cube_number(x):
-        return x**3
-print(sum(range(10)))
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_float(array):
+        return float(array[0])
