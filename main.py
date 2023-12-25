@@ -1,6 +1,7 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
