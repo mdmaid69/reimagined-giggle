@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_str(array):
+        return str(array)
