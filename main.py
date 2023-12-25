@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
