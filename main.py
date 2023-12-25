@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
