@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
