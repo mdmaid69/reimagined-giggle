@@ -1,7 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
