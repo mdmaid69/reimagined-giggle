@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
