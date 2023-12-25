@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_power(work, time):
-        return work / time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
