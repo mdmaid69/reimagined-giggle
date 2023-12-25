@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
   def cube_number(x):
         return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
