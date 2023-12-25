@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
