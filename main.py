@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
