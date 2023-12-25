@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_volume(length, width, height):
+        return length * width * height
