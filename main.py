@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+print(sys.version)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
