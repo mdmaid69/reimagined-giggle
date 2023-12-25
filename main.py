@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def get_time_since_epoch():
+        return time.time()
