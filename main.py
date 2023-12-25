@@ -1,10 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
