@@ -1,6 +1,6 @@
 import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
