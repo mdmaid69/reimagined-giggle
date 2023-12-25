@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
