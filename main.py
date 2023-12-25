@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
