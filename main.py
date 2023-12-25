@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_power(work, time):
-        return work / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
