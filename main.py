@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
