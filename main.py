@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
