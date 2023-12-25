@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
