@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_array_as_set(array):
-        return set(array)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
