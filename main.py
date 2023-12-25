@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
