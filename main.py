@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def add_numbers(a, b):
+        return a + b
+import sys
+def print_python_version():
+        return sys.version
