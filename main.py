@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
