@@ -1,5 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def multiply_numbers(x, y):
-        return x * y
+def get_string_from_array(array):
+        return array.tobytes()
