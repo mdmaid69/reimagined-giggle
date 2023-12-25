@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
