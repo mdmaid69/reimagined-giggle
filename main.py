@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
