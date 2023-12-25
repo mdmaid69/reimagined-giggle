@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
