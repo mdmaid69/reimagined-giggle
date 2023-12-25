@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
