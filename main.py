@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
