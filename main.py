@@ -1,6 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_user_dict():
+        return collections.UserDict()
