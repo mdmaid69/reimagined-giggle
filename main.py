@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
