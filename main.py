@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
