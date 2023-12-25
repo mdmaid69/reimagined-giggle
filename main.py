@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+for i in range(10): print(i)
