@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
