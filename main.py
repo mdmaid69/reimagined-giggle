@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def multiply_numbers(x, y):
+        return x * y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
