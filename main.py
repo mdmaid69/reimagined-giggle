@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_speed(distance, time):
-        return distance / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
