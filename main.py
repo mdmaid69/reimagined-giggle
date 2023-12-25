@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def is_odd(n):
+        return n % 2 != 0
