@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
