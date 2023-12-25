@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
