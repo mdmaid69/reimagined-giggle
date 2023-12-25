@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
