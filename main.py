@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
