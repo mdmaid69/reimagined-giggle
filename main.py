@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
