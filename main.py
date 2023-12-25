@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def convert_to_hex(n):
+        return hex(n)
