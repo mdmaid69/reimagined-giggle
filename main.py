@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
