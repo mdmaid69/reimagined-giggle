@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
