@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
