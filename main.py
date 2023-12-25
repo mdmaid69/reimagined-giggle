@@ -1,5 +1,3 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Words:", len(text.split()))
+print([x**2 for x in range(10)])
