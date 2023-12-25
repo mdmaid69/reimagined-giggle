@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
   def change_current_working_directory(dir_name):
         os.chdir(dir_name)
