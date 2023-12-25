@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-print(random.randint(0, 100))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import collections
+def create_user_string():
+        return collections.UserString()
