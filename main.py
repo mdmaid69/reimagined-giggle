@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
