@@ -1,8 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def generate_random_sample(population, k):
+        return random.sample(population, k)
