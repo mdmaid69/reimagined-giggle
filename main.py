@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
