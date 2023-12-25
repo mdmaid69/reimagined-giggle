@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import random
+print(random.randint(0, 100))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
