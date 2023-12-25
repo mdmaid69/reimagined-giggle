@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def clear_array(array):
-        array *= 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
