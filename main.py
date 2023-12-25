@@ -1,5 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(a, b):
-        return a + b
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
