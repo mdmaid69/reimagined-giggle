@@ -1,5 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
