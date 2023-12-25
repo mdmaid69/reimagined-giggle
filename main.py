@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
