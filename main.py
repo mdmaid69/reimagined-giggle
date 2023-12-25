@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
