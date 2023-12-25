@@ -1,7 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
