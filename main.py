@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
