@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def reverse_list(lst):
+        return lst[::-1]
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
