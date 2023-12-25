@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
