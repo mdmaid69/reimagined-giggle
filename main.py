@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
