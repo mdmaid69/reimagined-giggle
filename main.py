@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+for i in range(5):
+        print(i)
+import numpy as np
+print(np.array([1, 2, 3]))
