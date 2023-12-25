@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
