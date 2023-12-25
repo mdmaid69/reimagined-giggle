@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
