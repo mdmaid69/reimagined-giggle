@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_repr(array):
+        return repr(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
