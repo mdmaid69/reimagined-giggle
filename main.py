@@ -1,5 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
