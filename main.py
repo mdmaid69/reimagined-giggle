@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def divide_numbers(x, y):
+        return x / y
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
