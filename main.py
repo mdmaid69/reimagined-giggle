@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
