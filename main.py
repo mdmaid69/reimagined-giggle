@@ -1,5 +1,6 @@
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
-print(sum(range(10)))
+def calculate_speed(distance, time):
+        return distance / time
