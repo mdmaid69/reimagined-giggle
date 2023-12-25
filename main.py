@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def subtract_numbers(x, y):
+        return x - y
+  def convert_to_octal(n):
+        return oct(n)
