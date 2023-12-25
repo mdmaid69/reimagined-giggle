@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
