@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
