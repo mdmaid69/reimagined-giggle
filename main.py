@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
