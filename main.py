@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_factorial(n):
+        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
