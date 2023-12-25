@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
