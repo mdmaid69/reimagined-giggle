@@ -1,5 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
