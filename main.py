@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def get_array_as_int(array):
+        return int(array[0])
