@@ -1,7 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
