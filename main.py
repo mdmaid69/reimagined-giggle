@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
