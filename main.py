@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
