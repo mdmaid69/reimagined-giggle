@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import platform
-def get_os_info():
-        return platform.uname()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
