@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
