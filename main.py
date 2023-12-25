@@ -1,4 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
