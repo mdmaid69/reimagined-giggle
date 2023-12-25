@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def add_numbers(x, y):
-        return x + y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
