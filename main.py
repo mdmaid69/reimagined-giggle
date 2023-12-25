@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
