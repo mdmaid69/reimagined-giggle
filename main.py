@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+x = 10
+y = 20
+print("Sum:", x + y)
