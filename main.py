@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
