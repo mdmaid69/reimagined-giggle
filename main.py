@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
