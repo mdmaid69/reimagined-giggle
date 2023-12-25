@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
