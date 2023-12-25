@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_max(lst):
+        return max(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
