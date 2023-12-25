@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
