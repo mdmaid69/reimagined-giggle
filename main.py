@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def count_elements(lst):
-        return len(lst)
+def find_max(numbers):
+        return max(numbers)
+  def sort_list(lst):
+        return sorted(lst)
