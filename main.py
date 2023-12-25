@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
