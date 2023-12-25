@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
