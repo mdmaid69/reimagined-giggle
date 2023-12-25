@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
