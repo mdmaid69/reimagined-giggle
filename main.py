@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def convert_to_hex(n):
+        return hex(n)
