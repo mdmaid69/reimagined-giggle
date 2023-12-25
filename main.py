@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
