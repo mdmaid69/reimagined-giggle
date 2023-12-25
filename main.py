@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def square_number(x):
-        return x**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def add_numbers(a, b):
+        return a + b
