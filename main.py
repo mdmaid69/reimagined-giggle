@@ -1,8 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import time
+def get_current_time():
+        return time.ctime()
