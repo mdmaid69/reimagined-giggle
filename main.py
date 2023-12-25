@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
