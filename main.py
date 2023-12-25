@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
