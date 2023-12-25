@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
