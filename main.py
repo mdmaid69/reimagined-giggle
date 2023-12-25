@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
