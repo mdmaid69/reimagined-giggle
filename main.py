@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
