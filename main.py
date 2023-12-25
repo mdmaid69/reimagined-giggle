@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_octal(n):
+        return oct(n)
