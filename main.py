@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
