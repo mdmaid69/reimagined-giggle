@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
