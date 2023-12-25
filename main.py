@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+print(os.getcwd())
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def clear_array(array):
+        array *= 0
