@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
