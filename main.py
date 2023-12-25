@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
