@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
