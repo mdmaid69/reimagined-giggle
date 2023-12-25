@@ -1,5 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
