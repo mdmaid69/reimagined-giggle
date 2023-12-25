@@ -1,4 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
