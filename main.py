@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
