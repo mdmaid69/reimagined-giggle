@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
