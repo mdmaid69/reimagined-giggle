@@ -1,6 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
