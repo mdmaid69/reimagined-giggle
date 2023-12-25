@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
