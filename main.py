@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def insert_into_array(array, i, item):
+        array.insert(i, item)
