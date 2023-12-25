@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
