@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_density(mass, volume):
+        return mass / volume
