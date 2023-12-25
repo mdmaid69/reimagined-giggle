@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
