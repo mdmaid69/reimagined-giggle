@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def remove_from_array(array, item):
+        array.remove(item)
+import time
+def get_current_time():
+        return time.ctime()
