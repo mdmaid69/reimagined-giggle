@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
