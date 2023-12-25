@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
