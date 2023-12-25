@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
