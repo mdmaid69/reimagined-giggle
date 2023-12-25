@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_item(array, i):
+        return array[i]
