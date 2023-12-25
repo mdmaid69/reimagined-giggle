@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def split_path(path):
+        return os.path.split(path)
