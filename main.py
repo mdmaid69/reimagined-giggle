@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_stack():
+        return collections.deque()
+def find_min(lst):
+        return min(lst)
