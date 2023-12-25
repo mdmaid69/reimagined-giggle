@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
