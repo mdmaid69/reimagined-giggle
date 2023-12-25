@@ -1,8 +1,9 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
