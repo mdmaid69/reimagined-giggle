@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
