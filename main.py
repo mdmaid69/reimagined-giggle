@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_tangent(x):
+        return math.tan(x)
