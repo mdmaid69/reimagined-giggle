@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def get_current_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
