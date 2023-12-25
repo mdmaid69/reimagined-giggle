@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import random
-print(random.randint(0, 100))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
