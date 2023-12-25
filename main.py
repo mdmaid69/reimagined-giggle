@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
