@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def subtract_numbers(x, y):
-        return x - y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
