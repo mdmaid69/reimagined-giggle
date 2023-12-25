@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
