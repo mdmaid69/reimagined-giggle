@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
