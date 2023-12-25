@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
