@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_density(mass, volume):
+        return mass / volume
