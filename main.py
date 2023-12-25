@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
