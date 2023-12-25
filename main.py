@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import collections
+def create_queue():
+        return collections.deque()
