@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
