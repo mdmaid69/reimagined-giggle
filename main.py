@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
