@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
