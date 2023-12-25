@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def cube_number(x):
+        return x**3
