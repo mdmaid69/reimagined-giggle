@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def convert_to_hex(n):
+        return hex(n)
