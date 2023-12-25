@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
