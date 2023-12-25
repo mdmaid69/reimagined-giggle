@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
