@@ -1,5 +1,8 @@
-import time
-print(time.time())
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
