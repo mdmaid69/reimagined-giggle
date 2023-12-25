@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import platform
+def get_os_info():
+        return platform.uname()
