@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+print("Hello, world!")
