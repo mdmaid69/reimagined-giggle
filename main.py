@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
