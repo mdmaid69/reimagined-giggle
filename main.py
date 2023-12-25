@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
