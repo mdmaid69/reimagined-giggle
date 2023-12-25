@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import sys
+print(sys.version)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
