@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
