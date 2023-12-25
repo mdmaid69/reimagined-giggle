@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
+  def reverse_list(lst):
+        return lst[::-1]
