@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def square_number(x):
+        return x**2
