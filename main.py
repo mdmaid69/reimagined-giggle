@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_area(radius):
+        return 3.14 * radius * radius
