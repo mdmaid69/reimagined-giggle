@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
