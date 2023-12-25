@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
