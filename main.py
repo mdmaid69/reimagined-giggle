@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import platform
+def get_os_info():
+        return platform.uname()
