@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_user_string():
+        return collections.UserString()
+def subtract_numbers(x, y):
+        return x - y
