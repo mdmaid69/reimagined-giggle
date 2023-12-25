@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
