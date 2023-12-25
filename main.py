@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
