@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
