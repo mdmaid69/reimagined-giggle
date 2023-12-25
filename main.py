@@ -1,9 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
