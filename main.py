@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_area_rectangle(l, w):
+        return l * w
