@@ -1,8 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+for i in range(10): print(i)
