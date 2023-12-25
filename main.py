@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
