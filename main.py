@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def count_elements(lst):
-        return len(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
