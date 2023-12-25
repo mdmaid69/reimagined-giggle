@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
