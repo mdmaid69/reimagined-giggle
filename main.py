@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_pressure(force, area):
+        return force / area
