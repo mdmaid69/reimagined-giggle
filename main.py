@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
