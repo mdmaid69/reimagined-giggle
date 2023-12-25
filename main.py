@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import logging
+def log_message(message):
+        logging.info(message)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
