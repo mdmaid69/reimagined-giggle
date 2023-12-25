@@ -1,7 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
