@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
