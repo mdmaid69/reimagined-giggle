@@ -1,11 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+for i in range(10): print(i)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
