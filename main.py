@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
