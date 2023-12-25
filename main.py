@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_counter():
+        return collections.Counter()
