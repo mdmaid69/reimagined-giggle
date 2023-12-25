@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
