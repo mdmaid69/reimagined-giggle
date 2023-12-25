@@ -1,6 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
