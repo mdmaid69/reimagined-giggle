@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
