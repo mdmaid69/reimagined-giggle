@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import sys
+print(sys.version)
