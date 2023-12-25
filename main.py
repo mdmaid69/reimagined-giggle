@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
