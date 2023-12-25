@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
