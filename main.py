@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import json
+print(json.dumps({"name": "John", "age": 30}))
