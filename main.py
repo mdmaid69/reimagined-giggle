@@ -1,3 +1,5 @@
-print(sum(range(10)))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_volume(length, width, height):
+        return length * width * height
