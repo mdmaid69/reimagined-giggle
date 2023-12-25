@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
