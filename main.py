@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
