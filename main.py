@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def is_even(n):
-        return n % 2 == 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
