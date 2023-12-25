@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
