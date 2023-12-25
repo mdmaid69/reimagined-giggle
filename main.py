@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
