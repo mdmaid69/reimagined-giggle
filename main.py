@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
