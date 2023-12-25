@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def get_array_typecode(array):
-        return array.typecode
+for i in range(5):
+        print(i)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
