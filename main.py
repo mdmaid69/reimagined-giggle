@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
