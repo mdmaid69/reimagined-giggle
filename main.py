@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_item(array, i):
-        return array[i]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
