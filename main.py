@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import numpy as np
+print(np.array([1, 2, 3]))
