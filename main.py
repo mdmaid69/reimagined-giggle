@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
