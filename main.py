@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def convert_to_hex(n):
-        return hex(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
