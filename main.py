@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
