@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_queue():
-        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
