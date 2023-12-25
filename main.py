@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_stack():
-        return collections.deque()
+import os
+print(os.getcwd())
+import time
+def get_current_time():
+        return time.ctime()
