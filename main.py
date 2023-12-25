@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
