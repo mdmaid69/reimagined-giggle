@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
