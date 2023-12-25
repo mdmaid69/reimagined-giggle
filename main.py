@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
