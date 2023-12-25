@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
