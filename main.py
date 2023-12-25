@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
