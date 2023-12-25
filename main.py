@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import logging
+def log_message(message):
+        logging.info(message)
