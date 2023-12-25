@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def reverse_list(lst):
+        return lst[::-1]
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
