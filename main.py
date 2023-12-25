@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
