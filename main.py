@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
