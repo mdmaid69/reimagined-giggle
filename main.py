@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
