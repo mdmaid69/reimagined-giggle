@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
