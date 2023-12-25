@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
