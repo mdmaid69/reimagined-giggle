@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
