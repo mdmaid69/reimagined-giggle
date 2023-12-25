@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
