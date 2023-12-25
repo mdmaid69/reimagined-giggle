@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
