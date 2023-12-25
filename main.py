@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
