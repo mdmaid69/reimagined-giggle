@@ -1,7 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
