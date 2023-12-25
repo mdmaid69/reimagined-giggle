@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def remove_duplicates(lst):
+        return list(set(lst))
