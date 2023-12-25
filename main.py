@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
