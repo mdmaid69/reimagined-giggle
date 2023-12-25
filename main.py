@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
