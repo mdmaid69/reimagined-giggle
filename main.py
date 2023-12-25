@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def greet(name):
-        print(f"Hello, {name}!")
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
