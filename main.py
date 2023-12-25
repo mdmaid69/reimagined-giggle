@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
