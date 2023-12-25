@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_list_from_array(array):
+        return array.tolist()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
