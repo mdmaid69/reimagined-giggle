@@ -1,4 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
