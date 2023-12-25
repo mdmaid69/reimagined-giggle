@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def append_to_array(array, item):
-        array.append(item)
+def remove_from_array(array, item):
+        array.remove(item)
