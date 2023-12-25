@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
