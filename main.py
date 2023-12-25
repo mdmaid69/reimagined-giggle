@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
