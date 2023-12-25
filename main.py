@@ -1,3 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-print("Hello, world!")
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
