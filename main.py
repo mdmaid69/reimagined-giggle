@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
