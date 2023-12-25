@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def subtract_numbers(x, y):
+        return x - y
