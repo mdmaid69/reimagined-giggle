@@ -1,5 +1,7 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
