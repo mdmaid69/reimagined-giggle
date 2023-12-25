@@ -1,10 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
