@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
