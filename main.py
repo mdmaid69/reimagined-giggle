@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
