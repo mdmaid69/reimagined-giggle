@@ -1,6 +1,3 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+print([x**2 for x in range(10)])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
