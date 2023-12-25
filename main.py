@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
