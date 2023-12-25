@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
