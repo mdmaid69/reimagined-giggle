@@ -1,8 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def remove_duplicates(lst):
+        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
