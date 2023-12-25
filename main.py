@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
