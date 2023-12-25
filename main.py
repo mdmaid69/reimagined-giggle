@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
