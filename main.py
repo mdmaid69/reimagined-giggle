@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
