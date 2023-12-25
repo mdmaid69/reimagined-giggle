@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
