@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
