@@ -1,7 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
