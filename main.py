@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_current_directory():
+        return os.getcwd()
