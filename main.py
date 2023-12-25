@@ -1,7 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
