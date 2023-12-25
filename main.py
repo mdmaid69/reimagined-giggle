@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def count_elements(lst):
+        return len(lst)
