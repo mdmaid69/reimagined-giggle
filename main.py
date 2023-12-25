@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
