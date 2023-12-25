@@ -1,8 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
