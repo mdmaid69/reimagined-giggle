@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_stack():
+        return collections.deque()
