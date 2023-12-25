@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_as_set(array):
+        return set(array)
