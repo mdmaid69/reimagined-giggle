@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_itemsize(array):
+        return array.itemsize
