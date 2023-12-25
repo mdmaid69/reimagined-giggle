@@ -1,7 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
