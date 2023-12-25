@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
