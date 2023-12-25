@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
