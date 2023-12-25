@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
