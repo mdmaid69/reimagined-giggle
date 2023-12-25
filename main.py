@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
