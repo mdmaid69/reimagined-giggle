@@ -1,8 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def square_number(x):
+        return x**2
+import array
+def remove_from_array(array, item):
+        array.remove(item)
