@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
