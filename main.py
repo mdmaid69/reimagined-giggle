@@ -1,6 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_as_bytearray(array):
+        return bytearray(array)
