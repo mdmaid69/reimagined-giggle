@@ -1,6 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
