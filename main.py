@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
