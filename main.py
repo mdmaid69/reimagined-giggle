@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
