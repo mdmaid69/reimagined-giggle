@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sys
+def print_python_version():
+        return sys.version
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
