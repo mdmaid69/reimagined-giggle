@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
