@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def remove_duplicates(lst):
+        return list(set(lst))
