@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
