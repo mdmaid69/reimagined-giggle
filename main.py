@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
