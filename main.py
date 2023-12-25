@@ -1,9 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
