@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
