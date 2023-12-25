@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
