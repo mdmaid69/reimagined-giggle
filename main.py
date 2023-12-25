@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
