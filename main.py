@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
