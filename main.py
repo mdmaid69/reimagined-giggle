@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
