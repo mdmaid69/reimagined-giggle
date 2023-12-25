@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
