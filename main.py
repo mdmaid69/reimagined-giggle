@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
