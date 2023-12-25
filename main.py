@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
