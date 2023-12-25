@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_queue():
+        return collections.deque()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
