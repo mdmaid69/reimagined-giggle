@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
