@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_stack():
+        return collections.deque()
