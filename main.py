@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
