@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def set_array_item(array, i, item):
+        array[i] = item
