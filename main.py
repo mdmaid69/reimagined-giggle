@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
