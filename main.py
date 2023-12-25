@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
