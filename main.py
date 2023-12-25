@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def reverse_list(lst):
-        return lst[::-1]
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_work(force, distance):
+        return force * distance
