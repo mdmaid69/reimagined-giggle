@@ -1,6 +1,6 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
