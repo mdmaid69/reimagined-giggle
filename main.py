@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_current_time():
-        return time.ctime()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_set(array):
+        return set(array)
