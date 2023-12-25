@@ -1,6 +1,8 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
