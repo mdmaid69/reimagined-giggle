@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
