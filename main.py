@@ -1,8 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
