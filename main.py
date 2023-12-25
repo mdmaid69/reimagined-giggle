@@ -1,5 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
