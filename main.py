@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_floor(x):
+        return math.floor(x)
