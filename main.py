@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import sys
+def print_python_version():
+        print(sys.version)
