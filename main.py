@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def multiply_numbers(x, y):
+        return x * y
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_item(array, i):
+        return array[i]
