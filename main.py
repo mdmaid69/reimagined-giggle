@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+for i in range(5):
+        print(i)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
