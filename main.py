@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
