@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import re
-print(re.match("h.*o", "hello world"))
+def convert_to_binary(n):
+        return bin(n)
+  def add_numbers(x, y):
+        return x + y
