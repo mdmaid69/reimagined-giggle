@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
