@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
