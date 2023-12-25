@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def reverse_list(lst):
+        return lst[::-1]
