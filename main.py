@@ -1,7 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
