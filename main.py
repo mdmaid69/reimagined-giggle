@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def is_even(n):
-        return n % 2 == 0
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
