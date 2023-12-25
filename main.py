@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import datetime
+print(datetime.datetime.now())
