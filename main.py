@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
