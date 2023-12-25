@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
