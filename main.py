@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_as_list(array):
+        return list(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
