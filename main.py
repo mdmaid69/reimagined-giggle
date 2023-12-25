@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
