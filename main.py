@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sys
+print(sys.version)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
