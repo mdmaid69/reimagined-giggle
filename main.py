@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def exit_program():
-        sys.exit()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
