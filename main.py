@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
