@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_floor(x):
+        return math.floor(x)
