@@ -1,11 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
