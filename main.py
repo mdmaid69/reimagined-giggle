@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
