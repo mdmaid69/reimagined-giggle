@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_index(array, item):
+        return array.index(item)
