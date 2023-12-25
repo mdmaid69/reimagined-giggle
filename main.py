@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
