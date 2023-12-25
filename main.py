@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
