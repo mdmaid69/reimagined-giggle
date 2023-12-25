@@ -1,8 +1,8 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_as_int(array):
+        return int(array[0])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
