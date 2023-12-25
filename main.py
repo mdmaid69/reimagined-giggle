@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def cube_number(x):
-        return x**3
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
