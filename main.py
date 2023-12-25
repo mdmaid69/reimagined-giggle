@@ -1,5 +1,7 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
