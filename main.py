@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
