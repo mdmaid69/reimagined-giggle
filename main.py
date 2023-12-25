@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def square_number(x):
+        return x**2
