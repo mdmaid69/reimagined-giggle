@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
