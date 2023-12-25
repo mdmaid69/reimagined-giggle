@@ -1,7 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
