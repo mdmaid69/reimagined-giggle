@@ -1,5 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import time
-print(time.time())
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_area_circle(r):
+        return 3.14 * r**2
