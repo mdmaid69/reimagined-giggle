@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_pressure(force, area):
+        return force / area
