@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def is_odd(n):
+        return n % 2 != 0
