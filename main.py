@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
