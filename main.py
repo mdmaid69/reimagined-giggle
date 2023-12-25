@@ -1,3 +1,6 @@
-def cube_number(x):
-        return x**3
-for i in range(10): print(i)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
