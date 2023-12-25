@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import logging
+def log_message(message):
+        logging.info(message)
