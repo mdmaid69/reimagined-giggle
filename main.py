@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def sort_numbers(numbers):
+        return sorted(numbers)
+def find_min(numbers):
+        return min(numbers)
