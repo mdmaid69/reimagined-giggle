@@ -1,7 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
