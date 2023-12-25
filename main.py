@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
