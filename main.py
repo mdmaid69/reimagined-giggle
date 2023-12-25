@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
