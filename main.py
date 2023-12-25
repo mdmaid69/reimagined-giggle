@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
