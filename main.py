@@ -1,6 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import collections
-def create_priority_queue():
-        return collections.deque()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
