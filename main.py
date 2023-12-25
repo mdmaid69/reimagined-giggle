@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
