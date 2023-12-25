@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
