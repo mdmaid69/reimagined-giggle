@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
