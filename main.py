@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
