@@ -1,6 +1,10 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
