@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
