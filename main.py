@@ -1,4 +1,4 @@
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_area_rectangle(l, w):
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_area_rectangle(l, w):
         return l * w
