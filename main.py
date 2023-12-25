@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_length(array):
+        return len(array)
