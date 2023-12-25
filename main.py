@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+print(json.dumps({"name": "John", "age": 30}))
