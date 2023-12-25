@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
