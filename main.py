@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
