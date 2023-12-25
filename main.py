@@ -1,5 +1,9 @@
-def square_number(x):
-        return x**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
