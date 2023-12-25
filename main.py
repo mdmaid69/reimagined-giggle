@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
