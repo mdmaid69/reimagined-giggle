@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
