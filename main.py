@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def count_characters(sentence):
+        return len(sentence)
