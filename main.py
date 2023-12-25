@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def create_stack():
+        return collections.deque()
