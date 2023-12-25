@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
