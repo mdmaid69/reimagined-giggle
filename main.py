@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
