@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
