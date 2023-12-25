@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
