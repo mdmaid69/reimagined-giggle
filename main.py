@@ -1,8 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
