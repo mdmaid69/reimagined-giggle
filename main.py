@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
