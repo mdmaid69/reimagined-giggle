@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
