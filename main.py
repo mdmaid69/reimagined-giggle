@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def convert_to_octal(n):
+        return oct(n)
