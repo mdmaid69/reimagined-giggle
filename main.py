@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
