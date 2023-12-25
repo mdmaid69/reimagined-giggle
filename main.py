@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def square_number(x):
+        return x**2
