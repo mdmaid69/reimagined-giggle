@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def roll_die():
+        return random.randint(1, 6)
+def reverse_list(lst):
+        return lst[::-1]
