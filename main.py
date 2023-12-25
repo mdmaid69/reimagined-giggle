@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def is_odd(n):
-        return n % 2 != 0
+def remove_from_array(array, item):
+        array.remove(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
