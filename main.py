@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
