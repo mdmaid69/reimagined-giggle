@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
