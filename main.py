@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
