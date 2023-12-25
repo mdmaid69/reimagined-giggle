@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
