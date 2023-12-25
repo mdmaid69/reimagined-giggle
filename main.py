@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
