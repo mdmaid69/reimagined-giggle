@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
