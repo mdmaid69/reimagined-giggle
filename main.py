@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
