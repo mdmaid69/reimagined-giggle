@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
