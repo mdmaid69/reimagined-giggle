@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import tensorflow as tf
+print(tf.__version__)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
