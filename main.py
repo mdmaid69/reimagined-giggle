@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
