@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_acceleration(speed, time):
+        return speed / time
