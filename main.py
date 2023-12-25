@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
