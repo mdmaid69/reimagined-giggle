@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
