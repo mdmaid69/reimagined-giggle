@@ -1,8 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
