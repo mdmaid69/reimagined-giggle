@@ -1,8 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
