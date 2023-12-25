@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sys
+def print_python_version():
+        return sys.version
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
