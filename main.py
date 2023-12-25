@@ -1,6 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
