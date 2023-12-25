@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def sort_numbers(numbers):
+        return sorted(numbers)
