@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
