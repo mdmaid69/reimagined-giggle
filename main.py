@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
