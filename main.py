@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
