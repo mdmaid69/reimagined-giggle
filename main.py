@@ -1,4 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  def remove_duplicates(lst):
+        return list(set(lst))
