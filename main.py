@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
