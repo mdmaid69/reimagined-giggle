@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
