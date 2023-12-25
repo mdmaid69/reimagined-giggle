@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-def print_python_version():
-        return sys.version
+  def add_numbers(x, y):
+        return x + y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
