@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
