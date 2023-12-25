@@ -1,5 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def append_to_array(array, item):
+        array.append(item)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
