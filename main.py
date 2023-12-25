@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def convert_to_hex(n):
-        return hex(n)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
