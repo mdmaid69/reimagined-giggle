@@ -1,4 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
