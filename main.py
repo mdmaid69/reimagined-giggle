@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def append_to_array(array, item):
+        array.append(item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
