@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def cube_number(x):
-        return x**3
+import tensorflow as tf
+print(tf.__version__)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
