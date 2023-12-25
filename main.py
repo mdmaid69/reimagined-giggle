@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
