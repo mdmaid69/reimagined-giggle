@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
