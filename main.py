@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
