@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_pressure(force, area):
+        return force / area
