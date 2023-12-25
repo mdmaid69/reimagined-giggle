@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
