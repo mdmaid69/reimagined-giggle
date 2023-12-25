@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
