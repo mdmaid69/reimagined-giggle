@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_length(array):
-        return len(array)
+def find_min(lst):
+        return min(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
