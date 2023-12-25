@@ -1,6 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
