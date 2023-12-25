@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
