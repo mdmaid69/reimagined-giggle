@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
