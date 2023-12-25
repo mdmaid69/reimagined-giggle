@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+for i in range(10): print(i)
+import datetime
+def get_current_date():
+        return datetime.date.today()
