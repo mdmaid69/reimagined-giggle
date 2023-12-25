@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
