@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import re
+print(re.match("h.*o", "hello world"))
