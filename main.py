@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
