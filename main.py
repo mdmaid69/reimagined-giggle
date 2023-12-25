@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
