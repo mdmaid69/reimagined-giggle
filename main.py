@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def subtract_numbers(x, y):
+        return x - y
