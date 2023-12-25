@@ -1,6 +1,9 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
