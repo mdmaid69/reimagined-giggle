@@ -1,5 +1,9 @@
-def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def split_path(path):
+        return os.path.split(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
