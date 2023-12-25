@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tensorflow as tf
-print(tf.__version__)
+import time
+print(time.time())
+def calculate_speed(distance, time):
+        return distance / time
