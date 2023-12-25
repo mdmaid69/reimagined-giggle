@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
