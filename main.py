@@ -1,8 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
