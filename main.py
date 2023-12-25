@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
