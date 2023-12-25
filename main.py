@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
