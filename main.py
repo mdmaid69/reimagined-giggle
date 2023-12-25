@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
