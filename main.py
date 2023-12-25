@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
