@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
