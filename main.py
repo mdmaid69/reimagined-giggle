@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
