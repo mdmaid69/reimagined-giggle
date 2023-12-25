@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def sort_list(lst):
+        return sorted(lst)
