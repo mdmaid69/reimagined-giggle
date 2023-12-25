@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
