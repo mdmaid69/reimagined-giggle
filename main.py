@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
