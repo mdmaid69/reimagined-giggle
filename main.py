@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+x = 10
+y = 20
+print("Sum:", x + y)
