@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+def find_max(numbers):
+        return max(numbers)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
