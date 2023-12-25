@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_array_as_list(array):
-        return list(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
