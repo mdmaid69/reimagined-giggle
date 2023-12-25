@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
