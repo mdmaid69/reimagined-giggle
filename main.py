@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
