@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
