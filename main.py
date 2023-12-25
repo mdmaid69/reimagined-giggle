@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
