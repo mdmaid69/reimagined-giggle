@@ -1,5 +1,11 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
