@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
