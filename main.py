@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
