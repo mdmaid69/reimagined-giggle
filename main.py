@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def clear_array(array):
+        array *= 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
