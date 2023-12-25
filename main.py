@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import logging
-def log_message(message):
-        logging.info(message)
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
