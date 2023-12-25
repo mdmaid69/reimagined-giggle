@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def square_number(x):
+        return x**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
