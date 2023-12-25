@@ -1,7 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
