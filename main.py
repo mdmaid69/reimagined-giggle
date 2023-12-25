@@ -1,7 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
