@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
