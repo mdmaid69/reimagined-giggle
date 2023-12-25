@@ -1,5 +1,6 @@
   import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
   def get_file_atime(file_name):
         return os.stat(file_name).st_atime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
