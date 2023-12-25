@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
