@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
