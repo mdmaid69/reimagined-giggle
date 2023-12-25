@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
