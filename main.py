@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
