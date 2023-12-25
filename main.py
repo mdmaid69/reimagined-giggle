@@ -1,8 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
