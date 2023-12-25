@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
