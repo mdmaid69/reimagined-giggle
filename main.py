@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
