@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+print(random.randint(0, 100))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
