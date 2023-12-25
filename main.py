@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
