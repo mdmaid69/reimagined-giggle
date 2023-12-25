@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
