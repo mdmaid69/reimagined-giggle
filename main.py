@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+  def count_elements(lst):
+        return len(lst)
