@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
