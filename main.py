@@ -1,6 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
