@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_str(array):
+        return str(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
