@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
