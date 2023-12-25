@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def sort_numbers(numbers):
+        return sorted(numbers)
