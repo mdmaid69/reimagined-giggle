@@ -1,5 +1,3 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+for i in range(10): print(i)
+def is_odd(n):
+        return n % 2 != 0
