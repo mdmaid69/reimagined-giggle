@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
