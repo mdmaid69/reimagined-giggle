@@ -1,8 +1,4 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
