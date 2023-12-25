@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
