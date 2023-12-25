@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def cube_number(x):
-        return x**3
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
