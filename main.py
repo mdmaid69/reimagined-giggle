@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
