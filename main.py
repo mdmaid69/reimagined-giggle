@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
