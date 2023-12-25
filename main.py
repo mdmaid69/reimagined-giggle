@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
