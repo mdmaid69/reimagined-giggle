@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+for i in range(10): print(i)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
