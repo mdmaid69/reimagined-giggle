@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def is_even(n):
+        return n % 2 == 0
