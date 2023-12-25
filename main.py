@@ -1,5 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
