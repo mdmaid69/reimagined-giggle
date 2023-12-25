@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
