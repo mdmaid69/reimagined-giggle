@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
