@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
