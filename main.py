@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import collections
+def create_counter():
+        return collections.Counter()
