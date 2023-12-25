@@ -1,8 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
