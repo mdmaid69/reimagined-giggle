@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
