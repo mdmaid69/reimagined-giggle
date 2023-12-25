@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
