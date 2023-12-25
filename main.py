@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_work(force, distance):
-        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
