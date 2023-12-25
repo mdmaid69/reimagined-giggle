@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
