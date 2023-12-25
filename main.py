@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
