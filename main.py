@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def is_even(n):
+        return n % 2 == 0
+  import sys
+  def get_python_version():
+        return sys.version
