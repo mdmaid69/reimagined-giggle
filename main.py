@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
