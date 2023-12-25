@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
