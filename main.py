@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def find_min(lst):
-        return min(lst)
+import collections
+def create_queue():
+        return collections.deque()
+def remove_duplicates(lst):
+        return list(set(lst))
