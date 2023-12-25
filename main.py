@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+print("Hello, world!")
