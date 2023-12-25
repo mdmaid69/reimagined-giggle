@@ -1,8 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+name = "Python"
+print("Hello,", name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
