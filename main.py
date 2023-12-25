@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
