@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
