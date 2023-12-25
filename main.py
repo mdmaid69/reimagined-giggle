@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-from collections import Counter
-print(Counter("hello world"))
+def remove_from_array(array, item):
+        array.remove(item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
