@@ -1,4 +1,11 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def sort_list(lst):
+        return sorted(lst)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
