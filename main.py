@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def is_odd(n):
+        return n % 2 != 0
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
