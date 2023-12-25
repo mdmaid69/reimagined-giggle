@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
