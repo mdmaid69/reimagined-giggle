@@ -1,8 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_pressure(force, area):
+        return force / area
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
