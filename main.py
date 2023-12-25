@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
