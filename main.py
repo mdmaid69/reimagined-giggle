@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
