@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def reverse_list(lst):
+        return lst[::-1]
