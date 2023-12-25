@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
