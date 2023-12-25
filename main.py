@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
