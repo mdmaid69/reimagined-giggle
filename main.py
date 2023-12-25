@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
