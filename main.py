@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import datetime
-def get_today_date():
+def get_current_date():
         return datetime.date.today()
