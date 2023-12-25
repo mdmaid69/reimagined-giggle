@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import sys
+  def get_python_version():
+        return sys.version
