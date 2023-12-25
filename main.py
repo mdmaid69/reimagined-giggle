@@ -1,5 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
