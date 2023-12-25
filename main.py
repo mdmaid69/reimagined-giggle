@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def reverse_list(lst):
-        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
+  def subtract_numbers(x, y):
+        return x - y
