@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
