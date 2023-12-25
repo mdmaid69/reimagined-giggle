@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
