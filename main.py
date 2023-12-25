@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
