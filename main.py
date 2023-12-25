@@ -1,4 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
