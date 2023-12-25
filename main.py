@@ -1,6 +1,3 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def count_elements(lst):
+        return len(lst)
+print([x**2 for x in range(10)])
