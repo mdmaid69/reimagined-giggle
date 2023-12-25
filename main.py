@@ -1,4 +1,9 @@
-from collections import Counter
-print(Counter("hello world"))
-def add_numbers(a, b):
-        return a + b
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
