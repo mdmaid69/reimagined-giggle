@@ -1,7 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_max(numbers):
+        return max(numbers)
