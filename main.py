@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
