@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
