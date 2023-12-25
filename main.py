@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_max(lst):
-        return max(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def convert_to_octal(n):
+        return oct(n)
