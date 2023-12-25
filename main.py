@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def get_array_as_str(array):
-        return str(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
