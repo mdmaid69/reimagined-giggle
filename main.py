@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
