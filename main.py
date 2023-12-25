@@ -1,8 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
