@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
