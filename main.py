@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
