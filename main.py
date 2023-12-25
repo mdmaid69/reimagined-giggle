@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
