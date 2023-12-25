@@ -1,5 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
