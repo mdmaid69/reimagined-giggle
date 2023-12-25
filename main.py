@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
