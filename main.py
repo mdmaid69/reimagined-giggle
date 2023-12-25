@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_typecode(array):
+        return array.typecode
