@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def add_numbers(x, y):
-        return x + y
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
