@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_to_octal(n):
+        return oct(n)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
