@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_user_list():
+        return collections.UserList()
