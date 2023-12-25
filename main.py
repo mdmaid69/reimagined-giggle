@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def count_elements(lst):
-        return len(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_area_rectangle(l, w):
+        return l * w
