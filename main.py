@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
