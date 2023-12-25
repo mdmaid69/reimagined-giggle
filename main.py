@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+print(re.match("h.*o", "hello world"))
+def reverse_string(s):
+        return s[::-1]
