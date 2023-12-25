@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_work(force, distance):
+        return force * distance
