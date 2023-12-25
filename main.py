@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
