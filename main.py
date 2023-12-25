@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
