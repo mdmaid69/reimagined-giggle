@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
