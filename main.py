@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
