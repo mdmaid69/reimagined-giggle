@@ -1,5 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def append_to_array(array, item):
+        array.append(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
