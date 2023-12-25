@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
