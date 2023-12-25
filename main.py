@@ -1,4 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
