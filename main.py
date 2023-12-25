@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
