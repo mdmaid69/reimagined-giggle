@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
