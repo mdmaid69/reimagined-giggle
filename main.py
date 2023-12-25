@@ -1,6 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_current_directory():
+        return os.getcwd()
