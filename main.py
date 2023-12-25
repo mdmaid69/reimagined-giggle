@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
