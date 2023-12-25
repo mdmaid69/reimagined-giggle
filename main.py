@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import sys
-print(sys.version)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
