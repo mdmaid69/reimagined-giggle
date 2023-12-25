@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def add_numbers(a, b):
+        return a + b
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
