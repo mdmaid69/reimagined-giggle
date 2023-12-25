@@ -1,6 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
