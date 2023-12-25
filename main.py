@@ -1,7 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
