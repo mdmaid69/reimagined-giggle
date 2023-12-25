@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
