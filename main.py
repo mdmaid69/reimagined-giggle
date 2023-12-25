@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
