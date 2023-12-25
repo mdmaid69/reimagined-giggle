@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def append_to_array(array, item):
+        array.append(item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
