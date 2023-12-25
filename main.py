@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
