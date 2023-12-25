@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_stack():
+        return collections.deque()
