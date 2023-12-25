@@ -1,11 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
