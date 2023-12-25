@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_max(numbers):
-        return max(numbers)
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_area_rectangle(l, w):
+        return l * w
