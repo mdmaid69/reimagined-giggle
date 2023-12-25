@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
