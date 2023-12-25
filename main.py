@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def reverse_list(lst):
+        return lst[::-1]
