@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-def print_python_version():
-        print(sys.version)
+  def square_number(x):
+        return x**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
