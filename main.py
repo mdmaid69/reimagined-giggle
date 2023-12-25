@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def convert_to_octal(n):
+        return oct(n)
