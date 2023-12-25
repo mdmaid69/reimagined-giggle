@@ -1,5 +1,10 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import datetime
+def get_today_date():
+        return datetime.date.today()
