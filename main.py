@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
