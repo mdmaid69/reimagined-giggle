@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
