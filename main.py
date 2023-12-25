@@ -1,8 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
