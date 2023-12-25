@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import random
+print(random.randint(0, 100))
+import sys
+def print_python_version():
+        return sys.version
