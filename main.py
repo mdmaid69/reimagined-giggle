@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
