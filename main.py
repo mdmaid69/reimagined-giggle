@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-for i in range(5):
-        print(i)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import numpy as np
+print(np.array([1, 2, 3]))
