@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
