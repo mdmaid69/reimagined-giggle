@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
