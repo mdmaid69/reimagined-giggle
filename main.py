@@ -1,8 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_repr(array):
+        return repr(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
