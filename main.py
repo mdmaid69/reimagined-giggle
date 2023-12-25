@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def add_numbers(x, y):
-        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
