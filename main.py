@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
