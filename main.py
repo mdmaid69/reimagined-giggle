@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def convert_to_binary(n):
+        return bin(n)
