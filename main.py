@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+print(datetime.datetime.now())
