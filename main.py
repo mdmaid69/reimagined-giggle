@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
