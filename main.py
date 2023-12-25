@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def get_array_index(array, item):
+        return array.index(item)
