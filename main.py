@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
