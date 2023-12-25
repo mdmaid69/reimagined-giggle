@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def square_number(x):
+        return x**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
