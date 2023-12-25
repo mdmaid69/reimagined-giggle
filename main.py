@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
