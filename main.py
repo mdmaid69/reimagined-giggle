@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
