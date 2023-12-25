@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
