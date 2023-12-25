@@ -1,7 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
