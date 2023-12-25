@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
