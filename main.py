@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def reverse_list(lst):
-        return lst[::-1]
+import random
+def roll_die():
+        return random.randint(1, 6)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
