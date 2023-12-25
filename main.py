@@ -1,6 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
