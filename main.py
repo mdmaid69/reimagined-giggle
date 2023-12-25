@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
