@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_work(force, distance):
+        return force * distance
+def sort_numbers(numbers):
+        return sorted(numbers)
