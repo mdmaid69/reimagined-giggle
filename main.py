@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+print([x**2 for x in range(10)])
