@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_current_datetime():
+        return datetime.datetime.now()
