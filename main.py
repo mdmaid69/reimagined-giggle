@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
