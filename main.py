@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
