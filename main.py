@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
