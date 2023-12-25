@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
