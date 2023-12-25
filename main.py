@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
