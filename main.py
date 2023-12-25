@@ -1,4 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-from collections import Counter
-print(Counter("hello world"))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_speed(distance, time):
+        return distance / time
