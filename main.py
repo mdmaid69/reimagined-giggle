@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def is_odd(n):
+        return n % 2 != 0
