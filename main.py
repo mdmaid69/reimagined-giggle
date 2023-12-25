@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_max(numbers):
-        return max(numbers)
+  def cube_number(x):
+        return x**3
+  def multiply_numbers(x, y):
+        return x * y
