@@ -1,10 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
