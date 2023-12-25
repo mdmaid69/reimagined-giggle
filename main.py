@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import platform
+def get_python_version():
+        return platform.python_version()
