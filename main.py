@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
