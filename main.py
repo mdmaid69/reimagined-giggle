@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def reverse_string(s):
+        return s[::-1]
