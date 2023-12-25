@@ -1,8 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
