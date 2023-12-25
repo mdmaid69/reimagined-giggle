@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
