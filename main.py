@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
