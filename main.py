@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_dict():
+        return collections.UserDict()
