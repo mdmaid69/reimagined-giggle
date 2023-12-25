@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
