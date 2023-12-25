@@ -1,4 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-print("Hello, world!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def sort_list(lst):
+        return sorted(lst)
