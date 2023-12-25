@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def square_number(x):
+        return x**2
+def count_words(sentence):
+        return len(sentence.split())
