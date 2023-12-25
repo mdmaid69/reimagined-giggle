@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import platform
+def get_python_version():
+        return platform.python_version()
