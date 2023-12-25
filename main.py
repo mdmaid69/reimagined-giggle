@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
