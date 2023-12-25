@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-def reverse_list(lst):
-        return lst[::-1]
+import time
+print(time.time())
+  def convert_to_octal(n):
+        return oct(n)
