@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
