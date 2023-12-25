@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
