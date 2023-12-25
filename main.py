@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
