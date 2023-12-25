@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
