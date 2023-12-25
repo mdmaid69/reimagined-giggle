@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
