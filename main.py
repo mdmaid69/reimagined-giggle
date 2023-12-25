@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
