@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
