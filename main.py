@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
