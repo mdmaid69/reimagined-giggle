@@ -1,5 +1,6 @@
-import time
-print(time.time())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
