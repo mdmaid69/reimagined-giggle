@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
