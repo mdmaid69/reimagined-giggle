@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
