@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
