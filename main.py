@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
