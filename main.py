@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import getpass
+def get_username():
+        return getpass.getuser()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
