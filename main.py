@@ -1,5 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import tensorflow as tf
-print(tf.__version__)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
