@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def reverse_string(s):
+        return s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
