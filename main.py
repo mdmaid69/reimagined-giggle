@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_environment_variable(var):
+        return os.getenv(var)
