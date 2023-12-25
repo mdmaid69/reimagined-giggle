@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
