@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
