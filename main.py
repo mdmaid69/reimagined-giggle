@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
