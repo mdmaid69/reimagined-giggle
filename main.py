@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
