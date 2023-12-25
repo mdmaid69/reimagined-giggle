@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_list(array):
+        return list(array)
