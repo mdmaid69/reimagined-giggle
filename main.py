@@ -1,8 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
