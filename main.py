@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
