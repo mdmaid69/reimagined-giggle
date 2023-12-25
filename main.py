@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
