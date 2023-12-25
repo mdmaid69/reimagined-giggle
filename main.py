@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
