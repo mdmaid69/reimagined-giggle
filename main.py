@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def clear_array(array):
+        array *= 0
+import time
+def get_time_since_epoch():
+        return time.time()
