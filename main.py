@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
