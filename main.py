@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
