@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
