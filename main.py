@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_speed(distance, time):
-        return distance / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
