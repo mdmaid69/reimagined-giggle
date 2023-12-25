@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
