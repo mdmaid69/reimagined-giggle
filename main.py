@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
