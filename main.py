@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def square_number(x):
+        return x**2
+import array
+def append_to_array(array, item):
+        array.append(item)
