@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+def get_current_time():
+        return time.time()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
