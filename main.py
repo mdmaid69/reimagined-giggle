@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Square numbers:", [x**2 for x in range(n)])
