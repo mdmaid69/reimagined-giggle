@@ -1,5 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
