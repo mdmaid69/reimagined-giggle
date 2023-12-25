@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
