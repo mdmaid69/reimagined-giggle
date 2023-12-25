@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
