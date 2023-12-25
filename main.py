@@ -1,5 +1,9 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_list_from_array(array):
+        return array.tolist()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
