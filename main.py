@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_density(mass, volume):
-        return mass / volume
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
