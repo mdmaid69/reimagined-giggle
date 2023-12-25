@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
