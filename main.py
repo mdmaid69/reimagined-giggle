@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
