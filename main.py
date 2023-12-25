@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
