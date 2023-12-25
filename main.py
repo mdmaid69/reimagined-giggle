@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def count_words(sentence):
+        return len(sentence.split())
