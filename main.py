@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def clear_array(array):
+        array *= 0
