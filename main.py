@@ -1,7 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def is_odd(n):
+        return n % 2 != 0
