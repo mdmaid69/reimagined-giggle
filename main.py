@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def reverse_string(s):
-        return s[::-1]
+import sys
+def print_python_version():
+        return sys.version
+def count_words(sentence):
+        return len(sentence.split())
