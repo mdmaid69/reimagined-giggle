@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_area_rectangle(l, w):
+        return l * w
