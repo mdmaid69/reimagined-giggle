@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
