@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def reverse_array(array):
+        array.reverse()
