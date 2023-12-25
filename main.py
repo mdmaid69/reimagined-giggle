@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
