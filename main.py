@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
