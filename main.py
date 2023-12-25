@@ -1,5 +1,11 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
