@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_set(array):
-        return set(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
