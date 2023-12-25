@@ -1,6 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import sys
+def exit_program():
+        sys.exit()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
