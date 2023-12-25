@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
