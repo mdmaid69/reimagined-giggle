@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def greet(name):
+        print(f"Hello, {name}!")
