@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
