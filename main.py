@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
