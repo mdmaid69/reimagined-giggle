@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_list(array):
-        return list(array)
+def count_words(sentence):
+        return len(sentence.split())
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
