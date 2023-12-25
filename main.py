@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def is_even(n):
-        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
