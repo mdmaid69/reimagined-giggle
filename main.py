@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
