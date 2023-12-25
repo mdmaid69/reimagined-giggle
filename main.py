@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
