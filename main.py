@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def subtract_numbers(x, y):
+        return x - y
+x = 10
+y = 20
+print("Sum:", x + y)
