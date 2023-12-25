@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
