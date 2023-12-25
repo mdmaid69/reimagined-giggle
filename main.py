@@ -1,7 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
