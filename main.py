@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+print(list(itertools.permutations([1, 2, 3])))
