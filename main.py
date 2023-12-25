@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
