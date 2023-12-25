@@ -1,5 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
