@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
