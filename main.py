@@ -1,4 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-print("Hello, world!")
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
