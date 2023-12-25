@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
