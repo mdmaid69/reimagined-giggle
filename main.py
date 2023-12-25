@@ -1,6 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def convert_array_to_unicode(array):
+        return array.tounicode()
