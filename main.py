@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
