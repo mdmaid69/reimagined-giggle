@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
