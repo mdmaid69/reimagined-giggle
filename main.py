@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
