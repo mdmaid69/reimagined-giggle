@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def add_numbers(x, y):
+        return x + y
