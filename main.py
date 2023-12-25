@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
