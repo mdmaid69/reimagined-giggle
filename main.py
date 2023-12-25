@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def count_characters(sentence):
+        return len(sentence)
