@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
