@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
