@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
