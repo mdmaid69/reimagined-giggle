@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
