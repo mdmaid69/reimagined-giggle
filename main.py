@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
