@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
