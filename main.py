@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_power(work, time):
-        return work / time
+def cube_number(x):
+        return x**3
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
