@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_work(force, distance):
+        return force * distance
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
