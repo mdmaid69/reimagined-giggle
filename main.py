@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
