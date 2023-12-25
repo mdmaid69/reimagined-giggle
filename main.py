@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
