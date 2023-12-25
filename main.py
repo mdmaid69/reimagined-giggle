@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-name = "Python"
-print("Hello,", name)
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
