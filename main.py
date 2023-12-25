@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
