@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
