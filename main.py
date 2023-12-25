@@ -1,4 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-for i in range(10): print(i)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
