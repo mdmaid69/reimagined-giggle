@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def delete_file(file_name):
+        os.remove(file_name)
