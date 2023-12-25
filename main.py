@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import logging
+def log_message(message):
+        logging.info(message)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
