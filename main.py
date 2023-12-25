@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
