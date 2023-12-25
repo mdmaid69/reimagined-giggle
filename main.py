@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def add_numbers(x, y):
-        return x + y
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
