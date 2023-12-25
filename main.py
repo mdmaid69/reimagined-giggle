@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
