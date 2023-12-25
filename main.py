@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_user_list():
-        return collections.UserList()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
