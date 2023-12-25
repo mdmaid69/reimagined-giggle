@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_os_info():
+        return platform.uname()
