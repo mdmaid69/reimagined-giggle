@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
