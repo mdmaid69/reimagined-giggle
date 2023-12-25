@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
