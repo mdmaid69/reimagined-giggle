@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
