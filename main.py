@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def square_number(x):
+        return x**2
