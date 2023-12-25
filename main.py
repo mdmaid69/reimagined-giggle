@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_min(lst):
+        return min(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
