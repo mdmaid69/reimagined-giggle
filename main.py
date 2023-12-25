@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_min(lst):
+        return min(lst)
