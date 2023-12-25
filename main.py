@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
