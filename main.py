@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def remove_duplicates(lst):
+        return list(set(lst))
