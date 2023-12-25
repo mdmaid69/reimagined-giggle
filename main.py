@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
