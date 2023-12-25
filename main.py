@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
