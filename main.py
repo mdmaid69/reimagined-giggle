@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
