@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+i = 0
+while i < 5:
+        print(i)
+        i += 1
