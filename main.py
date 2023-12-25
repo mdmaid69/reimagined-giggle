@@ -1,7 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
