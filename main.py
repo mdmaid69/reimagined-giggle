@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
