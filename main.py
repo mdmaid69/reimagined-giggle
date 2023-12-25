@@ -1,8 +1,8 @@
-def cube_number(x):
-        return x**3
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
