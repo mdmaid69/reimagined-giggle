@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_time_since_epoch():
+        return time.time()
