@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def reverse_list(lst):
+        return lst[::-1]
