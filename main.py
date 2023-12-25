@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_density(mass, volume):
+        return mass / volume
