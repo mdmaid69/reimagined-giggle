@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import numpy as np
+print(np.array([1, 2, 3]))
