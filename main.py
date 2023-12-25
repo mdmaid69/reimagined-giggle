@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def cube_number(x):
+        return x**3
