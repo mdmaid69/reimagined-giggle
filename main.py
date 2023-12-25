@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_stack():
+        return collections.deque()
+import collections
+def create_user_string():
+        return collections.UserString()
