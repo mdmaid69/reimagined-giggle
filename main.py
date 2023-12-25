@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
