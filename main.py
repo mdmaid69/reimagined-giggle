@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
