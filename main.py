@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
