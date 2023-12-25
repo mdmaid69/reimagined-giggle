@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area_rectangle(l, w):
-        return l * w
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def square_number(x):
+        return x**2
