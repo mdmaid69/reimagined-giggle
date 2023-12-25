@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import logging
+def log_message(message):
+        logging.info(message)
