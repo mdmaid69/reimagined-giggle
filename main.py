@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
