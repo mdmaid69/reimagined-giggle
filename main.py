@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
