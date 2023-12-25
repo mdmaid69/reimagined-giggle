@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+name = "Python"
+print("Hello,", name)
