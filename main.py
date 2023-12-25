@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import time
-def get_current_time():
-        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
