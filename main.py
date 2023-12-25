@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
