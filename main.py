@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
