@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
