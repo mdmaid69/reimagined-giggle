@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def is_even(n):
-        return n % 2 == 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
