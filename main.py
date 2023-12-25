@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
