@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
