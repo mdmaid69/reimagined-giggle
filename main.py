@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
