@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
