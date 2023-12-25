@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
