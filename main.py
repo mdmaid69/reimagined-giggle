@@ -1,8 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
