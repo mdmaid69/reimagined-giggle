@@ -1,11 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
