@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import time
+def get_current_time():
+        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
