@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_float(array):
+        return float(array[0])
