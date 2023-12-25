@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
