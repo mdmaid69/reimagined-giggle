@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
