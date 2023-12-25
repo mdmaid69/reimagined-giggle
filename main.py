@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_length(array):
+        return len(array)
