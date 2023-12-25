@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
