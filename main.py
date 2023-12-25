@@ -1,6 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_queue():
-        return collections.deque()
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
