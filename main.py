@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_today_date():
+        return datetime.date.today()
