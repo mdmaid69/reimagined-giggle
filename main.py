@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
