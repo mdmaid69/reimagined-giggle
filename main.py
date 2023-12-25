@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
