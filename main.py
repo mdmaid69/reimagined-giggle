@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
