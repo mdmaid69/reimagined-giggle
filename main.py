@@ -1,5 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_floor(x):
+        return math.floor(x)
+  def sort_list(lst):
+        return sorted(lst)
