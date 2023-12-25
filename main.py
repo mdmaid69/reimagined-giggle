@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def count_elements(lst):
+        return len(lst)
