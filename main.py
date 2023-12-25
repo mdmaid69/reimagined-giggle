@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_power(work, time):
+        return work / time
