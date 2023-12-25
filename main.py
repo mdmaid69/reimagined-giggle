@@ -1,7 +1,5 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def remove_duplicates(lst):
+        return list(set(lst))
