@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
