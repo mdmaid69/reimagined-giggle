@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
