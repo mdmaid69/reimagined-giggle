@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
