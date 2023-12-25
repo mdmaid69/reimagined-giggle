@@ -1,5 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_as_int(array):
+        return int(array[0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
