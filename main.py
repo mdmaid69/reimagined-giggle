@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-for i in range(5):
-        print(i)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
