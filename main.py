@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import random
-print(random.randint(0, 100))
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
