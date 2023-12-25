@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_power(work, time):
+        return work / time
