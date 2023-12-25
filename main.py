@@ -1,8 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
