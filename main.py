@@ -1,10 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
