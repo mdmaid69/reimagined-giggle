@@ -1,11 +1,6 @@
-def cube_number(x):
-        return x**3
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
