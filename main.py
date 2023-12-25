@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
