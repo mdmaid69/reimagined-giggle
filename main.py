@@ -1,4 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-print("Hello, world!")
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
