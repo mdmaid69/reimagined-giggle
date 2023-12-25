@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_min(lst):
-        return min(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
