@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
