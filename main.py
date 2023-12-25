@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
