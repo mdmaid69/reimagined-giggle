@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_speed(distance, time):
+        return distance / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
