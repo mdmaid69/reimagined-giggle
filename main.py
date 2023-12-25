@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_as_list(array):
+        return list(array)
+name = "Python"
+print("Hello,", name)
