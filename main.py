@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_power(work, time):
+        return work / time
+def convert_to_octal(n):
+        return oct(n)
