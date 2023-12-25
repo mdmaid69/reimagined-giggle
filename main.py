@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def convert_to_octal(n):
-        return oct(n)
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
