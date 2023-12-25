@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
