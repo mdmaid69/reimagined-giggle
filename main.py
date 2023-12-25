@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_octal(n):
+        return oct(n)
