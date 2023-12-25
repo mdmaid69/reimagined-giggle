@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
