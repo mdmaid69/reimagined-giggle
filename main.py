@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def cube_number(x):
+        return x**3
