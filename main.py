@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
