@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def square_number(x):
+        return x**2
+  def remove_duplicates(lst):
+        return list(set(lst))
