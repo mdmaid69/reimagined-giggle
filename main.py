@@ -1,5 +1,12 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
