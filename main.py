@@ -1,3 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-print([x**2 for x in range(10)])
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
