@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
