@@ -1,6 +1,8 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
