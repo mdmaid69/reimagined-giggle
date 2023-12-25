@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_pythagorean_theorem(a, b):
+def calculate_hypotenuse(a, b):
         return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
