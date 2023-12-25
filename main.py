@@ -1,7 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
