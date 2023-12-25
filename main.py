@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def create_user_list():
+        return collections.UserList()
