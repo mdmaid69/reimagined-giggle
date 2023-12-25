@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def multiply_numbers(x, y):
+        return x * y
