@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_work(force, distance):
-        return force * distance
+import time
+def get_current_time():
+        return time.ctime()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
