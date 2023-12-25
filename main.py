@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
