@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
