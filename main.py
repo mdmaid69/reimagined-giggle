@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
