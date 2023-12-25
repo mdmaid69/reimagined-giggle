@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
