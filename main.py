@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
