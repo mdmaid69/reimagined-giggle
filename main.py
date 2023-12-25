@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+print(random.randint(0, 100))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
