@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
