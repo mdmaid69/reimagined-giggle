@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def convert_to_binary(n):
-        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
