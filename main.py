@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
