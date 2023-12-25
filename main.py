@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
