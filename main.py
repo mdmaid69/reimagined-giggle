@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+from collections import Counter
+print(Counter("hello world"))
+import time
+def get_current_time():
+        return time.ctime()
