@@ -1,8 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
