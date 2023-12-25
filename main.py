@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_list(array):
+        return list(array)
