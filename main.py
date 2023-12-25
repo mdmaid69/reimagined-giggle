@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
