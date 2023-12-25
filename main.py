@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def convert_to_hex(n):
-        return hex(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
