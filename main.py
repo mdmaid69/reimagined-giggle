@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
