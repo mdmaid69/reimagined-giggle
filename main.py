@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
