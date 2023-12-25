@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
