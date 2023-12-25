@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
