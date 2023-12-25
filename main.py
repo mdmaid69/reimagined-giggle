@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
