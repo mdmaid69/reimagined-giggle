@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
