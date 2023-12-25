@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
