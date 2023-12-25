@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def multiply_numbers(x, y):
+        return x * y
+import time
+def get_time_since_epoch():
+        return time.time()
