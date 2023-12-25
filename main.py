@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def is_odd(n):
+        return n % 2 != 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
