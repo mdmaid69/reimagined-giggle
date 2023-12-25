@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_item(array, i):
+        return array[i]
