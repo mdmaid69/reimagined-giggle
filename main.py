@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
