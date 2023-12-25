@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
