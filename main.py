@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
