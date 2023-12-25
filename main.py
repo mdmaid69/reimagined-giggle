@@ -1,5 +1,6 @@
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
