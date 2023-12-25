@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
