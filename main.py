@@ -1,8 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_min(lst):
+        return min(lst)
+  def convert_to_octal(n):
+        return oct(n)
