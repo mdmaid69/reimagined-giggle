@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
