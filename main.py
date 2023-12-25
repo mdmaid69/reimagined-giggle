@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+for i in range(10): print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
