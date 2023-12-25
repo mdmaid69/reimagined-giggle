@@ -1,6 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
