@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
