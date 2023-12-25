@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def find_min(lst):
+        return min(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
