@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_max(numbers):
+        return max(numbers)
