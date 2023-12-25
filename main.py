@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def sort_list(lst):
-        return sorted(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
