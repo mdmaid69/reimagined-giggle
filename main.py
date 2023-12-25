@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_area(radius):
+        return 3.14 * radius * radius
