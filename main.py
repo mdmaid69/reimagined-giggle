@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def split_path(path):
+        return os.path.split(path)
+  def add_numbers(x, y):
+        return x + y
