@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
