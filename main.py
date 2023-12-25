@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def add_numbers(a, b):
+        return a + b
