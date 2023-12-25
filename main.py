@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
