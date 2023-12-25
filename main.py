@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
