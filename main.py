@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
