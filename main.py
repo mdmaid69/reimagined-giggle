@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import random
+print(random.randint(0, 100))
