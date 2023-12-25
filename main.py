@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
