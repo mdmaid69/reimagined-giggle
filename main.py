@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
