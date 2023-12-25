@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+from collections import Counter
+print(Counter("hello world"))
