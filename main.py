@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
