@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
