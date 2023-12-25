@@ -1,7 +1,10 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
