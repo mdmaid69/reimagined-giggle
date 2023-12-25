@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def count_elements(lst):
-        return len(lst)
+import math
+print(math.pi)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
