@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
