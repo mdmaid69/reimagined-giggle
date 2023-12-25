@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
