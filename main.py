@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
