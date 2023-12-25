@@ -1,9 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
