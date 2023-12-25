@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
