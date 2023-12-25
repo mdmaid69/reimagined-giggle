@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
