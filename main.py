@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def count_elements(lst):
+        return len(lst)
