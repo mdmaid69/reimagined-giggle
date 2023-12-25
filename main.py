@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def remove_duplicates(lst):
+        return list(set(lst))
