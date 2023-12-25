@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
