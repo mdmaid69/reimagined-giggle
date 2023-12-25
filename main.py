@@ -1,7 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_to_binary(n):
+        return bin(n)
+def count_elements(lst):
+        return len(lst)
