@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
