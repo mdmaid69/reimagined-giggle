@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
