@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_work(force, distance):
-        return force * distance
+import re
+print(re.match("h.*o", "hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
