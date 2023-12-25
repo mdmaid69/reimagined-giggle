@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+print(math.pi)
