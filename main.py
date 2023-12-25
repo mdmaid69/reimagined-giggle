@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
