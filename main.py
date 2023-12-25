@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
