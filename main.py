@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def convert_to_octal(n):
+        return oct(n)
