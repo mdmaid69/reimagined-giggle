@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
