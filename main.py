@@ -1,10 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
