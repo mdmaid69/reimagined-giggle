@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
