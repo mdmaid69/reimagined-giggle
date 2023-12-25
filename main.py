@@ -1,12 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_pressure(force, area):
+        return force / area
+def is_odd(n):
+        return n % 2 != 0
