@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def divide_numbers(x, y):
+        return x / y
+def reverse_list(lst):
+        return lst[::-1]
