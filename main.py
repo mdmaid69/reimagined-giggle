@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
