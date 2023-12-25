@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
