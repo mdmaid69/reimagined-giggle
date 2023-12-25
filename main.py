@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_counter():
-        return collections.Counter()
+print("Hello, world!")
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
