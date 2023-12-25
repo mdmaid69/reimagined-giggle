@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import getpass
-def get_username():
-        return getpass.getuser()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
