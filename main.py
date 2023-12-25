@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def multiply_numbers(x, y):
+        return x * y
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_bytes_from_array(array):
+        return array.tobytes()
