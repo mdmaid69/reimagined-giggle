@@ -1,6 +1,6 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
