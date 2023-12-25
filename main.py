@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
