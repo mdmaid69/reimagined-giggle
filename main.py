@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
