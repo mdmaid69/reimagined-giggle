@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
