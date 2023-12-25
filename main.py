@@ -1,6 +1,3 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+print("Hello, world!")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
