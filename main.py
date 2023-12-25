@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
