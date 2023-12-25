@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def is_even(n):
+        return n % 2 == 0
