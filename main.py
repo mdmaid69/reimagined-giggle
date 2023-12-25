@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
