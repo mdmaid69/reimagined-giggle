@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
