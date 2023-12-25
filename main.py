@@ -1,5 +1,9 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
