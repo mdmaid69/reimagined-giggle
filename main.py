@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
