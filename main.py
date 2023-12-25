@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
