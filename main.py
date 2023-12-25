@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
