@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
