@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
