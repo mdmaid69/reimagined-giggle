@@ -1,7 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-for i in range(10): print(i)
+import sys
+print(sys.version)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
