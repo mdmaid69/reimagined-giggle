@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.time()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
