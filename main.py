@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def is_even(n):
+        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
