@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
