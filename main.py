@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
