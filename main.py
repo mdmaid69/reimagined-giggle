@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
