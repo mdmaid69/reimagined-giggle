@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
