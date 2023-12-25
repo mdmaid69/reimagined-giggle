@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
