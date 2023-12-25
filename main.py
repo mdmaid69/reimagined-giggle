@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_repr(array):
+        return repr(array)
