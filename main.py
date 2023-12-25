@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import platform
-def get_python_version():
-        return platform.python_version()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_area(radius):
+        return 3.14 * radius * radius
