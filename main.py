@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
