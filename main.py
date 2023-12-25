@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
