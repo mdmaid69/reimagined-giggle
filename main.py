@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import getpass
+def get_username():
+        return getpass.getuser()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
