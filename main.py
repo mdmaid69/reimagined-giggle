@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
