@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
