@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
