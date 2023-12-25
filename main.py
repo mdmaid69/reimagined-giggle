@@ -1,8 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_current_directory():
+        return os.getcwd()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
