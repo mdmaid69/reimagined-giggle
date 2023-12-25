@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
