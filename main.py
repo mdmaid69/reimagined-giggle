@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
