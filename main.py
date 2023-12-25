@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_area(radius):
+        return 3.14 * radius * radius
