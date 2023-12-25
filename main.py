@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
