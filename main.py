@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
