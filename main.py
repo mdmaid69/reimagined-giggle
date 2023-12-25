@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
