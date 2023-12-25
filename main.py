@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
