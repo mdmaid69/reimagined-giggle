@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_array_as_list(array):
+        return list(array)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
