@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
