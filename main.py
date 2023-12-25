@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def count_elements(lst):
-        return len(lst)
+def calculate_speed(distance, time):
+        return distance / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
