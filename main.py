@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def sort_numbers(numbers):
-        return sorted(numbers)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
