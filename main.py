@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_stack():
+        return collections.deque()
