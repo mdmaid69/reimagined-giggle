@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import array
-def reverse_array(array):
-        array.reverse()
+def extend_array(array, iterable):
+        array.extend(iterable)
