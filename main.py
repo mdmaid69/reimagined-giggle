@@ -1,6 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
