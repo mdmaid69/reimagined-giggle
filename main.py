@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_str(array):
+        return str(array)
