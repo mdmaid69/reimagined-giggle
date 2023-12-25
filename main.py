@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
