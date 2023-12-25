@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_min(numbers):
+        return min(numbers)
