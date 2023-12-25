@@ -1,8 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
