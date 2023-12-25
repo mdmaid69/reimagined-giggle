@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_tuple(array):
+        return tuple(array)
