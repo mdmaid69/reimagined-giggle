@@ -1,6 +1,12 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
