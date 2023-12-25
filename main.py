@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
