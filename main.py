@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
