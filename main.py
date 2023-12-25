@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
