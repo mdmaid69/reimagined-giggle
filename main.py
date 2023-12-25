@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_volume(length, width, height):
+        return length * width * height
