@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
