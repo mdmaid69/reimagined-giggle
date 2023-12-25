@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def reverse_list(lst):
+        return lst[::-1]
+  def is_odd(n):
+        return n % 2 != 0
