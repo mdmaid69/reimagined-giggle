@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def square_number(x):
-        return x**2
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
