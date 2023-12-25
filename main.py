@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+text = "Hello, world!"
+print("Characters:", len(text))
