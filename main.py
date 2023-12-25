@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_power(work, time):
+        return work / time
