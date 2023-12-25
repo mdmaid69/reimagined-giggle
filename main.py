@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
