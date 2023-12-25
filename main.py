@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def cube_number(x):
-        return x**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
