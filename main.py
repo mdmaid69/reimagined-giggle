@@ -1,8 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def count_characters(sentence):
+        return len(sentence)
