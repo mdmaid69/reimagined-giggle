@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_power(work, time):
+        return work / time
