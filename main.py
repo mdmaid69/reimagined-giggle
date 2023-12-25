@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
