@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
