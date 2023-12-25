@@ -1,7 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
