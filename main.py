@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def is_even(n):
+        return n % 2 == 0
