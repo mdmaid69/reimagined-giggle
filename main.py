@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
