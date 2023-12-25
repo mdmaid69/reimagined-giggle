@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
