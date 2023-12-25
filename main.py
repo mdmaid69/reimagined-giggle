@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_array_item(array, i):
+        return array[i]
