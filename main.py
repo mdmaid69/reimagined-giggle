@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
