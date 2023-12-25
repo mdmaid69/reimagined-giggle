@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_as_float(array):
+        return float(array[0])
