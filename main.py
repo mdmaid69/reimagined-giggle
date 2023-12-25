@@ -1,4 +1,3 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_even(n):
+        return n % 2 == 0
+print([x**2 for x in range(10)])
