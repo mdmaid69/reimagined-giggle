@@ -1,6 +1,7 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
