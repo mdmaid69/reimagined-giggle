@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
