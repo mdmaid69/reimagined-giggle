@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
