@@ -1,8 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
