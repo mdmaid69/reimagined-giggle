@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def print_python_version():
+        print(sys.version)
