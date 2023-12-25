@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
