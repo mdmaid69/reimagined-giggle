@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
