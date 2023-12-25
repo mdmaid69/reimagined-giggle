@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
