@@ -1,8 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
