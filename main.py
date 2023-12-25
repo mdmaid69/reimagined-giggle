@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
