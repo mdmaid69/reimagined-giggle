@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
