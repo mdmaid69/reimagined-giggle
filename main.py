@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
