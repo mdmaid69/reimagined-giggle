@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
