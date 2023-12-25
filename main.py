@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_user_string():
+        return collections.UserString()
