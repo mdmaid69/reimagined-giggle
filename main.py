@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
