@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_min(numbers):
-        return min(numbers)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def clear_array(array):
+        array *= 0
