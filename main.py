@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def square_number(x):
-        return x**2
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
