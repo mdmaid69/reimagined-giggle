@@ -1,4 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
