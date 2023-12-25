@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def delete_file(file_name):
+        os.remove(file_name)
