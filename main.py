@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+print(random.randint(0, 100))
+import json
+print(json.dumps({"name": "John", "age": 30}))
