@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def convert_to_binary(n):
-        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
