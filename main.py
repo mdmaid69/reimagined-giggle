@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
