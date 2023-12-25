@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
