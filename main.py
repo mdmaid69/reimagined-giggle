@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
