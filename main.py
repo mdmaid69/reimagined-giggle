@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+print(math.pi)
