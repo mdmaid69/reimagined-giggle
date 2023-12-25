@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cosine(x):
+        return math.cos(x)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
