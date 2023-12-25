@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
