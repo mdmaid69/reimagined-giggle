@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
