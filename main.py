@@ -1,7 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import getpass
+def get_username():
+        return getpass.getuser()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
