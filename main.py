@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def find_min(lst):
+        return min(lst)
+import time
+print(time.time())
