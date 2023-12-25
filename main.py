@@ -1,6 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
