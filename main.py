@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def multiply_numbers(x, y):
+        return x * y
