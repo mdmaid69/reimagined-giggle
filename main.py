@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
