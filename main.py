@@ -1,8 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_length(array):
-        return len(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
