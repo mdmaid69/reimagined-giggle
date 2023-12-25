@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_array_item_count(array, item):
+        return array.count(item)
