@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
