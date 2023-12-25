@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
