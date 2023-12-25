@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+name = "Python"
+print("Hello,", name)
