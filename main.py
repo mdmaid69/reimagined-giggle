@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
