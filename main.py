@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def remove_directory(path):
+        os.rmdir(path)
