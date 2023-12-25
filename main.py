@@ -1,8 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
