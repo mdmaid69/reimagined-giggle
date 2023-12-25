@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
