@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
