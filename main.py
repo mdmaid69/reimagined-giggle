@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
