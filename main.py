@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
