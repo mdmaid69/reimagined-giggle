@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
