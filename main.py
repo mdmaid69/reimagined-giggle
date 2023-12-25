@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+name = "Python"
+print("Hello,", name)
