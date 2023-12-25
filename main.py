@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
