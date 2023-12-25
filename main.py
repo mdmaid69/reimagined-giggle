@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def remove_from_array(array, item):
+        array.remove(item)
