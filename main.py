@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
