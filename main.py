@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
