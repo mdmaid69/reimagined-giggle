@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def subtract_numbers(x, y):
+        return x - y
