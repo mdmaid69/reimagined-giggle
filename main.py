@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_index(array, item):
+        return array.index(item)
