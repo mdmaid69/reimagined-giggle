@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
