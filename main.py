@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def is_even(n):
+        return n % 2 == 0
