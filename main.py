@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+print(random.randint(0, 100))
