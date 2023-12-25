@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def get_array_as_int(array):
+        return int(array[0])
