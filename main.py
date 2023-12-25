@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_work(force, distance):
+        return force * distance
