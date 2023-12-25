@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
