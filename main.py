@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import tensorflow as tf
+print(tf.__version__)
+import sys
+def exit_program():
+        sys.exit()
