@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
