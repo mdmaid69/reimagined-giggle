@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
