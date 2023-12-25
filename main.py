@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
