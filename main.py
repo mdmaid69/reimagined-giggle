@@ -1,5 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def clear_array(array):
-        array *= 0
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
