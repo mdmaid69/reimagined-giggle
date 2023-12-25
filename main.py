@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
