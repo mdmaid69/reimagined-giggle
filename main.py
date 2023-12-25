@@ -1,5 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_error_function(x):
+        return math.erf(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
