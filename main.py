@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import sys
+def print_python_version():
+        return sys.version
+for i in range(10): print(i)
