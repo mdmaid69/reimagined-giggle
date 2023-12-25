@@ -1,6 +1,3 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+print(sum(range(10)))
+def calculate_area_circle(r):
+        return 3.14 * r**2
