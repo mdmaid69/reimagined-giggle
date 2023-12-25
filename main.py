@@ -1,4 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-print([x**2 for x in range(10)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
