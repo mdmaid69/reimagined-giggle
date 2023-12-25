@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
