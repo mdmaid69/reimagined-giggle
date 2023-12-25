@@ -1,8 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import json
+print(json.dumps({"name": "John", "age": 30}))
