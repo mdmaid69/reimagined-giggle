@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def split_path(path):
+        return os.path.split(path)
