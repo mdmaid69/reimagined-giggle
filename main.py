@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
