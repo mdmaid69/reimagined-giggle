@@ -1,6 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
