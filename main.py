@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import time
-print(time.time())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
