@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
