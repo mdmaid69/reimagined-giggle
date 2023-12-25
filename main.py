@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
