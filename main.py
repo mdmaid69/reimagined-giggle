@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
