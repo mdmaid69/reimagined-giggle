@@ -1,5 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def get_array_length(array):
-        return len(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
