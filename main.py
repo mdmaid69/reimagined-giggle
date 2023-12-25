@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
