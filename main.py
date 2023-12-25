@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
