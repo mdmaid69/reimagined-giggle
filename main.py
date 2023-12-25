@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
