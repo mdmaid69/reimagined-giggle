@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
