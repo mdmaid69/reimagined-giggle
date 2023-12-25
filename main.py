@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
