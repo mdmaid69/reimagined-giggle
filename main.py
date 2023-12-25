@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
