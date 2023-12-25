@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
