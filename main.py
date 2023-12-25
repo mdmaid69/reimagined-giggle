@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
