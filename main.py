@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_unique_words(sentence):
+        return set(sentence.split())
