@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_speed(distance, time):
+        return distance / time
