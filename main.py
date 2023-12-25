@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def is_odd(n):
+        return n % 2 != 0
