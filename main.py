@@ -1,5 +1,7 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
