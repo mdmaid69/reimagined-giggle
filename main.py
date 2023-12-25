@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import os
-print(os.getcwd())
+  def convert_to_hex(n):
+        return hex(n)
+def convert_to_binary(n):
+        return bin(n)
