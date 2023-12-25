@@ -1,6 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
