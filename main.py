@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
