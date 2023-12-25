@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
