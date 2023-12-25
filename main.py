@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
