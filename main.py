@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
