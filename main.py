@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
