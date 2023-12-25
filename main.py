@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
