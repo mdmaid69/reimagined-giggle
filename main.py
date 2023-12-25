@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_queue():
+        return collections.deque()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
