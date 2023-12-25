@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
