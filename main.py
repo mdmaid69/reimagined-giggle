@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_odd(n):
+        return n % 2 != 0
+  def is_even(n):
+        return n % 2 == 0
