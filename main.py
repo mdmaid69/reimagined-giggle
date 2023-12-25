@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
