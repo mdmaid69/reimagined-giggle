@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
