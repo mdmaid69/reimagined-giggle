@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
