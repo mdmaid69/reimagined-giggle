@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import platform
+def get_os_info():
+        return platform.uname()
