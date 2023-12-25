@@ -1,8 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
