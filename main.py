@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
