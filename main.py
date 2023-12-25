@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def clear_array(array):
+        array *= 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
