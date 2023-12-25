@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
