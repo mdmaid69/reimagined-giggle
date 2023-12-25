@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_item(array, i):
+        return array[i]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
