@@ -1,7 +1,12 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
