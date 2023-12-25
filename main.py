@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_length(array):
-        return len(array)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
