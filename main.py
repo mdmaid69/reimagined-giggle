@@ -1,7 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
