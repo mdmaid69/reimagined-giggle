@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
