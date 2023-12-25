@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
