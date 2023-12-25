@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_pressure(force, area):
+        return force / area
