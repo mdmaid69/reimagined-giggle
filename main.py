@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
