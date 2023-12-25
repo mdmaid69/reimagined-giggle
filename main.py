@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import sys
+def exit_program():
+        sys.exit()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
