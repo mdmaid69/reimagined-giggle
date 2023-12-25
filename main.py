@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
