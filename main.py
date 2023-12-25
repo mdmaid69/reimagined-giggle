@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def count_characters(sentence):
+        return len(sentence)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
