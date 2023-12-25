@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_item(array, i):
+        return array[i]
+import datetime
+print(datetime.datetime.now())
