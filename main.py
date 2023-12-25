@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_area_rectangle(l, w):
-        return l * w
+def sort_numbers(numbers):
+        return sorted(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
