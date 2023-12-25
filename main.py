@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
