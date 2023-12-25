@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
