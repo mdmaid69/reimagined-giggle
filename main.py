@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
