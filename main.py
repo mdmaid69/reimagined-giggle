@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def get_array_length(array):
-        return len(array)
+def reverse_array(array):
+        array.reverse()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
