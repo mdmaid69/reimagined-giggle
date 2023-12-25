@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
