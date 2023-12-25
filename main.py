@@ -1,12 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
