@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
