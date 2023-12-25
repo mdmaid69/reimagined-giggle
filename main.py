@@ -1,6 +1,5 @@
-print(sum(range(10)))
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def remove_duplicates(lst):
+        return list(set(lst))
