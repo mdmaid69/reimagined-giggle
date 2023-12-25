@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
