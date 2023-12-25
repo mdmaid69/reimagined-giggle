@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
