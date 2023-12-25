@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def reverse_array(array):
+        array.reverse()
