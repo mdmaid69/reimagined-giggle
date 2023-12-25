@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def is_palindrome(s):
-        return s == s[::-1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
