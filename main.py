@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
