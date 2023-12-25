@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
