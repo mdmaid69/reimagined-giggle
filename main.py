@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def is_even(n):
-        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
