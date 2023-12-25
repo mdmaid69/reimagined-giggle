@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def find_unique_words(sentence):
+        return set(sentence.split())
