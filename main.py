@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import sys
+print(sys.version)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
