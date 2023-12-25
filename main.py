@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
