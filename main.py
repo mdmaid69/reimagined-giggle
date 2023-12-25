@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+from collections import Counter
+print(Counter("hello world"))
