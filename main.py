@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_length(array):
-        return len(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_acceleration(speed, time):
+        return speed / time
