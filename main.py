@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
