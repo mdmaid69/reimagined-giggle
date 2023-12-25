@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
