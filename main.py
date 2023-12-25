@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_acceleration(speed, time):
+        return speed / time
