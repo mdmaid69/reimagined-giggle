@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def count_elements(lst):
+        return len(lst)
