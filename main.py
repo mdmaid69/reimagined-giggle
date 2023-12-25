@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_string_from_array(array):
+        return array.tobytes()
