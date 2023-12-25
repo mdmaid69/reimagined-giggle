@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
