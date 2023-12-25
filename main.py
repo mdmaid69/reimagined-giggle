@@ -1,5 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_hex(n):
-        return hex(n)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
