@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import os
+print(os.getcwd())
