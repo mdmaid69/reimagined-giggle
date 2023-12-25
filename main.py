@@ -1,5 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_power(work, time):
-        return work / time
+def get_array_index(array, item):
+        return array.index(item)
+from collections import Counter
+print(Counter("hello world"))
