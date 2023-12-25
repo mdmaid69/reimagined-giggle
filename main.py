@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def cube_number(x):
+        return x**3
