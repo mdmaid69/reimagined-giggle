@@ -1,6 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-print([x**2 for x in range(10)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
