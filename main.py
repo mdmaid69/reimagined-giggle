@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
