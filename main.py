@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def remove_duplicates(lst):
+        return list(set(lst))
