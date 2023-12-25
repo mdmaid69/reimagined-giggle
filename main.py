@@ -1,6 +1,8 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
