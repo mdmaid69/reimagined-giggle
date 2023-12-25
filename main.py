@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def find_max(numbers):
+        return max(numbers)
+import time
+def get_current_time():
+        return time.time()
