@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
