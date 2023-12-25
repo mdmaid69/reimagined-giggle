@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def find_min(lst):
+        return min(lst)
