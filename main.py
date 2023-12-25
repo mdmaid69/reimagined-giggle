@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def is_odd(n):
+        return n % 2 != 0
