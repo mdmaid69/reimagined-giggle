@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
