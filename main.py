@@ -1,6 +1,10 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
