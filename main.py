@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
