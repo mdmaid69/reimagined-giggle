@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
