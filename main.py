@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def cube_number(x):
+        return x**3
+  def convert_to_binary(n):
+        return bin(n)
