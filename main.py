@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def convert_to_binary(n):
-        return bin(n)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
