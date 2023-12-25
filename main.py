@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_user_list():
+        return collections.UserList()
