@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
