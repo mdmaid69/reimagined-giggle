@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def is_odd(n):
-        return n % 2 != 0
+import platform
+def get_python_version():
+        return platform.python_version()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
