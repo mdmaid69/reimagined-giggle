@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_min(numbers):
+        return min(numbers)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
