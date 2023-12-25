@@ -1,6 +1,10 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_queue():
-        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
