@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import time
-def get_current_time():
-        return time.ctime()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
