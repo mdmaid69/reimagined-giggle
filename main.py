@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
