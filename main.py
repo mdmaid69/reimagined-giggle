@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import platform
+def get_python_version():
+        return platform.python_version()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
