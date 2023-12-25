@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import json
+print(json.dumps({"name": "John", "age": 30}))
