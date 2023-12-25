@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
