@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def reverse_array(array):
-        array.reverse()
+def count_characters(sentence):
+        return len(sentence)
+  def is_even(n):
+        return n % 2 == 0
