@@ -1,5 +1,9 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
