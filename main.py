@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_complex(array):
+        return complex(array[0])
