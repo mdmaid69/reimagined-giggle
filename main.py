@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def reverse_array(array):
-        array.reverse()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
