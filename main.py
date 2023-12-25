@@ -1,9 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
