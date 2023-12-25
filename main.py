@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
