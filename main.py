@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
