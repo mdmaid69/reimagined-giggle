@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def change_working_directory(path):
+        os.chdir(path)
