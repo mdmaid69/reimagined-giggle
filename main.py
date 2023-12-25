@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def is_even(n):
+        return n % 2 == 0
