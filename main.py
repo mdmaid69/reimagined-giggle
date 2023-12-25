@@ -1,6 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import collections
-def create_priority_queue():
+def create_stack():
         return collections.deque()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
