@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
