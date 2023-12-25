@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_max(lst):
+        return max(lst)
