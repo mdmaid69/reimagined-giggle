@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_exponential(x):
+        return math.exp(x)
