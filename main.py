@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def find_max(numbers):
+        return max(numbers)
+import collections
+def create_counter():
+        return collections.Counter()
