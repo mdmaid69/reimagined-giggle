@@ -1,4 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
