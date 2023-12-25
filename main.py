@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
