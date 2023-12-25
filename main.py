@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
