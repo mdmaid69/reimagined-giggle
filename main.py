@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
