@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import numpy as np
-print(np.array([1, 2, 3]))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
