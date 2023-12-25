@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
