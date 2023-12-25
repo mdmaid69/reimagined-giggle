@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
