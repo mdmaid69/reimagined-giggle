@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
