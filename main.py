@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
