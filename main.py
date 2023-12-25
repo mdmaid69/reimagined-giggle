@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
