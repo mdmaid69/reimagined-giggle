@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
