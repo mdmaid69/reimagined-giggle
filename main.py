@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
