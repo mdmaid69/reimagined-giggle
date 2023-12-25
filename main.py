@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
