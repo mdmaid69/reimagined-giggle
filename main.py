@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print([x**2 for x in range(10)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
