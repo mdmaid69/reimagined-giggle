@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
