@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def subtract_numbers(x, y):
-        return x - y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
