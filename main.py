@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
