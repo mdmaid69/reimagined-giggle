@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def is_odd(n):
+        return n % 2 != 0
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
