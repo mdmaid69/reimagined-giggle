@@ -1,5 +1,10 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
