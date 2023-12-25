@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_queue():
+        return collections.deque()
