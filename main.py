@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
