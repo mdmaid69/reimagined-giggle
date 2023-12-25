@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
