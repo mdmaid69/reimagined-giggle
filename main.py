@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
+def cube_number(x):
+        return x**3
