@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
