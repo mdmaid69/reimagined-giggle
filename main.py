@@ -1,4 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
