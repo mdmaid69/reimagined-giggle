@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def roll_die():
+        return random.randint(1, 6)
