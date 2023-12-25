@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def convert_to_hex(n):
+        return hex(n)
