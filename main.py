@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
