@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
