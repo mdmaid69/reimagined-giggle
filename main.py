@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
