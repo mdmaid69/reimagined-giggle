@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
