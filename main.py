@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
