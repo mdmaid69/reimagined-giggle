@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
