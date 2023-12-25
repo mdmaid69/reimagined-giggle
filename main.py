@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
