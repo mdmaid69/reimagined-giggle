@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
