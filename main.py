@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
