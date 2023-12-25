@@ -1,5 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
