@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
