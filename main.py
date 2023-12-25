@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
