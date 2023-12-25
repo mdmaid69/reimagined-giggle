@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
