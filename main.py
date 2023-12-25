@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
