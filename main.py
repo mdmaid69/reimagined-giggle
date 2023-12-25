@@ -1,6 +1,5 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 def remove_duplicates(lst):
         return list(set(lst))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
