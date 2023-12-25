@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
