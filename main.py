@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
