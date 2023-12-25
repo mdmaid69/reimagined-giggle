@@ -1,5 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def calculate_power(work, time):
+        return work / time
