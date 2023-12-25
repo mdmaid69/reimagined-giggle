@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
