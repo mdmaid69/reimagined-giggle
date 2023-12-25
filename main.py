@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+print([x**2 for x in range(10)])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
