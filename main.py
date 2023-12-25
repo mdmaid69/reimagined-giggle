@@ -1,9 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
