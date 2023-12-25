@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
