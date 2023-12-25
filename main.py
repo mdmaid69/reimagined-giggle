@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
