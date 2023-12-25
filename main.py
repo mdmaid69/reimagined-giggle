@@ -1,5 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
