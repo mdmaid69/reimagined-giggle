@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
