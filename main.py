@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def reverse_string(s):
-        return s[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
