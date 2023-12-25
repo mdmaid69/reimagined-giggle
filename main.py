@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_list(array):
-        return list(array)
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
