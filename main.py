@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
