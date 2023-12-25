@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
