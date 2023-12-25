@@ -1,4 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-print("Hello, world!")
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
