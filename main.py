@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
