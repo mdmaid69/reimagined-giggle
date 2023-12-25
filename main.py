@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
