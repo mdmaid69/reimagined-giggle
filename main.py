@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
