@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_list(array):
+        return list(array)
