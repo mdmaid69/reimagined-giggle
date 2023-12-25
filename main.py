@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
