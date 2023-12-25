@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
