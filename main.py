@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
