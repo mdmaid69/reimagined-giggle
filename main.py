@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def convert_to_hex(n):
+        return hex(n)
