@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
