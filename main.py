@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
