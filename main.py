@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_sine(x):
+        return math.sin(x)
