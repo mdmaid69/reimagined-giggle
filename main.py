@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_power(work, time):
+        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
