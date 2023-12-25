@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
