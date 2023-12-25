@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
