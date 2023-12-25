@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
