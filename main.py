@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def get_current_time():
+        return time.ctime()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
