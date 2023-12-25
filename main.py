@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
