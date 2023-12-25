@@ -1,4 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-for i in range(10): print(i)
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
