@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_bool(array):
+        return bool(array)
