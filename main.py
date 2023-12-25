@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
