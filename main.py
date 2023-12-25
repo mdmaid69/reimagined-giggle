@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_max(lst):
-        return max(lst)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
