@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
