@@ -1,11 +1,9 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import threading
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
