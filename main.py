@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
