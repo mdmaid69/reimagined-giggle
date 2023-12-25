@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def change_working_directory(path):
+        os.chdir(path)
