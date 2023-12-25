@@ -1,4 +1,8 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
