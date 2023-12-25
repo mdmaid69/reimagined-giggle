@@ -1,5 +1,5 @@
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
