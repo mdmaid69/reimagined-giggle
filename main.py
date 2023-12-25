@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def cube_number(x):
-        return x**3
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
