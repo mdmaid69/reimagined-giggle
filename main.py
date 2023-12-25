@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_float(array):
+        return float(array[0])
