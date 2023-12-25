@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_area_rectangle(l, w):
+        return l * w
