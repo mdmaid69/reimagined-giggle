@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
