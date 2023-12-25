@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def count_elements(lst):
+        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
