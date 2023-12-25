@@ -1,6 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
