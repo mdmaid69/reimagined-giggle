@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
