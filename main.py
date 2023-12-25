@@ -1,5 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def multiply_numbers(x, y):
-        return x * y
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
