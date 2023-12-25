@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
