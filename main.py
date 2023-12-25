@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
