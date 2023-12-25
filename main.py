@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def count_words(sentence):
+        return len(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
