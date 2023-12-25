@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def multiply_numbers(x, y):
+        return x * y
