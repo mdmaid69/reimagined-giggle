@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
