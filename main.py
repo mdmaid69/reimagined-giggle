@@ -1,8 +1,12 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
