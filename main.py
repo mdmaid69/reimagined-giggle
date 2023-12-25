@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
