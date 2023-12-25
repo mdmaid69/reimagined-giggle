@@ -1,7 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
