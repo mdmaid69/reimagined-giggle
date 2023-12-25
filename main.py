@@ -1,5 +1,7 @@
-import sys
-print(sys.version)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
