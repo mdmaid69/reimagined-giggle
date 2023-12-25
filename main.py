@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import time
-def get_current_time():
-        return time.ctime()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def is_even(n):
+        return n % 2 == 0
