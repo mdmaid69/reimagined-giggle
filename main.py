@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
