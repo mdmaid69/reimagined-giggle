@@ -1,8 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def remove_directory(path):
+        os.rmdir(path)
