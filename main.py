@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
