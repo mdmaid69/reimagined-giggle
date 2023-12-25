@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
