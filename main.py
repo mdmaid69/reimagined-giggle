@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_volume(length, width, height):
+        return length * width * height
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
