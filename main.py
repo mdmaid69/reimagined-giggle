@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def clear_array(array):
-        array *= 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_pressure(force, area):
+        return force / area
