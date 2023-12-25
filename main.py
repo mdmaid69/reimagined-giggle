@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
