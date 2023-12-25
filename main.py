@@ -1,6 +1,12 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
