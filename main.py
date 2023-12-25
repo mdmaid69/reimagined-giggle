@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
