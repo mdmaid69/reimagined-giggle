@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-print(re.match("h.*o", "hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_priority_queue():
+        return collections.deque()
