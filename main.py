@@ -1,10 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
