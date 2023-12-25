@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
