@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
