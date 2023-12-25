@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def is_odd(n):
+        return n % 2 != 0
