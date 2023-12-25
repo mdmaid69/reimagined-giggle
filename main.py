@@ -1,6 +1,7 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
