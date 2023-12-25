@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
