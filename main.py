@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
