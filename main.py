@@ -1,6 +1,9 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def reverse_array(array):
+        array.reverse()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
