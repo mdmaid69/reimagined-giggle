@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
