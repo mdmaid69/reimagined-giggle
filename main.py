@@ -1,6 +1,7 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
