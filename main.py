@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
