@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_min(numbers):
+        return min(numbers)
