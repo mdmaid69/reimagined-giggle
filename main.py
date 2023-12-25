@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
