@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
