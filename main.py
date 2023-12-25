@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
+import sys
+def print_python_version():
+        print(sys.version)
