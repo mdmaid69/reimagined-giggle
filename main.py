@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def add_numbers(x, y):
+        return x + y
