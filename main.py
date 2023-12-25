@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
