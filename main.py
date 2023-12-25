@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
