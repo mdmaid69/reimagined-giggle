@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import sys
+def exit_program():
+        sys.exit()
+  def convert_to_octal(n):
+        return oct(n)
