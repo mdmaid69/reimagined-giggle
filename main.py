@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
