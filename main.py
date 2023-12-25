@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import tensorflow as tf
+print(tf.__version__)
+def convert_to_binary(n):
+        return bin(n)
