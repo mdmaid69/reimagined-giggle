@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
