@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print([x**2 for x in range(10)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
