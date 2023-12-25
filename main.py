@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
