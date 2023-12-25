@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
