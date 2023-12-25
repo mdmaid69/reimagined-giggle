@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
