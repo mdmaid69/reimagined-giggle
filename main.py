@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def count_elements(lst):
+        return len(lst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
