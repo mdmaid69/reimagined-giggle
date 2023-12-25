@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
