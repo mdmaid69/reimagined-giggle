@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def convert_to_binary(n):
+        return bin(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
