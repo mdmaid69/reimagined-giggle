@@ -1,5 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_speed(distance, time):
-        return distance / time
+def create_user_dict():
+        return collections.UserDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
