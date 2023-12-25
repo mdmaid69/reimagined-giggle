@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
