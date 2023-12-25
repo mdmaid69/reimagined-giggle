@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
