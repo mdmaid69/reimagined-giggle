@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_sine(x):
+        return math.sin(x)
