@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
