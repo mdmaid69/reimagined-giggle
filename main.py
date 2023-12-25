@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_list_from_array(array):
+        return array.tolist()
