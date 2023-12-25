@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
