@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
