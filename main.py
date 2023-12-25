@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
