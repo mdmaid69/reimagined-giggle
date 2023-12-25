@@ -1,6 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_buffer_info(array):
+        return array.buffer_info()
