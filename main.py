@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
