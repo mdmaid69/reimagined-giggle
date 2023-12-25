@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-name = "Python"
-print("Hello,", name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
