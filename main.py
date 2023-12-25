@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
