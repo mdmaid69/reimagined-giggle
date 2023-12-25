@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-  def is_even(n):
-        return n % 2 == 0
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
