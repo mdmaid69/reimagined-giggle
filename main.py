@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def add_numbers(a, b):
+        return a + b
