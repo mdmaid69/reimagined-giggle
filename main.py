@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
