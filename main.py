@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
