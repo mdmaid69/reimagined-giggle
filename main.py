@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
