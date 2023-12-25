@@ -1,8 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import unittest
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
