@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def add_numbers(x, y):
-        return x + y
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
