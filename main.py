@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
