@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
