@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_slice(array, i, j):
+        return array[i:j]
