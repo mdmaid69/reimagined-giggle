@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
