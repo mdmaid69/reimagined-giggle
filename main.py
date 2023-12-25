@@ -1,5 +1,12 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
