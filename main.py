@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
