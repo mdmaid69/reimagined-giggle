@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
