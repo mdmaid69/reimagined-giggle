@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sys
+def print_python_version():
+        print(sys.version)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
