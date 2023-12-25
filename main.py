@@ -1,6 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
