@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
