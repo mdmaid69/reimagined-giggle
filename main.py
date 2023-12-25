@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
