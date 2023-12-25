@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_current_working_directory():
+        return os.getcwd()
