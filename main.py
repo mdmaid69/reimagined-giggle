@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def convert_to_hex(n):
-        return hex(n)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def is_palindrome(s):
+        return s == s[::-1]
