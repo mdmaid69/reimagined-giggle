@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+name = "Python"
+print("Hello,", name)
