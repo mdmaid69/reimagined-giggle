@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
