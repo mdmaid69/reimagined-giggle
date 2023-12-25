@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
