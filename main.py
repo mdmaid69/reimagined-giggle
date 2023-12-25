@@ -1,8 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def is_palindrome(s):
+        return s == s[::-1]
