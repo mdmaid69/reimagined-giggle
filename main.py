@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_work(force, distance):
+        return force * distance
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
