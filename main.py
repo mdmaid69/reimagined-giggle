@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
