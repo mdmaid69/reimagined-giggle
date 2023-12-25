@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
