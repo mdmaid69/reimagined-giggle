@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_factorial(n):
+        return math.factorial(n)
