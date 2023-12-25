@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import platform
-def get_os_info():
-        return platform.uname()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+name = "Python"
+print("Hello,", name)
