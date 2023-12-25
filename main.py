@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
