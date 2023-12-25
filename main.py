@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
