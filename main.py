@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def reverse_list(lst):
+        return lst[::-1]
