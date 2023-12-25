@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
