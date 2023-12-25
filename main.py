@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_pressure(force, area):
-        return force / area
+def count_words(sentence):
+        return len(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
