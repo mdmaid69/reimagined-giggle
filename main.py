@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def reverse_list(lst):
+        return lst[::-1]
