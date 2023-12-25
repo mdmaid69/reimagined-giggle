@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def count_words(sentence):
+        return len(sentence.split())
