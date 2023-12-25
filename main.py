@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
