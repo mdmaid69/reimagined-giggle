@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def greet(name):
+        print(f"Hello, {name}!")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
