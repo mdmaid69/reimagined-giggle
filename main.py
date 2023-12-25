@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
