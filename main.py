@@ -1,7 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
