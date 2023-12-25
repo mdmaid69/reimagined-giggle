@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
