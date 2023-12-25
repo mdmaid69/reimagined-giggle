@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
