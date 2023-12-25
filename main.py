@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
