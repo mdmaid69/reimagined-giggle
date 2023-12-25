@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def is_odd(n):
+        return n % 2 != 0
+  def cube_number(x):
+        return x**3
