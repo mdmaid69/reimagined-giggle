@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def is_even(n):
+        return n % 2 == 0
