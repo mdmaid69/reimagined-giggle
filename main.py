@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def sort_list(lst):
-        return sorted(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
