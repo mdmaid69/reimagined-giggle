@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
