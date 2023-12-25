@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import platform
-def get_python_version():
-        return platform.python_version()
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
