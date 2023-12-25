@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
