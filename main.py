@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
