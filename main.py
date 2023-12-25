@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_area_circle(r):
         return 3.14 * r**2
-x = 10
-y = 20
-print("Sum:", x + y)
