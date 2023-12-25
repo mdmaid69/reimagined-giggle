@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
