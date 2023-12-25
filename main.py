@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
