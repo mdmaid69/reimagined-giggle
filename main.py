@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Characters:", len(text))
