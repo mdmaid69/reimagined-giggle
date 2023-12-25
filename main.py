@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_cosine(x):
+        return math.cos(x)
