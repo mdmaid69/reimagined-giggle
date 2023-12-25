@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import time
-print(time.time())
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_cosine(x):
+        return math.cos(x)
