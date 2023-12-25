@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
