@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def find_max(lst):
-        return max(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
