@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
