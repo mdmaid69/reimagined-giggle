@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
