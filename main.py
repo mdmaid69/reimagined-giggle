@@ -1,4 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
