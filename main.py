@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
