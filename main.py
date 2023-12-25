@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
