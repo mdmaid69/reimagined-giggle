@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def convert_to_binary(n):
+        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
