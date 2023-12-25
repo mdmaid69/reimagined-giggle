@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+def roll_die():
+        return random.randint(1, 6)
+print(sum(range(10)))
