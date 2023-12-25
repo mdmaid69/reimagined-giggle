@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
