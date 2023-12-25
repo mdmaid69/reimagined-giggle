@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
