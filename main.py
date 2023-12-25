@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
