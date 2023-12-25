@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import platform
+def get_python_version():
+        return platform.python_version()
