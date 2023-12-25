@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def add_numbers(a, b):
-        return a + b
+print([x**2 for x in range(10)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
