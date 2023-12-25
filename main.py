@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
