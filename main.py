@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
