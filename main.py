@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def cube_number(x):
+        return x**3
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
