@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
