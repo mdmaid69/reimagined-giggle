@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
