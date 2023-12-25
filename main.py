@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+print([x**2 for x in range(10)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
