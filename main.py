@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_min(lst):
-        return min(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def remove_duplicates(lst):
+        return list(set(lst))
