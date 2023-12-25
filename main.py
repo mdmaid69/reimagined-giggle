@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
