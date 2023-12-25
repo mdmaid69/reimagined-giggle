@@ -1,6 +1,8 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
