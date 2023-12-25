@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_bool(array):
+        return bool(array)
