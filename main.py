@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
