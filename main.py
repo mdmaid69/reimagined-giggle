@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
