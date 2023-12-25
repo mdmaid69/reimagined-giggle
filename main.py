@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+print(random.randint(0, 100))
