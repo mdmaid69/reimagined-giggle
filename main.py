@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
