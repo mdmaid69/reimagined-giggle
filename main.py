@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
