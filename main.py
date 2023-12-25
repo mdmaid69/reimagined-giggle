@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
