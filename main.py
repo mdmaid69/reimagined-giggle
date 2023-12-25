@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import getpass
+def get_username():
+        return getpass.getuser()
