@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
