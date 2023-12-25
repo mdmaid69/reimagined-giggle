@@ -1,8 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
