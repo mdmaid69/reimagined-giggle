@@ -1,6 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
