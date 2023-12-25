@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def count_elements(lst):
-        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
