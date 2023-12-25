@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
