@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import os
+print(os.getcwd())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
