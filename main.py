@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_rectangle(l, w):
+        return l * w
