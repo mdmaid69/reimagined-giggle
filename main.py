@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
