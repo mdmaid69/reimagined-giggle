@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_counter():
+        return collections.Counter()
