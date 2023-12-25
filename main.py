@@ -1,6 +1,9 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
