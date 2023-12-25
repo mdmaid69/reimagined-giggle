@@ -1,4 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-def count_elements(lst):
-        return len(lst)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
