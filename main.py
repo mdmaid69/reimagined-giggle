@@ -1,6 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
