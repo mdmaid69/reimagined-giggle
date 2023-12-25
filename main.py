@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def log_message(message):
+        logging.info(message)
