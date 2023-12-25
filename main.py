@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def create_user_list():
-        return collections.UserList()
+import numpy as np
+print(np.array([1, 2, 3]))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
