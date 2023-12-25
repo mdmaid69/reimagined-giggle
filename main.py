@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def reverse_array(array):
+        array.reverse()
