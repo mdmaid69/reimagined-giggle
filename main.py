@@ -1,8 +1,4 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+print([x**2 for x in range(10)])
