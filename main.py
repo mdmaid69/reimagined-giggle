@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
