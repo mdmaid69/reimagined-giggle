@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
