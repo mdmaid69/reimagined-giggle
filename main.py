@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
