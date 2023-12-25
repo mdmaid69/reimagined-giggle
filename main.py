@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
