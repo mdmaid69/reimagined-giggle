@@ -1,10 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sys
+def print_python_version():
+        return sys.version
