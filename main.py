@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_counter():
-        return collections.Counter()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
