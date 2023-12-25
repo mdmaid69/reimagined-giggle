@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
