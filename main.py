@@ -1,7 +1,8 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
