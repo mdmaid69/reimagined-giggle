@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
