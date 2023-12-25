@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
