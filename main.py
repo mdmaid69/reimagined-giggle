@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def is_even(n):
+        return n % 2 == 0
