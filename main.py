@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
