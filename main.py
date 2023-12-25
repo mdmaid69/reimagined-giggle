@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
