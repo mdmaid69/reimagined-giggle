@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
