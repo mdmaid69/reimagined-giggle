@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import time
-def get_current_time():
-        return time.ctime()
+def find_min(lst):
+        return min(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
