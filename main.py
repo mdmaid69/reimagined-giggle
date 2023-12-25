@@ -1,4 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_density(mass, volume):
-        return mass / volume
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
