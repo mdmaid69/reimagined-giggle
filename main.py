@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
