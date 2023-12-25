@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
