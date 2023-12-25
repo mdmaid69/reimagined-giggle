@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+x = 10
+y = 20
+print("Sum:", x + y)
