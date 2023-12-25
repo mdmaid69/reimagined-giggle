@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def clear_array(array):
+        array *= 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
