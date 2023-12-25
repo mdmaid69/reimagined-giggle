@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_speed(distance, time):
+        return distance / time
