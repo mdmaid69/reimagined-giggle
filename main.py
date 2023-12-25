@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
