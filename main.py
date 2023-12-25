@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
