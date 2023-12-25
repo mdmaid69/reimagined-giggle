@@ -1,5 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
