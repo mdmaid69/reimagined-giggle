@@ -1,6 +1,12 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
