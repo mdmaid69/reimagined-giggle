@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_base_name(path):
+        return os.path.basename(path)
