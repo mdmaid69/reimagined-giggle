@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
