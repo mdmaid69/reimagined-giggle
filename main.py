@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
