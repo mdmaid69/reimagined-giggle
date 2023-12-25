@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
