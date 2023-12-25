@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
