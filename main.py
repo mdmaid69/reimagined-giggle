@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def cube_number(x):
+        return x**3
