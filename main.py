@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
