@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
