@@ -1,8 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
