@@ -1,5 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
