@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+name = "Python"
+print("Hello,", name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
