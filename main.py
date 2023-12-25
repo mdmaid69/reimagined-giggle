@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
