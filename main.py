@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
