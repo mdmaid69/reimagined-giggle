@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
