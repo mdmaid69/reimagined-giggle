@@ -1,4 +1,12 @@
-  def is_even(n):
-        return n % 2 == 0
-  def subtract_numbers(x, y):
-        return x - y
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
