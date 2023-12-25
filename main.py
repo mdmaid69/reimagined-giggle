@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
