@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-print(os.getcwd())
+import array
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
