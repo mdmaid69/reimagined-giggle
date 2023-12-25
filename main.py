@@ -1,3 +1,7 @@
-for i in range(10): print(i)
-def cube_number(x):
-        return x**3
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
