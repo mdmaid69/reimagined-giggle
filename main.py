@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
