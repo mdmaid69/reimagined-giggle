@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
