@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
