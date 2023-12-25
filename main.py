@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def reverse_list(lst):
+        return lst[::-1]
