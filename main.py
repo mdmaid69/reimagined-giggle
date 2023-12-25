@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
