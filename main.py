@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
