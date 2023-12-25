@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_density(mass, volume):
+        return mass / volume
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
