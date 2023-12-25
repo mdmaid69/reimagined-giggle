@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
