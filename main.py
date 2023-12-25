@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
