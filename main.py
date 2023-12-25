@@ -1,7 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
