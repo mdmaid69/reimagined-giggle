@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def square_number(x):
+        return x**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
