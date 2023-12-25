@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
