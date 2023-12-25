@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
