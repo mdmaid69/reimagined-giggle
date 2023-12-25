@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
