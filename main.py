@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
