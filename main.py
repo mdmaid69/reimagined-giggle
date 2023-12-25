@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def add_numbers(a, b):
+        return a + b
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
