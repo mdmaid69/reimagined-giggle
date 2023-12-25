@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
