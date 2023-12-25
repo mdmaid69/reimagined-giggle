@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
