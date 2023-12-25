@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
