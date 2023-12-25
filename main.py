@@ -1,5 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
