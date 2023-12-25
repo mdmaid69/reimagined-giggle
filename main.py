@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
