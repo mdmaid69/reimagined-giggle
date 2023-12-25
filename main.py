@@ -1,8 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def is_even(n):
+        return n % 2 == 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
