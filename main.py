@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
