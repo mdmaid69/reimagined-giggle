@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
