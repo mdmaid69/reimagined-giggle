@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
