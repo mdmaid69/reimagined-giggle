@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def cube_number(x):
+        return x**3
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
