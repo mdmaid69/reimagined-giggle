@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_area_rectangle(l, w):
+        return l * w
