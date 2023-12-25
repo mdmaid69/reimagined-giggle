@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
