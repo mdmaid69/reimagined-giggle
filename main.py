@@ -1,7 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def get_array_item(array, i):
+        return array[i]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
