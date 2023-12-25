@@ -1,5 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
