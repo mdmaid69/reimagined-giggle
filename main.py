@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
