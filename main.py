@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
