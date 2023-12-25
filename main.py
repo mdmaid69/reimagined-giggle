@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
