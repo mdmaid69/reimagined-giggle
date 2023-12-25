@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
