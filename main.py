@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
