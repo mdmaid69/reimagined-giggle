@@ -1,5 +1,4 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def add_numbers(x, y):
+        return x + y
