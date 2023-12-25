@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def cube_number(x):
+        return x**3
