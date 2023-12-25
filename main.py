@@ -1,7 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
