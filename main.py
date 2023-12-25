@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
