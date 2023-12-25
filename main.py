@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
