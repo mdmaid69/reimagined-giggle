@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
