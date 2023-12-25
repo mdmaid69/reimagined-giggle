@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-print(os.getcwd())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+for i in range(5):
+        print(i)
