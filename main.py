@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
