@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+print(os.getcwd())
