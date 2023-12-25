@@ -1,5 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
