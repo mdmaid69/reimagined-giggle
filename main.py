@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+print(random.randint(0, 100))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
