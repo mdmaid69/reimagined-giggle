@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import logging
+def log_message(message):
+        logging.info(message)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
