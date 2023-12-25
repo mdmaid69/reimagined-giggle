@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
