@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
