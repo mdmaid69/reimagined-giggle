@@ -1,6 +1,10 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
