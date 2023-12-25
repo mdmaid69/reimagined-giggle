@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
