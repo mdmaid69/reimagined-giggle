@@ -1,7 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
