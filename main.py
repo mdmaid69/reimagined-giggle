@@ -1,8 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
