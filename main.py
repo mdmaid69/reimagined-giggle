@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
