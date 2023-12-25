@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def count_characters(sentence):
-        return len(sentence)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import sys
+def exit_program():
+        sys.exit()
