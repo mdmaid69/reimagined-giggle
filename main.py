@@ -1,6 +1,11 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
