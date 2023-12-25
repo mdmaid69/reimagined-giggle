@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
