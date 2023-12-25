@@ -1,8 +1,12 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
