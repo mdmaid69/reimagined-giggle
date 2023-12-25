@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
