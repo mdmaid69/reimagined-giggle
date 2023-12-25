@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_area_rectangle(l, w):
-        return l * w
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
