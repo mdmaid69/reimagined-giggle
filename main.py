@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
