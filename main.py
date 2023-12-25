@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def remove_duplicates(lst):
+        return list(set(lst))
