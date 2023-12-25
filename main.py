@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
