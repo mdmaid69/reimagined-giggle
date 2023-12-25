@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
