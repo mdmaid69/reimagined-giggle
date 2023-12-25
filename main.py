@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_queue():
+        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
