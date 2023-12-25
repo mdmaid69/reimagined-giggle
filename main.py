@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
