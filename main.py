@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
