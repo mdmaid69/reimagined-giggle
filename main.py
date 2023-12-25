@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+print([x**2 for x in range(10)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
