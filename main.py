@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
