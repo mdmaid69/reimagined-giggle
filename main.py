@@ -1,5 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
