@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
