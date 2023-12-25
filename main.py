@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def cube_number(x):
+        return x**3
+import time
+def get_current_time():
+        return time.time()
