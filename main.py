@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
