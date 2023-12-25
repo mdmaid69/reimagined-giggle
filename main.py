@@ -1,7 +1,7 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def divide_numbers(x, y):
-        return x / y
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
