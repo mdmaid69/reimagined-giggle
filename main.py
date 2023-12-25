@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
