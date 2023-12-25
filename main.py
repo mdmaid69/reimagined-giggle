@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  def square_number(x):
-        return x**2
+def is_palindrome(s):
+        return s == s[::-1]
+text = "Hello, world!"
+print("Characters:", len(text))
