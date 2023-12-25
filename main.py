@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
