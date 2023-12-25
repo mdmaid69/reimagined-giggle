@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_index(array, item):
+        return array.index(item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
