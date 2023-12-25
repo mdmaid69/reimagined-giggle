@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
