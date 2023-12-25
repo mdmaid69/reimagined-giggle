@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def cube_number(x):
+        return x**3
