@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
