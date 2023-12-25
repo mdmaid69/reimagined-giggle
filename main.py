@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_hex(n):
-        return hex(n)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
