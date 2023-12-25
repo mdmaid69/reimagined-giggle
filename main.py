@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
