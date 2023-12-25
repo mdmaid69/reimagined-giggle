@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
