@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_speed(distance, time):
-        return distance / time
+def count_characters(sentence):
+        return len(sentence)
+  def convert_to_binary(n):
+        return bin(n)
