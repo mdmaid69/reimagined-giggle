@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import time
-print(time.time())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def add_numbers(a, b):
+        return a + b
