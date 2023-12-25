@@ -1,6 +1,8 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
