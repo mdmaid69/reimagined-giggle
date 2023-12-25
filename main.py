@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
