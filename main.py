@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
