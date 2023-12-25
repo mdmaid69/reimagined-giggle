@@ -1,5 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
