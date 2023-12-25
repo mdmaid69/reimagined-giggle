@@ -1,8 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
