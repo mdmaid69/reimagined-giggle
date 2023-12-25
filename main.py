@@ -1,5 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-for i in range(5):
-        print(i)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
