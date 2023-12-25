@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-print(time.time())
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
