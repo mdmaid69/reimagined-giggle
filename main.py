@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
