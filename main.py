@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def convert_to_json(data):
+        return json.dumps(data)
