@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
