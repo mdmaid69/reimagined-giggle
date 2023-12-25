@@ -1,7 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import time
+def get_current_time():
+        return time.ctime()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
