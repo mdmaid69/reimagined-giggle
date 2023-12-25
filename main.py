@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
