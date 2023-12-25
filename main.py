@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_item(array, i):
-        return array[i]
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
