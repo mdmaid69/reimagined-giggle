@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
