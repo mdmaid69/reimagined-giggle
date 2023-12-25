@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def reverse_string(s):
-        return s[::-1]
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def reverse_array(array):
+        array.reverse()
