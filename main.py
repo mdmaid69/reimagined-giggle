@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def count_characters(sentence):
+        return len(sentence)
