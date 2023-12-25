@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perpetuity(payment, rate):
+        return payment / rate
