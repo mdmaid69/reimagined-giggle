@@ -1,9 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
