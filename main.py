@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def remove_directory(path):
+        os.rmdir(path)
