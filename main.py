@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
