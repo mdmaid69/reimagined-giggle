@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
