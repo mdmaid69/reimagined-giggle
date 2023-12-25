@@ -1,6 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_arc_sine(x):
+        return math.asin(x)
