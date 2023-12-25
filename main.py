@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def add_numbers(a, b):
+        return a + b
