@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def is_even(n):
+        return n % 2 == 0
