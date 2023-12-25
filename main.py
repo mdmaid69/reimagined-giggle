@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_item(array, i):
+        return array[i]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
