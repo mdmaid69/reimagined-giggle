@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def split_path(path):
+        return os.path.split(path)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
