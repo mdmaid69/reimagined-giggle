@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
