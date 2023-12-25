@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
