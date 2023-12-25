@@ -1,5 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_sine(x):
+        return math.sin(x)
