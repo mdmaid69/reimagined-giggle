@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
