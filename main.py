@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
