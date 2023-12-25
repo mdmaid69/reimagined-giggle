@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+name = "Python"
+print("Hello,", name)
