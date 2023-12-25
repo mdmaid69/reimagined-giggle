@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import getpass
+def get_username():
+        return getpass.getuser()
