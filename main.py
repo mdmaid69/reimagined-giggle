@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_power(work, time):
+        return work / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
