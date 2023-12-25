@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
