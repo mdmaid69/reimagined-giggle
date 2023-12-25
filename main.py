@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
