@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
