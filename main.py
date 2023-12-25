@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_floor(x):
+        return math.floor(x)
