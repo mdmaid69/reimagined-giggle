@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_palindrome(s):
-        return s == s[::-1]
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
