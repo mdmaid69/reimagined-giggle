@@ -1,8 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_list_from_array(array):
+        return array.tolist()
