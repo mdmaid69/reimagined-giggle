@@ -1,4 +1,7 @@
-name = "Python"
-print("Hello,", name)
-def square_number(x):
-        return x**2
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
