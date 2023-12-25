@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
