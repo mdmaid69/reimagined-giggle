@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import json
+print(json.dumps({"name": "John", "age": 30}))
