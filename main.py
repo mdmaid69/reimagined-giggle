@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
