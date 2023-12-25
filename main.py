@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import numpy as np
+print(np.array([1, 2, 3]))
