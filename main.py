@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_item(array, i):
-        return array[i]
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
