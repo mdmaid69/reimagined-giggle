@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
