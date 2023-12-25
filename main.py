@@ -1,5 +1,8 @@
 import math
-print(math.pi)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
