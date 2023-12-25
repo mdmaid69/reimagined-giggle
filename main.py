@@ -1,8 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import sys
+print(sys.version)
+def is_even(n):
+        return n % 2 == 0
