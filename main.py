@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
