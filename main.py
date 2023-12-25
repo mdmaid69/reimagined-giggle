@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import datetime
-print(datetime.datetime.now())
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def is_odd(n):
+        return n % 2 != 0
