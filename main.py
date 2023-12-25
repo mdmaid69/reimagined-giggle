@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
