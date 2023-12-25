@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
