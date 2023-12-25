@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
