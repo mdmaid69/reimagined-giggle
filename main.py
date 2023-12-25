@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
