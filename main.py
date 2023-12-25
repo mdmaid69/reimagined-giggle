@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
