@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
