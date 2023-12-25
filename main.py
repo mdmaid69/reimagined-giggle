@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
