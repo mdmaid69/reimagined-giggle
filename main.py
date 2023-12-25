@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
