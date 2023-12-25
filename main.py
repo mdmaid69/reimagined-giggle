@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
