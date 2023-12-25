@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_odd(n):
+        return n % 2 != 0
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
