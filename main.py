@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
