@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_string_from_array(array):
+        return array.tobytes()
