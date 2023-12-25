@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_array_to_string(array):
+        return array.tostring()
