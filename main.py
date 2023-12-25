@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
