@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def reverse_array(array):
-        array.reverse()
+def cube_number(x):
+        return x**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
