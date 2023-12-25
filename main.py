@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
