@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
