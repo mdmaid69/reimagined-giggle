@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import platform
-def get_os_info():
-        return platform.uname()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_set(array):
+        return set(array)
