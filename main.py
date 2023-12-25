@@ -1,6 +1,11 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
