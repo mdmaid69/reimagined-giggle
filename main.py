@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
