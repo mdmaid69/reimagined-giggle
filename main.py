@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
