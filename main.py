@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
