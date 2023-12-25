@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-def add_numbers(a, b):
-        return a + b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def add_numbers(x, y):
+        return x + y
