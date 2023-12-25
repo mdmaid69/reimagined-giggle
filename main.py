@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
