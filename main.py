@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
