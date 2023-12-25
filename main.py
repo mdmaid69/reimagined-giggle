@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
