@@ -1,7 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_typecode(array):
+        return array.typecode
