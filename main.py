@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
