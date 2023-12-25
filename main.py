@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
