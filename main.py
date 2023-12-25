@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
