@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
