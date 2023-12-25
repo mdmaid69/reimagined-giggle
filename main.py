@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
