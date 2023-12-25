@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
