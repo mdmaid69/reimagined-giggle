@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
