@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
