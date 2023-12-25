@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import os
+def remove_directory(path):
+        os.rmdir(path)
