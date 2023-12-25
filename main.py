@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
