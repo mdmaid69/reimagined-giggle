@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def is_even(n):
-        return n % 2 == 0
+def get_array_item_count(array, item):
+        return array.count(item)
