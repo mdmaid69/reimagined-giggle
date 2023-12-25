@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_max(lst):
+        return max(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
