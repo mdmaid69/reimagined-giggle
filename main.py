@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
