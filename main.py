@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def convert_to_binary(n):
+        return bin(n)
