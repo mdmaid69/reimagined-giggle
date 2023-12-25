@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Reversed:", text[::-1])
