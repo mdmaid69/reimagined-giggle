@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
