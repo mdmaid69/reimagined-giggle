@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def is_even(n):
+        return n % 2 == 0
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
