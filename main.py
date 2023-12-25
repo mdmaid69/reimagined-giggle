@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def count_characters(sentence):
-        return len(sentence)
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
