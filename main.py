@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_str(array):
+        return str(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
