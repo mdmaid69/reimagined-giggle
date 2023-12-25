@@ -1,11 +1,11 @@
-import queue
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import threading
 
-q = queue.Queue()
+def print_hello():
+        print("Hello, world!")
 
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
