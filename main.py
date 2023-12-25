@@ -1,7 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
