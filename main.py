@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def count_characters(sentence):
-        return len(sentence)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
