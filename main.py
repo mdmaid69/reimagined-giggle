@@ -1,8 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
