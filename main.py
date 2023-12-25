@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-name = "Python"
-print("Hello,", name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
