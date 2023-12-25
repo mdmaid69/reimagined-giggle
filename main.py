@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
