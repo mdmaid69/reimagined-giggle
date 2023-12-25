@@ -1,7 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
