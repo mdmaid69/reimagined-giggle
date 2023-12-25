@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
