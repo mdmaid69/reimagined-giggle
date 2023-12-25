@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import sys
+  def get_python_version():
+        return sys.version
