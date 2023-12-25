@@ -1,7 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
