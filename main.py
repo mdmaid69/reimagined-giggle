@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
