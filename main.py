@@ -1,5 +1,7 @@
-def add_numbers(a, b):
-        return a + b
+def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
