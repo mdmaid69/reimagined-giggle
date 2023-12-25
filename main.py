@@ -1,6 +1,3 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+print(sum(range(10)))
