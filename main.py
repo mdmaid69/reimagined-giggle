@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
