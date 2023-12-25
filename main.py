@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
