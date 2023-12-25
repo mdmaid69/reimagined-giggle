@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
