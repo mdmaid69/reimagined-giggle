@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
