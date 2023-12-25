@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def count_characters(sentence):
-        return len(sentence)
+def get_array_as_bytearray(array):
+        return bytearray(array)
