@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
