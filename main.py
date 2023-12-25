@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+name = "Python"
+print("Hello,", name)
