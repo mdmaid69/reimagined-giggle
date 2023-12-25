@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
