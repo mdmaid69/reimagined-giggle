@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def check_if_array_contains_item(array, item):
+        return item in array
