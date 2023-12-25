@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
