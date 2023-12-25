@@ -1,5 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
