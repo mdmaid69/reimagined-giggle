@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def square_number(x):
-        return x**2
+def calculate_power(work, time):
+        return work / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
