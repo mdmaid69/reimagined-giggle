@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
