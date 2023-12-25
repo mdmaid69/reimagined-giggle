@@ -1,7 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
