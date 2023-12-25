@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
