@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
