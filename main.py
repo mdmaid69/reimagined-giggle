@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import numpy as np
+print(np.array([1, 2, 3]))
