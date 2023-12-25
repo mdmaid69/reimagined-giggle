@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
