@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
