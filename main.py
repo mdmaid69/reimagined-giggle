@@ -1,4 +1,9 @@
-  def add_numbers(x, y):
-        return x + y
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_string():
+        return collections.UserString()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
