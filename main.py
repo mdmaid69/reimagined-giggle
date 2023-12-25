@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import random
-print(random.randint(0, 100))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def square_number(x):
+        return x**2
