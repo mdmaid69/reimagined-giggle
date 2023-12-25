@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
