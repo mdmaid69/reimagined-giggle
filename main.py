@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
