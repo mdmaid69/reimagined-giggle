@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import numpy as np
+print(np.array([1, 2, 3]))
