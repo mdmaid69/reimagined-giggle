@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-print(sys.version)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
