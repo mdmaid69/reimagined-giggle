@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
