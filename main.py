@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import time
+def get_current_time():
+        return time.ctime()
