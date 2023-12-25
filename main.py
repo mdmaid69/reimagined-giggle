@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
