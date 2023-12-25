@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def count_characters(sentence):
-        return len(sentence)
+def find_min(lst):
+        return min(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
