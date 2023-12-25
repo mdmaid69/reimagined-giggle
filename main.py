@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def reverse_array(array):
+        array.reverse()
