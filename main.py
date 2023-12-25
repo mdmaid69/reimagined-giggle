@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
