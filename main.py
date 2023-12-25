@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
