@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
