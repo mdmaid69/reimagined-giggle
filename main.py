@@ -1,14 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
