@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_list(array):
+        return list(array)
+import getpass
+def get_username():
+        return getpass.getuser()
