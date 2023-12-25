@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
