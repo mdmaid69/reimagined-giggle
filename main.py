@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
