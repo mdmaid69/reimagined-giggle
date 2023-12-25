@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def sort_list(lst):
+        return sorted(lst)
