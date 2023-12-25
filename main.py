@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
