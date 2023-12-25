@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
