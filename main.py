@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
