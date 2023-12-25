@@ -1,4 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
