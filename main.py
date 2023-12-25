@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
