@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
