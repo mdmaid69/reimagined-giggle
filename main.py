@@ -1,4 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
+def is_odd(n):
+        return n % 2 != 0
