@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def add_numbers(x, y):
-        return x + y
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
