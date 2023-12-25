@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
