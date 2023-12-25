@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
