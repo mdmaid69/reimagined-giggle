@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
