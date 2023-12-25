@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
