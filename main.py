@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import time
-print(time.time())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
