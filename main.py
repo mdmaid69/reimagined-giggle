@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
