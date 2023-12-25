@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
