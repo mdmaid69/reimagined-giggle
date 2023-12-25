@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
