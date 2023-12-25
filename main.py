@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
