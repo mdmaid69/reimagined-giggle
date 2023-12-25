@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def reverse_list(lst):
-        return lst[::-1]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
