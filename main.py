@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
