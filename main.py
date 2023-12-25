@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def is_odd(n):
+        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
