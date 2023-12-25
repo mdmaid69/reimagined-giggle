@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
