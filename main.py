@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
