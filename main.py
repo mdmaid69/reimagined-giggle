@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sys
-print(sys.version)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
