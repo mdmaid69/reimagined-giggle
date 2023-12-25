@@ -1,5 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
