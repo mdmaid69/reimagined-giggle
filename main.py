@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_item(array, i):
+        return array[i]
