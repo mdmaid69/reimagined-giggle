@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
