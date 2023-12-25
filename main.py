@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
