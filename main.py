@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def add_numbers(a, b):
+        return a + b
