@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def count_characters(sentence):
-        return len(sentence)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
