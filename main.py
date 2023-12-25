@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
