@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def subtract_numbers(x, y):
+        return x - y
+  def count_elements(lst):
+        return len(lst)
