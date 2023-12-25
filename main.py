@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_counter():
+        return collections.Counter()
