@@ -1,5 +1,9 @@
-def find_min(lst):
-        return min(lst)
-import time
-def get_current_time():
-        return time.ctime()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
