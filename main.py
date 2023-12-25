@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
