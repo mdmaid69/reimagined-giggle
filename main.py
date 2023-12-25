@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
