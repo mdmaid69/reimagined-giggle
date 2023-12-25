@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
   import os
-  def get_file_gid(file_name):
+  def get_file_group(file_name):
         return os.stat(file_name).st_gid
