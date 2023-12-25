@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_perpetuity(payment, rate):
+        return payment / rate
