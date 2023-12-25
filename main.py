@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
