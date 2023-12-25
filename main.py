@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
