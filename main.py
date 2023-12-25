@@ -1,8 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
