@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import sys
+  def get_python_version():
+        return sys.version
