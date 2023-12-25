@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def clear_array(array):
-        array *= 0
+print([x**2 for x in range(10)])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
