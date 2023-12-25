@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
