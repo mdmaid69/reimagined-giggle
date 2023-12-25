@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
