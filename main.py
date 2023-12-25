@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
