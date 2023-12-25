@@ -1,6 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
