@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def count_elements(lst):
+        return len(lst)
