@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
