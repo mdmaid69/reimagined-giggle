@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
