@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def count_characters(sentence):
+        return len(sentence)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
