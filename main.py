@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
