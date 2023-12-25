@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_pressure(force, area):
+        return force / area
+import os
+def change_working_directory(path):
+        os.chdir(path)
