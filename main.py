@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
