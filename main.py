@@ -1,8 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
