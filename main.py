@@ -1,4 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
