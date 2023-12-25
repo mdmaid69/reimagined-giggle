@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
