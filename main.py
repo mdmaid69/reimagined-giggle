@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def find_min(numbers):
-        return min(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
