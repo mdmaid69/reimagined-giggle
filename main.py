@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
