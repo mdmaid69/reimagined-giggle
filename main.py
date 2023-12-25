@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def convert_to_hex(n):
+        return hex(n)
