@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
