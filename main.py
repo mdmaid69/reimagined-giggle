@@ -1,6 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
