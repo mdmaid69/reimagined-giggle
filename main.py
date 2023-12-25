@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
