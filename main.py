@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
