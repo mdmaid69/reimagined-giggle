@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import collections
+def create_priority_queue():
+        return collections.deque()
