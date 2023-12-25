@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
