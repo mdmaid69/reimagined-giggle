@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
