@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import collections
+def create_counter():
+        return collections.Counter()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
