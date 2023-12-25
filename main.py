@@ -1,5 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_hex(n):
+        return hex(n)
