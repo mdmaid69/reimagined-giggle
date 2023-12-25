@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def convert_to_octal(n):
+        return oct(n)
