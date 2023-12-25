@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+print([x**2 for x in range(10)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
