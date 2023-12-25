@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
