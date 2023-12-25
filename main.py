@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
