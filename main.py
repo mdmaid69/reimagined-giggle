@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
