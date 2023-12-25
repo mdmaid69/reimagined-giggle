@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
