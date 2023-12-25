@@ -1,6 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
