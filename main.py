@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import os
+print(os.getcwd())
+def reverse_list(lst):
+        return lst[::-1]
