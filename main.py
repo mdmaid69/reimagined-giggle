@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  def cube_number(x):
-        return x**3
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
