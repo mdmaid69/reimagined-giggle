@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
