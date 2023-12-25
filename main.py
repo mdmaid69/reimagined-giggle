@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
