@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
