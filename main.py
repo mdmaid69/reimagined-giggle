@@ -1,6 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
