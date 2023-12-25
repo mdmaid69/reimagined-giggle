@@ -1,10 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
