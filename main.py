@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
