@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
