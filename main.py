@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
