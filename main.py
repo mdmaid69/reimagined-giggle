@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-print(math.pi)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
