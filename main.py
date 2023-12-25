@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
