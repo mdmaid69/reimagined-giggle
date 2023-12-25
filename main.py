@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_min(lst):
+        return min(lst)
