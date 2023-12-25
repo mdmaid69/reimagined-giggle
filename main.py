@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
