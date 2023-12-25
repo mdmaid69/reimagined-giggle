@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+print(math.pi)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
