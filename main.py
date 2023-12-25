@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def multiply_numbers(x, y):
-        return x * y
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
