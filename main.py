@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
