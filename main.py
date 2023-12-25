@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
