@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
