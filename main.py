@@ -1,7 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
