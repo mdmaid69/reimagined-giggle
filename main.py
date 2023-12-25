@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
