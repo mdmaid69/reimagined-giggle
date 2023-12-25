@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def is_odd(n):
-        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
+  def calculate_area_circle(r):
+        return 3.14 * r**2
