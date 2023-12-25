@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
