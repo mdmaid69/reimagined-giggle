@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_as_bool(array):
+        return bool(array)
