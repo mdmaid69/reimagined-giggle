@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import time
+def get_current_time():
+        return time.time()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
