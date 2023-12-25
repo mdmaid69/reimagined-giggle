@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
