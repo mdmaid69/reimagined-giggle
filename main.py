@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_str(array):
+        return str(array)
