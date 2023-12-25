@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def convert_to_binary(n):
-        return bin(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
