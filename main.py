@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_float(array):
+        return float(array[0])
