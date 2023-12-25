@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
