@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
