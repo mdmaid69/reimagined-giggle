@@ -1,6 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
