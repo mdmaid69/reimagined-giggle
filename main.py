@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
