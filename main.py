@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_min(numbers):
+        return min(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
