@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def cube_number(x):
-        return x**3
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
