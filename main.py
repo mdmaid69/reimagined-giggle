@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
