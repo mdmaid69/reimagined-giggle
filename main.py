@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_to_octal(n):
+        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
