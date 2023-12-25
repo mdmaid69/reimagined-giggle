@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
