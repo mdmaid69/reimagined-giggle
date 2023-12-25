@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
