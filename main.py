@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
