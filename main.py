@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
