@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import os
+def get_current_working_directory():
+        return os.getcwd()
