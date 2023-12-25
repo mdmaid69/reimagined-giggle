@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
