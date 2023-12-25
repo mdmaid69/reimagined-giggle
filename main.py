@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import logging
-def log_message(message):
-        logging.info(message)
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
