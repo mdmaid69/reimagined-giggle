@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def add_numbers(x, y):
-        return x + y
+def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
