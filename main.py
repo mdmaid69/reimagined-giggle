@@ -1,5 +1,5 @@
-  def is_odd(n):
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def is_odd(n):
         return n % 2 != 0
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
