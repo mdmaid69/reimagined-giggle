@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+from collections import Counter
+print(Counter("hello world"))
