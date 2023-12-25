@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
