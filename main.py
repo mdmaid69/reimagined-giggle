@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_itemsize(array):
+        return array.itemsize
