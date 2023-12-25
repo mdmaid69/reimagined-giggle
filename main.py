@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def square_number(x):
+        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
