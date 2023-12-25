@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
