@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
