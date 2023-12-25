@@ -1,6 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
