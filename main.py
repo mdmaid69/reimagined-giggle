@@ -1,7 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def get_array_as_set(array):
+        return set(array)
+import platform
+def get_os_info():
+        return platform.uname()
