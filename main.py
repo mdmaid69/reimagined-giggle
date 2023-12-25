@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
