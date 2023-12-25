@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
