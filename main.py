@@ -1,4 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
