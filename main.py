@@ -1,6 +1,3 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
@@ -9,3 +6,5 @@ def calculate_irr(cash_flows):
                 return rate
         rate += 0.01
         return None
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
