@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_work(force, distance):
+        return force * distance
