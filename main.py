@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tensorflow as tf
+print(tf.__version__)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
