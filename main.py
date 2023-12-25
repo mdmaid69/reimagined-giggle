@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
