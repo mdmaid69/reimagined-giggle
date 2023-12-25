@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
