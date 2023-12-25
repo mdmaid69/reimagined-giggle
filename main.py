@@ -1,6 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
