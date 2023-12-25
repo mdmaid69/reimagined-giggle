@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
