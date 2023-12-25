@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def multiply_numbers(x, y):
+        return x * y
