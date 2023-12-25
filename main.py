@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
