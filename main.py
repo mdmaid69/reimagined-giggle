@@ -1,8 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import sys
+def print_python_version():
+        return sys.version
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
