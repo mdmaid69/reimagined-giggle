@@ -1,8 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_power(work, time):
+        return work / time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
