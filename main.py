@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def sort_list(lst):
+        return sorted(lst)
+import platform
+def get_os_info():
+        return platform.uname()
