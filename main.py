@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
