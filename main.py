@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
