@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def is_odd(n):
-        return n % 2 != 0
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
