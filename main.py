@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def is_odd(n):
-        return n % 2 != 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
