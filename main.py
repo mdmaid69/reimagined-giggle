@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
