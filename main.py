@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
