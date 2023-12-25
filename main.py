@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
