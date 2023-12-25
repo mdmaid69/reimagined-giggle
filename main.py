@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import random
+def roll_die():
+        return random.randint(1, 6)
