@@ -1,4 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def add_numbers(x, y):
+        return x + y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
