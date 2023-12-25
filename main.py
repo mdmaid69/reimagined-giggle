@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_as_str(array):
+        return str(array)
