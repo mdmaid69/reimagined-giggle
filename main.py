@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def sort_list(lst):
-        return sorted(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
