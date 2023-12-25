@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
