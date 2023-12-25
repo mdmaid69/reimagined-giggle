@@ -1,9 +1,6 @@
 import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def get_current_time():
+        return time.ctime()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
