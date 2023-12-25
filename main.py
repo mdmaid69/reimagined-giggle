@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-print(random.randint(0, 100))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
