@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def convert_to_octal(n):
-        return oct(n)
+def reverse_list(lst):
+        return lst[::-1]
+def cube_number(x):
+        return x**3
