@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
