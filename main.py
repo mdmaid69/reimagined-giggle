@@ -1,4 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_pressure(force, area):
-        return force / area
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
