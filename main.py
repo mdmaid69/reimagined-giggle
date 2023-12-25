@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_sine(x):
+        return math.sin(x)
