@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def multiply_numbers(x, y):
+        return x * y
+def sort_numbers(numbers):
+        return sorted(numbers)
