@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tensorflow as tf
+print(tf.__version__)
