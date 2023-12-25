@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_user_string():
+        return collections.UserString()
