@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
