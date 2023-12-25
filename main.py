@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
