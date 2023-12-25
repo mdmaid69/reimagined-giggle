@@ -1,7 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
