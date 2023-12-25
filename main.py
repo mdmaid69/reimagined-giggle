@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
