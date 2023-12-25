@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
