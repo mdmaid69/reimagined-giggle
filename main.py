@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def clear_array(array):
+        array *= 0
