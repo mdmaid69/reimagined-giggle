@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_power(work, time):
+        return work / time
