@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import sys
+print(sys.version)
