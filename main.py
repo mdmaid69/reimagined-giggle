@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
