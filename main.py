@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
