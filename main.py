@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
