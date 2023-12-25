@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def is_odd(n):
+        return n % 2 != 0
