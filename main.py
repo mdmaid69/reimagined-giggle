@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def change_working_directory(path):
+        os.chdir(path)
