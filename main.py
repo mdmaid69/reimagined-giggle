@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
