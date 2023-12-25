@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_list():
+        return collections.UserList()
