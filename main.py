@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
