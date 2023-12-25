@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+from collections import Counter
+print(Counter("hello world"))
+  def is_even(n):
+        return n % 2 == 0
