@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+name = "Python"
+print("Hello,", name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
