@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
