@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
