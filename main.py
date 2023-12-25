@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
