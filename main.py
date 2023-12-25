@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def square_number(x):
-        return x**2
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def cube_number(x):
+        return x**3
