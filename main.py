@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_array_typecode(array):
+        return array.typecode
