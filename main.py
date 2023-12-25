@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def is_even(n):
-        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_floor(x):
+        return math.floor(x)
