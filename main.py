@@ -1,8 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
