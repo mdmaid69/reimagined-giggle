@@ -1,4 +1,11 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def get_current_time():
+        return time.ctime()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
