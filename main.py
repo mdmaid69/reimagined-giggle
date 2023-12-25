@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  def reverse_list(lst):
+        return lst[::-1]
