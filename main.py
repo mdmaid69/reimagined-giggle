@@ -1,8 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
