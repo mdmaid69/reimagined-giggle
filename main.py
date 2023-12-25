@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
