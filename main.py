@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
