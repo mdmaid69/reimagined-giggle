@@ -1,8 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def divide_numbers(x, y):
+        return x / y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
