@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
