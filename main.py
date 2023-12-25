@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
