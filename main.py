@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_area_rectangle(l, w):
+        return l * w
