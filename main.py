@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_speed(distance, time):
+        return distance / time
