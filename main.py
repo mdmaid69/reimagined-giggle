@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
