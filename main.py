@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
