@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def divide_numbers(x, y):
-        return x / y
+import time
+print(time.time())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
