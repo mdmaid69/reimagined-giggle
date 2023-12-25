@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_length(array):
+        return len(array)
