@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_volume(length, width, height):
+        return length * width * height
