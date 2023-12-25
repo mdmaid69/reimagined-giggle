@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_length(array):
+        return len(array)
