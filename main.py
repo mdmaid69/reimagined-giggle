@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def subtract_numbers(x, y):
+        return x - y
