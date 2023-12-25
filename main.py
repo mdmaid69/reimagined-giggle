@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_acceleration(speed, time):
+        return speed / time
