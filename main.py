@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
