@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
