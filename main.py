@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
