@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_int(array):
+        return int(array[0])
