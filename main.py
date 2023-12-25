@@ -1,9 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
