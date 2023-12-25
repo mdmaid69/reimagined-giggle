@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
