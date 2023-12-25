@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
