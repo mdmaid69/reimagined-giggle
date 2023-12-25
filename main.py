@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
