@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
