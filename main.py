@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-name = "Python"
-print("Hello,", name)
+def reverse_string(s):
+        return s[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
