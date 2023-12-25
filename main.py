@@ -1,4 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-print("Hello, world!")
+import time
+def get_current_time():
+        return time.ctime()
+import time
+def get_time_since_epoch():
+        return time.time()
