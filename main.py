@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
