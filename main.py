@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
