@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
