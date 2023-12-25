@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
