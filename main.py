@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+for i in range(10): print(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
