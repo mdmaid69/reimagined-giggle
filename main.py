@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
