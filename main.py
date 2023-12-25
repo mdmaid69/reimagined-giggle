@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def square_number(x):
-        return x**2
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
