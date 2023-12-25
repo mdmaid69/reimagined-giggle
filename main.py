@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
