@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
