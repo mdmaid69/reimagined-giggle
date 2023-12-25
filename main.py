@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def square_number(x):
+        return x**2
+def calculate_speed(distance, time):
+        return distance / time
