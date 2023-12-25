@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
