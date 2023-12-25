@@ -1,6 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
+def calculate_power(work, time):
+        return work / time
