@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
