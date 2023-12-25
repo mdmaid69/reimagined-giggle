@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_stack():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
