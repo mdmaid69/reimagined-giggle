@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
