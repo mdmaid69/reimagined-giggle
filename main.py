@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
