@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
