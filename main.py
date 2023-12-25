@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_area_circle(r):
+        return 3.14 * r**2
