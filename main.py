@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
