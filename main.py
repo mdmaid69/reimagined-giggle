@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
