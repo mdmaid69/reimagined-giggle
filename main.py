@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
