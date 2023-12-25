@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
