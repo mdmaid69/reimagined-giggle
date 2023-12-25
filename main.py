@@ -1,8 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
