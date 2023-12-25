@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
