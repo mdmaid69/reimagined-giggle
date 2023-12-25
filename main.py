@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
