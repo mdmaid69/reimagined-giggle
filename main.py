@@ -1,8 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
