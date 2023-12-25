@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_area_rectangle(l, w):
+        return l * w
