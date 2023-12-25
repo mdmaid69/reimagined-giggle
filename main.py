@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
