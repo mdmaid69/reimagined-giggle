@@ -1,5 +1,6 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def square_number(x):
-        return x**2
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
