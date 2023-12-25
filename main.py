@@ -1,3 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-for i in range(10): print(i)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
