@@ -1,8 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_tuple(array):
+        return tuple(array)
