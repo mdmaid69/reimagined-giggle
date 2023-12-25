@@ -1,8 +1,7 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
