@@ -1,3 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-print("Hello, world!")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
