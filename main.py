@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_volume(length, width, height):
+        return length * width * height
