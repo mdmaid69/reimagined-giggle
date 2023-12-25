@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+print([x**2 for x in range(10)])
