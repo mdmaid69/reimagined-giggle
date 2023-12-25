@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_area_rectangle(l, w):
+        return l * w
