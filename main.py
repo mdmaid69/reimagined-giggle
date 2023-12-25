@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
