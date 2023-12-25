@@ -1,4 +1,9 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
