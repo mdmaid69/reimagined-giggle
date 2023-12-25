@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
