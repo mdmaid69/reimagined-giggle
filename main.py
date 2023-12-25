@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
