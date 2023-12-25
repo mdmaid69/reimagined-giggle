@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
