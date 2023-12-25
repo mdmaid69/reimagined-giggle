@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_area_rectangle(l, w):
+        return l * w
