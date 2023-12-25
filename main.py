@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-from collections import Counter
-print(Counter("hello world"))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
