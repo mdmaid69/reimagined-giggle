@@ -1,5 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import tensorflow as tf
-print(tf.__version__)
+def find_max(numbers):
+        return max(numbers)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
