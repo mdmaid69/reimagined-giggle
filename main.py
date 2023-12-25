@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
