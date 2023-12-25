@@ -1,8 +1,8 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
