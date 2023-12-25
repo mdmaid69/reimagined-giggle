@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
