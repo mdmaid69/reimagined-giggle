@@ -1,5 +1,3 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+print([x**2 for x in range(10)])
