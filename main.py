@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
