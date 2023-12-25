@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
