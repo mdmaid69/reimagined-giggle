@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
