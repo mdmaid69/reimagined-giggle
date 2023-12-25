@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
