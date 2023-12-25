@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
