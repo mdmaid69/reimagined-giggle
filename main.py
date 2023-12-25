@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def set_array_item(array, i, item):
+        array[i] = item
+def count_characters(sentence):
+        return len(sentence)
