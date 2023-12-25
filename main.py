@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
