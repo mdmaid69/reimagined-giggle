@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
