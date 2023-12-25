@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
