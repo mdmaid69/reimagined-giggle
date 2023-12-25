@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
