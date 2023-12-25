@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
