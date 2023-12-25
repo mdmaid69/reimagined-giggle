@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_pressure(force, area):
+        return force / area
