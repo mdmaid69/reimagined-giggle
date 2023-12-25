@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+print(random.randint(0, 100))
