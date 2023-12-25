@@ -1,7 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
