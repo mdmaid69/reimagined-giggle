@@ -1,4 +1,6 @@
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-for i in range(10): print(i)
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
