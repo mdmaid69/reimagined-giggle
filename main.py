@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(5):
-        print(i)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
