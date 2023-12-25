@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_item(array, i):
-        return array[i]
+def clear_array(array):
+        array *= 0
