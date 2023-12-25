@@ -1,5 +1,12 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
