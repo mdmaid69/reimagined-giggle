@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
