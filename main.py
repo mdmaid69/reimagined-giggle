@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
