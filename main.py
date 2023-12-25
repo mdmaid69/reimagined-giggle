@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def square_number(x):
+        return x**2
