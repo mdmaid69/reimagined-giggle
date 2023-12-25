@@ -1,9 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
