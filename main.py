@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
