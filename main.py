@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
