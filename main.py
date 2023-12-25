@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def cube_number(x):
+        return x**3
+def find_union(list1, list2):
+        return set(list1) | set(list2)
