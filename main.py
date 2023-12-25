@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
