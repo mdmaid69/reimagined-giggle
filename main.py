@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
