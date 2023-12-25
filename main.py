@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
