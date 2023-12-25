@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_speed(distance, time):
-        return distance / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
