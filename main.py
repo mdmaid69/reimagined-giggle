@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print("Is palindrome:", text == text[::-1])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
