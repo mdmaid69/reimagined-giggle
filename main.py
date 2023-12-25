@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
