@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
