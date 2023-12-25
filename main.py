@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_user_string():
+        return collections.UserString()
