@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
