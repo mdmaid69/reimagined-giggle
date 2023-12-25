@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
