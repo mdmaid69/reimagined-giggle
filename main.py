@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
