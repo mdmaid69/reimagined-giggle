@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
