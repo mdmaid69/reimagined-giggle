@@ -1,5 +1,9 @@
-import time
-def get_current_time():
-        return time.time()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
