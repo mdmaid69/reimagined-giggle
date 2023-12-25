@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
