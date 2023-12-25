@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
