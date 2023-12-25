@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_power(work, time):
+        return work / time
