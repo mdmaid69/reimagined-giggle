@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
