@@ -1,7 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
