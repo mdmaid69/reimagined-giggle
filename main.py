@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
