@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import tensorflow as tf
-print(tf.__version__)
+  def count_elements(lst):
+        return len(lst)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
