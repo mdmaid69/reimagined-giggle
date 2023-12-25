@@ -1,7 +1,6 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
