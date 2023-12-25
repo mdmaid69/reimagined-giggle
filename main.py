@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_length(array):
+        return len(array)
