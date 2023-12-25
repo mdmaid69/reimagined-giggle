@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
