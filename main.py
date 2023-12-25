@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
