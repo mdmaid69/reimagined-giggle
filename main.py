@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
