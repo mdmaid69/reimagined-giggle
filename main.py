@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
