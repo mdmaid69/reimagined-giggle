@@ -1,5 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
