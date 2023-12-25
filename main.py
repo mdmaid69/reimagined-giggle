@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
