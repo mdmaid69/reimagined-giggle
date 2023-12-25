@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
