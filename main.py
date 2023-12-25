@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
