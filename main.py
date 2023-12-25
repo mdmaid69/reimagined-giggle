@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
