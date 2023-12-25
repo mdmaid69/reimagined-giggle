@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_item(array, i):
+        return array[i]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
