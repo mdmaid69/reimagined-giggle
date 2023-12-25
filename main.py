@@ -1,5 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
