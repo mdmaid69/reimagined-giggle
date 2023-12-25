@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area(radius):
+        return 3.14 * radius * radius
