@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
