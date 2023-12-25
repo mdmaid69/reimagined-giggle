@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
