@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
