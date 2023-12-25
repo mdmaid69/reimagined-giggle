@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
