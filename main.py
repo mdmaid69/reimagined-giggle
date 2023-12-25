@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import platform
+def get_python_version():
+        return platform.python_version()
