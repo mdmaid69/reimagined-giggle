@@ -1,5 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_power(work, time):
-        return work / time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
