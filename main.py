@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
