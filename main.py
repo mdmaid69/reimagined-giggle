@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def convert_to_octal(n):
+        return oct(n)
