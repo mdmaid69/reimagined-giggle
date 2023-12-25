@@ -1,4 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import sys
-print(sys.version)
+def print_python_version():
+        return sys.version
