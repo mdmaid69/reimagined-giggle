@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def add_numbers(x, y):
+        return x + y
