@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
