@@ -1,4 +1,8 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-from collections import Counter
-print(Counter("hello world"))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
