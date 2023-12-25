@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
