@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
