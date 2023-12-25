@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
