@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
