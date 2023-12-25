@@ -1,3 +1,6 @@
-import sys
-print(sys.version)
-print(sum(range(10)))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
