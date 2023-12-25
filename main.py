@@ -1,5 +1,6 @@
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
