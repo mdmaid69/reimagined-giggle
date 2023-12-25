@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
