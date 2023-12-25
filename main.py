@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
