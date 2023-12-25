@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
