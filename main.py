@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
