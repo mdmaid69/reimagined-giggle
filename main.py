@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
