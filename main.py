@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
