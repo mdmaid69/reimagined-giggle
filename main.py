@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
