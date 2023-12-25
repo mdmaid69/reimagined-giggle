@@ -1,6 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_min(numbers):
+        return min(numbers)
