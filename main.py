@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
