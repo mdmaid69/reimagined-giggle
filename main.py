@@ -1,5 +1,7 @@
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
