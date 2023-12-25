@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
