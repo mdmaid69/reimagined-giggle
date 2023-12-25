@@ -1,5 +1,12 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
