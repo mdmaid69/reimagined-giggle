@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
