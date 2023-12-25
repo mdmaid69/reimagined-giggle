@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
