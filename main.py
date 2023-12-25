@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
