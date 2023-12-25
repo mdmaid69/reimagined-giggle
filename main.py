@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
