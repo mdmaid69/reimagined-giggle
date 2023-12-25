@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
