@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
