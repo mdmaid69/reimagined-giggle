@@ -1,5 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
