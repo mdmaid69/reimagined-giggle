@@ -1,5 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import re
-print(re.match("h.*o", "hello world"))
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
