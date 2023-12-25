@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_int(array):
+        return int(array[0])
