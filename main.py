@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
