@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
