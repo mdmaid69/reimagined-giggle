@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+print(math.pi)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
