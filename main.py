@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def print_python_version():
+        return sys.version
