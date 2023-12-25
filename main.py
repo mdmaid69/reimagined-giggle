@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
