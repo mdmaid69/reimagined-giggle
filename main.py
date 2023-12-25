@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Squared:", [n**2 for n in numbers])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
