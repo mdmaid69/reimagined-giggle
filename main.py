@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
