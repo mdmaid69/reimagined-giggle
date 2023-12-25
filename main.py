@@ -1,8 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
