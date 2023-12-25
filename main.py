@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
