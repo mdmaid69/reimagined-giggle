@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
