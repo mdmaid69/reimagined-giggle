@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
