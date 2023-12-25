@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
