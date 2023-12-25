@@ -1,4 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-def convert_to_binary(n):
-        return bin(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
