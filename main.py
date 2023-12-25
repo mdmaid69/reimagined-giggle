@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def add_numbers(x, y):
-        return x + y
+import sys
+def print_python_version():
+        print(sys.version)
+from collections import Counter
+print(Counter("hello world"))
