@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_volume(length, width, height):
+        return length * width * height
