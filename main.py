@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import logging
+def log_message(message):
+        logging.info(message)
