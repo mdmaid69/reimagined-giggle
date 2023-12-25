@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
