@@ -1,6 +1,9 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
