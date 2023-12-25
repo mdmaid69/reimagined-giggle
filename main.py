@@ -1,7 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
