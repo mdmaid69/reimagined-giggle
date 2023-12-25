@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-print(datetime.datetime.now())
+  def square_number(x):
+        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
