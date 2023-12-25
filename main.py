@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-text = "Hello, world!"
-print("Characters:", len(text))
+def cube_number(x):
+        return x**3
+import array
+def reverse_array(array):
+        array.reverse()
