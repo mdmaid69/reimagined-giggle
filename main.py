@@ -1,5 +1,8 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
