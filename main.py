@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def remove_duplicates(lst):
+        return list(set(lst))
