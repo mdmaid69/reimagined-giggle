@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
