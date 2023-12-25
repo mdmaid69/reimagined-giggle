@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
