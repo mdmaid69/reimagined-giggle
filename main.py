@@ -1,5 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
