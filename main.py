@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
