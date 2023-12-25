@@ -1,7 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
