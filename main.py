@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
