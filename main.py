@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
