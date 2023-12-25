@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import time
-def get_current_time():
-        return time.time()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
