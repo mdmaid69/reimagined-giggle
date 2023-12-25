@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def exit_program():
-        sys.exit()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
