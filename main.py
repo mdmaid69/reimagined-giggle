@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
