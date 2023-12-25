@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
