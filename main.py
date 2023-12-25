@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_power(work, time):
+        return work / time
