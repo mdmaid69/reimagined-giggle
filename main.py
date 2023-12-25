@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
