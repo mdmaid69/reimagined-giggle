@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
+import time
+def get_time_since_epoch():
+        return time.time()
