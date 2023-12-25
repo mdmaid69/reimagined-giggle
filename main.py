@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def count_elements(lst):
+        return len(lst)
