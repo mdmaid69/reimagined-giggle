@@ -1,10 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
