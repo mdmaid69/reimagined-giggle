@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
