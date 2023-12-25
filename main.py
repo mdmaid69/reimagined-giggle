@@ -1,7 +1,6 @@
-name = "Python"
-print("Hello,", name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
