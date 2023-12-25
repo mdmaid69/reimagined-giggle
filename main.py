@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
