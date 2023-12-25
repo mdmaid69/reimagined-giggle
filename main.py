@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def count_elements(lst):
-        return len(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
