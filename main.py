@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def square_number(x):
+        return x**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
