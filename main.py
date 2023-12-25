@@ -1,7 +1,7 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def is_even(n):
+        return n % 2 == 0
