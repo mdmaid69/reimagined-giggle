@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
