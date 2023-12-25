@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def add_numbers(x, y):
-        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
