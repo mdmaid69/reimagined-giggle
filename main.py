@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
