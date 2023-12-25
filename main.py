@@ -1,7 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
