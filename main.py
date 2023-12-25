@@ -1,6 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
