@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
