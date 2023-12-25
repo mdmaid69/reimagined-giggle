@@ -1,6 +1,6 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def create_user_string():
+        return collections.UserString()
+import logging
+def log_message(message):
+        logging.info(message)
