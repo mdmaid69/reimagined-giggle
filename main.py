@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
