@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
