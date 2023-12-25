@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
