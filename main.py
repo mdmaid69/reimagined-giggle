@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
