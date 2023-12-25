@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
