@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def square_number(x):
+        return x**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
