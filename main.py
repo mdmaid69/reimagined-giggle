@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import sys
-def exit_program():
-        sys.exit()
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
