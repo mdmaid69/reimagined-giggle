@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
