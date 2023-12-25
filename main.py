@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
