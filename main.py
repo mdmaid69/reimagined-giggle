@@ -1,7 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def is_even(n):
+        return n % 2 == 0
