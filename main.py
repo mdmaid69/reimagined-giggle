@@ -1,4 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def divide_numbers(x, y):
+        return x / y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
