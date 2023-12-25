@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import random
-print(random.randint(0, 100))
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
