@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
