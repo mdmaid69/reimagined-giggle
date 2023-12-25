@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def convert_to_hex(n):
-        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
