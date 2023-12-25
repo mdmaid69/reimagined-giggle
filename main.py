@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
