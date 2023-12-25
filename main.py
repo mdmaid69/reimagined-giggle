@@ -1,4 +1,3 @@
-print("Hello, world!")
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+for i in range(10): print(i)
+def find_unique_words(sentence):
+        return set(sentence.split())
