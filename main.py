@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
