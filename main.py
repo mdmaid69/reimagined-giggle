@@ -1,8 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
