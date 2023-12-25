@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def print_python_version():
+        return sys.version
