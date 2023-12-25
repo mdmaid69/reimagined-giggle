@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
