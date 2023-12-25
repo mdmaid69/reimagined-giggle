@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_power(work, time):
-        return work / time
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
