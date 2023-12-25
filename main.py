@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
