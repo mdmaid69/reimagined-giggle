@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
