@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
