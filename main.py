@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
