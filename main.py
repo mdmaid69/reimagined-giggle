@@ -1,5 +1,6 @@
 import collections
-def create_user_dict():
-        return collections.UserDict()
-def is_palindrome(s):
-        return s == s[::-1]
+def create_counter():
+        return collections.Counter()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
