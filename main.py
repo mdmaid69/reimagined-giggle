@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
