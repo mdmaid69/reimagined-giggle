@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
