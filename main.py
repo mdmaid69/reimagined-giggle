@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_speed(distance, time):
+        return distance / time
