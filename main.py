@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
