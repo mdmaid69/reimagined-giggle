@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import sys
+print(sys.version)
+import array
+def append_to_array(array, item):
+        array.append(item)
