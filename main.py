@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
