@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import datetime
+print(datetime.datetime.now())
