@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(10): print(i)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
