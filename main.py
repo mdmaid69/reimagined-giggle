@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_work(force, distance):
+        return force * distance
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
