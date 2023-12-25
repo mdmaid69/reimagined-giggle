@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_priority_queue():
+        return collections.deque()
