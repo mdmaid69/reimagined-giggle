@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
