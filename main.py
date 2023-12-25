@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
