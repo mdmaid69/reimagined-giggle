@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
