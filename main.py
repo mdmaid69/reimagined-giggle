@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_base_name(path):
+        return os.path.basename(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
