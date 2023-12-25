@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
