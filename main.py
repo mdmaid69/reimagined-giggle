@@ -1,7 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def remove_duplicates(lst):
+        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
