@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_average(lst):
+        return sum(lst) / len(lst)
