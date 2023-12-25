@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
