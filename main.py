@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
