@@ -1,8 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_work(force, distance):
+        return force * distance
