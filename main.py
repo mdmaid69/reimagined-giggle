@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
