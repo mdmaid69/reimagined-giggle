@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def subtract_numbers(x, y):
+        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
