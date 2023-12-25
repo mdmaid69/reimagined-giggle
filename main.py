@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_density(mass, volume):
+        return mass / volume
