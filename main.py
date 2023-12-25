@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
