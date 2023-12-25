@@ -1,8 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
