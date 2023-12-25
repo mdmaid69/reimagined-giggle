@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def convert_to_binary(n):
+        return bin(n)
