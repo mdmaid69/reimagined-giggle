@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def cube_number(x):
+        return x**3
