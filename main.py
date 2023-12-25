@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def exit_program():
+        sys.exit()
+def reverse_list(lst):
+        return lst[::-1]
