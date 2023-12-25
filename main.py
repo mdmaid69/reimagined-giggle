@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
