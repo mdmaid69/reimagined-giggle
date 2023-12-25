@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
