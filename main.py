@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def convert_array_to_list(array):
+def get_list_from_array(array):
         return array.tolist()
