@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
