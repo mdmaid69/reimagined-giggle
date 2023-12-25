@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def add_numbers(x, y):
-        return x + y
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
