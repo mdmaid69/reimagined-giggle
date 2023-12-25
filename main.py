@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
