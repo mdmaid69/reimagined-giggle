@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_sine(x):
+        return math.sin(x)
