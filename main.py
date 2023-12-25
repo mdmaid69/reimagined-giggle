@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
