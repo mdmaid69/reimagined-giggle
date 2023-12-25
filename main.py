@@ -1,6 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_arc_sine(x):
+        return math.asin(x)
