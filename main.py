@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
