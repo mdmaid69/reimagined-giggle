@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
