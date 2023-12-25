@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def reverse_string(s):
+        return s[::-1]
