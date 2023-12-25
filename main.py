@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
