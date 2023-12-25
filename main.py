@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
