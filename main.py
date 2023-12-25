@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def count_words(sentence):
+        return len(sentence.split())
