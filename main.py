@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
