@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
