@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import sys
-def print_python_version():
-        return sys.version
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
