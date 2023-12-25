@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Uppercase:", text.upper())
