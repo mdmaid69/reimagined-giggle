@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_max(lst):
+        return max(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
