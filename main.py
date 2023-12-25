@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def split_path(path):
+        return os.path.split(path)
+def remove_duplicates(lst):
+        return list(set(lst))
