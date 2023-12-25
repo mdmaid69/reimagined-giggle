@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
