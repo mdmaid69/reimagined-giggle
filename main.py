@@ -1,5 +1,3 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+for i in range(10): print(i)
+def find_min(lst):
+        return min(lst)
