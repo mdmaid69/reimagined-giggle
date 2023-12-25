@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
