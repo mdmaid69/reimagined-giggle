@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
