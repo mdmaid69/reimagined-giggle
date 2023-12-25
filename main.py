@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
