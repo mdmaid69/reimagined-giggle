@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
