@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_volume(length, width, height):
+        return length * width * height
