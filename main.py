@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
