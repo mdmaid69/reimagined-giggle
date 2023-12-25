@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
