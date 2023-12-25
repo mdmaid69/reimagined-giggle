@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_octal(n):
+        return oct(n)
