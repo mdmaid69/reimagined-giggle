@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
