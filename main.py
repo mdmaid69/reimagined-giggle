@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
