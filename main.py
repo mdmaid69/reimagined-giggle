@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
