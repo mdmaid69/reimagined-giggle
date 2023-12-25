@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
