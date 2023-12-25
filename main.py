@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def square_number(x):
+        return x**2
