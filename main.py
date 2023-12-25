@@ -1,4 +1,3 @@
-import os
-print(os.getcwd())
-def find_min(lst):
-        return min(lst)
+print("Hello, world!")
+import random
+print(random.randint(0, 100))
