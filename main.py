@@ -1,8 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
