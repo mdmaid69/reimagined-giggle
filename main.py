@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
