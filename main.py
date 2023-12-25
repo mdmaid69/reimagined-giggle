@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def square_number(x):
-        return x**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
