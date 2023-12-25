@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
