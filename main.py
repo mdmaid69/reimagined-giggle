@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
