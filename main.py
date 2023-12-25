@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
