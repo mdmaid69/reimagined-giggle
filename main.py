@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
