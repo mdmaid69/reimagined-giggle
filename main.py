@@ -1,5 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
