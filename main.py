@@ -1,6 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
