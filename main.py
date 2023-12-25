@@ -1,8 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
