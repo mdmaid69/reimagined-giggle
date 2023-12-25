@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
