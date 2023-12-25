@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
