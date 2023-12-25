@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
