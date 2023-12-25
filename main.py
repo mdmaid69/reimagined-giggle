@@ -1,7 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
