@@ -1,5 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def check_if_array_contains_item(array, item):
+        return item in array
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
