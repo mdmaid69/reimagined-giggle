@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
