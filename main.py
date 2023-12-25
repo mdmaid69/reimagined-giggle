@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
