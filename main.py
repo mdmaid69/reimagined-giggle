@@ -1,7 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
