@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
