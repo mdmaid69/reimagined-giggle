@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_queue():
+        return collections.deque()
