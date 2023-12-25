@@ -1,6 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def cube_number(x):
+        return x**3
