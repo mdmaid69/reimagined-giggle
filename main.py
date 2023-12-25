@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import datetime
-print(datetime.datetime.now())
+  def square_number(x):
+        return x**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
