@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
