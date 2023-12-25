@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_absolute_value(x):
+        return math.fabs(x)
