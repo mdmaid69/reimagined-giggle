@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_density(mass, volume):
+        return mass / volume
