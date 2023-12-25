@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
