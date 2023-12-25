@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def exit_program():
+        sys.exit()
