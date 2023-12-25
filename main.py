@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
