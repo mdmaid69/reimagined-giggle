@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
