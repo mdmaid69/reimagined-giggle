@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+x = 10
+y = 20
+print("Sum:", x + y)
