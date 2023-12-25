@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
