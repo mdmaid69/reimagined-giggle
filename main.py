@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
