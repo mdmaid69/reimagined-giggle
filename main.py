@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def clear_array(array):
+        array *= 0
