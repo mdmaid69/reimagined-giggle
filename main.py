@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
