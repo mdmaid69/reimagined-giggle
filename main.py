@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
