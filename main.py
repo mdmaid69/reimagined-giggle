@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def cube_number(x):
+        return x**3
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
