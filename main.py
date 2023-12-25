@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
