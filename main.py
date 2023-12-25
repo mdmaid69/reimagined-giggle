@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
