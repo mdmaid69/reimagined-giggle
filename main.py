@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_to_binary(n):
+        return bin(n)
