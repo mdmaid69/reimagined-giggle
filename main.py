@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+print("Hello, world!")
