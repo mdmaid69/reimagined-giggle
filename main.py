@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import sys
-def exit_program():
-        sys.exit()
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
