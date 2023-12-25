@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
