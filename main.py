@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
