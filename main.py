@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
