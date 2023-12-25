@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+x = 10
+y = 20
+print("Sum:", x + y)
