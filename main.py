@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
