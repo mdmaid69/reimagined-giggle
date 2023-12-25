@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
