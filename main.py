@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
