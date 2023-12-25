@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
