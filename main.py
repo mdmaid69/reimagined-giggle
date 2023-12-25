@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
