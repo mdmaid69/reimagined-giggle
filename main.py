@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
