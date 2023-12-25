@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
