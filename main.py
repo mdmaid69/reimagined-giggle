@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
