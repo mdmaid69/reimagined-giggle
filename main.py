@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def square_number(x):
-        return x**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
