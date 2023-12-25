@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
