@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-def exit_program():
-        sys.exit()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
