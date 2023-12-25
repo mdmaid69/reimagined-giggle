@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-print(random.randint(0, 100))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def cube_number(x):
+        return x**3
