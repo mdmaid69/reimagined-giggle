@@ -1,5 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
