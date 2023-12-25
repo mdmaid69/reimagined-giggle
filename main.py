@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
