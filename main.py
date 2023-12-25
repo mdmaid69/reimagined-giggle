@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
