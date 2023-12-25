@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
