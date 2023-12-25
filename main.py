@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
