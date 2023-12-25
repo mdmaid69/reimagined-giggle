@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
