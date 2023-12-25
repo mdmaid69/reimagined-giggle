@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def subtract_numbers(x, y):
+        return x - y
