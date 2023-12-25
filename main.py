@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def find_min(lst):
-        return min(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
