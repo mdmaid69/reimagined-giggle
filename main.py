@@ -1,4 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
