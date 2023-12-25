@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import sys
+  def get_python_version():
+        return sys.version
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
