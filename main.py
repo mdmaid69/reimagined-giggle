@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
