@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def subtract_numbers(x, y):
-        return x - y
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_user_list():
+        return collections.UserList()
