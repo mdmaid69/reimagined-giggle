@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
