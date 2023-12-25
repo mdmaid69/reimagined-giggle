@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
