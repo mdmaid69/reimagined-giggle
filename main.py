@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
