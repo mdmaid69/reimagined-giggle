@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_item(array, i):
+        return array[i]
+def reverse_list(lst):
+        return lst[::-1]
