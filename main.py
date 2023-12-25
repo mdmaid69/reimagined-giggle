@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
