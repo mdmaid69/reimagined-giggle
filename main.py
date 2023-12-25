@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_array_itemsize(array):
+        return array.itemsize
