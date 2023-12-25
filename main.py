@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
