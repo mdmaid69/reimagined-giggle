@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_min(lst):
-        return min(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
