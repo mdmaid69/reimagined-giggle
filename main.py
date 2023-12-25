@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+for i in range(5):
+        print(i)
