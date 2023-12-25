@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
