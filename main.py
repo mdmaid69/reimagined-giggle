@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
