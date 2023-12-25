@@ -1,8 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
