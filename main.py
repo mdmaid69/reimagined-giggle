@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
