@@ -1,4 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print([x**2 for x in range(10)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
