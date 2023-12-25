@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
