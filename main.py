@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
