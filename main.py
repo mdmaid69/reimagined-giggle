@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
