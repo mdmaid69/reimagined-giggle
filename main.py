@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_exponential(x):
+        return math.exp(x)
