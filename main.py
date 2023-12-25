@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def is_even(n):
+        return n % 2 == 0
+import array
+def set_array_item(array, i, item):
+        array[i] = item
