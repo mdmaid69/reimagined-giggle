@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import time
-print(time.time())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
