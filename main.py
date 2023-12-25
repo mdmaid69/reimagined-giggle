@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
