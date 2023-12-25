@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_power(work, time):
+        return work / time
