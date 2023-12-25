@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
