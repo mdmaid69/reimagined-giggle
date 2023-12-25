@@ -1,6 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import logging
-def log_message(message):
-        logging.info(message)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
