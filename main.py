@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import collections
-def create_stack():
+def create_queue():
         return collections.deque()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
