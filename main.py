@@ -1,7 +1,4 @@
-for i in range(5):
-        print(i)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
