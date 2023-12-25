@@ -1,6 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_absolute_value(x):
+        return math.fabs(x)
