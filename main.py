@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
