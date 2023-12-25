@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
