@@ -1,7 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
