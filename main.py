@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
