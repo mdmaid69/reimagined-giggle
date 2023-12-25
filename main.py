@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
