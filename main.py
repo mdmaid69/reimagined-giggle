@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def roll_die():
+        return random.randint(1, 6)
