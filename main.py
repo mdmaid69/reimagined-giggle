@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
