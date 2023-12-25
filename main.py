@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
