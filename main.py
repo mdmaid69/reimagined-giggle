@@ -1,6 +1,10 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
