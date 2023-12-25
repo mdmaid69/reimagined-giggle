@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def clear_array(array):
-        array *= 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import sys
+print(sys.version)
