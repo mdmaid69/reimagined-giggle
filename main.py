@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
