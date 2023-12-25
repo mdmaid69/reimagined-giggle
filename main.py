@@ -1,7 +1,5 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
