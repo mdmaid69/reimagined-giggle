@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def divide_numbers(x, y):
-        return x / y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Words:", len(text.split()))
