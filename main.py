@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
