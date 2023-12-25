@@ -1,5 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-for i in range(10): print(i)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
