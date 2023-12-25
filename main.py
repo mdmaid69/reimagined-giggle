@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
