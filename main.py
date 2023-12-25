@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
