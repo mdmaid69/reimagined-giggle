@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
