@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
