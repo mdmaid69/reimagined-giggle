@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
