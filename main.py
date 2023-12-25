@@ -1,5 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def get_string_from_array(array):
+        return array.tobytes()
+def remove_duplicates(lst):
+        return list(set(lst))
