@@ -1,4 +1,10 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
