@@ -1,8 +1,11 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-from flask import Flask
-app = Flask(__name__)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
