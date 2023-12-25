@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
