@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def is_even(n):
+        return n % 2 == 0
