@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
