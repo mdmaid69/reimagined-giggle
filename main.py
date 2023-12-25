@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
