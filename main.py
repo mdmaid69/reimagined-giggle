@@ -1,10 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
