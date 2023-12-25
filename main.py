@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def subtract_numbers(x, y):
+        return x - y
