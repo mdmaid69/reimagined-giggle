@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import getpass
+def get_username():
+        return getpass.getuser()
