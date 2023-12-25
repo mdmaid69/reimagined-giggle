@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def convert_to_binary(n):
+        return bin(n)
