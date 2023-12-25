@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_speed(distance, time):
+        return distance / time
+import tensorflow as tf
+print(tf.__version__)
