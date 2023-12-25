@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
