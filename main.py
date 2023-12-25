@@ -1,8 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_pressure(force, area):
+        return force / area
+def calculate_power(work, time):
+        return work / time
