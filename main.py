@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
