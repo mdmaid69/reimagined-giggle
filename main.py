@@ -1,5 +1,5 @@
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
