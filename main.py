@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
