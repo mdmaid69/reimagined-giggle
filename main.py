@@ -1,4 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
