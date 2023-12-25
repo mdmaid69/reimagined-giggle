@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
