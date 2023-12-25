@@ -1,5 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def cube_number(x):
-        return x**3
+def sort_list(lst):
+        return sorted(lst)
+def add_numbers(x, y):
+        return x + y
