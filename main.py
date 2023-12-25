@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def greet(name):
-        print(f"Hello, {name}!")
+  def convert_to_binary(n):
+        return bin(n)
+def count_characters(sentence):
+        return len(sentence)
