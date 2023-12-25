@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_counter():
-        return collections.Counter()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
