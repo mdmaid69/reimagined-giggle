@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+print(sum(range(10)))
+import collections
+def create_user_string():
+        return collections.UserString()
