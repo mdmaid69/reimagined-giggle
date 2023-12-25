@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import array
-def get_array_length(array):
-        return len(array)
+def append_to_array(array, item):
+        array.append(item)
+print([x**2 for x in range(10)])
