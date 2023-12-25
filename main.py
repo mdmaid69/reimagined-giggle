@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
