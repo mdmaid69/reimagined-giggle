@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
