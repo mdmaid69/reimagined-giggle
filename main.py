@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
