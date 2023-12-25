@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
