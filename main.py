@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def convert_to_binary(n):
-        return bin(n)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
