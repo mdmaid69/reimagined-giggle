@@ -1,4 +1,8 @@
-def find_min(lst):
-        return min(lst)
-  def convert_to_octal(n):
-        return oct(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
