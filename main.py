@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
