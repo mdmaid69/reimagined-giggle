@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+for i in range(5):
+        print(i)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
