@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
