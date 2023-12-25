@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
