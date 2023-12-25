@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import sys
+  def get_python_version():
+        return sys.version
