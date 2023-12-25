@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import time
+def get_time_since_epoch():
+        return time.time()
