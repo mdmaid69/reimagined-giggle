@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def convert_to_binary(n):
+        return bin(n)
