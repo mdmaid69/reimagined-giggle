@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
