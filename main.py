@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
