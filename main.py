@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
