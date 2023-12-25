@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
