@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
