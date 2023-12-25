@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
