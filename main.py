@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def get_current_time():
+        return time.time()
