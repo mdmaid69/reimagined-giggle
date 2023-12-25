@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
