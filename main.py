@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
