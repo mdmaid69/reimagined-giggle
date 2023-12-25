@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def is_even(n):
+        return n % 2 == 0
