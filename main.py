@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
