@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-x = 10
-y = 20
-print("Sum:", x + y)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
