@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
