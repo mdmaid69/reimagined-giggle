@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
