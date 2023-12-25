@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_array_to_string(array):
+        return array.tostring()
