@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
