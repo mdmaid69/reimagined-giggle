@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
