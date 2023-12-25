@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
