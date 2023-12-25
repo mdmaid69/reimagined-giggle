@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def count_elements(lst):
-        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
