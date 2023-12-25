@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
