@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
