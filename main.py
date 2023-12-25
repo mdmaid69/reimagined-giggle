@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
