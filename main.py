@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
