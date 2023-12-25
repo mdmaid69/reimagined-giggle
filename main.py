@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
