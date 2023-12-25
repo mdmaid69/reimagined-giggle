@@ -1,6 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
