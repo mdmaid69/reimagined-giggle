@@ -1,6 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def is_even(n):
+        return n % 2 == 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
