@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+from collections import Counter
+print(Counter("hello world"))
+def multiply_numbers(x, y):
+        return x * y
