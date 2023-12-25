@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
