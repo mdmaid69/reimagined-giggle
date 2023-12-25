@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_pressure(force, area):
+        return force / area
