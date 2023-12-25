@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
