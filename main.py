@@ -1,5 +1,7 @@
-import math
-print(math.pi)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_length(array):
+        return len(array)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
