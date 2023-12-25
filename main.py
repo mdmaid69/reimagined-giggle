@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
