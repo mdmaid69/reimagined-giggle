@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_density(mass, volume):
+        return mass / volume
