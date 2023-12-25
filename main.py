@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
