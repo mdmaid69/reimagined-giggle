@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def reverse_list(lst):
+        return lst[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
