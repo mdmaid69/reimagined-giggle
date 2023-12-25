@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_current_working_directory():
+        return os.getcwd()
