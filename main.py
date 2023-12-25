@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import logging
-def log_message(message):
-        logging.info(message)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
