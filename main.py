@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_max(numbers):
-        return max(numbers)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
