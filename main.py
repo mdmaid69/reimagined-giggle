@@ -1,5 +1,10 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
