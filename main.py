@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def is_even(n):
-        return n % 2 == 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_min(numbers):
+        return min(numbers)
