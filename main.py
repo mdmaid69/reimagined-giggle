@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
