@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import tensorflow as tf
+print(tf.__version__)
