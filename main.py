@@ -1,5 +1,6 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_density(mass, volume):
-        return mass / volume
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
