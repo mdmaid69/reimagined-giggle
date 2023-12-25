@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
