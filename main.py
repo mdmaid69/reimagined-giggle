@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def is_palindrome(s):
+        return s == s[::-1]
+def find_min(numbers):
+        return min(numbers)
