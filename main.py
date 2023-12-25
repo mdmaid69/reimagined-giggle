@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
