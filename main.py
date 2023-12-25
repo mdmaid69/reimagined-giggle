@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
