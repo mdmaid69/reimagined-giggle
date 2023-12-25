@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
