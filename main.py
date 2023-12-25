@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
