@@ -1,4 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-print(sum(range(10)))
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
