@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_current_directory():
+        return os.getcwd()
