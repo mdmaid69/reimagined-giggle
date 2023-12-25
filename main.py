@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_float(array):
+        return float(array[0])
