@@ -1,4 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-print(sum(range(10)))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
