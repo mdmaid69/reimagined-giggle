@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
