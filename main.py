@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
