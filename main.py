@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
