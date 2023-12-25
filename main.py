@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
