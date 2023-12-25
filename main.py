@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import os
+def remove_directory(path):
+        os.rmdir(path)
