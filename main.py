@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
