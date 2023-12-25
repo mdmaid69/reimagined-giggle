@@ -1,8 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
