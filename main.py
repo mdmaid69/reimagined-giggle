@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
