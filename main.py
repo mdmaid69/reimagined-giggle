@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
