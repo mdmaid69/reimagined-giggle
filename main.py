@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
