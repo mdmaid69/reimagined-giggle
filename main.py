@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import os
-print(os.getcwd())
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def cube_number(x):
+        return x**3
