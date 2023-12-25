@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
