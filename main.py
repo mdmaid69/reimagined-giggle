@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
