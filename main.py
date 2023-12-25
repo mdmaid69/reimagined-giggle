@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
