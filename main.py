@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
