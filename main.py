@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def convert_to_binary(n):
-        return bin(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
