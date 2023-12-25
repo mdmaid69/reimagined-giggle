@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
