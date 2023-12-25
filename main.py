@@ -1,6 +1,7 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_list(array):
-        return list(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
