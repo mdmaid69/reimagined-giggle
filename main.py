@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
