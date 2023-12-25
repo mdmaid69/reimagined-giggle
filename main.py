@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def exit_program():
+        sys.exit()
