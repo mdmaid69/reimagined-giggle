@@ -1,6 +1,8 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
