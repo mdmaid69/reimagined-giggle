@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def multiply_numbers(x, y):
+        return x * y
