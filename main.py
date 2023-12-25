@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def count_words(sentence):
+        return len(sentence.split())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
