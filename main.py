@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import sys
-def exit_program():
-        sys.exit()
+import datetime
+print(datetime.datetime.now())
+def find_min(lst):
+        return min(lst)
