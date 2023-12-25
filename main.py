@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
