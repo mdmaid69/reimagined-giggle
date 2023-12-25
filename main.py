@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
