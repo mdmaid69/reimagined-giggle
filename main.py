@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_area_rectangle(l, w):
+        return l * w
