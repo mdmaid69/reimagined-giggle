@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
