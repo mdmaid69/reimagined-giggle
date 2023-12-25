@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_area_rectangle(l, w):
+        return l * w
