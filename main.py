@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
