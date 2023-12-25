@@ -1,6 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
