@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_set(array):
+        return set(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
