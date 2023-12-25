@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
