@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def add_numbers(x, y):
+        return x + y
