@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import sys
-def exit_program():
-        sys.exit()
+def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Words:", len(text.split()))
