@@ -1,7 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
