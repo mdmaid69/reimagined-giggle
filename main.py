@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import random
+print(random.randint(0, 100))
+def reverse_list(lst):
+        return lst[::-1]
