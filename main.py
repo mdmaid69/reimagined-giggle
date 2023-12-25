@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def clear_array(array):
+        array *= 0
