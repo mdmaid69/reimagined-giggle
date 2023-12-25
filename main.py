@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
