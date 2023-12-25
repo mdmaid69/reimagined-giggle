@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
