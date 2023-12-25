@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def convert_to_hex(n):
+        return hex(n)
