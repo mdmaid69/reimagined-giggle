@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
