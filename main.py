@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+print([x**2 for x in range(10)])
