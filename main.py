@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def subtract_numbers(x, y):
+        return x - y
+def sort_numbers(numbers):
+        return sorted(numbers)
