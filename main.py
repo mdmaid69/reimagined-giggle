@@ -1,5 +1,10 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_density(mass, volume):
-        return mass / volume
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
