@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
