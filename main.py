@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_priority_queue():
-        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
