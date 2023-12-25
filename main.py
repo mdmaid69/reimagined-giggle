@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import numpy as np
+print(np.array([1, 2, 3]))
+import platform
+def get_python_version():
+        return platform.python_version()
