@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def multiply_numbers(x, y):
+        return x * y
