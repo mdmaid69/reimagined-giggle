@@ -1,5 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def is_even(n):
+        return n % 2 == 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
