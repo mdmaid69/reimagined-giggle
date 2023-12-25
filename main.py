@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_list_from_array(array):
+        return array.tolist()
