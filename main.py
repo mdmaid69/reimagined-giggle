@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
