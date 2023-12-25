@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_sine(x):
+        return math.sin(x)
+import getpass
+def get_username():
+        return getpass.getuser()
