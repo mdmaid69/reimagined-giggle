@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
