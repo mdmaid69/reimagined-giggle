@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
