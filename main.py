@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
