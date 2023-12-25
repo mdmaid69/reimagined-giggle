@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
