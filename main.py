@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-for i in range(5):
-        print(i)
+def sort_list(lst):
+        return sorted(lst)
+  def count_elements(lst):
+        return len(lst)
