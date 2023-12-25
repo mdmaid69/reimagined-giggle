@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_area_rectangle(l, w):
+        return l * w
