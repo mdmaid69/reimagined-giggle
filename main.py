@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import tensorflow as tf
+print(tf.__version__)
