@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
