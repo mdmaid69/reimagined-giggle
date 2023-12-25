@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-name = "Python"
-print("Hello,", name)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_exponential(x):
+        return math.exp(x)
