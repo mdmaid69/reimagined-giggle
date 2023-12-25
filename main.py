@@ -1,6 +1,8 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
