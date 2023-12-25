@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
