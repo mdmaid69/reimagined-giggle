@@ -1,6 +1,5 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def convert_to_octal(n):
+        return oct(n)
