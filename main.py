@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
