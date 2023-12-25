@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import logging
+def log_message(message):
+        logging.info(message)
