@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_set(array):
+        return set(array)
