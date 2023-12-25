@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
