@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
