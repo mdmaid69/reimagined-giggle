@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import time
-print(time.time())
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import collections
+def create_stack():
+        return collections.deque()
