@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_floor(x):
+        return math.floor(x)
