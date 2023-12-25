@@ -1,5 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def convert_to_hex(n):
-        return hex(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
