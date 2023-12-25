@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
