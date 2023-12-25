@@ -1,11 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
