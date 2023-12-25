@@ -1,6 +1,8 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
