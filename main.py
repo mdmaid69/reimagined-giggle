@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
