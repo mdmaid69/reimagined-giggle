@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
