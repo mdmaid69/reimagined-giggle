@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
