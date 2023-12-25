@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_odd(n):
-        return n % 2 != 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
