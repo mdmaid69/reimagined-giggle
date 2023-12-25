@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
