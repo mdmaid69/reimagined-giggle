@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_python_version():
+        return platform.python_version()
