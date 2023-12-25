@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def convert_to_binary(n):
+        return bin(n)
