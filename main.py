@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
