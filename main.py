@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
