@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-def get_current_time():
-        return time.time()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
