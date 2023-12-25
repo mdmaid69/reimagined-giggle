@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
