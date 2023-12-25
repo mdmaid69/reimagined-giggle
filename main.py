@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_pressure(force, area):
+        return force / area
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
