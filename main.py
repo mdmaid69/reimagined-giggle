@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_max(numbers):
+        return max(numbers)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
