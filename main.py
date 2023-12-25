@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
