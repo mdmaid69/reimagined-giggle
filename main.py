@@ -1,8 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
