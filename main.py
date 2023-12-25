@@ -1,5 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
