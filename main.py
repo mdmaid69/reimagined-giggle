@@ -1,5 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import datetime
+print(datetime.datetime.now())
