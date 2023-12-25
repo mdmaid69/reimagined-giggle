@@ -1,4 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
