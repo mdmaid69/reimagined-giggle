@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
