@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+name = "Python"
+print("Hello,", name)
