@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_list(array):
+        return array.tolist()
