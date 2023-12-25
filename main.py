@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
