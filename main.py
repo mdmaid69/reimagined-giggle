@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
