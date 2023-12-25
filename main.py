@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
