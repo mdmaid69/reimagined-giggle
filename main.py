@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
