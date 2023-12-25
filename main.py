@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def multiply_numbers(x, y):
+        return x * y
