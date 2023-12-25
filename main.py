@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
