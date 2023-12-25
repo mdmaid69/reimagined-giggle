@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
