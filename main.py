@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+print(json.dumps({"name": "John", "age": 30}))
