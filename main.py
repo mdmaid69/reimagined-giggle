@@ -1,8 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_typecode(array):
+        return array.typecode
+import datetime
+def get_current_date():
+        return datetime.date.today()
