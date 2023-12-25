@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
