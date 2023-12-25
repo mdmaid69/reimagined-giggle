@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+print(random.randint(0, 100))
