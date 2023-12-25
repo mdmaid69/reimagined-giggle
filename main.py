@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Reversed:", text[::-1])
