@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
