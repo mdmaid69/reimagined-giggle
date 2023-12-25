@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
