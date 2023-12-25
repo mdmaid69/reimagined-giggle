@@ -1,5 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
