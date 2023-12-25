@@ -1,7 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
