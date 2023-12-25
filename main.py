@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
