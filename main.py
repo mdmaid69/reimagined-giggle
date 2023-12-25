@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_sine(x):
+        return math.sin(x)
