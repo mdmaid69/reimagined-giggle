@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def greet(name):
-        print(f"Hello, {name}!")
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
