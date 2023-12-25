@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def convert_to_hex(n):
+        return hex(n)
