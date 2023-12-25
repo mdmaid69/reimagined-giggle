@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+name = "Python"
+print("Hello,", name)
