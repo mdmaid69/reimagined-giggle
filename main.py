@@ -1,6 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
