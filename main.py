@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
