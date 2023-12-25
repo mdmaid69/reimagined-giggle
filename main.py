@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
