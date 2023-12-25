@@ -1,5 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def count_characters(sentence):
+        return len(sentence)
