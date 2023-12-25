@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
