@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
