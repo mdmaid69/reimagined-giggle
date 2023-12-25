@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
