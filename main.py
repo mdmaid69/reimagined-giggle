@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
