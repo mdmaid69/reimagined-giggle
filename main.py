@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def add_numbers(x, y):
+        return x + y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
