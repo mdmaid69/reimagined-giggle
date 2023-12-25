@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import datetime
+print(datetime.datetime.now())
