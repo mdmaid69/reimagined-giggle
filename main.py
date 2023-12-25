@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+from collections import Counter
+print(Counter("hello world"))
