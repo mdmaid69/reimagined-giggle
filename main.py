@@ -1,8 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
