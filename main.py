@@ -1,6 +1,3 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print([x**2 for x in range(10)])
+def calculate_work(force, distance):
+        return force * distance
