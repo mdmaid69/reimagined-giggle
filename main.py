@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_unique_words(sentence):
+        return set(sentence.split())
