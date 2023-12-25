@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
