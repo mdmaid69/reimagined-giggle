@@ -1,5 +1,7 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
