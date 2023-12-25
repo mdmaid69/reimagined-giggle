@@ -1,11 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
