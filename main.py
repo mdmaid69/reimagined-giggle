@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
