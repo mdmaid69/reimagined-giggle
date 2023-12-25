@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
