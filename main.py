@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
