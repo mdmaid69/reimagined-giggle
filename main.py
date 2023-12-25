@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_itemsize(array):
+        return array.itemsize
