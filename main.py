@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_max(lst):
+        return max(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
