@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
