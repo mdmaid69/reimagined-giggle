@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
