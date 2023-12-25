@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
