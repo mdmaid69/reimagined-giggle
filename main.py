@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import time
+print(time.time())
+def calculate_work(force, distance):
+        return force * distance
