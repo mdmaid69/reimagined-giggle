@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_sine(x):
+        return math.sin(x)
