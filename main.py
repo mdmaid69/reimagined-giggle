@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
