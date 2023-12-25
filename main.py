@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import getpass
+def get_username():
+        return getpass.getuser()
