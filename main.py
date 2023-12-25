@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
