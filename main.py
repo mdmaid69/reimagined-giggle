@@ -1,3 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
@@ -6,5 +9,3 @@ def calculate_irr(cash_flows):
                 return rate
         rate += 0.01
         return None
-name = "Python"
-print("Hello,", name)
