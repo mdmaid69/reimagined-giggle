@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_area_rectangle(l, w):
+        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
