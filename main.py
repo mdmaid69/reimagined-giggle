@@ -1,5 +1,9 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
