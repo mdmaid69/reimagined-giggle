@@ -1,7 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
