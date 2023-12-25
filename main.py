@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def reverse_array(array):
-        array.reverse()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+x = 10
+y = 20
+print("Sum:", x + y)
