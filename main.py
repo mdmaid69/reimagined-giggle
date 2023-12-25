@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
