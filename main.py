@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import sys
+def exit_program():
+        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
