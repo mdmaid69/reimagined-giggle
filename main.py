@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_max(numbers):
-        return max(numbers)
+def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
