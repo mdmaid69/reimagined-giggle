@@ -1,6 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_index(array, item):
+        return array.index(item)
