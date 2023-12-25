@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_item_count(array, item):
+        return array.count(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
