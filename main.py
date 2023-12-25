@@ -1,7 +1,8 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
