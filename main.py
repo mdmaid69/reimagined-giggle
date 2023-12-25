@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
