@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
