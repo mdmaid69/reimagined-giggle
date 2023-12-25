@@ -1,7 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def add_numbers(a, b):
+        return a + b
+def calculate_density(mass, volume):
+        return mass / volume
