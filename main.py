@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
