@@ -1,7 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
