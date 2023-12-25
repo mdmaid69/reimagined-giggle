@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
