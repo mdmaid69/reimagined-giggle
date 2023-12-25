@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
