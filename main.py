@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_power(work, time):
+        return work / time
