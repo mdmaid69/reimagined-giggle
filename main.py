@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
