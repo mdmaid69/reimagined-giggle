@@ -1,6 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
