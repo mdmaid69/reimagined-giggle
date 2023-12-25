@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
