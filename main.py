@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
