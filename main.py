@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_work(force, distance):
-        return force * distance
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
