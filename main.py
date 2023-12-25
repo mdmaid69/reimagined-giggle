@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
