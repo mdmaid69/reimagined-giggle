@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
