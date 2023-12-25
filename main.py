@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_stack():
-        return collections.deque()
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
