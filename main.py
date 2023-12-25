@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
