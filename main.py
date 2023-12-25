@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_min(numbers):
+        return min(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
