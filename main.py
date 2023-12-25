@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
