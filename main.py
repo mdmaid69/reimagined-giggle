@@ -1,6 +1,6 @@
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_buffer_info(array):
+        return array.buffer_info()
