@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
