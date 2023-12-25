@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_power(work, time):
-        return work / time
+import datetime
+print(datetime.datetime.now())
+def multiply_numbers(x, y):
+        return x * y
