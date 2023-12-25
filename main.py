@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
