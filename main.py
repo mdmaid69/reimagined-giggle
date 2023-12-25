@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-name = "Python"
-print("Hello,", name)
+  def multiply_numbers(x, y):
+        return x * y
+def reverse_list(lst):
+        return lst[::-1]
