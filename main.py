@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
