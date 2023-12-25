@@ -1,5 +1,8 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_pressure(force, area):
-        return force / area
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_speed(distance, time):
+        return distance / time
