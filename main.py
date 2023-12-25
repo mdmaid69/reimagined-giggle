@@ -1,7 +1,3 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+print("Hello, world!")
+def divide_numbers(x, y):
+        return x / y
