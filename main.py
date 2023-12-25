@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import tensorflow as tf
-print(tf.__version__)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def convert_to_hex(n):
+        return hex(n)
