@@ -1,4 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
