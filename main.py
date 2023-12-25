@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def is_palindrome(s):
-        return s == s[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_length(array):
+        return len(array)
