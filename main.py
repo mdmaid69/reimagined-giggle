@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
