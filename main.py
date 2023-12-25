@@ -1,7 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import sys
+print(sys.version)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
