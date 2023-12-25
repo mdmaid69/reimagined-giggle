@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
