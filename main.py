@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def square_number(x):
+        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
