@@ -1,6 +1,6 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
