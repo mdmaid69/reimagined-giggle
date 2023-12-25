@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
