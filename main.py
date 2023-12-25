@@ -1,6 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
