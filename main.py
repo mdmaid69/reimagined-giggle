@@ -1,5 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
