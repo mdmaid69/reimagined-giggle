@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
