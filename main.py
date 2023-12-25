@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def find_max(lst):
-        return max(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
