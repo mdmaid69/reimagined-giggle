@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def is_even(n):
+        return n % 2 == 0
