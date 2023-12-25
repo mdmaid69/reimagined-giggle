@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sys
+def print_python_version():
+        return sys.version
