@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
