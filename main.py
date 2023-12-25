@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
