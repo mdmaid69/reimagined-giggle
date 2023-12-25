@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
