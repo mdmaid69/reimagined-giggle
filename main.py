@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
