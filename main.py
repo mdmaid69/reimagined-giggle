@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_float(array):
+        return float(array[0])
