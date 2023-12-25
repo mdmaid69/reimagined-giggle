@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
