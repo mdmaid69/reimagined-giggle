@@ -1,5 +1,6 @@
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
