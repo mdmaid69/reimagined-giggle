@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
