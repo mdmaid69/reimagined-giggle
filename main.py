@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
