@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
