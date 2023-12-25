@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def count_elements(lst):
-        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
