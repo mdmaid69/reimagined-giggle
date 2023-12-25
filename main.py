@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_counter():
-        return collections.Counter()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
