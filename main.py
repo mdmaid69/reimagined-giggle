@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
