@@ -1,5 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import numpy as np
-print(np.array([1, 2, 3]))
+import time
+print(time.time())
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
