@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
