@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
