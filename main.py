@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
