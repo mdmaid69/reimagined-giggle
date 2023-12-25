@@ -1,9 +1,8 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
