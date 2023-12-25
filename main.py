@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
