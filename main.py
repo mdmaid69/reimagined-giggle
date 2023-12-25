@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
