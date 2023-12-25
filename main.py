@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print(math.pi)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
