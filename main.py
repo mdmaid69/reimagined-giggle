@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_current_directory():
+        return os.getcwd()
