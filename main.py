@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
