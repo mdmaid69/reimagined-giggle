@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def reverse_string(s):
+        return s[::-1]
+def find_max(numbers):
+        return max(numbers)
