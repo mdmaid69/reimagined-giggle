@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
