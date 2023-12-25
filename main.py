@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_priority_queue():
+        return collections.deque()
+import json
+print(json.dumps({"name": "John", "age": 30}))
