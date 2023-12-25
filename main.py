@@ -1,6 +1,9 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
