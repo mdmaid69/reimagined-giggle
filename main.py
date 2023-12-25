@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def find_min(lst):
+        return min(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
