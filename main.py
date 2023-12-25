@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
