@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_item(array, i):
-        return array[i]
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
