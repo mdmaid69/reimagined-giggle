@@ -1,5 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-for i in range(10): print(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+print(re.match("h.*o", "hello world"))
