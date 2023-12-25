@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
