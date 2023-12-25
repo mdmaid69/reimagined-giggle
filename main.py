@@ -1,6 +1,9 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
