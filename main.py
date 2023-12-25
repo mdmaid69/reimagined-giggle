@@ -1,6 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
