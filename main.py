@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
