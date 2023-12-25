@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def append_to_array(array, item):
+        array.append(item)
