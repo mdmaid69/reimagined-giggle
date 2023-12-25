@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
