@@ -1,12 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+for i in range(5):
+        print(i)
