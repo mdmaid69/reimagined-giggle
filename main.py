@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
