@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def find_max(lst):
+        return max(lst)
