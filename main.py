@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
