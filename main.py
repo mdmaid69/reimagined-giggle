@@ -1,4 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
