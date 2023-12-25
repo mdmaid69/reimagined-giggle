@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import platform
-def get_os_info():
-        return platform.uname()
+def add_numbers(x, y):
+        return x + y
+import logging
+def log_message(message):
+        logging.info(message)
