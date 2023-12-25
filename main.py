@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def convert_to_hex(n):
+        return hex(n)
