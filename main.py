@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_float(array):
+        return float(array[0])
