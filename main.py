@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
