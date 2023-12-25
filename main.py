@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
