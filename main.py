@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_octal(n):
+        return oct(n)
