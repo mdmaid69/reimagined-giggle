@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
