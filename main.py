@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def multiply_numbers(x, y):
+        return x * y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
