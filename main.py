@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
