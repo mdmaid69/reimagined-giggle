@@ -1,9 +1,8 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
