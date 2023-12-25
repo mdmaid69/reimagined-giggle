@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
