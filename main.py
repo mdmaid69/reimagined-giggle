@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
