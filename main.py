@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_current_time():
+        return time.time()
