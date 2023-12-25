@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_area_rectangle(l, w):
+        return l * w
