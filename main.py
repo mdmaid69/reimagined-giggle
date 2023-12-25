@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import sys
+def print_python_version():
+        print(sys.version)
