@@ -1,5 +1,9 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
