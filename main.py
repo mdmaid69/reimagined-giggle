@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
