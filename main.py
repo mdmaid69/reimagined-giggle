@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def print_python_version():
+        print(sys.version)
