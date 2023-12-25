@@ -1,5 +1,8 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
