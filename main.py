@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
