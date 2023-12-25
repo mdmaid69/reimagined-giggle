@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
