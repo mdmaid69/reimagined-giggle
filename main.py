@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
