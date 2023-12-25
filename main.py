@@ -1,3 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-for i in range(10): print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
