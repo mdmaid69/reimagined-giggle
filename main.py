@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
