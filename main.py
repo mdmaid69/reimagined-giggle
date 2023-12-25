@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import collections
-def create_queue():
-        return collections.deque()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
