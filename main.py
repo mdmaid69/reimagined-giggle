@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def convert_to_hex(n):
-        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
