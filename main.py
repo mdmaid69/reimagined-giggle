@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_counter():
-        return collections.Counter()
+print([x**2 for x in range(10)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
