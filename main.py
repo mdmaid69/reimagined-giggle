@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_work(force, distance):
+        return force * distance
