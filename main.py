@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
