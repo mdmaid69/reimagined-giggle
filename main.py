@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
