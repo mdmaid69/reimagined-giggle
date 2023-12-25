@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_area_circle(r):
-        return 3.14 * r**2
+from collections import Counter
+print(Counter("hello world"))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
