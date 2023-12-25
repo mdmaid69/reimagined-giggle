@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def clear_array(array):
-        array *= 0
+  def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_current_time():
+        return time.ctime()
