@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
