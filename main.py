@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
