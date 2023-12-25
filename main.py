@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def convert_to_binary(n):
-        return bin(n)
+def sort_list(lst):
+        return sorted(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
