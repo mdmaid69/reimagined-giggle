@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+for i in range(5):
+        print(i)
