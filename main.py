@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
