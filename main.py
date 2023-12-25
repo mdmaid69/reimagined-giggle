@@ -1,7 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_tangent(x):
+        return math.tan(x)
