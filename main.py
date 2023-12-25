@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def square_number(x):
+        return x**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
