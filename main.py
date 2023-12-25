@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
