@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
