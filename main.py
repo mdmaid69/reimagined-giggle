@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
