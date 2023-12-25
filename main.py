@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_priority_queue():
+        return collections.deque()
