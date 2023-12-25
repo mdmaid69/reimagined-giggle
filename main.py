@@ -1,5 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_power(work, time):
-        return work / time
+def calculate_arc_tangent(x):
+        return math.atan(x)
