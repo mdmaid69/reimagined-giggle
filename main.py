@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
