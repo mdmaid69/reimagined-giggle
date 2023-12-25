@@ -1,6 +1,8 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
