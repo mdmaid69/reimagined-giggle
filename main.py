@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
