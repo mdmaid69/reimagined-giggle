@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
