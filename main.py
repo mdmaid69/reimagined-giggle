@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def remove_from_array(array, item):
+        array.remove(item)
