@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
