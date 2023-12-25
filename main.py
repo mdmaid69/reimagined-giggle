@@ -1,4 +1,12 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
