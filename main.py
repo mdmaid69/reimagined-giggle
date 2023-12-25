@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_list_from_array(array):
+        return array.tolist()
