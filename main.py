@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
