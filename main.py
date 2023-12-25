@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
