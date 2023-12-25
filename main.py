@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
