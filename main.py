@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
