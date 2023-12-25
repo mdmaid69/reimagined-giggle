@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_typecode(array):
+        return array.typecode
