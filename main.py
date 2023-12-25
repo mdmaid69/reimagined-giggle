@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
