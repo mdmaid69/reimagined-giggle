@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
