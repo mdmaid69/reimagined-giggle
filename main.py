@@ -1,6 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
