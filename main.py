@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
