@@ -1,4 +1,7 @@
-for i in range(10): print(i)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
