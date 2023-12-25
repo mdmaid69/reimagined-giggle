@@ -1,6 +1,3 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
+print("Hello, world!")
