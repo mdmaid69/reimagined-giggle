@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
