@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import random
+def roll_die():
+        return random.randint(1, 6)
