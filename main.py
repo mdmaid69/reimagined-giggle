@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def is_odd(n):
+        return n % 2 != 0
