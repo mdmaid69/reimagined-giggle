@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
