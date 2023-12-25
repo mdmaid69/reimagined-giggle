@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
