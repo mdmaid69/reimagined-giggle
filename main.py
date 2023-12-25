@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area(radius):
+        return 3.14 * radius * radius
