@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+x = 10
+y = 20
+print("Sum:", x + y)
