@@ -1,4 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-print([x**2 for x in range(10)])
+import random
+print(random.randint(0, 100))
+def is_odd(n):
+        return n % 2 != 0
