@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
