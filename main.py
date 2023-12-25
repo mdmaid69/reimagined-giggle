@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
