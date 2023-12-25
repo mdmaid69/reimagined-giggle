@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def cube_number(x):
-        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_username():
+        return getpass.getuser()
