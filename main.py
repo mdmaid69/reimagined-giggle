@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
