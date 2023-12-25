@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
