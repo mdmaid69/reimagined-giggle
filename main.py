@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
