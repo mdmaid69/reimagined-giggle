@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
