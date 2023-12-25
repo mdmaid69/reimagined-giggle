@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def reverse_list(lst):
-        return lst[::-1]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
