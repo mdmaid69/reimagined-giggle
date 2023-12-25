@@ -1,8 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def sort_numbers(numbers):
+        return sorted(numbers)
