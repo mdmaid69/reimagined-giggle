@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def convert_to_hex(n):
+        return hex(n)
