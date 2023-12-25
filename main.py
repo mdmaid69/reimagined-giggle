@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
