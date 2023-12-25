@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
