@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
