@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
