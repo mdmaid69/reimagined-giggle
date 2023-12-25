@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
