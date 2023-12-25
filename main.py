@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
