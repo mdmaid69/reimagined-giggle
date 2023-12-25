@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
