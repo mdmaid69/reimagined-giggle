@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
