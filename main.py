@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
