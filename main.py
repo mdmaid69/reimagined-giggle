@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_file(file_name):
+        os.remove(file_name)
