@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
