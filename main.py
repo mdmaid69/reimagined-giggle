@@ -1,8 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
