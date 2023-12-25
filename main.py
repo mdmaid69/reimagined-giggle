@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+for i in range(10): print(i)
