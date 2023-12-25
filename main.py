@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
