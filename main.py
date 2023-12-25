@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
