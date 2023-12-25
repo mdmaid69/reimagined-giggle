@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
