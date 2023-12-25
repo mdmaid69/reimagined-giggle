@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+name = "Python"
+print("Hello,", name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
