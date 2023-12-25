@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
