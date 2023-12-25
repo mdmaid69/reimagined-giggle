@@ -1,6 +1,3 @@
-import time
-def get_current_time():
-        return time.time()
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_area_rectangle(l, w):
+        return l * w
+print("Hello, world!")
