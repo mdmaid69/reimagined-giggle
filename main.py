@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
