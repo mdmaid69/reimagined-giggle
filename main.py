@@ -1,8 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
