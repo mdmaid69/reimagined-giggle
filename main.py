@@ -1,5 +1,3 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def is_odd(n):
+        return n % 2 != 0
+print("Hello, world!")
