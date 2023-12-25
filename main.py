@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
