@@ -1,7 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
