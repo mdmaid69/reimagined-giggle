@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
