@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
