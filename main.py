@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
