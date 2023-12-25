@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
