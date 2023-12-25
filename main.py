@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
