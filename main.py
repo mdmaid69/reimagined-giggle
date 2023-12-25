@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
