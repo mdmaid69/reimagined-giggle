@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
