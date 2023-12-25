@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
