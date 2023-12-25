@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def convert_to_octal(n):
+        return oct(n)
