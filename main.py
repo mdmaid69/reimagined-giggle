@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+print(math.pi)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
