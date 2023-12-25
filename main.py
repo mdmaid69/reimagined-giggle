@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def exit_program():
+        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
