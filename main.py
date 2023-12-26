@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
