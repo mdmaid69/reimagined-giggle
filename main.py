@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
