@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
