@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def set_array_item(array, i, item):
+        array[i] = item
