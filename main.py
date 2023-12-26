@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
