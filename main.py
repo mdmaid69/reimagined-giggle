@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
