@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
