@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
