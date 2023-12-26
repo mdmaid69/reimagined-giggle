@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
