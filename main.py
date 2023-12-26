@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def add_numbers(x, y):
+        return x + y
