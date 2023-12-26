@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
