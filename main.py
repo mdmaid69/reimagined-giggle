@@ -1,6 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
