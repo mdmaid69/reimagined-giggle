@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def count_characters(sentence):
-        return len(sentence)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_acceleration(speed, time):
+        return speed / time
