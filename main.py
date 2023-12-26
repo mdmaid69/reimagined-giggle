@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
