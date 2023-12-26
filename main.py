@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
