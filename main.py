@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
