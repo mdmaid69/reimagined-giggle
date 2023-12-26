@@ -1,5 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def get_string_from_array(array):
+        return array.tobytes()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
