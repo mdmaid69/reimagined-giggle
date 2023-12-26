@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
