@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
