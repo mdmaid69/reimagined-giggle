@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
