@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
