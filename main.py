@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
