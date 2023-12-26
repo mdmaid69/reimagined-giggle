@@ -1,5 +1,9 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
