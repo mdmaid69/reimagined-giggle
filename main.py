@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
