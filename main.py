@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+print([x**2 for x in range(10)])
