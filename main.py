@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def reverse_list(lst):
+        return lst[::-1]
