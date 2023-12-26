@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import platform
+def get_os_info():
+        return platform.uname()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
