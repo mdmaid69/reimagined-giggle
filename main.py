@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def clear_array(array):
+        array *= 0
