@@ -1,4 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
