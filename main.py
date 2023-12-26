@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
