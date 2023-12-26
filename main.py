@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
