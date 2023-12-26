@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import random
+print(random.randint(0, 100))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
