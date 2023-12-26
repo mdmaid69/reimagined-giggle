@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
