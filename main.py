@@ -1,5 +1,8 @@
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
