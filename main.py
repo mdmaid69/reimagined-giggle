@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
