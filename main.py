@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
