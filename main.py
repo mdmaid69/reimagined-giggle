@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def set_array_item(array, i, item):
+        array[i] = item
