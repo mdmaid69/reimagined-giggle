@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_speed(distance, time):
+        return distance / time
