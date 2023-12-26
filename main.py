@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
