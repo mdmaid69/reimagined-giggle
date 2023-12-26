@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
