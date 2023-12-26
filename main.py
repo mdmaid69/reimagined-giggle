@@ -1,4 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-print(sum(range(10)))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
