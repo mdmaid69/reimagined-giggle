@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def find_min(lst):
+        return min(lst)
