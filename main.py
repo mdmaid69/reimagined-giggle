@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def is_odd(n):
+        return n % 2 != 0
