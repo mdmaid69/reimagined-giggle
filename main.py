@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
