@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
