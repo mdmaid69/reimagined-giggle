@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
