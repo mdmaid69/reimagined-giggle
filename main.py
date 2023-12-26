@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def sort_list(lst):
+        return sorted(lst)
