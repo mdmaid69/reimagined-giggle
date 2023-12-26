@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
