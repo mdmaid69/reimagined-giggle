@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
