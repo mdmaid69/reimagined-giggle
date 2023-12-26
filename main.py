@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
