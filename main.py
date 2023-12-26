@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
