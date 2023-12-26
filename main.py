@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+print(os.getcwd())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
