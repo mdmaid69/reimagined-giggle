@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_acceleration(speed, time):
+        return speed / time
