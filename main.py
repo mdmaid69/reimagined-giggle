@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
