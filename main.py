@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
