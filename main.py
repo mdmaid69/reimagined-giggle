@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
