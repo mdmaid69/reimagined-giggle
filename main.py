@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
