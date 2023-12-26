@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
