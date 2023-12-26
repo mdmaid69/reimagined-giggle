@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def convert_to_binary(n):
+        return bin(n)
