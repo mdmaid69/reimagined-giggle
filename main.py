@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
