@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_time_since_epoch():
+        return time.time()
