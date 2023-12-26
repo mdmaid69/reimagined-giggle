@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
