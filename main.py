@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
