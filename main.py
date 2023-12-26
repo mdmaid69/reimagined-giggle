@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
