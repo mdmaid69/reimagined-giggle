@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_as_list(array):
+        return list(array)
