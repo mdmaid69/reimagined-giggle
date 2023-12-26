@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+text = "Hello, world!"
+print("Characters:", len(text))
