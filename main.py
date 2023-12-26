@@ -1,7 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
