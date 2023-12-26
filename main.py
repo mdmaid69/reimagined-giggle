@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def subtract_numbers(x, y):
-        return x - y
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
