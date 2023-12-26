@@ -1,6 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_area_circle(r):
+        return 3.14 * r**2
