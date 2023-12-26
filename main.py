@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import platform
-def get_os_info():
-        return platform.uname()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_list(array):
+        return list(array)
