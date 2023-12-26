@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_max(lst):
+        return max(lst)
