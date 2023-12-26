@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
+import time
+def get_time_since_epoch():
+        return time.time()
