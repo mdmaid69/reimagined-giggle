@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import sys
-def print_python_version():
-        print(sys.version)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
