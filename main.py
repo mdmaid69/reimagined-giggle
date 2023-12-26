@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
