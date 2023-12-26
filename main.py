@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
