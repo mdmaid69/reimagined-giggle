@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
