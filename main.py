@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-print(os.getcwd())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def add_numbers(a, b):
+        return a + b
