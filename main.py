@@ -1,12 +1,8 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
