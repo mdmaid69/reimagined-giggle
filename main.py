@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
