@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
