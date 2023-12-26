@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
