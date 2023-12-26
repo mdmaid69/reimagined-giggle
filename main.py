@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
