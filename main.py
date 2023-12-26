@@ -1,5 +1,10 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
