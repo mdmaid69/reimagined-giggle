@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_area(radius):
+        return 3.14 * radius * radius
