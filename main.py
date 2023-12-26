@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
