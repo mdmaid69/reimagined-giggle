@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
