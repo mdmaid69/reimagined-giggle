@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import datetime
+print(datetime.datetime.now())
