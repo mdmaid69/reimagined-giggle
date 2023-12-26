@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
