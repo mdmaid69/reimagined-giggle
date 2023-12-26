@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
