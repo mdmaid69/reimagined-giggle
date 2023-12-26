@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def print_python_version():
-        return sys.version
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
