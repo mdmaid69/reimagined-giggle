@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
