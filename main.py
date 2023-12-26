@@ -1,4 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
