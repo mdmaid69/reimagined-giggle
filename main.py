@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def square_number(x):
+        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
