@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def cube_number(x):
+        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
