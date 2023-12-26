@@ -1,8 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
