@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
