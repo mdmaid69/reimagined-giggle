@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
