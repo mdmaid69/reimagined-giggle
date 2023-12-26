@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_area_rectangle(l, w):
+        return l * w
+def is_palindrome(s):
+        return s == s[::-1]
