@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
