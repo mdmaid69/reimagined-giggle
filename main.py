@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
