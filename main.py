@@ -1,12 +1,10 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
