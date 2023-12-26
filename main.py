@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
