@@ -1,5 +1,12 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
