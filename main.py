@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
