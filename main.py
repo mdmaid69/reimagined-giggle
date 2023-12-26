@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import platform
-def get_os_info():
-        return platform.uname()
+x = 10
+y = 20
+print("Sum:", x + y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
