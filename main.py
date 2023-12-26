@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_current_directory():
-        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
