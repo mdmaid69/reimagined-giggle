@@ -1,8 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
