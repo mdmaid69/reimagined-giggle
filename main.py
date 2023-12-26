@@ -1,5 +1,6 @@
-print([x**2 for x in range(10)])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
