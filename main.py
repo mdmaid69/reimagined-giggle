@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
