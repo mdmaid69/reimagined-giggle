@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def print_python_version():
+        return sys.version
