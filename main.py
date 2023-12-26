@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import datetime
+def get_today_date():
+        return datetime.date.today()
