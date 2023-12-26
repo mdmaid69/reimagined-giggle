@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
