@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_min(numbers):
+        return min(numbers)
