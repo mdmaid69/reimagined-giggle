@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
