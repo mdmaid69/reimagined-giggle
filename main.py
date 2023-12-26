@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
