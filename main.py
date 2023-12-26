@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+for i in range(10): print(i)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_bytes_from_array(array):
+        return array.tobytes()
