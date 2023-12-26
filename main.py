@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def count_elements(lst):
+        return len(lst)
