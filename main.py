@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
