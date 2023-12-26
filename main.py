@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def square_number(x):
-        return x**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def remove_duplicates(lst):
+        return list(set(lst))
