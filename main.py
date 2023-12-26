@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_float(array):
+        return float(array[0])
