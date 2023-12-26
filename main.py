@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
