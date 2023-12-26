@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
