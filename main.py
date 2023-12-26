@@ -1,5 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import time
+def get_current_time():
+        return time.ctime()
