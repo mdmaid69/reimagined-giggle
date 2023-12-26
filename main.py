@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
