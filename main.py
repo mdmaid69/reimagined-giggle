@@ -1,8 +1,4 @@
+print(sum(range(10)))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
