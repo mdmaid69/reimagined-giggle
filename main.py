@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_bool(array):
+        return bool(array)
 import bisect
 def binary_search(sorted_list, item):
         i = bisect.bisect_left(sorted_list, item)
