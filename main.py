@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
