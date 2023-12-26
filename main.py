@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
