@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def split_path(path):
+        return os.path.split(path)
