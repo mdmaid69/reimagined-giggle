@@ -1,5 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
