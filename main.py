@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
