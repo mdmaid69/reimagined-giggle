@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
