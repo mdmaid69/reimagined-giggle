@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
