@@ -1,7 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
