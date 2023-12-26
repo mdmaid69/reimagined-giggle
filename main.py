@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def cube_number(x):
-        return x**3
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.time()
