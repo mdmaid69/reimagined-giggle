@@ -1,6 +1,10 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import sys
-def print_python_version():
-        print(sys.version)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
