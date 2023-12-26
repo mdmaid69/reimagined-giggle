@@ -1,6 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
