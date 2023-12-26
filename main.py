@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_user_list():
+        return collections.UserList()
