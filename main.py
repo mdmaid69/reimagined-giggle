@@ -1,5 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def subtract_numbers(x, y):
-        return x - y
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
