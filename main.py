@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def is_even(n):
+        return n % 2 == 0
