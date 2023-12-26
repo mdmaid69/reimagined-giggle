@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
