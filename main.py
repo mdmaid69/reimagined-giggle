@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
