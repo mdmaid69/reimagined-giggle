@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-print(os.getcwd())
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
