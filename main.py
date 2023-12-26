@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
