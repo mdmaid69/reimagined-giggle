@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
