@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def subtract_numbers(x, y):
+        return x - y
