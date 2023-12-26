@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
