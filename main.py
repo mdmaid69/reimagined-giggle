@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_min(lst):
+        return min(lst)
