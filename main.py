@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
