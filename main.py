@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
