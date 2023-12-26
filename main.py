@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_repr(array):
+        return repr(array)
