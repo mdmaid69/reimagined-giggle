@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
