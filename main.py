@@ -1,6 +1,7 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
