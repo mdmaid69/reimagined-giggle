@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
