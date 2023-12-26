@@ -1,6 +1,5 @@
-def cube_number(x):
-        return x**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
