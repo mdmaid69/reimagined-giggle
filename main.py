@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
