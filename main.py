@@ -1,4 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
