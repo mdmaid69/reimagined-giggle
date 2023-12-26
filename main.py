@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
