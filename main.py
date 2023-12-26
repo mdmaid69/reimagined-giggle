@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import platform
+def get_python_version():
+        return platform.python_version()
