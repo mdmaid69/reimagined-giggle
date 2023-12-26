@@ -1,5 +1,10 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def sort_list(lst):
-        return sorted(lst)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
