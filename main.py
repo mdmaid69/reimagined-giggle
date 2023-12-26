@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
