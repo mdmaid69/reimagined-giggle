@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
