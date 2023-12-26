@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def subtract_numbers(x, y):
-        return x - y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_repr(array):
+        return repr(array)
