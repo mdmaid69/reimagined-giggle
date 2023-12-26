@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_user_string():
+        return collections.UserString()
