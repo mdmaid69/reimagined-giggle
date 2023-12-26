@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
