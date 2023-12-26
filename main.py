@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
