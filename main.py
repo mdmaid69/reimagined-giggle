@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
