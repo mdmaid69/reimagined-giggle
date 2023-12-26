@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_volume(length, width, height):
+        return length * width * height
+import getpass
+def get_username():
+        return getpass.getuser()
