@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
