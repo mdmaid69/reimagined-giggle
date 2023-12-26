@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
