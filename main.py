@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
