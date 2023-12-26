@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+def divide_numbers(x, y):
+        return x / y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
