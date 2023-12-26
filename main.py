@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
