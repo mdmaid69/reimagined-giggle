@@ -1,4 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-print("Hello, world!")
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
