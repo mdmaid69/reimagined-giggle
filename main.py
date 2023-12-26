@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
