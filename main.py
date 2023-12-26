@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
