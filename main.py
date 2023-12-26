@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_power(work, time):
-        return work / time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
