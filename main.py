@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
