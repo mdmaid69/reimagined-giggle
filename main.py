@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def add_numbers(x, y):
-        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
