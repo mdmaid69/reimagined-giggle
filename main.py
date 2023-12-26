@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
