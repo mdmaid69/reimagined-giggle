@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
