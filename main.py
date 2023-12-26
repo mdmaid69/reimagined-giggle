@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_user_list():
-        return collections.UserList()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
