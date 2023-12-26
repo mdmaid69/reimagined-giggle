@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_queue():
+        return collections.deque()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
