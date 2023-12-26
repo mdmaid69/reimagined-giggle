@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def set_array_item(array, i, item):
+        array[i] = item
