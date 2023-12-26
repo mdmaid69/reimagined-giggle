@@ -1,5 +1,9 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import platform
+def get_os_info():
+        return platform.uname()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
