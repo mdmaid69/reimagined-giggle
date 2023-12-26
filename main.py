@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_factorial(n):
+        return math.factorial(n)
