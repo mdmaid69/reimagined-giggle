@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
