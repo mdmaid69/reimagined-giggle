@@ -1,5 +1,11 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
