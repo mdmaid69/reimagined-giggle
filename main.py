@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def greet(name):
+        print(f"Hello, {name}!")
