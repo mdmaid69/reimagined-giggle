@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
