@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def clear_array(array):
+        array *= 0
+  def convert_to_hex(n):
+        return hex(n)
