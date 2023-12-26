@@ -1,8 +1,9 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
