@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def multiply_numbers(x, y):
+        return x * y
