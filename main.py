@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def sort_list(lst):
+def find_max(lst):
+        return max(lst)
+def sort_list(lst):
         return sorted(lst)
