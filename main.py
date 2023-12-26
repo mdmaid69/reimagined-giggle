@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
