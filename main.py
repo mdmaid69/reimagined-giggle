@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+print(math.pi)
