@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import platform
-def get_os_info():
-        return platform.uname()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
