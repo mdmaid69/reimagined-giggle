@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item_count(array, item):
+        return array.count(item)
