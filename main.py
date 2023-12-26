@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def clear_array(array):
+        array *= 0
+import random
+print(random.randint(0, 100))
