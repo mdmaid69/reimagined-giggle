@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_max(lst):
-        return max(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import time
+def get_current_time():
+        return time.time()
