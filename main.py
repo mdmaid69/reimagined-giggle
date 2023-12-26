@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def get_file_size_in_bytes(file_name):
+  def get_file_size(file_name):
         return os.stat(file_name).st_size
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
