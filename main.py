@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def multiply_numbers(x, y):
+        return x * y
