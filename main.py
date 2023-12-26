@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_current_time():
-        return time.time()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
