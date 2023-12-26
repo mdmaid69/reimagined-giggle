@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
