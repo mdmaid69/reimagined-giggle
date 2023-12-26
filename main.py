@@ -1,8 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def convert_to_hex(n):
+        return hex(n)
