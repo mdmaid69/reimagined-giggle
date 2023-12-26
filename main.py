@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
