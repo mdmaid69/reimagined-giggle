@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
