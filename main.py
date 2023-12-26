@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
