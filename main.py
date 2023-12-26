@@ -1,4 +1,11 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
