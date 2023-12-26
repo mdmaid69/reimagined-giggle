@@ -1,8 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def reverse_list(lst):
+        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
