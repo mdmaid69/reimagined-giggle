@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
