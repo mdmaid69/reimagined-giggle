@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area(radius):
+        return 3.14 * radius * radius
