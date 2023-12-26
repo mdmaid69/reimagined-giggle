@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_current_directory():
+        return os.getcwd()
