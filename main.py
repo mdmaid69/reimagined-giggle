@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def convert_to_hex(n):
+        return hex(n)
