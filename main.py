@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
