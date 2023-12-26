@@ -1,6 +1,11 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def remove_from_array(array, item):
+        array.remove(item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
