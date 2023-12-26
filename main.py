@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
