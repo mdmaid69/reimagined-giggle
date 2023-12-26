@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
