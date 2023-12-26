@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import collections
+def create_user_list():
+        return collections.UserList()
