@@ -1,6 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
