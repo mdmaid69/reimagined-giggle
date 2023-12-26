@@ -1,7 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
