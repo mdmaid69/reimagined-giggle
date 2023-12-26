@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
