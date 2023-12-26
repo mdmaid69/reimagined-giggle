@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
