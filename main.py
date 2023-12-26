@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_palindrome(s):
+        return s == s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
