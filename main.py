@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
