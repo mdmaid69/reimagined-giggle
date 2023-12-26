@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
