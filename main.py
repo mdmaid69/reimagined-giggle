@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
