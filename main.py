@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def cube_number(x):
+        return x**3
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
