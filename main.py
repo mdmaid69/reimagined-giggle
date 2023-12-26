@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
