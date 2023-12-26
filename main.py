@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def reverse_string(s):
+        return s[::-1]
