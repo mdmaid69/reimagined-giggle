@@ -1,6 +1,5 @@
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
