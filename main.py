@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
