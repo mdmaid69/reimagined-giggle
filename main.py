@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def multiply_numbers(x, y):
-        return x * y
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
