@@ -1,6 +1,8 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
