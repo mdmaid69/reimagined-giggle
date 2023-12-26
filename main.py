@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
