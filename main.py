@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
