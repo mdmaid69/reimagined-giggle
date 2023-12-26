@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
