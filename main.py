@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
