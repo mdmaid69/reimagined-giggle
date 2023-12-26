@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
