@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def greet(name):
-        print(f"Hello, {name}!")
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def print_python_version():
+        return sys.version
