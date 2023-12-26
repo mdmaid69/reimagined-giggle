@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_volume(length, width, height):
+        return length * width * height
