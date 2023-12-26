@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
