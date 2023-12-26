@@ -1,6 +1,8 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
