@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
