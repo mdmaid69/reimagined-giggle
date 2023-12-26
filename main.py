@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def convert_to_hex(n):
+        return hex(n)
