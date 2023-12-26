@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import random
+print(random.randint(0, 100))
+def add_numbers(x, y):
+        return x + y
