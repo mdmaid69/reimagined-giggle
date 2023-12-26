@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_os_info():
+        return platform.uname()
