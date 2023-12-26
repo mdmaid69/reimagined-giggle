@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
