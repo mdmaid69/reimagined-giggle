@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+print("Hello, world!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
