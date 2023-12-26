@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
