@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import tensorflow as tf
+print(tf.__version__)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
