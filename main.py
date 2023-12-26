@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
