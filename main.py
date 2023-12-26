@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
