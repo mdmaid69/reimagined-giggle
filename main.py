@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
