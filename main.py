@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
