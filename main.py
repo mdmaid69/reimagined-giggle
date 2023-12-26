@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
