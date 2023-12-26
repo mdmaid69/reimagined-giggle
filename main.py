@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_item(array, i):
+        return array[i]
