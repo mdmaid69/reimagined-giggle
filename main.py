@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def is_even(n):
+        return n % 2 == 0
