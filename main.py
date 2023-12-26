@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
