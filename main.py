@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def convert_to_hex(n):
-        return hex(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def reverse_array(array):
+        array.reverse()
