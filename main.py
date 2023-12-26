@@ -1,5 +1,6 @@
 import sys
-print(sys.version)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def exit_program():
+        sys.exit()
+import time
+def get_current_time():
+        return time.time()
