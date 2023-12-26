@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import time
+def get_time_since_epoch():
+        return time.time()
