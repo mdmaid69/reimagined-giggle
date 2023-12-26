@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_density(mass, volume):
-        return mass / volume
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
