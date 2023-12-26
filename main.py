@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def cube_number(x):
+        return x**3
+  import sys
+  def get_python_version():
+        return sys.version
