@@ -1,8 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
