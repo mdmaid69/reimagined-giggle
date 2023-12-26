@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def sort_list(lst):
+        return sorted(lst)
