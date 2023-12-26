@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
