@@ -1,5 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_density(mass, volume):
+        return mass / volume
+  def cube_number(x):
+        return x**3
