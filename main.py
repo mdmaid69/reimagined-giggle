@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
