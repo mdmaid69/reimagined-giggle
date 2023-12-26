@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
