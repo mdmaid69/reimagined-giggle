@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def count_elements(lst):
+        return len(lst)
