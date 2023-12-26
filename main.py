@@ -1,4 +1,3 @@
-for i in range(5):
-        print(i)
-def add_numbers(x, y):
-        return x + y
+  def convert_to_octal(n):
+        return oct(n)
+print([x**2 for x in range(10)])
