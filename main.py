@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
