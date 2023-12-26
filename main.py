@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
