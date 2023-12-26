@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
