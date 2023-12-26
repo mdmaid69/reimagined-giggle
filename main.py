@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
