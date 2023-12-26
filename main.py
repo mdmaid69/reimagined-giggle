@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
