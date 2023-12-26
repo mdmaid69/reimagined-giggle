@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def clear_array(array):
+        array *= 0
+import sys
+def exit_program():
+        sys.exit()
