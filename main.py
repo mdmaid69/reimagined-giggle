@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
