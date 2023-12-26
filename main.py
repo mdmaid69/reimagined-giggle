@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
