@@ -1,6 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def sort_list(lst):
+        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
