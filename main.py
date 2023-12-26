@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_cosine(x):
+        return math.cos(x)
+def convert_to_octal(n):
+        return oct(n)
