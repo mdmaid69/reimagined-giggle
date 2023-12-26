@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
