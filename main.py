@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
