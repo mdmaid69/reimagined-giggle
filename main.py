@@ -1,9 +1,7 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
