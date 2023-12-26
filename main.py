@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
