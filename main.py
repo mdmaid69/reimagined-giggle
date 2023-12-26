@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sine(x):
+        return math.sin(x)
