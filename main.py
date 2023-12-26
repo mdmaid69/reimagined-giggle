@@ -1,12 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+for i in range(10): print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
