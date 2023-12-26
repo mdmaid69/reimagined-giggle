@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
