@@ -1,8 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
