@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
