@@ -1,6 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
