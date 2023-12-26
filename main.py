@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import platform
+def get_os_info():
+        return platform.uname()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
