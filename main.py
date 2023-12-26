@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
