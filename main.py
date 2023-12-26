@@ -1,5 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
