@@ -1,6 +1,10 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
