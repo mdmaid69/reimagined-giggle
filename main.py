@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def greet(name):
+        print(f"Hello, {name}!")
