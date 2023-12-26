@@ -1,3 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-print(sum(range(10)))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def convert_to_hex(n):
+        return hex(n)
