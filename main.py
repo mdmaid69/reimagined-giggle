@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def add_numbers(a, b):
+        return a + b
