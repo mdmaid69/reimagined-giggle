@@ -1,6 +1,9 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
