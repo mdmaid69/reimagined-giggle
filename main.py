@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_user_dict():
+        return collections.UserDict()
