@@ -1,5 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
