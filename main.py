@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
