@@ -1,5 +1,9 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def add_numbers(x, y):
-        return x + y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
