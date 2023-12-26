@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
