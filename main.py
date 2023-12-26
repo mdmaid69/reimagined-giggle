@@ -1,9 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
