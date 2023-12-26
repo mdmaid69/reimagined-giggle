@@ -1,10 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
