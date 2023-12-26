@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+print([x**2 for x in range(10)])
