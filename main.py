@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def cube_number(x):
+        return x**3
