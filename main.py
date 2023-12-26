@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
