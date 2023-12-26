@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
