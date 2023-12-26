@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def is_odd(n):
+        return n % 2 != 0
