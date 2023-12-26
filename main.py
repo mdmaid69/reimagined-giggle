@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
