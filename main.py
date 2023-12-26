@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_logarithm_base_e(x):
+        return math.log(x)
