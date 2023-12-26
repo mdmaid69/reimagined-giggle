@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def is_palindrome(s):
+        return s == s[::-1]
