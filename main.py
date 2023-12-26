@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
