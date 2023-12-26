@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
