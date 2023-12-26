@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_power(work, time):
+        return work / time
