@@ -1,7 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
