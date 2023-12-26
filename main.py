@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
