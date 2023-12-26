@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def convert_to_hex(n):
+        return hex(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
