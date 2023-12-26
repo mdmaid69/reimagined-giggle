@@ -1,6 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def is_odd(n):
+        return n % 2 != 0
