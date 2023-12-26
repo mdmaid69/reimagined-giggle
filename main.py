@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
