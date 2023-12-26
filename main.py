@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
