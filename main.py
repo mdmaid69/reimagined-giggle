@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
