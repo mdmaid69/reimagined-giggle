@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
