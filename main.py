@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
