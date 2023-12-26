@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
