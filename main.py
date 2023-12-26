@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def is_even(n):
+        return n % 2 == 0
