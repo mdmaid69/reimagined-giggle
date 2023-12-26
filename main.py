@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
