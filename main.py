@@ -1,6 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
