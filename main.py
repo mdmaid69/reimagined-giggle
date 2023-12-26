@@ -1,5 +1,9 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
