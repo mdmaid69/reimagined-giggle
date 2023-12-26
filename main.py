@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
