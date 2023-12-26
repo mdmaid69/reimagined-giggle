@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def reverse_array(array):
-        array.reverse()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
