@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
