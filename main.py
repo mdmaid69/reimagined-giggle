@@ -1,5 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import random
-print(random.randint(0, 100))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
