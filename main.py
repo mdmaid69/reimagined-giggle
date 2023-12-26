@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def square_number(x):
-        return x**2
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
