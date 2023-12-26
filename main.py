@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
