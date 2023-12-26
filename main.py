@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def count_words(sentence):
+        return len(sentence.split())
