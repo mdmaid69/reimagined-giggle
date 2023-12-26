@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
