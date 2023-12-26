@@ -1,5 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
