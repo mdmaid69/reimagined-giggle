@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
