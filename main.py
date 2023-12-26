@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
