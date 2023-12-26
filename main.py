@@ -1,7 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
