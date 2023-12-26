@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-print(math.pi)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
