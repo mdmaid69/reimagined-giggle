@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def count_characters(sentence):
+        return len(sentence)
