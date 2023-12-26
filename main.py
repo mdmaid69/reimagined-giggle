@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_unique_words(sentence):
+        return set(sentence.split())
