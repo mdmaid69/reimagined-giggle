@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
