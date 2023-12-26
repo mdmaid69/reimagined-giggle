@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
