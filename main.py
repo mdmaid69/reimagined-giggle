@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
