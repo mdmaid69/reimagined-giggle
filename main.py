@@ -1,6 +1,3 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+print(sum(range(10)))
