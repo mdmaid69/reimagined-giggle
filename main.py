@@ -1,6 +1,10 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_power(work, time):
+        return work / time
