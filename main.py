@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
