@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+print([x**2 for x in range(10)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
