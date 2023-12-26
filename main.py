@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
