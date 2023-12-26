@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
