@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_min(lst):
-        return min(lst)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
