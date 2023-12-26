@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import sys
-def print_python_version():
-        print(sys.version)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
