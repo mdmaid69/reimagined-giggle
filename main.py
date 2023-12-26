@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
