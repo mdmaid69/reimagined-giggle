@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
