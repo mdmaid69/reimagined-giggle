@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def subtract_numbers(x, y):
+        return x - y
 import heapq
 def get_largest_elements(iterable, n):
         return heapq.nlargest(n, iterable)
