@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
