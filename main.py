@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
