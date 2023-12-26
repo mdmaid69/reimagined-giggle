@@ -1,8 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
