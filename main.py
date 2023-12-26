@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
