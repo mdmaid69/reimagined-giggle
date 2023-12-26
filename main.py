@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_priority_queue():
+        return collections.deque()
