@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
