@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
