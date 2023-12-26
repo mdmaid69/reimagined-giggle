@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
