@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import sys
-  def get_python_version():
-        return sys.version
+def greet(name):
+        print(f"Hello, {name}!")
+  def multiply_numbers(x, y):
+        return x * y
