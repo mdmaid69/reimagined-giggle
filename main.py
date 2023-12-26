@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import collections
+def create_priority_queue():
+        return collections.deque()
