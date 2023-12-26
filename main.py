@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import sys
-def print_python_version():
-        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Characters:", len(text))
