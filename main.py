@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
