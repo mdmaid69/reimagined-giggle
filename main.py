@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
