@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_item(array, i):
+        return array[i]
