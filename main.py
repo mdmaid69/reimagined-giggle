@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+from collections import Counter
+print(Counter("hello world"))
