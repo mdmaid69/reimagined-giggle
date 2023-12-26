@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def convert_to_octal(n):
-        return oct(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
