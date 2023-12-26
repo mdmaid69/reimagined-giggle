@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
