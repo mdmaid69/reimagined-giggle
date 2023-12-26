@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
