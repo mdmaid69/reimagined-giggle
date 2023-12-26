@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
