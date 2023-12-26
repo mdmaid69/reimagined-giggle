@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def find_min(lst):
-        return min(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def calculate_area_circle(r):
+        return 3.14 * r**2
