@@ -1,5 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
