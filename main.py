@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
