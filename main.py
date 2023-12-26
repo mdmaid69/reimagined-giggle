@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_user_dict():
+        return collections.UserDict()
