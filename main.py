@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
