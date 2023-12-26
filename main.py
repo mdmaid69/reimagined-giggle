@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
