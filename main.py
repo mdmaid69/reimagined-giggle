@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
