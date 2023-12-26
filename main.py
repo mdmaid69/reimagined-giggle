@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_octal(n):
+        return oct(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
