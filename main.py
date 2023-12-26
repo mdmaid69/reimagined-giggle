@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
