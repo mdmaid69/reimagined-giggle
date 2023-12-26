@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
