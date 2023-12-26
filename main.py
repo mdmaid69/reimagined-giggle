@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import numpy as np
+print(np.array([1, 2, 3]))
