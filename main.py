@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
