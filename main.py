@@ -1,5 +1,11 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_item_count(array, item):
+        return array.count(item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
