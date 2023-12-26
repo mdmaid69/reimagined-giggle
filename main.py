@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
