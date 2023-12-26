@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_user_string():
+        return collections.UserString()
