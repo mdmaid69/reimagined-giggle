@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
