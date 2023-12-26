@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
