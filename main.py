@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
