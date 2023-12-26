@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
