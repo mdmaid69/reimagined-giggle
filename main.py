@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import sys
-def print_python_version():
-        return sys.version
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
