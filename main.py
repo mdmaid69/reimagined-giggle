@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_density(mass, volume):
+        return mass / volume
