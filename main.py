@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def cube_number(x):
-        return x**3
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
