@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
