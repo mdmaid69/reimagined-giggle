@@ -1,4 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-print("Hello, world!")
+  def convert_to_binary(n):
+        return bin(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
