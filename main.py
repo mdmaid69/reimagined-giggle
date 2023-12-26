@@ -1,5 +1,7 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import time
+def get_current_time():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
