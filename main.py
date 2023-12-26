@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import time
-def get_current_time():
-        return time.time()
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
