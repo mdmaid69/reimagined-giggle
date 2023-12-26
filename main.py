@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def get_time_since_epoch():
+        return time.time()
