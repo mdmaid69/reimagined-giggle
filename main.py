@@ -1,5 +1,7 @@
 import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_density(mass, volume):
-        return mass / volume
+print(datetime.datetime.now())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
