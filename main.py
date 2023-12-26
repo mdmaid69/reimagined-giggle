@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_as_list(array):
+        return list(array)
