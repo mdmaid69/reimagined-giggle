@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
