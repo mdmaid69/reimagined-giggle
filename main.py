@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def multiply_numbers(x, y):
-        return x * y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
