@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
