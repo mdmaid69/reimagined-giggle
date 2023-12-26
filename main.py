@@ -1,6 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
