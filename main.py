@@ -1,12 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
