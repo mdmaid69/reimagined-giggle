@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
