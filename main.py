@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_area_rectangle(l, w):
+        return l * w
