@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import time
+def get_current_time():
+        return time.ctime()
