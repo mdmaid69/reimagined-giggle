@@ -1,5 +1,8 @@
-def add_numbers(a, b):
-        return a + b
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
