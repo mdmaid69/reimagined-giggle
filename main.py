@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+import random
+print(random.randint(0, 100))
+import array
+def get_array_as_int(array):
+        return int(array[0])
