@@ -1,6 +1,8 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
