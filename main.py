@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_work(force, distance):
+        return force * distance
