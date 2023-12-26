@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def find_max(lst):
+        return max(lst)
