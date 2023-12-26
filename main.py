@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-print(math.pi)
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
