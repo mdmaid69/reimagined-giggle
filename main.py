@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_current_directory():
+        return os.getcwd()
