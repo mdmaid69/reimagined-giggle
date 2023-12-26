@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
