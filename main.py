@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_counter():
+        return collections.Counter()
+def cube_number(x):
+        return x**3
