@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
