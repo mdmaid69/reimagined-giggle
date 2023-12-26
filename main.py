@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_min(lst):
-        return min(lst)
+def reverse_string(s):
+        return s[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
