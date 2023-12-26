@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
