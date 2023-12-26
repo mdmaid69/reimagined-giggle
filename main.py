@@ -1,4 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-print([x**2 for x in range(10)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
