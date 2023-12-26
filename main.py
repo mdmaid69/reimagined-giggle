@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
