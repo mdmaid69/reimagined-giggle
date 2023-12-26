@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def count_words(sentence):
+        return len(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
