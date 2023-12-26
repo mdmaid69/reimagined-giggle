@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sys
+  def get_python_version():
+        return sys.version
