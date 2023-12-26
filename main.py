@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def subtract_numbers(x, y):
+        return x - y
+from collections import Counter
+print(Counter("hello world"))
