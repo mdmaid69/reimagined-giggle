@@ -1,8 +1,10 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
