@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
