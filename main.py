@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+print(sum(range(10)))
