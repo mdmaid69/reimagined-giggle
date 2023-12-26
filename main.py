@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
