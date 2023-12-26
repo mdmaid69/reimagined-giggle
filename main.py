@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
