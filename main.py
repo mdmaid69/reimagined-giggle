@@ -1,8 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_average(lst):
+        return sum(lst) / len(lst)
