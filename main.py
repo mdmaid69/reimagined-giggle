@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_volume(length, width, height):
+        return length * width * height
