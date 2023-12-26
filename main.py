@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_array_to_list(array):
+        return array.tolist()
+import re
+print(re.match("h.*o", "hello world"))
