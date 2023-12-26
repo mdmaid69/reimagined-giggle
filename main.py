@@ -1,9 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
