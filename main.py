@@ -1,6 +1,7 @@
+def convert_to_binary(n):
+        return bin(n)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
