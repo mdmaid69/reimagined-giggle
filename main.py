@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
