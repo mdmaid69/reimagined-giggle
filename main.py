@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
