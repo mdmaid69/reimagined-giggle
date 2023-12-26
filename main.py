@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
