@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
