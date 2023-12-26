@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
