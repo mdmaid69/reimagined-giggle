@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
