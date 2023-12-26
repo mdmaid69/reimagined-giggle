@@ -1,4 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-print([x**2 for x in range(10)])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+print("Hello, world!")
