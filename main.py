@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_user_string():
+        return collections.UserString()
