@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def split_path(path):
+        return os.path.split(path)
+def square_number(x):
+        return x**2
