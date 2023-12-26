@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
