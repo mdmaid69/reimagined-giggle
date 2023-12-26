@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
