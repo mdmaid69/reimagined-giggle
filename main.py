@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def cube_number(x):
+        return x**3
