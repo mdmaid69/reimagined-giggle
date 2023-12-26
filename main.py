@@ -1,4 +1,8 @@
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def convert_to_hex(n):
-        return hex(n)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
