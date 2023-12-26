@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import logging
+def log_message(message):
+        logging.info(message)
