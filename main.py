@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_min(numbers):
-        return min(numbers)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+print([x**2 for x in range(10)])
