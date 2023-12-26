@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_volume(length, width, height):
+        return length * width * height
