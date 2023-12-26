@@ -1,6 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
