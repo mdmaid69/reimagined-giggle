@@ -1,3 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print(sum(range(10)))
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_min(lst):
+        return min(lst)
