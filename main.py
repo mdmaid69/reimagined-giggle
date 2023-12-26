@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def convert_to_hex(n):
-        return hex(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
