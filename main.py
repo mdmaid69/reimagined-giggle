@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
