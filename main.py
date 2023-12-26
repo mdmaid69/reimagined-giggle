@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def clear_array(array):
+        array *= 0
