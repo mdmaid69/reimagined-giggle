@@ -1,5 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
