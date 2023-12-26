@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
