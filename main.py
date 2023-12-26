@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
