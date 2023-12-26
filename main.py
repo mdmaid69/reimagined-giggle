@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
