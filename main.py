@@ -1,6 +1,10 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
