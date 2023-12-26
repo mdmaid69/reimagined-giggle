@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import sys
-def exit_program():
-        sys.exit()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_min(lst):
+        return min(lst)
