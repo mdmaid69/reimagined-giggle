@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_power(work, time):
-        return work / time
+import logging
+def log_message(message):
+        logging.info(message)
+for i in range(5):
+        print(i)
