@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
