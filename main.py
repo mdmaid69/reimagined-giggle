@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import time
-def get_time_since_epoch():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
