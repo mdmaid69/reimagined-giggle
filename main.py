@@ -1,8 +1,8 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
+with open("some.csv", "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
