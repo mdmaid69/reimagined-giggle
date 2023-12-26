@@ -1,6 +1,7 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def get_list_from_array(array):
+        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
