@@ -1,8 +1,12 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
