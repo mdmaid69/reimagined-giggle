@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
