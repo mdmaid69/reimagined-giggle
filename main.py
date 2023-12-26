@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
