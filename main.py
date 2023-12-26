@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import sys
-  def get_python_version():
-        return sys.version
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
