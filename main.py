@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
