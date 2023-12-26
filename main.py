@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
