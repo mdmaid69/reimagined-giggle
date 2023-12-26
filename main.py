@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def find_unique_words(sentence):
+        return set(sentence.split())
