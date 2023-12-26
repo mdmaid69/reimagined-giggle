@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
