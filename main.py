@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def print_python_version():
+        print(sys.version)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
