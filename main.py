@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_tangent(x):
+        return math.tan(x)
