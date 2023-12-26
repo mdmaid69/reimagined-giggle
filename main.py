@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
