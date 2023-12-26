@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def exit_program():
-        sys.exit()
+import platform
+def get_os_info():
+        return platform.uname()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
