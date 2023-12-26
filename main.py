@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
