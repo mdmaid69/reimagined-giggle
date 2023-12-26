@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
