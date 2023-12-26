@@ -1,5 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_min(lst):
-        return min(lst)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
