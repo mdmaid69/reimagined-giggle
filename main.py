@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
