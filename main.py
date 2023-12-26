@@ -1,7 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import os
+print(os.getcwd())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
