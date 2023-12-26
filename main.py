@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
