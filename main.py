@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
