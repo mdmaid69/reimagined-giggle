@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
