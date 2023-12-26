@@ -1,5 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
