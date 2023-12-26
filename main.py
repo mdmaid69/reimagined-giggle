@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
