@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_gamma_function(x):
+        return math.gamma(x)
