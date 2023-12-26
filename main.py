@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
