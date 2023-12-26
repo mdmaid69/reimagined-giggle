@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
