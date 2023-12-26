@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
