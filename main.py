@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
