@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
