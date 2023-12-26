@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
