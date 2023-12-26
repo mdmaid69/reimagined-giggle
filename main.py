@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
