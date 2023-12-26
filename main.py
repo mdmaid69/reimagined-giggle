@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
