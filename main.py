@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
