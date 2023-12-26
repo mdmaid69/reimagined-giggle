@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
