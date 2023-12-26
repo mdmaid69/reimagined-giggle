@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
