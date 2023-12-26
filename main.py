@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_min(lst):
+        return min(lst)
