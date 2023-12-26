@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
