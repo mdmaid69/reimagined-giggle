@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import platform
+def get_python_version():
+        return platform.python_version()
