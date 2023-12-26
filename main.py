@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_work(force, distance):
+        return force * distance
