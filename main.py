@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
