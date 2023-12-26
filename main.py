@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import getpass
+def get_username():
+        return getpass.getuser()
