@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
