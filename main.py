@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def cube_number(x):
+        return x**3
