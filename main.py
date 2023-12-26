@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_min(lst):
+        return min(lst)
