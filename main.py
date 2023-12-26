@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
