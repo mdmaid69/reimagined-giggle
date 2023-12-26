@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
