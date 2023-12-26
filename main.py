@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
