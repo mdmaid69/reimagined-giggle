@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_sine(x):
+        return math.sin(x)
