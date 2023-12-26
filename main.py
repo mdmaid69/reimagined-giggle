@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_mean(arr):
+        return np.mean(arr)
