@@ -1,6 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
