@@ -1,6 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
