@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
