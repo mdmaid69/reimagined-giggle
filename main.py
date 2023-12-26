@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def convert_to_binary(n):
-        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def square_number(x):
+        return x**2
