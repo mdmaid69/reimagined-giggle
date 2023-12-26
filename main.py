@@ -1,5 +1,9 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
