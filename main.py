@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
