@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
