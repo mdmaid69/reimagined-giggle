@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+for i in range(5):
+        print(i)
