@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
