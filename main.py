@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import collections
+def create_stack():
+        return collections.deque()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
