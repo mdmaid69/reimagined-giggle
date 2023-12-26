@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
