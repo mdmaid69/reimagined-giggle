@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
