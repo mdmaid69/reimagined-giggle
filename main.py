@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def find_min(numbers):
+        return min(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
