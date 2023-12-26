@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
