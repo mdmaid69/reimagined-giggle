@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_stack():
+        return collections.deque()
