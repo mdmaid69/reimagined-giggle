@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
