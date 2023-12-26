@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
