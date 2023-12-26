@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_queue():
+        return collections.deque()
