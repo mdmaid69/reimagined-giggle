@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
