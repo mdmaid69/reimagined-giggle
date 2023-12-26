@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
