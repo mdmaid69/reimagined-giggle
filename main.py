@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
