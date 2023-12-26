@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import tensorflow as tf
+print(tf.__version__)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
