@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
