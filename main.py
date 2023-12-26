@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
