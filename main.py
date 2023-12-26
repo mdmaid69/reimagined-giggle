@@ -1,6 +1,12 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
