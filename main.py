@@ -1,6 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
