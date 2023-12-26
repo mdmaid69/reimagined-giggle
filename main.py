@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+print(os.getcwd())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
