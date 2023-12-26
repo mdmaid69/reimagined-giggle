@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def is_odd(n):
-        return n % 2 != 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
