@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+def print_python_version():
+        return sys.version
