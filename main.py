@@ -1,5 +1,5 @@
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
-def reverse_string(s):
-        return s[::-1]
+def count_elements(lst):
+        return len(lst)
