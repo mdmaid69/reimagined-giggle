@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
