@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def roll_die():
+        return random.randint(1, 6)
