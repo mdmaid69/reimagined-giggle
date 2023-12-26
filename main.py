@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
