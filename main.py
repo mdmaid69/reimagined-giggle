@@ -1,7 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import array
+def clear_array(array):
+        array *= 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
