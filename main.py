@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_volume(length, width, height):
+        return length * width * height
