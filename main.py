@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
