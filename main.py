@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def is_palindrome(s):
+        return s == s[::-1]
