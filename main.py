@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
