@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def convert_to_octal(n):
+        return oct(n)
