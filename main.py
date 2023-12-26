@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def find_max(numbers):
-        return max(numbers)
+def greet(name):
+        print(f"Hello, {name}!")
+x = 10
+y = 20
+print("Sum:", x + y)
