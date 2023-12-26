@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
