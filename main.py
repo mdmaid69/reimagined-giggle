@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
