@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
