@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
