@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
