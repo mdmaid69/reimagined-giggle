@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_acceleration(speed, time):
-        return speed / time
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
