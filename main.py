@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_user_string():
-        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
