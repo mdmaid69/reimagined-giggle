@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def convert_to_octal(n):
-        return oct(n)
+def get_array_as_bool(array):
+        return bool(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
