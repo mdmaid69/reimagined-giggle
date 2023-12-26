@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_current_time():
-        return time.time()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
