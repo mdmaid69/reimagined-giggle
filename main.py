@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def greet(name):
+        print(f"Hello, {name}!")
