@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
