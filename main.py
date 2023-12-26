@@ -1,8 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def count_characters(sentence):
+        return len(sentence)
+  def reverse_list(lst):
+        return lst[::-1]
