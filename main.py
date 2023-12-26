@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def subtract_numbers(x, y):
+        return x - y
