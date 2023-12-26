@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+def convert_to_binary(n):
+        return bin(n)
