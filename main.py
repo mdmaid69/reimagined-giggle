@@ -1,6 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
