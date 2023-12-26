@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
