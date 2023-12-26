@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
