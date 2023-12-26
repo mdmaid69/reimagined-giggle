@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
