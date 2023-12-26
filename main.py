@@ -1,6 +1,9 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def reverse_list(lst):
+        return lst[::-1]
