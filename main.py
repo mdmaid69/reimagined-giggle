@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
