@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
