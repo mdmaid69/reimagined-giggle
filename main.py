@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
