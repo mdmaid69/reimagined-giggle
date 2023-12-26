@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Reversed:", text[::-1])
