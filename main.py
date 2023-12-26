@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
