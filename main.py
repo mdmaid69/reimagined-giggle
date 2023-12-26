@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
