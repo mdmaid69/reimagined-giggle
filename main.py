@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
