@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
