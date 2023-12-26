@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
