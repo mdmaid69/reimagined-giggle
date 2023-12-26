@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def is_odd(n):
+        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
