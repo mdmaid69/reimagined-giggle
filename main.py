@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def count_elements(lst):
-        return len(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_characters(sentence):
+        return len(sentence)
