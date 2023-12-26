@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def reverse_string(s):
-        return s[::-1]
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_user_dict():
+        return collections.UserDict()
