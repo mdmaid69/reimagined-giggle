@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def find_unique_words(sentence):
-        return set(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import logging
+def log_message(message):
+        logging.info(message)
