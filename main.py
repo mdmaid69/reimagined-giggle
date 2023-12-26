@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_speed(distance, time):
-        return distance / time
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
