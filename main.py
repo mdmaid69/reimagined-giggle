@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
