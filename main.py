@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def split_path(path):
+        return os.path.split(path)
