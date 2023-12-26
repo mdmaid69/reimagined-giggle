@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
