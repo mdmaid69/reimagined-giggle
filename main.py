@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
