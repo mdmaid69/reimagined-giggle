@@ -1,5 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_list(array):
+        return list(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
