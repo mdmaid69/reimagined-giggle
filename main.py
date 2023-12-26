@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
