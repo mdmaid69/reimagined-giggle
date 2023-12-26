@@ -1,6 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
