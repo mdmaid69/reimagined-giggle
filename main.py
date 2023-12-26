@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
