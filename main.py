@@ -1,10 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
