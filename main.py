@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def clear_array(array):
+        array *= 0
