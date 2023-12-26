@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
