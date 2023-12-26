@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
