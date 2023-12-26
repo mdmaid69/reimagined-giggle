@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
