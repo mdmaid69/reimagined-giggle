@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
