@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def convert_to_octal(n):
+        return oct(n)
