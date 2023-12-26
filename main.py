@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def convert_to_hex(n):
+        return hex(n)
