@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
