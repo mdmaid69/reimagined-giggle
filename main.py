@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
