@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
