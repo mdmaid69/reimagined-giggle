@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_typecode(array):
+        return array.typecode
