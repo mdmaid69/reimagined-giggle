@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
