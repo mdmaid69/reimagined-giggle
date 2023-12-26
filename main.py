@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import os
+print(os.getcwd())
