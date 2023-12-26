@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def check_if_array_contains_item(array, item):
+        return item in array
