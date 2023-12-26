@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_length(array):
+        return len(array)
+  def convert_to_binary(n):
+        return bin(n)
