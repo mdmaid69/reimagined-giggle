@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
