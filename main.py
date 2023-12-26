@@ -1,5 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
