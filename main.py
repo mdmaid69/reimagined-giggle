@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_floor(x):
+        return math.floor(x)
