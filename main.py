@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
