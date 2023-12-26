@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import tensorflow as tf
+print(tf.__version__)
