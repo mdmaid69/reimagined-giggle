@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
