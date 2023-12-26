@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
