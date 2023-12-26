@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
