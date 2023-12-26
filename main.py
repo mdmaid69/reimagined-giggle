@@ -1,5 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
