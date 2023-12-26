@@ -1,8 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_user_string():
+        return collections.UserString()
