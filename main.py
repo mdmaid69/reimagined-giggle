@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
