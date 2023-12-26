@@ -1,7 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
