@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_density(mass, volume):
+        return mass / volume
