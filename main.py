@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
