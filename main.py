@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
