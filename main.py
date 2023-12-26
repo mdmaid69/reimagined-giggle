@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def convert_to_binary(n):
+        return bin(n)
