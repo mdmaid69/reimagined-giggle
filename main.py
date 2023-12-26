@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
