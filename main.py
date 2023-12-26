@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
