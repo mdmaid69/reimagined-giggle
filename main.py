@@ -1,7 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
