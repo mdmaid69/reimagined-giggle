@@ -1,11 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import datetime
+def get_current_date():
+        return datetime.date.today()
