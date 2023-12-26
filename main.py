@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
