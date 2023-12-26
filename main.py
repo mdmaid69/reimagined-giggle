@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
