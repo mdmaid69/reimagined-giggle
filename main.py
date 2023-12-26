@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
