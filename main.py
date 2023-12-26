@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def count_characters(sentence):
+        return len(sentence)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
