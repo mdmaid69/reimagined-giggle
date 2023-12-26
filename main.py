@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
