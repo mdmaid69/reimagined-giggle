@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def sort_list(lst):
+        return sorted(lst)
+def is_even(n):
+        return n % 2 == 0
