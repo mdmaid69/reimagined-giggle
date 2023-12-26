@@ -1,7 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_set(array):
+        return set(array)
