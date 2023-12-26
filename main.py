@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
