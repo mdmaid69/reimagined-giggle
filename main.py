@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_acceleration(speed, time):
+        return speed / time
