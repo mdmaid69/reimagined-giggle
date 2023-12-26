@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
