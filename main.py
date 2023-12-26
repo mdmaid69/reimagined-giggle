@@ -1,5 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def check_if_array_contains_item(array, item):
+        return item in array
