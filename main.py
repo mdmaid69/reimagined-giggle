@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
