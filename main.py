@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
