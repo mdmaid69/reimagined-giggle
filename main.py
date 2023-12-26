@@ -1,4 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-print(sum(range(10)))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_octal(n):
+        return oct(n)
