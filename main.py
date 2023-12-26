@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
