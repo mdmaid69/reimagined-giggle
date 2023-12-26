@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
