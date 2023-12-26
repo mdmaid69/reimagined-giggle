@@ -1,4 +1,5 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 sentence = "Hello, world!"
 print("Unique words:", len(set(sentence.split())))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
