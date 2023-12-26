@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
