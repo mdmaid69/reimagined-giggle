@@ -1,8 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
