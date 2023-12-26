@@ -1,9 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_area(radius):
+        return 3.14 * radius * radius
