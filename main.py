@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_as_list(array):
+        return list(array)
