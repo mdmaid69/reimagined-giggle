@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
