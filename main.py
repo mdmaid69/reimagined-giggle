@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
