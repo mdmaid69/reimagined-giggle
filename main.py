@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
