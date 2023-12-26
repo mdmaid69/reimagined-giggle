@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
