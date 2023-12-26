@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
