@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
