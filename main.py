@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
