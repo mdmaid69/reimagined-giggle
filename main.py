@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
