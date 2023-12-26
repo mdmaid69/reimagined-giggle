@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
