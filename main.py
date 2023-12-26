@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
