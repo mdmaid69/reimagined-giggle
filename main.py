@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
