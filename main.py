@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
