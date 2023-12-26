@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_bool(array):
+        return bool(array)
