@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_acceleration(speed, time):
+        return speed / time
