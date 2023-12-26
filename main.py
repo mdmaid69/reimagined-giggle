@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
