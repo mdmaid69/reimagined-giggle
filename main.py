@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
