@@ -1,8 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
