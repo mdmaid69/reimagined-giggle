@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
