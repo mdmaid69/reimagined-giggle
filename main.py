@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
