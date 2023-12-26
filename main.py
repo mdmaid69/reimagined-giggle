@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
