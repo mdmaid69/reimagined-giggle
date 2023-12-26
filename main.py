@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
