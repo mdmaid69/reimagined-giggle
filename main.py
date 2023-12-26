@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_exponential(x):
+        return math.exp(x)
+  def convert_to_hex(n):
+        return hex(n)
