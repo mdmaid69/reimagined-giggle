@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def is_odd(n):
+        return n % 2 != 0
