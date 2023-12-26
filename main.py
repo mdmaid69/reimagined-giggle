@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import collections
+def create_counter():
+        return collections.Counter()
