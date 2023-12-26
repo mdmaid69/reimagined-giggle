@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+for i in range(10): print(i)
