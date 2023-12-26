@@ -1,8 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
