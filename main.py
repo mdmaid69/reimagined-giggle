@@ -1,6 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def reverse_array(array):
+        array.reverse()
+  def calculate_area_rectangle(l, w):
+        return l * w
