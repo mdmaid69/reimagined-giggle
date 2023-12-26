@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
