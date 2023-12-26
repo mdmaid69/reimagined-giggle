@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_repr(array):
+        return repr(array)
