@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
