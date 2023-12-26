@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
