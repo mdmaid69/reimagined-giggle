@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
