@@ -1,7 +1,7 @@
-import datetime
-print(datetime.datetime.now())
+import time
+def get_current_time():
+        return time.ctime()
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
