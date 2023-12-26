@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_floor(x):
+        return math.floor(x)
