@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
