@@ -1,7 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
