@@ -1,7 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
