@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_floor(x):
+        return math.floor(x)
