@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
