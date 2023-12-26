@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
