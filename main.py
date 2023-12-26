@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
