@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
