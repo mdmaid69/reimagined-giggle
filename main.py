@@ -1,6 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_power(work, time):
+        return work / time
