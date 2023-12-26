@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
