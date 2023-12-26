@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_min(lst):
+        return min(lst)
