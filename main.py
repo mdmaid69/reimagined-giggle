@@ -1,7 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def is_odd(n):
+        return n % 2 != 0
+  def count_elements(lst):
+        return len(lst)
