@@ -1,6 +1,7 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
