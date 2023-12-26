@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
