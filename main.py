@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
