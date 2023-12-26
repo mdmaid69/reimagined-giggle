@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
