@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
