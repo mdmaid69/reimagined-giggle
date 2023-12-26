@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_pressure(force, area):
-        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
