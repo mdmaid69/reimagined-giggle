@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
