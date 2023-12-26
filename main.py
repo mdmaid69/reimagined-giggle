@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_max(numbers):
+        return max(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
