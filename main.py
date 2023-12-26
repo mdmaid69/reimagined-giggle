@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
