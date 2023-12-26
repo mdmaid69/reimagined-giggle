@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def pop_from_array(array, i=-1):
+        return array.pop(i)
