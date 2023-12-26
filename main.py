@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def square_number(x):
-        return x**2
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
