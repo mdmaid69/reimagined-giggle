@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def multiply_numbers(x, y):
+        return x * y
