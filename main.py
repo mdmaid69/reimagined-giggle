@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
