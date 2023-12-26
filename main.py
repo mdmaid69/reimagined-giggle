@@ -1,5 +1,7 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def extend_array(array, iterable):
+        array.extend(iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
