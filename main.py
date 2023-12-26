@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
