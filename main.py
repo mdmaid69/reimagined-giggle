@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
