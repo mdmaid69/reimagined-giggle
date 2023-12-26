@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
