@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def cube_number(x):
-        return x**3
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import time
+def get_current_time():
+        return time.time()
