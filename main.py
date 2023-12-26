@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def convert_to_binary(n):
+        return bin(n)
+import random
+print(random.randint(0, 100))
