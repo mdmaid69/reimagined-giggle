@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import sys
+  def get_python_version():
+        return sys.version
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
