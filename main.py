@@ -1,8 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
