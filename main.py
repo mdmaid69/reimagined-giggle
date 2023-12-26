@@ -1,12 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
