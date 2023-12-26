@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_acceleration(speed, time):
+        return speed / time
