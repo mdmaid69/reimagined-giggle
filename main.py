@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
