@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
