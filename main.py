@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
