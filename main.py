@@ -1,5 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import platform
+def get_python_version():
+        return platform.python_version()
