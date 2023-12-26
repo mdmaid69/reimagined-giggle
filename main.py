@@ -1,6 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
