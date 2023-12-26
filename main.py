@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def count_words(sentence):
+        return len(sentence.split())
