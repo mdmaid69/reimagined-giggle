@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
