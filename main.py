@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  def reverse_list(lst):
-        return lst[::-1]
+for i in range(10): print(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
