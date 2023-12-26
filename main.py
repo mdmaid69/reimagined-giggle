@@ -1,6 +1,10 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
