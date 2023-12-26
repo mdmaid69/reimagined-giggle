@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
