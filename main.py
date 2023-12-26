@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
