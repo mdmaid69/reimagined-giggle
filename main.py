@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def find_max(numbers):
+        return max(numbers)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_current_working_directory():
+        return os.getcwd()
