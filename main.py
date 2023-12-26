@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
