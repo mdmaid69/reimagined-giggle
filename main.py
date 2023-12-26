@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def greet(name):
-        print(f"Hello, {name}!")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
