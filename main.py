@@ -1,7 +1,11 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_to_hex(n):
+        return hex(n)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
