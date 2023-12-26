@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def cube_number(x):
+        return x**3
