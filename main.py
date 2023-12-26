@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
