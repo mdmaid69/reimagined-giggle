@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def square_number(x):
+        return x**2
