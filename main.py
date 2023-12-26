@@ -1,4 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-for i in range(10): print(i)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_current_working_directory():
+        return os.getcwd()
