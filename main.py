@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
