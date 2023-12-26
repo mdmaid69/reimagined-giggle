@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def set_array_item(array, i, item):
+        array[i] = item
