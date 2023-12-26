@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_repr(array):
+        return repr(array)
