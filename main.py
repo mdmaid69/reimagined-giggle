@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
