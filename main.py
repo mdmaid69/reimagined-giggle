@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_speed(distance, time):
+        return distance / time
