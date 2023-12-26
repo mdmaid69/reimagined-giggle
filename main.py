@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
