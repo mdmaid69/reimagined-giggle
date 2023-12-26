@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
