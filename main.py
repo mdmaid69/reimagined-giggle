@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import getpass
-def get_username():
-        return getpass.getuser()
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
