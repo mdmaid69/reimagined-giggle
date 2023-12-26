@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def greet(name):
+        print(f"Hello, {name}!")
