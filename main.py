@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
