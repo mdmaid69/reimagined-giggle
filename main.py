@@ -1,6 +1,11 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
