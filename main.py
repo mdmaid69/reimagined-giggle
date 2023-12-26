@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def convert_to_hex(n):
+        return hex(n)
