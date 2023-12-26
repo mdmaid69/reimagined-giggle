@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
