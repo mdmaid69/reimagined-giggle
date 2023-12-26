@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def square_number(x):
-        return x**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
