@@ -1,7 +1,5 @@
+for i in range(5):
+        print(i)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_error_function(x):
+        return math.erf(x)
