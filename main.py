@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
