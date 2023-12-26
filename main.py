@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
