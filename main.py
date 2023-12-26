@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
