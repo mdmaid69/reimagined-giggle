@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
