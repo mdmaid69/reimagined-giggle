@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-for i in range(5):
-        print(i)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
