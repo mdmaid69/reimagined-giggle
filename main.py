@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
