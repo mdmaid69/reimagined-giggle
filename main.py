@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
