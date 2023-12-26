@@ -1,6 +1,7 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
