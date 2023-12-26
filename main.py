@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_user_list():
+        return collections.UserList()
