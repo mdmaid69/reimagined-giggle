@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
