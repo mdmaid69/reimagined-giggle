@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import tensorflow as tf
+print(tf.__version__)
+  def count_elements(lst):
+        return len(lst)
