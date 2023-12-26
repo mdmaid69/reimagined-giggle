@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
