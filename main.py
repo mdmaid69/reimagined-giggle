@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
