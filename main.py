@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-from collections import Counter
-print(Counter("hello world"))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
