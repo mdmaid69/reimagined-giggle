@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
