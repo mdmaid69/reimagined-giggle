@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def multiply_numbers(x, y):
-        return x * y
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
