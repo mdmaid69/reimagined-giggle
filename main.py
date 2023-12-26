@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
