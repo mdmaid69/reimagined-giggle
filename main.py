@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
