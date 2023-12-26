@@ -1,9 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
