@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def add_numbers(x, y):
+        return x + y
