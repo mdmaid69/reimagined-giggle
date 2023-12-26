@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
