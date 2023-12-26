@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
