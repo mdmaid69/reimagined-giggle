@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
