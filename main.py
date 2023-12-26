@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_circle(r):
+        return 3.14 * r**2
