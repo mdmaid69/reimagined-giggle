@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
