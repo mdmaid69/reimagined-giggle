@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_int(array):
+        return int(array[0])
