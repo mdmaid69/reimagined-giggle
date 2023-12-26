@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_list(array):
+        return list(array)
