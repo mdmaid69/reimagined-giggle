@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
