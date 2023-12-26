@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def subtract_numbers(x, y):
+        return x - y
+def cube_number(x):
+        return x**3
