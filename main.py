@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
