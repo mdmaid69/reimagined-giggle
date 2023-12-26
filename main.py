@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
