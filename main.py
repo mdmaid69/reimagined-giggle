@@ -1,8 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_str(array):
+        return str(array)
