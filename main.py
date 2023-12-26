@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
