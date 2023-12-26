@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
