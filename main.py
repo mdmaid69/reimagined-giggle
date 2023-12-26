@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_speed(distance, time):
-        return distance / time
+def is_odd(n):
+        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
