@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
