@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def subtract_numbers(x, y):
-        return x - y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
