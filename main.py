@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
