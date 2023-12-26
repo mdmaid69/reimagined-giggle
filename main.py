@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import getpass
-def get_username():
-        return getpass.getuser()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
