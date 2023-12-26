@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
