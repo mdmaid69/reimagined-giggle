@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
