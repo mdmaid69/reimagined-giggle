@@ -1,4 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-for i in range(10): print(i)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
