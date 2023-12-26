@@ -1,7 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_int(array):
+        return int(array[0])
+def find_min(lst):
+        return min(lst)
