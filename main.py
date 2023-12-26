@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
