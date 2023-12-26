@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def count_words(sentence):
+        return len(sentence.split())
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
