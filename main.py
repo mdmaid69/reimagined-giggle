@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
