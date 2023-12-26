@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
