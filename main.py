@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
