@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
