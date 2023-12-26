@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_as_set(array):
+        return set(array)
