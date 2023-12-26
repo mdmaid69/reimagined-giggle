@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
