@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-print(sys.version)
+import array
+def get_array_as_str(array):
+        return str(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
