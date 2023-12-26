@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
