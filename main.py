@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def is_even(n):
-        return n % 2 == 0
+  def convert_to_binary(n):
+        return bin(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
