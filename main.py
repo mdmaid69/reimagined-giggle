@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
