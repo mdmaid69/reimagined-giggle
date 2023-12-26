@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
