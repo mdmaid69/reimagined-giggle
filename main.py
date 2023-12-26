@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_force(mass, acceleration):
+        return mass * acceleration
