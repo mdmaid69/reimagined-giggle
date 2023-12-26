@@ -1,8 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
