@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def append_to_array(array, item):
+        array.append(item)
