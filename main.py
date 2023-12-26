@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-name = "Python"
-print("Hello,", name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
