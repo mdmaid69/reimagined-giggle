@@ -1,5 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-def sort_numbers(numbers):
-        return sorted(numbers)
+def create_priority_queue():
+        return collections.deque()
