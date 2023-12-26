@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
