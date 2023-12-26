@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
