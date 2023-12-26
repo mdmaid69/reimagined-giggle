@@ -1,11 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
