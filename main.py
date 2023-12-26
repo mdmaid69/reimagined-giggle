@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
