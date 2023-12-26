@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
