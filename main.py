@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
