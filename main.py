@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
