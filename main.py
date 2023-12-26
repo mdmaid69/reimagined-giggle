@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
