@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
