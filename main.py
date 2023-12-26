@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def is_even(n):
+        return n % 2 == 0
