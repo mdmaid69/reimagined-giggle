@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def subtract_numbers(x, y):
+        return x - y
