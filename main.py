@@ -1,4 +1,8 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-print([x**2 for x in range(10)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
