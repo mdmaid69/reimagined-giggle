@@ -1,4 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-for i in range(10): print(i)
+def find_max(numbers):
+        return max(numbers)
+import time
+def get_time_since_epoch():
+        return time.time()
