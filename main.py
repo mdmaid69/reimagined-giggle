@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
