@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
