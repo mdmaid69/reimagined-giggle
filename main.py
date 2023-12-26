@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def clear_array(array):
-        array *= 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
