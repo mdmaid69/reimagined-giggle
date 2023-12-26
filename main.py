@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_power(work, time):
-        return work / time
+import os
+print(os.getcwd())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
