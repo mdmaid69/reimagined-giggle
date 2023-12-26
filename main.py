@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
