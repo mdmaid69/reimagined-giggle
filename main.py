@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_set(array):
+        return set(array)
