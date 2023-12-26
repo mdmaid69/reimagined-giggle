@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
