@@ -1,5 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import tensorflow as tf
-print(tf.__version__)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
