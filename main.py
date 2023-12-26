@@ -1,7 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
