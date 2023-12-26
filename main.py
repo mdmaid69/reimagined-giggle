@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
