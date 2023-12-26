@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
