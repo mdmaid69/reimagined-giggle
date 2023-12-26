@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
