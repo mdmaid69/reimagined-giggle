@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
