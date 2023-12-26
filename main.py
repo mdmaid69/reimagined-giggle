@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
