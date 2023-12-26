@@ -1,6 +1,12 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
