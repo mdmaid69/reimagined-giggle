@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
