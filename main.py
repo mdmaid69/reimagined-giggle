@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def is_even(n):
+        return n % 2 == 0
