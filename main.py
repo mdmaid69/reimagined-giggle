@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
