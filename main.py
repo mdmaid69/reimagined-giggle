@@ -1,5 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+def extend_array(array, iterable):
+        array.extend(iterable)
