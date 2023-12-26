@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def find_max(lst):
+        return max(lst)
