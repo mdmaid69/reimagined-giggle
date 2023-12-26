@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def add_numbers(x, y):
+        return x + y
