@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def subtract_numbers(x, y):
-        return x - y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
