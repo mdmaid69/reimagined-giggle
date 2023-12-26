@@ -1,8 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
