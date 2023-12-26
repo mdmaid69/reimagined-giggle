@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def append_to_array(array, item):
+        array.append(item)
