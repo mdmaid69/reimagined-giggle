@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def count_words(sentence):
-        return len(sentence.split())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
