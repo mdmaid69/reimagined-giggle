@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def reverse_string(s):
-        return s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def convert_to_hex(n):
+        return hex(n)
