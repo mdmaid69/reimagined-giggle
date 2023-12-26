@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
