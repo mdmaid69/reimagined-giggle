@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_work(force, distance):
+        return force * distance
