@@ -1,12 +1,7 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
