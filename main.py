@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+x = 10
+y = 20
+print("Sum:", x + y)
