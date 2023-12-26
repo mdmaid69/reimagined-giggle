@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def find_max(numbers):
+        return max(numbers)
+import sys
+def exit_program():
+        sys.exit()
