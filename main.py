@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import platform
+def get_os_info():
+        return platform.uname()
