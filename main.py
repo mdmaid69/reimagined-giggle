@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import numpy as np
-print(np.array([1, 2, 3]))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
