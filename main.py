@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
