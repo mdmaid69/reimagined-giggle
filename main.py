@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
