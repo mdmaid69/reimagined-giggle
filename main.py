@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   def calculate_area_rectangle(l, w):
         return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
