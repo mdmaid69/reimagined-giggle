@@ -1,4 +1,9 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def cube_number(x):
-        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
