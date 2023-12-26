@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
