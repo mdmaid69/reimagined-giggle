@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
