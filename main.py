@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
