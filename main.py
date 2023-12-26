@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def sort_list(lst):
+        return sorted(lst)
