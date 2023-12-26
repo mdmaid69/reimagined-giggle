@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item_count(array, item):
+        return array.count(item)
