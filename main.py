@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
