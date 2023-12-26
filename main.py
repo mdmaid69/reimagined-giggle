@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def roll_die():
+        return random.randint(1, 6)
