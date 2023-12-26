@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def multiply_numbers(x, y):
+        return x * y
+  import sys
+  def get_python_version():
+        return sys.version
