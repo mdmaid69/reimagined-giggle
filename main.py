@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
