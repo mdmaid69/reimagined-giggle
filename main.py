@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import time
+def get_time_since_epoch():
+        return time.time()
