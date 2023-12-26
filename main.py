@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
