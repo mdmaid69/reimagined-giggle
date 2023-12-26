@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
