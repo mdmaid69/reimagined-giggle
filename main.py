@@ -1,8 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
