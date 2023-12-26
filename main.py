@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
