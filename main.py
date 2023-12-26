@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def cube_number(x):
+        return x**3
