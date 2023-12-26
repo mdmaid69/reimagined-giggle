@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def print_python_version():
+        return sys.version
