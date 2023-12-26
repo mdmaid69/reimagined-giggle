@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
