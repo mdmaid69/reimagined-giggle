@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
