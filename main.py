@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
