@@ -1,8 +1,3 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print([x**2 for x in range(10)])
