@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
