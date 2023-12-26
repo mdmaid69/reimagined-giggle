@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_density(mass, volume):
+        return mass / volume
