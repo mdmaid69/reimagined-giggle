@@ -1,10 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
