@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def check_if_array_contains_item(array, item):
+        return item in array
