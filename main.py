@@ -1,4 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
