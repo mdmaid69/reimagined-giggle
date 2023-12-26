@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
