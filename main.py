@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_arc_cosine(x):
+        return math.acos(x)
