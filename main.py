@@ -1,13 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
