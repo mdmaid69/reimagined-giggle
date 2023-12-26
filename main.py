@@ -1,6 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
