@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
