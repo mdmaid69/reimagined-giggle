@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
