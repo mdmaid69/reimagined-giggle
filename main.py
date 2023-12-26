@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
