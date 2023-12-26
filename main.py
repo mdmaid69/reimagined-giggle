@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_power(work, time):
-        return work / time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
