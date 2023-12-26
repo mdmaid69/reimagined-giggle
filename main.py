@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
