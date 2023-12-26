@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
