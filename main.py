@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
