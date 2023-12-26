@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
