@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
