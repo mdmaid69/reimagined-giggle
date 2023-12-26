@@ -1,7 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
