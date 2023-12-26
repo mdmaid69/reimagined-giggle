@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
