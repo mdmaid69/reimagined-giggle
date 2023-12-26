@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
