@@ -1,5 +1,12 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.time()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
