@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_bytes_from_array(array):
+        return array.tobytes()
