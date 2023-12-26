@@ -1,8 +1,8 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
