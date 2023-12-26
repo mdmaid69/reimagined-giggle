@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
