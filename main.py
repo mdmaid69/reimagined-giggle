@@ -1,6 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
