@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
+text = "Hello, world!"
+print("Reversed:", text[::-1])
