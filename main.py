@@ -1,5 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
