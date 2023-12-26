@@ -1,11 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
