@@ -1,4 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(x, y):
+        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
