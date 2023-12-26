@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
