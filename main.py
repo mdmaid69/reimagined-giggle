@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
