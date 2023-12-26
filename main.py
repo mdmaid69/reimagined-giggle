@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import sys
-def print_python_version():
-        print(sys.version)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
