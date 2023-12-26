@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
