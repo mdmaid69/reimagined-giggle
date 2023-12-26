@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import time
-def get_current_time():
-        return time.time()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
