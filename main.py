@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import os
-def remove_directory(path):
-        os.rmdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
