@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
