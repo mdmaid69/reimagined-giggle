@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def cube_number(x):
+        return x**3
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
