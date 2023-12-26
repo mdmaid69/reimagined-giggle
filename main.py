@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
