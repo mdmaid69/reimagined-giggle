@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
