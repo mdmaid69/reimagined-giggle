@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
