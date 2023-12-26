@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def square_number(x):
+        return x**2
