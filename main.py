@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
