@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import datetime
+print(datetime.datetime.now())
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
