@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def add_numbers(x, y):
+        return x + y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
