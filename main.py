@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
