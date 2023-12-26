@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
