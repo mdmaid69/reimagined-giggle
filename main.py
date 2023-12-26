@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
