@@ -1,6 +1,5 @@
-print("Hello, world!")
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
