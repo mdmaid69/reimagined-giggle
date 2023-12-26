@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
