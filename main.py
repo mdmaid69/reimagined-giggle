@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
