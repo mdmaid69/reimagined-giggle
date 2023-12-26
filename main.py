@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
