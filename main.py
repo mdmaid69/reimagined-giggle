@@ -1,7 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
