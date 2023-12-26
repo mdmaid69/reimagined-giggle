@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_min(lst):
+        return min(lst)
