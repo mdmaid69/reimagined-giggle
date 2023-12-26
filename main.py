@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def square_number(x):
+        return x**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
