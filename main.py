@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def square_number(x):
-        return x**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def is_even(n):
+        return n % 2 == 0
