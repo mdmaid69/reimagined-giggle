@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
