@@ -1,5 +1,12 @@
-import array
-def clear_array(array):
-        array *= 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
