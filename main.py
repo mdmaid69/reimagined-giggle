@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
