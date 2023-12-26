@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_item(array, i):
-        return array[i]
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
