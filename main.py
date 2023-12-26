@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def count_characters(sentence):
-        return len(sentence)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
