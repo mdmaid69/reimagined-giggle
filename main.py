@@ -1,12 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
