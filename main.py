@@ -1,5 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
