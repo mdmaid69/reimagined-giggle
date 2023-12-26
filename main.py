@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
