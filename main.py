@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
