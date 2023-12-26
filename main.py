@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
