@@ -1,8 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
