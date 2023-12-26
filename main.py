@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_error_function(x):
+        return math.erf(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
