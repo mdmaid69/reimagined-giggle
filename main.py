@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import sys
+def exit_program():
+        sys.exit()
