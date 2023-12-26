@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def multiply_numbers(x, y):
+        return x * y
