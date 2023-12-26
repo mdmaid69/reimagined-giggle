@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
