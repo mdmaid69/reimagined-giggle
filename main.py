@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_bytes(array):
+        return bytes(array)
