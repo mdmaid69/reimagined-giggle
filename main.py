@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
