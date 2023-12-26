@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def clear_array(array):
+        array *= 0
