@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
