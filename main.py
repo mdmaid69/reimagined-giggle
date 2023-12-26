@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
