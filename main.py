@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
