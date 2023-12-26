@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
