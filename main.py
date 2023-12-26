@@ -1,9 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
