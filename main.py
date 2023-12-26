@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
