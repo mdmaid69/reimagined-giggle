@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
