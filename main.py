@@ -1,6 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
