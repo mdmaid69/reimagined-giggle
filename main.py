@@ -1,6 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
