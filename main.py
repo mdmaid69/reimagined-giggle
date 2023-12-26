@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
