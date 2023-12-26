@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
