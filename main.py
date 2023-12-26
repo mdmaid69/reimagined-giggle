@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
