@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
