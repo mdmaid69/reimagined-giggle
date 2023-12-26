@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
