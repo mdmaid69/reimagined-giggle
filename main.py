@@ -1,5 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import random
-print(random.randint(0, 100))
+def calculate_work(force, distance):
+        return force * distance
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
