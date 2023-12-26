@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
