@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
