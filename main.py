@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
