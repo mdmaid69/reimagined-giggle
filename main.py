@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
