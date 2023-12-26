@@ -1,7 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
