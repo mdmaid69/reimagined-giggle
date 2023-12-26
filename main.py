@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
