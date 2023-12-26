@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
