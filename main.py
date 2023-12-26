@@ -1,7 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_list(array):
-        return list(array)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
