@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_current_directory():
+        return os.getcwd()
