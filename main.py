@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_user_string():
+        return collections.UserString()
