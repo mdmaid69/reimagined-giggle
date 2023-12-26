@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def cube_number(x):
+        return x**3
