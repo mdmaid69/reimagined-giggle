@@ -1,11 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
