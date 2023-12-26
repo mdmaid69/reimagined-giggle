@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_array_as_str(array):
+        return str(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
