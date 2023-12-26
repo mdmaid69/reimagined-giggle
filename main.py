@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
