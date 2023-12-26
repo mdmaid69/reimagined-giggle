@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
