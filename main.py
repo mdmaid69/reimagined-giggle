@@ -1,7 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
