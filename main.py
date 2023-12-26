@@ -1,10 +1,5 @@
 import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
