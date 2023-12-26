@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
