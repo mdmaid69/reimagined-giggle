@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
