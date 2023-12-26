@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
