@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
