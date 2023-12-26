@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
