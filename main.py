@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
