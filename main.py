@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
