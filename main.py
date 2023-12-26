@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def is_even(n):
-        return n % 2 == 0
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
