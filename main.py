@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def is_odd(n):
-        return n % 2 != 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
