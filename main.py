@@ -1,5 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_area_rectangle(l, w):
-        return l * w
+  def is_even(n):
+        return n % 2 == 0
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
