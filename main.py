@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
