@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def convert_to_binary(n):
+        return bin(n)
