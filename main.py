@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
