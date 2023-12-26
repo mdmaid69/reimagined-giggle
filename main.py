@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
