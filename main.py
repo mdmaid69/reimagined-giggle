@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
