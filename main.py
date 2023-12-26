@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
