@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
