@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
