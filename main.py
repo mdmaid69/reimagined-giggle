@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
