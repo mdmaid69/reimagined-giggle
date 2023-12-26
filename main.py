@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_length(array):
+        return len(array)
