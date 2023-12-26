@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
