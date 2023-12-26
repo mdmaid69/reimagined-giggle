@@ -1,7 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def add_numbers(x, y):
+        return x + y
