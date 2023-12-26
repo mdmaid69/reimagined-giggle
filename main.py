@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_binary(n):
+        return bin(n)
