@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
