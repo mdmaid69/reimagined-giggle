@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
