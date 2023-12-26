@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def reverse_array(array):
+        array.reverse()
+text = "Hello, world!"
+print("Characters:", len(text))
