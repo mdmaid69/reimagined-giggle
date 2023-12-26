@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
