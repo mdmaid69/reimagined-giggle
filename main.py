@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import sys
+def print_python_version():
+        print(sys.version)
