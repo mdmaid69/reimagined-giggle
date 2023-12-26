@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
