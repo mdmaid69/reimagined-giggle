@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
