@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
