@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_pressure(force, area):
+        return force / area
