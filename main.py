@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
