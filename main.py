@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
