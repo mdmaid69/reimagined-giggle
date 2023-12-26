@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
