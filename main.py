@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def multiply_numbers(x, y):
-        return x * y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
