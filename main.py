@@ -1,8 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
