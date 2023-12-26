@@ -1,5 +1,8 @@
-import sys
-print(sys.version)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_pressure(force, area):
+        return force / area
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
