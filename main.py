@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
