@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
