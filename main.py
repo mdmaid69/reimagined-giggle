@@ -1,8 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
