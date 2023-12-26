@@ -1,9 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
