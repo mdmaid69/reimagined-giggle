@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
