@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
