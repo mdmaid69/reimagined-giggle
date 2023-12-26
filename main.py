@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
