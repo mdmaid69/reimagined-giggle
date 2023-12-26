@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
