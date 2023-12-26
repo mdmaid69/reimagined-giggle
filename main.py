@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
