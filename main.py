@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-from collections import Counter
-print(Counter("hello world"))
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
