@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
