@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+name = "Python"
+print("Hello,", name)
