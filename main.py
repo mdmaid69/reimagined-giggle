@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
