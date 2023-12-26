@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
