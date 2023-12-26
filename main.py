@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
