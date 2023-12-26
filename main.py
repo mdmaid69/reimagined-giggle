@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_volume(length, width, height):
+        return length * width * height
