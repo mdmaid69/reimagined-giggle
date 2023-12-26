@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
