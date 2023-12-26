@@ -1,5 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
