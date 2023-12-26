@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_work(force, distance):
+        return force * distance
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
