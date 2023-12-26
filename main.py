@@ -1,6 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
