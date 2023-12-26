@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
