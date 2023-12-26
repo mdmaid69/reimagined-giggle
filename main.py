@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
