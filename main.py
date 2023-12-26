@@ -1,8 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
