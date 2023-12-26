@@ -1,5 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
