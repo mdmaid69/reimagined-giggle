@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
