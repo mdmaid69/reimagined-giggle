@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
