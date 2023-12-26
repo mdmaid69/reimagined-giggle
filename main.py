@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def divide_numbers(x, y):
-        return x / y
+def square_number(x):
+        return x**2
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
