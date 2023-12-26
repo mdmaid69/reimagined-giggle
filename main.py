@@ -1,6 +1,10 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
