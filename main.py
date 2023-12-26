@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+x = 10
+y = 20
+print("Sum:", x + y)
