@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
