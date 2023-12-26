@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
