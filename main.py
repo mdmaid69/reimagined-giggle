@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
