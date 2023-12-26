@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def divide_numbers(x, y):
+        return x / y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
