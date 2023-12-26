@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
