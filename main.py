@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
