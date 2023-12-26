@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+import platform
+def get_python_version():
+        return platform.python_version()
