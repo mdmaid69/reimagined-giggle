@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_pressure(force, area):
-        return force / area
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
