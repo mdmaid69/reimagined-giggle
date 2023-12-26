@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
