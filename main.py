@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
