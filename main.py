@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
