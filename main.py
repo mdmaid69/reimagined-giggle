@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
+import sys
+print(sys.version)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
