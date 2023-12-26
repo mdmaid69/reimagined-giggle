@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
