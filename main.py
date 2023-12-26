@@ -1,7 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
