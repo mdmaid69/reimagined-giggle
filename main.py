@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
