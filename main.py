@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def convert_to_hex(n):
+        return hex(n)
