@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def clear_array(array):
-        array *= 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
