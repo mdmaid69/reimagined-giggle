@@ -1,6 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
