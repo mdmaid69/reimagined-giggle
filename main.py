@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
+import numpy as np
+print(np.array([1, 2, 3]))
