@@ -1,6 +1,9 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
