@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
