@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
