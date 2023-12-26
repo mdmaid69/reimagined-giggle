@@ -1,12 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
