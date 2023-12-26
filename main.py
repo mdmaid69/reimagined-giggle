@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
