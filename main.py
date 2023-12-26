@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def cube_number(x):
+        return x**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
