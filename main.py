@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_stack():
-        return collections.deque()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
