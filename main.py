@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
