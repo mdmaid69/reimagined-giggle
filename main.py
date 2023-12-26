@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_sine(x):
+        return math.sin(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
