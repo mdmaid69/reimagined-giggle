@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
