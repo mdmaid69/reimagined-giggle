@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
