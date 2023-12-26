@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
