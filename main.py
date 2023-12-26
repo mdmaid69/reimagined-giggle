@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+def exit_program():
+        sys.exit()
