@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
