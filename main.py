@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
