@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
