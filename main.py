@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import sys
+def exit_program():
+        sys.exit()
