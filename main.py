@@ -1,7 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
