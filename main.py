@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
