@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
