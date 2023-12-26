@@ -1,6 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
