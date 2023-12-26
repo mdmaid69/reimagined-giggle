@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
