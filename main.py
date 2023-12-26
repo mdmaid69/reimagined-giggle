@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def convert_to_binary(n):
+        return bin(n)
