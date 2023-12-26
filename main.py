@@ -1,7 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+print(os.getcwd())
