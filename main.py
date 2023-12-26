@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
