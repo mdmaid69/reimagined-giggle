@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
