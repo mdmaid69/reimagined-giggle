@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
