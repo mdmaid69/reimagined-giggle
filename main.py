@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
