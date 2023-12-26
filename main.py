@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def reverse_list(lst):
+        return lst[::-1]
