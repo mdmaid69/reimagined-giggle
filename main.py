@@ -1,6 +1,8 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_tangent(x):
+        return math.tan(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
