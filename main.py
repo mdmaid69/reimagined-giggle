@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
