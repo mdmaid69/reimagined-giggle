@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
