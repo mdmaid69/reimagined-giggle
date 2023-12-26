@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
