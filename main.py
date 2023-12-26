@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
