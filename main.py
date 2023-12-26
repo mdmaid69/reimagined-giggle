@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
