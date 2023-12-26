@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
