@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
