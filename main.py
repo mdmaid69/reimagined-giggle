@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def set_array_item(array, i, item):
+        array[i] = item
