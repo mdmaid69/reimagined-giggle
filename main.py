@@ -1,5 +1,10 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_user_list():
-        return collections.UserList()
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
