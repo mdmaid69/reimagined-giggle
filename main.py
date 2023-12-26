@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_stack():
+        return collections.deque()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
