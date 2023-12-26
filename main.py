@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_words(sentence):
+        return len(sentence.split())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
