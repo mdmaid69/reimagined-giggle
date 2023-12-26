@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
