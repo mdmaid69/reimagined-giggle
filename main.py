@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
