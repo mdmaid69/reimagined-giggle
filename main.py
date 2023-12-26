@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_index(array, item):
+        return array.index(item)
