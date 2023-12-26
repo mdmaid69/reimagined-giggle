@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def is_even(n):
+        return n % 2 == 0
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
