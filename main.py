@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
