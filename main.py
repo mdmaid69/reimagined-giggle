@@ -1,6 +1,5 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+print(math.pi)
