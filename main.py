@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
