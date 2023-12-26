@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_list(array):
+        return list(array)
