@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
