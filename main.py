@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+for i in range(5):
+        print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
