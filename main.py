@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import sys
+def print_python_version():
+        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
