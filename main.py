@@ -1,4 +1,5 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-for i in range(10): print(i)
+def remove_directory(path):
+        os.rmdir(path)
+  def multiply_numbers(x, y):
+        return x * y
