@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
