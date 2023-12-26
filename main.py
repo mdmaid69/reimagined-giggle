@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
