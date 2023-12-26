@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import time
+print(time.time())
