@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
