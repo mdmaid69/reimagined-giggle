@@ -1,6 +1,5 @@
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
