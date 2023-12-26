@@ -1,4 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
