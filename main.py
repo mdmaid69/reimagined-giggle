@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_as_str(array):
+        return str(array)
+for i in range(5):
+        print(i)
