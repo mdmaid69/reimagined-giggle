@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
