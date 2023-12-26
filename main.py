@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
