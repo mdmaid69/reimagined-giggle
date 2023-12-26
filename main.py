@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
