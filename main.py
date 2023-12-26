@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
