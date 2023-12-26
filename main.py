@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def cube_number(x):
+        return x**3
