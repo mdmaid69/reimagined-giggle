@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def convert_to_octal(n):
+        return oct(n)
