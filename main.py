@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
