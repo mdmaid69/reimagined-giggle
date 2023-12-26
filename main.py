@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_hex(n):
+        return hex(n)
