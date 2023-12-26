@@ -1,5 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
