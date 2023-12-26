@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
