@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
