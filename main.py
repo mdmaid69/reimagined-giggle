@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def find_min(numbers):
+        return min(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
