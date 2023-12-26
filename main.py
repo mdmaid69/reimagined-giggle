@@ -1,4 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
