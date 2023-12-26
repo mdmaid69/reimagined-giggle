@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
