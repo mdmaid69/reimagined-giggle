@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def clear_array(array):
-        array *= 0
+import time
+print(time.time())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
