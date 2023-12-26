@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import time
+def get_current_time():
+        return time.ctime()
