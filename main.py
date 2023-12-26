@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def add_numbers(x, y):
+        return x + y
+def find_max(lst):
+        return max(lst)
