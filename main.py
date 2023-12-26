@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import sys
+def exit_program():
+        sys.exit()
