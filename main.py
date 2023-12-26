@@ -1,6 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
