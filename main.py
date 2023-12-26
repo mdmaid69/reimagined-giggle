@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def is_even(n):
+        return n % 2 == 0
+import time
+def get_time_since_epoch():
+        return time.time()
