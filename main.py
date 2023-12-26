@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def cube_number(x):
+        return x**3
+def find_max(numbers):
+        return max(numbers)
