@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
