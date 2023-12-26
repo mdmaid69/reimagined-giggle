@@ -1,4 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-for i in range(10): print(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def subtract_numbers(x, y):
+        return x - y
