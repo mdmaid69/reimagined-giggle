@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def is_even(n):
+        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
