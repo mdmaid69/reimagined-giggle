@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
