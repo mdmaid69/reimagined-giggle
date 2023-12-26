@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
