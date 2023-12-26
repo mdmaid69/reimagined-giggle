@@ -1,8 +1,7 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
