@@ -1,6 +1,8 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
