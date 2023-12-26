@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
