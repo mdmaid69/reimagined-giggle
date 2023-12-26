@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
