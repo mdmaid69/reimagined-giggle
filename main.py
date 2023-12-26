@@ -1,6 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
