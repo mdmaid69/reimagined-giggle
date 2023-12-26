@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
