@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import random
-print(random.randint(0, 100))
+import sys
+print(sys.version)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
