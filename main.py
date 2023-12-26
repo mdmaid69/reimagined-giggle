@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
