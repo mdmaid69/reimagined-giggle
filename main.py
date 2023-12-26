@@ -1,6 +1,6 @@
 import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_typecode(array):
+        return array.typecode
