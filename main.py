@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-print([x**2 for x in range(10)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def convert_to_binary(n):
+        return bin(n)
