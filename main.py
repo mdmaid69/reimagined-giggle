@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
