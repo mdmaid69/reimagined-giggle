@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
