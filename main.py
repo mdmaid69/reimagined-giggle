@@ -1,5 +1,5 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def is_odd(n):
-        return n % 2 != 0
+def print_python_version():
+        print(sys.version)
+  def convert_to_binary(n):
+        return bin(n)
