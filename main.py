@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
