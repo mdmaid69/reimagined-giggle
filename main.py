@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
