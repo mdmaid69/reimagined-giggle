@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
