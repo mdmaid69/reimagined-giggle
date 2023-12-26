@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
