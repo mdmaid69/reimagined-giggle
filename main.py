@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def cube_number(x):
+        return x**3
