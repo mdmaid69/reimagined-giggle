@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import getpass
+def get_username():
+        return getpass.getuser()
