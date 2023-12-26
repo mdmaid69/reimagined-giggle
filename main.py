@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
