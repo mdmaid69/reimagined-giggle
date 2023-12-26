@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
