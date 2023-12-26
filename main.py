@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  def multiply_numbers(x, y):
-        return x * y
+  def square_number(x):
+        return x**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
