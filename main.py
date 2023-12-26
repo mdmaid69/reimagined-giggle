@@ -1,8 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
