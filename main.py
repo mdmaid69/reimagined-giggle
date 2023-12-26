@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_float(array):
+        return float(array[0])
