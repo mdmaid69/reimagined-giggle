@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_set(array):
-        return set(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import sys
+def print_python_version():
+        print(sys.version)
