@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
