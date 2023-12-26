@@ -1,9 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
