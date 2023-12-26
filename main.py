@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
