@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import datetime
-print(datetime.datetime.now())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
