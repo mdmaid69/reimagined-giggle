@@ -1,5 +1,8 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def sort_list(lst):
-        return sorted(lst)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
