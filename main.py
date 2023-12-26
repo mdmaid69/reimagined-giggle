@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import sys
+print(sys.version)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
