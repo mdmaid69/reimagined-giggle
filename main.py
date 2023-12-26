@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
