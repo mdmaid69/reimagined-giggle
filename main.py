@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def get_array_length(array):
+        return len(array)
