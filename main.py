@@ -1,5 +1,8 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
