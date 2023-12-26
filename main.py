@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import sys
-def print_python_version():
-        return sys.version
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
