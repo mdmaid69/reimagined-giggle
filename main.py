@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
