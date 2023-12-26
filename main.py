@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
