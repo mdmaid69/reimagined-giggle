@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def subtract_numbers(x, y):
-        return x - y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
