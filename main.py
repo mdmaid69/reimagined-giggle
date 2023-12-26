@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
