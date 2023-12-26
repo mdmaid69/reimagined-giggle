@@ -1,7 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def add_numbers(x, y):
+        return x + y
