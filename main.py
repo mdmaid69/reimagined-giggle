@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def convert_to_octal(n):
+        return oct(n)
