@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
