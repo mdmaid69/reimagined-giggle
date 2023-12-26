@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
