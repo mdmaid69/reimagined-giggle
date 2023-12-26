@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
