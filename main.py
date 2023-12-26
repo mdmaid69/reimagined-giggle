@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
