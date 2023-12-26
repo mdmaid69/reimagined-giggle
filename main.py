@@ -1,7 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
