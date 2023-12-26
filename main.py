@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
