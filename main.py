@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
