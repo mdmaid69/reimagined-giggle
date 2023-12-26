@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
