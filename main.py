@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import sys
-def exit_program():
-        sys.exit()
+def is_even(n):
+        return n % 2 == 0
+def calculate_acceleration(speed, time):
+        return speed / time
