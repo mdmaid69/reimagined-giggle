@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
