@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
