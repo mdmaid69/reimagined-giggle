@@ -1,7 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
