@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
