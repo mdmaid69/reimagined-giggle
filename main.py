@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def multiply_numbers(x, y):
-        return x * y
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
