@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print("Hello, world!")
+import time
+def get_current_time():
+        return time.time()
