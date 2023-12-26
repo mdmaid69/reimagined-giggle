@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_power(work, time):
+        return work / time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
