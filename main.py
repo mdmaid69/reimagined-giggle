@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
