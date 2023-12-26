@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
