@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
