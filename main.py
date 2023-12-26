@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
