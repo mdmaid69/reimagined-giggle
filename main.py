@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
