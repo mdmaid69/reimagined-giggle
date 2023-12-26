@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def square_number(x):
+        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
