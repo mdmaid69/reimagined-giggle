@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_length(array):
-        return len(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_max(lst):
+        return max(lst)
