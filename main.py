@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
