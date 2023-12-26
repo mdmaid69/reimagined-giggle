@@ -1,6 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
