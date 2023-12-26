@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import time
-def get_current_time():
-        return time.time()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
