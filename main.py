@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
