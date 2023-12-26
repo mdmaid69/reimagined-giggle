@@ -1,5 +1,6 @@
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_current_time():
+        return time.ctime()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
