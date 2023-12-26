@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
