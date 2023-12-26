@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+print(sum(range(10)))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
