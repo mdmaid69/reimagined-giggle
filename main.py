@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
