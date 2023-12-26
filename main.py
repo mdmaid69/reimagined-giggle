@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
