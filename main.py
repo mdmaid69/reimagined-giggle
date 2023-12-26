@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_list(array):
+        return list(array)
