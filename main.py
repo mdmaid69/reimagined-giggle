@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+print(os.getcwd())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
