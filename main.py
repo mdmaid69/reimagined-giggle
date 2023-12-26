@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
