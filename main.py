@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def greet(name):
-        print(f"Hello, {name}!")
+  def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
