@@ -1,8 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def remove_duplicates(lst):
+        return list(set(lst))
