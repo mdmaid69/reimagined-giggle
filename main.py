@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
