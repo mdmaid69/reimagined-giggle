@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
