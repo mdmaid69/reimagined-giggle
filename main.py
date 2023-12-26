@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
