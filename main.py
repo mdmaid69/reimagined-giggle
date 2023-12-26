@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_itemsize(array):
+        return array.itemsize
