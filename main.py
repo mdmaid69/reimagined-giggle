@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import sys
-print(sys.version)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def multiply_numbers(x, y):
+        return x * y
