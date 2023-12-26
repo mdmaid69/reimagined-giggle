@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import sys
+def print_python_version():
+        print(sys.version)
