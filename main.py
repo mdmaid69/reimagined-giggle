@@ -1,4 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-print(sum(range(10)))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
