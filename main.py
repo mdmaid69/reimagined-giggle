@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import time
+def get_time_since_epoch():
+        return time.time()
