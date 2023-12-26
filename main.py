@@ -1,6 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_arc_tangent(x):
+        return math.atan(x)
