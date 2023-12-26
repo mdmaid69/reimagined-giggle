@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
