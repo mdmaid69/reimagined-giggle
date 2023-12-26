@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
