@@ -1,4 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print(sum(range(10)))
+import collections
+def create_queue():
+        return collections.deque()
