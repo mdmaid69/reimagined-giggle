@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
