@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
