@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
