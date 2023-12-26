@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
