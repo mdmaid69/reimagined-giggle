@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
