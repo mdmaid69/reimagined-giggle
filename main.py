@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
