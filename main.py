@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def split_path(path):
+        return os.path.split(path)
