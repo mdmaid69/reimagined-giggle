@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
