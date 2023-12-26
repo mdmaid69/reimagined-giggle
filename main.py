@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
