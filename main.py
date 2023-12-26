@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
