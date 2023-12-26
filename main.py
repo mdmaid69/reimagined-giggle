@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
