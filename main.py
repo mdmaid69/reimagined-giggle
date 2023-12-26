@@ -1,4 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-print("Hello, world!")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
