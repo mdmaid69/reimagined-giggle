@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
