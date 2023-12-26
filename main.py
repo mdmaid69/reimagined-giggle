@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_index(array, item):
+        return array.index(item)
