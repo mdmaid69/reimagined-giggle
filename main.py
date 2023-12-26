@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
