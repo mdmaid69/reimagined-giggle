@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+def roll_die():
+        return random.randint(1, 6)
