@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_speed(distance, time):
+        return distance / time
