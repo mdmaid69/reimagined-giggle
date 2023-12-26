@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def square_number(x):
+        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
