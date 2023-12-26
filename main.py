@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
