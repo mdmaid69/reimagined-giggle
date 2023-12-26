@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
