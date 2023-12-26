@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def multiply_numbers(x, y):
-        return x * y
+  def is_odd(n):
+        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
