@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
