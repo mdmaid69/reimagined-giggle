@@ -1,7 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
