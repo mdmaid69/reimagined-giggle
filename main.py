@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
