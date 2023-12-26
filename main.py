@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_volume(length, width, height):
-        return length * width * height
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
