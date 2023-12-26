@@ -1,6 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
