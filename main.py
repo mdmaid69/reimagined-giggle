@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import time
-def get_current_time():
-        return time.time()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
