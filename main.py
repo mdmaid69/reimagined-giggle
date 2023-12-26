@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
