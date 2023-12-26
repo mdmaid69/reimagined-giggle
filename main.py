@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
+def multiply_numbers(x, y):
         return x * y
-x = 10
-y = 20
-print("Sum:", x + y)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
