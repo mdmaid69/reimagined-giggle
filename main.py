@@ -1,5 +1,9 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
