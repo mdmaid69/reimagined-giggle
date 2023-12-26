@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_ceiling(x):
+        return math.ceil(x)
