@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
