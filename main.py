@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
