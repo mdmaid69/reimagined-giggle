@@ -1,6 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import time
-def get_current_time():
-        return time.ctime()
+def convert_array_to_bytes(array):
+        return array.tobytes()
