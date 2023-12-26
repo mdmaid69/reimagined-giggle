@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
