@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
