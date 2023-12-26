@@ -1,5 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
