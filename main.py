@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
