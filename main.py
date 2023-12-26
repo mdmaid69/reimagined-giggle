@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
