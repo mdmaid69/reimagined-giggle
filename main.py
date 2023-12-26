@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
