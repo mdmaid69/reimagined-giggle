@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_octal(n):
+        return oct(n)
