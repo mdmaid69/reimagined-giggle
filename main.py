@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
