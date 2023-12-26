@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def count_words(sentence):
+        return len(sentence.split())
