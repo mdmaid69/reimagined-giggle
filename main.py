@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_pressure(force, area):
+        return force / area
+  def convert_to_octal(n):
+        return oct(n)
