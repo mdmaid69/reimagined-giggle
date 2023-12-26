@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
