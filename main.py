@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import datetime
+def get_current_date():
+        return datetime.date.today()
