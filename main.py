@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
