@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
