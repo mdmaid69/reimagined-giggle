@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
