@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
