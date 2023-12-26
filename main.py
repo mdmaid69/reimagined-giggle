@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
