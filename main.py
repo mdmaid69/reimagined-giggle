@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
