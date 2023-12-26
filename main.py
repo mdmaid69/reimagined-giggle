@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def find_max(lst):
+        return max(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
