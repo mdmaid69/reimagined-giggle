@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
