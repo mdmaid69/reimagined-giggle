@@ -1,5 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import tensorflow as tf
-print(tf.__version__)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
