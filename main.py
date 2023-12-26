@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def get_array_as_list(array):
+        return list(array)
