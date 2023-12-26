@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
