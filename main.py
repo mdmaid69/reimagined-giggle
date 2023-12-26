@@ -1,6 +1,8 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
