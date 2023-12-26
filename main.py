@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
