@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_max(numbers):
+        return max(numbers)
+import array
+def clear_array(array):
+        array *= 0
