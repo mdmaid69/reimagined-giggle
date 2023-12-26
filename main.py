@@ -1,5 +1,9 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
