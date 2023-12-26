@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_counter():
-        return collections.Counter()
+def add_numbers(x, y):
+        return x + y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
