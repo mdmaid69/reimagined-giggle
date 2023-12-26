@@ -1,4 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-for i in range(10): print(i)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+def get_current_time():
+        return time.time()
