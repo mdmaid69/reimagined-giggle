@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def add_numbers(x, y):
-        return x + y
+  def convert_to_octal(n):
+        return oct(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
