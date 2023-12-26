@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import random
-print(random.randint(0, 100))
+import time
+print(time.time())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
