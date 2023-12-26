@@ -1,7 +1,5 @@
-for i in range(10): print(i)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def square_number(x):
+        return x**2
