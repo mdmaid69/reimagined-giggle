@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
