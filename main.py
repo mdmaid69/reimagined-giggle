@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def add_numbers(x, y):
-        return x + y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
