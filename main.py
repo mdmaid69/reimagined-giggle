@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
