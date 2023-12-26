@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
