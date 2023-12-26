@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
