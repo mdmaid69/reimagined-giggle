@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
