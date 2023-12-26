@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def add_numbers(x, y):
+        return x + y
