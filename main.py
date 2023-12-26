@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
