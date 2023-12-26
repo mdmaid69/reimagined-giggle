@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_power(work, time):
-        return work / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
