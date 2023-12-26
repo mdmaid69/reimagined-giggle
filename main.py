@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
