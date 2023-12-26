@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+print(datetime.datetime.now())
