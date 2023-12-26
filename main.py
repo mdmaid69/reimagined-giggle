@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_pressure(force, area):
-        return force / area
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
