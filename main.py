@@ -1,8 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_area(radius):
+        return 3.14 * radius * radius
