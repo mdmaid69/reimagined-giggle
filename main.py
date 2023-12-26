@@ -1,5 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
