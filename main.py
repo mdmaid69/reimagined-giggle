@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
