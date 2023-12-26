@@ -1,7 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_to_json(data):
+        return json.dumps(data)
