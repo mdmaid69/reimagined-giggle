@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
