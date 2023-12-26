@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
