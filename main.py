@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
