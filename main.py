@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tensorflow as tf
-print(tf.__version__)
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
