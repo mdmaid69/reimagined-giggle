@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import tensorflow as tf
+print(tf.__version__)
