@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_str(array):
+        return str(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
