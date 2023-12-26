@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
