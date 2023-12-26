@@ -1,5 +1,7 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
