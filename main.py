@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
