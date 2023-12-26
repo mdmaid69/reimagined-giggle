@@ -1,5 +1,8 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
