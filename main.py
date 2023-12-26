@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
