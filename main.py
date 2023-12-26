@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def square_number(x):
+        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
