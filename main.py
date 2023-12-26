@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def is_palindrome(s):
+        return s == s[::-1]
