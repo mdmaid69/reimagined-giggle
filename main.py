@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def multiply_numbers(x, y):
+        return x * y
