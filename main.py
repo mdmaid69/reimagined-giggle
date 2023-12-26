@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
