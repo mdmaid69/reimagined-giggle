@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
