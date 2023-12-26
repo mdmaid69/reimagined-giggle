@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
