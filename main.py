@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def multiply_numbers(x, y):
+        return x * y
