@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
