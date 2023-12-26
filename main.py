@@ -1,5 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def is_even(n):
-        return n % 2 == 0
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
