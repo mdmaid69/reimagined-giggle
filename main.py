@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def multiply_numbers(x, y):
-        return x * y
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import platform
+def get_python_version():
+        return platform.python_version()
