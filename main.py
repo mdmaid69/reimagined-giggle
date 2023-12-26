@@ -1,5 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
