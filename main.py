@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
