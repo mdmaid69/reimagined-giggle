@@ -1,8 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
