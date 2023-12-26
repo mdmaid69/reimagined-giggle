@@ -1,5 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
+def divide_numbers(x, y):
+        return x / y
