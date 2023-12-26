@@ -1,5 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def is_odd(n):
+        return n % 2 != 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
