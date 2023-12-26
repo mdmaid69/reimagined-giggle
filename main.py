@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import sys
+def exit_program():
+        sys.exit()
