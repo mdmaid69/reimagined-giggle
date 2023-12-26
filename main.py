@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
