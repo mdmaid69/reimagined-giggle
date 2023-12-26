@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
