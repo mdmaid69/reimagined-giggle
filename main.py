@@ -1,5 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
