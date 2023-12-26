@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
