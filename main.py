@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
