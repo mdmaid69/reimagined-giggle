@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
