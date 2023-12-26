@@ -1,6 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def remove_from_array(array, item):
+        array.remove(item)
