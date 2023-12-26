@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
