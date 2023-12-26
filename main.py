@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def remove_duplicates(lst):
+        return list(set(lst))
