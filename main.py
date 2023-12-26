@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
