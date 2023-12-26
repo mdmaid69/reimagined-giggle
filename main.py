@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_max(lst):
+        return max(lst)
