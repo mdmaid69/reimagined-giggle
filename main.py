@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_pressure(force, area):
+        return force / area
