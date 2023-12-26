@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def cube_number(x):
+        return x**3
