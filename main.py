@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
