@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
