@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
