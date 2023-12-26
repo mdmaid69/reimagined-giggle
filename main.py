@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+print("Hello, world!")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
