@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
