@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
