@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_stack():
+        return collections.deque()
