@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
