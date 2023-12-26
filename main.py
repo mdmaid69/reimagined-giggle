@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
