@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
