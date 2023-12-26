@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def count_elements(lst):
+        return len(lst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
