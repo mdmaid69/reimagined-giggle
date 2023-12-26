@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
