@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
