@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
