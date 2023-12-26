@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
