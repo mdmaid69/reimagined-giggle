@@ -1,8 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
