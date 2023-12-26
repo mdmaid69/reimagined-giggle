@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
