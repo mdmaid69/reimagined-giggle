@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_area_rectangle(l, w):
+        return l * w
