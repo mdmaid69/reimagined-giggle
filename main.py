@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_tangent(x):
+        return math.tan(x)
