@@ -1,5 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def add_numbers(x, y):
-        return x + y
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
