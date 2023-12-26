@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
