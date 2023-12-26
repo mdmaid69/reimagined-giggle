@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
