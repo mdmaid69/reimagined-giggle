@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
