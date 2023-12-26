@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import platform
+def get_python_version():
+        return platform.python_version()
