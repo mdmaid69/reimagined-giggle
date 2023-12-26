@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
