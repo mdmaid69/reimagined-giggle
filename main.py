@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_logarithm_base_e(x):
+        return math.log(x)
