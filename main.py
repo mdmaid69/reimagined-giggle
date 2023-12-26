@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+for i in range(5):
+        print(i)
+def is_odd(n):
+        return n % 2 != 0
