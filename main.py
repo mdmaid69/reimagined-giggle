@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_list():
-        return collections.UserList()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def cube_number(x):
+        return x**3
