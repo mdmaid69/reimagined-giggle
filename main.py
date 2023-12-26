@@ -1,3 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-print([x**2 for x in range(10)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
