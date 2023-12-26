@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+print(sys.version)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
