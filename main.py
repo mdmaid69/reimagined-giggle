@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
