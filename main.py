@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def count_elements(lst):
+        return len(lst)
