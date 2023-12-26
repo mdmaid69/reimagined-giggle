@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
