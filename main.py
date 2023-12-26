@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
