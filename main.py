@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
