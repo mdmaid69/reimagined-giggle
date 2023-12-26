@@ -1,6 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def roll_die():
+        return random.randint(1, 6)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
