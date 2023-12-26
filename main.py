@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
