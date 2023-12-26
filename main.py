@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
