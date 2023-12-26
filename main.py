@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_floor(x):
+        return math.floor(x)
