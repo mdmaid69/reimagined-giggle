@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
