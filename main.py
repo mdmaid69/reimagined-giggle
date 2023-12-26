@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+print(math.pi)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
