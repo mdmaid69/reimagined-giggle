@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
