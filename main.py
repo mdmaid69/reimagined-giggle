@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
