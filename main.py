@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
