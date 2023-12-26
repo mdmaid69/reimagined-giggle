@@ -1,5 +1,9 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
