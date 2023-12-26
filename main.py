@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
