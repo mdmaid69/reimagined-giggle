@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def cube_number(x):
+        return x**3
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
