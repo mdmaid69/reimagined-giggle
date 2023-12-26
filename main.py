@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def multiply_numbers(x, y):
+        return x * y
