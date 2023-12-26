@@ -1,7 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_str(array):
+        return str(array)
