@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
