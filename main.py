@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
