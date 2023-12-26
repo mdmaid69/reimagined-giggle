@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
