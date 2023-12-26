@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def exit_program():
+        sys.exit()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
