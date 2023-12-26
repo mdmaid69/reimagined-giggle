@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
