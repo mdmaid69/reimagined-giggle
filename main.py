@@ -1,6 +1,5 @@
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+print(time.time())
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
