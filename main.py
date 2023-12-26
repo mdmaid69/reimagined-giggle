@@ -1,5 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
