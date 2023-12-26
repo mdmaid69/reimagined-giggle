@@ -1,8 +1,8 @@
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
