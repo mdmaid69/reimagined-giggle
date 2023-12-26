@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
