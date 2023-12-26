@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
