@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
