@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
