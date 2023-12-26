@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def square_number(x):
-        return x**2
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
