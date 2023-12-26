@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
