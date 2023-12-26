@@ -1,7 +1,8 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import time
-def get_current_time():
-        return time.ctime()
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
