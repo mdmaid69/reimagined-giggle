@@ -1,5 +1,10 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
