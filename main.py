@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def cube_number(x):
-        return x**3
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_list_from_array(array):
+        return array.tolist()
