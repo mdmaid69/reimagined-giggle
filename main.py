@@ -1,7 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_counter():
+        return collections.Counter()
