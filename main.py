@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
