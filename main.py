@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import sys
+  def get_python_version():
+        return sys.version
+  def convert_to_hex(n):
+        return hex(n)
