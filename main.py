@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
