@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
