@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
