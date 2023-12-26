@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_min(lst):
+        return min(lst)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
