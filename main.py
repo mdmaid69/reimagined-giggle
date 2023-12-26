@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
