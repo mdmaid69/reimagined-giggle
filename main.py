@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
