@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
