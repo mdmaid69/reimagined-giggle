@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
