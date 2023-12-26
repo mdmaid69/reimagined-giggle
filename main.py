@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def get_array_as_complex(array):
+        return complex(array[0])
