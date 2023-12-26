@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import sys
+  def get_python_version():
+        return sys.version
