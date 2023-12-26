@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
