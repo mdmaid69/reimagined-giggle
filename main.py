@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+for i in range(5):
+        print(i)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
