@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
