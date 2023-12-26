@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def reverse_array(array):
+        array.reverse()
+for i in range(5):
+        print(i)
