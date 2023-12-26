@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
