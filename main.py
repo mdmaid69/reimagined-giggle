@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
