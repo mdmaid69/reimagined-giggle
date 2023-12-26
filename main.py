@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
