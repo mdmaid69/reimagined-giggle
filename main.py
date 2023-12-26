@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
