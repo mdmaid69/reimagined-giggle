@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def cube_number(x):
+        return x**3
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
