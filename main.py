@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
+def count_elements(lst):
+        return len(lst)
