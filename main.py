@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import os
+def get_current_working_directory():
+        return os.getcwd()
