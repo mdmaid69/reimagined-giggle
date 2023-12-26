@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
