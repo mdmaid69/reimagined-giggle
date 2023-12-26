@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
