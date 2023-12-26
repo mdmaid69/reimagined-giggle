@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
