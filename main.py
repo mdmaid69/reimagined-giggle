@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def convert_to_binary(n):
+        return bin(n)
