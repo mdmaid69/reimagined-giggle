@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
