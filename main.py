@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
