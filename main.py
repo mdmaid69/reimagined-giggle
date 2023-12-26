@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def convert_to_octal(n):
-        return oct(n)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
