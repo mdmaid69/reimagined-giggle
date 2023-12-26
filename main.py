@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+x = 10
+y = 20
+print("Sum:", x + y)
+def cube_number(x):
+        return x**3
