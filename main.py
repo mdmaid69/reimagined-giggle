@@ -1,7 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
