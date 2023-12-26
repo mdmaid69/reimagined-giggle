@@ -1,6 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
