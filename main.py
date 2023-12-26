@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_work(force, distance):
-        return force * distance
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
