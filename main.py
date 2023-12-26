@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
