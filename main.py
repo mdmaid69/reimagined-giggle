@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
