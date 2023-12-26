@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import numpy as np
+print(np.array([1, 2, 3]))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
