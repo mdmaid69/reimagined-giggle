@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+print(sum(range(10)))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
