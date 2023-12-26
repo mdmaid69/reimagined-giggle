@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
