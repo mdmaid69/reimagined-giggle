@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
