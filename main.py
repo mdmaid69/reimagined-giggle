@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
