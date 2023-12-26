@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
