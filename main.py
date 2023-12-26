@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
