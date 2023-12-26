@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_power(work, time):
+        return work / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
