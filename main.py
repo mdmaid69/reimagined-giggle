@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_floor(x):
+        return math.floor(x)
