@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_power(work, time):
+        return work / time
