@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
