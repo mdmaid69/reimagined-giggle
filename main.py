@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def count_words(sentence):
+        return len(sentence.split())
