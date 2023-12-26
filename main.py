@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
