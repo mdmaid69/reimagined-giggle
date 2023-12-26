@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def cube_number(x):
-        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def set_array_item(array, i, item):
+        array[i] = item
