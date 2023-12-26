@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
