@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
