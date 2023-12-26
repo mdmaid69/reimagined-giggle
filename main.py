@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
