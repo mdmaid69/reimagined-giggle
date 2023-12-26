@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
