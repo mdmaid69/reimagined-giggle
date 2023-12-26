@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
