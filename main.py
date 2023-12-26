@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
