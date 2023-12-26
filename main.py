@@ -1,5 +1,10 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
