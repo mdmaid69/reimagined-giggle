@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
