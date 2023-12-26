@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_min(numbers):
+        return min(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
