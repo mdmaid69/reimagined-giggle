@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Cube numbers:", [x**3 for x in range(n)])
