@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
