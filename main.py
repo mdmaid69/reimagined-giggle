@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
