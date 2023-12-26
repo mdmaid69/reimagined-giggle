@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
