@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
