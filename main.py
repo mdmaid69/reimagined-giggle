@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_max(lst):
-        return max(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
