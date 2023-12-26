@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_string_from_array(array):
+        return array.tobytes()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
