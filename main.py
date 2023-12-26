@@ -1,7 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
