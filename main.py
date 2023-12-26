@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
