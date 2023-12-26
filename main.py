@@ -1,6 +1,6 @@
-  def cube_number(x):
-        return x**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
