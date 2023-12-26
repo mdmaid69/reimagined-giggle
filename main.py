@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
