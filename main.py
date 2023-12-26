@@ -1,9 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def reverse_list(lst):
+        return lst[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
