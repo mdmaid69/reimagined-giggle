@@ -1,10 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+def get_array_itemsize(array):
+        return array.itemsize
