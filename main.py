@@ -1,6 +1,11 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
