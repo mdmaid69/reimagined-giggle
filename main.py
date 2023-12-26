@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_bool(array):
+        return bool(array)
