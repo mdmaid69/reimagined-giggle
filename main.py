@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
