@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import time
+def get_time_since_epoch():
+        return time.time()
