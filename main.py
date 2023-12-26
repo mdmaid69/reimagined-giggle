@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
