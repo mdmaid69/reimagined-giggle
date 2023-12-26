@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def reverse_list(lst):
+        return lst[::-1]
+  def cube_number(x):
+        return x**3
