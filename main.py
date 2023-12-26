@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def split_path(path):
+        return os.path.split(path)
