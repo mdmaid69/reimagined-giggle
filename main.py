@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_power(work, time):
+        return work / time
