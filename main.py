@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
