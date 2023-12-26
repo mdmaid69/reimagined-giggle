@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
