@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
