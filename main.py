@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def add_numbers(x, y):
-        return x + y
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
