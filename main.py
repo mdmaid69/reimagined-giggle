@@ -1,8 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
