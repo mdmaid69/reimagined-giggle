@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
