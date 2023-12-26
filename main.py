@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def convert_to_binary(n):
+        return bin(n)
+def reverse_string(s):
+        return s[::-1]
