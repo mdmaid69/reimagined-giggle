@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_directory_name(path):
+        return os.path.dirname(path)
