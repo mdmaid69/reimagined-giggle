@@ -1,4 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-for i in range(10): print(i)
+print([x**2 for x in range(10)])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
