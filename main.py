@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def count_characters(sentence):
+        return len(sentence)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
