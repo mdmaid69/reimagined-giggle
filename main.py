@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
