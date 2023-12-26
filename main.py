@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
