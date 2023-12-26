@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
