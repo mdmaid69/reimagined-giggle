@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
