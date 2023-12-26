@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
