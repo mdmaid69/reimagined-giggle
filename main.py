@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def print_python_version():
+        return sys.version
