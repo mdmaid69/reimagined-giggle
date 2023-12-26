@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
