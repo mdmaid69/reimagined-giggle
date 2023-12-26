@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
