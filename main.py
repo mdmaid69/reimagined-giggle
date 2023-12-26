@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_user_list():
-        return collections.UserList()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
