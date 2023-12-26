@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import platform
-def get_os_info():
-        return platform.uname()
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def create_user_dict():
+        return collections.UserDict()
