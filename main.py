@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Characters:", len(text))
