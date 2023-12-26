@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def is_odd(n):
+        return n % 2 != 0
