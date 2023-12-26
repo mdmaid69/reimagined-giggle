@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
