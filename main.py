@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
