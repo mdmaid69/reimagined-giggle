@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
