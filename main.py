@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_index(array, item):
+        return array.index(item)
