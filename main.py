@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
