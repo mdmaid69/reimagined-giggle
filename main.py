@@ -1,8 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
