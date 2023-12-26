@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
