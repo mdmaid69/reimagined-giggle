@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def convert_to_octal(n):
+        return oct(n)
+import tensorflow as tf
+print(tf.__version__)
