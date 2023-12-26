@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def reverse_array(array):
+        array.reverse()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
