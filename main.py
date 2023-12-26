@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-from collections import Counter
-print(Counter("hello world"))
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_user_list():
+        return collections.UserList()
