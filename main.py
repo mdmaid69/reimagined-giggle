@@ -1,6 +1,10 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
