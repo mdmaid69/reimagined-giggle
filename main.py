@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
