@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_power(work, time):
+        return work / time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
