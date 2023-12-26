@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
