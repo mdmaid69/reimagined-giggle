@@ -1,5 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
