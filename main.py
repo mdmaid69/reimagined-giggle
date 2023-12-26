@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
