@@ -1,5 +1,3 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print([x**2 for x in range(10)])
+def calculate_pressure(force, area):
+        return force / area
