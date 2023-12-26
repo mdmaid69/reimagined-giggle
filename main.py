@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
