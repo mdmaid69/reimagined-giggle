@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
