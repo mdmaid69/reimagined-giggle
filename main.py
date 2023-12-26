@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import sys
-def print_python_version():
-        print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
