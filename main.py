@@ -1,5 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
