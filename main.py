@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_str(array):
-        return str(array)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
