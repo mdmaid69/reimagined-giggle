@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
