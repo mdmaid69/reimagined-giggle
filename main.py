@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import getpass
+def get_username():
+        return getpass.getuser()
