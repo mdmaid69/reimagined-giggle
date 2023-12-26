@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
