@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import time
-def get_time_since_epoch():
-        return time.time()
+import platform
+def get_os_info():
+        return platform.uname()
+  def is_odd(n):
+        return n % 2 != 0
