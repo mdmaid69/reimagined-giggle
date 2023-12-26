@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def find_min(lst):
+        return min(lst)
+import sys
+print(sys.version)
