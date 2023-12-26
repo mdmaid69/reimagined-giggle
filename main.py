@@ -1,5 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
