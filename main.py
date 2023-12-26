@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
