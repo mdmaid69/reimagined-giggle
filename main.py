@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def count_elements(lst):
-        return len(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
