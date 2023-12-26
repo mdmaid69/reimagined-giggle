@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
