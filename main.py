@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
