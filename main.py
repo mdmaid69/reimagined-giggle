@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-from collections import Counter
-print(Counter("hello world"))
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
