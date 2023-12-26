@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import collections
+def create_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
