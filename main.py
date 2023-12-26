@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
