@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_queue():
-        return collections.deque()
+def get_array_slice(array, i, j):
+        return array[i:j]
