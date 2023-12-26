@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+print(re.match("h.*o", "hello world"))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
