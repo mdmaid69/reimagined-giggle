@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
