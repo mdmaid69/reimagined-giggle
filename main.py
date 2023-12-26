@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import collections
+def create_queue():
+        return collections.deque()
