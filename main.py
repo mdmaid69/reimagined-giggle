@@ -1,5 +1,5 @@
-import math
-print(math.pi)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_environment_variable(var):
+        return os.getenv(var)
