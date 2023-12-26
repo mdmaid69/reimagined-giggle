@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
