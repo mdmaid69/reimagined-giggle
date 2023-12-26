@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
