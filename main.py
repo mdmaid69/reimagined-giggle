@@ -1,6 +1,9 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def find_min(numbers):
+        return min(numbers)
