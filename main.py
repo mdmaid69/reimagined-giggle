@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def convert_to_binary(n):
+        return bin(n)
