@@ -1,5 +1,5 @@
+import os
+print(os.getcwd())
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_factorial(n):
+        return math.factorial(n)
