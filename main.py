@@ -1,6 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def cube_number(x):
+        return x**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
