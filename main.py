@@ -1,9 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def remove_duplicates(lst):
+        return list(set(lst))
