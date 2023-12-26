@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import collections
-def create_user_string():
-        return collections.UserString()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
