@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import getpass
+def get_username():
+        return getpass.getuser()
