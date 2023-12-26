@@ -1,8 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_float(array):
+        return float(array[0])
