@@ -1,5 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
