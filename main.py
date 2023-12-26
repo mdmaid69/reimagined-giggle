@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
+  def multiply_numbers(x, y):
+        return x * y
