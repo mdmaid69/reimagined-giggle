@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
