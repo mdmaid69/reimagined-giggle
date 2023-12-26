@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def convert_to_binary(n):
+        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
