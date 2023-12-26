@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
