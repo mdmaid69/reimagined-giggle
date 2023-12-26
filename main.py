@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+name = "Python"
+print("Hello,", name)
