@@ -1,6 +1,11 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def count_characters(sentence):
+        return len(sentence)
