@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
