@@ -1,7 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
