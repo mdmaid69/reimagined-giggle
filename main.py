@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
