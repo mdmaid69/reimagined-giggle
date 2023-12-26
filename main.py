@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
