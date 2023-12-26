@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_speed(distance, time):
+        return distance / time
