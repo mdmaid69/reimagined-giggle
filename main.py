@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
