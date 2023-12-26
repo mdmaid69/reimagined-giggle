@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
