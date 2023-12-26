@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
