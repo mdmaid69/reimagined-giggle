@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
