@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_hex(n):
+        return hex(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
