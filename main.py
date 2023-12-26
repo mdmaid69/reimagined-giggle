@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def find_min(lst):
-        return min(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def is_even(n):
+        return n % 2 == 0
