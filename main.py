@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
