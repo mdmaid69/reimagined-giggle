@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
