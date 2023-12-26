@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+def count_elements(lst):
+        return len(lst)
