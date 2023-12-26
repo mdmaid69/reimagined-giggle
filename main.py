@@ -1,8 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
