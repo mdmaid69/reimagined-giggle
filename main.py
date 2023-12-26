@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
