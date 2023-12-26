@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import sys
+def print_python_version():
+        print(sys.version)
