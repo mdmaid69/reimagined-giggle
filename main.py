@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
