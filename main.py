@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
