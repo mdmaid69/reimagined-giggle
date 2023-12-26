@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def reverse_array(array):
+        array.reverse()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
