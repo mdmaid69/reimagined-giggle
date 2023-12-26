@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
