@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
