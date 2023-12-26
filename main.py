@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
