@@ -1,5 +1,9 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def count_characters(sentence):
-        return len(sentence)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
