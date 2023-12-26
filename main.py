@@ -1,5 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
