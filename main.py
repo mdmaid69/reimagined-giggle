@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
