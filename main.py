@@ -1,5 +1,7 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
