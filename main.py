@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
