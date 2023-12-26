@@ -1,6 +1,3 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print([x**2 for x in range(10)])
+def square_number(x):
+        return x**2
