@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
