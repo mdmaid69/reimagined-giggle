@@ -1,7 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+for i in range(10): print(i)
