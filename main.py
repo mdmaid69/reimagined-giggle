@@ -1,4 +1,8 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
