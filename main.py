@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-print(re.match("h.*o", "hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import numpy as np
+print(np.array([1, 2, 3]))
