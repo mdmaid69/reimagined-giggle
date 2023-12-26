@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
