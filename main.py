@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
