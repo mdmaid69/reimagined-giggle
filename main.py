@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
