@@ -1,11 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
