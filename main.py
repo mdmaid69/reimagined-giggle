@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
