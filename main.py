@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
