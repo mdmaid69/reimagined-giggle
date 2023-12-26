@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
