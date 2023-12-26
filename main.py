@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
