@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
