@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
