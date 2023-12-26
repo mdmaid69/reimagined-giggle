@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def sort_list(lst):
-        return sorted(lst)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
