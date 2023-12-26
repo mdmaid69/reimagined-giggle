@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
