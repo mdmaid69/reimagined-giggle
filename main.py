@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def convert_to_hex(n):
+        return hex(n)
