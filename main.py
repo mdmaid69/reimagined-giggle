@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
