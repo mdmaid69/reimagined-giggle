@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
