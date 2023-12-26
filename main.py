@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        return sys.version
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
