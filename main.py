@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
