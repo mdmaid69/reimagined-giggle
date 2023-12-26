@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
