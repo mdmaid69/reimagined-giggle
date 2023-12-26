@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_acceleration(speed, time):
+        return speed / time
