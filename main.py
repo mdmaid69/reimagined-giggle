@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
