@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def square_number(x):
-        return x**2
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
