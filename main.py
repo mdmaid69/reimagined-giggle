@@ -1,6 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
