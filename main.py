@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
