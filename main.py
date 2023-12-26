@@ -1,5 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
