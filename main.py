@@ -1,7 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
