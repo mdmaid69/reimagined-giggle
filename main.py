@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
