@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-print(time.time())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
