@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_item(array, i):
+        return array[i]
