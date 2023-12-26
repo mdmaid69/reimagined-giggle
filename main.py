@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import random
+print(random.randint(0, 100))
