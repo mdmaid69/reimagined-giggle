@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def cube_number(x):
-        return x**3
+def reverse_string(s):
+        return s[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
