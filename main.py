@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
