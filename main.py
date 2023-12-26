@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
