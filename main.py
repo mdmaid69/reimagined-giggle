@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
