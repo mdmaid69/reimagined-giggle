@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
