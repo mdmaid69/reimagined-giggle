@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-print(datetime.datetime.now())
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
