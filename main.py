@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def sort_list(lst):
+        return sorted(lst)
+  def add_numbers(x, y):
+        return x + y
