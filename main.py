@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
