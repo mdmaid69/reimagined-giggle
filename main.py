@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
