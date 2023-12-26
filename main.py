@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_area_rectangle(l, w):
+        return l * w
