@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+print([x**2 for x in range(10)])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
