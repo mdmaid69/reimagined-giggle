@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def convert_to_binary(n):
-        return bin(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
