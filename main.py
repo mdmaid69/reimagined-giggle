@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
