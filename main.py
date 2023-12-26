@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
