@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def count_words(sentence):
+        return len(sentence.split())
