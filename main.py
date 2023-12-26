@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def convert_to_binary(n):
+        return bin(n)
