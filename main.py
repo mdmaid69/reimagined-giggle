@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def split_path(path):
+        return os.path.split(path)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
