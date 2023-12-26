@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
