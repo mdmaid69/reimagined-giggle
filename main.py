@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
