@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
