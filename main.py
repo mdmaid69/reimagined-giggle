@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_pressure(force, area):
+        return force / area
