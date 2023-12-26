@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def remove_duplicates(lst):
+        return list(set(lst))
