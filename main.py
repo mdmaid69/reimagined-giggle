@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
