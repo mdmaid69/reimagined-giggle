@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
