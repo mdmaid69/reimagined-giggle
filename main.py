@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+print(sum(range(10)))
