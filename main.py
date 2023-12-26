@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
