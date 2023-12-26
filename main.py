@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def convert_to_octal(n):
+        return oct(n)
