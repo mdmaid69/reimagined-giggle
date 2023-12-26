@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
