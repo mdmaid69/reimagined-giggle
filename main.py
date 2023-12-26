@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
