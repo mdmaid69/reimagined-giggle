@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
