@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
