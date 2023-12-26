@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
