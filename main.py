@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
