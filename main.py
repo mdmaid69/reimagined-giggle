@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
