@@ -1,6 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import sys
+def print_python_version():
+        return sys.version
