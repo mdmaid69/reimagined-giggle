@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
