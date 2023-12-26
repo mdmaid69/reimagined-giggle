@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
