@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def count_words(sentence):
+        return len(sentence.split())
