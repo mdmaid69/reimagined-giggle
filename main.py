@@ -1,5 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+print(sum(range(10)))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
