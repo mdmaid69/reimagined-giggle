@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def reverse_array(array):
+        array.reverse()
