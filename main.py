@@ -1,3 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-print(sum(range(10)))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
