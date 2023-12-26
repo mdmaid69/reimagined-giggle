@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
