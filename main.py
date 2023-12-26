@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
