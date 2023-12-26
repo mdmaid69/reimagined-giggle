@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
