@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
