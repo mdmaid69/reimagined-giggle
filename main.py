@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_as_int(array):
+        return int(array[0])
