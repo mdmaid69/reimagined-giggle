@@ -1,8 +1,11 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
