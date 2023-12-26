@@ -1,5 +1,10 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
