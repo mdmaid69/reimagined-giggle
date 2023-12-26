@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
