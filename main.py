@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
