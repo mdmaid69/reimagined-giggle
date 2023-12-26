@@ -1,5 +1,7 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
