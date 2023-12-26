@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
