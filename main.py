@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
