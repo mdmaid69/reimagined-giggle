@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
