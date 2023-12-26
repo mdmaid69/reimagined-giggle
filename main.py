@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
