@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
