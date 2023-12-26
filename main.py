@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
