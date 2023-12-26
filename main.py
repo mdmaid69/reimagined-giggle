@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
