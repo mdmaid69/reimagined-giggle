@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
