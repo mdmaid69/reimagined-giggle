@@ -1,9 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
