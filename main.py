@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
