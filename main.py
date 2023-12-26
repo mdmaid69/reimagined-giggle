@@ -1,7 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
