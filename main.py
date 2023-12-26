@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_as_int(array):
+        return int(array[0])
