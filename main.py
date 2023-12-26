@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
