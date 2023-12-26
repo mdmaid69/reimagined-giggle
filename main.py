@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_area_rectangle(l, w):
+        return l * w
