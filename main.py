@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_set(array):
+        return set(array)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
