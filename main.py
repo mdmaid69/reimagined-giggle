@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
