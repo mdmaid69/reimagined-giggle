@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_min(numbers):
+        return min(numbers)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
