@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
