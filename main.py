@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
