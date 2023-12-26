@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_list_from_array(array):
+        return array.tolist()
