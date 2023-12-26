@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
