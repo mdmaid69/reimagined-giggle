@@ -1,6 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
