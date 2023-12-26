@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
