@@ -1,5 +1,14 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
