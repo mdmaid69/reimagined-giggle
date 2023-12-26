@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
