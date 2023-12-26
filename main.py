@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
