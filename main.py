@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import time
-print(time.time())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
