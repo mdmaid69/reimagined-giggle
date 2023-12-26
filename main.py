@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  def convert_to_octal(n):
+        return oct(n)
