@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import numpy as np
-print(np.array([1, 2, 3]))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
