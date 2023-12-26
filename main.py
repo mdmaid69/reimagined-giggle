@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
