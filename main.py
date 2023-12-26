@@ -1,5 +1,8 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
