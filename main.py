@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
