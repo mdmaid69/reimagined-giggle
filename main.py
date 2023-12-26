@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
