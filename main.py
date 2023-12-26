@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
