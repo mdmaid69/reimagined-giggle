@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
