@@ -1,7 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
