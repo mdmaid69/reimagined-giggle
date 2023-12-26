@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
