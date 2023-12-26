@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
