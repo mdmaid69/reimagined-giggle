@@ -1,6 +1,9 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import sys
-def exit_program():
-        sys.exit()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
