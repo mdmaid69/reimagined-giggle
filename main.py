@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
