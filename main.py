@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
