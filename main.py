@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
