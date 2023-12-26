@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
