@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
