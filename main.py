@@ -1,8 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
