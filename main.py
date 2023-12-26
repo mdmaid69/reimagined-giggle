@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
