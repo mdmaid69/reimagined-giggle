@@ -1,5 +1,3 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+print([x**2 for x in range(10)])
+def convert_to_hex(n):
+        return hex(n)
