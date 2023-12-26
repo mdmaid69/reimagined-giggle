@@ -1,6 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
