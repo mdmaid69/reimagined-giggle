@@ -1,5 +1,8 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
