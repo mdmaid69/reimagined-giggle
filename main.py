@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-print(os.getcwd())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def multiply_numbers(x, y):
+        return x * y
