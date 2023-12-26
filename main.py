@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Characters:", len(text))
+def greet(name):
+        print(f"Hello, {name}!")
