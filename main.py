@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_current_time():
+        return time.ctime()
