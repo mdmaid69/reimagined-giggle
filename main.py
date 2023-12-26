@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
