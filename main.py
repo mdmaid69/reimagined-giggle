@@ -1,8 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
