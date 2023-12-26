@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
