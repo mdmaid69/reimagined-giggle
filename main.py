@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_density(mass, volume):
+        return mass / volume
