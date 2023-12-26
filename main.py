@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
