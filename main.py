@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
