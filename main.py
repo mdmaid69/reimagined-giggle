@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_length(array):
+        return len(array)
