@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+print(datetime.datetime.now())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
