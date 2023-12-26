@@ -1,6 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def calculate_acceleration(speed, time):
+        return speed / time
