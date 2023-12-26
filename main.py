@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import sys
+  def get_python_version():
+        return sys.version
