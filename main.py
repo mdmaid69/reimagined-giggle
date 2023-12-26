@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
