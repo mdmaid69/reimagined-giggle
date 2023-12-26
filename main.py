@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+print(time.time())
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
