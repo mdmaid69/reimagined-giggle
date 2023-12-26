@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def count_words(sentence):
-        return len(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_force(mass, acceleration):
+        return mass * acceleration
