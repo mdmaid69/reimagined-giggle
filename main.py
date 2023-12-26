@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
