@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
