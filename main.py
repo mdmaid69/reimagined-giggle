@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def is_palindrome(s):
-        return s == s[::-1]
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
