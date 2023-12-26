@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def split_path(path):
+        return os.path.split(path)
