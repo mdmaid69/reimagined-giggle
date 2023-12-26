@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_as_str(array):
+        return str(array)
