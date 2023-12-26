@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
