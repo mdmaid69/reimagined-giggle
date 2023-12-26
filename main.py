@@ -1,5 +1,9 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
