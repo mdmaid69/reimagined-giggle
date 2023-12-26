@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
