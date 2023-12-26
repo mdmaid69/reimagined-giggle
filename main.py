@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_ceiling(x):
+        return math.ceil(x)
