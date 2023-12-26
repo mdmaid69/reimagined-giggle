@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def split_path(path):
+        return os.path.split(path)
