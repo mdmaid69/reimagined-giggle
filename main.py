@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
