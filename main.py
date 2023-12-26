@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+from collections import Counter
+print(Counter("hello world"))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
