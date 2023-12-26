@@ -1,7 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def is_odd(n):
+        return n % 2 != 0
