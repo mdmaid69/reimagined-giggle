@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
