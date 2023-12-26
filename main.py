@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
