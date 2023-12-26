@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def subtract_numbers(x, y):
+        return x - y
