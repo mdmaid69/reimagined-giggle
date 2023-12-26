@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
