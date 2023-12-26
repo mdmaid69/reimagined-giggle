@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_density(mass, volume):
+        return mass / volume
