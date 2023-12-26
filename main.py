@@ -1,5 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
