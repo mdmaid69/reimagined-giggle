@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def multiply_numbers(x, y):
+        return x * y
