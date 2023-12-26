@@ -1,4 +1,11 @@
-def find_min(lst):
-        return min(lst)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
