@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
