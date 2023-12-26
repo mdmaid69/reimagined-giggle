@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
