@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
