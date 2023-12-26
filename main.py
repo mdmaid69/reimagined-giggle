@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
