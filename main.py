@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_power(work, time):
-        return work / time
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_max(numbers):
+        return max(numbers)
