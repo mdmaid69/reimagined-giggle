@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
