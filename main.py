@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
