@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_python_version():
-        return platform.python_version()
+def count_elements(lst):
+        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
