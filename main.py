@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
