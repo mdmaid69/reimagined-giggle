@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def square_number(x):
-        return x**2
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
