@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
