@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
