@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
