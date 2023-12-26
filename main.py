@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
