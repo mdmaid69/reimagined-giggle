@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import sys
+def print_python_version():
+        print(sys.version)
