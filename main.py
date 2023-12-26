@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+print(math.pi)
