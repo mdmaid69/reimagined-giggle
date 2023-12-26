@@ -1,7 +1,9 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
