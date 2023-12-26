@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def convert_to_hex(n):
-        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
