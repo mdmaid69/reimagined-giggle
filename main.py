@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def multiply_numbers(x, y):
-        return x * y
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
