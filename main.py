@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import logging
+def log_message(message):
+        logging.info(message)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
