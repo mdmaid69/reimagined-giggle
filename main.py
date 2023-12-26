@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
