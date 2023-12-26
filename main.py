@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
