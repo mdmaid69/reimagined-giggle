@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
