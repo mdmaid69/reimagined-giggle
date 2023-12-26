@@ -1,5 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
