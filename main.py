@@ -1,5 +1,11 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
