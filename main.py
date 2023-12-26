@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
