@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import sys
+  def get_python_version():
+        return sys.version
