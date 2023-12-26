@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def multiply_numbers(x, y):
-        return x * y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+print(sum(range(10)))
