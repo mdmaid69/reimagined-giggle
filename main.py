@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_current_directory():
-        return os.getcwd()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
