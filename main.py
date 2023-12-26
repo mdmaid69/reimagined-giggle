@@ -1,5 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area_rectangle(l, w):
+        return l * w
