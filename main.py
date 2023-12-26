@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
