@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def multiply_numbers(x, y):
+        return x * y
