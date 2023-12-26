@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
