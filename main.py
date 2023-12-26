@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
