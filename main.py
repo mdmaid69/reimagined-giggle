@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
