@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
