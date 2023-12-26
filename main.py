@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_list_from_array(array):
+        return array.tolist()
