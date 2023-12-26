@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
