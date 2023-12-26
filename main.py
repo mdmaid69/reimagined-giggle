@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_as_set(array):
+        return set(array)
