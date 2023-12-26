@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
