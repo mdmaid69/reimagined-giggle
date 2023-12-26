@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-name = "Python"
-print("Hello,", name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
