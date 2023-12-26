@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import sys
-def exit_program():
-        sys.exit()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
