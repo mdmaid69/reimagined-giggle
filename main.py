@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
