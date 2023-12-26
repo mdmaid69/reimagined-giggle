@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print(sum(range(10)))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
