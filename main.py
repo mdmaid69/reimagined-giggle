@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def subtract_numbers(x, y):
+        return x - y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
