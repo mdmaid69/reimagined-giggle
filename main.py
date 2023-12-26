@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def is_even(n):
-        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
