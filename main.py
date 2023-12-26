@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
