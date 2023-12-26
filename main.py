@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
