@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
