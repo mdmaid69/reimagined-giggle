@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
