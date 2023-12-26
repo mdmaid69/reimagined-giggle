@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
