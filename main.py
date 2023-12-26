@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
