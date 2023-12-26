@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
