@@ -1,5 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
