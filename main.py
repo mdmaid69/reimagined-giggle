@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_sine(x):
+        return math.sin(x)
