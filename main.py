@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import collections
-def create_stack():
-        return collections.deque()
+print(sum(range(10)))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
