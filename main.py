@@ -1,5 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
