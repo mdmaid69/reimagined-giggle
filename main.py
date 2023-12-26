@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
