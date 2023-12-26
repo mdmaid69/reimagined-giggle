@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
