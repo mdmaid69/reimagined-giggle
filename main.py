@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import time
-print(time.time())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+print(sum(range(10)))
