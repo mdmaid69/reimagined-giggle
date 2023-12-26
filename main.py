@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
