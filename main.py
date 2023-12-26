@@ -1,9 +1,8 @@
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
