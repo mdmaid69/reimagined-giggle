@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def subtract_numbers(x, y):
+        return x - y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
