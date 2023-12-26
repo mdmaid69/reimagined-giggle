@@ -1,4 +1,12 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def convert_to_hex(n):
-        return hex(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
