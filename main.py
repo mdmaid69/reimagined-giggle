@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
