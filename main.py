@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
