@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
