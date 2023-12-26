@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
