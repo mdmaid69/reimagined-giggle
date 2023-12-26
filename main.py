@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_acceleration(speed, time):
+        return speed / time
+import numpy as np
+print(np.array([1, 2, 3]))
