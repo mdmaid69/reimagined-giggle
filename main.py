@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_work(force, distance):
-        return force * distance
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
