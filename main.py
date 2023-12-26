@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def reverse_string(s):
-        return s[::-1]
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
