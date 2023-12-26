@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
