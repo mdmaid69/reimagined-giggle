@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
