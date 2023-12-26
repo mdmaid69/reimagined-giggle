@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+from collections import Counter
+print(Counter("hello world"))
