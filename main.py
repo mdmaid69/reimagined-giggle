@@ -1,5 +1,5 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-def divide_numbers(x, y):
-        return x / y
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
