@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_power(work, time):
-        return work / time
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
