@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_stack():
+        return collections.deque()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
