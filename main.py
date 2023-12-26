@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import datetime
+def get_current_date():
+        return datetime.date.today()
