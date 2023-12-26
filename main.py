@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
