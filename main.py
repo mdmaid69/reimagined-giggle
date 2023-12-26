@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
