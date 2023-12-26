@@ -1,4 +1,4 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
