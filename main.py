@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
