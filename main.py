@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
