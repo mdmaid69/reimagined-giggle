@@ -1,7 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
