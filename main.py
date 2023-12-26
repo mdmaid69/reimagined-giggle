@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
