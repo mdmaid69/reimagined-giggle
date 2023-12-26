@@ -1,7 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
