@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Uppercase:", text.upper())
