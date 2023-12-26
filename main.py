@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
