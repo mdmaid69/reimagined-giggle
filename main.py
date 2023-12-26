@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
