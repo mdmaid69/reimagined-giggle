@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
