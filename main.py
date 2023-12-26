@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
