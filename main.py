@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
