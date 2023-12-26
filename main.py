@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
