@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
