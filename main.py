@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+def count_elements(lst):
+        return len(lst)
