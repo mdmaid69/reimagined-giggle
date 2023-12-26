@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_work(force, distance):
-        return force * distance
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
