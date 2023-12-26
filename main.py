@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_typecode(array):
-        return array.typecode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def exit_program():
+        sys.exit()
