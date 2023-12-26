@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def multiply_numbers(x, y):
+        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
