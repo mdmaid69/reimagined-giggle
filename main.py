@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def reverse_list(lst):
-        return lst[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
