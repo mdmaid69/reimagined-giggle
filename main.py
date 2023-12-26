@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def clear_array(array):
+        array *= 0
+name = "Python"
+print("Hello,", name)
