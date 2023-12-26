@@ -1,7 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_unique_words(sentence):
+        return set(sentence.split())
