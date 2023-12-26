@@ -1,4 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-print("Hello, world!")
+for i in range(10): print(i)
+import time
+def get_current_time():
+        return time.time()
