@@ -1,7 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_string_from_array(array):
+        return array.tobytes()
