@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import json
+print(json.dumps({"name": "John", "age": 30}))
