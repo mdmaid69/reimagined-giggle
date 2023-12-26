@@ -1,5 +1,12 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_speed(distance, time):
-        return distance / time
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
