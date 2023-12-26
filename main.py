@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
