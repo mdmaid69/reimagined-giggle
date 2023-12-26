@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
