@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
