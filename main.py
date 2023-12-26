@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def multiply_numbers(x, y):
+        return x * y
