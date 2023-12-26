@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def greet(name):
+        print(f"Hello, {name}!")
