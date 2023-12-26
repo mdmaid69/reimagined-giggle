@@ -1,8 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
