@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
