@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
