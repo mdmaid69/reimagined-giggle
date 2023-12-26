@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
