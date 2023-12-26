@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
