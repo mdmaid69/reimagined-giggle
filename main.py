@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
