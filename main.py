@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def count_characters(sentence):
-        return len(sentence)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
