@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
