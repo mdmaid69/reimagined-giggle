@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
