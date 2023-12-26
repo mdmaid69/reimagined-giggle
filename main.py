@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
