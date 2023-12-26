@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
