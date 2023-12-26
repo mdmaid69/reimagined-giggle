@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
