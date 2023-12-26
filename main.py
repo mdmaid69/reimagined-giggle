@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def sort_numbers(numbers):
+        return sorted(numbers)
