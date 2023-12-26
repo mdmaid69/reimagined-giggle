@@ -1,8 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def multiply_numbers(x, y):
+        return x * y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
