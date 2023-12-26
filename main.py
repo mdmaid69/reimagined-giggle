@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_odd(n):
-        return n % 2 != 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
