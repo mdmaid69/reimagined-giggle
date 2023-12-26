@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
+import re
+print(re.match("h.*o", "hello world"))
