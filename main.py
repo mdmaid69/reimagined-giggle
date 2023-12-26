@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
