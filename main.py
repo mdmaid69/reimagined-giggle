@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
