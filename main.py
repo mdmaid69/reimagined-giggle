@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
