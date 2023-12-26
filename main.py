@@ -1,7 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
