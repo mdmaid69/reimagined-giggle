@@ -1,6 +1,3 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+for i in range(10): print(i)
