@@ -1,6 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def get_bytes_from_array(array):
+        return array.tobytes()
