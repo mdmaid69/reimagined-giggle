@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
