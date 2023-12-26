@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-from collections import Counter
-print(Counter("hello world"))
+print([x**2 for x in range(10)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
