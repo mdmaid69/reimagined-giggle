@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
