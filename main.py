@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_unique_words(sentence):
+        return set(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
