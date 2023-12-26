@@ -1,6 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_str(array):
-        return str(array)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
