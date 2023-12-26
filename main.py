@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
