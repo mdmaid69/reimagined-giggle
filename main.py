@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
