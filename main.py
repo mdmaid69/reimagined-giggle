@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
