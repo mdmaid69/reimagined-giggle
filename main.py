@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def greet(name):
-        print(f"Hello, {name}!")
+  def sort_list(lst):
+        return sorted(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
