@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def find_min(numbers):
+        return min(numbers)
