@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def split_path(path):
+        return os.path.split(path)
