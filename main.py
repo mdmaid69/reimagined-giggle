@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_power(work, time):
+        return work / time
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
