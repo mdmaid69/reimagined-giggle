@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
