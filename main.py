@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
