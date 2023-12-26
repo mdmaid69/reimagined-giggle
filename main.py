@@ -1,13 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
