@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
