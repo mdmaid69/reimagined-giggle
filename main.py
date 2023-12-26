@@ -1,6 +1,10 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_user_list():
+        return collections.UserList()
