@@ -1,8 +1,8 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
