@@ -1,8 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
