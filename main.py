@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_int(array):
-        return int(array[0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
