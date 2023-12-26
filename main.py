@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def append_to_array(array, item):
+        array.append(item)
