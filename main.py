@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
