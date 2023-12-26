@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-x = 10
-y = 20
-print("Sum:", x + y)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
