@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def reverse_string(s):
+        return s[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
