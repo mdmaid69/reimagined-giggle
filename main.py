@@ -1,4 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-for i in range(10): print(i)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
