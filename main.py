@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+text = "Hello, world!"
+print("Characters:", len(text))
