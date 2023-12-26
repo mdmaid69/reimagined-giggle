@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+for i in range(5):
+        print(i)
