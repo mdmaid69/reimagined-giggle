@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import sys
+print(sys.version)
