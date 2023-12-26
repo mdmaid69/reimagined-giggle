@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def reverse_list(lst):
-        return lst[::-1]
+  def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
