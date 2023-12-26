@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
