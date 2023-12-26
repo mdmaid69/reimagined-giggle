@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def reverse_string(s):
+        return s[::-1]
+def calculate_pressure(force, area):
+        return force / area
