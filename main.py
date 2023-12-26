@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
