@@ -1,4 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-for i in range(10): print(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import collections
+def create_counter():
+        return collections.Counter()
