@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
