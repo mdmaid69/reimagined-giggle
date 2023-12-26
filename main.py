@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
