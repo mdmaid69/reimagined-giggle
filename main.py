@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
