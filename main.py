@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
