@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
