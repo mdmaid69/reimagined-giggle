@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import collections
+def create_queue():
+        return collections.deque()
