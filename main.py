@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
