@@ -1,6 +1,5 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def get_environment_variable(var):
+        return os.getenv(var)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
