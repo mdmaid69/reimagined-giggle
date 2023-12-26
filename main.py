@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
