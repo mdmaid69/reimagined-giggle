@@ -1,5 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def multiply_numbers(x, y):
-        return x * y
+def find_max(lst):
+        return max(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
