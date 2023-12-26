@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
