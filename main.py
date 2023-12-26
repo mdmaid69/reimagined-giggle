@@ -1,5 +1,3 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def cube_number(x):
-        return x**3
+print("Hello, world!")
+def calculate_speed(distance, time):
+        return distance / time
