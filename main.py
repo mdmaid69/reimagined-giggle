@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
