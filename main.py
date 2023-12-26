@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
