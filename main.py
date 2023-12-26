@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def reverse_string(s):
-        return s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def remove_duplicates(lst):
+        return list(set(lst))
