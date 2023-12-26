@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import platform
-def get_os_info():
-        return platform.uname()
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
