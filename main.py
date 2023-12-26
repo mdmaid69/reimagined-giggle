@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_current_directory():
+        return os.getcwd()
