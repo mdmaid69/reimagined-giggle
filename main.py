@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
