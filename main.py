@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+print(re.match("h.*o", "hello world"))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
