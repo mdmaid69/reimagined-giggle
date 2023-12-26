@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
