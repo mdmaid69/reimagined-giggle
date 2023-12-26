@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
