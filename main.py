@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-print(os.getcwd())
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
