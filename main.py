@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
