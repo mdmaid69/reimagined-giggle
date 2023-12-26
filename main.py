@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
