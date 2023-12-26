@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def get_time_since_epoch():
-        return time.time()
+  def square_number(x):
+        return x**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
