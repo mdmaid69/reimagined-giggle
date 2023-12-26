@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
