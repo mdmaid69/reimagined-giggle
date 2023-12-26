@@ -1,6 +1,8 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
