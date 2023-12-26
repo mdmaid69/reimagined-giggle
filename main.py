@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
