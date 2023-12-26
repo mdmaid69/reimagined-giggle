@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
