@@ -1,6 +1,8 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def get_current_working_directory():
+        return os.getcwd()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
