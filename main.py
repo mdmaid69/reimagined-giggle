@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
