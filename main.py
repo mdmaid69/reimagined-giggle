@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def reverse_array(array):
-        array.reverse()
+import time
+print(time.time())
+def divide_numbers(x, y):
+        return x / y
