@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
