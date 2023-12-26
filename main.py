@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_counter():
+        return collections.Counter()
