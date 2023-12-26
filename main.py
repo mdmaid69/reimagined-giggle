@@ -1,4 +1,11 @@
-  def multiply_numbers(x, y):
-        return x * y
-def remove_duplicates(lst):
-        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
