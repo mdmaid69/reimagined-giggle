@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import collections
-def create_stack():
-        return collections.deque()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
