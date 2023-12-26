@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
