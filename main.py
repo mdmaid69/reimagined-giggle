@@ -1,7 +1,3 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def count_elements(lst):
+        return len(lst)
+print([x**2 for x in range(10)])
