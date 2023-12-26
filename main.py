@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
