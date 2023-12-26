@@ -1,5 +1,6 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-print([x**2 for x in range(10)])
