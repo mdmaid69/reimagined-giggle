@@ -1,6 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
