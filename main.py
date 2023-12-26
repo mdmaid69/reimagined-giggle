@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
