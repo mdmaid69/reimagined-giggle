@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.ctime()
