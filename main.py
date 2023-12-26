@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
