@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
