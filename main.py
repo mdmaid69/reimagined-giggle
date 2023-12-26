@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area(radius):
+        return 3.14 * radius * radius
