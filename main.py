@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
