@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
