@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_max(lst):
-        return max(lst)
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_area_rectangle(l, w):
+        return l * w
