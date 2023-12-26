@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import sys
-def print_python_version():
-        return sys.version
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
