@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_density(mass, volume):
+        return mass / volume
