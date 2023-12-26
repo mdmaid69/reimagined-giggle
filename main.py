@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
