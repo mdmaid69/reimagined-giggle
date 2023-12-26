@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
