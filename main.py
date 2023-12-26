@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
