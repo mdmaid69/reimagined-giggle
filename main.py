@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
