@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def read_from_json(json_string):
+        return json.loads(json_string)
+text = "Hello, world!"
+print("Characters:", len(text))
