@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
