@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
