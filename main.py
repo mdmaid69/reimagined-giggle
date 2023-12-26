@@ -1,6 +1,2 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_set(array):
-        return set(array)
+for i in range(10): print(i)
+print([x**2 for x in range(10)])
