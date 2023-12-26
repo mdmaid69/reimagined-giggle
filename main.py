@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
