@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+print(random.randint(0, 100))
