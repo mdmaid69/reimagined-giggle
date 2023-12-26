@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_length(array):
+        return len(array)
+import datetime
+print(datetime.datetime.now())
