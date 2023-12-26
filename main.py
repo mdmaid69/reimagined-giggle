@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
