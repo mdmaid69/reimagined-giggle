@@ -1,8 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def count_elements(lst):
+        return len(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
