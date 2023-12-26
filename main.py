@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def find_max(numbers):
-        return max(numbers)
+def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
