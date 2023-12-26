@@ -1,7 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
