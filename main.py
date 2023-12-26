@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_pressure(force, area):
-        return force / area
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
