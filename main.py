@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
