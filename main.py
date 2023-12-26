@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
