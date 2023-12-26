@@ -1,4 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-for i in range(10): print(i)
+def is_palindrome(s):
+        return s == s[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
