@@ -1,6 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
