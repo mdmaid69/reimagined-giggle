@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
