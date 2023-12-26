@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
