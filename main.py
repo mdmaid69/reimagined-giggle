@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
