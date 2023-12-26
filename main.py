@@ -1,12 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_itemsize(array):
+        return array.itemsize
