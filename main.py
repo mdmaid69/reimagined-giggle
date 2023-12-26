@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
