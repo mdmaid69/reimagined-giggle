@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
