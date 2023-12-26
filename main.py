@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
