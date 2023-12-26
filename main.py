@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
