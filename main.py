@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
