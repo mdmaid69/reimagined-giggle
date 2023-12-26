@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
