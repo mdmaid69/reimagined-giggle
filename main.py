@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
