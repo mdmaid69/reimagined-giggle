@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
