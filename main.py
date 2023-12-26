@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_power(work, time):
+        return work / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
