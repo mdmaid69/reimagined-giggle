@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
