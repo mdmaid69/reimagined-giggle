@@ -1,5 +1,12 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
