@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import time
-def get_current_time():
-        return time.time()
+for i in range(5):
+        print(i)
+def is_even(n):
+        return n % 2 == 0
