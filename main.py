@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
