@@ -1,6 +1,7 @@
+def sort_list(lst):
+        return sorted(lst)
 import datetime
-def get_current_date():
-        return datetime.date.today()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
