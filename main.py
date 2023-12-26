@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def is_even(n):
-        return n % 2 == 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
