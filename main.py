@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
