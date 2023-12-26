@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_volume(length, width, height):
+        return length * width * height
