@@ -1,4 +1,5 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+print("Square numbers:", [x**2 for x in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
