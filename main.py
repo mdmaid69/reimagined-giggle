@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import time
 def get_current_time():
-        return time.ctime()
+        return time.time()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
