@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+print(math.pi)
+import json
+print(json.dumps({"name": "John", "age": 30}))
