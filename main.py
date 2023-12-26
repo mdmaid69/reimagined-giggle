@@ -1,6 +1,7 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
