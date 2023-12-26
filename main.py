@@ -1,8 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
