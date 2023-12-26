@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
