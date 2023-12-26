@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
