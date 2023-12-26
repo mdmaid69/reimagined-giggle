@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
