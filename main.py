@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
