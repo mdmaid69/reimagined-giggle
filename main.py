@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
