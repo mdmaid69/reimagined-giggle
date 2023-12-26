@@ -1,4 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_power(work, time):
-        return work / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_current_directory():
+        return os.getcwd()
