@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
