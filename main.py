@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
