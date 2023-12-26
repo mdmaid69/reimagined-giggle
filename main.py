@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
