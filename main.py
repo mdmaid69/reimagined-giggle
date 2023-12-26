@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
