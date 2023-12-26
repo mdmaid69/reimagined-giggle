@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_pressure(force, area):
+        return force / area
+def multiply_numbers(x, y):
+        return x * y
