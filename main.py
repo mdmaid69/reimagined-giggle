@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
