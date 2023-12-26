@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
