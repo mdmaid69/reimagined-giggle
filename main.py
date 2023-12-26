@@ -1,5 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
