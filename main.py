@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_circle(r):
+        return 3.14 * r**2
