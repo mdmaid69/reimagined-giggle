@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import random
+print(random.randint(0, 100))
