@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
