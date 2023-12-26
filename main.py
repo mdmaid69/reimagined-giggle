@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
