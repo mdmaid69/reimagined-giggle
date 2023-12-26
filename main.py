@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_max(numbers):
-        return max(numbers)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_speed(distance, time):
+        return distance / time
