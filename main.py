@@ -1,5 +1,3 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+print([x**2 for x in range(10)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
