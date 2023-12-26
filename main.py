@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
