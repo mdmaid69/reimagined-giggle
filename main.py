@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import numpy as np
+print(np.array([1, 2, 3]))
