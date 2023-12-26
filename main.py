@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
