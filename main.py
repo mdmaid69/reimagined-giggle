@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
