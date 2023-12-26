@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import math
-print(math.pi)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
