@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+print([x**2 for x in range(10)])
