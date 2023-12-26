@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_length(array):
+        return len(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
