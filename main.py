@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+for i in range(5):
+        print(i)
