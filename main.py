@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
