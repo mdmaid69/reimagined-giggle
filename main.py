@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
