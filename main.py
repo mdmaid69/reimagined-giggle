@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_work(force, distance):
+        return force * distance
+import re
+print(re.match("h.*o", "hello world"))
