@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
