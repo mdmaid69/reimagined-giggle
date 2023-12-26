@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
