@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_acceleration(speed, time):
+        return speed / time
