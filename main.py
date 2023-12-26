@@ -1,6 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
