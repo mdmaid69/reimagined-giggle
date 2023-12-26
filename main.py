@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-name = "Python"
-print("Hello,", name)
+import sys
+def exit_program():
+        sys.exit()
+def subtract_numbers(x, y):
+        return x - y
