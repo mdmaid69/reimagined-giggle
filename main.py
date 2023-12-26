@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
