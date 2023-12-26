@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
