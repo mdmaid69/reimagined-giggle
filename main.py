@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
