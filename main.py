@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_item(array, i):
+        return array[i]
