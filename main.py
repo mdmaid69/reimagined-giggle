@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
