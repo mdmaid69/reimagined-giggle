@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
