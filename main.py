@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def multiply_numbers(x, y):
-        return x * y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        print(sys.version)
