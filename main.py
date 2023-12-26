@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_volume(length, width, height):
+        return length * width * height
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
