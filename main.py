@@ -1,6 +1,11 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
