@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_density(mass, volume):
+        return mass / volume
+def convert_to_octal(n):
+        return oct(n)
