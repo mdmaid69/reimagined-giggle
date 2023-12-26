@@ -1,4 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-for i in range(10): print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
